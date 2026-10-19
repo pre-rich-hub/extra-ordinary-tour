@@ -22,7 +22,7 @@ const cormorant = Cormorant_Garamond({
 
 export const metadata: Metadata = {
   title: {
-    default: `Extraordinary Ethiopia Tours — ${slogan}`,
+    default: `Extraordinary Ethiopia Tours | ${slogan}`,
     template: '%s · Extraordinary Ethiopia Tours',
   },
   description:
@@ -41,7 +41,7 @@ export const metadata: Metadata = {
     'Addis Ababa city tour',
   ],
   openGraph: {
-    title: `Extraordinary Ethiopia Tours — ${slogan}`,
+    title: `Extraordinary Ethiopia Tours | ${slogan}`,
     description:
       'Private and small-group journeys across Ethiopia with a local team based in Lalibela.',
     type: 'website',

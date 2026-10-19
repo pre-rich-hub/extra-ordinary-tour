@@ -1,6 +1,5 @@
 import Image from 'next/image'
 import { Check } from 'lucide-react'
-import { slogan } from '@/content'
 import { EnquiryForm } from '@/features/enquiry/components/enquiry-form'
 import { Reveal } from '@/components/ui/reveal'
 
@@ -24,22 +23,22 @@ export function PlanJourney() {
 
       <div className="shell relative grid gap-12 py-20 lg:grid-cols-[1fr_1.1fr] lg:gap-20 lg:py-32">
         <Reveal>
-          <p className="eyebrow mb-6 text-accent">
-            {slogan}
-          </p>
-          <h2 className="max-w-[16ch] text-balance font-serif text-[2.1rem] leading-[1.08] sm:text-5xl lg:text-[3.4rem]">
-            Let&apos;s design your Ethiopian journey
+          <p className="eyebrow mb-6 text-accent">Plan your journey</p>
+          <h2 className="max-w-[20ch] text-balance font-serif text-[2.1rem] leading-[1.08] sm:text-5xl lg:text-[3.4rem]">
+            Your Ethiopia, designed around you
           </h2>
           <p className="mt-7 max-w-md text-pretty text-base leading-relaxed text-primary-foreground/80 sm:text-lg">
-            Every itinerary begins with a conversation. Tell us your dates,
-            interests and budget, and our team in Lalibela will reply within
-            24 hours with a journey designed around you.
+            Every great journey starts with a conversation. Share your dates,
+            interests and budget, and our team in Lalibela will reply within 24
+            hours with an itinerary made only for you. From the rock-hewn
+            churches to the Simien peaks and the Danakil, every day is shaped
+            around what matters to you.
           </p>
           <ul className="mt-10 space-y-4">
             {[
-              'Locally based, licensed local guides',
-              'Private, group and solo-friendly tours',
-              'Support 24 hours a day, 7 days a week',
+              'A locally based team with licensed local guides',
+              'Private, group and solo journeys, all tailor-made',
+              'Here for you 24/7, before and during your trip',
             ].map((item) => (
               <li
                 key={item}

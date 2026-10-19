@@ -138,7 +138,7 @@ export default async function ArticlePage({
               Written by{' '}
               <span className="font-medium text-foreground">{post.author}</span>,{' '}
               {post.authorRole.toLowerCase()}. Questions about any of the above
-              are always welcome —{' '}
+              are always welcome,{' '}
               <Link
                 href="/contact"
                 className="border-b border-accent/50 pb-0.5 text-primary transition-colors hover:border-accent hover:text-accent"

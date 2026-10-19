@@ -78,7 +78,7 @@ const offerings = [
 const values = [
   {
     title: 'Personalised tours',
-    text: 'Based in Lalibela, we design every journey around your interests, schedule and budget — private tours, small groups, families and solo travellers alike.',
+    text: 'Based in Lalibela, we design every journey around your interests, schedule and budget: private tours, small groups, families and solo travellers alike.',
   },
   {
     title: 'Expert, friendly guides',
@@ -94,7 +94,7 @@ const values = [
   },
   {
     title: 'Trusted worldwide',
-    text: 'Five-star reviews on SafariBookings and warm feedback on Tripadvisor — travellers know us for flexibility, reliability and personal service.',
+    text: 'Five-star reviews on SafariBookings and warm feedback on Tripadvisor. Travellers know us for flexibility, reliability and personal service.',
   },
 ]
 
@@ -162,7 +162,6 @@ export default function AboutPage() {
           </nav>
 
           <p className="eyebrow mb-6 text-accent [animation:fade-up_1s_ease_0.1s_both]">
-            <span className="h-px w-10 bg-accent" />
             About Extraordinary Ethiopia Tours
           </p>
           <h1 className="max-w-[15ch] text-balance font-serif text-[2.9rem] font-medium leading-[0.98] text-background text-shadow-soft [animation:fade-up_1s_ease_0.2s_both] sm:text-7xl lg:text-[6.25rem]">
@@ -172,7 +171,7 @@ export default function AboutPage() {
           <p className="mt-8 max-w-[50ch] text-pretty leading-relaxed text-background/80 [animation:fade-up_1s_ease_0.35s_both] sm:text-lg">
             A locally based tour operator from Lalibela, creating private and
             group journeys through the history, cultures and landscapes of the
-            Land of Origins — for the real Ethiopian experience.
+            Land of Origins, for the real Ethiopian experience.
           </p>
         </div>
 
@@ -206,11 +205,10 @@ export default function AboutPage() {
         <div className="shell relative grid gap-16 py-24 sm:py-28 lg:grid-cols-[1.05fr_1fr] lg:gap-20 lg:py-36">
           <Reveal>
             <p className="eyebrow mb-6 text-accent">
-              <span className="h-px w-10 bg-accent" />
               Who we are
             </p>
             <h2 className="text-balance font-serif text-4xl leading-[1.05] text-foreground sm:text-5xl lg:text-[3.6rem]">
-              Travel is more than sightseeing —{' '}
+              Travel is more than sightseeing:{' '}
               <em className="italic text-primary">
                 it is a connection to a place and its people.
               </em>
@@ -220,7 +218,7 @@ export default function AboutPage() {
                 Extraordinary Ethiopia Tours is a trusted Ethiopia travel
                 specialist and locally based tour operator. We create journeys
                 that showcase the country&apos;s ancient history, diverse cultures
-                and spectacular landscapes — with the professional, personal and
+                and spectacular landscapes, with the professional, personal and
                 flexible service that only a local team can give.
               </p>
               <p>
@@ -228,7 +226,7 @@ export default function AboutPage() {
                 organised group tours for solo travellers, couples, families and
                 friends. Whether it is your first visit or your fifth, every
                 itinerary is shaped around your interests, travel style and
-                budget — and our tours can be combined into one complete journey.
+                budget, and our tours can be combined into one complete journey.
               </p>
             </div>
             <p className="mt-10 border-l-2 border-accent pl-5 font-serif text-2xl italic text-foreground sm:text-[1.7rem]">
@@ -309,7 +307,6 @@ export default function AboutPage() {
 
           <Reveal delay={150}>
             <p className="eyebrow mb-6 text-accent">
-              <span className="h-px w-10 bg-accent" />
               Meet our founder
             </p>
             <Quote className="h-10 w-10 text-accent/70" strokeWidth={1.2} />
@@ -329,7 +326,7 @@ export default function AboutPage() {
               </p>
               <p>
                 He still accompanies many groups personally, making sure every
-                guest is comfortable, safe and well looked after — an attention
+                guest is comfortable, safe and well looked after, an attention
                 to detail that has earned excellent feedback from travellers
                 around the world.
               </p>
@@ -384,7 +381,6 @@ export default function AboutPage() {
         <Reveal className="mb-14 grid gap-6 lg:mb-16 lg:grid-cols-[1fr_auto] lg:items-end">
           <div className="max-w-2xl">
             <p className="eyebrow mb-6 text-accent">
-              <span className="h-px w-10 bg-accent" />
               What we do
             </p>
             <h2 className="text-balance font-serif text-4xl leading-[1.05] text-foreground sm:text-5xl lg:text-6xl">
@@ -440,7 +436,6 @@ export default function AboutPage() {
         <div className="shell grid gap-14 py-24 sm:py-28 lg:grid-cols-[0.8fr_1.2fr] lg:gap-20 lg:py-36">
           <Reveal className="lg:sticky lg:top-32 lg:self-start">
             <p className="eyebrow mb-6 text-accent">
-              <span className="h-px w-10 bg-accent" />
               Why travel with us
             </p>
             <h2 className="text-balance font-serif text-4xl leading-[1.05] text-foreground sm:text-5xl">
@@ -488,7 +483,6 @@ export default function AboutPage() {
       <section className="shell grid gap-14 py-24 sm:py-28 lg:grid-cols-[1.2fr_1fr] lg:items-center lg:gap-20 lg:py-32">
         <Reveal>
           <p className="eyebrow mb-6 text-accent">
-            <span className="h-px w-10 bg-accent" />
             In our guests’ words
           </p>
           <blockquote className="text-balance font-serif text-3xl italic leading-[1.2] text-foreground sm:text-4xl">

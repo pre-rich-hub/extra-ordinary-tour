@@ -65,7 +65,7 @@ export function EnquiryForm({
             setSubmitted(true)
           } catch (err) {
             setError(
-              err instanceof Error ? err.message : 'Something went wrong — please try again.',
+              err instanceof Error ? err.message : 'Something went wrong. Please try again.',
             )
           }
         }}

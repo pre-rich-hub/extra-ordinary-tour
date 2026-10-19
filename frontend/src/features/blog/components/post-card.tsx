@@ -7,9 +7,7 @@ export function PostCard({ post, wide }: { post: Post; wide?: boolean }) {
     <article className="group">
       <Link href={`/blog/${post.slug}`} className="block">
         {/* The featured (wide) card is text-only; grid cards keep their photo */}
-        {wide ? (
-          <span aria-hidden className="block h-px w-16 bg-accent" />
-        ) : (
+        {!wide && (
           <div className="relative aspect-[4/3] overflow-hidden rounded-xl">
             <Image
               src={post.image || '/placeholder.svg'}

@@ -110,7 +110,7 @@ export default async function TourPage({
                 v:
                   t.places[0] === t.places[t.places.length - 1]
                     ? t.places[0]
-                    : `${t.places[0]} – ${t.places[t.places.length - 1]}`,
+                    : `${t.places[0]} to ${t.places[t.places.length - 1]}`,
               },
             ]}
             primary={{ label: 'Book this tour', href: '#enquire' }}
@@ -129,7 +129,7 @@ export default async function TourPage({
               The itinerary, as it usually runs
             </h2>
             <p className="mt-5 text-pretty leading-relaxed text-muted-foreground sm:text-lg">
-              A working draft rather than a fixed schedule — we move days around
+              A working draft rather than a fixed schedule. We move days around
               for weather, festivals and how you are feeling.
             </p>
           </Reveal>
@@ -265,7 +265,7 @@ export default async function TourPage({
 
       <CtaBand
         title="Questions before you enquire?"
-        text="Altitude, road time, how hard the walking really is, whether the children will cope. Ask us anything — our team will answer honestly."
+        text="Altitude, road time, how hard the walking really is, whether the children will cope. Ask us anything. Our team will answer honestly."
         secondary={{ label: 'Layover Tours', href: '/layover' }}
         image={t.image}
       />

@@ -9,14 +9,14 @@ import { contact, promises } from '@/content'
 export const metadata: Metadata = {
   title: 'Contact Us',
   description:
-    'Contact Extraordinary Ethiopia Tours in Lalibela to plan your private or group tour of Ethiopia. Call or WhatsApp +251 912 039405 or email info@extraordinaryethiopiatours.com — we are available 24/7.',
+    'Contact Extraordinary Ethiopia Tours in Lalibela to plan your private or group tour of Ethiopia. Call or WhatsApp +251 912 039405 or email info@extraordinaryethiopiatours.com. We are available 24/7.',
 }
 
 const steps = [
   {
     n: '01',
     title: 'You write, we listen',
-    text: 'A sentence is enough to start: your dates, interests, travel style, group size and budget — or the package that caught your eye.',
+    text: 'A sentence is enough to start: your dates, interests, travel style, group size and budget, or the package that caught your eye.',
   },
   {
     n: '02',

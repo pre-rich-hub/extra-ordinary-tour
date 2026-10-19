@@ -60,7 +60,7 @@ export function ToursGrid({ tours }: { tours: Tour[] }) {
 
       {visible.length === 0 && (
         <p className="py-16 text-center text-muted-foreground">
-          No journeys in this style yet — but we will design one.
+          No journeys in this style yet, but we will design one.
         </p>
       )}
     </div>

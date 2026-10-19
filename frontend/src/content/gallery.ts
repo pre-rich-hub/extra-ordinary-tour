@@ -33,7 +33,7 @@ export const galleryPhotos: GalleryPhoto[] = [
     title: 'The grass eaters',
     location: 'Simien Mountains',
     category: 'Wildlife',
-    caption: 'Gelada — the world’s only grazing primates — live in troops of hundreds on the highland meadows.',
+    caption: 'Gelada, the world’s only grazing primates, live in troops of hundreds on the highland meadows.',
     shape: 'square',
   },
   {
@@ -177,7 +177,7 @@ export const galleryPhotos: GalleryPhoto[] = [
     title: 'Buna',
     location: 'Across Ethiopia',
     category: 'Culture',
-    caption: 'Roasted, ground and brewed before your eyes — the coffee ceremony is Ethiopia’s great welcome.',
+    caption: 'Roasted, ground and brewed before your eyes: the coffee ceremony is Ethiopia’s great welcome.',
     shape: 'landscape',
   },
   {

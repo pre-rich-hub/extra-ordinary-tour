@@ -49,7 +49,7 @@ export default async function LayoverPage() {
       <PageHero
         eyebrow="Addis Layover Tours"
         title="Six hours in Addis is not a waiting room"
-        lede="Ethiopian Airlines connects half of Africa through Bole. If your connection is long enough for coffee, it is long enough for a private city loop — met at the gate, back at check-in with time to spare."
+        lede="Ethiopian Airlines connects half of Africa through Bole. If your connection is long enough for coffee, it is long enough for a private city loop: met at the gate, back at check-in with time to spare."
         image="/images/addis-skyline.jpg"
         imageAlt="The Addis Ababa skyline at dusk seen from the Entoto hills"
         crumbs={[{ label: 'Home', href: '/' }, { label: 'Layover' }]}
@@ -197,7 +197,7 @@ export default async function LayoverPage() {
             {[
               'Confirmed within a few hours, not days',
               'Met at Bole whatever your arrival time',
-              'Private vehicle — never a shared coach',
+              'Private vehicle, never a shared coach',
             ].map((item) => (
               <li
                 key={item}

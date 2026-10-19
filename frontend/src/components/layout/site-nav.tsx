@@ -35,7 +35,7 @@ function Wordmark({
     <Link
       href="/"
       onClick={onClick}
-      aria-label="Extraordinary Ethiopia Tours — home"
+      aria-label="Extraordinary Ethiopia Tours, home"
       className="flex items-center"
     >
       <img
@@ -158,7 +158,7 @@ export function SiteNav() {
                             <span className="text-[10px] font-semibold uppercase tracking-[0.2em] text-accent mb-2 block">Ethiopia</span>
                             <h3 className="font-serif text-2xl text-foreground mb-4">Our Destinations</h3>
                             <p className="text-xs text-muted-foreground leading-relaxed">
-                              From churches carved from solid rock to volcanic landscapes below sea level — explore Ethiopia, the Land of Origins.
+                              From churches carved from solid rock to volcanic landscapes below sea level. Explore Ethiopia, the Land of Origins.
                             </p>
                           </div>
                           <Link
@@ -212,7 +212,7 @@ export function SiteNav() {
                             <span className="text-[10px] font-semibold uppercase tracking-[0.2em] text-accent mb-2 block">Our Tours</span>
                             <h3 className="font-serif text-2xl text-foreground mb-4">Popular Itineraries</h3>
                             <p className="text-xs text-muted-foreground leading-relaxed">
-                              Private and small-group journeys across Ethiopia — history, culture, trekking, wildlife, festivals and coffee — led by licensed local guides.
+                              Private and small-group journeys across Ethiopia: history, culture, trekking, wildlife, festivals and coffee, led by licensed local guides.
                             </p>
                           </div>
                           <Link

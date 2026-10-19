@@ -11,7 +11,7 @@ import { posts } from '@/content'
 export const metadata: Metadata = {
   title: 'The Journal',
   description:
-    'Ethiopia travel guides, destination articles and festival notes from Extraordinary Ethiopia Tours — when to go, what to pack and what to expect.',
+    'Ethiopia travel guides, destination articles and festival notes from Extraordinary Ethiopia Tours: when to go, what to pack and what to expect.',
 }
 
 export default function BlogPage() {
@@ -23,7 +23,7 @@ export default function BlogPage() {
       <PageHero
         eyebrow="The Journal"
         title="Ethiopia travel guides & stories"
-        lede="Written by the people who run these journeys — when to come, what to pack, where to go and the festivals worth planning around."
+        lede="Written by the people who run these journeys: when to come, what to pack, where to go and the festivals worth planning around."
         image="/images/coffee-ceremony.jpg"
         imageAlt="A jebena and cups prepared for an Ethiopian coffee ceremony"
         crumbs={[{ label: 'Home', href: '/' }, { label: 'Journal' }]}

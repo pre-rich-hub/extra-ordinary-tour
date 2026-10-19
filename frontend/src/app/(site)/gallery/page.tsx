@@ -8,7 +8,7 @@ import { galleryCategories, galleryPhotos } from '@/content'
 export const metadata: Metadata = {
   title: 'Gallery',
   description:
-    'Rock-hewn churches, highland wildlife, salt flats, festivals and the peoples of the Omo Valley — a gallery of Ethiopia from the routes we travel.',
+    'Rock-hewn churches, highland wildlife, salt flats, festivals and the peoples of the Omo Valley: a gallery of Ethiopia from the routes we travel.',
 }
 
 export default function GalleryPage() {
@@ -27,7 +27,7 @@ export default function GalleryPage() {
           { label: 'Photographs', value: String(galleryPhotos.length) },
           { label: 'Places', value: String(places) },
           { label: 'Collections', value: String(galleryCategories.length) },
-          { label: 'Best Light', value: 'Oct – Mar' },
+          { label: 'Best Light', value: 'Oct to Mar' },
         ]}
       />
 
@@ -35,7 +35,7 @@ export default function GalleryPage() {
         <SectionHeading
           eyebrow="The Collection"
           title="Moments from the road"
-          aside="Tap any photograph to see it in full. Every scene here sits on a route we run — ask us how to stand where the camera stood."
+          aside="Tap any photograph to see it in full. Every scene here sits on a route we run. Ask us how to stand where the camera stood."
         />
         <GalleryGrid photos={galleryPhotos} categories={galleryCategories} />
       </section>

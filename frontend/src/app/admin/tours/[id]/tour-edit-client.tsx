@@ -708,7 +708,7 @@ export function AdminTourEdit() {
               value={blockedReason}
               onChange={(e) => setBlockedReason(e.target.value)}
               className={fieldClass}
-              placeholder="Reason (optional) — e.g. Fully booked"
+              placeholder="Reason (optional), e.g. Fully booked"
               aria-label="Reason"
             />
             <button

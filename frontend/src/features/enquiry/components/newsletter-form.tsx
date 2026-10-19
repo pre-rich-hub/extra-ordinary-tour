@@ -12,7 +12,7 @@ export function NewsletterForm() {
     return (
       <p className="flex w-full max-w-sm items-center gap-3 border border-accent/40 px-5 py-4 text-sm text-background/80">
         <Check className="h-4 w-4 shrink-0 text-accent" />
-        Thank you — the next letter will find you.
+        Thank you. The next letter will find you.
       </p>
     )
   }
@@ -28,7 +28,7 @@ export function NewsletterForm() {
           setDone(true)
         } catch (err) {
           setError(
-            err instanceof Error ? err.message : 'Something went wrong — please try again.',
+            err instanceof Error ? err.message : 'Something went wrong. Please try again.',
           )
         }
       }}

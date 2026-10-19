@@ -32,7 +32,7 @@ export default async function ToursPage() {
         crumbs={[{ label: 'Home', href: '/' }, { label: 'Tours' }]}
         meta={[
           { label: 'Journeys', value: String(tours.length) },
-          { label: 'Length', value: '1 – 17 Days' },
+          { label: 'Length', value: '1 to 17 Days' },
           { label: 'Group Size', value: 'Solo to Groups' },
           { label: 'Guiding', value: 'Private & Group' },
         ]}
@@ -113,7 +113,7 @@ export default async function ToursPage() {
         <SectionHeading
           eyebrow="The Collection"
           title="Every journey we run"
-          aside="Filter by the kind of travelling you want to do — historical, cultural, festival, coffee, wildlife, trekking, birding, Danakil or day trips. Any of these can be lengthened, shortened or combined."
+          aside="Filter by the kind of travelling you want to do: historical, cultural, festival, coffee, wildlife, trekking, birding, Danakil or day trips. Any of these can be lengthened, shortened or combined."
         />
         <ToursGrid tours={tours} />
       </section>

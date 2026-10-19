@@ -163,7 +163,7 @@ export default async function DestinationPage({
           </h2>
           <p className="mt-6 max-w-md text-pretty leading-relaxed text-muted-foreground sm:text-lg">
             Nothing here is fixed. Tell us how long you have and what else you
-            want to see, and our team will plan the route — including the
+            want to see, and our team will plan the route, including the
             flights, the guides and the hours that matter.
           </p>
 
@@ -210,7 +210,7 @@ export default async function DestinationPage({
 
       <CtaBand
         title="Speak to someone who has been there this season"
-        text="Our guides travel these routes all year. Ask about road conditions, festival dates or the best time to visit — you will get a straight answer."
+        text="Our guides travel these routes all year. Ask about road conditions, festival dates or the best time to visit. You will get a straight answer."
         secondary={{ label: 'All Destinations', href: '/destinations' }}
         image={d.image}
       />

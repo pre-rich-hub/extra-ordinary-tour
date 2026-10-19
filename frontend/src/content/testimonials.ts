@@ -9,7 +9,7 @@ const SAFARIBOOKINGS_URL = 'https://www.safaribookings.com/reviews/p6779'
 export const testimonials: Testimonial[] = [
   {
     quote:
-      'My 10-day journey through Ethiopia was nothing short of extraordinary, and I owe so much of that experience to my tour planner, Maereg. The itinerary was thoughtful, seamless and incredibly rich — a perfect balance of history, culture and unforgettable encounters. Celebrating Christmas Eve and Christmas Day in Lalibela was a once-in-a-lifetime experience, and the Omo Valley was where the trip became truly immersive. I wholeheartedly recommend Maereg and his team to anyone considering a tour of Ethiopia.',
+      'My 10-day journey through Ethiopia was nothing short of extraordinary, and I owe so much of that experience to my tour planner, Maereg. The itinerary was thoughtful, seamless and incredibly rich: a perfect balance of history, culture and unforgettable encounters. Celebrating Christmas Eve and Christmas Day in Lalibela was a once-in-a-lifetime experience, and the Omo Valley was where the trip became truly immersive. I wholeheartedly recommend Maereg and his team to anyone considering a tour of Ethiopia.',
     name: 'Karen E',
     detail: 'Solo traveller · January 2026',
     image: '/images/genna.jpg',
@@ -19,7 +19,7 @@ export const testimonials: Testimonial[] = [
   },
   {
     quote:
-      'My tour operator was very communicative even before the trip began and very responsive on WhatsApp. He booked all my domestic flights and arranged all my airport pick-ups and drop-offs. He had professional guides in all the regions I visited, the itinerary was clear, and he was flexible with any changes. There were no extra costs. He is reliable, communicative and well experienced — I will be back with the same company.',
+      'My tour operator was very communicative even before the trip began and very responsive on WhatsApp. He booked all my domestic flights and arranged all my airport pick-ups and drop-offs. He had professional guides in all the regions I visited, the itinerary was clear, and he was flexible with any changes. There were no extra costs. He is reliable, communicative and well experienced. I will be back with the same company.',
     name: 'Sarah',
     detail: 'Kenya · August 2026',
     image: '/images/lalibela-medhane-alem.jpg',
@@ -30,7 +30,7 @@ export const testimonials: Testimonial[] = [
   },
   {
     quote:
-      'We had an outstanding experience with our tour guide Maereg in Northern Ethiopia. When unexpected local conflicts disrupted our travel plans, he was incredibly understanding and flexible, and offered a compensation tour at no extra cost. His professionalism, patience and genuine care for his clients really stood out. You won’t just get a guide — you’ll have someone who truly cares about making your trip safe, enjoyable and memorable.',
+      'We had an outstanding experience with our tour guide Maereg in Northern Ethiopia. When unexpected local conflicts disrupted our travel plans, he was incredibly understanding and flexible, and offered a compensation tour at no extra cost. His professionalism, patience and genuine care for his clients really stood out. You won’t just get a guide; you’ll have someone who truly cares about making your trip safe, enjoyable and memorable.',
     name: 'Yiyu S',
     detail: 'Travelled with family · June 2026',
     image: '/images/gondar-fasil.jpg',
@@ -62,7 +62,7 @@ export const testimonials: Testimonial[] = [
   },
   {
     quote:
-      'Extraordinary Ethiopia Tours was a wonderful tour operator during my time in Lalibela. The guide, Ermiyas, was extremely knowledgeable and friendly — his love and passion for the town and especially the churches shines through. When some activities did not work out as planned, they went out of their way to find alternative options for me. Great experience for a solo traveller!',
+      'Extraordinary Ethiopia Tours was a wonderful tour operator during my time in Lalibela. The guide, Ermiyas, was extremely knowledgeable and friendly. His love and passion for the town and especially the churches shines through. When some activities did not work out as planned, they went out of their way to find alternative options for me. Great experience for a solo traveller!',
     name: 'Tamryn',
     detail: 'South Africa · March 2026',
     image: '/images/lalibela-giyorgis.jpg',
@@ -73,7 +73,7 @@ export const testimonials: Testimonial[] = [
   },
   {
     quote:
-      'Our experience was amazing — my aunt and I loved the tour. We were supposed to spend two days in Lalibela but our flight had a long delay; our tour guide came through and accommodated us, and was very helpful, friendly and flexible. Very knowledgeable and very well organised. Took the best pictures of us as well!',
+      'Our experience was amazing. My aunt and I loved the tour. We were supposed to spend two days in Lalibela but our flight had a long delay; our tour guide came through and accommodated us, and was very helpful, friendly and flexible. Very knowledgeable and very well organised. Took the best pictures of us as well!',
     name: 'Stamatia Nefeli G',
     detail: 'New York City · April 2026',
     image: '/images/lalibela-pilgrims.jpg',
@@ -84,7 +84,7 @@ export const testimonials: Testimonial[] = [
   },
   {
     quote:
-      'After a 16-day itinerary in Ethiopia I am more than grateful to Maereg and his team — a truly once-in-a-lifetime tour. I had a solo safari to the Bale Mountains, the Omo Valley tribes, Gondar and Lalibela. All the arrangements were better than expected, and I felt that I was in safe hands all the time. To be honest: I fell in love with Ethiopia. His team is professional, energetic and ambitious, and they show their country to you with love!',
+      'After a 16-day itinerary in Ethiopia I am more than grateful to Maereg and his team, a truly once-in-a-lifetime tour. I had a solo safari to the Bale Mountains, the Omo Valley tribes, Gondar and Lalibela. All the arrangements were better than expected, and I felt that I was in safe hands all the time. To be honest: I fell in love with Ethiopia. His team is professional, energetic and ambitious, and they show their country to you with love!',
     name: 'Eeva',
     detail: 'Finland · January 2026',
     image: '/images/bale-sanetti.jpg',
@@ -95,7 +95,7 @@ export const testimonials: Testimonial[] = [
   },
   {
     quote:
-      'Incredible visit led by Maereg. Excellent guide, knowledgeable and with impeccable manners. The churches are worth visiting — a 10!',
+      'Incredible visit led by Maereg. Excellent guide, knowledgeable and with impeccable manners. The churches are worth visiting: a 10!',
     name: 'Ceci C',
     detail: 'Buenos Aires, Argentina · July 2026',
     image: '/images/lalibela-landscape.jpg',
@@ -106,7 +106,7 @@ export const testimonials: Testimonial[] = [
   },
   {
     quote:
-      'There really isn’t enough I can say to describe the kindness, care and intelligence Maereg and his company gift to visitors in Ethiopia. I have been with them three times now, and every day blows my mind — in all the best ways. Not only do the staff and drivers know everything about their country, they are devoted to their communities and business. I recommend them without reservation…',
+      'There really isn’t enough I can say to describe the kindness, care and intelligence Maereg and his company gift to visitors in Ethiopia. I have been with them three times now, and every day blows my mind, in all the best ways. Not only do the staff and drivers know everything about their country, they are devoted to their communities and business. I recommend them without reservation…',
     name: 'TLhalefo',
     detail: 'France · March 2026',
     image: '/images/axum-zion.jpg',

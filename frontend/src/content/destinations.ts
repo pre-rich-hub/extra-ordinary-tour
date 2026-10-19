@@ -14,9 +14,9 @@ export const destinations: Destination[] = [
     teaser:
       'Eleven churches carved downward into living rock, still alive with prayer.',
     intro:
-      'The “New Jerusalem” of King Lalibela — a 12th-century holy city excavated from the red volcanic rock of the Lasta Mountains, where the liturgy has never stopped.',
-    bestTime: 'October – March',
-    duration: '2 – 3 days',
+      'The “New Jerusalem” of King Lalibela: a 12th-century holy city excavated from the red volcanic rock of the Lasta Mountains, where the liturgy has never stopped.',
+    bestTime: 'October to March',
+    duration: '2 to 3 days',
     altitude: '2,500 m',
     highlights: [
       'Bete Medhane Alem, the largest monolithic church in the world',
@@ -28,7 +28,7 @@ export const destinations: Destination[] = [
     paragraphs: [
       'Lalibela, once known as Roha, was the capital of the Zagwe dynasty. Under King Lalibela in the late 12th and early 13th centuries, eleven churches were carved directly out of the rock in two main groups, joined by tunnels and ceremonial passages, with the solitary Bete Giyorgis standing apart. UNESCO inscribed them as a World Heritage Site in 1978.',
       'Lalibela is not a ruin. It is a working sanctuary and Ethiopia’s holiest town, where priests still descend the same rock stairways their predecessors cut eight centuries ago. Arriving early, you hear the chant before you see the churches. Our founder was born here and began his career guiding these churches, so we know the hours when they are at their most beautiful.',
-      'Beyond the town, the Lasta Mountains hide many more cave and rock churches from the same period, community trekking routes, and the high massif of Abune Yosef — all easy to combine with a visit.',
+      'Beyond the town, the Lasta Mountains hide many more cave and rock churches from the same period, community trekking routes, and the high massif of Abune Yosef, all easy to combine with a visit.',
     ],
   },
   {
@@ -41,7 +41,7 @@ export const destinations: Destination[] = [
       'A walled Muslim city of 82 mosques, colourful markets and the hyena men.',
     intro:
       'One of the holiest cities in Islam, set among green hills on the eastern wall of the Rift Valley, its maze of alleys enclosed by the Jugol wall since the 16th century.',
-    bestTime: 'October – March',
+    bestTime: 'October to March',
     duration: '2 days',
     altitude: '1,885 m',
     highlights: [
@@ -52,7 +52,7 @@ export const destinations: Destination[] = [
     ],
     paragraphs: [
       'Founded between the 7th and 11th centuries, Harar became the capital of an independent Muslim emirate in the 16th century, when Emir Nur built the Jugol wall to protect it. For centuries it was the centre of Islamic learning in the Horn of Africa and a prosperous caravan city trading with Arabia and beyond. Its old town, with 82 mosques and more than a hundred shrines in less than half a square kilometre, was inscribed by UNESCO in 2006.',
-      'Today the Adare, Oromo, Somali and Amhara peoples share its lanes and markets, where women in vivid dresses sell spices, woven baskets and silver jewellery beneath Moorish arches. Visit the former home of the French poet Arthur Rimbaud, and as night falls, watch the hyena men feed wild hyenas by hand — a tradition that has continued for generations.',
+      'Today the Adare, Oromo, Somali and Amhara peoples share its lanes and markets, where women in vivid dresses sell spices, woven baskets and silver jewellery beneath Moorish arches. Visit the former home of the French poet Arthur Rimbaud, and as night falls, watch the hyena men feed wild hyenas by hand, a tradition that has continued for generations.',
     ],
   },
   {
@@ -64,8 +64,8 @@ export const destinations: Destination[] = [
     teaser: 'One of the hottest places on earth, painted in sulphur and salt.',
     intro:
       'More than 100 metres below sea level: acid springs the colour of egg yolk, a permanent lava lake, and salt caravans that have not changed in a thousand years.',
-    bestTime: 'November – March',
-    duration: '3 – 4 days',
+    bestTime: 'November to March',
+    duration: '3 to 4 days',
     altitude: '-116 m',
     highlights: [
       'The yellow, green and orange mineral terraces of Dallol',
@@ -76,7 +76,7 @@ export const destinations: Destination[] = [
     paragraphs: [
       'Part of the Great Rift Valley near the Eritrean border, the Danakil Depression lies as low as 116 metres below sea level around Lake Assale, one of the lowest points in Africa. It is one of the hottest, driest and most tectonically active regions on the planet, with daytime temperatures that regularly pass 45 °C.',
       'Its landscapes are unlike anything else on earth: the hydrothermal field of Dallol, where potash and sulphur create surreal coloured pools; the salt flats where Afar miners still cut blocks by hand and load them onto camel caravans bound for the highlands; and the shield volcano of Erta Ale with its glowing lava lake.',
-      'We run the Danakil as a fully supported expedition with experienced desert drivers, a cook, a local Afar guide, a police escort, comfortable camp beds and plenty of drinking water — comfort within reason, and honest advice about the rest.',
+      'We run the Danakil as a fully supported expedition with experienced desert drivers, a cook, a local Afar guide, a police escort, comfortable camp beds and plenty of drinking water. Comfort within reason, and honest advice about the rest.',
     ],
   },
   {
@@ -88,10 +88,10 @@ export const destinations: Destination[] = [
     teaser:
       'A living mosaic of peoples who have shaped this river valley for millennia.',
     intro:
-      'The lower Omo is one of the most culturally diverse regions on earth — home to the Hamar, Mursi, Karo, Dassanech and many more, each with its own language, dress and ceremonies.',
-    bestTime: 'October – March',
-    duration: '5 – 9 days',
-    altitude: '400 – 1,500 m',
+      'The lower Omo is one of the most culturally diverse regions on earth, home to the Hamar, Mursi, Karo, Dassanech and many more, each with its own language, dress and ceremonies.',
+    bestTime: 'October to March',
+    duration: '5 to 9 days',
+    altitude: '400 to 1,500 m',
     highlights: [
       'Weekly markets at Key Afar, Dimeka and Turmi',
       'A Hamar bull-jumping ceremony, when timing allows',
@@ -100,9 +100,9 @@ export const destinations: Destination[] = [
       'The South Omo Museum in Jinka',
     ],
     paragraphs: [
-      'The Omo River flows south through some of Africa’s most remote country before reaching Lake Turkana. Its lower valley — a UNESCO World Heritage Site for its fossil discoveries — is home to more than a dozen communities representing several language families, from the Hamar and Banna to the Mursi, Karo, Arbore, Dassanech and Nyangatom.',
+      'The Omo River flows south through some of Africa’s most remote country before reaching Lake Turkana. Its lower valley, a UNESCO World Heritage Site for its fossil discoveries, is home to more than a dozen communities representing several language families, from the Hamar and Banna to the Mursi, Karo, Arbore, Dassanech and Nyangatom.',
       'Many still live by cattle herding and riverside farming, and traditions such as body painting, scarification, lip plates and the Hamar bull jump remain central to identity. Gateway towns such as Arba Minch, Jinka and Turmi make it possible to combine village visits with Lake Chamo, the Dorze highlands and the stone-walled villages of Konso.',
-      'We travel the Omo with local guides from the communities we visit, plan around market days and ceremonies, and ask before every photograph — so that conversation, not the camera, leads.',
+      'We travel the Omo with local guides from the communities we visit, plan around market days and ceremonies, and ask before every photograph, so that conversation, not the camera, leads.',
     ],
   },
   {
@@ -114,10 +114,10 @@ export const destinations: Destination[] = [
     teaser:
       'The Roof of Africa, where gelada monkeys graze above a thousand-metre drop.',
     intro:
-      'Jagged basalt pinnacles, escarpments that fall away into cloud, and endemic wildlife found nowhere else — walia ibex, gelada and the Ethiopian wolf.',
-    bestTime: 'October – March',
-    duration: '1 – 5 days',
-    altitude: '3,200 – 4,550 m',
+      'Jagged basalt pinnacles, escarpments that fall away into cloud, and endemic wildlife found nowhere else: walia ibex, gelada and the Ethiopian wolf.',
+    bestTime: 'October to March',
+    duration: '1 to 5 days',
+    altitude: '3,200 to 4,550 m',
     highlights: [
       'Walking among habituated gelada troops near Sankaber and Gich',
       'Walia ibex on the cliffs around Chenek',
@@ -138,12 +138,12 @@ export const destinations: Destination[] = [
     tag: 'UNESCO National Park',
     image: '/images/bale-sanetti.jpg',
     teaser:
-      'Afro-alpine moorland holding the rarest canid on earth — the Ethiopian wolf.',
+      'Afro-alpine moorland holding the rarest canid on earth: the Ethiopian wolf.',
     intro:
       'The Sanetti Plateau is the largest expanse of Afro-alpine habitat in Africa and the best place in the world to see a wild Ethiopian wolf hunt.',
-    bestTime: 'October – April',
-    duration: '3 – 6 days',
-    altitude: '2,500 – 4,377 m',
+    bestTime: 'October to April',
+    duration: '3 to 6 days',
+    altitude: '2,500 to 4,377 m',
     highlights: [
       'Ethiopian wolf tracking on the Sanetti Plateau',
       'Tulu Dimtu, Ethiopia’s second-highest peak, at 4,377 m',
@@ -152,7 +152,7 @@ export const destinations: Destination[] = [
       'More than 250 bird species, including 16 Ethiopian endemics',
     ],
     paragraphs: [
-      'The Bale Mountains protect one of Africa’s most unique ecosystems and were inscribed by UNESCO as a World Heritage Site in 2023. Their most famous residents are the Ethiopian wolf — the world’s rarest canid, roughly half of whose population lives here — and the mountain nyala, an antelope found only in Ethiopia.',
+      'The Bale Mountains protect one of Africa’s most unique ecosystems and were inscribed by UNESCO as a World Heritage Site in 2023. Their most famous residents are the Ethiopian wolf, the world’s rarest canid, roughly half of whose population lives here, and the mountain nyala, an antelope found only in Ethiopia.',
       'The road across the Sanetti Plateau is the highest all-weather road in Africa. Mornings there are cold, clear and quiet, and sightings of a rust-coloured wolf working a rodent burrow are genuinely intimate. Below the southern escarpment, the Harenna Forest is another world of moss, wild coffee, colobus and hornbills.',
     ],
   },
@@ -165,11 +165,11 @@ export const destinations: Destination[] = [
     tag: 'Imperial City',
     image: '/images/gondar-fasil.jpg',
     teaser:
-      'The Camelot of Africa — castles, baths and painted ceilings of a highland empire.',
+      'The Camelot of Africa: castles, baths and painted ceilings of a highland empire.',
     intro:
       'Ethiopia’s 17th-century imperial capital, where stone castles rise above the city and Timkat still fills the royal bath each January.',
-    bestTime: 'October – March',
-    duration: '1 – 2 days',
+    bestTime: 'October to March',
+    duration: '1 to 2 days',
     altitude: '2,133 m',
     highlights: [
       'The Fasil Ghebbi royal enclosure, a UNESCO World Heritage Site',
@@ -178,7 +178,7 @@ export const destinations: Destination[] = [
       'The ruined palace of Empress Mentewab at Kuskuam',
     ],
     paragraphs: [
-      'Founded by Emperor Fasilides in 1636, Gondar was the seat of Ethiopia’s emperors for more than two centuries. The Royal Enclosure contains castles and palaces built between 1635 and 1855 — architecture unlike anything else in Africa, blending Aksumite traditions with Arabian, Indian and European influences. It was inscribed by UNESCO in 1979.',
+      'Founded by Emperor Fasilides in 1636, Gondar was the seat of Ethiopia’s emperors for more than two centuries. The Royal Enclosure contains castles and palaces built between 1635 and 1855, architecture unlike anything else in Africa, blending Aksumite traditions with Arabian, Indian and European influences. It was inscribed by UNESCO in 1979.',
       'Beyond the enclosure lie the palace of Ras Bet, the bath of Fasilides, the ruins of Kuskuam and the church of Debre Berhan Selassie, whose ceiling of painted cherubs is one of the most photographed images in Ethiopia. Gondar pairs naturally with the Simien Mountains and is the finest place in the country to celebrate Timkat.',
     ],
   },
@@ -192,8 +192,8 @@ export const destinations: Destination[] = [
       'Island monasteries, papyrus boats and the source of the Blue Nile.',
     intro:
       'A palm-lined lakeside town on the shore of Ethiopia’s largest lake, whose islands shelter painted monasteries and centuries-old manuscripts.',
-    bestTime: 'September – March',
-    duration: '1 – 2 days',
+    bestTime: 'September to March',
+    duration: '1 to 2 days',
     altitude: '1,800 m',
     highlights: [
       'Boat trip to Ura Kidane Mehret and its painted murals',
@@ -202,7 +202,7 @@ export const destinations: Destination[] = [
       'Pelicans and hippos where the Blue Nile leaves the lake',
     ],
     paragraphs: [
-      'Bahir Dar has always been a centre of trade, and fishermen still use tankwas — small papyrus boats — on the lake. Today it is a pleasant base with palm-lined avenues, colourful markets and weaving workshops, and the starting point for exploring Lake Tana.',
+      'Bahir Dar has always been a centre of trade, and fishermen still use tankwas (small papyrus boats) on the lake. Today it is a pleasant base with palm-lined avenues, colourful markets and weaving workshops, and the starting point for exploring Lake Tana.',
       'The lake’s islands and peninsulas hold some twenty monasteries. Ura Kidane Mehret on the Zege Peninsula is famous for its vivid frescoes; Dega Estifanos guards icons and the remains of several emperors; Kibran Gabriel has a cathedral-like church first built in the 17th century. Some island monasteries admit men only, and your guide will plan accordingly.',
     ],
   },
@@ -213,10 +213,10 @@ export const destinations: Destination[] = [
     tag: 'Natural Wonder',
     image: '/images/blue-nile-falls.jpg',
     teaser:
-      'Tis Issat — the “Smoking Water” — thundering into a basalt gorge.',
+      'Tis Issat, the “Smoking Water”, thundering into a basalt gorge.',
     intro:
       'Near Bahir Dar, the Blue Nile plunges more than 40 metres over a wide basalt lip, throwing up a mist that drenches onlookers and paints rainbows across the gorge.',
-    bestTime: 'August – December',
+    bestTime: 'August to December',
     duration: 'Half day',
     altitude: '1,700 m',
     highlights: [
@@ -240,8 +240,8 @@ export const destinations: Destination[] = [
       'Granite obelisks, royal tombs and the claimed resting place of the Ark.',
     intro:
       'Capital of the Kingdom of Aksum, one of the four great powers of the ancient world, and the spiritual heart of Ethiopian Orthodox Christianity.',
-    bestTime: 'October – March',
-    duration: '1 – 2 days',
+    bestTime: 'October to March',
+    duration: '1 to 2 days',
     altitude: '2,131 m',
     highlights: [
       'The Northern Stelae Park and the fallen Great Stele',
@@ -252,7 +252,7 @@ export const destinations: Destination[] = [
     ],
     paragraphs: [
       'The Aksumite Kingdom grew from around the 4th century BC to dominate trade between Africa, Arabia, the Roman world and India by the 1st century AD. It minted its own coins, developed its own script, and under King Ezana in the 4th century became one of the first kingdoms in the world to adopt Christianity. UNESCO inscribed its archaeological sites in 1980.',
-      'Ethiopian tradition holds that the Ark of the Covenant rests in the Chapel of the Tablet beside the Church of St Mary of Zion, and the city is closely tied to the Queen of Sheba. Highlights include the monumental stelae — single blocks of granite carved to imitate multi-storey towers — royal tombs, palace ruins and the Archaeological Museum.',
+      'Ethiopian tradition holds that the Ark of the Covenant rests in the Chapel of the Tablet beside the Church of St Mary of Zion, and the city is closely tied to the Queen of Sheba. Highlights include the monumental stelae (single blocks of granite carved to imitate multi-storey towers), royal tombs, palace ruins and the Archaeological Museum.',
     ],
   },
   {
@@ -265,9 +265,9 @@ export const destinations: Destination[] = [
       'More than 120 rock-hewn churches, some reached only by climbing a cliff.',
     intro:
       'Among the sandstone towers of the Gheralta massif, ancient churches are carved into cliff faces, their walls covered with frescoes few travellers ever see.',
-    bestTime: 'September – April',
-    duration: '2 – 3 days',
-    altitude: '2,000 – 2,600 m',
+    bestTime: 'September to April',
+    duration: '2 to 3 days',
+    altitude: '2,000 to 2,600 m',
     highlights: [
       'The climb to Abuna Yemata Guh and its 15th-century frescoes',
       'Abreha we Atsbeha, one of Ethiopia’s oldest churches',
@@ -276,7 +276,7 @@ export const destinations: Destination[] = [
       'The cliff-top monastery of Debre Damo',
     ],
     paragraphs: [
-      'More than 120 rock-hewn churches are recorded in Tigray, dating from roughly the 4th to the 15th century — many older than Lalibela’s. Most are clustered around the Gheralta mountains northwest of Mekelle, where the views across the Hawzen plain are as memorable as the art.',
+      'More than 120 rock-hewn churches are recorded in Tigray, dating from roughly the 4th to the 15th century, many older than Lalibela’s. Most are clustered around the Gheralta mountains northwest of Mekelle, where the views across the Hawzen plain are as memorable as the art.',
       'Abuna Yemata Guh requires a near-vertical scramble with a short section of bare rock and a narrow ledge high above the valley; inside, its domed ceiling is painted with saints and apostles. Debre Damo, founded by Abune Aregawi in the 6th century, is reached by a leather rope and is open to men only. Easier visits include Abreha we Atsbeha and Wukro Cherkos.',
     ],
   },
@@ -290,7 +290,7 @@ export const destinations: Destination[] = [
       'A built church of wood and stone, hidden inside a cave above Lalibela.',
     intro:
       'One of Ethiopia’s best-preserved late-Aksumite buildings, constructed in alternating layers of wood and stone inside a vast natural cave.',
-    bestTime: 'October – April',
+    bestTime: 'October to April',
     duration: 'Half day',
     altitude: '2,700 m',
     highlights: [
@@ -311,21 +311,21 @@ export const destinations: Destination[] = [
     tag: 'Archaeology',
     image: '/images/yeha.jpg',
     teaser:
-      'Ethiopia’s oldest standing building — a 2,500-year-old temple near Axum.',
+      'Ethiopia’s oldest standing building: a 2,500-year-old temple near Axum.',
     intro:
       'The birthplace of Ethiopia’s earliest high civilisation, where a pre-Christian temple still stands to its full height after 25 centuries.',
-    bestTime: 'October – March',
+    bestTime: 'October to March',
     duration: 'Half day',
     altitude: '2,100 m',
     highlights: [
-      'The Great Temple of Yeha, built around the 7th–5th century BC',
+      'The Great Temple of Yeha, built around the 7th to 5th century BC',
       'Polished stone blocks laid without mortar',
       'The monastery of Abba Afse and its manuscripts',
       'A scenic highland drive from Axum',
     ],
     paragraphs: [
       'Less than two hours’ drive from Axum, Yeha was a centre of the pre-Aksumite kingdom of D’mt. Its Great Temple, a single roofless chamber about 20 metres long, has walls some 10 metres high built from smoothly polished stone blocks, some more than three metres long, fitted together without mortar.',
-      'Beside the ruins, the monastery of Abba Afse — one of the Nine Saints — preserves manuscripts and religious treasures. It is an essential stop for anyone interested in the origins of Ethiopian civilisation.',
+      'Beside the ruins, the monastery of Abba Afse, one of the Nine Saints, preserves manuscripts and religious treasures. It is an essential stop for anyone interested in the origins of Ethiopian civilisation.',
     ],
   },
   {
@@ -338,8 +338,8 @@ export const destinations: Destination[] = [
       'Site of Africa’s first Muslim settlement and a symbol of religious coexistence.',
     intro:
       'A small village in Tigray where the Christian king of Aksum gave refuge to the earliest followers of the Prophet Muhammad in the 7th century.',
-    bestTime: 'October – March',
-    duration: '1 – 2 hours',
+    bestTime: 'October to March',
+    duration: '1 to 2 hours',
     altitude: '2,000 m',
     highlights: [
       'The Al-Nejashi Mosque, rebuilt on a historic site',
@@ -361,10 +361,10 @@ export const destinations: Destination[] = [
     teaser:
       'A 4,284-metre massif above Lalibela with Ethiopian wolves and gelada.',
     intro:
-      'One of the most spectacular mountains of the Lasta massif — a fragile Afro-alpine world of giant lobelias, rare wildlife and remote farming villages.',
-    bestTime: 'September – May',
-    duration: '2 – 4 days',
-    altitude: '3,000 – 4,284 m',
+      'One of the most spectacular mountains of the Lasta massif: a fragile Afro-alpine world of giant lobelias, rare wildlife and remote farming villages.',
+    bestTime: 'September to May',
+    duration: '2 to 4 days',
+    altitude: '3,000 to 4,284 m',
     highlights: [
       'A chance of seeing the endangered Ethiopian wolf',
       'Large troops of gelada on the grasslands',
@@ -372,7 +372,7 @@ export const destinations: Destination[] = [
       'More than 220 bird species, including endemics',
     ],
     paragraphs: [
-      'Rising to 4,284 metres in North Wollo, Abune Yosef is among the highest mountains in Ethiopia. Its habitats range from montane dry forest and juniper woodland to Afro-alpine grassland above 3,500 metres, home to at least 43 mammal species — including the Ethiopian wolf, gelada, klipspringer and leopard — and more than 220 species of birds.',
+      'Rising to 4,284 metres in North Wollo, Abune Yosef is among the highest mountains in Ethiopia. Its habitats range from montane dry forest and juniper woodland to Afro-alpine grassland above 3,500 metres, home to at least 43 mammal species, including the Ethiopian wolf, gelada, klipspringer and leopard, and more than 220 species of birds.',
       'On the northwestern slopes, farming communities grow barley, potatoes and lentils at more than 3,300 metres. Community-run guesthouses make it possible to trek here from Lalibela, combining extraordinary scenery with genuine highland hospitality.',
     ],
   },
@@ -386,7 +386,7 @@ export const destinations: Destination[] = [
       'A cliff-top monastery above Lalibela with sweeping views of the Lasta mountains.',
     intro:
       'Carved into the side of Mount Abune Yosef at around 3,150 metres, this monastery is traditionally attributed to King Na’akueto La’ab, Lalibela’s nephew.',
-    bestTime: 'October – April',
+    bestTime: 'October to April',
     duration: 'Half day',
     altitude: '3,150 m',
     highlights: [
@@ -411,8 +411,8 @@ export const destinations: Destination[] = [
       'Ethiopia’s railway city, founded where the line from Djibouti reached the hills.',
     intro:
       'A lively commercial city with colonial-era architecture, colourful markets and a historic railway station, and the gateway to Harar.',
-    bestTime: 'October – March',
-    duration: 'Half day – 1 day',
+    bestTime: 'October to March',
+    duration: 'Half day to 1 day',
     altitude: '1,200 m',
     highlights: [
       'The historic railway station and old locomotives',
@@ -421,7 +421,7 @@ export const destinations: Destination[] = [
       'Easy flights from Addis Ababa',
     ],
     paragraphs: [
-      'Dire Dawa was founded in 1902 when the Ethiopia–Djibouti railway reached the area, and it quickly grew into a hub for trade and industry. Its tree-lined streets, arcaded buildings and multicultural atmosphere make it unlike any other city in Ethiopia.',
+      'Dire Dawa was founded in 1902 when the Ethiopia-Djibouti railway reached the area, and it quickly grew into a hub for trade and industry. Its tree-lined streets, arcaded buildings and multicultural atmosphere make it unlike any other city in Ethiopia.',
       'Most travellers pass through on the way to Harar, about an hour away, but the markets, railway heritage and relaxed pace are worth a few hours of their own.',
     ],
   },
@@ -435,7 +435,7 @@ export const destinations: Destination[] = [
       'Ethiopia’s longest cave system, carved through limestone by the Weyib River.',
     intro:
       'More than 15 kilometres of passages, pillars and domed chambers, sacred to local Muslims and a natural extension of a Bale Mountains journey.',
-    bestTime: 'October – March',
+    bestTime: 'October to March',
     duration: '1 day',
     altitude: '1,300 m',
     highlights: [
@@ -445,7 +445,7 @@ export const destinations: Destination[] = [
       'Dik-dik, kudu and dry-country birds around the entrance',
     ],
     paragraphs: [
-      'Sof Omar lies east of the Bale Mountains, where the Weyib River has cut an extraordinary network of limestone caves stretching for about 15 kilometres — one of the longest cave systems in Africa. Inside are towering pillars, natural arches, domes and deep chambers.',
+      'Sof Omar lies east of the Bale Mountains, where the Weyib River has cut an extraordinary network of limestone caves stretching for about 15 kilometres, one of the longest cave systems in Africa. Inside are towering pillars, natural arches, domes and deep chambers.',
       'According to tradition the caves sheltered Sheikh Sof Omar in the 12th century, and they remain a place of pilgrimage. A guided walk through the main section takes around an hour, and can easily be added to a Bale Mountains itinerary.',
     ],
   },
@@ -458,11 +458,11 @@ export const destinations: Destination[] = [
     tag: 'Capital City',
     image: '/images/addis-skyline.jpg',
     teaser:
-      'Africa’s diplomatic capital — museums, cathedrals, markets and coffee.',
+      'Africa’s diplomatic capital: museums, cathedrals, markets and coffee.',
     intro:
       'The “New Flower”, founded by Emperor Menelik II and Empress Taytu in 1886, is the political, cultural and culinary heart of Ethiopia and the gateway to the country.',
     bestTime: 'Year-round',
-    duration: '1 – 2 days',
+    duration: '1 to 2 days',
     altitude: '2,355 m',
     highlights: [
       'Lucy and three million years of human history at the National Museum',
@@ -487,7 +487,7 @@ export const destinations: Destination[] = [
     intro:
       'From the 3.2-million-year-old fossil of Lucy to the palace of Haile Selassie, the capital’s museums are the perfect introduction to Ethiopia.',
     bestTime: 'Year-round',
-    duration: 'Half day – 1 day',
+    duration: 'Half day to 1 day',
     altitude: '2,355 m',
     highlights: [
       'Lucy and Selam at the National Museum of Ethiopia',
@@ -512,7 +512,7 @@ export const destinations: Destination[] = [
       'The eucalyptus-covered ridge where Menelik II founded his capital, now home to Entoto Natural Park and the historic church of Entoto Maryam.',
     bestTime: 'Year-round',
     duration: 'Half day',
-    altitude: '2,600 – 3,100 m',
+    altitude: '2,600 to 3,100 m',
     highlights: [
       'Panoramic views over Addis Ababa',
       'Entoto Maryam Church, where Menelik II was crowned',
@@ -535,7 +535,7 @@ export const destinations: Destination[] = [
     intro:
       'A 40-acre park inside the historic National Palace compound, with royal residences, banquet halls, gardens and a zoo.',
     bestTime: 'Year-round',
-    duration: '2 – 3 hours',
+    duration: '2 to 3 hours',
     altitude: '2,355 m',
     highlights: [
       'Menelik II’s original palace buildings and throne halls',
@@ -558,9 +558,9 @@ export const destinations: Destination[] = [
       'One of Africa’s oldest protected forests, just 45 kilometres from Addis Ababa.',
     intro:
       'Ancient juniper and podocarpus forest on the slopes of Mount Wechecha, said to have been protected since the 15th century.',
-    bestTime: 'October – May',
+    bestTime: 'October to May',
     duration: '1 day',
-    altitude: '2,300 – 3,385 m',
+    altitude: '2,300 to 3,385 m',
     highlights: [
       'Hiking trails through giant juniper and Hagenia trees',
       'The extinct volcano of Mount Wechecha',
@@ -569,7 +569,7 @@ export const destinations: Destination[] = [
     ],
     paragraphs: [
       'About 2,500 hectares of indigenous forest cover the southern and western slopes of Mount Wechecha, an extinct volcano reaching 3,385 metres. It is one of the largest remaining patches of native forest near the capital and was a royal forest in the time of Menelik II.',
-      'The forest shelters the endemic Menelik’s bushbuck, leopards and colobus monkeys, and birds such as the black-winged lovebird, Abyssinian woodpecker and Abyssinian catbird — ideal for a day of hiking and birdwatching.',
+      'The forest shelters the endemic Menelik’s bushbuck, leopards and colobus monkeys, and birds such as the black-winged lovebird, Abyssinian woodpecker and Abyssinian catbird, ideal for a day of hiking and birdwatching.',
     ],
   },
   {
@@ -582,9 +582,9 @@ export const destinations: Destination[] = [
       'An island monastery, hot springs and green hills inside an extinct volcano.',
     intro:
       'About 150 kilometres west of Addis Ababa, a deep blue lake fills the caldera of an extinct volcano high in the Oromia highlands.',
-    bestTime: 'October – June',
+    bestTime: 'October to June',
     duration: '1 day',
-    altitude: '2,800 – 3,386 m',
+    altitude: '2,800 to 3,386 m',
     highlights: [
       'Hiking or horse riding down to the lake shore',
       'Boat trip to the island monastery of Cherkos',
@@ -606,7 +606,7 @@ export const destinations: Destination[] = [
       'A historic monastery on the edge of a gorge, with gelada and the Portuguese Bridge.',
     intro:
       'Founded by Saint Tekle Haymanot in the 13th century, Debre Libanos is one of Ethiopia’s most important monasteries, set on a ledge above the Jemma River gorge.',
-    bestTime: 'September – May',
+    bestTime: 'September to May',
     duration: '1 day',
     altitude: '2,500 m',
     highlights: [
@@ -632,7 +632,7 @@ export const destinations: Destination[] = [
       'South of the capital, a UNESCO-listed field of engraved standing stones and a semi-monolithic church attributed to the time of King Lalibela.',
     bestTime: 'Year-round',
     duration: '1 day',
-    altitude: '2,000 – 2,200 m',
+    altitude: '2,000 to 2,200 m',
     highlights: [
       'Tiya’s 36 standing stelae engraved with swords and symbols',
       'Adadi Mariam, a rock-hewn church carved into the hillside',
@@ -653,11 +653,11 @@ export const destinations: Destination[] = [
     tag: 'Active Volcano',
     image: '/images/erta-ale.jpg',
     teaser:
-      'The “Smoking Mountain” — one of the few volcanoes on earth with a lava lake.',
+      'The “Smoking Mountain”: one of the few volcanoes on earth with a lava lake.',
     intro:
       'A basaltic shield volcano in the Danakil whose summit crater has held molten lava for more than a century.',
-    bestTime: 'November – March',
-    duration: '1 – 2 days',
+    bestTime: 'November to March',
+    duration: '1 to 2 days',
     altitude: '613 m',
     highlights: [
       'An evening trek to the crater rim with camels carrying the camp',
@@ -680,9 +680,9 @@ export const destinations: Destination[] = [
       'Oryx plains, hot springs and a waterfall, three hours east of the capital.',
     intro:
       'Ethiopia’s most accessible safari park, set around the dormant Fantale volcano and the gorge of the Awash River.',
-    bestTime: 'October – April',
-    duration: '2 – 3 days',
-    altitude: '750 – 2,007 m',
+    bestTime: 'October to April',
+    duration: '2 to 3 days',
+    altitude: '750 to 2,007 m',
     highlights: [
       'Beisa oryx and Soemmerring’s gazelle on the Ilala Sala plains',
       'The Awash Falls tumbling into the river gorge',
@@ -704,9 +704,9 @@ export const destinations: Destination[] = [
       'Two very different soda lakes, flamingos, pelicans and steaming hot springs.',
     intro:
       'In the heart of the Rift Valley, the shallow, bird-rich Lake Abijatta lies beside the deep volcanic caldera of Lake Shalla.',
-    bestTime: 'September – May',
-    duration: '1 – 2 days',
-    altitude: '1,540 – 2,075 m',
+    bestTime: 'September to May',
+    duration: '1 to 2 days',
+    altitude: '1,540 to 2,075 m',
     highlights: [
       'Lesser and greater flamingos on Lake Abijatta',
       'Great white pelicans breeding on Shalla’s islands',
@@ -725,12 +725,12 @@ export const destinations: Destination[] = [
     tag: 'Lakes & Birdlife',
     image: '/images/langano.jpg',
     teaser:
-      'Ziway, Langano and Hawassa — a chain of lakes alive with birds and fishermen.',
+      'Ziway, Langano and Hawassa: a chain of lakes alive with birds and fishermen.',
     intro:
       'South of Addis Ababa, the Great Rift Valley holds a string of lakes, each with its own character, linking the capital with the coffee lands and the Omo Valley.',
-    bestTime: 'September – May',
-    duration: '1 – 3 days',
-    altitude: '1,580 – 1,700 m',
+    bestTime: 'September to May',
+    duration: '1 to 3 days',
+    altitude: '1,580 to 1,700 m',
     highlights: [
       'Marabou storks and pelicans at the Lake Ziway shore',
       'Swimming and lodges on Lake Langano',
@@ -752,9 +752,9 @@ export const destinations: Destination[] = [
       'Zebra plains and giant crocodiles between Lake Abaya and Lake Chamo.',
     intro:
       'Near Arba Minch, savannah and groundwater forest fill the land between two great lakes, crossed by the narrow “Bridge of God”.',
-    bestTime: 'October – March',
-    duration: '1 – 2 days',
-    altitude: '1,108 – 1,650 m',
+    bestTime: 'October to March',
+    duration: '1 to 2 days',
+    altitude: '1,108 to 1,650 m',
     highlights: [
       'Boat trip on Lake Chamo to the “crocodile market”',
       'Burchell’s zebra and Grant’s gazelle on the Nech Sar plains',
@@ -762,7 +762,7 @@ export const destinations: Destination[] = [
       'Around 190 bird species, including the kori bustard',
     ],
     paragraphs: [
-      'Located about 500 kilometres south of Addis Ababa, the park covers some 514 square kilometres of savannah, bushland and groundwater forest fed by the springs that give Arba Minch — “Forty Springs” — its name. Lake Chamo is known for its very large Nile crocodiles and hippos.',
+      'Located about 500 kilometres south of Addis Ababa, the park covers some 514 square kilometres of savannah, bushland and groundwater forest fed by the springs that give Arba Minch (“Forty Springs”) its name. Lake Chamo is known for its very large Nile crocodiles and hippos.',
       'From Arba Minch, travellers can combine Nech Sar with the Dorze highlands, Konso and the onward journey to the Omo Valley.',
     ],
   },
@@ -776,9 +776,9 @@ export const destinations: Destination[] = [
       'Savannah and riverine forest on the Omo, home of the Mursi people.',
     intro:
       'A 2,162-square-kilometre park on the east bank of the Omo River, where wildlife and some of Ethiopia’s most distinctive cultures share the land.',
-    bestTime: 'October – March',
+    bestTime: 'October to March',
     duration: '1 day',
-    altitude: '450 – 2,528 m',
+    altitude: '450 to 2,528 m',
     highlights: [
       'Mursi villages in the hills of the park',
       'Grass savannah below Mount Mago',
@@ -797,12 +797,12 @@ export const destinations: Destination[] = [
     tag: 'Remote Wilderness',
     image: '/images/omo-river.jpg',
     teaser:
-      'Ethiopia’s largest national park — true wilderness on the west bank of the Omo.',
+      'Ethiopia’s largest national park: true wilderness on the west bank of the Omo.',
     intro:
       'More than 4,000 square kilometres of savannah, riverine forest and hills, among the least-visited wildlife areas in East Africa.',
-    bestTime: 'November – March',
+    bestTime: 'November to March',
     duration: 'Expedition',
-    altitude: '400 – 1,500 m',
+    altitude: '400 to 1,500 m',
     highlights: [
       'Eland, oryx, buffalo and Burchell’s zebra',
       'The remote west bank of the Omo River',
@@ -824,9 +824,9 @@ export const destinations: Destination[] = [
       'Green forests, waterfalls and one of Ethiopia’s largest elephant herds.',
     intro:
       'A remote and lush park in the Omo-Gibe basin, protecting elephants, lions, buffalo and hippos among forests, rivers and wetlands.',
-    bestTime: 'November – March',
-    duration: '2 – 3 days',
-    altitude: '600 – 2,000 m',
+    bestTime: 'November to March',
+    duration: '2 to 3 days',
+    altitude: '600 to 2,000 m',
     highlights: [
       'African elephants in a forest setting',
       'Waterfalls, hot springs and river valleys',
@@ -847,10 +847,10 @@ export const destinations: Destination[] = [
     teaser:
       'Ethiopia’s tropical west, with the great migration of the white-eared kob.',
     intro:
-      'The vast grass plains of the Baro River region — one of Ethiopia’s largest and least-explored protected areas.',
-    bestTime: 'December – April',
+      'The vast grass plains of the Baro River region: one of Ethiopia’s largest and least-explored protected areas.',
+    bestTime: 'December to April',
     duration: 'Expedition',
-    altitude: '400 – 770 m',
+    altitude: '400 to 770 m',
     highlights: [
       'The seasonal migration of the white-eared kob',
       'Nile lechwe, buffalo, elephant and hippo',
@@ -872,9 +872,9 @@ export const destinations: Destination[] = [
       'Elephant country between the Tekeze River and the Eritrean border.',
     intro:
       'Established in 2007 in northwestern Tigray, this park forms part of a large transboundary ecosystem with Eritrea’s Gash-Setit.',
-    bestTime: 'November – March',
+    bestTime: 'November to March',
     duration: 'Expedition',
-    altitude: '550 – 1,000 m',
+    altitude: '550 to 1,000 m',
     highlights: [
       'One of Ethiopia’s most important elephant refuges',
       'Acacia savannah and riverine forest along the Tekeze',
@@ -898,13 +898,13 @@ export const destinations: Destination[] = [
       'Walled hilltop villages, stone terraces and carved wooden waka memorials.',
     intro:
       'A UNESCO-listed cultural landscape of dry-stone terraces and fortified villages, shaped by more than 400 years of Konso farming tradition.',
-    bestTime: 'October – March',
-    duration: 'Half day – 1 day',
+    bestTime: 'October to March',
+    duration: 'Half day to 1 day',
     altitude: '1,650 m',
     highlights: [
       'Walking through the gates and lanes of a walled village',
       'Mora houses where men gather and boys sleep',
-      'Waka — carved wooden figures commemorating heroes',
+      'Waka: carved wooden figures commemorating heroes',
       'Terraced hillsides stretching to the horizon',
     ],
     paragraphs: [
@@ -924,7 +924,7 @@ export const destinations: Destination[] = [
       'High above Arba Minch, the Dorze people are famous for their towering houses of bamboo and ensete leaves and for weaving some of Ethiopia’s finest cotton.',
     bestTime: 'Year-round',
     duration: 'Half day',
-    altitude: '2,600 – 2,900 m',
+    altitude: '2,600 to 2,900 m',
     highlights: [
       'Traditional Dorze houses up to 12 metres tall',
       'Weavers at work on handlooms',
@@ -947,7 +947,7 @@ export const destinations: Destination[] = [
     intro:
       'Set on the Rift Valley escarpment above Lake Abaya and Lake Chamo, Arba Minch is the gateway to Nech Sar, the Dorze highlands and the Omo Valley.',
     bestTime: 'Year-round',
-    duration: '1 – 2 days',
+    duration: '1 to 2 days',
     altitude: '1,285 m',
     highlights: [
       'Boat safaris on Lake Chamo',
@@ -970,9 +970,9 @@ export const destinations: Destination[] = [
       'Cattle herders of Mago National Park, known for the clay lip plate.',
     intro:
       'One of the best-known peoples of the Omo Valley, living between the Omo River and Mago National Park.',
-    bestTime: 'October – March',
+    bestTime: 'October to March',
     duration: 'Half day',
-    altitude: '500 – 1,500 m',
+    altitude: '500 to 1,500 m',
     highlights: [
       'The lip-plate tradition of Mursi women',
       'White body and face painting',
@@ -994,9 +994,9 @@ export const destinations: Destination[] = [
       'Ochre-braided hair, beaded leather, and the bull-jumping rite of passage.',
     intro:
       'Semi-pastoralists of the Hamer Bena district around Turmi and Dimeka, and among the most visited communities of the Omo Valley.',
-    bestTime: 'October – March',
-    duration: '1 – 2 days',
-    altitude: '900 – 1,500 m',
+    bestTime: 'October to March',
+    duration: '1 to 2 days',
+    altitude: '900 to 1,500 m',
     highlights: [
       'The bull-jumping ceremony (ukuli bula), when it takes place',
       'Market days in Turmi and Dimeka',
@@ -1018,9 +1018,9 @@ export const destinations: Destination[] = [
       'Master body painters living on the banks of the Omo River.',
     intro:
       'A small community on the eastern bank of the Omo, renowned for some of the most elaborate body painting in Africa.',
-    bestTime: 'October – March',
+    bestTime: 'October to March',
     duration: 'Half day',
-    altitude: '400 – 500 m',
+    altitude: '400 to 500 m',
     highlights: [
       'Chalk, ochre and charcoal body art',
       'Villages perched above a sweeping bend of the river',
@@ -1042,9 +1042,9 @@ export const destinations: Destination[] = [
       'Highland neighbours of the Hamar, famous for stilt walking and beekeeping.',
     intro:
       'Living in the hills between Key Afar and Jinka, the Banna share language and many customs with the Hamar and Bashada peoples.',
-    bestTime: 'October – March',
+    bestTime: 'October to March',
     duration: 'Half day',
-    altitude: '1,200 – 1,600 m',
+    altitude: '1,200 to 1,600 m',
     highlights: [
       'The Thursday market at Key Afar',
       'Young men on stilts, painted with chalk',
@@ -1066,7 +1066,7 @@ export const destinations: Destination[] = [
       'Pastoralists of the dry plains near Lake Chew Bahir, with striking black headscarves.',
     intro:
       'A small community in the southern Omo Valley with ancestral ties to the Borana and Konso peoples.',
-    bestTime: 'October – March',
+    bestTime: 'October to March',
     duration: 'Half day',
     altitude: '500 m',
     highlights: [
@@ -1114,7 +1114,7 @@ export const destinations: Destination[] = [
       'Semi-nomads of the Omo delta, near the northern shore of Lake Turkana.',
     intro:
       'Living in Ethiopia’s far south near the Kenyan border, the Dassanech have adapted to one of the harshest environments in the country.',
-    bestTime: 'October – March',
+    bestTime: 'October to March',
     duration: 'Half day',
     altitude: '370 m',
     highlights: [
@@ -1138,9 +1138,9 @@ export const destinations: Destination[] = [
       'Nilotic pastoralists of the west bank, famous for their heavy bead collars.',
     intro:
       'Also known as the Bume, the Nyangatom live near the borders with South Sudan and Kenya and are related to the Toposa and Turkana.',
-    bestTime: 'October – March',
-    duration: 'Half day – 1 day',
-    altitude: '400 – 500 m',
+    bestTime: 'October to March',
+    duration: 'Half day to 1 day',
+    altitude: '400 to 500 m',
     highlights: [
       'Women’s layered collars of coloured beads',
       'Semi-nomadic cattle camps',
@@ -1161,10 +1161,10 @@ export const destinations: Destination[] = [
     teaser:
       'Remote cattle herders of Kibish, known for body art, lip plates and Donga.',
     intro:
-      'Living in the far southwest near South Sudan, the Surma — or Suri — are culturally close to the Mursi and Me’en.',
-    bestTime: 'November – March',
-    duration: '2 – 3 days',
-    altitude: '1,000 – 1,500 m',
+      'Living in the far southwest near South Sudan, the Surma (or Suri) are culturally close to the Mursi and Me’en.',
+    bestTime: 'November to March',
+    duration: '2 to 3 days',
+    altitude: '1,000 to 1,500 m',
     highlights: [
       'Elaborate body painting with clay and plant pigments',
       'The Donga stick-fighting ceremony',
@@ -1186,9 +1186,9 @@ export const destinations: Destination[] = [
       'Agro-pastoralists of the Weito valley, between Konso and the Hamar.',
     intro:
       'A small community living south of Konso and east of the Hamar, with close ties to the Banna and Arbore.',
-    bestTime: 'October – March',
+    bestTime: 'October to March',
     duration: 'Half day',
-    altitude: '600 – 1,000 m',
+    altitude: '600 to 1,000 m',
     highlights: [
       'Beaded leather skirts and calabash containers',
       'Men carrying small wooden headrest stools',
@@ -1210,9 +1210,9 @@ export const destinations: Destination[] = [
       'The farms and washing stations behind some of the world’s most celebrated coffees.',
     intro:
       'In the green hills south of Hawassa, smallholder farmers grow coffee in the shade of ensete and indigenous trees, as they have for generations.',
-    bestTime: 'October – January (harvest)',
-    duration: '2 – 4 days',
-    altitude: '1,700 – 2,200 m',
+    bestTime: 'October to January (harvest)',
+    duration: '2 to 4 days',
+    altitude: '1,700 to 2,200 m',
     highlights: [
       'Picking and processing during the harvest season',
       'Washing stations and raised drying beds',
@@ -1221,7 +1221,7 @@ export const destinations: Destination[] = [
     ],
     paragraphs: [
       'Sidama and Yirgacheffe are names known to coffee lovers worldwide. Around Aleta Wondo, Dilla and Yirgacheffe, coffee is grown under a canopy of trees in a traditional agroforestry system; the Gedeo Cultural Landscape was inscribed by UNESCO in 2023.',
-      'Our coffee journeys visit farms and washing stations, explain how cherries become green coffee, and always end with the ceremony itself — roasted, ground and brewed in a clay jebena.',
+      'Our coffee journeys visit farms and washing stations, explain how cherries become green coffee, and always end with the ceremony itself: roasted, ground and brewed in a clay jebena.',
     ],
   },
   {
@@ -1233,10 +1233,10 @@ export const destinations: Destination[] = [
     teaser:
       'Wild Arabica in the montane forests of the Kafa Biosphere Reserve.',
     intro:
-      'In Ethiopia’s southwest, the Kaffa region — which gave coffee its name — still holds forests where Coffea arabica grows wild.',
-    bestTime: 'October – May',
-    duration: '2 – 3 days',
-    altitude: '1,700 – 2,300 m',
+      'In Ethiopia’s southwest, the Kaffa region, which gave coffee its name, still holds forests where Coffea arabica grows wild.',
+    bestTime: 'October to May',
+    duration: '2 to 3 days',
+    altitude: '1,700 to 2,300 m',
     highlights: [
       'Forest walks to the Mankira “mother coffee” trees',
       'The UNESCO Kafa Biosphere Reserve',
@@ -1257,21 +1257,21 @@ export const destinations: Destination[] = [
     tag: 'UNESCO Intangible Heritage',
     image: '/images/timkat.jpg',
     teaser:
-      'Ethiopia’s greatest festival — processions, holy water and joyful celebration.',
+      'Ethiopia’s greatest festival: processions, holy water and joyful celebration.',
     intro:
       'Celebrated on 19 January (20 January in leap years), Timkat commemorates the baptism of Christ in the Jordan and was inscribed by UNESCO in 2019.',
-    bestTime: '18 – 20 January',
-    duration: '2 – 3 days',
+    bestTime: '18 to 20 January',
+    duration: '2 to 3 days',
     altitude: '2,133 m (Gondar)',
     highlights: [
-      'Ketera — the eve-of-festival procession of the Tabots',
+      'Ketera: the eve-of-festival procession of the Tabots',
       'All-night prayers and hymns beside the water',
       'The blessing and sprinkling of the water at dawn',
       'The joyful return of the Tabots to their churches',
       'Fasilides’ Bath in Gondar, filled for the occasion',
     ],
     paragraphs: [
-      'On the eve of Timkat, every church’s Tabot — a sacred replica of the Ark of the Covenant — is wrapped in rich cloth and carried in procession to a pool or river, accompanied by priests in ceremonial robes, deacons, choirs and thousands of worshippers. Prayers and hymns continue through the night.',
+      'On the eve of Timkat, every church’s Tabot, a sacred replica of the Ark of the Covenant, is wrapped in rich cloth and carried in procession to a pool or river, accompanied by priests in ceremonial robes, deacons, choirs and thousands of worshippers. Prayers and hymns continue through the night.',
       'At dawn the water is blessed and sprinkled over the crowds as a renewal of baptismal vows; in Gondar, worshippers leap into Fasilides’ Bath. Later, the Tabots are escorted back to their churches with singing, dancing and celebration. Gondar, Lalibela and Addis Ababa are the most memorable places to experience it.',
     ],
   },
@@ -1285,8 +1285,8 @@ export const destinations: Destination[] = [
       'Bonfires, yellow daisies and songs to celebrate the discovery of the True Cross.',
     intro:
       'Celebrated on 27 September (28 in leap years) for more than 1,600 years, Meskel was inscribed by UNESCO as intangible cultural heritage in 2013.',
-    bestTime: '26 – 27 September',
-    duration: '1 – 2 days',
+    bestTime: '26 to 27 September',
+    duration: '1 to 2 days',
     altitude: '2,355 m (Addis Ababa)',
     highlights: [
       'The great Demera bonfire in Meskel Square, Addis Ababa',
@@ -1295,7 +1295,7 @@ export const destinations: Destination[] = [
       'Celebrations in Gondar, Axum and Lalibela',
     ],
     paragraphs: [
-      'Meskel — “cross” in Ge’ez and Amharic — commemorates the discovery of the True Cross by Empress Helena, mother of Constantine the Great. Tradition holds that she followed the smoke of a bonfire to find it, and Ethiopia believes a fragment is kept at the mountain monastery of Gishen Mariam.',
+      'Meskel (“cross” in Ge’ez and Amharic) commemorates the discovery of the True Cross by Empress Helena, mother of Constantine the Great. Tradition holds that she followed the smoke of a bonfire to find it, and Ethiopia believes a fragment is kept at the mountain monastery of Gishen Mariam.',
       'On the eve of the festival, tall Demera bonfires decorated with yellow Meskel daisies are lit across the country, the largest in Meskel Square in Addis Ababa, surrounded by singing crowds. The direction in which the burning pole falls is said to foretell the year ahead.',
     ],
   },
@@ -1309,8 +1309,8 @@ export const destinations: Destination[] = [
       'An all-night vigil among the rock-hewn churches of Lalibela on 7 January.',
     intro:
       'Ethiopian Orthodox Christians celebrate Christmas on 7 January, after a 40-day fast, with one of the most moving religious gatherings in Africa.',
-    bestTime: '6 – 7 January',
-    duration: '2 – 3 days',
+    bestTime: '6 to 7 January',
+    duration: '2 to 3 days',
     altitude: '2,500 m (Lalibela)',
     highlights: [
       'Tens of thousands of white-robed pilgrims in Lalibela',
@@ -1319,7 +1319,7 @@ export const destinations: Destination[] = [
       'Feasting as the 40-day fast comes to an end',
     ],
     paragraphs: [
-      'On Christmas Eve worshippers gather in their churches for a vigil of prayers and hymns that lasts for hours. Priests and debtera — scholars of church music and poetry — lead chants preserved since Christianity reached Ethiopia.',
+      'On Christmas Eve worshippers gather in their churches for a vigil of prayers and hymns that lasts for hours. Priests and debtera, scholars of church music and poetry, lead chants preserved since Christianity reached Ethiopia.',
       'Lalibela is the most remarkable place to experience Genna. Pilgrims walk for days to reach the rock-hewn churches, and on Christmas morning the priests’ chanting echoes across the trench of Bete Maryam. Accommodation books up early, so we recommend reserving well in advance.',
     ],
   },
@@ -1333,8 +1333,8 @@ export const destinations: Destination[] = [
       'Candle-lit services and celebrations that end the 55-day Lenten fast.',
     intro:
       'Ethiopian Easter follows the Orthodox calendar, usually falling in April or early May, and is preceded by Hudade, the longest fast of the year.',
-    bestTime: 'March – May (date varies)',
-    duration: '2 – 3 days',
+    bestTime: 'March to May (date varies)',
+    duration: '2 to 3 days',
     altitude: '2,500 m (Lalibela)',
     highlights: [
       'Holy Week services among Lalibela’s churches',
@@ -1382,8 +1382,8 @@ export const destinations: Destination[] = [
     intro:
       'Held in late August at the end of the Filseta fast in honour of the Virgin Mary, Ashenda fills the streets with colour, song and dance.',
     bestTime: 'Late August',
-    duration: '2 – 3 days',
-    altitude: '2,000 – 2,500 m',
+    duration: '2 to 3 days',
+    altitude: '2,000 to 2,500 m',
     highlights: [
       'Girls in embroidered dresses with braided hair',
       'Skirts of tall ashenda grass worn at the waist',
@@ -1402,7 +1402,7 @@ export const destinations: Destination[] = [
     tag: 'Festival',
     image: '/images/meskel.jpg',
     teaser:
-      'The Feast of the Transfiguration — bonfires, bread and boys singing hoya hoye.',
+      'The Feast of the Transfiguration: bonfires, bread and boys singing hoya hoye.',
     intro:
       'Celebrated on 19 August, Buhe commemorates the Transfiguration of Christ on Mount Tabor and marks the coming end of the rainy season.',
     bestTime: '19 August',
@@ -1416,7 +1416,7 @@ export const destinations: Destination[] = [
     ],
     paragraphs: [
       'After church services, neighbours tie bundles of sticks into a chibo and set it alight, singing and dancing around the flames in a celebration similar to Meskel.',
-      'Groups of boys go from house to house singing hoya hoye and receiving gifts of bread in return — a joyful and very local celebration of community.',
+      'Groups of boys go from house to house singing hoya hoye and receiving gifts of bread in return, a joyful and very local celebration of community.',
     ],
   },
   {
@@ -1454,7 +1454,7 @@ export const destinations: Destination[] = [
     intro:
       'Ethiopia’s Muslim communities celebrate the end of the holy month of Ramadan with prayers, hospitality and charity.',
     bestTime: 'Date follows the lunar calendar',
-    duration: '1 – 3 days',
+    duration: '1 to 3 days',
     altitude: 'Nationwide',
     highlights: [
       'Mass prayers in Addis Ababa’s stadium and squares',
@@ -1464,7 +1464,7 @@ export const destinations: Destination[] = [
     ],
     paragraphs: [
       'Eid al-Fitr begins on the first day of Shawwal, after the sighting of the new moon. It opens with communal prayers, followed by visits to family and friends, festive meals, gifts and charity for those in need.',
-      'In Addis Ababa, huge crowds gather in white for morning prayers, while Harar — the historic centre of Islam in Ethiopia — celebrates with particular devotion.',
+      'In Addis Ababa, huge crowds gather in white for morning prayers, while Harar, the historic centre of Islam in Ethiopia, celebrates with particular devotion.',
     ],
   },
   {
@@ -1478,7 +1478,7 @@ export const destinations: Destination[] = [
     intro:
       'Commemorating Prophet Ibrahim’s obedience to God, Eid al-Adha is celebrated by Muslims throughout Ethiopia about 70 days after the end of Ramadan.',
     bestTime: 'Date follows the lunar calendar',
-    duration: '1 – 4 days',
+    duration: '1 to 4 days',
     altitude: 'Nationwide',
     highlights: [
       'Morning prayers in mosques and open grounds',
@@ -1501,7 +1501,7 @@ export const destinations: Destination[] = [
       'Run 10 km at 2,400 metres with tens of thousands of Ethiopians each November.',
     intro:
       'Africa’s largest road race, founded in 2001 by the legendary Haile Gebrselassie and held every November in the streets of Addis Ababa.',
-    bestTime: 'Mid – late November',
+    bestTime: 'Mid to late November',
     duration: '1 day',
     altitude: '2,355 m (Addis Ababa)',
     highlights: [

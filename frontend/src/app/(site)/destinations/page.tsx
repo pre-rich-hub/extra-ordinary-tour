@@ -27,8 +27,8 @@ export default function DestinationsPage() {
         meta={[
           { label: 'Destinations', value: String(destinations.length) },
           { label: 'UNESCO Sites', value: '12' },
-          { label: 'Altitude Range', value: '-116 – 4,550 m' },
-          { label: 'Best Months', value: 'Oct – Mar' },
+          { label: 'Altitude Range', value: '-116 to 4,550 m' },
+          { label: 'Best Months', value: 'Oct to Mar' },
         ]}
       />
 
@@ -61,7 +61,7 @@ export default function DestinationsPage() {
 
       <CtaBand
         title="Not sure where to begin?"
-        text="Send us a sentence about the trip you have in mind — the season, the pace, what draws you to Ethiopia — and our team will come back with two or three routes worth considering."
+        text="Send us a sentence about the trip you have in mind (the season, the pace, what draws you to Ethiopia) and our team will come back with two or three routes worth considering."
         secondary={{ label: 'Browse Tours', href: '/tours' }}
         image="/images/simien-gelada.jpg"
       />

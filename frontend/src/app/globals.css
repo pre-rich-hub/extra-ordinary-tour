@@ -167,6 +167,16 @@
   }
 }
 
+/* Slow camera move for the homepage hero slideshow; each slide sets its own path */
+@keyframes ken-burns {
+  from {
+    transform: var(--kb-from);
+  }
+  to {
+    transform: var(--kb-to);
+  }
+}
+
 @keyframes marquee {
   from {
     transform: translateX(0);

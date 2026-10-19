@@ -10,7 +10,7 @@ export const layoverPackages: LayoverPackage[] = [
     price: 'On request',
     image: '/images/addis-skyline.jpg',
     teaser:
-      'A short loop of the capital for tight connections — Entoto views, a cathedral and a coffee ceremony.',
+      'A short loop of the capital for tight connections: Entoto views, a cathedral and a coffee ceremony.',
     itinerary: [
       'Meet-and-assist at arrivals with a name board',
       'Drive up Mount Entoto for the panorama over Addis Ababa',
@@ -36,7 +36,7 @@ export const layoverPackages: LayoverPackage[] = [
       'Our full Addis Ababa day: Entoto, Lucy at the National Museum, Holy Trinity, Merkato and a coffee ceremony.',
     itinerary: [
       'Meet at arrivals and begin with the views from Mount Entoto',
-      'The National Museum of Ethiopia — meet Lucy',
+      'The National Museum of Ethiopia: meet Lucy',
       'Holy Trinity Cathedral and the Ethnological Museum',
       'Traditional Ethiopian lunch',
       'Merkato, one of Africa’s largest open-air markets',
@@ -67,7 +67,7 @@ export const layoverPackages: LayoverPackage[] = [
       'Return to Addis Ababa and transfer to the airport',
     ],
     includes: [
-      'One night in a 3–4 star hotel with breakfast',
+      'One night in a 3 to 4 star hotel with breakfast',
       'Private vehicle and licensed guide throughout',
       'Cultural dinner, lunch and all entrance fees',
       'Airport transfers both ways',
@@ -91,7 +91,7 @@ export const layoverPackages: LayoverPackage[] = [
       'Transfer to Bole for your onward flight',
     ],
     includes: [
-      'Domestic flights Addis Ababa – Lalibela – Addis Ababa',
+      'Domestic flights Addis Ababa to Lalibela to Addis Ababa',
       'One night’s lodge accommodation with full board',
       'Licensed local guide and all church entrance fees',
       'All airport and hotel transfers',

@@ -22,7 +22,7 @@ const experiences = [
   {
     kicker: 'People & culture',
     title: 'Omo Valley Encounters',
-    text: 'Market days, village visits and ceremonies with the Hamar, Karo, Mursi and their neighbours — always respectfully, always with local guides.',
+    text: 'Market days, village visits and ceremonies with the Hamar, Karo, Mursi and their neighbours, always respectfully, always with local guides.',
     image: '/images/karo.jpg',
     href: '/tours/6-day-omo-valley-tribal-and-cultural',
   },
@@ -51,7 +51,7 @@ export function Experiences() {
           Moments <em className="italic">that stay with you</em>
         </h2>
         <p className="mx-auto mt-6 max-w-[50ch] text-pretty leading-relaxed text-muted-foreground sm:text-lg">
-          History, culture, adventure, wildlife and trekking — combine them
+          History, culture, adventure, wildlife and trekking. Combine them
           into one journey, designed around how you like to travel.
         </p>
       </Reveal>
