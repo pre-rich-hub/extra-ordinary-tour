@@ -1,6 +1,7 @@
 export type ReviewPlatform = 'Tripadvisor' | 'SafariBookings'
 
 export type Testimonial = {
+  id: string
   quote: string
   name: string
   detail: string

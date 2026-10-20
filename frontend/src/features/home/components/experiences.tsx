@@ -1,8 +1,10 @@
 'use client'
 
+import { useCopy } from '@/i18n/copy'
+
 import { useCallback, useEffect, useRef, useState } from 'react'
 import Image from 'next/image'
-import Link from 'next/link'
+import { Link } from '@/i18n/navigation'
 import { ArrowRight } from 'lucide-react'
 import { Reveal } from '@/components/ui/reveal'
 import { cn } from '@/lib/utils'
@@ -57,6 +59,8 @@ const hiddenSlot = 'left-[45%] top-[10%] h-[80%] w-[10%] opacity-0'
 const AUTOPLAY_MS = 6000
 
 export function Experiences() {
+  const copy = useCopy()
+
   const [active, setActive] = useState(0)
   const [paused, setPaused] = useState(false)
   const touchX = useRef<number | null>(null)
@@ -85,23 +89,25 @@ export function Experiences() {
     >
       <Reveal className="shell mb-12 text-center sm:mb-16">
         <p className="eyebrow mb-5 justify-center text-accent">
-          Signature Experiences
+          {copy('Signature Experiences')}
         </p>
         <h2
           id="experiences-title"
           className="text-balance text-4xl leading-[1.05] text-foreground sm:text-5xl lg:text-6xl"
         >
-          Moments <em className="italic">that stay with you</em>
+          {copy('Moments ')}
+          <em className="italic">{copy('that stay with you')}</em>
         </h2>
         <p className="mx-auto mt-6 max-w-[56ch] text-pretty leading-relaxed text-muted-foreground sm:text-lg">
-          History, culture, adventure, wildlife and trekking. Combine them
-          into one journey, designed around how you like to travel.
+          {copy(
+            'History, culture, adventure, wildlife and trekking. Combine them into one journey, designed around how you like to travel.',
+          )}
         </p>
         <Link
           href="/tours"
           className="mt-7 inline-block border-b border-foreground/70 pb-1 text-[11px] font-semibold uppercase tracking-[0.18em] text-foreground transition-colors duration-300 hover:border-accent hover:text-accent sm:text-xs"
         >
-          Explore Travel Styles
+          {copy('Explore Travel Styles')}
         </Link>
       </Reveal>
 
@@ -139,7 +145,7 @@ export function Experiences() {
               >
                 <Image
                   src={s.image}
-                  alt={isActive ? s.title : ''}
+                  alt={isActive ? copy(s.title) : ''}
                   fill
                   sizes="(min-width: 1024px) 60vw, 84vw"
                   className={cn(
@@ -151,7 +157,7 @@ export function Experiences() {
                   <Link
                     href={s.href}
                     className="absolute inset-0"
-                    aria-label={`Discover ${s.title}`}
+                    aria-label={copy('Discover {v0}', { v0: s.title })}
                   />
                 )}
               </div>
@@ -161,7 +167,10 @@ export function Experiences() {
 
         {/* Every caption shares one grid cell, so the block is always as tall
             as the longest one and the page below never jumps between slides. */}
-        <div className="shell mt-8 grid text-center sm:mt-10" aria-live="polite">
+        <div
+          className="shell mt-8 grid text-center sm:mt-10"
+          aria-live="polite"
+        >
           {experiences.map((e) => {
             const isCurrent = e === current
             return (
@@ -176,20 +185,20 @@ export function Experiences() {
                 )}
               >
                 <p className="text-[10px] font-semibold uppercase tracking-[0.22em] text-primary sm:text-[11px]">
-                  {e.kicker}
+                  {copy(e.kicker)}
                 </p>
                 <h3 className="mt-3 text-3xl leading-tight text-foreground sm:text-4xl">
-                  {e.title}
+                  {copy(e.title)}
                 </h3>
                 <p className="mx-auto mt-4 max-w-[52ch] text-pretty text-[15px] leading-relaxed text-muted-foreground">
-                  {e.text}
+                  {copy(e.text)}
                 </p>
                 <Link
                   href={e.href}
                   tabIndex={isCurrent ? undefined : -1}
                   className="group mt-5 inline-flex items-center gap-2 border-b border-foreground/25 pb-1 text-[11px] font-semibold uppercase tracking-[0.16em] text-foreground transition-colors duration-300 hover:border-foreground"
                 >
-                  Discover More
+                  {copy('Discover More')}
                   <ArrowRight className="h-3.5 w-3.5 transition-transform duration-300 group-hover:translate-x-1" />
                 </Link>
               </div>

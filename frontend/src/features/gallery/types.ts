@@ -1,6 +1,12 @@
-export type GalleryCategory = 'Landscapes' | 'Heritage' | 'Culture' | 'Wildlife' | 'Festivals'
+export type GalleryCategory =
+  | 'Landscapes'
+  | 'Heritage'
+  | 'Culture'
+  | 'Wildlife'
+  | 'Festivals'
 
 export type GalleryPhoto = {
+  id: string
   src: string
   alt: string
   title: string

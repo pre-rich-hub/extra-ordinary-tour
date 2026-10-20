@@ -1,5 +1,6 @@
+import { useCopy } from '@/i18n/copy'
 import Image from 'next/image'
-import Link from 'next/link'
+import { Link } from '@/i18n/navigation'
 import { ArrowRight, CalendarDays, Clock, MapPin, Mountain } from 'lucide-react'
 import { InfoCard } from '@/components/cards/info-card'
 import type { Destination } from '../types'
@@ -13,14 +14,16 @@ export function DestinationInfoCard({
   destination: Destination
   className?: string
 }) {
+  const copy = useCopy()
+
   return (
     <InfoCard
       href={`/destinations/${d.slug}`}
       image={d.image}
-      imageAlt={`${d.name}, Ethiopia`}
+      imageAlt={copy('{v0}, Ethiopia', { v0: d.name })}
       badge={d.tag}
-      eyebrow={d.region}
-      title={d.name}
+      eyebrow={copy(d.region)}
+      title={copy(d.name)}
       summary={d.teaser}
       facts={[
         { icon: MapPin, label: d.region },
@@ -44,6 +47,8 @@ export function DestinationFeatureCard({
   destination: Destination
   className?: string
 }) {
+  const copy = useCopy()
+
   return (
     <Link
       href={`/destinations/${d.slug}`}
@@ -54,7 +59,7 @@ export function DestinationFeatureCard({
     >
       <Image
         src={d.image || '/placeholder.svg'}
-        alt={`${d.name}, Ethiopia`}
+        alt={copy('{v0}, Ethiopia', { v0: d.name })}
         fill
         sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 400px"
         className="object-cover transition-transform duration-[1600ms] ease-out group-hover:scale-[1.06]"
@@ -64,17 +69,18 @@ export function DestinationFeatureCard({
 
       <div className="relative flex flex-col items-center px-6 pb-8 pt-24 text-center sm:px-8 sm:pb-9">
         <p className="text-[10px] font-semibold uppercase leading-relaxed tracking-[0.2em] text-sand/80">
-          {d.duration} · {d.tag}
-          <span className="block text-accent">{d.region}</span>
+          {copy(d.duration)} · {copy(d.tag)}
+          <span className="block text-accent">{copy(d.region)}</span>
         </p>
         <h3 className="mt-3 text-balance font-serif text-[2rem] leading-[1.05] text-background sm:text-[2.25rem]">
-          {d.name}
+          {copy(d.name)}
         </h3>
         <p className="mt-3 max-w-[34ch] text-pretty text-sm leading-relaxed text-background/80">
-          {d.teaser}
+          {copy(d.teaser)}
         </p>
         <span className="mt-6 inline-flex items-center gap-2.5 whitespace-nowrap rounded-full bg-accent px-5 py-2.5 text-[11px] font-semibold uppercase tracking-[0.16em] text-accent-foreground shadow-[0_8px_22px_-12px_oklch(0.705_0.098_76/0.75)] transition-all duration-300 group-hover:-translate-y-0.5 group-hover:bg-sand">
-          Explore {d.name.split(' ')[0]}
+          {copy('Explore ')}
+          {d.name.split(' ')[0]}
           <ArrowRight className="h-3.5 w-3.5 transition-transform duration-300 group-hover:translate-x-1" />
         </span>
       </div>

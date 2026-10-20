@@ -1,3 +1,4 @@
+import { useCopy } from '@/i18n/copy'
 import { Reveal } from '@/components/ui/reveal'
 import { SectionHeading } from '@/components/ui/section-heading'
 
@@ -25,13 +26,17 @@ const steps = [
 ]
 
 export function PlanningSteps() {
+  const copy = useCopy()
+
   return (
     <section className="border-y border-border bg-muted/40">
       <div className="shell py-16 sm:py-20 lg:py-28">
         <SectionHeading
-          eyebrow="What Happens Next"
-          title="How we plan your journey"
-          aside="Four simple steps from first message to your arrival in Ethiopia."
+          eyebrow={copy('What Happens Next')}
+          title={copy('How we plan your journey')}
+          aside={copy(
+            'Four simple steps from first message to your arrival in Ethiopia.',
+          )}
         />
         <div className="grid gap-x-10 gap-y-10 sm:grid-cols-2 lg:grid-cols-4">
           {steps.map((s, i) => (
@@ -40,12 +45,12 @@ export function PlanningSteps() {
               delay={i * 90}
               className="border-t border-border pt-6"
             >
-              <p className="font-serif text-3xl text-accent">{s.n}</p>
+              <p className="font-serif text-3xl text-accent">{copy(s.n)}</p>
               <p className="mt-3 font-serif text-xl text-foreground sm:text-2xl">
-                {s.title}
+                {copy(s.title)}
               </p>
               <p className="mt-3 text-pretty text-sm leading-relaxed text-muted-foreground">
-                {s.text}
+                {copy(s.text)}
               </p>
             </Reveal>
           ))}

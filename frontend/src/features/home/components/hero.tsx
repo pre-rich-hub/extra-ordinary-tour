@@ -1,7 +1,10 @@
+import { useCopy } from '@/i18n/copy'
 import { HeroActions } from './hero-actions'
 import { HeroSlideshow } from './hero-slideshow'
 
 export function Hero() {
+  const copy = useCopy()
+
   return (
     <section
       id="top"
@@ -16,13 +19,16 @@ export function Hero() {
       <div className="shell flex flex-1 flex-col items-center pb-20 pt-32 text-center sm:pb-24 lg:pb-28">
         <div className="flex flex-1 flex-col items-center justify-center">
           <h1 className="max-w-[18ch] text-balance text-[2.6rem] font-medium leading-[1.02] tracking-[-0.01em] text-background text-shadow-soft [animation:fade-up_1s_ease_0.1s_both] sm:text-6xl lg:text-7xl xl:text-[5.5rem]">
-            Discover Ethiopia{' '}
-            <em className="italic text-accent">Experience the Extraordinary!</em>
+            {copy('Discover Ethiopia')}{' '}
+            <em className="italic text-accent">
+              {copy('Experience the Extraordinary!')}
+            </em>
           </h1>
 
           <p className="mt-6 max-w-[52ch] text-pretty leading-relaxed text-background/90 [animation:fade-up_1s_ease_0.25s_both] sm:mt-8 sm:text-lg">
-            Private and small-group journeys from the rock-hewn churches of
-            Lalibela to the salt and fire of the Danakil.
+            {copy(
+              'Private and small-group journeys from the rock-hewn churches of Lalibela to the salt and fire of the Danakil.',
+            )}
           </p>
         </div>
 

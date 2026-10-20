@@ -1,5 +1,7 @@
 'use client'
 
+import { useCopy } from '@/i18n/copy'
+
 import Image from 'next/image'
 import { useEffect, useRef } from 'react'
 import { ChevronLeft, ChevronRight, X } from 'lucide-react'
@@ -20,6 +22,8 @@ export function Lightbox({
   onClose: () => void
   onIndexChange: (index: number) => void
 }) {
+  const copy = useCopy()
+
   const photo = photos[index]
   const closeRef = useRef<HTMLButtonElement>(null)
   const touchX = useRef<number | null>(null)
@@ -52,7 +56,11 @@ export function Lightbox({
     <div
       role="dialog"
       aria-modal="true"
-      aria-label={`${photo.title}, photo ${index + 1} of ${count}`}
+      aria-label={copy('{v0}, photo {v1} of {v2}', {
+        v0: photo.title,
+        v1: index + 1,
+        v2: count,
+      })}
       className="fixed inset-0 z-[70] flex flex-col bg-charcoal/97 text-background backdrop-blur-sm [animation:fade-up_0.35s_ease_both]"
       onTouchStart={(e) => (touchX.current = e.touches[0].clientX)}
       onTouchEnd={(e) => {
@@ -64,13 +72,14 @@ export function Lightbox({
     >
       <div className="flex items-center justify-between px-5 py-4 sm:px-8 sm:py-5">
         <span className="font-serif text-sm tabular-nums text-background/70">
-          {String(index + 1).padStart(2, '0')} / {String(count).padStart(2, '0')}
+          {String(index + 1).padStart(2, '0')} /{' '}
+          {String(count).padStart(2, '0')}
         </span>
         <button
           ref={closeRef}
           type="button"
           onClick={onClose}
-          aria-label="Close gallery"
+          aria-label={copy('Close gallery')}
           className="flex h-11 w-11 items-center justify-center rounded-full border border-background/25 transition-colors hover:border-accent hover:bg-accent hover:text-accent-foreground"
         >
           <X className="h-5 w-5" strokeWidth={1.5} />
@@ -78,10 +87,13 @@ export function Lightbox({
       </div>
 
       <div className="relative min-h-0 flex-1 px-4 sm:px-20 lg:px-28">
-        <div key={photo.src} className="relative h-full w-full [animation:fade-up_0.45s_ease_both]">
+        <div
+          key={photo.src}
+          className="relative h-full w-full [animation:fade-up_0.45s_ease_both]"
+        >
           <Image
             src={photo.src}
-            alt={photo.alt}
+            alt={copy(photo.alt)}
             fill
             sizes="100vw"
             className="object-contain"
@@ -93,26 +105,39 @@ export function Lightbox({
         <LightboxArrow side="right" onClick={() => go(1)} />
       </div>
 
-      <div key={`${photo.src}-caption`} className="shell py-6 text-center [animation:fade-up_0.5s_ease_both] sm:py-8">
+      <div
+        key={`${photo.src}-caption`}
+        className="shell py-6 text-center [animation:fade-up_0.5s_ease_both] sm:py-8"
+      >
         <p className="text-[10px] font-semibold uppercase tracking-[0.22em] text-accent">
-          {photo.category} · {photo.location}
+          {copy(photo.category)} · {copy(photo.location)}
         </p>
-        <p className="mt-2 font-serif text-2xl sm:text-3xl">{photo.title}</p>
+        <p className="mt-2 font-serif text-2xl sm:text-3xl">
+          {copy(photo.title)}
+        </p>
         <p className="mx-auto mt-2 max-w-[60ch] text-pretty text-sm leading-relaxed text-background/70 sm:text-base">
-          {photo.caption}
+          {copy(photo.caption)}
         </p>
       </div>
     </div>
   )
 }
 
-function LightboxArrow({ side, onClick }: { side: 'left' | 'right'; onClick: () => void }) {
+function LightboxArrow({
+  side,
+  onClick,
+}: {
+  side: 'left' | 'right'
+  onClick: () => void
+}) {
+  const copy = useCopy()
+
   const Icon = side === 'left' ? ChevronLeft : ChevronRight
   return (
     <button
       type="button"
       onClick={onClick}
-      aria-label={side === 'left' ? 'Previous photo' : 'Next photo'}
+      aria-label={side === 'left' ? copy('Previous photo') : copy('Next photo')}
       className={`absolute top-1/2 hidden h-12 w-12 -translate-y-1/2 items-center justify-center rounded-full border border-background/25 bg-charcoal/40 backdrop-blur-sm transition-colors hover:border-accent hover:bg-accent hover:text-accent-foreground sm:flex ${
         side === 'left' ? 'left-5 lg:left-8' : 'right-5 lg:right-8'
       }`}

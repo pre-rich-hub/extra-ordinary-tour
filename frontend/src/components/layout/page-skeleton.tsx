@@ -1,8 +1,13 @@
+'use client'
+
+import { useCopy } from '@/i18n/copy'
 // Instant placeholder shown while a tour or destination page loads, so a tap
 // on a card gets an immediate response. Mirrors the PageHero + content layout.
 export function PageSkeleton() {
+  const copy = useCopy()
+
   return (
-    <div aria-busy="true" aria-label="Loading">
+    <div aria-busy="true" aria-label={copy('Loading')}>
       <section className="relative flex min-h-[74svh] items-end overflow-hidden bg-charcoal pt-28 sm:min-h-[68svh] lg:min-h-[76vh]">
         <div className="absolute inset-0 animate-pulse bg-gradient-to-br from-charcoal via-secondary to-charcoal" />
         <div className="shell relative pb-12 sm:pb-16 lg:pb-20">

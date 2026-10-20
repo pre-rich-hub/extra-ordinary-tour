@@ -16,11 +16,13 @@ same-origin `/api/...` URLs through the existing Next.js rewrite. The public
 site can render without a backend using the static data owned by each feature.
 Admin authentication and mutations require the backend.
 
-| Script | Purpose |
-| --- | --- |
-| `pnpm dev` | Development server |
-| `pnpm build` / `pnpm start` | Production build and server |
-| `pnpm typecheck` | TypeScript check without emitting |
+| Script                      | Purpose                                 |
+| --------------------------- | --------------------------------------- |
+| `pnpm dev`                  | Development server                      |
+| `pnpm build` / `pnpm start` | Production build and server             |
+| `pnpm typecheck`            | TypeScript check without emitting       |
+| `pnpm test`                 | Localization regression tests           |
+| `pnpm i18n:audit`           | Translation coverage and ICU validation |
 
 The equivalent `npm run <script>` commands also work with installed dependencies.
 Run the explicit type check as well as the build: the current Next.js configuration
@@ -31,11 +33,11 @@ ignores TypeScript errors during builds.
 ```text
 src/
 ├── app/                     Routes, data loading, and page composition
-│   ├── (site)/              Public routes, with unchanged URLs
-│   ├── admin/               Protected admin routes
-│   ├── login/               Admin sign-in route
-│   ├── layout.tsx           Existing fonts, metadata, site chrome, analytics
-│   ├── not-found.tsx
+│   ├── [locale]/            Public en/es/fr routes and localized site layout
+│   ├── (private)/           English admin and login routes, own root layout
+│   ├── global-not-found.tsx Unsupported locales and unmatched root URLs
+│   ├── sitemap.ts           Published locale URLs
+│   ├── robots.ts
 │   └── globals.css          Design tokens and global styles
 ├── features/                Business functionality and its data
 │   ├── home/                Homepage sections and featured-story selection data
@@ -58,6 +60,8 @@ src/
 ├── components/              Shared UI, layout pieces, cards, brand icons
 ├── config/                  Site identity, contact facts, navigation
 ├── hooks/                   Feature-independent React hooks
+├── i18n/                    Routing, request, navigation, publication and copy
+├── messages/                Shared English, Spanish and French UI messages
 └── lib/
     ├── api/                 Shared JSON transport, timeout, query encoding
     └── utils.ts             General class-name utilities
@@ -138,25 +142,23 @@ Keep shared `PageHero`, `SectionHeading`, and `CtaBand` instances directly in a
 page where they clarify its composition. Admin pages similarly import their
 resource component from `features/admin/<resource>/components`.
 
-## Locations for upcoming work
+## Localization and upcoming work
 
 Add these when implementing the corresponding capability; they are not empty
 placeholder directories in this refactor.
 
-| Responsibility | Location |
-| --- | --- |
-| English, Spanish, French routing and loading | `src/i18n/` |
-| Translated UI messages | `src/messages/{en,es,fr}.json` |
-| Translated domain content | Owning feature's data layer |
-| Cloudinary URL and delivery helpers | `src/lib/media/` |
-| Shared image component | `src/components/media/` |
-| Shared metadata and structured-data helpers | `src/lib/seo/` |
-| Page-specific SEO content | Owning feature |
-| Sitemap and robots route exports | `src/app/` |
+| Responsibility                               | Location                       |
+| -------------------------------------------- | ------------------------------ |
+| English, Spanish, French routing and loading | `src/i18n/`                    |
+| Translated UI messages                       | `src/messages/{en,es,fr}.json` |
+| Translated domain content                    | Owning feature's data layer    |
+| Cloudinary URL and delivery helpers          | `src/lib/media/`               |
+| Shared image component                       | `src/components/media/`        |
+| Shared metadata and structured-data helpers  | `src/lib/seo/`                 |
+| Page-specific SEO content                    | Owning feature                 |
+| Sitemap and robots route exports             | `src/app/`                     |
 
-This structure does not introduce localized URLs, translations, Cloudinary
-uploads, or SEO/GEO changes. Existing content, assets, routes, and layout behavior
-are preserved.
+Public URLs now use `/en`, `/es` and `/fr`. Unprefixed public URLs permanently redirect to English. Spanish and French are review drafts with `noindex`; they are excluded from sitemap and hreflang. Admin/login stay unprefixed. See [the localization guide](i18n.md) for translation files, verification and publication steps. Cloudinary and broader SEO/GEO work remain separate.
 
 ## Verification
 

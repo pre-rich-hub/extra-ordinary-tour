@@ -1,19 +1,35 @@
+import { useCopy } from '@/i18n/copy'
 import { hasPrice, priceShort } from '../lib/format'
 import { BookingCard } from '@/components/cards/booking-card'
 import { Reveal } from '@/components/ui/reveal'
 import type { Tour } from '../types'
 
 export function TourBooking({ tour: t }: { tour: Tour }) {
+  const copy = useCopy()
+
   return (
     <aside className="lg:col-start-2 lg:row-span-2 lg:row-start-1">
       <div className="lg:sticky lg:top-28">
         <Reveal delay={120}>
           <BookingCard
-            label="Pricing"
-            title={hasPrice(t.from) ? `From ${priceShort(t.from)}` : 'Price on request'}
-            subtitle={hasPrice(t.from) ? 'per person, twin share' : 'quoted for your dates and group size'}
+            label={copy('Pricing')}
+            title={
+              hasPrice(t.from)
+                ? copy('From {v0}', { v0: priceShort(t.from) })
+                : copy('Price on request')
+            }
+            subtitle={
+              hasPrice(t.from)
+                ? copy('per person, twin share')
+                : copy('quoted for your dates and group size')
+            }
             rows={[
-              { k: 'Duration', v: t.nights ? `${t.days} / ${t.nights} Nights` : t.days },
+              {
+                k: 'Duration',
+                v: t.nights
+                  ? copy('{v0} / {v1} Nights', { v0: t.days, v1: t.nights })
+                  : t.days,
+              },
               { k: 'Group size', v: t.group },
               { k: 'Best season', v: t.season },
               {
@@ -21,10 +37,13 @@ export function TourBooking({ tour: t }: { tour: Tour }) {
                 v:
                   t.places[0] === t.places[t.places.length - 1]
                     ? t.places[0]
-                    : `${t.places[0]} to ${t.places[t.places.length - 1]}`,
+                    : copy('{v0} to {v1}', {
+                        v0: t.places[0],
+                        v1: t.places[t.places.length - 1],
+                      }),
               },
             ]}
-            primary={{ label: 'Book this tour', href: '#enquire' }}
+            primary={{ label: copy('Book this tour'), href: '#enquire' }}
           />
         </Reveal>
       </div>

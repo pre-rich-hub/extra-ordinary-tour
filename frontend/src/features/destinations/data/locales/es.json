@@ -1,0 +1,1253 @@
+{
+  "lalibela": {
+    "name": "Lalibela",
+    "region": "Norte histórico",
+    "tag": "Patrimonio de la UNESCO",
+    "teaser": "Once iglesias excavadas en la roca viva, aún vivas con la oración.",
+    "intro": "La “Nueva Jerusalén” del rey Lalibela: una ciudad santa del siglo XII excavada en la roca volcánica roja de las montañas Lasta, donde la liturgia nunca ha cesado.",
+    "bestTime": "Octubre a marzo",
+    "duration": "2 a 3 días",
+    "altitude": "2.500 metros",
+    "highlights": [
+      "Bete Medhane Alem, la iglesia monolítica más grande del mundo",
+      "La Bete Giyorgis en forma de cruz, excavada a 12 metros de profundidad en la roca",
+      "Túneles y trincheras que unen los grupos norte y este",
+      "Monasterios de montaña de Asheton Maryam y Yemrehanna Kristos",
+      "Genna y Timkat, cuando llegan decenas de miles de peregrinos"
+    ],
+    "paragraphs": [
+      "Lalibela, antiguamente conocida como Roha, fue la capital de la dinastía Zagwe. Bajo el rey Lalibela, a finales del siglo XII y principios del XIII, se excavaron once iglesias directamente en la roca en dos grupos principales, unidas por túneles y pasajes ceremoniales, con la solitaria Bete Giyorgis de pie aparte. La UNESCO los inscribió como Patrimonio de la Humanidad en 1978.",
+      "Lalibela no es una ruina. Es un santuario en funcionamiento y la ciudad más sagrada de Etiopía, donde los sacerdotes todavía descienden por las mismas escaleras de roca que sus predecesores excavaron hace ocho siglos. Al llegar temprano, escuchas el canto antes de ver las iglesias. Nuestro fundador nació aquí y comenzó su carrera guiando estas iglesias, por eso sabemos las horas en las que están en su punto más hermoso.",
+      "Más allá de la ciudad, las montañas Lasta esconden muchas más iglesias rupestres y rupestres del mismo período, rutas de senderismo comunitarias y el alto macizo de Abune Yosef, todo ello fácil de combinar con una visita."
+    ]
+  },
+  "harar": {
+    "name": "Harar",
+    "region": "Este de Etiopía",
+    "tag": "Patrimonio de la UNESCO",
+    "teaser": "Una ciudad musulmana amurallada con 82 mezquitas, coloridos mercados y hombres hiena.",
+    "intro": "Una de las ciudades más sagradas del Islam, situada entre colinas verdes en el muro oriental del Valle del Rift, con su laberinto de callejuelas encerrado por el muro de Jugol desde el siglo XVI.",
+    "bestTime": "Octubre a marzo",
+    "duration": "2 dias",
+    "altitude": "1.885 metros",
+    "highlights": [
+      "El Jugol, la histórica ciudad amurallada de Harar, con sus cinco puertas antiguas",
+      "El ritual de alimentación de las hienas fuera de las murallas al anochecer",
+      "La casa de Arthur Rimbaud y el museo cultural Harari",
+      "Mercados de especias, cestería y platería de la ciudad vieja."
+    ],
+    "paragraphs": [
+      "Fundada entre los siglos VII y XI, Harar se convirtió en la capital de un emirato musulmán independiente en el siglo XVI, cuando el Emir Nur construyó la muralla de Jugol para protegerla. Durante siglos fue el centro del aprendizaje islámico en el Cuerno de África y una próspera ciudad caravanera que comerciaba con Arabia y más allá. Su casco antiguo, con 82 mezquitas y más de cien santuarios en menos de medio kilómetro cuadrado, fue declarado Patrimonio de la Humanidad por la UNESCO en 2006.",
+      "Hoy en día, los pueblos Adare, Oromo, Somali y Amhara comparten sus calles y mercados, donde mujeres con vestidos llamativos venden especias, cestas tejidas y joyas de plata bajo arcos árabes. Visite la antigua casa del poeta francés Arthur Rimbaud y, al caer la noche, observe cómo los hombres hiena alimentan a mano a las hienas salvajes, una tradición que ha continuado durante generaciones."
+    ]
+  },
+  "danakil-depression": {
+    "name": "Depresión de Danakil",
+    "region": "Naturaleza y vida silvestre",
+    "tag": "Expedición",
+    "teaser": "Uno de los lugares más calurosos de la tierra, pintado de azufre y sal.",
+    "intro": "A más de 100 metros bajo el nivel del mar: manantiales ácidos del color de la yema de huevo, un lago de lava permanente y caravanas de sal que no han cambiado en mil años.",
+    "bestTime": "noviembre a marzo",
+    "duration": "3 a 4 días",
+    "altitude": "-116 metros",
+    "highlights": [
+      "Las terrazas minerales amarillas, verdes y naranjas de Dallol",
+      "Ascenso nocturno al lago de lava de Erta Ale",
+      "Afar mineros de sal y caravanas de camellos en el lago Assale",
+      "Atardecer sobre las salinas y noches bajo las estrellas del desierto"
+    ],
+    "paragraphs": [
+      "La depresión de Danakil, que forma parte del Gran Valle del Rift, cerca de la frontera con Eritrea, se encuentra a tan solo 116 metros bajo el nivel del mar alrededor del lago Assale, uno de los puntos más bajos de África. Es una de las regiones más cálidas, secas y tectónicamente activas del planeta, con temperaturas diurnas que superan regularmente los 45 °C.",
+      "Sus paisajes no se parecen a nada en la tierra: el campo hidrotermal de Dallol, donde la potasa y el azufre crean piscinas de colores surrealistas; las salinas donde los mineros afar todavía cortan bloques a mano y los cargan en caravanas de camellos con destino a las tierras altas; y el volcán en escudo Erta Ale con su brillante lago de lava.",
+      "Realizamos el Danakil como una expedición totalmente respaldada por conductores experimentados en el desierto, un cocinero, un guía local Afar, una escolta policial, cómodas camas de campaña y abundante agua potable. Comodidad dentro de lo razonable y consejos honestos sobre el resto."
+    ]
+  },
+  "omo-valley": {
+    "name": "Valle de Omo",
+    "region": "Sur de Etiopía y valle de Omo",
+    "tag": "Culturas vivas",
+    "teaser": "Un mosaico vivo de pueblos que han dado forma a este valle fluvial durante milenios.",
+    "intro": "El bajo Omo es una de las regiones con mayor diversidad cultural del mundo, hogar de Hamar, Mursi, Karo, Dassanech y muchos más, cada uno con su propio idioma, vestimenta y ceremonias.",
+    "bestTime": "Octubre a marzo",
+    "duration": "5 a 9 días",
+    "altitude": "400 a 1.500 m",
+    "highlights": [
+      "Mercados semanales en Key Afar, Dimeka y Turmi",
+      "Una ceremonia de salto de toros en Hamar, cuando el tiempo lo permite",
+      "Comunidades Mursi en las colinas del Parque Nacional Mago",
+      "Pueblos Karo en lo alto de un recodo del río Omo",
+      "El Museo del Sur de Omo en Jinka"
+    ],
+    "paragraphs": [
+      "El río Omo fluye hacia el sur a través de algunos de los países más remotos de África antes de llegar al lago Turkana. Su valle inferior, declarado Patrimonio de la Humanidad por la UNESCO por sus descubrimientos de fósiles, alberga más de una docena de comunidades que representan varias familias lingüísticas, desde los hamar y los banna hasta los mursi, karo, arbore, dassanech y nyangatom.",
+      "Muchos todavía viven del pastoreo de ganado y de la agricultura ribereña, y tradiciones como la pintura corporal, la escarificación, las placas labiales y el salto del toro Hamar siguen siendo fundamentales para su identidad. Las ciudades de entrada como Arba Minch, Jinka y Turmi permiten combinar las visitas a los pueblos con el lago Chamo, las tierras altas de Dorze y los pueblos amurallados de piedra de Konso.",
+      "Viajamos por el Omo con guías locales de las comunidades que visitamos, planificamos los días de mercado y las ceremonias, y preguntamos antes de cada fotografía, para que sea la conversación, no la cámara, la que dirija."
+    ]
+  },
+  "simien-mountains": {
+    "name": "Montañas Simien",
+    "region": "Naturaleza y vida silvestre",
+    "tag": "Parque Nacional UNESCO",
+    "teaser": "El Techo de África, donde los monos gelada pastan sobre una caída de mil metros.",
+    "intro": "Pináculos de basalto irregulares, escarpes que caen hacia las nubes y vida silvestre endémica que no se encuentra en ningún otro lugar: walia ibex, gelada y el lobo etíope.",
+    "bestTime": "Octubre a marzo",
+    "duration": "1 a 5 días",
+    "altitude": "3.200 a 4.550 m",
+    "highlights": [
+      "Caminando entre tropas gelada habituadas cerca de Sankaber y Gich",
+      "Walia ibex en los acantilados alrededor de Chenek",
+      "Amanecer desde Imet Gogo, cresta tras cresta sobre las nubes",
+      "Cascada Jinbar cayendo desde la escarpa",
+      "Ascenso opcional al Ras Dashen, el pico más alto de Etiopía."
+    ],
+    "paragraphs": [
+      "Creado para proteger a la cabra walia en peligro de extinción, el Parque Nacional de las Montañas Simien fue uno de los primeros sitios en ser inscrito en la Lista del Patrimonio Mundial de la UNESCO, en 1978. Se encuentra en el lado noroeste del macizo de Simien, entre Gondar, Axum y Lalibela en la histórica ruta norte.",
+      "Los Simien son menos una cadena montañosa que una meseta quebrada, dividida por la erosión en torres, gargantas y escarpados acantilados. Los mamíferos endémicos incluyen el gelada, el walia ibex y el lobo etíope, mientras que los quebrantahuesos y los cuervos de pico grueso cabalgan sobre las aguas termales. Lobelias gigantes salpican las praderas afroalpinas y brezos centenarios bordean los senderos.",
+      "Puedes visitarlo en una excursión de un día desde Gondar o caminar por la escarpa durante varios días, acampando en Sankaber, Gich y Chenek con un explorador, un cocinero y mulas. La única temporada de lluvias va desde junio hasta mediados de septiembre; el resto del año el parque está abierto y espectacular."
+    ]
+  },
+  "bale-mountains": {
+    "name": "Montañas Bale",
+    "region": "Naturaleza y vida silvestre",
+    "tag": "Parque Nacional UNESCO",
+    "teaser": "Páramos afroalpinos que albergan al cánido más raro del mundo: el lobo etíope.",
+    "intro": "La meseta de Sanetti es la mayor extensión de hábitat afroalpino de África y el mejor lugar del mundo para ver la caza del lobo etíope salvaje.",
+    "bestTime": "Octubre a abril",
+    "duration": "3 a 6 días",
+    "altitude": "2.500 a 4.377 m",
+    "highlights": [
+      "Seguimiento del lobo etíope en la meseta de Sanetti",
+      "Tulu Dimtu, el segundo pico más alto de Etiopía, con 4.377 m",
+      "El bosque nuboso de Harenna con café salvaje y monos colobos.",
+      "Nyala de montaña y antílope de Menelik alrededor de Dinsho",
+      "Más de 250 especies de aves, incluidas 16 endémicas de Etiopía"
+    ],
+    "paragraphs": [
+      "Las montañas Bale protegen uno de los ecosistemas más singulares de África y fueron inscritas por la UNESCO como Patrimonio de la Humanidad en 2023. Sus residentes más famosos son el lobo etíope, el cánido más raro del mundo, aproximadamente la mitad de cuya población vive aquí, y el nyala de montaña, un antílope que solo se encuentra en Etiopía.",
+      "La carretera que cruza la meseta de Sanetti es la carretera transitable más alta de África. Las mañanas son frías, claras y tranquilas, y los avistamientos de un lobo de color óxido trabajando en una madriguera de roedores son genuinamente íntimos. Debajo de la escarpa sur, el bosque Harenna es otro mundo de musgo, café silvestre, colobos y cálaos."
+    ]
+  },
+  "gondar": {
+    "name": "gondar",
+    "region": "Norte histórico",
+    "tag": "ciudad imperial",
+    "teaser": "El Camelot de África: castillos, baños y techos pintados de un imperio montañés.",
+    "intro": "La capital imperial de Etiopía del siglo XVII, donde los castillos de piedra se elevan sobre la ciudad y Timkat todavía llena los baños reales cada enero.",
+    "bestTime": "Octubre a marzo",
+    "duration": "1 a 2 días",
+    "altitude": "2.133 metros",
+    "highlights": [
+      "El recinto real Fasil Ghebbi, declarado Patrimonio de la Humanidad por la UNESCO",
+      "Debre Berhan Selassie y su techo de caras de ángeles alados",
+      "El baño de Fasilides, inundado por las celebraciones del Timkat",
+      "Las ruinas del palacio de la emperatriz Mentewab en Kuskuam"
+    ],
+    "paragraphs": [
+      "Fundada por el emperador Fasilides en 1636, Gondar fue la sede de los emperadores de Etiopía durante más de dos siglos. El Recinto Real contiene castillos y palacios construidos entre 1635 y 1855, una arquitectura única en África que combina las tradiciones aksumitas con influencias árabes, indias y europeas. Fue inscrito por la UNESCO en 1979.",
+      "Más allá del recinto se encuentran el palacio de Ras Bet, los baños de Fasilides, las ruinas de Kuskuam y la iglesia de Debre Berhan Selassie, cuyo techo de querubines pintados es una de las imágenes más fotografiadas de Etiopía. Gondar combina naturalmente con las montañas Simien y es el mejor lugar del país para celebrar Timkat."
+    ]
+  },
+  "bahir-dar-lake-tana": {
+    "name": "Bahir Dar y el lago Tana",
+    "region": "Norte histórico",
+    "tag": "Monasterios insulares",
+    "teaser": "Monasterios insulares, barcos de papiro y el nacimiento del Nilo Azul.",
+    "intro": "Una ciudad bordeada de palmeras a orillas del lago más grande de Etiopía, cuyas islas albergan monasterios pintados y manuscritos centenarios.",
+    "bestTime": "Septiembre a marzo",
+    "duration": "1 a 2 días",
+    "altitude": "1.800m",
+    "highlights": [
+      "Paseo en barco a Ura Kidane Mehret y sus murales pintados.",
+      "Dega Estifanos y los restos de emperadores medievales",
+      "Pescadores en barcos tradicionales tankwa de papiro",
+      "Pelícanos e hipopótamos donde el Nilo Azul sale del lago"
+    ],
+    "paragraphs": [
+      "Bahir Dar siempre ha sido un centro de comercio y los pescadores todavía utilizan tankwas (pequeños barcos de papiro) en el lago. Hoy en día es un punto de partida agradable con avenidas bordeadas de palmeras, mercados coloridos y talleres de tejido, y el punto de partida para explorar el lago Tana.",
+      "Las islas y penínsulas del lago albergan una veintena de monasterios. Ura Kidane Mehret en la península de Zege es famosa por sus vívidos frescos; Dega Estifanos guarda iconos y restos de varios emperadores; Kibran Gabriel tiene una iglesia tipo catedral construida por primera vez en el siglo XVII. Algunos monasterios insulares solo admiten hombres y su guía planificará en consecuencia."
+    ]
+  },
+  "blue-nile-falls": {
+    "name": "Cataratas del Nilo Azul",
+    "region": "Norte histórico",
+    "tag": "Maravilla Natural",
+    "teaser": "Tis Issat, el “Agua Humeante”, rugiendo en un desfiladero de basalto.",
+    "intro": "Cerca de Bahir Dar, el Nilo Azul se hunde más de 40 metros sobre un ancho labio de basalto, arrojando una niebla que empapa a los espectadores y pinta arcoíris a lo largo del desfiladero.",
+    "bestTime": "agosto a diciembre",
+    "duration": "Medio dia",
+    "altitude": "1.700 metros",
+    "highlights": [
+      "El puente portugués del siglo XVII sobre el desfiladero",
+      "Arco iris en el spray después de la temporada de lluvias",
+      "Un corto paseo por tierras de cultivo hasta el mirador.",
+      "Monos y pájaros coloridos en el bosque ribereño."
+    ],
+    "paragraphs": [
+      "Conocidas localmente como Tis Issat, las cataratas se encuentran a unos 30 kilómetros de Bahir Dar. En plena inundación pueden extenderse unos 400 metros de ancho, y el rocío continuo sostiene un pequeño bosque siempre verde lleno de monos y pájaros.",
+      "El sendero cruza campos abiertos antes de descender a un puente de piedra fortificado construido en el siglo XVII, luego sube una ladera cubierta de hierba hasta el mirador principal. El flujo de agua está regulado en parte por un sistema hidroeléctrico aguas arriba, por lo que las cataratas son más impresionantes durante y justo después de las lluvias, de agosto a diciembre."
+    ]
+  },
+  "axum": {
+    "name": "Aksum",
+    "region": "Norte histórico",
+    "tag": "Capital antigua",
+    "teaser": "Obeliscos de granito, tumbas reales y el lugar de descanso del Arca.",
+    "intro": "Capital del Reino de Aksum, una de las cuatro grandes potencias del mundo antiguo y corazón espiritual del cristianismo ortodoxo etíope.",
+    "bestTime": "Octubre a marzo",
+    "duration": "1 a 2 días",
+    "altitude": "2.131 metros",
+    "highlights": [
+      "El Parque de las Estelas del Norte y la Gran Estela caída",
+      "Iglesia de Nuestra Señora María de Sión y Capilla de la Tabla",
+      "Tumbas del rey Kaleb y del rey Gebre Meskel",
+      "La inscripción de Ezana y el palacio de la reina de Saba",
+      "El festival Hidar Tsion a finales de noviembre"
+    ],
+    "paragraphs": [
+      "El Reino Aksumita creció alrededor del siglo IV a.C. hasta dominar el comercio entre África, Arabia, el mundo romano y la India en el siglo I d.C. Acuñaba sus propias monedas, desarrolló su propia escritura y bajo el rey Ezana en el siglo IV se convirtió en uno de los primeros reinos del mundo en adoptar el cristianismo. La UNESCO inscribió sus sitios arqueológicos en 1980.",
+      "La tradición etíope sostiene que el Arca de la Alianza reposa en la Capilla de la Tabla junto a la Iglesia de Santa María de Sión, y la ciudad está estrechamente vinculada a la Reina de Saba. Los puntos destacados incluyen las estelas monumentales (bloques individuales de granito tallados para imitar torres de varios pisos), tumbas reales, ruinas de palacios y el Museo Arqueológico."
+    ]
+  },
+  "gheralta-tigray-churches": {
+    "name": "Gheralta y las iglesias rupestres de Tigray",
+    "region": "Norte histórico",
+    "tag": "Iglesias del acantilado",
+    "teaser": "Más de 120 iglesias excavadas en la roca, a algunas de las cuales sólo se puede acceder escalando un acantilado.",
+    "intro": "Entre las torres de arenisca del macizo de Gheralta, se encuentran antiguas iglesias talladas en los acantilados, con sus paredes cubiertas de frescos que pocos viajeros ven.",
+    "bestTime": "Septiembre a abril",
+    "duration": "2 a 3 días",
+    "altitude": "2.000 a 2.600 m",
+    "highlights": [
+      "La subida a Abuna Yemata Guh y sus frescos del siglo XV",
+      "Abreha we Atsbeha, una de las iglesias más antiguas de Etiopía",
+      "Debre Maryam Korkor y Daniel Korkor en la cima de la cresta",
+      "Wukro Cherkos, una iglesia semimonolítica de estilo Aksumita",
+      "El monasterio de Debre Damo, situado en lo alto de un acantilado"
+    ],
+    "paragraphs": [
+      "En Tigray se han registrado más de 120 iglesias excavadas en la roca, que datan aproximadamente del siglo IV al XV, muchas de ellas más antiguas que la de Lalibela. La mayoría están agrupadas alrededor de las montañas Gheralta al noroeste de Mekelle, donde las vistas de la llanura de Hawzen son tan memorables como el arte.",
+      "Abuna Yemata Guh requiere una lucha casi vertical con una sección corta de roca desnuda y una cornisa estrecha muy por encima del valle; En el interior, su techo abovedado está pintado con santos y apóstoles. A Debre Damo, fundada por Abune Aregawi en el siglo VI, se llega mediante una cuerda de cuero y está abierta solo a hombres. Las visitas más fáciles incluyen Abreha we Atsbeha y Wukro Cherkos."
+    ]
+  },
+  "yemrehanna-kristos": {
+    "name": "Yemrehanna Kristos",
+    "region": "Norte histórico",
+    "tag": "Iglesia Rupestre",
+    "teaser": "Una iglesia construida de madera y piedra, escondida dentro de una cueva sobre Lalibela.",
+    "intro": "Uno de los edificios aksumitas tardíos mejor conservados de Etiopía, construido con capas alternas de madera y piedra dentro de una vasta cueva natural.",
+    "bestTime": "Octubre a abril",
+    "duration": "Medio dia",
+    "altitude": "2.700 metros",
+    "highlights": [
+      "La fachada escalonada de madera y piedra",
+      "Techos interiores pintados y tallados.",
+      "Un paseo por el bosque de enebros hasta la cueva.",
+      "Un modelo para las iglesias excavadas en la roca de Lalibela"
+    ],
+    "paragraphs": [
+      "A diferencia de las iglesias de Lalibela, Yemrehanna Kristos fue construida, en lugar de excavada, sobre una base de madera y basalto debajo de una cueva sobresaliente a unos 40 kilómetros de la ciudad. Puede ser anterior a las iglesias de Lalibela en varias décadas, y su fachada en capas muestra claramente de dónde vino su lenguaje arquitectónico.",
+      "Son pocos los viajeros que realizan el viaje, lo que no hace más que aumentar su atmósfera. Un corto trayecto en coche y una suave caminata te llevarán a la cueva, donde un sacerdote te mostrará el interior y los antiguos restos de los peregrinos que se conservan en la parte trasera."
+    ]
+  },
+  "yeha": {
+    "name": "Yeha",
+    "region": "Norte histórico",
+    "tag": "Arqueología",
+    "teaser": "El edificio en pie más antiguo de Etiopía: un templo de 2.500 años de antigüedad cerca de Axum.",
+    "intro": "El lugar de nacimiento de la primera gran civilización de Etiopía, donde un templo precristiano aún se mantiene en toda su altura después de 25 siglos.",
+    "bestTime": "Octubre a marzo",
+    "duration": "Medio dia",
+    "altitude": "2.100 metros",
+    "highlights": [
+      "El Gran Templo de Yeha, construido entre los siglos VII y V a.C.",
+      "Bloques de piedra pulida colocados sin mortero",
+      "El monasterio de Abba Afse y sus manuscritos",
+      "Un recorrido panorámico por las tierras altas desde Axum"
+    ],
+    "paragraphs": [
+      "A menos de dos horas en coche de Axum, Yeha era el centro del reino pre-Aksumita de D'mt. Su Gran Templo, una única cámara sin techo de unos 20 metros de largo, tiene paredes de unos 10 metros de altura construidas con bloques de piedra suavemente pulidos, algunos de más de tres metros de largo, ensamblados sin mortero.",
+      "Junto a las ruinas, el monasterio de Abba Afse, uno de los Nueve Santos, conserva manuscritos y tesoros religiosos. Es una parada imprescindible para todo aquel interesado en los orígenes de la civilización etíope."
+    ]
+  },
+  "negash": {
+    "name": "Negash",
+    "region": "Norte histórico",
+    "tag": "Herencia islámica",
+    "teaser": "Sitio del primer asentamiento musulmán de África y símbolo de coexistencia religiosa.",
+    "intro": "Un pequeño pueblo en Tigray donde el rey cristiano de Aksum dio refugio a los primeros seguidores del profeta Mahoma en el siglo VII.",
+    "bestTime": "Octubre a marzo",
+    "duration": "1 a 2 horas",
+    "altitude": "2.000 metros",
+    "highlights": [
+      "La Mezquita Al-Nejashi, reconstruida en un sitio histórico",
+      "Tumbas de los primeros refugiados musulmanes",
+      "La historia de la primera Hégira en Abisinia",
+      "Una parada fácil en la carretera entre Mekelle y Wukro."
+    ],
+    "paragraphs": [
+      "Negash se encuentra a unos 60 kilómetros al norte de Mekelle. La tradición sostiene que los primeros musulmanes, incluidos miembros de la familia del profeta Mahoma, huyeron de la persecución en La Meca y fueron recibidos aquí por el rey Aksumita, conocido en árabe como al-Najashi. Se considera el sitio de la primera mezquita de África.",
+      "Para los etíopes de ambas religiones, Negash sigue siendo un poderoso recordatorio de la larga tradición de coexistencia pacífica del país entre comunidades cristianas y musulmanas."
+    ]
+  },
+  "abune-yosef": {
+    "name": "Abune Yosef",
+    "region": "Norte histórico",
+    "tag": "Trekking en las tierras altas",
+    "teaser": "Un macizo de 4.284 metros sobre Lalibela con lobos etíopes y gelada.",
+    "intro": "Una de las montañas más espectaculares del macizo de Lasta: un frágil mundo afroalpino de lobelias gigantes, fauna poco común y pueblos agrícolas remotos.",
+    "bestTime": "Septiembre a mayo",
+    "duration": "2 a 4 días",
+    "altitude": "3.000 a 4.284 m",
+    "highlights": [
+      "Una oportunidad de ver al lobo etíope en peligro de extinción",
+      "Grandes tropas de gelada en los pastizales",
+      "Casas de huéspedes comunitarias en el camino desde Lalibela",
+      "Más de 220 especies de aves, incluidas endémicas"
+    ],
+    "paragraphs": [
+      "Abune Yosef, que se eleva a 4.284 metros en el norte de Wollo, se encuentra entre las montañas más altas de Etiopía. Sus hábitats varían desde bosques secos montanos y bosques de enebros hasta pastizales afroalpinos por encima de los 3.500 metros, hogar de al menos 43 especies de mamíferos, incluidos el lobo etíope, el gelada, el klipspringer y el leopardo, y más de 220 especies de aves.",
+      "En las laderas noroeste, las comunidades agrícolas cultivan cebada, patatas y lentejas a más de 3.300 metros de altura. Las casas de huéspedes administradas por la comunidad hacen posible caminar hasta aquí desde Lalibela, combinando paisajes extraordinarios con la genuina hospitalidad de las tierras altas."
+    ]
+  },
+  "asheton-maryam": {
+    "name": "Ashton Maryam",
+    "region": "Norte histórico",
+    "tag": "Monasterio de montaña",
+    "teaser": "Un monasterio en lo alto de un acantilado sobre Lalibela con vistas panorámicas de las montañas Lasta.",
+    "intro": "Este monasterio, excavado en la ladera del monte Abune Yosef a unos 3.150 metros de altura, se atribuye tradicionalmente al rey Na'akueto La'ab, sobrino de Lalibela.",
+    "bestTime": "Octubre a abril",
+    "duration": "Medio dia",
+    "altitude": "3.150 metros",
+    "highlights": [
+      "Una caminata panorámica o un paseo en mula desde Lalibela",
+      "Cruces antiguas, manuscritos y tesoros de la iglesia.",
+      "Vistas panorámicas sobre Lalibela y la sierra de Lasta."
+    ],
+    "paragraphs": [
+      "Asheton Maryam se encuentra muy por encima de Lalibela y se llega a ella por un camino empinado de aproximadamente una hora y media, que recompensa a los visitantes con magníficas vistas y una iglesia tranquila y atmosférica, parcialmente excavada en la roca.",
+      "Los sacerdotes aquí guardan cruces procesionales, manuscritos iluminados y otros tesoros, que a menudo están felices de mostrar. Es una excursión favorita en nuestros viajes a Timkat y a Lalibela."
+    ]
+  },
+  "dire-dawa": {
+    "name": "Dire Dawa",
+    "region": "Este de Etiopía",
+    "tag": "ciudad ferroviaria",
+    "teaser": "Ciudad ferroviaria de Etiopía, fundada donde la línea procedente de Yibuti llegaba a las colinas.",
+    "intro": "Una animada ciudad comercial con arquitectura de la época colonial, coloridos mercados y una histórica estación de tren, y la puerta de entrada a Harar.",
+    "bestTime": "Octubre a marzo",
+    "duration": "Medio día a 1 día",
+    "altitude": "1.200 metros",
+    "highlights": [
+      "La histórica estación de tren y las antiguas locomotoras.",
+      "Mercado de Kafira, donde antiguamente llegaban las caravanas de camellos",
+      "El casco antiguo de Kezira, de influencia francesa",
+      "Vuelos fáciles desde Addis Abeba"
+    ],
+    "paragraphs": [
+      "Dire Dawa se fundó en 1902, cuando el ferrocarril Etiopía-Djibouti llegó a la zona, y rápidamente se convirtió en un centro para el comercio y la industria. Sus calles arboladas, edificios con arcadas y su atmósfera multicultural la hacen diferente a cualquier otra ciudad de Etiopía.",
+      "La mayoría de los viajeros pasan por allí de camino a Harar, a aproximadamente una hora de distancia, pero los mercados, el patrimonio ferroviario y el ritmo relajado merecen unas horas por sí solos."
+    ]
+  },
+  "sof-omar-cave": {
+    "name": "Cueva Sof Omar",
+    "region": "Este de Etiopía",
+    "tag": "Maravilla Natural",
+    "teaser": "El sistema de cuevas más largo de Etiopía, excavado en piedra caliza por el río Weyib.",
+    "intro": "Más de 15 kilómetros de pasadizos, pilares y cámaras abovedadas, sagrados para los musulmanes locales y una extensión natural de un viaje a las montañas Bale.",
+    "bestTime": "Octubre a marzo",
+    "duration": "1 dia",
+    "altitude": "1.300 metros",
+    "highlights": [
+      "La Cámara de las Columnas con pilares de hasta 20 metros de altura",
+      "El curso subterráneo del río Weyib",
+      "Santuarios relacionados con Sheikh Sof Omar",
+      "Dik-dik, kudu y pájaros del campo seco alrededor de la entrada"
+    ],
+    "paragraphs": [
+      "Sof Omar se encuentra al este de las montañas Bale, donde el río Weyib ha excavado una extraordinaria red de cuevas de piedra caliza que se extiende a lo largo de unos 15 kilómetros, uno de los sistemas de cuevas más largos de África. En el interior hay imponentes pilares, arcos naturales, cúpulas y cámaras profundas.",
+      "Según la tradición, las cuevas albergaron al jeque Sof Omar en el siglo XII y siguen siendo un lugar de peregrinación. Una caminata guiada por la sección principal dura aproximadamente una hora y se puede agregar fácilmente a un itinerario de las Montañas Bale."
+    ]
+  },
+  "addis-ababa": {
+    "name": "Addis Abeba",
+    "region": "Addis Abeba y alrededores",
+    "tag": "ciudad capital",
+    "teaser": "La capital diplomática de África: museos, catedrales, mercados y café.",
+    "intro": "La “Nueva Flor”, fundada por el emperador Menelik II y la emperatriz Taytu en 1886, es el corazón político, cultural y culinario de Etiopía y la puerta de entrada al país.",
+    "bestTime": "Todo el año",
+    "duration": "1 a 2 días",
+    "altitude": "2.355 metros",
+    "highlights": [
+      "Lucy y tres millones de años de historia humana en el Museo Nacional",
+      "Catedral de la Santísima Trinidad y tumba del emperador Haile Selassie",
+      "Merkato, uno de los mercados al aire libre más grandes de África",
+      "Vistas panorámicas desde el monte Entoto",
+      "Cena tradicional con música, baile y ceremonia del café."
+    ],
+    "paragraphs": [
+      "Con una población de varios millones de habitantes, Addis Abeba alberga la sede de la Unión Africana y la Comisión Económica de las Naciones Unidas para África, lo que le valió el título de capital diplomática de África. También es una de las capitales más altas del mundo.",
+      "La ciudad ofrece una mezcla fascinante de historia y vida moderna: el fósil de Lucy (Australopithecus afarensis) en el Museo Nacional, el Museo Etnológico en el antiguo palacio de Haile Selassie, la Catedral de la Santísima Trinidad, el Parque Unity, el bullicio de Merkato y los frescos bosques de Entoto sobre la ciudad. Cada uno de nuestros viajes comienza aquí."
+    ]
+  },
+  "museums-and-monuments": {
+    "name": "Museos y monumentos de Addis Abeba",
+    "region": "Addis Abeba y alrededores",
+    "tag": "Patrimonio",
+    "teaser": "Lucy, los tesoros imperiales y la historia de una de las naciones más antiguas del mundo.",
+    "intro": "Desde el fósil de Lucy de 3,2 millones de años hasta el palacio de Haile Selassie, los museos de la capital son la introducción perfecta a Etiopía.",
+    "bestTime": "Todo el año",
+    "duration": "Medio día a 1 día",
+    "altitude": "2.355 metros",
+    "highlights": [
+      "Lucy y Selam en el Museo Nacional de Etiopía",
+      "El Museo Etnológico en el antiguo palacio de Haile Selassie",
+      "Museo Conmemorativo de los Mártires del Terror Rojo",
+      "Catedral de la Santísima Trinidad y Catedral de San Jorge"
+    ],
+    "paragraphs": [
+      "El Museo Nacional alberga las colecciones arqueológicas e históricas más importantes de Etiopía, incluida Lucy, el homínido de 3,2 millones de años descubierto en Afar en 1974. El Museo Etnológico, dentro del antiguo palacio del emperador Haile Selassie en la Universidad de Addis Abeba, presenta las tradiciones, artesanías y creencias de los numerosos pueblos de Etiopía.",
+      "Combínelos con las catedrales y monumentos de la ciudad para disfrutar de un día rico que explica los orígenes de la humanidad, el surgimiento de los reinos antiguos y la creación de la Etiopía moderna."
+    ]
+  },
+  "entoto": {
+    "name": "Entoto",
+    "region": "Addis Abeba y alrededores",
+    "tag": "Parque Natural",
+    "teaser": "Colinas boscosas sobre la capital con vistas, historia y aire fresco de la montaña.",
+    "intro": "La cresta cubierta de eucaliptos donde Menelik II fundó su capital, ahora alberga el Parque Natural de Entoto y la histórica iglesia de Entoto Maryam.",
+    "bestTime": "Todo el año",
+    "duration": "Medio dia",
+    "altitude": "2.600 a 3.100 m",
+    "highlights": [
+      "Vistas panorámicas sobre Addis Abeba",
+      "Iglesia Entoto Maryam, donde fue coronado Menelik II",
+      "Rutas a pie, en bicicleta y a caballo.",
+      "Alrededor de 200 especies de aves, incluido el pájaro gato abisinio"
+    ],
+    "paragraphs": [
+      "Entoto se eleva entre 2.600 y 3.100 metros en el extremo norte de la ciudad. Menelik II construyó aquí su primer palacio y la iglesia de Entoto Maryam antes de trasladarse para fundar Addis Abeba, y la zona sigue siendo rica en historia.",
+      "El Parque Natural Entoto ahora ofrece senderos forestales, miradores, restaurantes y actividades al aire libre, y la cresta es el campo de entrenamiento favorito de los corredores de larga distancia de Etiopía al amanecer."
+    ]
+  },
+  "unity-park": {
+    "name": "parque de la unidad",
+    "region": "Addis Abeba y alrededores",
+    "tag": "Jardines del Palacio",
+    "teaser": "Los terrenos del Gran Palacio de Menelik II, abiertos al público en 2019.",
+    "intro": "Un parque de 40 acres dentro del recinto histórico del Palacio Nacional, con residencias reales, salones de banquetes, jardines y un zoológico.",
+    "bestTime": "Todo el año",
+    "duration": "2 a 3 horas",
+    "altitude": "2.355 metros",
+    "highlights": [
+      "Edificios palaciegos y salones del trono originales de Menelik II",
+      "Jardines indígenas y un pequeño zoológico con leones abisinios",
+      "Exposiciones sobre las regiones y la historia de Etiopía.",
+      "Un complemento sencillo para un recorrido por la ciudad de Addis Abeba"
+    ],
+    "paragraphs": [
+      "Unity Park se inauguró en 2019 dentro del recinto del Gran Palacio, sede del gobierno etíope durante más de un siglo. Los visitantes pueden pasear por residencias reales restauradas, salones de banquetes y jardines que datan de la época de Menelik II.",
+      "Los pabellones celebran las culturas de las regiones de Etiopía, mientras que el zoológico y los jardines lo convierten en una parada agradable tanto para familias como para amantes de la historia."
+    ]
+  },
+  "menagesha-suba-forest": {
+    "name": "Bosque Menagesha Suba",
+    "region": "Addis Abeba y alrededores",
+    "tag": "Bosque antiguo",
+    "teaser": "Uno de los bosques protegidos más antiguos de África, a sólo 45 kilómetros de Addis Abeba.",
+    "intro": "Antiguo bosque de enebros y podocarpus en las laderas del monte Wechecha, que se dice que está protegido desde el siglo XV.",
+    "bestTime": "Octubre a mayo",
+    "duration": "1 dia",
+    "altitude": "2.300 a 3.385 m",
+    "highlights": [
+      "Rutas de senderismo entre enebros gigantes y árboles de Hagenia",
+      "El volcán extinto del monte Wechecha",
+      "Antílope de Menelik, monos colobos y aves endémicas",
+      "Aire fresco de montaña cerca de la capital"
+    ],
+    "paragraphs": [
+      "Unas 2.500 hectáreas de bosque autóctono cubren las laderas sur y oeste del monte Wechecha, un volcán extinto que alcanza los 3.385 metros. Es uno de los parches de bosque nativo más grandes que quedan cerca de la capital y fue un bosque real en la época de Menelik II.",
+      "El bosque alberga al endémico antílope de Menelik, leopardos y monos colobos, y aves como el agapornis de alas negras, el pájaro carpintero abisinio y el pájaro gato abisinio, ideal para un día de senderismo y observación de aves."
+    ]
+  },
+  "wenchi-crater-lake": {
+    "name": "Lago del cráter Wenchi",
+    "region": "Addis Abeba y alrededores",
+    "tag": "Lago Volcánico",
+    "teaser": "Una isla monasterio, aguas termales y colinas verdes dentro de un volcán extinto.",
+    "intro": "A unos 150 kilómetros al oeste de Addis Abeba, un lago de color azul profundo llena la caldera de un volcán extinto en lo alto de las tierras altas de Oromia.",
+    "bestTime": "Octubre a junio",
+    "duration": "1 dia",
+    "altitude": "2.800 a 3.386 m",
+    "highlights": [
+      "Senderismo o paseos a caballo hasta la orilla del lago.",
+      "Viaje en barco al monasterio de la isla de Cherkos.",
+      "Aguas termales y cascadas en el valle.",
+      "Ecoturismo comunitario con guías locales."
+    ],
+    "paragraphs": [
+      "Wenchi es uno de los paisajes más bellos del centro de Etiopía. Tierras de cultivo, bosques y cascadas rodean el cráter, y una asociación de ecoturismo administrada por la comunidad proporciona guías, caballos y botes.",
+      "Una visita típica incluye la caminata o el paseo hasta el lago, un cruce en bote hasta el pequeño monasterio de la isla y tiempo en las aguas termales antes del almuerzo con vista. Es una de nuestras excursiones de un día favoritas desde la capital."
+    ]
+  },
+  "debre-libanos": {
+    "name": "Debre Libanos",
+    "region": "Addis Abeba y alrededores",
+    "tag": "Monasterio y garganta",
+    "teaser": "Un monasterio histórico al borde de un desfiladero, con gelada y el Puente Portugués.",
+    "intro": "Fundado por San Tekle Haymanot en el siglo XIII, Debre Libanos es uno de los monasterios más importantes de Etiopía, ubicado en una cornisa sobre el desfiladero del río Jemma.",
+    "bestTime": "Septiembre a mayo",
+    "duration": "1 dia",
+    "altitude": "2.500 metros",
+    "highlights": [
+      "La iglesia del monasterio con sus vidrieras.",
+      "El Puente Portugués y gelada en los acantilados.",
+      "Vistas al inmenso desfiladero del Nilo Azul",
+      "Aves endémicas, incluida la chata de los acantilados de alas blancas."
+    ],
+    "paragraphs": [
+      "A unos 100 kilómetros al norte de Addis Abeba, Debre Libanos fue fundada en el siglo XIII y sigue siendo un importante centro de peregrinación. La iglesia actual fue construida bajo Haile Selassie, y la cueva de Tekle Haymanot se encuentra en la ladera de arriba.",
+      "Cerca de allí, un corto paseo conduce al antiguo puente de piedra conocido como Puente Portugués, donde pastan gelada en los bordes de los acantilados, y más al norte la carretera llega al borde del desfiladero del Nilo Azul, a más de un kilómetro de profundidad."
+    ]
+  },
+  "tiya-and-adadi-mariam": {
+    "name": "Tiya y Adadi Mariam",
+    "region": "Addis Abeba y alrededores",
+    "tag": "Patrimonio de la UNESCO",
+    "teaser": "Misteriosas estelas talladas y una iglesia excavada en la roca, un día tranquilo desde Addis Abeba.",
+    "intro": "Al sur de la capital, un campo de menhires grabados declarado Patrimonio de la Humanidad por la UNESCO y una iglesia semimonolítica atribuida a la época del rey Lalibela.",
+    "bestTime": "Todo el año",
+    "duration": "1 dia",
+    "altitude": "2.000 a 2.200 m",
+    "highlights": [
+      "Las 36 estelas en pie de Tiya grabadas con espadas y símbolos",
+      "Adadi Mariam, una iglesia excavada en la roca excavada en la ladera",
+      "El sitio prehistórico de Melka Kunture en el río Awash",
+      "Pueblos rurales de Gurage y Oromo a lo largo del camino."
+    ],
+    "paragraphs": [
+      "Tiya, inscrita por la UNESCO en 1980, es uno de los muchos sitios de estelas más importantes de la región de Soddo. Sus 36 monumentos, algunos grabados con espadas y símbolos enigmáticos, marcan antiguos cementerios cuyos constructores siguen siendo un misterio.",
+      "Adadi Mariam, a unos 70 kilómetros de Addis Abeba, es una iglesia semimonolítica excavada en roca blanda, tradicionalmente vinculada al rey Lalibela y todavía en uso por la comunidad local."
+    ]
+  },
+  "erta-ale": {
+    "name": "Erta Ale",
+    "region": "Naturaleza y vida silvestre",
+    "tag": "Volcán Activo",
+    "teaser": "La “Montaña Humeante”: uno de los pocos volcanes del planeta con un lago de lava.",
+    "intro": "Un volcán en escudo basáltico en el Danakil cuyo cráter en la cima ha contenido lava fundida durante más de un siglo.",
+    "bestTime": "noviembre a marzo",
+    "duration": "1 a 2 días",
+    "altitude": "613 metros",
+    "highlights": [
+      "Una caminata nocturna hasta el borde del cráter con camellos que transportan el campamento.",
+      "El resplandor de la lava contra el cielo nocturno del desierto.",
+      "Campos de lava negra que se extienden hasta el horizonte",
+      "Amanecer sobre el Danakil antes del descenso."
+    ],
+    "paragraphs": [
+      "Erta Ale significa \"Montaña Humeante\" en el idioma Afar. Sus cráteres han albergado un lago de lava persistente desde al menos principios del siglo XX, uno de los pocos en el mundo, aunque la actividad varía y el nivel del lago sube y baja.",
+      "La caminata desde Dodom dura unas tres horas y se realiza al fresco de la tarde, con camellos cargando colchones, comida y agua. Diseñamos cada excursión a Erta Ale en función del estado físico del grupo, el clima y las condiciones volcánicas actuales."
+    ]
+  },
+  "awash-national-park": {
+    "name": "Parque Nacional Awash",
+    "region": "Naturaleza y vida silvestre",
+    "tag": "safari",
+    "teaser": "Llanuras de órix, aguas termales y una cascada, a tres horas al este de la capital.",
+    "intro": "El parque safari más accesible de Etiopía, ubicado alrededor del volcán inactivo Fantale y el desfiladero del río Awash.",
+    "bestTime": "Octubre a abril",
+    "duration": "2 a 3 días",
+    "altitude": "750 a 2.007 m",
+    "highlights": [
+      "Beisa oryx y gacela de Soemmerring en las llanuras de Ilala Sala",
+      "Las cataratas Awash caen en el desfiladero del río",
+      "Las aguas termales de Filwoha, rodeadas de palmeras",
+      "Más de 450 especies de aves registradas"
+    ],
+    "paragraphs": [
+      "A caballo entre el río Awash, en las tierras bajas al este de Addis Abeba, el parque combina bosques áridos de acacias, praderas abiertas y bosques ribereños. La vida silvestre incluye Beisa oryx, el hartebeest de Swayne, gerenuk, jabalíes y babuinos, y la avifauna es excepcional.",
+      "Las cataratas Awash, donde el río desemboca en su garganta, son un punto destacado, al igual que las piscinas de aguas termales de color azul claro en Filwoha. Su proximidad a la capital hace que Awash sea ideal para un breve safari."
+    ]
+  },
+  "abijatta-shalla": {
+    "name": "Parque Nacional Abijatta-Shalla",
+    "region": "Naturaleza y vida silvestre",
+    "tag": "Lagos del valle del Rift",
+    "teaser": "Dos lagos de soda muy diferentes, flamencos, pelícanos y humeantes aguas termales.",
+    "intro": "En el corazón del Valle del Rift, el lago Abijatta, poco profundo y rico en aves, se encuentra junto a la profunda caldera volcánica del lago Shalla.",
+    "bestTime": "Septiembre a mayo",
+    "duration": "1 a 2 días",
+    "altitude": "1.540 a 2.075 m",
+    "highlights": [
+      "Flamencos menores y mayores en el lago Abijatta",
+      "Grandes pelícanos blancos se reproducen en las islas de Shalla",
+      "Aguas termales a orillas del lago Shalla",
+      "Bosque de acacias con avestruz y gacela de Grant"
+    ],
+    "paragraphs": [
+      "Ambos lagos son lagos terminales de soda sin salida, pero no podrían ser más diferentes. Abijatta es poco profunda, con un nivel de agua fluctuante y agua dulce que fluye a través del arroyo Horakello, donde las aves acuáticas se reúnen para beber y bañarse. Shalla, por el contrario, llena un profundo cráter rodeado de acantilados volcánicos.",
+      "Juntos forman uno de los mejores destinos para la observación de aves en Etiopía, que se puede combinar fácilmente con una noche en el cercano lago Langano."
+    ]
+  },
+  "rift-valley-lakes": {
+    "name": "Lagos del valle del Rift",
+    "region": "Naturaleza y vida silvestre",
+    "tag": "Lagos y aves",
+    "teaser": "Ziway, Langano y Hawassa: una cadena de lagos llenos de aves y pescadores.",
+    "intro": "Al sur de Addis Abeba, el Gran Valle del Rift alberga una serie de lagos, cada uno con su propio carácter, que unen la capital con las tierras cafeteras y el valle de Omo.",
+    "bestTime": "Septiembre a mayo",
+    "duration": "1 a 3 días",
+    "altitude": "1.580 a 1.700 m",
+    "highlights": [
+      "Cigüeñas marabú y pelícanos en la orilla del lago Ziway",
+      "Natación y alojamiento en el lago Langano",
+      "El mercado de pescado matutino en el lago Hawassa",
+      "Aguas termales de Wondo Genet y observación de aves en el bosque"
+    ],
+    "paragraphs": [
+      "El lago Ziway es conocido por sus pescadores y monasterios isleños; El lago Langano, con sus aguas de color marrón rojizo, es uno de los pocos lagos de Etiopía considerado libre de bilharzia y es popular para estancias relajantes; El lago Hawassa es famoso por su animado mercado de pescado, donde las cigüeñas marabú esperan las sobras.",
+      "Casi todos los viajes al sur pasan por el Valle del Rift y los lagos son excelentes para observar aves en cualquier época del año."
+    ]
+  },
+  "nech-sar-national-park": {
+    "name": "Parque Nacional Nech Sar",
+    "region": "Naturaleza y vida silvestre",
+    "tag": "safari",
+    "teaser": "Llanuras de cebras y cocodrilos gigantes entre el lago Abaya y el lago Chamo.",
+    "intro": "Cerca de Arba Minch, la sabana y el bosque subterráneo llenan el terreno entre dos grandes lagos, atravesados por el estrecho “Puente de Dios”.",
+    "bestTime": "Octubre a marzo",
+    "duration": "1 a 2 días",
+    "altitude": "1.108 a 1.650 m",
+    "highlights": [
+      "Paseo en barco por el lago Chamo hasta el “mercado de cocodrilos”",
+      "La cebra de Burchell y la gacela de Grant en las llanuras de Nech Sar",
+      "Vistas desde el Puente de Dios entre los dos lagos",
+      "Alrededor de 190 especies de aves, incluida la avutarda kori"
+    ],
+    "paragraphs": [
+      "Ubicado a unos 500 kilómetros al sur de Addis Abeba, el parque cubre unos 514 kilómetros cuadrados de sabana, matorrales y bosques subterráneos alimentados por los manantiales que dan nombre a Arba Minch (“Cuarenta manantiales”). El lago Chamo es conocido por sus enormes cocodrilos e hipopótamos del Nilo.",
+      "Desde Arba Minch, los viajeros pueden combinar Nech Sar con las tierras altas de Dorze, Konso y el viaje hacia el valle de Omo."
+    ]
+  },
+  "mago-national-park": {
+    "name": "Parque Nacional Mago",
+    "region": "Naturaleza y vida silvestre",
+    "tag": "desierto",
+    "teaser": "Sabana y bosque ribereño en el Omo, hogar del pueblo Mursi.",
+    "intro": "Un parque de 2.162 kilómetros cuadrados en la orilla este del río Omo, donde la vida silvestre y algunas de las culturas más distintivas de Etiopía comparten tierra.",
+    "bestTime": "Octubre a marzo",
+    "duration": "1 dia",
+    "altitude": "450 a 2.528 m",
+    "highlights": [
+      "Pueblos Mursi en las colinas del parque.",
+      "Sabana de hierba debajo del Monte Mago",
+      "Búfalo, jirafa y búfalo de Lelwel",
+      "Una excursión fácil desde Jinka."
+    ],
+    "paragraphs": [
+      "A unos 770 kilómetros al suroeste de Addis Abeba, el Parque Nacional Mago es principalmente una sabana de pastos con bosques a lo largo de sus ríos. Se han registrado unas 56 especies de mamíferos, incluidos búfalos, jirafas, elefantes, leones, leopardos y gerenuk, aunque la vida silvestre es tímida y es mejor considerarla como una ventaja.",
+      "La mayoría de los viajeros visitan Mago para conocer a los Mursi, cuyos pueblos se encuentran dentro y alrededor del parque."
+    ]
+  },
+  "omo-national-park": {
+    "name": "Parque Nacional Omo",
+    "region": "Naturaleza y vida silvestre",
+    "tag": "Desierto remoto",
+    "teaser": "El parque nacional más grande de Etiopía: verdadera naturaleza salvaje en la orilla occidental del Omo.",
+    "intro": "Más de 4.000 kilómetros cuadrados de sabana, bosques ribereños y colinas, se encuentran entre las zonas de vida silvestre menos visitadas del este de África.",
+    "bestTime": "noviembre a marzo",
+    "duration": "Expedición",
+    "altitude": "400 a 1.500 m",
+    "highlights": [
+      "Eland, orix, búfalo y cebra de Burchell",
+      "La remota orilla occidental del río Omo",
+      "Comunidades cercanas de Surma y Me’en",
+      "Auténtico viaje de expedición lejos de otros visitantes."
+    ],
+    "paragraphs": [
+      "El Parque Nacional Omo cubre aproximadamente 4.068 kilómetros cuadrados de vida silvestre. Eland, orix, hartebeest de Lelwel, búfalos, jirafas, elefantes, leones, leopardos y guepardos deambulan por sus llanuras, aunque el acceso es difícil y las instalaciones mínimas.",
+      "Las visitas se realizan mediante arreglos especiales como parte de una expedición respaldada, a menudo combinada con las comunidades Surma (Suri) alrededor de Kibish."
+    ]
+  },
+  "chebera-churchura-national-park": {
+    "name": "Parque Nacional Chebera Churchura",
+    "region": "Naturaleza y vida silvestre",
+    "tag": "elefantes",
+    "teaser": "Bosques verdes, cascadas y una de las manadas de elefantes más grandes de Etiopía.",
+    "intro": "Un parque remoto y exuberante en la cuenca del Omo-Gibe, que protege elefantes, leones, búfalos e hipopótamos entre bosques, ríos y humedales.",
+    "bestTime": "noviembre a marzo",
+    "duration": "2 a 3 días",
+    "altitude": "600 a 2.000 m",
+    "highlights": [
+      "Elefantes africanos en un entorno forestal.",
+      "Cascadas, aguas termales y valles fluviales.",
+      "Comunidades de Dawro y Konta alrededor del parque.",
+      "Rica avifauna en diversos hábitats"
+    ],
+    "paragraphs": [
+      "Chebera Churchura, que abarca unos 1.250 kilómetros cuadrados, se caracteriza por bosques, bosques y humedales montanos y ribereños. Es una de las áreas de conservación de elefantes más importantes de Etiopía y también alberga leones, leopardos, búfalos e hipopótamos.",
+      "Rodeado por los pueblos Dawro y Konta, ofrece auténticos encuentros naturales y culturales para los viajeros que buscan más allá de las rutas habituales."
+    ]
+  },
+  "gambella-national-park": {
+    "name": "Parque Nacional Gambella",
+    "region": "Naturaleza y vida silvestre",
+    "tag": "Migración de vida silvestre",
+    "teaser": "El oeste tropical de Etiopía, con la gran migración del kob orejudo.",
+    "intro": "Las vastas llanuras de hierba de la región del río Baro: una de las áreas protegidas más grandes y menos exploradas de Etiopía.",
+    "bestTime": "diciembre a abril",
+    "duration": "Expedición",
+    "altitude": "400 a 770 metros",
+    "highlights": [
+      "La migración estacional del kob orejudoblanco",
+      "Nilo lechwe, búfalo, elefante e hipopótamo",
+      "Shoebill y otras aves de humedales",
+      "Comunidades anuak y nuer a lo largo del río Baro"
+    ],
+    "paragraphs": [
+      "Gambella es la verdadera zona tropical de Etiopía, una tierra de altos pastos, humedales y ríos sudaneses. El Parque Nacional Gambella es hogar de elefantes, búfalos, leones, leopardos, hipopótamos, cocodrilos del Nilo y antílopes raros como el lechwe del Nilo, y alberga una de las migraciones de mamíferos más grandes de África cuando grandes manadas de kobs de orejas blancas se desplazan por las llanuras.",
+      "Remota y con una infraestructura limitada, es mejor visitar Gambella como una expedición hecha a medida para viajeros aventureros."
+    ]
+  },
+  "kafta-sheraro-national-park": {
+    "name": "Parque Nacional Kafta Sheraro",
+    "region": "Naturaleza y vida silvestre",
+    "tag": "elefantes",
+    "teaser": "País de elefantes entre el río Tekeze y la frontera con Eritrea.",
+    "intro": "Establecido en 2007 en el noroeste de Tigray, este parque forma parte de un gran ecosistema transfronterizo con Gash-Setit de Eritrea.",
+    "bestTime": "noviembre a marzo",
+    "duration": "Expedición",
+    "altitude": "550 a 1.000 m",
+    "highlights": [
+      "Uno de los refugios de elefantes más importantes de Etiopía.",
+      "Sabana de acacia y bosque ribereño a lo largo del Tekeze",
+      "Kudu mayor, antílope y rica avifauna",
+      "Naturaleza remota y poco visitada"
+    ],
+    "paragraphs": [
+      "Kafta Sheraro cubre unos 5.000 kilómetros cuadrados entre el río Tekeze en el norte y el río Ruwassa en el sur, a unos 600 kilómetros de Mekelle. Sus bosques, praderas y sabana de acacias albergan elefantes africanos, kudus, leopardos, hienas y muchas aves.",
+      "Las visitas requieren una planificación cuidadosa y asesoramiento local actualizado, y se organizan previa solicitud."
+    ]
+  },
+  "konso": {
+    "name": "Konso",
+    "region": "Sur de Etiopía y valle de Omo",
+    "tag": "Paisaje Cultural de la UNESCO",
+    "teaser": "Pueblos amurallados en lo alto de una colina, terrazas de piedra y monumentos waka tallados en madera.",
+    "intro": "Un paisaje cultural de terrazas de piedra seca y pueblos fortificados declarado Patrimonio de la Humanidad por la UNESCO, formado por más de 400 años de tradición agrícola de Konso.",
+    "bestTime": "Octubre a marzo",
+    "duration": "Medio día a 1 día",
+    "altitude": "1.650 metros",
+    "highlights": [
+      "Caminando por las puertas y callejuelas de un pueblo amurallado",
+      "Casas moras donde se reúnen los hombres y duermen los niños",
+      "Waka: figuras de madera tallada que conmemoran a los héroes",
+      "Laderas escalonadas que se extienden hasta el horizonte"
+    ],
+    "paragraphs": [
+      "Los Konso viven entre colinas de basalto en el sur de Etiopía, donde generaciones de agricultores han construido terrazas de piedra para cultivar sorgo, maíz y algodón en un entorno desafiante. A sus aldeas, construidas en las cimas de colinas y rodeadas por muros de piedra, se accede a través de puertas estrechas y organizadas en torno a casas moras comunales.",
+      "El Paisaje Cultural de Konso fue declarado por la UNESCO en 2011. Una visita es lo más destacado de cualquier viaje entre Arba Minch y el valle de Omo."
+    ]
+  },
+  "dorze-and-chencha": {
+    "name": "Dorzé y Chencha",
+    "region": "Sur de Etiopía y valle de Omo",
+    "tag": "Cultura de las tierras altas",
+    "teaser": "Casas de bambú con forma de colmena y maestros tejedores en las tierras altas de Guge.",
+    "intro": "Muy por encima de Arba Minch, el pueblo Dorze es famoso por sus imponentes casas de bambú y hojas de ensete y por tejer algunos de los mejores algodón de Etiopía.",
+    "bestTime": "Todo el año",
+    "duration": "Medio dia",
+    "altitude": "2.600 a 2.900 m",
+    "highlights": [
+      "Casas tradicionales Dorze de hasta 12 metros de altura",
+      "Tejedores trabajando en telares manuales",
+      "Degustación de pan kocho elaborado con falso plátano",
+      "Vistas sobre el lago Abaya y el lago Chamo"
+    ],
+    "paragraphs": [
+      "Los Dorze viven en las frescas montañas Guge, donde sus distintivas casas con forma de colmena pueden durar generaciones. Las familias cultivan ensete (falso plátano) y son reconocidas como tejedoras del algodón shamma que se usa en toda Etiopía.",
+      "La visita incluye una casa familiar, una demostración de tejido y una degustación de comida y bebida local, con vistas espectaculares de los lagos del Valle del Rift en el camino desde Arba Minch."
+    ]
+  },
+  "arba-minch": {
+    "name": "Arba Minch",
+    "region": "Sur de Etiopía y valle de Omo",
+    "tag": "Ciudad de entrada",
+    "teaser": "El pueblo de “Cuarenta Manantiales”, entre dos lagos en el camino al Omo.",
+    "intro": "Ubicado en la escarpa del Valle del Rift, sobre el lago Abaya y el lago Chamo, Arba Minch es la puerta de entrada a Nech Sar, las tierras altas de Dorze y el valle de Omo.",
+    "bestTime": "Todo el año",
+    "duration": "1 a 2 días",
+    "altitude": "1.285 metros",
+    "highlights": [
+      "Safaris en barco por el lago Chamo",
+      "Vistas al Puente de Dios",
+      "Excursiones de un día a Dorze y Chencha",
+      "Los manantiales forestales que dan nombre al pueblo"
+    ],
+    "paragraphs": [
+      "Arba Minch lleva el nombre de los manantiales que brotan en el bosque subterráneo debajo de la ciudad. Se encuentra entre el lago Abaya, teñido de rojo por los sedimentos, y el lago Chamo, hogar de grandes cocodrilos e hipopótamos.",
+      "Con buenos hoteles y un aeropuerto, es la base natural para explorar el sur de Etiopía antes de continuar hacia Konso, Jinka y Turmi."
+    ]
+  },
+  "mursi-people": {
+    "name": "Pueblo Mursi",
+    "region": "Sur de Etiopía y valle de Omo",
+    "tag": "Gente y Cultura",
+    "teaser": "Pastores de ganado del Parque Nacional Mago, conocido por la placa de labio de arcilla.",
+    "intro": "Uno de los pueblos más conocidos del Valle de Omo, que vive entre el río Omo y el Parque Nacional Mago.",
+    "bestTime": "Octubre a marzo",
+    "duration": "Medio dia",
+    "altitude": "500 a 1.500 m",
+    "highlights": [
+      "La tradición del labial de las mujeres Mursi",
+      "Pintura corporal y facial blanca.",
+      "La cultura centrada en el ganado y la lucha con palos Donga",
+      "Pueblos en las colinas del Parque Nacional Mago"
+    ],
+    "paragraphs": [
+      "Los Mursi son agropastores cuyo ganado es fundamental para la riqueza, el matrimonio y la identidad, y cultivan sorgo a lo largo del río Omo. Algunas comunidades se desplazan estacionalmente según la disponibilidad de agua y pastoreo.",
+      "Son conocidos internacionalmente por la placa labial que llevan algunas mujeres, símbolo de identidad y belleza, y por la pintura corporal con arcilla blanca. Las visitas se suelen realizar desde Jinka; Solicitamos que las fotografías siempre se tomen con consentimiento."
+    ]
+  },
+  "hamar-people": {
+    "name": "Pueblo Hamar",
+    "region": "Sur de Etiopía y valle de Omo",
+    "tag": "Gente y Cultura",
+    "teaser": "Cabello trenzado en ocre, cuero con cuentas y el rito de iniciación del salto del toro.",
+    "intro": "Semipastores del distrito de Hamer Bena alrededor de Turmi y Dimeka, y una de las comunidades más visitadas del valle de Omo.",
+    "bestTime": "Octubre a marzo",
+    "duration": "1 a 2 días",
+    "altitude": "900 a 1.500 m",
+    "highlights": [
+      "La ceremonia del salto de toros (ukuli bula), cuándo se lleva a cabo",
+      "Días de mercado en Turmi y Dimeka",
+      "Bailes nocturnos en las aldeas de Hamar.",
+      "Faldas de mujer de pelo y cuero ocre"
+    ],
+    "paragraphs": [
+      "Los Hamar viven en una zona fértil del valle de Omo en chozas redondas con techo de paja ubicadas alrededor de recintos para ganado y cabras. El ganado proporciona leche, carne y estatus, y las familias intercambian con sus vecinos sorgo y maíz.",
+      "Su tradición más conocida es la ceremonia del salto de toros, en la que un joven corre a lomos de una fila de ganado para demostrar que está preparado para el matrimonio, acompañado de cantos, bailes y celebraciones. Luego se une a los maza, los jóvenes que ayudan a organizar futuras ceremonias."
+    ]
+  },
+  "karo-people": {
+    "name": "Gente Karo",
+    "region": "Sur de Etiopía y valle de Omo",
+    "tag": "Gente y Cultura",
+    "teaser": "Maestros pintores corporales que viven a orillas del río Omo.",
+    "intro": "Una pequeña comunidad en la orilla oriental del Omo, famosa por algunas de las pinturas corporales más elaboradas de África.",
+    "bestTime": "Octubre a marzo",
+    "duration": "Medio dia",
+    "altitude": "400 a 500 metros",
+    "highlights": [
+      "Arte corporal con tiza, ocre y carboncillo",
+      "Pueblos situados sobre un amplio recodo del río",
+      "Huertos ribereños de sorgo y maíz",
+      "Danzas ceremoniales y abalorios."
+    ],
+    "paragraphs": [
+      "Los Karo utilizan tiza blanca, ocre rojo, pigmentos minerales amarillos y carbón para crear llamativos diseños en sus rostros y cuerpos para ceremonias y celebraciones. Los hombres usan moños de arcilla decorados con plumas, y las mujeres son conocidas por sus abalorios y escarificaciones.",
+      "Son agropastores que cultivan las fértiles riberas del río Omo. El pueblo de Kolcho, muy por encima del río, es uno de los lugares más bellos del sur de Etiopía."
+    ]
+  },
+  "banna-people": {
+    "name": "gente banana",
+    "region": "Sur de Etiopía y valle de Omo",
+    "tag": "Gente y Cultura",
+    "teaser": "Vecinos de las tierras altas de Hamar, famosos por caminar con zancos y por la apicultura.",
+    "intro": "Los Banna, que viven en las colinas entre Key Afar y Jinka, comparten el idioma y muchas costumbres con los pueblos Hamar y Bashada.",
+    "bestTime": "Octubre a marzo",
+    "duration": "Medio dia",
+    "altitude": "1.200 a 1.600 m",
+    "highlights": [
+      "El mercado de los jueves en Key Afar",
+      "Hombres jóvenes sobre zancos, pintados con tiza.",
+      "Adornos coloridos con abalorios y arcilla para el cabello.",
+      "Colmenas tradicionales en los árboles."
+    ],
+    "paragraphs": [
+      "Los Banna combinan la cría de ganado con la agricultura y son apicultores expertos. El canto y el baile son fundamentales para su vida social, y los pigmentos naturales se utilizan para la decoración corporal en ocasiones importantes.",
+      "El mercado semanal de Key Afar, donde Banna, Hamar y Tsemay se reúnen para comerciar, es uno de los más animados del valle de Omo."
+    ]
+  },
+  "arbore-people": {
+    "name": "Gente del árbol",
+    "region": "Sur de Etiopía y valle de Omo",
+    "tag": "Gente y Cultura",
+    "teaser": "Pastores de las llanuras secas cercanas al lago Chew Bahir, con llamativos pañuelos negros en la cabeza.",
+    "intro": "Una pequeña comunidad en el sur del valle de Omo con vínculos ancestrales con los pueblos Borana y Konso.",
+    "bestTime": "Octubre a marzo",
+    "duration": "Medio dia",
+    "altitude": "500 metros",
+    "highlights": [
+      "Collares coloridos y tocados negros",
+      "Cantos y bailes ceremoniales.",
+      "Campamentos ganaderos en las llanuras secas",
+      "Una parada fácil entre Konso y Turmi."
+    ],
+    "paragraphs": [
+      "Los Arbore son pastores para quienes el ganado es la medida de riqueza y estatus. La música y la danza son fundamentales para la vida comunitaria y se cree que aportan armonía y prosperidad.",
+      "Las mujeres usan collares y aretes de cuentas en capas, y las jóvenes a menudo se cubren la cabeza con tela negra para protegerse del fuerte sol. Una visita ofrece información sobre una de las comunidades más pequeñas y menos visitadas de Omo."
+    ]
+  },
+  "ari-people": {
+    "name": "Gente Ari",
+    "region": "Sur de Etiopía y valle de Omo",
+    "tag": "Gente y Cultura",
+    "teaser": "Agricultores, alfareros y herreros de las verdes tierras altas que rodean Jinka.",
+    "intro": "Los Ari, una de las comunidades más grandes del sur de Omo, cultivan café, plátanos y maíz en las fértiles colinas que rodean Jinka.",
+    "bestTime": "Todo el año",
+    "duration": "Medio dia",
+    "altitude": "1.500 metros",
+    "highlights": [
+      "Paseos por el pueblo entre plantaciones de café y plátanos.",
+      "Mujeres alfareras en el trabajo",
+      "Herreros tradicionales forjando herramientas.",
+      "El mercado de los sábados de Jinka"
+    ],
+    "paragraphs": [
+      "A diferencia de muchos de sus vecinos pastores, los Ari son principalmente agricultores y sus tierras se encuentran entre las más productivas de la región. Son conocidos por la alfarería, el tejido y el herraje, y muchas familias venden sus artesanías en el mercado de Jinka.",
+      "Un paseo por una aldea Ari es una introducción amable y gratificante a la vida del sur de Etiopía, que se puede combinar fácilmente con el Museo del Sur de Omo."
+    ]
+  },
+  "dassanech-people": {
+    "name": "Gente Dassanech",
+    "region": "Sur de Etiopía y valle de Omo",
+    "tag": "Gente y Cultura",
+    "teaser": "Seminómadas del delta del Omo, cerca de la orilla norte del lago Turkana.",
+    "intro": "Los Dassanech, que viven en el extremo sur de Etiopía, cerca de la frontera con Kenia, se han adaptado a uno de los entornos más duros del país.",
+    "bestTime": "Octubre a marzo",
+    "duration": "Medio dia",
+    "altitude": "370 metros",
+    "highlights": [
+      "Cruzando el río Omo en canoa en Omorate",
+      "Tocados elaborados con abalorios y objetos reciclados",
+      "Casas en forma de cúpula en el delta seco",
+      "Bovinos, caprinos y camellos en el centro de la vida"
+    ],
+    "paragraphs": [
+      "Los Dassanech crían ganado vacuno, caprino, ovino y camello, y cultivan sorgo y maíz en las riberas de los ríos cuando las inundaciones lo permiten. La riqueza se mide tradicionalmente en ganado.",
+      "Las mujeres usan joyas vistosas y tocados creativos hechos con cuentas, metal y materiales reciclados. Las visitas comienzan con un breve cruce en piragua del Omo en Omorate."
+    ]
+  },
+  "nyangatom-people": {
+    "name": "Pueblo Nyangatom",
+    "region": "Sur de Etiopía y valle de Omo",
+    "tag": "Gente y Cultura",
+    "teaser": "Pastores nilóticos de Cisjordania, famosos por sus pesados collares de cuentas.",
+    "intro": "También conocidos como Bume, los Nyangatom viven cerca de las fronteras con Sudán del Sur y Kenia y están relacionados con los Toposa y Turkana.",
+    "bestTime": "Octubre a marzo",
+    "duration": "Medio día a 1 día",
+    "altitude": "400 a 500 metros",
+    "highlights": [
+      "Collares superpuestos de cuentas de colores para mujer",
+      "Campamentos ganaderos seminómadas",
+      "Cantos y bailes ceremoniales.",
+      "Pueblos remotos en la orilla occidental del Omo"
+    ],
+    "paragraphs": [
+      "Los Nyangatom son semipastores que se desplazan con su ganado vacuno, caprino y ovino en busca de pastos, mientras cultivan cuando las condiciones lo permiten. El ganado representa riqueza, estatus y seguridad.",
+      "Las mujeres llevan espectaculares collares de cuentas, que a veces pesan varios kilogramos. Visitarlos requiere una excursión más larga y es ideal para fotógrafos y viajeros que buscan encuentros culturales remotos."
+    ]
+  },
+  "surma-people": {
+    "name": "Pueblo Surma (Suri)",
+    "region": "Sur de Etiopía y valle de Omo",
+    "tag": "Gente y Cultura",
+    "teaser": "Pastores de ganado remotos de Kibish, conocidos por su arte corporal, placas labiales y Donga.",
+    "intro": "Los Surma (o Suri), que viven en el extremo suroeste, cerca de Sudán del Sur, son culturalmente cercanos a los Mursi y Me'en.",
+    "bestTime": "noviembre a marzo",
+    "duration": "2 a 3 días",
+    "altitude": "1.000 a 1.500 m",
+    "highlights": [
+      "Elaborada pintura corporal con arcilla y pigmentos vegetales.",
+      "La ceremonia de lucha con palos Donga",
+      "Placas labiales que usan algunas mujeres.",
+      "Una auténtica expedición a través de Mizan Teferi"
+    ],
+    "paragraphs": [
+      "Los Surma son pastores para quienes el ganado es fundamental para la vida social y económica. La pintura corporal es una forma de arte importante tanto para hombres como para mujeres, y algunas mujeres usan placas de arcilla en los labios como señal de identidad.",
+      "Los hombres son conocidos por Donga, una competencia ritual de lucha con palos que demuestra coraje y habilidad. Llegar a Kibish es un viaje en sí mismo, y la mejor manera de emprenderlo es durante nuestra expedición fotográfica."
+    ]
+  },
+  "tsemay-people": {
+    "name": "Pueblo Tsemay",
+    "region": "Sur de Etiopía y valle de Omo",
+    "tag": "Gente y Cultura",
+    "teaser": "Agropastores del valle de Weito, entre Konso y Hamar.",
+    "intro": "Una pequeña comunidad que vive al sur de Konso y al este de Hamar, con estrechos vínculos con Banna y Arbore.",
+    "bestTime": "Octubre a marzo",
+    "duration": "Medio dia",
+    "altitude": "600 a 1.000 m",
+    "highlights": [
+      "Faldas de cuero con pedrería y recipientes de calabaza",
+      "Hombres llevando pequeños taburetes de madera con reposacabezas",
+      "El valle del río Weito",
+      "Mercado clave de Afar, compartido con Banna y Hamar"
+    ],
+    "paragraphs": [
+      "Los Tsemay combinan el pastoreo de ganado con el cultivo de sorgo y maíz a lo largo del río Weito. El ganado tiene un gran valor social y económico, y el estatus de un hombre se mide por su rebaño.",
+      "Las mujeres visten faldas de cuero decoradas con cuentas y conchas, mientras que los hombres suelen llevar pequeños taburetes de madera. Las danzas rituales unen a la comunidad en ceremonias y celebraciones."
+    ]
+  },
+  "yirgacheffe-and-sidama": {
+    "name": "Yirgacheffe & Sidama",
+    "region": "Sur de Etiopía y valle de Omo",
+    "tag": "Tierras Cafeteras",
+    "teaser": "Las fincas y estaciones de lavado detrás de algunos de los cafés más famosos del mundo.",
+    "intro": "En las verdes colinas al sur de Hawassa, los pequeños agricultores cultivan café a la sombra de ensete y árboles autóctonos, como lo han hecho durante generaciones.",
+    "bestTime": "Octubre a enero (cosecha)",
+    "duration": "2 a 4 días",
+    "altitude": "1.700 a 2.200 m",
+    "highlights": [
+      "Recolección y procesamiento durante la temporada de cosecha.",
+      "Estaciones de lavado y camas de secado elevadas",
+      "El paisaje agroforestal de Gedeo, declarado Patrimonio de la Humanidad por la UNESCO",
+      "Ceremonias del café con familias campesinas"
+    ],
+    "paragraphs": [
+      "Sidama y Yirgacheffe son nombres conocidos por los amantes del café en todo el mundo. Alrededor de Aleta Wondo, Dilla y Yirgacheffe, el café se cultiva bajo un dosel de árboles en un sistema agroforestal tradicional; El Paisaje Cultural de Gedeo fue inscrito por la UNESCO en 2023.",
+      "Nuestros viajes cafeteros visitan fincas y estaciones de lavado, explican cómo las cerezas se convierten en café verde y siempre terminan con la ceremonia misma: tostada, molida y elaborada en una jebena de barro."
+    ]
+  },
+  "kaffa-and-bonga": {
+    "name": "Kaffa y Bonga",
+    "region": "Sur de Etiopía y valle de Omo",
+    "tag": "Lugar de nacimiento del café",
+    "teaser": "Arábica silvestre en los bosques montanos de la Reserva de la Biosfera de Kafa.",
+    "intro": "En el suroeste de Etiopía, la región de Kaffa, que dio nombre al café, todavía alberga bosques donde crece silvestre Coffea arabica.",
+    "bestTime": "Octubre a mayo",
+    "duration": "2 a 3 días",
+    "altitude": "1.700 a 2.300 m",
+    "highlights": [
+      "Caminatas por el bosque hasta los árboles del “café madre” de Mankira",
+      "La Reserva de la Biosfera de Kafa por la UNESCO",
+      "Monos colobos y aves del bosque.",
+      "La finca de café Bebeka cerca de Mizan Teferi"
+    ],
+    "paragraphs": [
+      "La leyenda dice que el café fue descubierto en Kaffa por un cabrero llamado Kaldi. Hoy en día, la Reserva de la Biosfera de Kafa, reconocida por la UNESCO en 2010, protege la selva tropical montana donde crece el café silvestre bajo el dosel.",
+      "Desde Bonga, se realizan caminatas cortas hacia el bosque de Mankira, y el viaje continúa hasta Bebeka, una de las fincas cafetaleras más grandes de Etiopía, para seguir el grano desde la granja hasta la taza."
+    ]
+  },
+  "timkat": {
+    "name": "Timkat (Epifanía)",
+    "region": "Festivales y eventos",
+    "tag": "Patrimonio Inmaterial de la UNESCO",
+    "teaser": "La fiesta más grande de Etiopía: procesiones, agua bendita y celebración alegre.",
+    "intro": "Celebrado el 19 de enero (20 de enero en los años bisiestos), Timkat conmemora el bautismo de Cristo en el Jordán y fue inscrito por la UNESCO en 2019.",
+    "bestTime": "18 al 20 de enero",
+    "duration": "2 a 3 días",
+    "altitude": "2.133 m (Gondar)",
+    "highlights": [
+      "Ketera: la procesión de los Tabots en víspera del festival",
+      "Oraciones e himnos que duran toda la noche junto al agua.",
+      "La bendición y aspersión del agua al amanecer.",
+      "El alegre regreso de los Tabots a sus iglesias",
+      "Los baños de Fasilides en Gondar, llenos para la ocasión"
+    ],
+    "paragraphs": [
+      "En la víspera de Timkat, el Tabot de cada iglesia, una réplica sagrada del Arca de la Alianza, se envuelve en ricas telas y se lleva en procesión hasta un estanque o río, acompañado por sacerdotes con túnicas ceremoniales, diáconos, coros y miles de fieles. Las oraciones y los himnos continúan durante toda la noche.",
+      "Al amanecer se bendice el agua y se rocía sobre la multitud como renovación de los votos bautismales; En Gondar, los fieles saltan al baño de Fasilides. Más tarde, los Tabots son escoltados de regreso a sus iglesias con cantos, bailes y celebraciones. Gondar, Lalibela y Addis Abeba son los lugares más memorables para experimentarlo."
+    ]
+  },
+  "meskel": {
+    "name": "Meskel (Hallazgo de la Vera Cruz)",
+    "region": "Festivales y eventos",
+    "tag": "Patrimonio Inmaterial de la UNESCO",
+    "teaser": "Hogueras, margaritas amarillas y cantos para celebrar el descubrimiento de la Vera Cruz.",
+    "intro": "Celebrado el 27 de septiembre (28 en años bisiestos) desde hace más de 1.600 años, Meskel fue inscrito por la UNESCO como patrimonio cultural inmaterial en 2013.",
+    "bestTime": "26 al 27 de septiembre",
+    "duration": "1 a 2 días",
+    "altitude": "2.355 m (Addis Abeba)",
+    "highlights": [
+      "La gran hoguera Demera en la plaza Meskel, Addis Abeba",
+      "Procesiones de sacerdotes, diáconos y coros",
+      "Margaritas de Meskel (adey abeba) alfombrando el campo",
+      "Celebraciones en Gondar, Axum y Lalibela"
+    ],
+    "paragraphs": [
+      "Meskel (“cruz” en ge’ez y amárico) conmemora el descubrimiento de la Vera Cruz por la emperatriz Helena, madre de Constantino el Grande. La tradición sostiene que siguió el humo de una hoguera para encontrarlo, y Etiopía cree que se conserva un fragmento en el monasterio de montaña de Gishen Mariam.",
+      "En vísperas del festival, se encienden en todo el país altas hogueras Demera decoradas con margaritas amarillas de Meskel, la más grande en la plaza Meskel de Addis Abeba, rodeadas de multitudes que cantan. Se dice que la dirección en la que cae el poste en llamas predice el año que viene."
+    ]
+  },
+  "genna": {
+    "name": "Genna (Navidad etíope)",
+    "region": "Festivales y eventos",
+    "tag": "fiesta",
+    "teaser": "Una vigilia que duró toda la noche entre las iglesias excavadas en la roca de Lalibela el 7 de enero.",
+    "intro": "Los cristianos ortodoxos etíopes celebran la Navidad el 7 de enero, tras un ayuno de 40 días, con una de las reuniones religiosas más emotivas de África.",
+    "bestTime": "6 al 7 de enero",
+    "duration": "2 a 3 días",
+    "altitude": "2.500 m (Lalibela)",
+    "highlights": [
+      "Decenas de miles de peregrinos vestidos de blanco en Lalibela",
+      "Debtera cantando desde el borde de Bete Maryam",
+      "Oraciones a la luz de las velas durante la Nochebuena",
+      "Festejando mientras el ayuno de 40 días llega a su fin"
+    ],
+    "paragraphs": [
+      "En Nochebuena, los fieles se reúnen en sus iglesias para una vigilia de oraciones e himnos que dura horas. Sacerdotes y deudores, estudiosos de la música y la poesía sacerdotales, dirigen cánticos conservados desde que el cristianismo llegó a Etiopía.",
+      "Lalibela es el lugar más extraordinario para experimentar Genna. Los peregrinos caminan durante días para llegar a las iglesias excavadas en la roca, y en la mañana de Navidad los cánticos de los sacerdotes resuenan en la trinchera de Bete Maryam. El alojamiento se reserva con antelación, por lo que recomendamos reservar con mucha antelación."
+    ]
+  },
+  "fasika": {
+    "name": "Fasika (Pascua etíope)",
+    "region": "Festivales y eventos",
+    "tag": "fiesta",
+    "teaser": "Servicios y celebraciones a la luz de las velas que ponen fin al ayuno de Cuaresma de 55 días.",
+    "intro": "La Pascua etíope sigue el calendario ortodoxo, generalmente en abril o principios de mayo, y está precedida por Hudade, el ayuno más largo del año.",
+    "bestTime": "Marzo a mayo (la fecha varía)",
+    "duration": "2 a 3 días",
+    "altitude": "2.500 m (Lalibela)",
+    "highlights": [
+      "Servicios de Semana Santa entre las iglesias de Lalibela",
+      "La vigilia pascual nocturna con velas",
+      "Romper el ayuno con banquetes familiares",
+      "Celebraciones en Axum y Lalibela"
+    ],
+    "paragraphs": [
+      "Durante 55 días, los cristianos ortodoxos se abstienen de carne, lácteos y otros productos animales, comen platos vegetarianos como lentejas y guisantes con injera, y toman su primera comida sólo después de las 3 de la tarde la mayoría de los días.",
+      "En la víspera de Pascua, las iglesias se llenan para un servicio nocturno de oración, himnos y velas que finaliza en las primeras horas. Luego, las familias rompen el ayuno con pollo, cordero, tella y tej. La Semana Santa en Lalibela es especialmente memorable."
+    ]
+  },
+  "enkutatash": {
+    "name": "Enkutatash (Año Nuevo Etíope)",
+    "region": "Festivales y eventos",
+    "tag": "fiesta",
+    "teaser": "Flores amarillas, canciones y nuevos comienzos mientras terminan las lluvias el 11 de septiembre.",
+    "intro": "Etiopía sigue su propio calendario de trece meses y celebra su Año Nuevo el 11 de septiembre (12 en los años bisiestos).",
+    "bestTime": "11 de septiembre",
+    "duration": "1 dia",
+    "altitude": "A nivel nacional",
+    "highlights": [
+      "Campos cubiertos de flores amarillas de adey abeba",
+      "Niñas cantando puerta a puerta con ramos",
+      "Servicios religiosos y fiestas familiares.",
+      "Un campo en su máxima expresión después de las lluvias"
+    ],
+    "paragraphs": [
+      "Enkutatash significa \"regalo de joyas\". La tradición sostiene que cuando la reina de Saba regresó de visitar al rey Salomón, sus jefes la recibieron llenando su tesoro con joyas.",
+      "La fiesta coincide con el final de las largas lluvias, cuando las tierras altas estallan en flores verdes y amarillas. Las familias intercambian saludos, comparten comidas festivas y los niños cantan canciones tradicionales de casa en casa."
+    ]
+  },
+  "ashenda": {
+    "name": "Ashenda",
+    "region": "Festivales y eventos",
+    "tag": "fiesta",
+    "teaser": "Una celebración de niñas y mujeres jóvenes en las ciudades de Tigray y Amhara.",
+    "intro": "Celebrada a finales de agosto al final del ayuno de la Filseta en honor a la Virgen María, Ashenda llena las calles de color, canto y baile.",
+    "bestTime": "finales de agosto",
+    "duration": "2 a 3 días",
+    "altitude": "2.000 a 2.500 m",
+    "highlights": [
+      "Chicas con vestidos bordados y pelo trenzado.",
+      "Faldas de pasto alto ashenda usadas en la cintura.",
+      "Cantando y tocando tambores de casa en casa",
+      "Conocido como Shadey, Solel y Ashendye en diferentes regiones."
+    ],
+    "paragraphs": [
+      "Ashenda toma su nombre de la hierba alta y verde que las niñas atan alrededor de su cintura para la celebración. Las casas y las tiendas se decoran con hierba fresca en señal de bienvenida.",
+      "Las mujeres jóvenes se visten con sus mejores ropas tradicionales, se adornan con joyas y se reúnen para cantar, bailar y tocar tambores por las calles, celebrando la juventud, la belleza y la identidad cultural."
+    ]
+  },
+  "buhe": {
+    "name": "Buhe",
+    "region": "Festivales y eventos",
+    "tag": "fiesta",
+    "teaser": "La Fiesta de la Transfiguración: hogueras, pan y niños cantando hoya hoye.",
+    "intro": "Celebrado el 19 de agosto, Buhe conmemora la Transfiguración de Cristo en el monte Tabor y marca el próximo final de la temporada de lluvias.",
+    "bestTime": "19 de agosto",
+    "duration": "1 dia",
+    "altitude": "A nivel nacional",
+    "highlights": [
+      "Hogueras de Chibo encendidas en todos los barrios",
+      "Niños cantando hoya hoye de puerta en puerta",
+      "Pan especial horneado para la ocasión.",
+      "Servicios religiosos en todo el país."
+    ],
+    "paragraphs": [
+      "Después de los servicios religiosos, los vecinos atan haces de palos en un chibo y lo encienden, cantando y bailando alrededor de las llamas en una celebración similar a Meskel.",
+      "Grupos de niños van de casa en casa cantando hoya hoye y recibiendo a cambio regalos de pan, una celebración comunitaria alegre y muy local."
+    ]
+  },
+  "hidar-tsion": {
+    "name": "Hidar Tsion",
+    "region": "Festivales y eventos",
+    "tag": "peregrinación",
+    "teaser": "Miles de peregrinos se reúnen en Axum para honrar a María de Sión cada noviembre.",
+    "intro": "Celebrado el 30 de noviembre (Hidar 21 en el calendario etíope), Hidar Tsion es el gran festival anual de la Iglesia de Nuestra Señora María de Sión en Axum.",
+    "bestTime": "30 de noviembre",
+    "duration": "2 dias",
+    "altitude": "2.131 m (Axum)",
+    "highlights": [
+      "Procesiones alrededor de la Iglesia de Santa María de Sión",
+      "La Capilla de la Tabla, que se dice alberga el Arca.",
+      "Peregrinos de toda Etiopía con mantones blancos",
+      "Estelas y sitios arqueológicos de Axum"
+    ],
+    "paragraphs": [
+      "La Iglesia de Nuestra Señora María de Sión es uno de los lugares más sagrados del cristianismo etíope. Según la tradición, la contigua Capilla de la Tabla alberga el Arca de la Alianza.",
+      "Cada noviembre, los peregrinos llenan la ciudad con oraciones, cánticos y coloridas procesiones. Combine el festival con los monumentos antiguos de Axum para una visita profundamente memorable."
+    ]
+  },
+  "eid-al-fitr": {
+    "name": "Eid al-Fitr",
+    "region": "Festivales y eventos",
+    "tag": "Festival Islámico",
+    "teaser": "Oraciones comunitarias y fiestas familiares que marcan el final del Ramadán.",
+    "intro": "Las comunidades musulmanas de Etiopía celebran el final del mes sagrado del Ramadán con oraciones, hospitalidad y caridad.",
+    "bestTime": "La fecha sigue el calendario lunar.",
+    "duration": "1 a 3 días",
+    "altitude": "A nivel nacional",
+    "highlights": [
+      "Oraciones masivas en el estadio y las plazas de Addis Abeba",
+      "Celebraciones en Harar, Dire Dawa y Jimma",
+      "Visitas entre familiares y amigos.",
+      "Comida tradicional y generosa hospitalidad."
+    ],
+    "paragraphs": [
+      "Eid al-Fitr comienza el primer día de Shawwal, después del avistamiento de la luna nueva. Se abre con oraciones comunitarias, seguidas de visitas a familiares y amigos, comidas festivas, obsequios y caridad para los necesitados.",
+      "En Addis Abeba, grandes multitudes se reúnen vestidas de blanco para las oraciones matutinas, mientras Harar, el centro histórico del Islam en Etiopía, celebra con especial devoción."
+    ]
+  },
+  "eid-al-adha": {
+    "name": "Eid al-Adha",
+    "region": "Festivales y eventos",
+    "tag": "Festival Islámico",
+    "teaser": "La Fiesta del Sacrificio, celebrada con oración, intercambio y comunidad.",
+    "intro": "Para conmemorar la obediencia del profeta Ibrahim a Dios, los musulmanes de toda Etiopía celebran Eid al-Adha unos 70 días después del final del Ramadán.",
+    "bestTime": "La fecha sigue el calendario lunar.",
+    "duration": "1 a 4 días",
+    "altitude": "A nivel nacional",
+    "highlights": [
+      "Oraciones de la mañana en mezquitas y espacios abiertos.",
+      "Compartir carne con familiares, vecinos y pobres",
+      "Vestimenta tradicional y reuniones familiares.",
+      "Celebraciones en Harar y Addis Abeba"
+    ],
+    "paragraphs": [
+      "Las familias se reúnen para orar, compartir comidas y sacrificar ovejas, cabras o ganado vacuno, distribuyendo la carne entre familiares, vecinos y personas necesitadas con un espíritu de generosidad y compasión.",
+      "Las celebraciones son coloridas y acogedoras y ofrecen a los visitantes una maravillosa visión de la diversidad religiosa de Etiopía."
+    ]
+  },
+  "great-ethiopian-run": {
+    "name": "Gran carrera etíope",
+    "region": "Festivales y eventos",
+    "tag": "Evento deportivo",
+    "teaser": "Corre 10 km a 2.400 metros con decenas de miles de etíopes cada mes de noviembre.",
+    "intro": "La carrera en ruta más grande de África, fundada en 2001 por el legendario Haile Gebrselassie y que se celebra cada mes de noviembre en las calles de Addis Abeba.",
+    "bestTime": "Mediados a finales de noviembre",
+    "duration": "1 dia",
+    "altitude": "2.355 m (Addis Abeba)",
+    "highlights": [
+      "La carrera internacional de 10 km en ruta",
+      "Un mar de corredores con camiseta del mismo color",
+      "Música, baile y celebración a lo largo del recorrido.",
+      "Una oportunidad de detectar a los futuros campeones de Etiopía"
+    ],
+    "paragraphs": [
+      "Haile Gebrselassie, Peter Middlebrook y Abi Masefield concibieron la carrera después de los Juegos Olímpicos de Sydney 2000, y su primera edición en 2001 atrajo a 10.000 corredores. Desde entonces ha crecido hasta contar con decenas de miles de participantes, y también cuenta con una carrera de 5 km exclusiva para mujeres.",
+      "Atletas de élite como Kenenisa Bekele y Tirunesh Dibaba han corrido aquí, pero para la mayoría de los participantes la altitud y la atmósfera son el verdadero desafío. Podemos organizar la inscripción y combinar la carrera con un recorrido."
+    ]
+  }
+}

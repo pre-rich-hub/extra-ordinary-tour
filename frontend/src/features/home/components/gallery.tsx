@@ -1,5 +1,7 @@
 'use client'
 
+import { useCopy } from '@/i18n/copy'
+
 import { useState, useEffect } from 'react'
 import Image from 'next/image'
 import { Play, Pause, ChevronLeft, ChevronRight } from 'lucide-react'
@@ -8,17 +10,20 @@ const shots = [
   {
     src: '/images/lalibela-giyorgis.jpg',
     location: 'Lalibela',
-    description: 'The cross-shaped roof of Bete Giyorgis, carved down into the rock.',
+    description:
+      'The cross-shaped roof of Bete Giyorgis, carved down into the rock.',
   },
   {
     src: '/images/simien-gelada.jpg',
     location: 'Simien Mountains',
-    description: 'Gelada troops grazing on the highland meadows above the escarpment.',
+    description:
+      'Gelada troops grazing on the highland meadows above the escarpment.',
   },
   {
     src: '/images/danakil-dallol.jpg',
     location: 'Danakil Depression',
-    description: 'Sulphur springs and salt terraces more than 100 metres below sea level.',
+    description:
+      'Sulphur springs and salt terraces more than 100 metres below sea level.',
   },
   {
     src: '/images/omo-river.jpg',
@@ -33,11 +38,14 @@ const shots = [
   {
     src: '/images/lake-tana-monastery.jpg',
     location: 'Lake Tana',
-    description: 'A thatched island monastery on the shore of Ethiopia’s largest lake.',
+    description:
+      'A thatched island monastery on the shore of Ethiopia’s largest lake.',
   },
 ]
 
 export function Gallery() {
+  const copy = useCopy()
+
   const [activeIndex, setActiveIndex] = useState(0)
   const [isPlaying, setIsPlaying] = useState(true)
 
@@ -52,7 +60,7 @@ export function Gallery() {
   return (
     <section
       id="journal"
-      aria-label="Photo gallery"
+      aria-label={copy('Photo gallery')}
       className="group/viewport relative isolate h-[100svh] min-h-[560px] w-full overflow-hidden bg-charcoal"
     >
       {shots.map((shot, idx) => {
@@ -63,12 +71,15 @@ export function Gallery() {
           <div
             key={shot.src}
             aria-hidden={!isActive}
-            className={`absolute inset-0 transition-opacity duration-[2000ms] ease-in-out ${isActive ? 'opacity-100 z-10' : 'opacity-0 z-0 pointer-events-none'
-              }`}
+            className={`absolute inset-0 transition-opacity duration-[2000ms] ease-in-out ${
+              isActive
+                ? 'opacity-100 z-10'
+                : 'opacity-0 z-0 pointer-events-none'
+            }`}
           >
             <Image
               src={shot.src}
-              alt={`${shot.location}, Ethiopia`}
+              alt={copy('{v0}, Ethiopia', { v0: shot.location })}
               fill
               sizes="100vw"
               className={`object-cover ${isActive ? kbClass : 'scale-100'}`}
@@ -84,15 +95,20 @@ export function Gallery() {
       {/* Bottom bar: caption, dots and controls, aligned to the page shell */}
       <div className="shell absolute inset-x-0 bottom-0 z-30 pb-8 sm:pb-10 lg:pb-12">
         <div className="flex flex-col gap-5 sm:flex-row sm:items-end sm:justify-between sm:gap-6">
-          <div key={activeIndex} className="max-w-md text-balance [animation:fade-up_0.8s_ease_both]">
+          <div
+            key={activeIndex}
+            className="max-w-md text-balance [animation:fade-up_0.8s_ease_both]"
+          >
             <span className="text-[10px] font-semibold uppercase tracking-[0.22em] text-accent">
-              {String(activeIndex + 1).padStart(2, '0')} / {String(shots.length).padStart(2, '0')} · Captured Moments
+              {String(activeIndex + 1).padStart(2, '0')} /{' '}
+              {String(shots.length).padStart(2, '0')}{' '}
+              {copy('· Captured Moments')}
             </span>
             <h3 className="mt-2 font-serif text-3xl font-normal tracking-wide text-white sm:text-4xl lg:text-5xl">
-              {shots[activeIndex].location}
+              {copy(shots[activeIndex].location)}
             </h3>
             <p className="mt-2 font-sans text-sm leading-relaxed text-sand/80 sm:text-base">
-              {shots[activeIndex].description}
+              {copy(shots[activeIndex].description)}
             </p>
           </div>
 
@@ -107,9 +123,12 @@ export function Gallery() {
                       setActiveIndex(idx)
                       setIsPlaying(true) // reset timer & keep playing on selection
                     }}
-                    className={`h-1.5 rounded-full transition-all duration-500 cursor-pointer ${isActive ? 'w-8 bg-accent' : 'w-2 bg-white/40 hover:bg-white/80'
-                      }`}
-                    aria-label={`Go to slide ${idx + 1}`}
+                    className={`h-1.5 rounded-full transition-all duration-500 cursor-pointer ${
+                      isActive
+                        ? 'w-8 bg-accent'
+                        : 'w-2 bg-white/40 hover:bg-white/80'
+                    }`}
+                    aria-label={copy('Go to slide {v0}', { v0: idx + 1 })}
                   />
                 )
               })}
@@ -118,21 +137,33 @@ export function Gallery() {
               <button
                 onClick={() => setIsPlaying(!isPlaying)}
                 className="p-3 rounded-full bg-charcoal/50 backdrop-blur-md border border-sand/20 hover:border-accent hover:bg-accent hover:text-accent-foreground text-sand transition-all duration-300 cursor-pointer"
-                aria-label={isPlaying ? 'Pause slideshow' : 'Play slideshow'}
+                aria-label={
+                  isPlaying ? copy('Pause slideshow') : copy('Play slideshow')
+                }
               >
-                {isPlaying ? <Pause className="w-4 h-4" /> : <Play className="w-4 h-4" />}
+                {isPlaying ? (
+                  <Pause className="w-4 h-4" />
+                ) : (
+                  <Play className="w-4 h-4" />
+                )}
               </button>
               <button
-                onClick={() => setActiveIndex((prev) => (prev - 1 + shots.length) % shots.length)}
+                onClick={() =>
+                  setActiveIndex(
+                    (prev) => (prev - 1 + shots.length) % shots.length,
+                  )
+                }
                 className="p-3 rounded-full bg-charcoal/50 backdrop-blur-md border border-sand/20 hover:border-accent hover:bg-accent hover:text-accent-foreground text-sand transition-all duration-300 cursor-pointer"
-                aria-label="Previous slide"
+                aria-label={copy('Previous slide')}
               >
                 <ChevronLeft className="w-4 h-4" />
               </button>
               <button
-                onClick={() => setActiveIndex((prev) => (prev + 1) % shots.length)}
+                onClick={() =>
+                  setActiveIndex((prev) => (prev + 1) % shots.length)
+                }
                 className="p-3 rounded-full bg-charcoal/50 backdrop-blur-md border border-sand/20 hover:border-accent hover:bg-accent hover:text-accent-foreground text-sand transition-all duration-300 cursor-pointer"
-                aria-label="Next slide"
+                aria-label={copy('Next slide')}
               >
                 <ChevronRight className="w-4 h-4" />
               </button>
@@ -141,8 +172,8 @@ export function Gallery() {
         </div>
       </div>
 
-        {/* Dynamic CSS animations styles injected locally */}
-        <style>{`
+      {/* Dynamic CSS animations styles injected locally */}
+      <style>{`
           @keyframes kb-pan-1 {
             0% { transform: scale(1.03) translate(0%, 0%); }
             100% { transform: scale(1.08) translate(-1%, -0.5%); }
@@ -166,13 +197,13 @@ export function Gallery() {
           }
         `}</style>
 
-        {/* Progress Bar indicating time remaining for current slide */}
-        {isPlaying && (
-          <div
-            key={activeIndex}
-            className="absolute bottom-0 left-0 right-0 h-[3px] bg-accent/90 z-30 origin-left animate-progress-grow"
-          />
-        )}
+      {/* Progress Bar indicating time remaining for current slide */}
+      {isPlaying && (
+        <div
+          key={activeIndex}
+          className="absolute bottom-0 left-0 right-0 h-[3px] bg-accent/90 z-30 origin-left animate-progress-grow"
+        />
+      )}
     </section>
   )
 }

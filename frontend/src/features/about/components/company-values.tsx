@@ -1,3 +1,4 @@
+import { useCopy } from '@/i18n/copy'
 import Image from 'next/image'
 import { Reveal } from '@/components/ui/reveal'
 
@@ -25,24 +26,30 @@ const values = [
 ]
 
 export function CompanyValues() {
+  const copy = useCopy()
+
   return (
     <section className="border-y border-border bg-parchment">
       <div className="shell grid gap-14 py-24 sm:py-28 lg:grid-cols-[0.8fr_1.2fr] lg:gap-20 lg:py-36">
         <Reveal className="lg:sticky lg:top-32 lg:self-start">
           <p className="eyebrow mb-6 text-accent">
-            Why travel with us
+            {copy('Why travel with us')}
           </p>
           <h2 className="text-balance font-serif text-4xl leading-[1.05] text-foreground sm:text-5xl">
-            The things we will <em className="italic text-primary">never compromise</em>
+            {copy('The things we will ')}
+            <em className="italic text-primary">{copy('never compromise')}</em>
           </h2>
           <p className="mt-6 max-w-sm text-pretty leading-relaxed text-muted-foreground sm:text-lg">
-            Five principles that shape every itinerary, every guide and every
-            day you spend with us in Ethiopia.
+            {copy(
+              'Five principles that shape every itinerary, every guide and every day you spend with us in Ethiopia.',
+            )}
           </p>
           <div className="relative mt-10 hidden aspect-[4/3] overflow-hidden rounded-sm lg:block">
             <Image
               src="/images/dorze.jpg"
-              alt="Traditional beehive-shaped Dorze houses in the Guge highlands"
+              alt={copy(
+                'Traditional beehive-shaped Dorze houses in the Guge highlands',
+              )}
               fill
               sizes="30vw"
               className="object-cover"
@@ -62,9 +69,11 @@ export function CompanyValues() {
                 {String(i + 1).padStart(2, '0')}
               </span>
               <div>
-                <h3 className="font-serif text-2xl text-foreground sm:text-3xl">{v.title}</h3>
+                <h3 className="font-serif text-2xl text-foreground sm:text-3xl">
+                  {copy(v.title)}
+                </h3>
                 <p className="mt-3 max-w-[52ch] text-pretty leading-relaxed text-muted-foreground sm:text-lg">
-                  {v.text}
+                  {copy(v.text)}
                 </p>
               </div>
             </Reveal>

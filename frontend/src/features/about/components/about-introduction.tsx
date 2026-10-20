@@ -1,8 +1,11 @@
+import { useCopy } from '@/i18n/copy'
 import Image from 'next/image'
 import { Reveal } from '@/components/ui/reveal'
 import { slogan } from '@/config/site'
 
 export function AboutIntroduction() {
+  const copy = useCopy()
+
   return (
     <section className="relative overflow-hidden bg-background">
       <div
@@ -11,33 +14,27 @@ export function AboutIntroduction() {
       />
       <div className="shell relative grid gap-16 py-24 sm:py-28 lg:grid-cols-[1.05fr_1fr] lg:gap-20 lg:py-36">
         <Reveal>
-          <p className="eyebrow mb-6 text-accent">
-            Who we are
-          </p>
+          <p className="eyebrow mb-6 text-accent">{copy('Who we are')}</p>
           <h2 className="text-balance font-serif text-4xl leading-[1.05] text-foreground sm:text-5xl lg:text-[3.6rem]">
-            Travel is more than sightseeing:{' '}
+            {copy('Travel is more than sightseeing:')}{' '}
             <em className="italic text-primary">
-              it is a connection to a place and its people.
+              {copy('it is a connection to a place and its people.')}
             </em>
           </h2>
           <div className="mt-10 space-y-5 text-pretty leading-relaxed text-muted-foreground sm:text-lg">
             <p>
-              Extraordinary Ethiopia Tours is a trusted Ethiopia travel
-              specialist and locally based tour operator. We create journeys
-              that showcase the country&apos;s ancient history, diverse cultures
-              and spectacular landscapes, with the professional, personal and
-              flexible service that only a local team can give.
+              {copy(
+                "Extraordinary Ethiopia Tours is a trusted Ethiopia travel specialist and locally based tour operator. We create journeys that showcase the country's ancient history, diverse cultures and spectacular landscapes, with the professional, personal and flexible service that only a local team can give.",
+              )}
             </p>
             <p>
-              We specialise in custom-designed private tours and carefully
-              organised group tours for solo travellers, couples, families and
-              friends. Whether it is your first visit or your fifth, every
-              itinerary is shaped around your interests, travel style and
-              budget, and our tours can be combined into one complete journey.
+              {copy(
+                'We specialise in custom-designed private tours and carefully organised group tours for solo travellers, couples, families and friends. Whether it is your first visit or your fifth, every itinerary is shaped around your interests, travel style and budget, and our tours can be combined into one complete journey.',
+              )}
             </p>
           </div>
           <p className="mt-10 border-l-2 border-accent pl-5 font-serif text-2xl italic text-foreground sm:text-[1.7rem]">
-            {slogan}
+            {copy(slogan)}
           </p>
         </Reveal>
 
@@ -47,7 +44,9 @@ export function AboutIntroduction() {
             <div className="relative col-span-4 row-span-5 overflow-hidden rounded-sm shadow-[0_40px_80px_-40px_oklch(0.185_0.012_58/0.55)]">
               <Image
                 src="/images/lalibela-pilgrims.jpg"
-                alt="Priests holding processional crosses during a celebration in Lalibela"
+                alt={copy(
+                  'Priests holding processional crosses during a celebration in Lalibela',
+                )}
                 fill
                 sizes="(max-width: 1024px) 60vw, 30vw"
                 className="object-cover"
@@ -56,7 +55,9 @@ export function AboutIntroduction() {
             <div className="relative col-span-2 col-start-5 row-span-3 row-start-2 overflow-hidden rounded-sm">
               <Image
                 src="/images/coffee-ceremony.jpg"
-                alt="A jebena and cups prepared for an Ethiopian coffee ceremony"
+                alt={copy(
+                  'A jebena and cups prepared for an Ethiopian coffee ceremony',
+                )}
                 fill
                 sizes="(max-width: 1024px) 30vw, 15vw"
                 className="object-cover"
@@ -65,7 +66,9 @@ export function AboutIntroduction() {
             <div className="relative col-span-4 col-start-3 row-span-3 row-start-6 overflow-hidden rounded-sm shadow-[0_40px_80px_-40px_oklch(0.185_0.012_58/0.55)]">
               <Image
                 src="/images/simien-landscape.jpg"
-                alt="Basalt pinnacles of the Simien Mountains rising above the clouds"
+                alt={copy(
+                  'Basalt pinnacles of the Simien Mountains rising above the clouds',
+                )}
                 fill
                 sizes="(max-width: 1024px) 60vw, 30vw"
                 className="object-cover"
@@ -76,7 +79,7 @@ export function AboutIntroduction() {
                 80+
               </span>
               <span className="mt-2 text-[10px] font-semibold uppercase leading-snug tracking-[0.16em] text-muted-foreground">
-                Peoples &amp; languages to discover
+                {copy('Peoples & languages to discover')}
               </span>
             </div>
           </div>

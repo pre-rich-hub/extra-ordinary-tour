@@ -1,4 +1,5 @@
-import Link from 'next/link'
+import { useCopy } from '@/i18n/copy'
+import { Link } from '@/i18n/navigation'
 import { ArrowRight } from 'lucide-react'
 import { cn } from '@/lib/utils'
 
@@ -30,12 +31,14 @@ export function LinkButton({
   className?: string
   withArrow?: boolean
 }) {
+  const copy = useCopy()
+
   return (
     <Link
       href={href}
       className={cn(base, variants[variant], 'w-full sm:w-auto', className)}
     >
-      {children}
+      {copy(children)}
       {withArrow && (
         <ArrowRight className="h-4 w-4 transition-transform duration-300 group-hover:translate-x-1" />
       )}
@@ -54,6 +57,8 @@ export function TextLink({
   className?: string
   tone?: 'primary' | 'accent'
 }) {
+  const copy = useCopy()
+
   return (
     <Link
       href={href}
@@ -65,7 +70,7 @@ export function TextLink({
         className,
       )}
     >
-      {children}
+      {copy(children)}
       <ArrowRight className="h-3.5 w-3.5 transition-transform duration-300 group-hover/link:translate-x-1 group-hover:translate-x-1" />
     </Link>
   )

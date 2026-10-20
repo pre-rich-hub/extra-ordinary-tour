@@ -1,5 +1,6 @@
+import { useCopy } from '@/i18n/copy'
 import Image from 'next/image'
-import Link from 'next/link'
+import { Link } from '@/i18n/navigation'
 import { ArrowRight, type LucideIcon } from 'lucide-react'
 import { cn } from '@/lib/utils'
 
@@ -33,6 +34,8 @@ export function InfoCard({
   sizes?: string
   className?: string
 }) {
+  const copy = useCopy()
+
   return (
     <Link
       href={href}
@@ -44,7 +47,7 @@ export function InfoCard({
       <div className="relative aspect-[4/3] overflow-hidden bg-charcoal">
         <Image
           src={image || '/placeholder.svg'}
-          alt={imageAlt}
+          alt={copy(imageAlt)}
           fill
           sizes={sizes}
           className="object-cover transition-transform duration-[1400ms] ease-out group-hover:scale-105 group-active:scale-105 group-active:duration-200"
@@ -52,36 +55,43 @@ export function InfoCard({
         <div className="absolute inset-0 bg-gradient-to-t from-charcoal/90 via-charcoal/20 via-45% to-transparent" />
 
         <span className="absolute left-5 top-5 rounded-sm bg-brass px-3.5 py-2 text-[10px] font-semibold uppercase tracking-[0.18em] text-charcoal shadow-sm">
-          {badge}
+          {copy(badge)}
         </span>
 
         <div className="absolute inset-x-0 bottom-0 px-6 pb-6">
           <p className="text-[10px] font-semibold uppercase tracking-[0.22em] text-brass-light">
-            {eyebrow}
+            {copy(eyebrow)}
           </p>
           <h3 className="mt-1.5 text-balance font-serif text-[1.75rem] leading-[1.1] text-background sm:text-3xl">
-            {title}
+            {copy(title)}
           </h3>
         </div>
       </div>
 
       <div className="flex flex-1 flex-col px-6 pb-6 pt-6 sm:px-7">
         <p className="text-pretty text-[15px] leading-relaxed text-muted-foreground">
-          {summary}
+          {copy(summary)}
         </p>
 
         <ul className="mt-5 grid grid-cols-2 gap-x-4 gap-y-3">
           {facts.map(({ icon: Icon, label }) => (
-            <li key={label} className="flex min-w-0 items-start gap-2.5 text-sm leading-snug text-foreground/85">
-              <Icon aria-hidden className="mt-px h-4 w-4 shrink-0 text-accent" strokeWidth={1.5} />
-              <span>{label}</span>
+            <li
+              key={label}
+              className="flex min-w-0 items-start gap-2.5 text-sm leading-snug text-foreground/85"
+            >
+              <Icon
+                aria-hidden
+                className="mt-px h-4 w-4 shrink-0 text-accent"
+                strokeWidth={1.5}
+              />
+              <span>{copy(label)}</span>
             </li>
           ))}
         </ul>
 
         <div className="mt-auto pt-6">
           <div className="flex items-center justify-center gap-2.5 border-t border-border pt-5 text-[12px] font-semibold uppercase tracking-[0.24em] text-foreground transition-colors duration-300 group-hover:text-accent group-active:text-accent group-active:duration-75">
-            {cta}
+            {copy(cta)}
             <ArrowRight className="h-4 w-4 transition-transform duration-300 group-hover:translate-x-1" />
           </div>
         </div>

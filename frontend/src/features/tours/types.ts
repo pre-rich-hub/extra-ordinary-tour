@@ -1,4 +1,8 @@
 export type Tour = {
+  canonicalTitle?: string
+  canonicalPlaces?: string[]
+  styleKeys?: string[]
+  priceAmount?: number | null
   slug: string
   title: string
   image: string

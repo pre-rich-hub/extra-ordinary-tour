@@ -1,13 +1,21 @@
-// Tour prices are free text ("$1,450 per person" from the API, or
-// "On request" when the operator quotes per enquiry).
+import type { AppLocale } from '@/i18n/routing'
 export function hasPrice(from: string) {
   return /\d/.test(from)
 }
-
 export function priceShort(from: string) {
-  return hasPrice(from) ? from.replace(/ per person$/, '').split(' ')[0] : 'On request'
+  return from.replace(/\s+(?:per person|por persona|par personne)$/i, '')
 }
-
-export function nightsLabel(nights: number) {
-  return nights > 0 ? `${nights} night${nights === 1 ? '' : 's'}` : 'Day trip'
+export function nightsLabel(nights: number, locale: AppLocale = 'en') {
+  if (!nights)
+    return {
+      en: 'Day trip',
+      es: 'Excursión de un día',
+      fr: 'Excursion à la journée',
+    }[locale]
+  const unit = {
+    en: ['night', 'nights'],
+    es: ['noche', 'noches'],
+    fr: ['nuit', 'nuits'],
+  }[locale]
+  return `${new Intl.NumberFormat(locale).format(nights)} ${unit[nights === 1 ? 0 : 1]}`
 }

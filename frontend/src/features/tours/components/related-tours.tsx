@@ -1,28 +1,35 @@
-import Link from 'next/link'
+import { useCopy } from '@/i18n/copy'
+import { useLocale } from 'next-intl'
+import type { AppLocale } from '@/i18n/routing'
+import { Link } from '@/i18n/navigation'
 import { ArrowRight } from 'lucide-react'
 import { Reveal } from '@/components/ui/reveal'
 import { TourCard } from './tour-card'
-import { tours } from '../data/tours'
+import { getTours } from '../data/localized'
 import type { Tour } from '../types'
 
 export function RelatedTours({ tour: t }: { tour: Tour }) {
+  const copy = useCopy()
+
+  const tours = getTours(useLocale() as AppLocale)
+
   const others = tours.filter((o) => o.slug !== t.slug).slice(0, 3)
   return (
     <section className="shell py-16 sm:py-20 lg:py-28">
       <Reveal className="mb-10 flex flex-col justify-between gap-6 sm:mb-14 md:flex-row md:items-end">
         <div className="max-w-2xl">
           <p className="eyebrow mb-4 text-accent sm:mb-5">
-            Other Journeys
+            {copy('Other Journeys')}
           </p>
           <h2 className="text-balance text-3xl leading-[1.1] text-foreground sm:text-4xl">
-            You may also be weighing up
+            {copy('You may also be weighing up')}
           </h2>
         </div>
         <Link
           href="/tours"
           className="group inline-flex items-center gap-2 text-[11px] font-semibold uppercase tracking-[0.14em] text-primary transition-colors hover:text-accent sm:text-xs"
         >
-          All tours
+          {copy('All tours')}
           <ArrowRight className="h-3.5 w-3.5 transition-transform duration-300 group-hover:translate-x-1" />
         </Link>
       </Reveal>

@@ -1,4 +1,5 @@
 export type Post = {
+  categoryKey?: string
   slug: string
   title: string
   category: string

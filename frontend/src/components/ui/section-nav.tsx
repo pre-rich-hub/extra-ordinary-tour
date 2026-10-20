@@ -1,10 +1,18 @@
 'use client'
 
+import { useCopy } from '@/i18n/copy'
+
 import { useEffect, useState } from 'react'
 import { cn } from '@/lib/utils'
 
 // Sticky in-page navigation that highlights the section currently in view.
-export function SectionNav({ items }: { items: { id: string; label: string }[] }) {
+export function SectionNav({
+  items,
+}: {
+  items: { id: string; label: string }[]
+}) {
+  const copy = useCopy()
+
   const [active, setActive] = useState(items[0]?.id)
 
   useEffect(() => {
@@ -24,7 +32,7 @@ export function SectionNav({ items }: { items: { id: string; label: string }[] }
 
   return (
     <nav
-      aria-label="On this page"
+      aria-label={copy('On this page')}
       className="sticky top-16 z-30 border-b border-border bg-background/92 backdrop-blur-xl sm:top-[68px]"
     >
       <ul className="shell flex gap-7 overflow-x-auto [scrollbar-width:none] sm:gap-10 [&::-webkit-scrollbar]:hidden">
@@ -35,10 +43,12 @@ export function SectionNav({ items }: { items: { id: string; label: string }[] }
               aria-current={active === id ? 'true' : undefined}
               className={cn(
                 'relative block py-4 text-[11px] font-semibold uppercase tracking-[0.18em] transition-colors duration-300',
-                active === id ? 'text-foreground' : 'text-muted-foreground hover:text-foreground',
+                active === id
+                  ? 'text-foreground'
+                  : 'text-muted-foreground hover:text-foreground',
               )}
             >
-              {label}
+              {copy(label)}
               <span
                 className={cn(
                   'absolute inset-x-0 bottom-0 h-0.5 origin-left bg-accent transition-transform duration-500',

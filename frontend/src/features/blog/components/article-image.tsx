@@ -1,14 +1,17 @@
+import { useCopy } from '@/i18n/copy'
 import Image from 'next/image'
 import { Reveal } from '@/components/ui/reveal'
 import type { Post } from '../types'
 
 export function ArticleImage({ post }: { post: Post }) {
+  const copy = useCopy()
+
   return (
     <Reveal className="shell pt-10 sm:pt-14">
       <figure className="relative mx-auto aspect-[16/9] max-w-4xl overflow-hidden rounded-sm">
         <Image
           src={post.image || '/placeholder.svg'}
-          alt={post.title}
+          alt={copy(post.title)}
           fill
           priority
           sizes="(max-width: 1024px) 100vw, 900px"

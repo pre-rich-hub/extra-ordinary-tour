@@ -1,0 +1,47 @@
+{
+  "local": {
+    "label": "Locale",
+    "place": "Lalibela",
+    "title": "Basé localement, géré localement",
+    "text": "Fondé par un guide agréé de Lalibela. Notre équipe vous montre l'Éthiopie dans laquelle nous avons grandi : ses habitants, son histoire et ses coins cachés.",
+    "body": "Nous sommes un voyagiste basé à Lalibela et l'Éthiopie est le pays que nous connaissons le mieux. Notre équipe expérimentée apporte de véritables connaissances locales à chaque voyage, vous mettant en contact avec les communautés locales, les traditions anciennes et les cultures qui rendent l'Éthiopie extraordinaire. Pour nous, voyager est bien plus que faire du tourisme."
+  },
+  "tailored": {
+    "label": "Sur mesure",
+    "place": "Monts du Simien",
+    "title": "Privé, en groupe ou solo",
+    "text": "Privé, en petit groupe ou en solo. Chaque itinéraire est construit en fonction de vos intérêts, de votre rythme et de votre budget, et reste flexible pendant le voyage.",
+    "body": "Chaque voyage est conçu sur mesure en fonction de vos intérêts, de votre style de voyage et de votre budget, pour les couples, les familles, les amis, les groupes de toutes tailles et les voyageurs seuls. Vous voyagez seul ? Vous êtes particulièrement les bienvenus : des itinéraires personnalisés, un hébergement confortable, un transport fiable et un accompagnement local professionnel vous permettent de découvrir l’Éthiopie à votre rythme."
+  },
+  "handled": {
+    "label": "Arrangé",
+    "place": "Gondar",
+    "title": "Tout est arrangé",
+    "text": "Vols intérieurs, transferts aéroport, hôtels, repas et guides, tout organisé pour vous, sans frais cachés en cours de route."
+  },
+  "support": {
+    "label": "24/7",
+    "place": "Cérémonie du café",
+    "title": "Avec vous 24h/24 et 7j/7",
+    "text": "Une équipe sur WhatsApp de votre premier message jusqu'à votre dernier jour. Les vols retardés et les changements de plans sont résolus rapidement."
+  },
+  "safety": {
+    "label": "Sécurité",
+    "place": "Dallol, Danakil",
+    "title": "Des mains sûres",
+    "text": "Des chauffeurs expérimentés, des véhicules 4x4 bien entretenus et des conseils honnêtes sur les conditions locales, pour que vous puissiez simplement profiter du voyage."
+  },
+  "responsible": {
+    "label": "Responsable",
+    "place": "Konso",
+    "title": "Voyage responsable",
+    "text": "Nous travaillons avec des guides et des communautés locales, demandons avant de photographier et aidons à préserver les lieux que nous partageons avec vous."
+  },
+  "explore": {
+    "label": "Explorer",
+    "place": "Dallol, Danakil",
+    "title": "Toute l'Ethiopie",
+    "text": "La Route historique, la dépression de Danakil, la vallée de l'Omo, les monts Simien et Bale et Addis-Abeba, réunis en un seul voyage.",
+    "body": "Suivez la route historique à travers les sites du patrimoine mondial de l'UNESCO d'Axum, Lalibela, Gondar et Tigray. Traversez les paysages volcaniques de la dépression de Danakil, rencontrez les cultures de la vallée de l'Omo ou parcourez les montagnes du Simien et du Bale. Ajoutez les musées, les marchés et la cuisine d’Addis-Abeba et combinez le tout en un seul voyage."
+  }
+}

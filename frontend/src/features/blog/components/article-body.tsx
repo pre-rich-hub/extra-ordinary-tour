@@ -1,10 +1,17 @@
-import Link from 'next/link'
+import { useCopy } from '@/i18n/copy'
+import { useLocale } from 'next-intl'
+import type { AppLocale } from '@/i18n/routing'
+import { Link } from '@/i18n/navigation'
 import { ArrowRight } from 'lucide-react'
 import { Reveal } from '@/components/ui/reveal'
-import { posts } from '../data/posts'
+import { getPosts } from '../data/localized'
 import type { Post } from '../types'
 
 export function ArticleBody({ post }: { post: Post }) {
+  const copy = useCopy()
+
+  const posts = getPosts(useLocale() as AppLocale)
+
   const index = posts.findIndex((p) => p.slug === post.slug)
   const next = posts[(index + 1) % posts.length]
   return (
@@ -19,22 +26,26 @@ export function ArticleBody({ post }: { post: Post }) {
                   : 'mt-7 text-pretty leading-[1.75] text-muted-foreground sm:text-lg'
               }
             >
-              {para}
+              {copy(para)}
             </p>
           </Reveal>
         ))}
 
         <Reveal className="mt-14 border-t border-border pt-8">
           <p className="text-sm leading-relaxed text-muted-foreground">
-            Written by{' '}
-            <span className="font-medium text-foreground">{post.author}</span>,{' '}
-            {post.authorRole.toLowerCase()}. Questions about any of the above
-            are always welcome,{' '}
+            {copy('Written by')}{' '}
+            <span className="font-medium text-foreground">
+              {copy(post.author)}
+            </span>
+            , {post.authorRole.toLowerCase()}
+            {copy(
+              '. Questions about any of the above are always welcome,',
+            )}{' '}
             <Link
               href="/contact"
               className="border-b border-accent/50 pb-0.5 text-primary transition-colors hover:border-accent hover:text-accent"
             >
-              write to us
+              {copy('write to us')}
             </Link>
             .
           </p>
@@ -46,13 +57,13 @@ export function ArticleBody({ post }: { post: Post }) {
             className="group block border border-border bg-card p-6 transition-colors hover:border-primary/40 sm:p-8"
           >
             <p className="text-[10px] font-semibold uppercase tracking-[0.18em] text-accent">
-              Read Next
+              {copy('Read Next')}
             </p>
             <p className="mt-3 text-balance font-serif text-xl text-foreground transition-colors group-hover:text-primary sm:text-2xl">
-              {next.title}
+              {copy(next.title)}
             </p>
             <span className="mt-4 inline-flex items-center gap-2 text-[11px] font-semibold uppercase tracking-[0.14em] text-primary">
-              {next.readTime}
+              {copy(next.readTime)}
               <ArrowRight className="h-3.5 w-3.5 transition-transform duration-300 group-hover:translate-x-1" />
             </span>
           </Link>

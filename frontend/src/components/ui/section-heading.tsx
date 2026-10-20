@@ -1,3 +1,4 @@
+import { useCopy } from '@/i18n/copy'
 import { Reveal } from '@/components/ui/reveal'
 import { TextLink } from '@/components/ui/link-button'
 import { cn } from '@/lib/utils'
@@ -23,6 +24,8 @@ export function SectionHeading({
   align = 'left',
   className,
 }: SectionHeadingProps) {
+  const copy = useCopy()
+
   const heading = tone === 'dark' ? 'text-background' : 'text-foreground'
   const body = tone === 'dark' ? 'text-background/70' : 'text-muted-foreground'
 
@@ -45,7 +48,7 @@ export function SectionHeading({
             align === 'center' && !aside && 'justify-center',
           )}
         >
-          {eyebrow}
+          {copy(eyebrow)}
         </p>
         <h2
           className={cn(
@@ -53,11 +56,13 @@ export function SectionHeading({
             heading,
           )}
         >
-          {title}
+          {copy(title)}
         </h2>
         {lede && (
-          <p className={cn('mt-5 text-pretty leading-relaxed sm:text-lg', body)}>
-            {lede}
+          <p
+            className={cn('mt-5 text-pretty leading-relaxed sm:text-lg', body)}
+          >
+            {copy(lede)}
           </p>
         )}
       </div>
@@ -70,7 +75,7 @@ export function SectionHeading({
                 body,
               )}
             >
-              {aside}
+              {copy(aside)}
             </p>
           )}
           {action && (
@@ -78,7 +83,7 @@ export function SectionHeading({
               href={action.href}
               tone={tone === 'dark' ? 'accent' : 'primary'}
             >
-              {action.label}
+              {copy(action.label)}
             </TextLink>
           )}
         </div>

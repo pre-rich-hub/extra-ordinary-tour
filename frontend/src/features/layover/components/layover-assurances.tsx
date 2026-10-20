@@ -1,3 +1,4 @@
+import { useCopy } from '@/i18n/copy'
 import { Plane, ShieldCheck, Clock3, BadgeCheck } from 'lucide-react'
 import { Reveal } from '@/components/ui/reveal'
 import { SectionHeading } from '@/components/ui/section-heading'
@@ -26,13 +27,17 @@ const assurances = [
 ]
 
 export function LayoverAssurances() {
+  const copy = useCopy()
+
   return (
     <section className="border-y border-border bg-secondary text-secondary-foreground">
       <div className="shell py-16 sm:py-20 lg:py-28">
         <SectionHeading
-          eyebrow="Logistics First"
-          title="On a layover, timing is the whole product"
-          lede="Sights are easy. Not missing your onward flight is the part that takes experience."
+          eyebrow={copy('Logistics First')}
+          title={copy('On a layover, timing is the whole product')}
+          lede={copy(
+            'Sights are easy. Not missing your onward flight is the part that takes experience.',
+          )}
           tone="dark"
         />
         <div className="grid gap-x-10 gap-y-10 sm:grid-cols-2 lg:grid-cols-4">
@@ -44,10 +49,10 @@ export function LayoverAssurances() {
             >
               <a.icon className="mb-4 h-5 w-5 text-accent" aria-hidden />
               <p className="mb-3 font-serif text-xl text-background sm:text-2xl">
-                {a.title}
+                {copy(a.title)}
               </p>
               <p className="text-pretty text-sm leading-relaxed text-background/70">
-                {a.text}
+                {copy(a.text)}
               </p>
             </Reveal>
           ))}

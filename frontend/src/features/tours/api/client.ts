@@ -19,7 +19,12 @@ export type ApiTour = {
   isFeatured: boolean
   mainImage: string | null
   destination: { id: number; name: string } | null
-  destinations: { id: number; name: string; slug?: string | null; imageUrl?: string | null }[]
+  destinations: {
+    id: number
+    name: string
+    slug?: string | null
+    imageUrl?: string | null
+  }[]
   categories: { id: number; name: string }[]
   gallery: ApiImage[]
   durationDays: number
@@ -29,7 +34,12 @@ export type ApiTour = {
   journeyMap?: string | null
   createdAt: string | null
   updatedAt: string | null
-  canonical: { type: string; id: number; suggestedPath: string; slug: string | null }
+  canonical: {
+    type: string
+    id: number
+    suggestedPath: string
+    slug: string | null
+  }
 }
 
 export type ToursParams = {
@@ -54,10 +64,19 @@ export type ToursPage = {
   }
 }
 
-export async function getTours(params: ToursParams = {}): Promise<ToursPage> {
-  return request<ToursPage>(`/api/v1/tours${queryString(params)}`)
+export async function getTours(
+  params: ToursParams = {},
+  init?: RequestInit,
+): Promise<ToursPage> {
+  return request<ToursPage>(`/api/v1/tours${queryString(params)}`, init)
 }
 
-export async function getTourBySlug(slug: string): Promise<ApiTour> {
-  return request<ApiTour>(`/api/v1/tours/slug/${encodeURIComponent(slug)}`)
+export async function getTourBySlug(
+  slug: string,
+  init?: RequestInit,
+): Promise<ApiTour> {
+  return request<ApiTour>(
+    `/api/v1/tours/slug/${encodeURIComponent(slug)}`,
+    init,
+  )
 }

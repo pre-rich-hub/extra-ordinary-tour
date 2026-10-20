@@ -1,0 +1,85 @@
+{
+  "6-hour": {
+    "hours": "6 horas",
+    "title": "Lo más destacado de Addis Abeba",
+    "price": "A pedido",
+    "teaser": "Un circuito corto de la capital para conexiones estrechas: vistas de Entoto, una catedral y una ceremonia del café.",
+    "itinerary": [
+      "Recibimiento y asistencia en llegadas con un cartel con su nombre.",
+      "Sube al monte Entoto para disfrutar del panorama de Addis Abeba",
+      "Catedral de la Santísima Trinidad y tumba del emperador Haile Selassie",
+      "Una tradicional ceremonia del café y un ligero almuerzo etíope.",
+      "Regrese a Bole a tiempo para su próximo vuelo."
+    ],
+    "includes": [
+      "Vehículo privado con aire acondicionado y guía autorizado.",
+      "Todas las tarifas de entrada.",
+      "Almuerzo y ceremonia del café.",
+      "Recepción en el aeropuerto en ambos sentidos."
+    ],
+    "best": "Conexiones de 8 horas o más"
+  },
+  "12-hour": {
+    "hours": "12 horas",
+    "title": "Tour de día completo por la ciudad",
+    "price": "A pedido",
+    "teaser": "Nuestro día completo en Addis Abeba: Entoto, Lucy en el Museo Nacional, Santísima Trinidad, Merkato y ceremonia del café.",
+    "itinerary": [
+      "Reúnase en llegadas y comience con las vistas desde el monte Entoto.",
+      "El Museo Nacional de Etiopía: conoce a Lucy",
+      "Catedral de la Santísima Trinidad y Museo Etnológico",
+      "Almuerzo tradicional etíope",
+      "Merkato, uno de los mercados al aire libre más grandes de África",
+      "Ceremonia del café y luego regreso a Bole para el check-in."
+    ],
+    "includes": [
+      "Vehículo privado o minibús con guía autorizado.",
+      "Todas las tarifas de entrada.",
+      "Ceremonia de almuerzo y café.",
+      "Traslados al aeropuerto y asistencia en check-in."
+    ],
+    "best": "Conexiones de 14 horas o más"
+  },
+  "24-hour": {
+    "hours": "24 Horas",
+    "title": "Excursión de un día y una noche",
+    "price": "A pedido",
+    "teaser": "Una noche en Addis Abeba, una cena cultural y una excursión de un día a Debre Libanos o al lago Wenchi Crater.",
+    "itinerary": [
+      "Llegadas encuentro y traslado a su hotel.",
+      "Cena en un restaurante tradicional con música y baile.",
+      "Viaje por la mañana a Debre Libanos y el Puente Portugués.",
+      "Gelada en los acantilados y el borde del desfiladero del Nilo Azul",
+      "O elija el lago del cráter Wenchi o Tiya y Adadi Mariam",
+      "Regreso a Addis Abeba y traslado al aeropuerto."
+    ],
+    "includes": [
+      "Una noche en hotel de 3 a 4 estrellas con desayuno.",
+      "Vehículo privado y guía autorizado en todo momento.",
+      "Cena cultural, almuerzo y todas las entradas.",
+      "Traslados al aeropuerto en ambos sentidos."
+    ],
+    "best": "Conexiones nocturnas y escalas"
+  },
+  "48-hour": {
+    "hours": "48 Horas",
+    "title": "Escala en Lalibela",
+    "price": "A pedido",
+    "teaser": "Dos días son suficientes para Lalibela: vuele hacia el norte, explore las iglesias excavadas en la roca y vuele de regreso para continuar el tramo.",
+    "itinerary": [
+      "Llegadas y vuelo por la mañana a Lalibela.",
+      "Las iglesias del norte y del este se agrupan con un guía local.",
+      "Bete Giyorgis a la luz de la tarde",
+      "Ceremonia del café por la tarde y noche en un albergue de Lalibela.",
+      "Visita por la mañana y luego vuelo de regreso a Addis Abeba.",
+      "Traslado a Bole para su vuelo de regreso."
+    ],
+    "includes": [
+      "Vuelos nacionales Addis Abeba a Lalibela a Addis Abeba",
+      "Alojamiento de una noche en albergue con pensión completa.",
+      "Guía local con licencia y todas las tarifas de entrada a la iglesia.",
+      "Todos los traslados al aeropuerto y al hotel."
+    ],
+    "best": "Escalas de dos días o más"
+  }
+}

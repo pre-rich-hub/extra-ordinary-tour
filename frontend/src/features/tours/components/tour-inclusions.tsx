@@ -1,14 +1,15 @@
+import { useCopy } from '@/i18n/copy'
 import { Check, X } from 'lucide-react'
 import { Reveal } from '@/components/ui/reveal'
 import type { Tour } from '../types'
 
 export function TourInclusions({ tour: t }: { tour: Tour }) {
+  const copy = useCopy()
+
   return (
     <section className="shell grid gap-12 py-16 sm:py-20 lg:grid-cols-2 lg:gap-20 lg:py-28">
       <Reveal>
-        <p className="eyebrow mb-6 text-primary">
-          What Is Included
-        </p>
+        <p className="eyebrow mb-6 text-primary">{copy('What Is Included')}</p>
         <ul className="space-y-4">
           {t.includes.map((item) => (
             <li key={item} className="flex items-start gap-3.5">
@@ -16,7 +17,7 @@ export function TourInclusions({ tour: t }: { tour: Tour }) {
                 <Check className="h-3 w-3" />
               </span>
               <span className="text-pretty leading-relaxed text-foreground">
-                {item}
+                {copy(item)}
               </span>
             </li>
           ))}
@@ -25,7 +26,7 @@ export function TourInclusions({ tour: t }: { tour: Tour }) {
 
       <Reveal delay={120}>
         <p className="eyebrow mb-6 text-muted-foreground">
-          Not Included
+          {copy('Not Included')}
         </p>
         <ul className="space-y-4">
           {t.excludes.map((item) => (
@@ -34,7 +35,7 @@ export function TourInclusions({ tour: t }: { tour: Tour }) {
                 <X className="h-3 w-3" />
               </span>
               <span className="text-pretty leading-relaxed text-muted-foreground">
-                {item}
+                {copy(item)}
               </span>
             </li>
           ))}

@@ -25,7 +25,14 @@ type ApiEnvelope<T> = {
 }
 
 export async function request<T>(path: string, init?: RequestInit): Promise<T> {
-  const response = await fetch(path, {
+  const url =
+    typeof window === 'undefined'
+      ? new URL(
+          path,
+          process.env.API_BASE_URL ?? 'http://localhost:5000',
+        ).toString()
+      : path
+  const response = await fetch(url, {
     ...init,
     signal: AbortSignal.timeout(REQUEST_TIMEOUT_MS),
     headers: { 'Content-Type': 'application/json', ...(init?.headers ?? {}) },

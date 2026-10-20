@@ -1,5 +1,6 @@
+import { useCopy } from '@/i18n/copy'
 import Image from 'next/image'
-import Link from 'next/link'
+import { Link } from '@/i18n/navigation'
 import { ChevronRight } from 'lucide-react'
 
 type Crumb = { label: string; href?: string }
@@ -25,12 +26,14 @@ export function PageHero({
   meta,
   align = 'left',
 }: PageHeroProps) {
+  const copy = useCopy()
+
   return (
     <section className="relative isolate flex min-h-[74svh] items-end overflow-hidden pt-28 sm:min-h-[68svh] lg:min-h-[76vh]">
       <div className="absolute inset-0 -z-10">
         <Image
           src={image || '/placeholder.svg'}
-          alt={imageAlt}
+          alt={copy(imageAlt)}
           fill
           priority
           sizes="100vw"
@@ -43,7 +46,7 @@ export function PageHero({
       <div className="shell pb-12 sm:pb-16 lg:pb-20">
         {crumbs.length > 0 && (
           <nav
-            aria-label="Breadcrumb"
+            aria-label={copy('Breadcrumb')}
             className="mb-6 flex flex-wrap items-center gap-x-2 gap-y-1 text-[11px] uppercase tracking-[0.16em] text-background/60"
           >
             {crumbs.map((c, i) => (
@@ -53,10 +56,10 @@ export function PageHero({
                     href={c.href}
                     className="transition-colors hover:text-accent"
                   >
-                    {c.label}
+                    {copy(c.label)}
                   </Link>
                 ) : (
-                  <span className="text-background/90">{c.label}</span>
+                  <span className="text-background/90">{copy(c.label)}</span>
                 )}
                 {i < crumbs.length - 1 && (
                   <ChevronRight className="h-3 w-3 opacity-50" />
@@ -74,10 +77,10 @@ export function PageHero({
           <p
             className={`eyebrow mb-5 text-accent ${align === 'center' ? 'justify-center' : ''}`}
           >
-            {eyebrow}
+            {copy(eyebrow)}
           </p>
           <h1 className="text-balance text-[2.15rem] font-medium leading-[1.05] text-background text-shadow-soft sm:text-5xl lg:text-6xl xl:text-[4.25rem]">
-            {title}
+            {copy(title)}
           </h1>
           {lede && (
             <p
@@ -85,7 +88,7 @@ export function PageHero({
                 align === 'center' ? 'mx-auto' : ''
               }`}
             >
-              {lede}
+              {copy(lede)}
             </p>
           )}
         </div>
@@ -95,10 +98,10 @@ export function PageHero({
             {meta.map((m) => (
               <div key={m.label} className="bg-charcoal/40 px-5 py-4 sm:px-6">
                 <dt className="text-[10px] uppercase tracking-[0.18em] text-background/55">
-                  {m.label}
+                  {copy(m.label)}
                 </dt>
                 <dd className="mt-1.5 font-serif text-xl text-background sm:text-2xl">
-                  {m.value}
+                  {copy(m.value)}
                 </dd>
               </div>
             ))}

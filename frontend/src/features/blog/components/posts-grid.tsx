@@ -1,27 +1,34 @@
 'use client'
 
+import { useCopy } from '@/i18n/copy'
+
 import { useMemo, useState } from 'react'
 import { Reveal } from '@/components/ui/reveal'
 import { PostCard } from './post-card'
 import type { Post } from '../types'
 
 export function PostsGrid({ posts }: { posts: Post[] }) {
+  const copy = useCopy()
+
   const categories = useMemo(
-    () => ['All Writing', ...Array.from(new Set(posts.map((p) => p.category)))],
+    () => [
+      '__all__',
+      ...Array.from(new Set(posts.map((p) => p.categoryKey ?? p.category))),
+    ],
     [posts],
   )
-  const [active, setActive] = useState('All Writing')
+  const [active, setActive] = useState('__all__')
 
   const visible =
-    active === 'All Writing'
+    active === '__all__'
       ? posts
-      : posts.filter((p) => p.category === active)
+      : posts.filter((p) => (p.categoryKey ?? p.category) === active)
 
   return (
     <div>
       <div
         role="group"
-        aria-label="Filter articles by category"
+        aria-label={copy('Filter articles by category')}
         className="mb-12 flex flex-wrap gap-2 sm:mb-16"
       >
         {categories.map((c) => {
@@ -38,7 +45,10 @@ export function PostsGrid({ posts }: { posts: Post[] }) {
                   : 'border-border bg-card text-muted-foreground hover:border-primary/50 hover:text-foreground'
               }`}
             >
-              {c}
+              {c === '__all__'
+                ? copy('All Writing')
+                : (posts.find((p) => (p.categoryKey ?? p.category) === c)
+                    ?.category ?? c)}
             </button>
           )
         })}
@@ -54,7 +64,7 @@ export function PostsGrid({ posts }: { posts: Post[] }) {
 
       {visible.length === 0 && (
         <p className="py-16 text-center text-muted-foreground">
-          Nothing filed under this yet.
+          {copy('Nothing filed under this yet.')}
         </p>
       )}
     </div>

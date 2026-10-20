@@ -1,5 +1,7 @@
 'use client'
 
+import { useCopy } from '@/i18n/copy'
+
 import { useEffect, useState, type CSSProperties } from 'react'
 import Image from 'next/image'
 import { MapPin } from 'lucide-react'
@@ -56,6 +58,8 @@ const slides = [
 ]
 
 export function HeroSlideshow() {
+  const copy = useCopy()
+
   const [active, setActive] = useState(0)
   const [prev, setPrev] = useState<number | null>(null)
   // Photos are mounted one ahead of when they appear, so only what's needed loads.
@@ -85,13 +89,17 @@ export function HeroSlideshow() {
               aria-hidden={!isActive}
               className={cn(
                 'absolute inset-0 transition-opacity ease-in-out',
-                isActive ? 'z-[2] opacity-100' : isPrev ? 'z-[1] opacity-100' : 'z-0 opacity-0',
+                isActive
+                  ? 'z-[2] opacity-100'
+                  : isPrev
+                    ? 'z-[1] opacity-100'
+                    : 'z-0 opacity-0',
               )}
               style={{ transitionDuration: `${FADE_MS}ms` }}
             >
               <Image
                 src={s.src}
-                alt={isActive ? s.alt : ''}
+                alt={isActive ? copy(s.alt) : ''}
                 fill
                 priority={i === 0}
                 sizes="100vw"
@@ -119,7 +127,7 @@ export function HeroSlideshow() {
         className="absolute bottom-6 left-6 z-[3] hidden items-center gap-2 text-[10px] font-semibold uppercase tracking-[0.22em] text-background/80 [animation:fade-up_1s_ease_both] md:flex lg:bottom-8 lg:left-10"
       >
         <MapPin className="h-3.5 w-3.5" strokeWidth={1.5} aria-hidden />
-        {slides[active].place}
+        {copy(slides[active].place)}
       </p>
     </>
   )

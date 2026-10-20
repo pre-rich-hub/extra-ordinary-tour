@@ -1,5 +1,7 @@
 'use client'
 
+import { useCopy } from '@/i18n/copy'
+
 import { useEffect, useRef, useState } from 'react'
 import { cn } from '@/lib/utils'
 
@@ -16,6 +18,8 @@ export function Reveal({
   delay = 0,
   as: Tag = 'div',
 }: RevealProps) {
+  const copy = useCopy()
+
   const ref = useRef<HTMLElement | null>(null)
   const [visible, setVisible] = useState(false)
 
@@ -43,7 +47,7 @@ export function Reveal({
       style={{ animationDelay: `${delay}ms` }}
       className={cn('reveal', visible && 'is-visible', className)}
     >
-      {children}
+      {copy(children)}
     </Tag>
   )
 }

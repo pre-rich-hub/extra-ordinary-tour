@@ -1,8 +1,13 @@
 'use client'
 
+import { useCopy } from '@/i18n/copy'
+
 import { useEffect, useRef, useState } from 'react'
-import Link from 'next/link'
-import { usePathname } from 'next/navigation'
+import { Link } from '@/i18n/navigation'
+import { usePathname, useRouter } from '@/i18n/navigation'
+import { useLocale } from 'next-intl'
+import type { Destination } from '@/features/destinations/types'
+import type { Tour } from '@/features/tours/types'
 import {
   Menu,
   X,
@@ -17,16 +22,12 @@ import { cn } from '@/lib/utils'
 import { hasPrice, priceShort } from '@/features/tours/lib/format'
 import { navLinks } from '@/config/navigation'
 import { contact } from '@/config/site'
-import { destinations } from '@/features/destinations/data/destinations'
-import { tours } from '@/features/tours/data/tours'
 
 const languages = [
-  { code: 'EN', label: 'English' },
-  { code: 'ES', label: 'Español' },
-  { code: 'FR', label: 'Français' },
-  { code: 'DE', label: 'Deutsch' },
-  { code: 'ZH', label: '中文' },
-]
+  { code: 'en', label: 'English' },
+  { code: 'es', label: 'Español' },
+  { code: 'fr', label: 'Français' },
+] as const
 
 function Wordmark({
   tone,
@@ -35,28 +36,54 @@ function Wordmark({
   tone: 'light' | 'dark'
   onClick?: () => void
 }) {
+  const copy = useCopy()
+
   return (
     <Link
       href="/"
       onClick={onClick}
-      aria-label="Extraordinary Ethiopia Tours, home"
+      aria-label={copy('Extraordinary Ethiopia Tours, home')}
       className="flex items-center"
     >
       <img
         src="/images/logo.png"
-        alt="Extraordinary Ethiopia Tours logo"
+        alt={copy('Extraordinary Ethiopia Tours logo')}
         className="h-14 w-14 rounded-full object-cover border border-accent/25 shadow-md transition-transform duration-300 hover:scale-105"
       />
     </Link>
   )
 }
 
-export function SiteNav() {
+export function SiteNav({
+  destinations,
+  tours,
+}: {
+  destinations: Pick<
+    Destination,
+    'slug' | 'name' | 'region' | 'tag' | 'image' | 'teaser'
+  >[]
+  tours: Pick<
+    Tour,
+    'slug' | 'title' | 'image' | 'style' | 'from' | 'days' | 'teaser'
+  >[]
+}) {
+  const copy = useCopy()
+
+  const locale = useLocale()
+  const router = useRouter()
   const pathname = usePathname()
   const [scrolled, setScrolled] = useState(false)
   const [open, setOpen] = useState(false)
   const [langOpen, setLangOpen] = useState(false)
-  const [lang, setLang] = useState(languages[0])
+  const lang = languages.find((language) => language.code === locale)!
+  const setLang = (language: (typeof languages)[number]) => {
+    router.replace(
+      `${pathname}${window.location.search}${window.location.hash}`,
+      { locale: language.code, scroll: false },
+    )
+    setOpen(false)
+    setLangOpen(false)
+  }
   const langRef = useRef<HTMLDivElement>(null)
 
   useEffect(() => {
@@ -125,7 +152,8 @@ export function SiteNav() {
           <ul className="ml-auto mr-4 hidden items-center gap-4 lg:flex xl:mr-10 xl:gap-8">
             {navLinks.map((link) => {
               const active = isActive(link.href)
-              const hasDropdown = link.label === 'Destinations' || link.label === 'Tours'
+              const hasDropdown =
+                link.label === 'Destinations' || link.label === 'Tours'
               return (
                 <li key={link.href} className="group py-5">
                   <Link
@@ -141,7 +169,7 @@ export function SiteNav() {
                           : 'text-background/75 hover:text-background',
                     )}
                   >
-                    {link.label}
+                    {copy(link.label)}
                     {hasDropdown && (
                       <ChevronDown className="h-3 w-3 transition-transform duration-300 group-hover:rotate-180" />
                     )}
@@ -159,17 +187,24 @@ export function SiteNav() {
                       <div className="shell grid grid-cols-[1fr_3.2fr] gap-12 py-10">
                         <div className="flex flex-col justify-between">
                           <div>
-                            <span className="text-[10px] font-semibold uppercase tracking-[0.2em] text-accent mb-2 block">Ethiopia</span>
-                            <h3 className="font-serif text-2xl text-foreground mb-4">Our Destinations</h3>
+                            <span className="text-[10px] font-semibold uppercase tracking-[0.2em] text-accent mb-2 block">
+                              {copy('Ethiopia')}
+                            </span>
+                            <h3 className="font-serif text-2xl text-foreground mb-4">
+                              {copy('Our Destinations')}
+                            </h3>
                             <p className="text-xs text-muted-foreground leading-relaxed">
-                              From churches carved from solid rock to volcanic landscapes below sea level. Explore Ethiopia, the Land of Origins.
+                              {copy(
+                                'From churches carved from solid rock to volcanic landscapes below sea level. Explore Ethiopia, the Land of Origins.',
+                              )}
                             </p>
                           </div>
                           <Link
                             href="/destinations"
                             className="inline-flex items-center gap-2 text-xs font-semibold uppercase tracking-[0.16em] text-accent hover:text-accent/80 transition-colors mt-6"
                           >
-                            View All Destinations <ArrowRight className="h-3.5 w-3.5" />
+                            {copy('View All Destinations ')}
+                            <ArrowRight className="h-3.5 w-3.5" />
                           </Link>
                         </div>
 
@@ -183,22 +218,22 @@ export function SiteNav() {
                               <div className="relative aspect-[3/2] w-full overflow-hidden rounded-[4px]">
                                 <img
                                   src={d.image}
-                                  alt={d.name}
+                                  alt={copy(d.name)}
                                   className="h-full w-full object-cover transition-transform duration-700 group-hover/item:scale-105"
                                 />
                                 <span className="absolute left-2.5 top-2.5 rounded-full bg-charcoal/80 backdrop-blur-md px-3 py-1 text-[9px] font-semibold uppercase tracking-wider text-background">
-                                  {d.tag}
+                                  {copy(d.tag)}
                                 </span>
                               </div>
                               <div>
                                 <h4 className="font-serif text-[14px] text-foreground group-hover/item:text-accent transition-colors duration-300">
-                                  {d.name}
+                                  {copy(d.name)}
                                 </h4>
                                 <p className="text-[10px] text-muted-foreground mt-0.5 block tracking-[0.06em] font-medium uppercase">
-                                  {d.region}
+                                  {copy(d.region)}
                                 </p>
                                 <p className="text-[11px] text-muted-foreground/80 mt-1 line-clamp-2 leading-relaxed">
-                                  {d.teaser}
+                                  {copy(d.teaser)}
                                 </p>
                               </div>
                             </Link>
@@ -213,17 +248,24 @@ export function SiteNav() {
                       <div className="shell grid grid-cols-[1fr_3.2fr] gap-12 py-10">
                         <div className="flex flex-col justify-between">
                           <div>
-                            <span className="text-[10px] font-semibold uppercase tracking-[0.2em] text-accent mb-2 block">Our Tours</span>
-                            <h3 className="font-serif text-2xl text-foreground mb-4">Popular Itineraries</h3>
+                            <span className="text-[10px] font-semibold uppercase tracking-[0.2em] text-accent mb-2 block">
+                              {copy('Our Tours')}
+                            </span>
+                            <h3 className="font-serif text-2xl text-foreground mb-4">
+                              {copy('Popular Itineraries')}
+                            </h3>
                             <p className="text-xs text-muted-foreground leading-relaxed">
-                              Private and small-group journeys across Ethiopia: history, culture, trekking, wildlife, festivals and coffee, led by licensed local guides.
+                              {copy(
+                                'Private and small-group journeys across Ethiopia: history, culture, trekking, wildlife, festivals and coffee, led by licensed local guides.',
+                              )}
                             </p>
                           </div>
                           <Link
                             href="/tours"
                             className="inline-flex items-center gap-2 text-xs font-semibold uppercase tracking-[0.16em] text-accent hover:text-accent/80 transition-colors mt-6"
                           >
-                            Explore All Tours <ArrowRight className="h-3.5 w-3.5" />
+                            {copy('Explore All Tours ')}
+                            <ArrowRight className="h-3.5 w-3.5" />
                           </Link>
                         </div>
 
@@ -237,26 +279,32 @@ export function SiteNav() {
                               <div className="relative aspect-[16/9] w-full overflow-hidden rounded-[4px]">
                                 <img
                                   src={t.image}
-                                  alt={t.title}
+                                  alt={copy(t.title)}
                                   className="h-full w-full object-cover transition-transform duration-700 group-hover/item:scale-105"
                                 />
                                 <span className="absolute left-2.5 top-2.5 rounded-full bg-accent px-3 py-1 text-[9px] font-semibold uppercase tracking-wider text-primary-foreground">
-                                  {t.days}
+                                  {copy(t.days)}
                                 </span>
                               </div>
                               <div>
                                 <h4 className="font-serif text-[14px] text-foreground group-hover/item:text-accent transition-colors duration-300 line-clamp-1">
-                                  {t.title}
+                                  {copy(t.title)}
                                 </h4>
                                 <p className="text-[10px] text-muted-foreground mt-0.5 block tracking-[0.06em] font-medium uppercase">
-                                  {t.style}
+                                  {copy(t.style)}
                                 </p>
                                 <p className="text-[11px] text-muted-foreground/80 mt-1 line-clamp-2 leading-relaxed">
-                                  {t.teaser}
+                                  {copy(t.teaser)}
                                 </p>
                                 <div className="mt-2.5 flex items-center justify-between border-t border-border/60 pt-2">
-                                  <span className="text-[10px] text-muted-foreground uppercase tracking-wider">{hasPrice(t.from) ? 'From' : 'Price'}</span>
-                                  <span className="text-xs font-bold text-accent">{priceShort(t.from)}</span>
+                                  <span className="text-[10px] text-muted-foreground uppercase tracking-wider">
+                                    {hasPrice(t.from)
+                                      ? copy('From')
+                                      : copy('Price')}
+                                  </span>
+                                  <span className="text-xs font-bold text-accent">
+                                    {priceShort(t.from)}
+                                  </span>
                                 </div>
                               </div>
                             </Link>
@@ -273,7 +321,7 @@ export function SiteNav() {
           <div className="flex items-center gap-2 sm:gap-3">
             <div ref={langRef} className="relative hidden sm:block">
               <button
-                aria-label="Change language"
+                aria-label={copy('Change language')}
                 aria-haspopup="listbox"
                 aria-expanded={langOpen}
                 onClick={() => setLangOpen((v) => !v)}
@@ -286,7 +334,7 @@ export function SiteNav() {
               >
                 <Globe className="h-[17px] w-[17px]" />
                 <span className="text-[11px] font-semibold tracking-[0.1em]">
-                  {lang.code}
+                  {lang.code.toUpperCase()}
                 </span>
                 <ChevronDown
                   className={cn(
@@ -298,7 +346,7 @@ export function SiteNav() {
 
               <ul
                 role="listbox"
-                aria-label="Language"
+                aria-label={copy('Language')}
                 className={cn(
                   'absolute right-0 top-12 w-44 overflow-hidden rounded-sm border border-border bg-popover shadow-xl transition-all duration-200',
                   langOpen
@@ -307,7 +355,7 @@ export function SiteNav() {
                 )}
               >
                 {languages.map((l) => (
-                  <li key={l.code}>
+                  <li key={l.code.toUpperCase()}>
                     <button
                       role="option"
                       aria-selected={l.code === lang.code}
@@ -331,11 +379,11 @@ export function SiteNav() {
               href="/contact"
               className="hidden items-center whitespace-nowrap rounded-full bg-accent px-4 py-2 text-[10px] font-semibold uppercase tracking-[0.16em] text-accent-foreground shadow-[0_8px_22px_-12px_oklch(0.705_0.098_76/0.75)] transition-all duration-300 hover:-translate-y-0.5 hover:bg-sand lg:-mr-4 lg:inline-flex xl:-mr-[min(3.5rem,calc((100vw-1280px)/2+1rem))]"
             >
-              Request Your Journey
+              {copy('Request Your Journey')}
             </Link>
 
             <button
-              aria-label={open ? 'Close menu' : 'Open menu'}
+              aria-label={open ? copy('Close menu') : copy('Open menu')}
               aria-expanded={open}
               onClick={() => setOpen((v) => !v)}
               className={cn(
@@ -372,7 +420,9 @@ export function SiteNav() {
                   <Link
                     href={link.href}
                     onClick={() => setOpen(false)}
-                    style={{ transitionDelay: open ? `${120 + i * 55}ms` : '0ms' }}
+                    style={{
+                      transitionDelay: open ? `${120 + i * 55}ms` : '0ms',
+                    }}
                     className={cn(
                       'flex items-center justify-between gap-4 py-5 transition-all duration-500',
                       open
@@ -390,7 +440,7 @@ export function SiteNav() {
                           active ? 'text-primary' : 'text-foreground',
                         )}
                       >
-                        {link.label}
+                        {copy(link.label)}
                       </span>
                     </span>
                     <ArrowRight
@@ -408,12 +458,12 @@ export function SiteNav() {
           <div className="mt-8">
             <span className="mb-3 flex items-center gap-2 text-[10px] font-semibold uppercase tracking-[0.18em] text-muted-foreground">
               <Globe className="h-3.5 w-3.5" />
-              Language
+              {copy('Language')}
             </span>
             <div className="flex flex-wrap gap-2">
               {languages.map((l) => (
                 <button
-                  key={l.code}
+                  key={l.code.toUpperCase()}
                   onClick={() => setLang(l)}
                   className={cn(
                     'rounded-full border px-4 py-2 text-sm transition-colors duration-200',
@@ -434,14 +484,14 @@ export function SiteNav() {
               className="flex items-center gap-3"
             >
               <Phone className="h-4 w-4 text-accent" />
-              {contact.phone}
+              {copy(contact.phone)}
             </a>
             <a
               href={`mailto:${contact.email}`}
               className="flex items-center gap-3"
             >
               <Mail className="h-4 w-4 text-accent" />
-              {contact.email}
+              {copy(contact.email)}
             </a>
           </div>
         </div>
@@ -452,7 +502,7 @@ export function SiteNav() {
             onClick={() => setOpen(false)}
             className="group flex w-full items-center justify-center gap-2.5 rounded-full bg-accent px-6 py-4 text-[11px] font-semibold uppercase tracking-[0.18em] text-accent-foreground shadow-[0_12px_32px_-12px_oklch(0.705_0.098_76/0.7)] transition-all duration-300 hover:bg-sand"
           >
-            Request Your Journey
+            {copy('Request Your Journey')}
             <ArrowRight className="h-4 w-4 transition-transform duration-300 group-hover:translate-x-1" />
           </Link>
         </div>

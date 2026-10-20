@@ -1,12 +1,16 @@
 import 'server-only'
 import type { LayoverPackage } from '../types'
-import { layoverPackages as staticLayoverPackages } from '../data/layover-packages'
+import { getLayoverPackages as localizedPackages } from '../data/localized'
+import type { AppLocale } from '@/i18n/routing'
 import { getLayoverPackages, type ApiLayoverPackage } from '../api/client'
 
-export async function getLayoverPackagesData(): Promise<LayoverPackage[]> {
+export async function getLayoverPackagesData(
+  locale: AppLocale = 'en',
+): Promise<LayoverPackage[]> {
+  const staticLayoverPackages = localizedPackages(locale)
   let livePackages: ApiLayoverPackage[] = []
   try {
-    livePackages = await getLayoverPackages()
+    livePackages = await getLayoverPackages({ cache: 'force-cache' })
   } catch {
     livePackages = []
   }
@@ -19,11 +23,16 @@ export async function getLayoverPackagesData(): Promise<LayoverPackage[]> {
     const live = bySlug.get(p.slug)
     if (!live) return p
     return {
-      ...live,
+      ...p,
+      price:
+        typeof live.price === 'string' && /[0-9]/.test(live.price)
+          ? live.price
+          : p.price,
       // Overlay the live image only when the backend serves it (/api/v1/media).
       // Dev-local /assets paths are only served by the backend process, not
       // the frontend — documented limitation, keep the static image instead.
-      image: live.image && live.image.startsWith('/api/v1/') ? live.image : p.image,
+      image:
+        live.image && live.image.startsWith('/api/v1/') ? live.image : p.image,
     }
   })
 }

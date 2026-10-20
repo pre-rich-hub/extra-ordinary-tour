@@ -1,25 +1,35 @@
 'use client'
 
+import { useCopy } from '@/i18n/copy'
+
 import { useMemo, useState } from 'react'
 import { Reveal } from '@/components/ui/reveal'
 import { TourCard } from './tour-card'
 import type { Tour } from '../types'
 
 function styleTokens(tour: Tour) {
-  return tour.style.split('·').map((s) => s.trim())
+  return tour.styleKeys ?? tour.style.split('·').map((s) => s.trim())
 }
 
 export function ToursGrid({ tours }: { tours: Tour[] }) {
+  const copy = useCopy()
+
+  const labels = new Map<string, string>()
+  tours.forEach((t) =>
+    styleTokens(t).forEach((key, i) =>
+      labels.set(key, t.style.split('·')[i]?.trim() ?? key),
+    ),
+  )
   const filters = useMemo(() => {
     const set = new Set<string>()
     tours.forEach((t) => styleTokens(t).forEach((s) => set.add(s)))
-    return ['All Journeys', ...Array.from(set).sort()]
+    return ['__all__', ...Array.from(set).sort()]
   }, [tours])
 
-  const [active, setActive] = useState('All Journeys')
+  const [active, setActive] = useState('__all__')
 
   const visible =
-    active === 'All Journeys'
+    active === '__all__'
       ? tours
       : tours.filter((t) => styleTokens(t).includes(active))
 
@@ -27,7 +37,7 @@ export function ToursGrid({ tours }: { tours: Tour[] }) {
     <div>
       <div
         role="group"
-        aria-label="Filter journeys by style"
+        aria-label={copy('Filter journeys by style')}
         className="mb-12 flex flex-wrap gap-2 sm:mb-16"
       >
         {filters.map((f) => {
@@ -44,7 +54,9 @@ export function ToursGrid({ tours }: { tours: Tour[] }) {
                   : 'border-border bg-card text-muted-foreground hover:border-primary/50 hover:text-foreground'
               }`}
             >
-              {f}
+              {f === '__all__'
+                ? copy('All Journeys')
+                : (labels.get(f) ?? copy(f))}
             </button>
           )
         })}
@@ -60,7 +72,7 @@ export function ToursGrid({ tours }: { tours: Tour[] }) {
 
       {visible.length === 0 && (
         <p className="py-16 text-center text-muted-foreground">
-          No journeys in this style yet, but we will design one.
+          {copy('No journeys in this style yet, but we will design one.')}
         </p>
       )}
     </div>

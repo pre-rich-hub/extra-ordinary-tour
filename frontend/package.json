@@ -7,7 +7,11 @@
     "build": "next build",
     "start": "next start",
     "typecheck": "tsc --noEmit",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "test": "vitest run",
+    "i18n:audit": "node scripts/i18n-audit.mjs",
+    "i18n:routes": "node scripts/i18n-routes.mjs",
+    "i18n:browser": "node scripts/i18n-browser.cjs"
   },
   "dependencies": {
     "@base-ui/react": "^1.5.0",
@@ -16,6 +20,7 @@
     "clsx": "^2.1.1",
     "lucide-react": "^1.30.0",
     "next": "16.2.6",
+    "next-intl": "4.14.4",
     "react": "^19",
     "react-dom": "^19",
     "shadcn": "^4.8.0",
@@ -29,7 +34,8 @@
     "@types/react-dom": "^19",
     "postcss": "^8.5",
     "tailwindcss": "^4.3.3",
-    "typescript": "5.7.3"
+    "typescript": "5.7.3",
+    "vitest": "3.2.7"
   },
   "pnpm": {
     "overrides": {

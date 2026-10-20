@@ -13,6 +13,8 @@ export type ApiLayoverPackage = {
   best: string
 }
 
-export async function getLayoverPackages(): Promise<ApiLayoverPackage[]> {
-  return request<ApiLayoverPackage[]>('/api/v1/layover-packages')
+export async function getLayoverPackages(
+  init?: RequestInit,
+): Promise<ApiLayoverPackage[]> {
+  return request<ApiLayoverPackage[]>('/api/v1/layover-packages', init)
 }

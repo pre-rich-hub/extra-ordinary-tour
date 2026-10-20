@@ -1,8 +1,11 @@
+import { useCopy } from '@/i18n/copy'
+import { useLocale } from 'next-intl'
+import type { AppLocale } from '@/i18n/routing'
 import Image from 'next/image'
-import Link from 'next/link'
+import { Link } from '@/i18n/navigation'
 import { ArrowRight, ArrowUpRight } from 'lucide-react'
 import { Reveal } from '@/components/ui/reveal'
-import { tours } from '@/features/tours/data/tours'
+import { getTours } from '@/features/tours/data/localized'
 
 const offerings = [
   {
@@ -50,38 +53,50 @@ const offerings = [
 ]
 
 export function TravelOfferings() {
+  const copy = useCopy()
+
+  const tours = getTours(useLocale() as AppLocale)
+
   return (
     <section className="shell py-24 sm:py-28 lg:py-36">
       <Reveal className="mb-14 grid gap-6 lg:mb-16 lg:grid-cols-[1fr_auto] lg:items-end">
         <div className="max-w-2xl">
-          <p className="eyebrow mb-6 text-accent">
-            What we do
-          </p>
+          <p className="eyebrow mb-6 text-accent">{copy('What we do')}</p>
           <h2 className="text-balance font-serif text-4xl leading-[1.05] text-foreground sm:text-5xl lg:text-6xl">
-            One country, <em className="italic text-primary">many journeys</em>
+            {copy('One country, ')}
+            <em className="italic text-primary">{copy('many journeys')}</em>
           </h2>
         </div>
         <Link
           href="/tours"
           className="group inline-flex items-center gap-2 text-[11px] font-semibold uppercase tracking-[0.18em] text-primary transition-colors hover:text-accent sm:text-xs"
         >
-          Explore all {tours.length} tours
+          {copy('Explore all ')}
+          {copy(tours.length)} {copy('tours')}
           <ArrowRight className="h-3.5 w-3.5 transition-transform duration-300 group-hover:translate-x-1" />
         </Link>
       </Reveal>
 
       <div className="grid auto-rows-[260px] gap-4 sm:auto-rows-[300px] sm:grid-cols-2 sm:gap-5 lg:auto-rows-[280px] lg:grid-cols-12">
         {offerings.map((o, i) => (
-          <Reveal key={o.title} delay={(i % 3) * 90} className={`h-full ${o.span}`}>
+          <Reveal
+            key={o.title}
+            delay={(i % 3) * 90}
+            className={`h-full ${o.span}`}
+          >
             <Link
               href={o.href}
               className="group relative block h-full overflow-hidden rounded-sm bg-charcoal"
             >
               <Image
                 src={o.image}
-                alt={o.title}
+                alt={copy(o.title)}
                 fill
-                sizes={i === 0 ? '(max-width: 1024px) 100vw, 58vw' : '(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw'}
+                sizes={
+                  i === 0
+                    ? '(max-width: 1024px) 100vw, 58vw'
+                    : '(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw'
+                }
                 className="object-cover transition-transform duration-[1400ms] ease-out group-hover:scale-[1.06]"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-charcoal/90 via-charcoal/20 to-transparent transition-opacity duration-500 group-hover:opacity-95" />
@@ -92,11 +107,13 @@ export function TravelOfferings() {
                 <p className="text-[10px] font-semibold uppercase tracking-[0.22em] text-accent">
                   {String(i + 1).padStart(2, '0')}
                 </p>
-                <h3 className={`mt-2 font-serif leading-[1.05] text-background ${i === 0 ? 'text-4xl sm:text-5xl' : 'text-[1.7rem]'}`}>
-                  {o.title}
+                <h3
+                  className={`mt-2 font-serif leading-[1.05] text-background ${i === 0 ? 'text-4xl sm:text-5xl' : 'text-[1.7rem]'}`}
+                >
+                  {copy(o.title)}
                 </h3>
                 <p className="mt-2 max-w-[38ch] text-pretty text-sm leading-relaxed text-background/75">
-                  {o.text}
+                  {copy(o.text)}
                 </p>
               </div>
             </Link>
