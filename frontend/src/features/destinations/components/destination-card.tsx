@@ -73,7 +73,7 @@ export function DestinationFeatureCard({
         <p className="mt-3 max-w-[34ch] text-pretty text-sm leading-relaxed text-background/80">
           {d.teaser}
         </p>
-        <span className="mt-6 inline-flex items-center gap-2.5 rounded-sm border border-accent/70 px-5 py-2.5 text-[11px] font-semibold uppercase tracking-[0.16em] text-accent transition-all duration-300 group-hover:border-accent group-hover:bg-accent group-hover:text-accent-foreground">
+        <span className="mt-6 inline-flex items-center gap-2.5 whitespace-nowrap rounded-full bg-accent px-5 py-2.5 text-[11px] font-semibold uppercase tracking-[0.16em] text-accent-foreground shadow-[0_8px_22px_-12px_oklch(0.705_0.098_76/0.75)] transition-all duration-300 group-hover:-translate-y-0.5 group-hover:bg-sand">
           Explore {d.name.split(' ')[0]}
           <ArrowRight className="h-3.5 w-3.5 transition-transform duration-300 group-hover:translate-x-1" />
         </span>
