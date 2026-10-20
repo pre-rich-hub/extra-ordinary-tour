@@ -1,6 +1,6 @@
 'use client'
 
-import { Fragment, useState } from 'react'
+import { Fragment, useEffect, useRef, useState } from 'react'
 import Image from 'next/image'
 import { ArrowUpRight, ChevronLeft, ChevronRight, Star } from 'lucide-react'
 import { Reveal } from '@/components/ui/reveal'
@@ -11,6 +11,8 @@ import { cn } from '@/lib/utils'
 import type { ReviewPlatform, ReviewSummary, Testimonial } from '@/types'
 
 const avatarTones = ['bg-primary', 'bg-accent', 'bg-secondary']
+
+const AUTOPLAY_MS = 5000
 
 const platformStyle: Record<ReviewPlatform, { tile: string; name: string }> = {
   Tripadvisor: { tile: 'bg-tripadvisor', name: 'Tripadvisor' },
@@ -27,7 +29,7 @@ export function Reviews() {
             {/* Left: this platform's heading + rating card (same design for each) */}
             <Reveal delay={r * 80}>
               {(
-                <div className="mb-7">
+                <div className="mb-7 text-center lg:text-left">
                   <p className="text-[10px] font-semibold uppercase tracking-[0.24em] text-muted-foreground">
                     Guest reviews
                   </p>
@@ -37,7 +39,7 @@ export function Reviews() {
                   >
                     Excellent
                   </h2>
-                  <Stars value={summary.rating ?? 5} className="mt-4 gap-1" size="h-9 w-9" />
+                  <Stars value={summary.rating ?? 5} className="mt-4 justify-center gap-1 lg:justify-start" size="h-9 w-9" />
                   <p className="mt-4 text-[15px] text-foreground/80">
                     Based on{' '}
                     <span className="font-semibold text-foreground underline decoration-accent decoration-2 underline-offset-4">
@@ -70,6 +72,7 @@ export function Reviews() {
 
 function ReviewRow({ summary, reviews }: { summary: ReviewSummary; reviews: Testimonial[] }) {
   const { ref: track, edges } = useScrollEdges({ start: true, end: true })
+  const paused = useRef(false)
 
   const step = (dir: 1 | -1) => {
     const el = track.current
@@ -79,11 +82,35 @@ function ReviewRow({ summary, reviews }: { summary: ReviewSummary; reviews: Test
     el.scrollBy({ left: dir * (card.offsetWidth + gap), behavior: 'smooth' })
   }
 
+  // Advance one card at a time on its own, looping back to the start after
+  // the last one. Hovering, focusing or touching the row holds it in place.
+  useEffect(() => {
+    if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return
+    const id = window.setInterval(() => {
+      const el = track.current
+      if (!el || paused.current) return
+      if (el.scrollLeft + el.clientWidth >= el.scrollWidth - 8) {
+        el.scrollTo({ left: 0, behavior: 'smooth' })
+      } else {
+        step(1)
+      }
+    }, AUTOPLAY_MS)
+    return () => window.clearInterval(id)
+  }, [track])
+
   if (reviews.length === 0) return null
 
   return (
     <div>
-      <div className="relative">
+      <div
+        className="relative"
+        onMouseEnter={() => (paused.current = true)}
+        onMouseLeave={() => (paused.current = false)}
+        onFocus={() => (paused.current = true)}
+        onBlur={() => (paused.current = false)}
+        onTouchStart={() => (paused.current = true)}
+        onTouchEnd={() => (paused.current = false)}
+      >
         <div
           ref={track}
           role="region"
@@ -169,7 +196,7 @@ function PlatformCard({
   )
 
   const card =
-    'group flex items-center gap-4 rounded-lg border border-border bg-card p-4 transition-all duration-300'
+    'group mx-auto flex w-full max-w-sm items-center gap-4 rounded-lg border border-border bg-card p-4 transition-all duration-300 lg:max-w-none'
 
   return url ? (
     <a

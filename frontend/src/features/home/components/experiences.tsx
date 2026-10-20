@@ -1,3 +1,6 @@
+'use client'
+
+import { useCallback, useEffect, useRef, useState } from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
 import { ArrowRight } from 'lucide-react'
@@ -35,99 +38,164 @@ const experiences = [
   },
 ]
 
-// Caption panels alternate light and dark in a checkerboard, and the right
-// column's panels sit a little lower — the offset keeps the grid from feeling
-// like a spreadsheet.
-const panelTone = ['light', 'dark', 'dark', 'light'] as const
+// The track holds two copies of the list so the slide that wraps from one end
+// to the other always travels while hidden, never across the visible stage.
+const slides = [...experiences, ...experiences]
+const count = slides.length
+
+// Where a slide sits for its distance from the active one. Every slot is
+// absolutely positioned, so moving between them is a plain CSS transition.
+const slots: Record<number, string> = {
+  [-2]: 'left-[-20%] top-[10%] h-[80%] w-[6%] opacity-0 lg:w-[16%]',
+  [-1]: 'left-0 top-[10%] h-[80%] w-[6%] cursor-pointer lg:left-[1.5%] lg:w-[16%]',
+  0: 'left-[8%] top-0 h-full w-[84%] lg:left-[20%] lg:w-[60%]',
+  1: 'left-[94%] top-[10%] h-[80%] w-[6%] cursor-pointer lg:left-[82.5%] lg:w-[16%]',
+  2: 'left-[120%] top-[10%] h-[80%] w-[6%] opacity-0 lg:w-[16%]',
+}
+const hiddenSlot = 'left-[45%] top-[10%] h-[80%] w-[10%] opacity-0'
+
+const AUTOPLAY_MS = 6000
 
 export function Experiences() {
+  const [active, setActive] = useState(0)
+  const [paused, setPaused] = useState(false)
+  const touchX = useRef<number | null>(null)
+
+  const go = useCallback(
+    (step: number) => setActive((a) => (a + step + count) % count),
+    [],
+  )
+
+  // `active` is a dependency so a manual move restarts the countdown.
+  useEffect(() => {
+    if (paused) return
+    if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return
+    const id = window.setInterval(() => go(1), AUTOPLAY_MS)
+    return () => window.clearInterval(id)
+  }, [paused, go, active])
+
+  const current = slides[active]
+
   return (
-    <section id="experiences" className="bg-background py-20 sm:py-24 lg:py-32">
-      <Reveal className="shell mb-14 text-center sm:mb-20">
+    <section
+      id="experiences"
+      aria-labelledby="experiences-title"
+      aria-roledescription="carousel"
+      className="overflow-hidden bg-background py-20 sm:py-24 lg:py-32"
+    >
+      <Reveal className="shell mb-12 text-center sm:mb-16">
         <p className="eyebrow mb-5 justify-center text-accent">
           Signature Experiences
         </p>
-        <h2 className="text-balance text-4xl leading-[1.05] text-foreground sm:text-5xl lg:text-6xl">
+        <h2
+          id="experiences-title"
+          className="text-balance text-4xl leading-[1.05] text-foreground sm:text-5xl lg:text-6xl"
+        >
           Moments <em className="italic">that stay with you</em>
         </h2>
-        <p className="mx-auto mt-6 max-w-[50ch] text-pretty leading-relaxed text-muted-foreground sm:text-lg">
+        <p className="mx-auto mt-6 max-w-[56ch] text-pretty leading-relaxed text-muted-foreground sm:text-lg">
           History, culture, adventure, wildlife and trekking. Combine them
           into one journey, designed around how you like to travel.
         </p>
-      </Reveal>
-
-      <div className="mx-auto grid w-full max-w-[1120px] gap-x-6 gap-y-16 px-5 sm:px-6 md:grid-cols-2 lg:gap-x-8 lg:gap-y-20 lg:px-10">
-        {experiences.map((e, i) => {
-          const dark = panelTone[i] === 'dark'
-          const rightColumn = i % 2 === 1
-          return (
-            <Reveal key={e.title} delay={(i % 2) * 140}>
-              <Link href={e.href} className="group block">
-                <div className="relative aspect-[7/5] overflow-hidden rounded-sm bg-muted">
-                  <Image
-                    src={e.image}
-                    alt={e.title}
-                    fill
-                    sizes="(max-width: 768px) 100vw, 560px"
-                    className="object-cover transition-transform duration-[1400ms] ease-out group-hover:scale-[1.05]"
-                  />
-                  <div className="absolute inset-0 bg-charcoal/0 transition-colors duration-700 group-hover:bg-charcoal/10" />
-                </div>
-
-                <div
-                  className={cn(
-                    'relative mx-5 -mt-20 px-6 py-8 text-center shadow-[0_28px_60px_-30px_oklch(0.185_0.012_58/0.55)] transition-transform duration-500 ease-out group-hover:-translate-y-1.5 sm:mx-[11%] sm:px-8 sm:py-9',
-                    rightColumn ? 'md:-mt-16' : 'md:-mt-24',
-                    dark
-                      ? 'bg-secondary text-secondary-foreground'
-                      : 'bg-sand text-foreground',
-                  )}
-                >
-                  <p
-                    className={cn(
-                      'text-[10px] font-semibold uppercase tracking-[0.22em] sm:text-[11px]',
-                      dark ? 'text-accent' : 'text-primary',
-                    )}
-                  >
-                    {e.kicker}
-                  </p>
-                  <h3 className="mt-3 text-[1.7rem] leading-tight sm:text-3xl">
-                    {e.title}
-                  </h3>
-                  <p
-                    className={cn(
-                      'mx-auto mt-4 max-w-[38ch] text-pretty text-[15px] leading-relaxed',
-                      dark ? 'text-secondary-foreground/75' : 'text-foreground/70',
-                    )}
-                  >
-                    {e.text}
-                  </p>
-                  <span
-                    className={cn(
-                      'mt-5 inline-flex items-center gap-2 border-b pb-1 text-[11px] font-semibold uppercase tracking-[0.16em] transition-colors duration-300',
-                      dark
-                        ? 'border-accent/40 text-accent group-hover:border-accent'
-                        : 'border-foreground/25 text-foreground group-hover:border-foreground',
-                    )}
-                  >
-                    Discover More
-                    <ArrowRight className="h-3.5 w-3.5 transition-transform duration-300 group-hover:translate-x-1" />
-                  </span>
-                </div>
-              </Link>
-            </Reveal>
-          )
-        })}
-      </div>
-
-      <Reveal className="mt-16 flex justify-center sm:mt-20">
         <Link
           href="/tours"
-          className="group inline-flex items-center gap-2.5 rounded-full bg-accent px-9 py-4 text-[11px] font-semibold uppercase tracking-[0.18em] text-accent-foreground shadow-[0_12px_32px_-14px_oklch(0.705_0.098_76/0.8)] transition-all duration-300 hover:-translate-y-0.5 hover:bg-primary hover:text-primary-foreground sm:text-xs"
+          className="mt-7 inline-block border-b border-foreground/70 pb-1 text-[11px] font-semibold uppercase tracking-[0.18em] text-foreground transition-colors duration-300 hover:border-accent hover:text-accent sm:text-xs"
         >
           Explore Travel Styles
-          <ArrowRight className="h-4 w-4 transition-transform duration-300 group-hover:translate-x-1" />
         </Link>
+      </Reveal>
+
+      <Reveal className="mx-auto max-w-[1600px]" delay={120}>
+        <div
+          className="relative aspect-[1.59] w-full lg:aspect-[2.96]"
+          onMouseEnter={() => setPaused(true)}
+          onMouseLeave={() => setPaused(false)}
+          onFocus={() => setPaused(true)}
+          onBlur={() => setPaused(false)}
+          onTouchStart={(e) => {
+            touchX.current = e.touches[0].clientX
+          }}
+          onTouchEnd={(e) => {
+            if (touchX.current === null) return
+            const dx = e.changedTouches[0].clientX - touchX.current
+            touchX.current = null
+            if (Math.abs(dx) > 40) go(dx < 0 ? 1 : -1)
+          }}
+        >
+          {slides.map((s, i) => {
+            let offset = (i - active + count) % count
+            if (offset > count / 2) offset -= count
+            const isActive = offset === 0
+            const isSide = Math.abs(offset) === 1
+            return (
+              <div
+                key={`${s.title}-${i}`}
+                aria-hidden={!isActive}
+                onClick={isSide ? () => go(offset) : undefined}
+                className={cn(
+                  'absolute overflow-hidden bg-muted transition-all duration-[1100ms] ease-[cubic-bezier(0.65,0,0.35,1)]',
+                  slots[offset] ?? hiddenSlot,
+                )}
+              >
+                <Image
+                  src={s.image}
+                  alt={isActive ? s.title : ''}
+                  fill
+                  sizes="(min-width: 1024px) 60vw, 84vw"
+                  className={cn(
+                    'object-cover transition-transform duration-[1400ms] ease-out',
+                    isActive ? 'scale-100' : 'scale-110',
+                  )}
+                />
+                {isActive && (
+                  <Link
+                    href={s.href}
+                    className="absolute inset-0"
+                    aria-label={`Discover ${s.title}`}
+                  />
+                )}
+              </div>
+            )
+          })}
+        </div>
+
+        {/* Every caption shares one grid cell, so the block is always as tall
+            as the longest one and the page below never jumps between slides. */}
+        <div className="shell mt-8 grid text-center sm:mt-10" aria-live="polite">
+          {experiences.map((e) => {
+            const isCurrent = e === current
+            return (
+              <div
+                key={e.title}
+                aria-hidden={!isCurrent}
+                className={cn(
+                  '[grid-area:1/1] transition-[opacity,transform] duration-700 ease-out',
+                  isCurrent
+                    ? 'translate-y-0 opacity-100'
+                    : 'pointer-events-none invisible translate-y-2 opacity-0',
+                )}
+              >
+                <p className="text-[10px] font-semibold uppercase tracking-[0.22em] text-primary sm:text-[11px]">
+                  {e.kicker}
+                </p>
+                <h3 className="mt-3 text-3xl leading-tight text-foreground sm:text-4xl">
+                  {e.title}
+                </h3>
+                <p className="mx-auto mt-4 max-w-[52ch] text-pretty text-[15px] leading-relaxed text-muted-foreground">
+                  {e.text}
+                </p>
+                <Link
+                  href={e.href}
+                  tabIndex={isCurrent ? undefined : -1}
+                  className="group mt-5 inline-flex items-center gap-2 border-b border-foreground/25 pb-1 text-[11px] font-semibold uppercase tracking-[0.16em] text-foreground transition-colors duration-300 hover:border-foreground"
+                >
+                  Discover More
+                  <ArrowRight className="h-3.5 w-3.5 transition-transform duration-300 group-hover:translate-x-1" />
+                </Link>
+              </div>
+            )
+          })}
+        </div>
       </Reveal>
     </section>
   )
