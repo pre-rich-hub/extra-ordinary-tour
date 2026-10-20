@@ -1,5 +1,5 @@
 import type { Metadata } from 'next'
-import { AdminTours } from './tours-client'
+import { AdminTours } from '@/features/admin/tours/components/tours'
 
 export const metadata: Metadata = {
   title: 'Tours',

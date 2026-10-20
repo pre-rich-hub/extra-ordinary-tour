@@ -2,7 +2,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import { ArrowRight, CalendarDays, Clock, MapPin, Mountain } from 'lucide-react'
 import { InfoCard } from '@/components/cards/info-card'
-import type { Destination } from '@/types'
+import type { Destination } from '../types'
 import { cn } from '@/lib/utils'
 
 /** Photo-topped card with a fact grid. Used on the Destinations listing. */

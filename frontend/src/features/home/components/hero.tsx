@@ -1,5 +1,5 @@
-import { HeroActions } from '@/features/home/components/hero-actions'
-import { HeroSlideshow } from '@/features/home/components/hero-slideshow'
+import { HeroActions } from './hero-actions'
+import { HeroSlideshow } from './hero-slideshow'
 
 export function Hero() {
   return (
@@ -33,5 +33,3 @@ export function Hero() {
     </section>
   )
 }
-
-

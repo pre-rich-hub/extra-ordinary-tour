@@ -3,10 +3,11 @@
 import { useMemo, useState } from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
-import type { Tour } from '@/types'
+import type { Tour } from '@/features/tours/types'
 import { Reveal } from '@/components/ui/reveal'
 import { TextLink } from '@/components/ui/link-button'
-import { cn, hasPrice } from '@/lib/utils'
+import { cn } from '@/lib/utils'
+import { hasPrice } from '@/features/tours/lib/format'
 
 const ALL = 'All'
 const MAX_CARDS = 6

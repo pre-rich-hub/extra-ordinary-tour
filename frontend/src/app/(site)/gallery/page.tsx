@@ -3,7 +3,7 @@ import { PageHero } from '@/components/layout/page-hero'
 import { CtaBand } from '@/components/layout/cta-band'
 import { SectionHeading } from '@/components/ui/section-heading'
 import { GalleryGrid } from '@/features/gallery/components/gallery-grid'
-import { galleryCategories, galleryPhotos } from '@/content'
+import { galleryCategories, galleryPhotos } from '@/features/gallery/data/gallery'
 
 export const metadata: Metadata = {
   title: 'Gallery',

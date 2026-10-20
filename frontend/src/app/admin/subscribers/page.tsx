@@ -1,5 +1,5 @@
 import type { Metadata } from 'next'
-import { AdminSubscribers } from './subscribers-client'
+import { AdminSubscribers } from '@/features/admin/subscribers/components/subscribers'
 
 export const metadata: Metadata = {
   title: 'Subscribers',

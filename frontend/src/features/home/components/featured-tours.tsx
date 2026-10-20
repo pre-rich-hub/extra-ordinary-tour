@@ -1,6 +1,6 @@
-import { TourIndex } from '@/features/home/components/tour-index'
-import { tours as staticTours } from '@/content'
-import type { Tour } from '@/types'
+import { TourIndex } from './tour-index'
+import { tours as staticTours } from '@/features/tours/data/tours'
+import type { Tour } from '@/features/tours/types'
 
 export function FeaturedTours({ tours = staticTours }: { tours?: Tour[] }) {
   const featured = tours.filter((t) => t.featured)

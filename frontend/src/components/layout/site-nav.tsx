@@ -13,8 +13,12 @@ import {
   Mail,
   ArrowRight,
 } from 'lucide-react'
-import { cn, hasPrice, priceShort } from '@/lib/utils'
-import { navLinks, contact, destinations, tours } from '@/content'
+import { cn } from '@/lib/utils'
+import { hasPrice, priceShort } from '@/features/tours/lib/format'
+import { navLinks } from '@/config/navigation'
+import { contact } from '@/config/site'
+import { destinations } from '@/features/destinations/data/destinations'
+import { tours } from '@/features/tours/data/tours'
 
 const languages = [
   { code: 'EN', label: 'English' },

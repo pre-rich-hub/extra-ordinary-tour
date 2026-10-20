@@ -4,7 +4,7 @@ import Image from 'next/image'
 import { useState } from 'react'
 import { Expand } from 'lucide-react'
 import { Reveal } from '@/components/ui/reveal'
-import type { GalleryCategory, GalleryPhoto } from '@/types'
+import type { GalleryCategory, GalleryPhoto } from '../types'
 import { cn } from '@/lib/utils'
 import { Lightbox } from './lightbox'
 

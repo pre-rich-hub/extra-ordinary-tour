@@ -1,5 +1,5 @@
 import type { Metadata } from 'next'
-import { AdminTourCategories } from './categories-client'
+import { AdminTourCategories } from '@/features/admin/categories/components/categories'
 
 export const metadata: Metadata = {
   title: 'Tour Categories',

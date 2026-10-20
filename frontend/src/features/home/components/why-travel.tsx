@@ -6,7 +6,9 @@ import Link from 'next/link'
 import { ChevronLeft, ChevronRight, MapPin } from 'lucide-react'
 import { Reveal } from '@/components/ui/reveal'
 import { cn } from '@/lib/utils'
-import { reviewSummaries, slogan, whyUs } from '@/content'
+import { reviewSummaries } from '@/features/reviews/data/testimonials'
+import { slogan } from '@/config/site'
+import { whyUs } from '@/features/about/data/company'
 
 // The three reasons this section features; the rest still feed other pages.
 const featured = ['local', 'tailored', 'explore'] as const

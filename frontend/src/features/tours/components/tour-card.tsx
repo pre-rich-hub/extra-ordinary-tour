@@ -1,7 +1,7 @@
 import { CalendarDays, Clock, MapPin, Users } from 'lucide-react'
 import { InfoCard } from '@/components/cards/info-card'
-import type { Tour } from '@/types'
-import { hasPrice, nightsLabel, priceShort } from '@/lib/utils'
+import type { Tour } from '../types'
+import { hasPrice, nightsLabel, priceShort } from '../lib/format'
 
 export function TourCard({
   tour: t,

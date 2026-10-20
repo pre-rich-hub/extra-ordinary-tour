@@ -2,8 +2,8 @@
 
 import { useMemo, useState } from 'react'
 import { Reveal } from '@/components/ui/reveal'
-import { PostCard } from '@/features/blog/components/post-card'
-import type { Post } from '@/types'
+import { PostCard } from './post-card'
+import type { Post } from '../types'
 
 export function PostsGrid({ posts }: { posts: Post[] }) {
   const categories = useMemo(

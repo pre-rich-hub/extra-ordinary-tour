@@ -3,8 +3,8 @@ import Link from 'next/link'
 import { ArrowUpRight } from 'lucide-react'
 import { Reveal } from '@/components/ui/reveal'
 import { TextLink } from '@/components/ui/link-button'
-import { tours as staticTours } from '@/content'
-import type { Tour } from '@/types'
+import { tours as staticTours } from '@/features/tours/data/tours'
+import type { Tour } from '@/features/tours/types'
 import { cn } from '@/lib/utils'
 
 // Desktop mosaic: a large feature with two tiles stacked beside it, then a

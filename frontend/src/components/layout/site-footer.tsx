@@ -1,6 +1,8 @@
 import Link from 'next/link'
 import { ArrowRight, Phone, Mail, MapPin } from 'lucide-react'
-import { contact, destinations, slogan, tours } from '@/content'
+import { contact, slogan } from '@/config/site'
+import { destinations } from '@/features/destinations/data/destinations'
+import { tours } from '@/features/tours/data/tours'
 import {
   InstagramIcon,
   YouTubeIcon,
@@ -14,7 +16,7 @@ import {
   MastercardMark,
   PayPalMark,
 } from '@/components/icons/brand-marks'
-import { NewsletterForm } from '@/features/enquiry/components/newsletter-form'
+import { NewsletterForm } from '@/features/newsletter/components/newsletter-form'
 
 // Social links, shown as brand marks on white discs.
 const socials: { name: string; href: string; icon: React.ReactNode }[] = [

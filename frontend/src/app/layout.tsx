@@ -4,7 +4,7 @@ import { Cormorant_Garamond, Inter } from 'next/font/google'
 import { SiteNav } from '@/components/layout/site-nav'
 import { SiteFooter } from '@/components/layout/site-footer'
 import { FloatingSupport } from '@/components/layout/floating-support'
-import { slogan } from '@/content'
+import { slogan } from '@/config/site'
 import './globals.css'
 
 const inter = Inter({

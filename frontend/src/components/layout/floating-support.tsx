@@ -1,6 +1,6 @@
 'use client'
 
-import { contact } from '@/content'
+import { contact } from '@/config/site'
 
 // Custom WhatsApp SVG Icon to look consistent and sharp
 function WhatsAppIcon({ className = 'h-5 w-5' }: { className?: string }) {

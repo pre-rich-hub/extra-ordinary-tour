@@ -2,8 +2,8 @@
 
 import { useMemo, useState } from 'react'
 import { Reveal } from '@/components/ui/reveal'
-import { TourCard } from '@/features/tours/components/tour-card'
-import type { Tour } from '@/types'
+import { TourCard } from './tour-card'
+import type { Tour } from '../types'
 
 function styleTokens(tour: Tour) {
   return tour.style.split('·').map((s) => s.trim())

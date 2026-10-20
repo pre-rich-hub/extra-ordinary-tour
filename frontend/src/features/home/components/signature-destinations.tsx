@@ -2,7 +2,7 @@ import { Reveal } from '@/components/ui/reveal'
 import { SectionHeading } from '@/components/ui/section-heading'
 import { DestinationFeatureCard } from '@/features/destinations/components/destination-card'
 import { LinkButton } from '@/components/ui/link-button'
-import { destinations } from '@/content'
+import { destinations } from '@/features/destinations/data/destinations'
 
 export function SignatureDestinations() {
   const featured = destinations.slice(0, 6)

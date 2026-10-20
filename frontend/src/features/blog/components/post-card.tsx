@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import Link from 'next/link'
-import type { Post } from '@/types'
+import type { Post } from '../types'
 
 export function PostCard({ post, wide }: { post: Post; wide?: boolean }) {
   return (

@@ -3,7 +3,7 @@
 import Image from 'next/image'
 import { useEffect, useRef } from 'react'
 import { ChevronLeft, ChevronRight, X } from 'lucide-react'
-import type { GalleryPhoto } from '@/types'
+import type { GalleryPhoto } from '../types'
 
 /**
  * Full-screen photo viewer. Shows the uncropped image with its caption;

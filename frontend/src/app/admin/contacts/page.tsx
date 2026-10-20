@@ -1,5 +1,5 @@
 import type { Metadata } from 'next'
-import { AdminContacts } from './contacts-client'
+import { AdminContacts } from '@/features/admin/contacts/components/contacts'
 
 export const metadata: Metadata = {
   title: 'Contacts',

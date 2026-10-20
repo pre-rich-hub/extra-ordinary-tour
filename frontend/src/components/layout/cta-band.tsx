@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import { Reveal } from '@/components/ui/reveal'
 import { LinkButton } from '@/components/ui/link-button'
-import { contact, slogan } from '@/content'
+import { contact, slogan } from '@/config/site'
 
 interface CtaBandProps {
   eyebrow?: string

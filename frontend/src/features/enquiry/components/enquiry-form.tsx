@@ -2,8 +2,8 @@
 
 import { useState } from 'react'
 import { Check, ArrowRight } from 'lucide-react'
-import { journeyStyles } from '@/content'
-import { submitContact } from '@/lib/api-client'
+import { journeyStyles } from '@/features/tours/data/tours'
+import { submitContact } from '../api/client'
 
 export function EnquiryForm({
   defaultStyles = [],
