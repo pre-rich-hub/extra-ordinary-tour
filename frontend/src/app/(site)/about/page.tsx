@@ -288,18 +288,18 @@ export default function AboutPage() {
             />
             <div className="relative aspect-[4/5] overflow-hidden rounded-sm shadow-[0_50px_90px_-40px_black]">
               <Image
-                src="/images/lalibela-medhane-alem.jpg"
-                alt="Bete Medhane Alem, the largest of Lalibela’s rock-hewn churches"
+                src="/images/founder-maereg-tefere.jpg"
+                alt="Maereg Tefere, founder of Extraordinary Ethiopia Tours"
                 fill
                 sizes="(max-width: 1024px) 90vw, 40vw"
-                className="object-cover"
+                className="object-cover object-top"
               />
               <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-charcoal/90 to-transparent p-6 pt-20 sm:p-8 sm:pt-24">
                 <p className="text-[10px] font-semibold uppercase tracking-[0.22em] text-accent">
                   Where it began
                 </p>
                 <p className="mt-1.5 font-serif text-2xl text-background">
-                  The rock-hewn churches of Lalibela
+                  Born and raised in Lalibela
                 </p>
               </div>
             </div>
@@ -345,7 +345,7 @@ export default function AboutPage() {
 
             <div className="mt-12 flex items-center gap-5 border-t border-background/15 pt-8">
               <span className="relative h-14 w-14 shrink-0 overflow-hidden rounded-full border border-accent/40 bg-background">
-                <Image src="/images/logo.png" alt="" aria-hidden fill sizes="56px" className="object-cover" />
+                <Image src="/images/founder-maereg-tefere.jpg" alt="" aria-hidden fill sizes="56px" className="origin-[50%_10%] scale-[2.6] object-cover object-top" />
               </span>
               <span>
                 <span className="block font-serif text-2xl text-background">Maereg Tefere</span>

@@ -1,6 +1,6 @@
 # Image credits
 
-All photographs are stored locally in `public/images` (used on the site) and `public/images/extra` (downloaded but not currently used). `logo.png` is supplied by Extraordinary Ethiopia Tours. The photos come from Wikimedia Commons under the licences below; CC BY and CC BY-SA licences require visible attribution to the author when published.
+All photographs are stored locally in `public/images` (used on the site) and `public/images/extra` (downloaded but not currently used). `logo.png` and `founder-maereg-tefere.jpg` are supplied by Extraordinary Ethiopia Tours. The photos come from Wikimedia Commons under the licences below; CC BY and CC BY-SA licences require visible attribution to the author when published.
 
 | File | Author | Licence | Source |
 |---|---|---|---|
