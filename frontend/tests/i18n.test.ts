@@ -109,24 +109,64 @@ describe('canonical catalogue identity', () => {
     })
 })
 describe('search publication', () => {
-  it('gives drafts self canonicals and noindex without discovery links', () => {
-    const metadata = buildPageMetadata({ title: 'Voyages' }, '/tours', 'fr')
-    expect(metadata.alternates).toEqual({ canonical: '/fr/tours' })
-    expect(metadata.robots).toEqual({ index: false, follow: true })
-    expect(languageAlternates('/tours')).toEqual({
+  it('indexes every locale with self canonicals and reciprocal language links', () => {
+    const languages = {
       en: '/en/tours',
+      es: '/es/tours',
+      fr: '/fr/tours',
       'x-default': '/en/tours',
-    })
+    }
+    for (const locale of ['en', 'es', 'fr'] as const) {
+      const metadata = buildPageMetadata({ title: 'Tours' }, '/tours', locale)
+      expect(metadata.alternates).toEqual({
+        canonical: `/${locale}/tours`,
+        languages,
+      })
+      expect(metadata.robots).toEqual({ index: true, follow: true })
+      expect(metadata.openGraph).toHaveProperty('alternateLocale')
+    }
+    expect(languageAlternates('/tours')).toEqual(languages)
   })
-  it('lists all 133 published English pages and no draft or private URLs', () => {
-    expect(sitemap()).toHaveLength(133)
+  it('lists 133 pages per language and excludes private URLs', () => {
+    const entries = sitemap()
+    expect(entries).toHaveLength(399)
+    expect(new Set(entries.map((entry) => entry.url)).size).toBe(399)
+    for (const locale of ['en', 'es', 'fr']) {
+      expect(
+        entries.filter((entry) =>
+          new URL(entry.url).pathname.match(new RegExp(`^/${locale}(?:/|$)`)),
+        ),
+      ).toHaveLength(133)
+    }
     expect(
-      sitemap().every((entry) =>
-        entry.url.startsWith('https://extraordinaryethiopiatours.com/en'),
+      entries.every(
+        (entry) =>
+          !/\/(?:admin|login)(?:\/|$)/.test(new URL(entry.url).pathname),
       ),
     ).toBe(true)
-    expect(publication).toEqual({ en: 'published', es: 'draft', fr: 'draft' })
+    expect(publication).toEqual({
+      en: 'published',
+      es: 'published',
+      fr: 'published',
+    })
     expect(localePath('/', 'fr')).toBe('/fr')
+  })
+  it('keeps noindex and discovery exclusions if a locale is returned to draft', () => {
+    const previous = publication.fr
+    try {
+      publication.fr = 'draft'
+      const metadata = buildPageMetadata({ title: 'Voyages' }, '/tours', 'fr')
+      expect(metadata.alternates).toEqual({ canonical: '/fr/tours' })
+      expect(metadata.robots).toEqual({ index: false, follow: true })
+      expect(languageAlternates('/tours')).not.toHaveProperty('fr')
+      expect(
+        sitemap().some((entry) =>
+          new URL(entry.url).pathname.startsWith('/fr'),
+        ),
+      ).toBe(false)
+    } finally {
+      publication.fr = previous
+    }
   })
 })
 describe('live commercial values', () => {

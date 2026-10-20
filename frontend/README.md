@@ -158,7 +158,7 @@ placeholder directories in this refactor.
 | Page-specific SEO content                    | Owning feature                 |
 | Sitemap and robots route exports             | `src/app/`                     |
 
-Public URLs now use `/en`, `/es` and `/fr`. Unprefixed public URLs permanently redirect to English. Spanish and French are review drafts with `noindex`; they are excluded from sitemap and hreflang. Admin/login stay unprefixed. See [the localization guide](i18n.md) for translation files, verification and publication steps. Cloudinary and broader SEO/GEO work remain separate.
+Public URLs now use `/en`, `/es` and `/fr`. Unprefixed public URLs permanently redirect to English. All three languages allow indexing and are included in sitemap and hreflang. Admin/login stay unprefixed. See [the localization guide](i18n.md) for translation files, verification and publication steps. Cloudinary and broader SEO/GEO work remain separate.
 
 ## Verification
 

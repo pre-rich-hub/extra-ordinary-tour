@@ -42,13 +42,17 @@ await Promise.all(
         `${localized}: canonical`,
       )
       assert.ok(
-        html.includes(
-          locale === 'en'
-            ? 'content="index, follow"'
-            : 'content="noindex, follow"',
-        ),
+        html.includes('content="index, follow"'),
         `${localized}: robots`,
       )
+      for (const language of ['en', 'es', 'fr', 'x-default']) {
+        const targetLocale = language === 'x-default' ? 'en' : language
+        const target = `https://extraordinaryethiopiatours.com/${targetLocale}${path === '/' ? '' : path}`
+        assert.ok(
+          html.includes(`hrefLang="${language}" href="${target}"`),
+          `${localized}: ${language} alternate`,
+        )
+      }
       assert.ok(
         !html.includes('NEXT_NOT_FOUND'),
         `${localized}: unexpected 404`,
@@ -86,12 +90,12 @@ for (const path of [
   )
 }
 const xml = await (await fetch(`${base}/sitemap.xml`)).text()
-assert.equal((xml.match(/<loc>/g) ?? []).length, paths.length)
+assert.equal((xml.match(/<loc>/g) ?? []).length, paths.length * 3)
 assert.ok(
   [...xml.matchAll(/<loc>([^<]+)<\/loc>/g)].every((match) =>
-    /^\/en(?:\/|$)/.test(new URL(match[1]).pathname),
+    /^\/(?:en|es|fr)(?:\/|$)/.test(new URL(match[1]).pathname),
   ),
-  'Drafts in sitemap',
+  'Unexpected locale in sitemap',
 )
 assert.ok(
   (await (await fetch(`${base}/robots.txt`)).text()).includes(
