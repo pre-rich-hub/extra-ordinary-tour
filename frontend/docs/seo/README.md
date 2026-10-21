@@ -32,7 +32,12 @@ In another terminal, from `frontend`:
 python3 scripts/seo-baseline.py --project-base http://127.0.0.1:3104
 python3 scripts/seo-phase0.py
 python3 scripts/seo-phase0-check.py
+corepack pnpm seo:technical  # Phase 1: crawl rules, canonicals, 404s
+corepack pnpm seo:metadata   # Phase 2: titles, descriptions, hreflang, social images
+corepack pnpm seo:schema     # Phase 3: JSON-LD validity and visible-content match
 ```
+
+`SEO_BASE_URL` points the Node checks at another server. `seo:metadata` also fetches each social image from Cloudinary, so it needs network access.
 
 The baseline crawler obtains project URLs from the actual sitemap instead of maintaining another route registry. The intent generator reads the existing feature catalogues and translations. It never edits page content, metadata, URLs or publication settings.
 

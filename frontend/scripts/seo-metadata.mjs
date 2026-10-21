@@ -22,7 +22,9 @@ function head(html) {
   const metas = [...section.matchAll(/<meta [^>]*>/g)].map((m) => attrs(m[0]))
   const links = [...section.matchAll(/<link [^>]*>/g)].map((m) => attrs(m[0]))
   const meta = (key) =>
-    metas.filter((m) => m.name === key || m.property === key).map((m) => m.content)
+    metas
+      .filter((m) => m.name === key || m.property === key)
+      .map((m) => m.content)
   return {
     title: decode(section.match(/<title>([^<]*)<\/title>/)?.[1] ?? ''),
     meta,
@@ -78,7 +80,8 @@ async function audit(url) {
   if (one('twitter:card') !== 'summary_large_image')
     fail(path, 'twitter:card is not summary_large_image')
   const image = one('og:image')
-  if (!image?.startsWith('https://')) fail(path, `og:image not absolute: ${image}`)
+  if (!image?.startsWith('https://'))
+    fail(path, `og:image not absolute: ${image}`)
   else images.add(image)
   if (!one('og:image:alt')) fail(path, 'empty og:image:alt')
   if (one('twitter:image') !== image) fail(path, 'twitter:image differs')
@@ -109,20 +112,26 @@ for (const [field, groups] of Object.entries(seen))
   }
 
 for (const image of images) {
-  const local = image.startsWith(origin) ? `${base}${image.slice(origin.length)}` : image
+  const local = image.startsWith(origin)
+    ? `${base}${image.slice(origin.length)}`
+    : image
   // One retry absorbs a transient network timeout to the image CDN.
   const head = () => fetch(local, { method: 'HEAD' })
-  const response = await head().catch(head).catch((error) => error)
+  const response = await head()
+    .catch(head)
+    .catch((error) => error)
   const type = response.headers?.get('content-type') ?? ''
   if (response.status !== 200 || !type.startsWith('image/'))
     problems.push(
-      `og:image ${image}: ${response.status ? `HTTP ${response.status} ${type}` : response.cause?.code ?? response.message}`,
+      `og:image ${image}: ${response.status ? `HTTP ${response.status} ${type}` : (response.cause?.code ?? response.message)}`,
     )
 }
 
 if (problems.length) {
   console.error(problems.join('\n'))
-  console.error(`FAIL: ${problems.length} metadata problems across ${urls.length} URLs.`)
+  console.error(
+    `FAIL: ${problems.length} metadata problems across ${urls.length} URLs.`,
+  )
   process.exit(1)
 }
 console.log(

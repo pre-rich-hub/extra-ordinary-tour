@@ -9,6 +9,8 @@ import { notFound } from 'next/navigation'
 import { documentClass, viewport } from '@/config/fonts'
 import { routing, isLocale } from '@/i18n/routing'
 import { siteOrigin } from '@/lib/seo/urls'
+import { siteGraph } from '@/lib/seo/schema'
+import { JsonLd } from '@/components/seo/json-ld'
 import { SiteNav } from '@/components/layout/site-nav'
 import { SiteFooter } from '@/components/layout/site-footer'
 import { FloatingSupport } from '@/components/layout/floating-support'
@@ -74,6 +76,7 @@ export default async function LocaleLayout({
   return (
     <html lang={locale} className={documentClass}>
       <body className="antialiased">
+        <JsonLd data={siteGraph()} />
         <NextIntlClientProvider key={locale} messages={messages}>
           <a
             href="#main"

@@ -4,6 +4,8 @@ import { isLocale } from '@/i18n/routing'
 import { buildPageMetadata, socialImage } from '@/i18n/metadata'
 import type { Metadata } from 'next'
 import { notFound } from 'next/navigation'
+import { JsonLd } from '@/components/seo/json-ld'
+import { destinationSchema, pageGraph } from '@/lib/seo/schema'
 import { destinations } from '@/features/destinations/data/destinations'
 import {
   getDestinations,
@@ -56,19 +58,30 @@ export default async function DestinationPage({
   const d = getDestination(slug, locale)
   if (!d) notFound()
 
+  const crumbs = [
+    { label: copy('Home'), href: '/' },
+    { label: copy('Destinations'), href: '/destinations' },
+    { label: d.name },
+  ]
+
   return (
     <>
+      <JsonLd
+        data={pageGraph({
+          path: `/destinations/${slug}`,
+          locale,
+          name: copy(d.name),
+          crumbs,
+          about: destinationSchema(d, `/destinations/${slug}`, locale),
+        })}
+      />
       <PageHero
         eyebrow={copy('{v0} · {v1}', { v0: d.tag, v1: d.region })}
         title={copy(d.name)}
         lede={copy(d.intro)}
         image={d.image}
         imageAlt={copy('{v0}, Ethiopia', { v0: d.name })}
-        crumbs={[
-          { label: copy('Home'), href: '/' },
-          { label: copy('Destinations'), href: '/destinations' },
-          { label: d.name },
-        ]}
+        crumbs={crumbs}
         meta={[
           { label: copy('Best Time'), value: d.bestTime },
           { label: copy('Suggested Stay'), value: d.duration },

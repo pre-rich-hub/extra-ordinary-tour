@@ -3,6 +3,8 @@ import { setRequestLocale } from 'next-intl/server'
 import { isLocale } from '@/i18n/routing'
 import { buildPageMetadata } from '@/i18n/metadata'
 import { notFound } from 'next/navigation'
+import { JsonLd } from '@/components/seo/json-ld'
+import { pageGraph } from '@/lib/seo/schema'
 import type { Metadata } from 'next'
 import { PageHero } from '@/components/layout/page-hero'
 import { Reveal } from '@/components/ui/reveal'
@@ -42,8 +44,22 @@ export default async function ContactPage({
   setRequestLocale(locale)
   const copy = await getCopy()
 
+  const crumbs = [
+    { label: copy('Home'), href: '/' },
+    { label: copy('Contact') },
+  ]
+
   return (
     <>
+      <JsonLd
+        data={pageGraph({
+          path: '/contact',
+          locale,
+          type: 'ContactPage',
+          name: copy('Let’s begin your extraordinary journey'),
+          crumbs,
+        })}
+      />
       <PageHero
         eyebrow={copy('Contact Us')}
         title={copy('Let’s begin your extraordinary journey')}
@@ -54,10 +70,7 @@ export default async function ContactPage({
         imageAlt={copy(
           'The escarpment of the Simien Mountains in the Ethiopian highlands',
         )}
-        crumbs={[
-          { label: copy('Home'), href: '/' },
-          { label: copy('Contact') },
-        ]}
+        crumbs={crumbs}
         meta={[
           { label: copy('Reply Time'), value: copy('Within 24 hrs') },
           { label: copy('Based In'), value: copy('Lalibela') },

@@ -4,6 +4,8 @@ import { isLocale } from '@/i18n/routing'
 import { buildPageMetadata, socialImage } from '@/i18n/metadata'
 import type { Metadata } from 'next'
 import { notFound } from 'next/navigation'
+import { JsonLd } from '@/components/seo/json-ld'
+import { articleSchema, pageGraph } from '@/lib/seo/schema'
 import { posts } from '@/features/blog/data/posts'
 import { getPosts, getPost } from '@/features/blog/data/localized'
 import { CtaBand } from '@/components/layout/cta-band'
@@ -60,6 +62,19 @@ export default async function ArticlePage({
 
   return (
     <article>
+      <JsonLd
+        data={pageGraph({
+          path: `/blog/${slug}`,
+          locale,
+          name: post.title,
+          description: post.excerpt,
+          crumbs: [
+            { label: copy('The Journal'), href: '/blog' },
+            { label: post.title },
+          ],
+          about: articleSchema(post, `/blog/${slug}`, locale),
+        })}
+      />
       {/* Header */}
       <ArticleHeader post={post} />
 

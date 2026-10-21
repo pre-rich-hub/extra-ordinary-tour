@@ -3,6 +3,8 @@ import { setRequestLocale } from 'next-intl/server'
 import { isLocale } from '@/i18n/routing'
 import { buildPageMetadata } from '@/i18n/metadata'
 import { notFound } from 'next/navigation'
+import { JsonLd } from '@/components/seo/json-ld'
+import { pageGraph } from '@/lib/seo/schema'
 import type { Metadata } from 'next'
 import { getToursData } from '@/features/tours/server/catalog'
 import { PageHero } from '@/components/layout/page-hero'
@@ -45,8 +47,19 @@ export default async function ToursPage({
 
   const tours = await getToursData(locale)
 
+  const crumbs = [{ label: copy('Home'), href: '/' }, { label: copy('Tours') }]
+
   return (
     <>
+      <JsonLd
+        data={pageGraph({
+          path: '/tours',
+          locale,
+          type: 'CollectionPage',
+          name: copy('Every way to experience Ethiopia'),
+          crumbs,
+        })}
+      />
       <PageHero
         eyebrow={copy('Tours & Journeys')}
         title={copy('Every way to experience Ethiopia')}
@@ -57,7 +70,7 @@ export default async function ToursPage({
         imageAlt={copy(
           'Basalt pinnacles of the Simien Mountains rising above the clouds',
         )}
-        crumbs={[{ label: copy('Home'), href: '/' }, { label: copy('Tours') }]}
+        crumbs={crumbs}
         meta={[
           { label: copy('Journeys'), value: String(tours.length) },
           { label: copy('Length'), value: copy('1 to 17 Days') },

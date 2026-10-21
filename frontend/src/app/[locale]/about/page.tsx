@@ -3,6 +3,8 @@ import { setRequestLocale } from 'next-intl/server'
 import { isLocale } from '@/i18n/routing'
 import { buildPageMetadata } from '@/i18n/metadata'
 import { notFound } from 'next/navigation'
+import { JsonLd } from '@/components/seo/json-ld'
+import { pageGraph, schemaIds } from '@/lib/seo/schema'
 import type { Metadata } from 'next'
 import { slogan } from '@/config/site'
 import { CtaBand } from '@/components/layout/cta-band'
@@ -47,6 +49,15 @@ export default async function AboutPage({
 
   return (
     <>
+      <JsonLd
+        data={pageGraph({
+          path: '/about',
+          locale,
+          type: 'AboutPage',
+          name: copy('About Us'),
+          about: { '@id': schemaIds.organization },
+        })}
+      />
       <AboutHero />
       <AboutIntroduction />
       <FounderStory />

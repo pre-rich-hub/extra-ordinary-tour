@@ -3,6 +3,8 @@ import { setRequestLocale } from 'next-intl/server'
 import { isLocale } from '@/i18n/routing'
 import { buildPageMetadata } from '@/i18n/metadata'
 import { notFound } from 'next/navigation'
+import { JsonLd } from '@/components/seo/json-ld'
+import { pageGraph } from '@/lib/seo/schema'
 import type { Metadata } from 'next'
 import { PageHero } from '@/components/layout/page-hero'
 import { Reveal } from '@/components/ui/reveal'
@@ -49,8 +51,22 @@ export default async function BlogPage({
   const featured = posts.find((p) => p.featured) ?? posts[0]
   const rest = posts.filter((p) => p.slug !== featured.slug)
 
+  const crumbs = [
+    { label: copy('Home'), href: '/' },
+    { label: copy('Journal') },
+  ]
+
   return (
     <>
+      <JsonLd
+        data={pageGraph({
+          path: '/blog',
+          locale,
+          type: 'CollectionPage',
+          name: copy('Ethiopia travel guides & stories'),
+          crumbs,
+        })}
+      />
       <PageHero
         eyebrow={copy('The Journal')}
         title={copy('Ethiopia travel guides & stories')}
@@ -61,10 +77,7 @@ export default async function BlogPage({
         imageAlt={copy(
           'A jebena and cups prepared for an Ethiopian coffee ceremony',
         )}
-        crumbs={[
-          { label: copy('Home'), href: '/' },
-          { label: copy('Journal') },
-        ]}
+        crumbs={crumbs}
       />
 
       {/* Featured */}

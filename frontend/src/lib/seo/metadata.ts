@@ -64,7 +64,9 @@ export function buildPageMetadata(
 
   // OG images: use page-specific images if provided, otherwise fall back to default.
   const ogImages =
-    metadata.openGraph && 'images' in metadata.openGraph && metadata.openGraph.images
+    metadata.openGraph &&
+    'images' in metadata.openGraph &&
+    metadata.openGraph.images
       ? metadata.openGraph.images
       : [OG_DEFAULT_IMAGE]
 
@@ -84,8 +86,7 @@ export function buildPageMetadata(
       type: 'website',
       ...metadata.openGraph,
       // Title and description: use OG-specific if provided, else propagate from page metadata.
-      title:
-        metadata.openGraph?.title ?? resolvedTitle ?? undefined,
+      title: metadata.openGraph?.title ?? resolvedTitle ?? undefined,
       description:
         metadata.openGraph?.description ?? resolvedDescription ?? undefined,
       url: localePath(path, locale),

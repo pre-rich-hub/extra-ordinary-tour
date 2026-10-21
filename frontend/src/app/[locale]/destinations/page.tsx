@@ -3,6 +3,8 @@ import { setRequestLocale } from 'next-intl/server'
 import { isLocale } from '@/i18n/routing'
 import { buildPageMetadata } from '@/i18n/metadata'
 import { notFound } from 'next/navigation'
+import { JsonLd } from '@/components/seo/json-ld'
+import { pageGraph } from '@/lib/seo/schema'
 import type { Metadata } from 'next'
 import { PageHero } from '@/components/layout/page-hero'
 import { CtaBand } from '@/components/layout/cta-band'
@@ -21,7 +23,9 @@ export async function generateMetadata({
   const copy = await getCopy()
   return buildPageMetadata(
     {
-      title: copy('Ethiopia Destinations: Lalibela, Simien, Danakil & Omo Valley'),
+      title: copy(
+        'Ethiopia Destinations: Lalibela, Simien, Danakil & Omo Valley',
+      ),
       description: copy(
         'Ethiopia destinations: Lalibela, Gondar, Axum, the Simien and Bale Mountains, the Danakil Depression, Harar, the Omo Valley and its peoples, Addis Ababa and the country’s great festivals.',
       ),
@@ -42,8 +46,22 @@ export default async function DestinationsPage({
   const copy = await getCopy()
   const destinations = getDestinations(locale)
 
+  const crumbs = [
+    { label: copy('Home'), href: '/' },
+    { label: copy('Destinations') },
+  ]
+
   return (
     <>
+      <JsonLd
+        data={pageGraph({
+          path: '/destinations',
+          locale,
+          type: 'CollectionPage',
+          name: copy('Discover the Land of Origins'),
+          crumbs,
+        })}
+      />
       <PageHero
         eyebrow={copy('Where We Travel')}
         title={copy('Discover the Land of Origins')}
@@ -54,10 +72,7 @@ export default async function DestinationsPage({
         imageAlt={copy(
           'The castle of Fasilides in the royal enclosure of Gondar',
         )}
-        crumbs={[
-          { label: copy('Home'), href: '/' },
-          { label: copy('Destinations') },
-        ]}
+        crumbs={crumbs}
         meta={[
           { label: copy('Destinations'), value: String(destinations.length) },
           { label: copy('UNESCO Sites'), value: '12' },

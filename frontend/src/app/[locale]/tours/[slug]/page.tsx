@@ -4,6 +4,8 @@ import { isLocale } from '@/i18n/routing'
 import { buildPageMetadata, socialImage } from '@/i18n/metadata'
 import type { Metadata } from 'next'
 import { notFound } from 'next/navigation'
+import { JsonLd } from '@/components/seo/json-ld'
+import { pageGraph, tripSchema } from '@/lib/seo/schema'
 import { tours } from '@/features/tours/data/tours'
 import { getTour } from '@/features/tours/data/localized'
 import { getTourData } from '@/features/tours/server/catalog'
@@ -54,19 +56,30 @@ export default async function TourPage({
   const t = await getTourData(slug, locale)
   if (!t) notFound()
 
+  const crumbs = [
+    { label: copy('Home'), href: '/' },
+    { label: copy('Tours'), href: '/tours' },
+    { label: t.title },
+  ]
+
   return (
     <>
+      <JsonLd
+        data={pageGraph({
+          path: `/tours/${slug}`,
+          locale,
+          name: copy(t.title),
+          crumbs,
+          about: tripSchema(t, `/tours/${slug}`, locale),
+        })}
+      />
       <PageHero
         eyebrow={copy(t.style)}
         title={copy(t.title)}
         lede={copy(t.teaser)}
         image={t.image}
         imageAlt={copy(t.title)}
-        crumbs={[
-          { label: copy('Home'), href: '/' },
-          { label: copy('Tours'), href: '/tours' },
-          { label: t.title },
-        ]}
+        crumbs={crumbs}
         meta={[
           { label: copy('Duration'), value: t.days },
           { label: copy('Season'), value: t.season },

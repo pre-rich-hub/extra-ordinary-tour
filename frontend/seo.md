@@ -1,6 +1,6 @@
 # SEO implementation plan
 
-Prepared: 2026-10-21. Status: **Phases 0–2 complete; Phase 3 is next**.
+Prepared: 2026-10-21. Status: **Phases 0–3 complete; Phase 4 is next**.
 
 Implement one phase at a time. For each phase, record changed files, checks, results and any dependency before moving to the next phase. This document does not authorize deployment or changes to external accounts.
 
@@ -102,17 +102,31 @@ Phase 2 result: `corepack pnpm seo:metadata` (production server on port 3104) au
 
 Tasks:
 
-- [ ] Create a server-rendered `JsonLd` component in `src/components/seo/`, with safe serialization that prevents HTML/script injection.
-- [ ] Define stable entity IDs for the business, website and pages. Use the same business identity across locales and localized page URLs for page entities.
-- [ ] Add a verified `Organization`/`TravelAgency` identity and `WebSite` information, avoiding duplicate competing business entities.
-- [ ] Add `BreadcrumbList` matching the visible breadcrumbs and localized canonical URLs.
-- [ ] Add `Article` or `BlogPosting` to journal detail pages using real author/date/image information.
-- [ ] Model tours with relevant Schema.org trip types and destinations with appropriate place types when their fields support it. Schema.org validity does not imply a dedicated Google tour rich result.
-- [ ] Include offers only when real price, currency and relevant booking terms are available. Omit unknown prices; never encode “on request” as zero or invent availability.
-- [ ] Use verified profile links only. Do not invent coordinates, postal codes, licenses, awards, authorship credentials or offices.
-- [ ] Do not add copied platform ratings or self-serving business review markup to seek review stars. FAQs can improve visible content, but Google retired FAQ rich results in May 2026; do not add FAQ markup as a Google rich-result deliverable. See [Google’s documentation updates](https://developers.google.com/search/updates#may-2026).
+- [x] Create a server-rendered `JsonLd` component in `src/components/seo/`, with safe serialization that prevents HTML/script injection.
+- [x] Define stable entity IDs for the business, website and pages. Use the same business identity across locales and localized page URLs for page entities.
+- [x] Add a verified `Organization`/`TravelAgency` identity and `WebSite` information, avoiding duplicate competing business entities.
+- [x] Add `BreadcrumbList` matching the visible breadcrumbs and localized canonical URLs.
+- [x] Add `Article` or `BlogPosting` to journal detail pages using real author/date/image information.
+- [x] Model tours with relevant Schema.org trip types and destinations with appropriate place types when their fields support it. Schema.org validity does not imply a dedicated Google tour rich result.
+- [x] Include offers only when real price, currency and relevant booking terms are available. Omit unknown prices; never encode “on request” as zero or invent availability.
+- [x] Use verified profile links only. Do not invent coordinates, postal codes, licenses, awards, authorship credentials or offices.
+- [x] Do not add copied platform ratings or self-serving business review markup to seek review stars. FAQs can improve visible content, but Google retired FAQ rich results in May 2026; do not add FAQ markup as a Google rich-result deliverable. See [Google’s documentation updates](https://developers.google.com/search/updates#may-2026).
 
 Done when: JSON-LD parses, matches visible content and passes relevant validators. Resolve errors; assess optional-field warnings against the actual available facts. Record which Google rich-result types are supported and which schemas are descriptive only.
+
+Phase 3 result: `src/components/seo/json-ld.tsx` renders server-side JSON-LD through `serializeJsonLd` (escapes `<`, `>`, `&`, U+2028/2029); builders live in `src/lib/seo/schema.ts` and business facts in `src/lib/seo/entities.ts`. The layout emits one `TravelAgency` (`/#organization`) and one `WebSite` (`/#website`) shared by all locales; each page emits a `WebPage`-family entity keyed `<localized canonical>#webpage`, a `BreadcrumbList` built from the same crumbs the page shows, and its main entity. `corepack pnpm seo:schema` audited all 399 sitemap URLs (parse, unique business, resolvable `@id` references, visible breadcrumb names and localized URLs, main entity name = H1, no review/rating/FAQ markup, no price-less offers), and sampled pages of every template conform to the current Schema.org vocabulary. Unit tests cover serialization, entity linking and offer rules.
+
+| Schema                                               | Where                       | Google rich result                                                   |
+| ---------------------------------------------------- | --------------------------- | -------------------------------------------------------------------- |
+| `BreadcrumbList`                                     | Every page with breadcrumbs | Supported (breadcrumb)                                               |
+| `BlogPosting`                                        | Journal articles            | Supported (article); real author, ISO publication date, image        |
+| `TravelAgency` + logo                                | Site-wide                   | Organization logo/knowledge-panel signals; no rich result guaranteed |
+| `WebSite`                                            | Site-wide                   | Site name signal; no `SearchAction` (sitelinks search box retired)   |
+| `TouristTrip` (+ `Offer` only with a live API price) | Tour pages                  | Descriptive only                                                     |
+| `TouristDestination`                                 | Destination pages           | Descriptive only                                                     |
+| `WebPage`/`AboutPage`/`ContactPage`/`CollectionPage` | Every page                  | Descriptive only                                                     |
+
+Deliberately omitted: coordinates, postal code, founding date, legal identifiers and credentials (not supplied or not corroborated); Tripadvisor, Instagram, Facebook and YouTube `sameAs` (not yet verified, see [business facts](docs/seo/business-facts.md)); review/rating and FAQ markup. Tour offers appear only when the booking API returns a real adult USD price; the audited build had none, so no offers were emitted. Run Google's Rich Results Test on the deployed preview in Phase 6.
 
 ### Phase 4 — On-page content, internal links and trust
 
@@ -214,7 +228,8 @@ Create helper files as their phases need them. Do not create a second route inve
 | 0     | Complete    | 399 project URLs and 167 legacy URLs inventoried; map and validation complete      |
 | 1     | Complete    | Technical helpers, true 404s, canonical redirects, production/preview verification |
 | 2     | Complete    | Localized titles/descriptions, OG/Twitter, article dates; 399-URL metadata audit   |
-| 3–6   | Not started | Schema, content, performance and release verification                              |
+| 3     | Complete    | Shared business/website entities, breadcrumbs, article/trip/destination JSON-LD    |
+| 4–6   | Not started | Content, performance and release verification                                      |
 | 7     | Not started | Complete legacy inventory; hosting/domain/account access                           |
 | 8     | Not started | Production search data after launch                                                |
 

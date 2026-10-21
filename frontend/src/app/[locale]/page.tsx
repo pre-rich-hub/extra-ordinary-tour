@@ -3,6 +3,9 @@ import { setRequestLocale } from 'next-intl/server'
 import { isLocale } from '@/i18n/routing'
 import { buildPageMetadata } from '@/i18n/metadata'
 import { notFound } from 'next/navigation'
+import { JsonLd } from '@/components/seo/json-ld'
+import { pageGraph } from '@/lib/seo/schema'
+import { site } from '@/lib/seo/entities'
 import { storySlugs } from '@/features/home/data/signature-journeys'
 import { getToursData } from '@/features/tours/server/catalog'
 import { Hero } from '@/features/home/components/hero'
@@ -33,6 +36,7 @@ export default async function Page({
 
   return (
     <>
+      <JsonLd data={pageGraph({ path: '/', locale, name: site.name })} />
       <Hero />
       <WhyTravel />
       <SignatureDestinations />

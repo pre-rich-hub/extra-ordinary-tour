@@ -3,6 +3,8 @@ import { setRequestLocale } from 'next-intl/server'
 import { isLocale } from '@/i18n/routing'
 import { buildPageMetadata } from '@/i18n/metadata'
 import { notFound } from 'next/navigation'
+import { JsonLd } from '@/components/seo/json-ld'
+import { pageGraph } from '@/lib/seo/schema'
 import type { Metadata } from 'next'
 import { getLayoverPackagesData } from '@/features/layover/server/catalog'
 import { PageHero } from '@/components/layout/page-hero'
@@ -51,8 +53,21 @@ export default async function LayoverPage({
   const shortest = packages[0]?.hours ?? copy('6 Hours')
   const from = packages[0]?.price ?? copy('On request')
 
+  const crumbs = [
+    { label: copy('Home'), href: '/' },
+    { label: copy('Layover') },
+  ]
+
   return (
     <>
+      <JsonLd
+        data={pageGraph({
+          path: '/layover',
+          locale,
+          name: copy('Six hours in Addis is not a waiting room'),
+          crumbs,
+        })}
+      />
       <PageHero
         eyebrow={copy('Addis Layover Tours')}
         title={copy('Six hours in Addis is not a waiting room')}
@@ -63,10 +78,7 @@ export default async function LayoverPage({
         imageAlt={copy(
           'The Addis Ababa skyline at dusk seen from the Entoto hills',
         )}
-        crumbs={[
-          { label: copy('Home'), href: '/' },
-          { label: copy('Layover') },
-        ]}
+        crumbs={crumbs}
         meta={[
           { label: copy('Packages'), value: String(packageCount) },
           { label: copy('Shortest'), value: shortest },

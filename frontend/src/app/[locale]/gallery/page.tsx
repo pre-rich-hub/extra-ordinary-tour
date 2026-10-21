@@ -3,6 +3,8 @@ import { setRequestLocale } from 'next-intl/server'
 import { isLocale } from '@/i18n/routing'
 import { buildPageMetadata } from '@/i18n/metadata'
 import { notFound } from 'next/navigation'
+import { JsonLd } from '@/components/seo/json-ld'
+import { pageGraph } from '@/lib/seo/schema'
 import type { Metadata } from 'next'
 import { PageHero } from '@/components/layout/page-hero'
 import { CtaBand } from '@/components/layout/cta-band'
@@ -48,8 +50,22 @@ export default async function GalleryPage({
 
   const places = new Set(galleryPhotos.map((p) => p.location)).size
 
+  const crumbs = [
+    { label: copy('Home'), href: '/' },
+    { label: copy('Gallery') },
+  ]
+
   return (
     <>
+      <JsonLd
+        data={pageGraph({
+          path: '/gallery',
+          locale,
+          type: 'CollectionPage',
+          name: copy('Ethiopia, seen slowly'),
+          crumbs,
+        })}
+      />
       <PageHero
         eyebrow={copy('The Gallery')}
         title={copy('Ethiopia, seen slowly')}
@@ -60,10 +76,7 @@ export default async function GalleryPage({
         imageAlt={copy(
           'Basalt pinnacles of the Simien Mountains rising above the clouds',
         )}
-        crumbs={[
-          { label: copy('Home'), href: '/' },
-          { label: copy('Gallery') },
-        ]}
+        crumbs={crumbs}
         meta={[
           { label: copy('Photographs'), value: String(galleryPhotos.length) },
           { label: copy('Places'), value: String(places) },
