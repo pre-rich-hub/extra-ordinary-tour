@@ -6,6 +6,7 @@ import { ArrowRight } from 'lucide-react'
 import { Reveal } from '@/components/ui/reveal'
 import { PostCard } from './post-card'
 import { getPosts } from '../data/localized'
+import { postDestinations } from '../data/relations'
 import type { Post } from '../types'
 
 export function RelatedPosts({ post }: { post: Post }) {
@@ -13,7 +14,17 @@ export function RelatedPosts({ post }: { post: Post }) {
 
   const posts = getPosts(useLocale() as AppLocale)
 
-  const more = posts.filter((p) => p.slug !== post.slug).slice(0, 3)
+  // Articles about the same places first, then the same category.
+  const places = new Set(postDestinations[post.slug] ?? [])
+  const score = (p: Post) =>
+    2 * (postDestinations[p.slug] ?? []).filter((d) => places.has(d)).length +
+    (p.category === post.category ? 1 : 0)
+  const more = posts
+    .filter((p) => p.slug !== post.slug)
+    .map((p, i) => ({ p, i, s: score(p) }))
+    .sort((a, b) => b.s - a.s || a.i - b.i)
+    .slice(0, 3)
+    .map(({ p }) => p)
   return (
     <section className="border-t border-border bg-muted/40">
       <div className="shell py-16 sm:py-20 lg:py-24">

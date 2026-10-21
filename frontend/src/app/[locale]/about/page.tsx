@@ -3,6 +3,8 @@ import { setRequestLocale } from 'next-intl/server'
 import { isLocale } from '@/i18n/routing'
 import { buildPageMetadata } from '@/i18n/metadata'
 import { notFound } from 'next/navigation'
+import { JsonLd } from '@/components/seo/json-ld'
+import { pageGraph, schemaIds } from '@/lib/seo/schema'
 import type { Metadata } from 'next'
 import { slogan } from '@/config/site'
 import { CtaBand } from '@/components/layout/cta-band'
@@ -25,10 +27,9 @@ export async function generateMetadata({
   const copy = await getCopy()
   return buildPageMetadata(
     {
-      title: copy('About Us'),
+      title: copy('About Us: A Local Ethiopia Tour Operator from Lalibela'),
       description: copy(
-        '{v0} Extraordinary Ethiopia Tours is a locally based Ethiopia tour operator founded in Lalibela, offering private and group tours across the historic north, the Omo Valley, the Danakil, the Simien and Bale Mountains and beyond.',
-        { v0: slogan },
+        'Extraordinary Ethiopia Tours is a locally based Ethiopia tour operator founded in Lalibela, offering private and group tours across the historic north, the Omo Valley, the Danakil, the Simien and Bale Mountains and beyond.',
       ),
     },
     '/about',
@@ -48,6 +49,15 @@ export default async function AboutPage({
 
   return (
     <>
+      <JsonLd
+        data={pageGraph({
+          path: '/about',
+          locale,
+          type: 'AboutPage',
+          name: copy('About Us'),
+          about: { '@id': schemaIds.organization },
+        })}
+      />
       <AboutHero />
       <AboutIntroduction />
       <FounderStory />
@@ -63,7 +73,7 @@ export default async function AboutPage({
         )}
         primary={{ label: copy('Plan your journey'), href: '/contact' }}
         secondary={{ label: copy('Browse tours'), href: '/tours' }}
-        image="/images/lalibela-landscape.jpg"
+        image="https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/lalibela-landscape.jpg"
       />
     </>
   )

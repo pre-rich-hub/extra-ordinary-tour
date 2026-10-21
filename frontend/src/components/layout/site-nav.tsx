@@ -1,5 +1,6 @@
 'use client'
 
+import Image from 'next/image'
 import { useCopy } from '@/i18n/copy'
 
 import { useEffect, useRef, useState } from 'react'
@@ -46,7 +47,10 @@ function Wordmark({
       className="flex items-center"
     >
       <img
-        src="/images/logo.png"
+        src="/images/logo-160.webp"
+        width={160}
+        height={160}
+        decoding="async"
         alt={copy('Extraordinary Ethiopia Tours logo')}
         className="h-14 w-14 rounded-full object-cover border border-accent/25 shadow-md transition-transform duration-300 hover:scale-105"
       />
@@ -216,7 +220,9 @@ export function SiteNav({
                               className="group/item flex flex-col gap-3.5 rounded-lg overflow-hidden p-2.5 transition-all duration-300 hover:bg-muted/50"
                             >
                               <div className="relative aspect-[3/2] w-full overflow-hidden rounded-[4px]">
-                                <img
+                                <Image
+                                  fill
+                                  sizes="240px"
                                   src={d.image}
                                   alt={copy(d.name)}
                                   className="h-full w-full object-cover transition-transform duration-700 group-hover/item:scale-105"
@@ -277,7 +283,9 @@ export function SiteNav({
                               className="group/item flex flex-col gap-3.5 rounded-lg overflow-hidden p-2.5 transition-all duration-300 hover:bg-muted/50"
                             >
                               <div className="relative aspect-[16/9] w-full overflow-hidden rounded-[4px]">
-                                <img
+                                <Image
+                                  fill
+                                  sizes="240px"
                                   src={t.image}
                                   alt={copy(t.title)}
                                   className="h-full w-full object-cover transition-transform duration-700 group-hover/item:scale-105"

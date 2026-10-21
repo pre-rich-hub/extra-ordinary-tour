@@ -1,0 +1,33 @@
+{
+  "observed_at": "2026-10-21T06:07:26+00:00",
+  "base": "http://127.0.0.1:3104",
+  "build_id": "uzNsBpudI-iuFQnY91Rxe",
+  "git_head": "ec596a4adf189d42eed27a95845acdd008563ea8",
+  "rows": 399,
+  "by_locale": {
+    "en": 133,
+    "es": 133,
+    "fr": 133
+  },
+  "by_type": {
+    "home": 3,
+    "about": 3,
+    "blog": 3,
+    "blog-detail": 39,
+    "contact": 3,
+    "destinations": 3,
+    "destinations-detail": 186,
+    "gallery": 3,
+    "layover": 3,
+    "tours": 3,
+    "tours-detail": 150
+  },
+  "status_counts": {
+    "200": 399
+  },
+  "observations": {
+    "missing_og_image": 24
+  },
+  "duplicate_title_groups": [],
+  "duplicate_description_groups": []
+}

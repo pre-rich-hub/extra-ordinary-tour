@@ -1,9 +1,11 @@
 import { getCopy } from '@/i18n/copy-server'
 import { setRequestLocale } from 'next-intl/server'
 import { isLocale } from '@/i18n/routing'
-import { buildPageMetadata } from '@/i18n/metadata'
+import { buildPageMetadata, socialImage } from '@/i18n/metadata'
 import type { Metadata } from 'next'
 import { notFound } from 'next/navigation'
+import { JsonLd } from '@/components/seo/json-ld'
+import { destinationSchema, pageGraph } from '@/lib/seo/schema'
 import { destinations } from '@/features/destinations/data/destinations'
 import {
   getDestinations,
@@ -15,6 +17,8 @@ import { DestinationOverview } from '@/features/destinations/components/destinat
 import { DestinationBooking } from '@/features/destinations/components/destination-booking'
 import { DestinationHighlights } from '@/features/destinations/components/destination-highlights'
 import { DestinationTours } from '@/features/destinations/components/destination-tours'
+import { DestinationArticles } from '@/features/destinations/components/destination-articles'
+import { DestinationRegion } from '@/features/destinations/components/destination-region'
 import { DestinationEnquiry } from '@/features/destinations/components/destination-enquiry'
 
 export function generateStaticParams() {
@@ -29,19 +33,14 @@ export async function generateMetadata({
   const { locale, slug } = await params
   if (!isLocale(locale)) notFound()
   setRequestLocale(locale)
-  const copy = await getCopy()
   const d = getDestination(slug, locale)
-  if (!d)
-    return buildPageMetadata(
-      { title: copy('Destination not found') },
-      `/destinations/${slug}`,
-      locale,
-    )
+  if (!d) notFound()
+  const copy = await getCopy()
   return buildPageMetadata(
     {
-      title: d.name,
+      title: copy('{name}, Ethiopia: Travel Guide', { name: d.name }),
       description: d.intro,
-      openGraph: { title: d.name, description: d.intro, images: [d.image] },
+      openGraph: { images: [socialImage(d.image, d.name)] },
     },
     `/destinations/${slug}`,
     locale,
@@ -61,19 +60,30 @@ export default async function DestinationPage({
   const d = getDestination(slug, locale)
   if (!d) notFound()
 
+  const crumbs = [
+    { label: copy('Home'), href: '/' },
+    { label: copy('Destinations'), href: '/destinations' },
+    { label: d.name },
+  ]
+
   return (
     <>
+      <JsonLd
+        data={pageGraph({
+          path: `/destinations/${slug}`,
+          locale,
+          name: copy(d.name),
+          crumbs,
+          about: destinationSchema(d, `/destinations/${slug}`, locale),
+        })}
+      />
       <PageHero
         eyebrow={copy('{v0} · {v1}', { v0: d.tag, v1: d.region })}
         title={copy(d.name)}
         lede={copy(d.intro)}
         image={d.image}
         imageAlt={copy('{v0}, Ethiopia', { v0: d.name })}
-        crumbs={[
-          { label: copy('Home'), href: '/' },
-          { label: copy('Destinations'), href: '/destinations' },
-          { label: d.name },
-        ]}
+        crumbs={crumbs}
         meta={[
           { label: copy('Best Time'), value: d.bestTime },
           { label: copy('Suggested Stay'), value: d.duration },
@@ -94,7 +104,11 @@ export default async function DestinationPage({
         <DestinationTours destination={d} />
       </section>
 
+      <DestinationRegion destination={d} destinations={destinations} />
+
       {/* Enquiry */}
+      <DestinationArticles destination={d} />
+
       <DestinationEnquiry destination={d} />
 
       <CtaBand

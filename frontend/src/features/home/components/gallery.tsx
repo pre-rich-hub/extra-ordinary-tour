@@ -8,35 +8,35 @@ import { Play, Pause, ChevronLeft, ChevronRight } from 'lucide-react'
 
 const shots = [
   {
-    src: '/images/lalibela-giyorgis.jpg',
+    src: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/lalibela-giyorgis.jpg',
     location: 'Lalibela',
     description:
       'The cross-shaped roof of Bete Giyorgis, carved down into the rock.',
   },
   {
-    src: '/images/simien-gelada.jpg',
+    src: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/simien-gelada.jpg',
     location: 'Simien Mountains',
     description:
       'Gelada troops grazing on the highland meadows above the escarpment.',
   },
   {
-    src: '/images/danakil-dallol.jpg',
+    src: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/danakil-dallol.jpg',
     location: 'Danakil Depression',
     description:
       'Sulphur springs and salt terraces more than 100 metres below sea level.',
   },
   {
-    src: '/images/omo-river.jpg',
+    src: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/omo-river.jpg',
     location: 'Omo Valley',
     description: 'Evening light on a great bend of the Omo River.',
   },
   {
-    src: '/images/timkat.jpg',
+    src: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/timkat.jpg',
     location: 'Timkat',
     description: 'Priests in ceremonial robes leading the Epiphany procession.',
   },
   {
-    src: '/images/lake-tana-monastery.jpg',
+    src: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/lake-tana-monastery.jpg',
     location: 'Lake Tana',
     description:
       'A thatched island monastery on the shore of Ethiopia’s largest lake.',

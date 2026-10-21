@@ -4,6 +4,8 @@ export type Post = {
   title: string
   category: string
   date: string
+  datePublished: string
+  dateModified?: string
   readTime: string
   image: string
   author: string

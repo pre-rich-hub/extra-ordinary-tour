@@ -158,9 +158,38 @@ placeholder directories in this refactor.
 | Page-specific SEO content                    | Owning feature                 |
 | Sitemap and robots route exports             | `src/app/`                     |
 
-Public URLs now use `/en`, `/es` and `/fr`. Unprefixed public URLs permanently redirect to English. All three languages allow indexing and are included in sitemap and hreflang. Admin/login stay unprefixed. See [the localization guide](i18n.md) for translation files, verification and publication steps. Cloudinary and broader SEO/GEO work remain separate.
+Public URLs now use `/en`, `/es` and `/fr`. Unprefixed public URLs permanently redirect to English. All three languages allow indexing and are included in sitemap and hreflang. Admin/login stay unprefixed. See [the localization guide](i18n.md) for translation files, verification and publication steps. Broader SEO/GEO work is tracked in [the SEO plan](seo.md).
+
+## Image delivery
+
+Public content uses the client's Cloudinary cloud `oyw9kdvp`. The 84 referenced
+photos and portraits retain their original filenames as public IDs. The four
+Media Library folders are organizational: the supplied delivery URLs have no
+folder prefix. Do not add `destinations/`, `tours/`, `gallery/`, or `layover/`
+to these public IDs.
+
+Source URLs use `f_auto,q_auto,c_limit,w_1200` for a bounded default, including
+existing social metadata. The custom Next Image loader in
+`src/lib/media/cloudinary-loader.ts` replaces that width with the width requested
+by the browser through `srcset`. Existing `sizes`, lazy loading, hero priority,
+and CSS crops still apply. Cloudinary handles format, quality and resizing;
+images do not pass through a second Next.js optimizer.
+
+`public/images/logo.png` remains local because its Cloudinary URL returned 404.
+Local originals are retained as backups; placeholders and app icons also remain
+local. No Cloudinary API credentials are needed for public image delivery.
+The migration verified all 84 original and optimized public URLs (HTTP 200),
+plus responsive image output on all 399 prerendered public pages.
+
+References: [Next.js custom image loaders](https://nextjs.org/docs/app/api-reference/config/next-config-js/images)
+and [Cloudinary image optimization](https://cloudinary.com/documentation/image_optimization).
 
 ## Verification
+
+Technical SEO policy and production/preview checks are documented in
+[the Phase 1 report](docs/seo/technical-foundation.md). Custom staging deployments
+must set `SEO_ENV=preview` or `SEO_ENV=staging` before building and starting.
+Production remains indexable in English, Spanish and French.
 
 Run `pnpm typecheck` and `pnpm build`. Smoke-check public list/detail routes,
 unknown slugs, login, and unauthenticated admin redirects. With a test backend

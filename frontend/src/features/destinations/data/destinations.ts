@@ -10,7 +10,7 @@ export const destinations: Destination[] = [
     name: 'Lalibela',
     region: 'Historic North',
     tag: 'UNESCO Heritage',
-    image: '/images/lalibela-giyorgis.jpg',
+    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/lalibela-giyorgis.jpg',
     teaser:
       'Eleven churches carved downward into living rock, still alive with prayer.',
     intro:
@@ -36,7 +36,7 @@ export const destinations: Destination[] = [
     name: 'Harar',
     region: 'Eastern Ethiopia',
     tag: 'UNESCO Heritage',
-    image: '/images/harar-gate.jpg',
+    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/harar-gate.jpg',
     teaser:
       'A walled Muslim city of 82 mosques, colourful markets and the hyena men.',
     intro:
@@ -60,7 +60,7 @@ export const destinations: Destination[] = [
     name: 'Danakil Depression',
     region: 'Nature & Wildlife',
     tag: 'Expedition',
-    image: '/images/danakil-dallol.jpg',
+    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/danakil-dallol.jpg',
     teaser: 'One of the hottest places on earth, painted in sulphur and salt.',
     intro:
       'More than 100 metres below sea level: acid springs the colour of egg yolk, a permanent lava lake, and salt caravans that have not changed in a thousand years.',
@@ -84,7 +84,7 @@ export const destinations: Destination[] = [
     name: 'Omo Valley',
     region: 'Southern Ethiopia & Omo Valley',
     tag: 'Living Cultures',
-    image: '/images/omo-river.jpg',
+    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/omo-river.jpg',
     teaser:
       'A living mosaic of peoples who have shaped this river valley for millennia.',
     intro:
@@ -110,7 +110,7 @@ export const destinations: Destination[] = [
     name: 'Simien Mountains',
     region: 'Nature & Wildlife',
     tag: 'UNESCO National Park',
-    image: '/images/simien-landscape.jpg',
+    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/simien-landscape.jpg',
     teaser:
       'The Roof of Africa, where gelada monkeys graze above a thousand-metre drop.',
     intro:
@@ -136,7 +136,7 @@ export const destinations: Destination[] = [
     name: 'Bale Mountains',
     region: 'Nature & Wildlife',
     tag: 'UNESCO National Park',
-    image: '/images/bale-sanetti.jpg',
+    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/bale-sanetti.jpg',
     teaser:
       'Afro-alpine moorland holding the rarest canid on earth: the Ethiopian wolf.',
     intro:
@@ -163,7 +163,7 @@ export const destinations: Destination[] = [
     name: 'Gondar',
     region: 'Historic North',
     tag: 'Imperial City',
-    image: '/images/gondar-fasil.jpg',
+    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/gondar-fasil.jpg',
     teaser:
       'The Camelot of Africa: castles, baths and painted ceilings of a highland empire.',
     intro:
@@ -187,7 +187,7 @@ export const destinations: Destination[] = [
     name: 'Bahir Dar & Lake Tana',
     region: 'Historic North',
     tag: 'Island Monasteries',
-    image: '/images/lake-tana-monastery.jpg',
+    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/lake-tana-monastery.jpg',
     teaser:
       'Island monasteries, papyrus boats and the source of the Blue Nile.',
     intro:
@@ -211,7 +211,7 @@ export const destinations: Destination[] = [
     name: 'Blue Nile Falls',
     region: 'Historic North',
     tag: 'Natural Wonder',
-    image: '/images/blue-nile-falls.jpg',
+    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/blue-nile-falls.jpg',
     teaser:
       'Tis Issat, the “Smoking Water”, thundering into a basalt gorge.',
     intro:
@@ -235,7 +235,7 @@ export const destinations: Destination[] = [
     name: 'Axum',
     region: 'Historic North',
     tag: 'Ancient Capital',
-    image: '/images/axum-stelae.jpg',
+    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/axum-stelae.jpg',
     teaser:
       'Granite obelisks, royal tombs and the claimed resting place of the Ark.',
     intro:
@@ -260,7 +260,7 @@ export const destinations: Destination[] = [
     name: 'Gheralta & the Rock Churches of Tigray',
     region: 'Historic North',
     tag: 'Cliff Churches',
-    image: '/images/gheralta.jpg',
+    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/gheralta.jpg',
     teaser:
       'More than 120 rock-hewn churches, some reached only by climbing a cliff.',
     intro:
@@ -285,7 +285,7 @@ export const destinations: Destination[] = [
     name: 'Yemrehanna Kristos',
     region: 'Historic North',
     tag: 'Cave Church',
-    image: '/images/yemrehanna-kristos.jpg',
+    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/yemrehanna-kristos.jpg',
     teaser:
       'A built church of wood and stone, hidden inside a cave above Lalibela.',
     intro:
@@ -309,7 +309,7 @@ export const destinations: Destination[] = [
     name: 'Yeha',
     region: 'Historic North',
     tag: 'Archaeology',
-    image: '/images/yeha.jpg',
+    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/yeha.jpg',
     teaser:
       'Ethiopia’s oldest standing building: a 2,500-year-old temple near Axum.',
     intro:
@@ -333,7 +333,7 @@ export const destinations: Destination[] = [
     name: 'Negash',
     region: 'Historic North',
     tag: 'Islamic Heritage',
-    image: '/images/negash.jpg',
+    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/negash.jpg',
     teaser:
       'Site of Africa’s first Muslim settlement and a symbol of religious coexistence.',
     intro:
@@ -357,7 +357,7 @@ export const destinations: Destination[] = [
     name: 'Abune Yosef',
     region: 'Historic North',
     tag: 'Highland Trekking',
-    image: '/images/abune-yosef.jpg',
+    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/abune-yosef.jpg',
     teaser:
       'A 4,284-metre massif above Lalibela with Ethiopian wolves and gelada.',
     intro:
@@ -381,7 +381,7 @@ export const destinations: Destination[] = [
     name: 'Asheton Maryam',
     region: 'Historic North',
     tag: 'Mountain Monastery',
-    image: '/images/asheton-maryam.jpg',
+    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/asheton-maryam.jpg',
     teaser:
       'A cliff-top monastery above Lalibela with sweeping views of the Lasta mountains.',
     intro:
@@ -406,7 +406,7 @@ export const destinations: Destination[] = [
     name: 'Dire Dawa',
     region: 'Eastern Ethiopia',
     tag: 'Railway City',
-    image: '/images/dire-dawa.jpg',
+    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/dire-dawa.jpg',
     teaser:
       'Ethiopia’s railway city, founded where the line from Djibouti reached the hills.',
     intro:
@@ -430,7 +430,7 @@ export const destinations: Destination[] = [
     name: 'Sof Omar Cave',
     region: 'Eastern Ethiopia',
     tag: 'Natural Wonder',
-    image: '/images/sof-omar.jpg',
+    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/sof-omar.jpg',
     teaser:
       'Ethiopia’s longest cave system, carved through limestone by the Weyib River.',
     intro:
@@ -456,7 +456,7 @@ export const destinations: Destination[] = [
     name: 'Addis Ababa',
     region: 'Addis Ababa & Surroundings',
     tag: 'Capital City',
-    image: '/images/addis-skyline.jpg',
+    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/addis-skyline.jpg',
     teaser:
       'Africa’s diplomatic capital: museums, cathedrals, markets and coffee.',
     intro:
@@ -481,7 +481,7 @@ export const destinations: Destination[] = [
     name: 'Museums & Monuments of Addis Ababa',
     region: 'Addis Ababa & Surroundings',
     tag: 'Heritage',
-    image: '/images/addis-museum.jpg',
+    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/addis-museum.jpg',
     teaser:
       'Lucy, imperial treasures and the story of one of the world’s oldest nations.',
     intro:
@@ -505,7 +505,7 @@ export const destinations: Destination[] = [
     name: 'Entoto',
     region: 'Addis Ababa & Surroundings',
     tag: 'Nature Park',
-    image: '/images/entoto.jpg',
+    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/entoto.jpg',
     teaser:
       'Forested hills above the capital with views, history and fresh mountain air.',
     intro:
@@ -529,7 +529,7 @@ export const destinations: Destination[] = [
     name: 'Unity Park',
     region: 'Addis Ababa & Surroundings',
     tag: 'Palace Gardens',
-    image: '/images/unity-park.jpg',
+    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/unity-park.jpg',
     teaser:
       'The grounds of Menelik II’s Grand Palace, opened to the public in 2019.',
     intro:
@@ -553,7 +553,7 @@ export const destinations: Destination[] = [
     name: 'Menagesha Suba Forest',
     region: 'Addis Ababa & Surroundings',
     tag: 'Ancient Forest',
-    image: '/images/menagesha.jpg',
+    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/menagesha.jpg',
     teaser:
       'One of Africa’s oldest protected forests, just 45 kilometres from Addis Ababa.',
     intro:
@@ -577,7 +577,7 @@ export const destinations: Destination[] = [
     name: 'Wenchi Crater Lake',
     region: 'Addis Ababa & Surroundings',
     tag: 'Volcanic Lake',
-    image: '/images/wenchi.jpg',
+    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/wenchi.jpg',
     teaser:
       'An island monastery, hot springs and green hills inside an extinct volcano.',
     intro:
@@ -601,7 +601,7 @@ export const destinations: Destination[] = [
     name: 'Debre Libanos',
     region: 'Addis Ababa & Surroundings',
     tag: 'Monastery & Gorge',
-    image: '/images/debre-libanos.jpg',
+    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/debre-libanos.jpg',
     teaser:
       'A historic monastery on the edge of a gorge, with gelada and the Portuguese Bridge.',
     intro:
@@ -625,7 +625,7 @@ export const destinations: Destination[] = [
     name: 'Tiya & Adadi Mariam',
     region: 'Addis Ababa & Surroundings',
     tag: 'UNESCO Heritage',
-    image: '/images/tiya.jpg',
+    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/tiya.jpg',
     teaser:
       'Mysterious carved stelae and a rock-hewn church, an easy day from Addis Ababa.',
     intro:
@@ -651,7 +651,7 @@ export const destinations: Destination[] = [
     name: 'Erta Ale',
     region: 'Nature & Wildlife',
     tag: 'Active Volcano',
-    image: '/images/erta-ale.jpg',
+    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/erta-ale.jpg',
     teaser:
       'The “Smoking Mountain”: one of the few volcanoes on earth with a lava lake.',
     intro:
@@ -675,7 +675,7 @@ export const destinations: Destination[] = [
     name: 'Awash National Park',
     region: 'Nature & Wildlife',
     tag: 'Safari',
-    image: '/images/awash-oryx.jpg',
+    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/awash-oryx.jpg',
     teaser:
       'Oryx plains, hot springs and a waterfall, three hours east of the capital.',
     intro:
@@ -699,7 +699,7 @@ export const destinations: Destination[] = [
     name: 'Abijatta-Shalla National Park',
     region: 'Nature & Wildlife',
     tag: 'Rift Valley Lakes',
-    image: '/images/abijatta-flamingo.jpg',
+    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/abijatta-flamingo.jpg',
     teaser:
       'Two very different soda lakes, flamingos, pelicans and steaming hot springs.',
     intro:
@@ -723,7 +723,7 @@ export const destinations: Destination[] = [
     name: 'Rift Valley Lakes',
     region: 'Nature & Wildlife',
     tag: 'Lakes & Birdlife',
-    image: '/images/langano.jpg',
+    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/langano.jpg',
     teaser:
       'Ziway, Langano and Hawassa: a chain of lakes alive with birds and fishermen.',
     intro:
@@ -747,7 +747,7 @@ export const destinations: Destination[] = [
     name: 'Nech Sar National Park',
     region: 'Nature & Wildlife',
     tag: 'Safari',
-    image: '/images/nechsar.jpg',
+    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/nechsar.jpg',
     teaser:
       'Zebra plains and giant crocodiles between Lake Abaya and Lake Chamo.',
     intro:
@@ -771,7 +771,7 @@ export const destinations: Destination[] = [
     name: 'Mago National Park',
     region: 'Nature & Wildlife',
     tag: 'Wilderness',
-    image: '/images/mago.jpg',
+    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/mago.jpg',
     teaser:
       'Savannah and riverine forest on the Omo, home of the Mursi people.',
     intro:
@@ -795,7 +795,7 @@ export const destinations: Destination[] = [
     name: 'Omo National Park',
     region: 'Nature & Wildlife',
     tag: 'Remote Wilderness',
-    image: '/images/omo-river.jpg',
+    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/omo-river.jpg',
     teaser:
       'Ethiopia’s largest national park: true wilderness on the west bank of the Omo.',
     intro:
@@ -819,7 +819,7 @@ export const destinations: Destination[] = [
     name: 'Chebera Churchura National Park',
     region: 'Nature & Wildlife',
     tag: 'Elephants',
-    image: '/images/chebera.jpg',
+    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/chebera.jpg',
     teaser:
       'Green forests, waterfalls and one of Ethiopia’s largest elephant herds.',
     intro:
@@ -843,7 +843,7 @@ export const destinations: Destination[] = [
     name: 'Gambella National Park',
     region: 'Nature & Wildlife',
     tag: 'Wildlife Migration',
-    image: '/images/gambella.jpg',
+    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/gambella.jpg',
     teaser:
       'Ethiopia’s tropical west, with the great migration of the white-eared kob.',
     intro:
@@ -867,7 +867,7 @@ export const destinations: Destination[] = [
     name: 'Kafta Sheraro National Park',
     region: 'Nature & Wildlife',
     tag: 'Elephants',
-    image: '/images/kafta.jpg',
+    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/kafta.jpg',
     teaser:
       'Elephant country between the Tekeze River and the Eritrean border.',
     intro:
@@ -893,7 +893,7 @@ export const destinations: Destination[] = [
     name: 'Konso',
     region: 'Southern Ethiopia & Omo Valley',
     tag: 'UNESCO Cultural Landscape',
-    image: '/images/konso.jpg',
+    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/konso.jpg',
     teaser:
       'Walled hilltop villages, stone terraces and carved wooden waka memorials.',
     intro:
@@ -917,7 +917,7 @@ export const destinations: Destination[] = [
     name: 'Dorze & Chencha',
     region: 'Southern Ethiopia & Omo Valley',
     tag: 'Highland Culture',
-    image: '/images/dorze.jpg',
+    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/dorze.jpg',
     teaser:
       'Beehive-shaped bamboo houses and master weavers in the Guge highlands.',
     intro:
@@ -941,7 +941,7 @@ export const destinations: Destination[] = [
     name: 'Arba Minch',
     region: 'Southern Ethiopia & Omo Valley',
     tag: 'Gateway Town',
-    image: '/images/arba-minch.jpg',
+    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/arba-minch.jpg',
     teaser:
       'The town of “Forty Springs”, between two lakes on the road to the Omo.',
     intro:
@@ -965,7 +965,7 @@ export const destinations: Destination[] = [
     name: 'Mursi People',
     region: 'Southern Ethiopia & Omo Valley',
     tag: 'People & Culture',
-    image: '/images/mursi.jpg',
+    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/mursi.jpg',
     teaser:
       'Cattle herders of Mago National Park, known for the clay lip plate.',
     intro:
@@ -989,7 +989,7 @@ export const destinations: Destination[] = [
     name: 'Hamar People',
     region: 'Southern Ethiopia & Omo Valley',
     tag: 'People & Culture',
-    image: '/images/hamar.jpg',
+    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/hamar.jpg',
     teaser:
       'Ochre-braided hair, beaded leather, and the bull-jumping rite of passage.',
     intro:
@@ -1013,7 +1013,7 @@ export const destinations: Destination[] = [
     name: 'Karo People',
     region: 'Southern Ethiopia & Omo Valley',
     tag: 'People & Culture',
-    image: '/images/karo.jpg',
+    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/karo.jpg',
     teaser:
       'Master body painters living on the banks of the Omo River.',
     intro:
@@ -1037,7 +1037,7 @@ export const destinations: Destination[] = [
     name: 'Banna People',
     region: 'Southern Ethiopia & Omo Valley',
     tag: 'People & Culture',
-    image: '/images/banna.jpg',
+    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/banna.jpg',
     teaser:
       'Highland neighbours of the Hamar, famous for stilt walking and beekeeping.',
     intro:
@@ -1061,7 +1061,7 @@ export const destinations: Destination[] = [
     name: 'Arbore People',
     region: 'Southern Ethiopia & Omo Valley',
     tag: 'People & Culture',
-    image: '/images/arbore.jpg',
+    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/arbore.jpg',
     teaser:
       'Pastoralists of the dry plains near Lake Chew Bahir, with striking black headscarves.',
     intro:
@@ -1085,7 +1085,7 @@ export const destinations: Destination[] = [
     name: 'Ari People',
     region: 'Southern Ethiopia & Omo Valley',
     tag: 'People & Culture',
-    image: '/images/ari.jpg',
+    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/ari.jpg',
     teaser:
       'Farmers, potters and blacksmiths of the green highlands around Jinka.',
     intro:
@@ -1109,7 +1109,7 @@ export const destinations: Destination[] = [
     name: 'Dassanech People',
     region: 'Southern Ethiopia & Omo Valley',
     tag: 'People & Culture',
-    image: '/images/dassanech.jpg',
+    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/dassanech.jpg',
     teaser:
       'Semi-nomads of the Omo delta, near the northern shore of Lake Turkana.',
     intro:
@@ -1133,7 +1133,7 @@ export const destinations: Destination[] = [
     name: 'Nyangatom People',
     region: 'Southern Ethiopia & Omo Valley',
     tag: 'People & Culture',
-    image: '/images/nyangatom.jpg',
+    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/nyangatom.jpg',
     teaser:
       'Nilotic pastoralists of the west bank, famous for their heavy bead collars.',
     intro:
@@ -1157,7 +1157,7 @@ export const destinations: Destination[] = [
     name: 'Surma (Suri) People',
     region: 'Southern Ethiopia & Omo Valley',
     tag: 'People & Culture',
-    image: '/images/surma.jpg',
+    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/surma.jpg',
     teaser:
       'Remote cattle herders of Kibish, known for body art, lip plates and Donga.',
     intro:
@@ -1181,7 +1181,7 @@ export const destinations: Destination[] = [
     name: 'Tsemay People',
     region: 'Southern Ethiopia & Omo Valley',
     tag: 'People & Culture',
-    image: '/images/tsemay.jpg',
+    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/tsemay.jpg',
     teaser:
       'Agro-pastoralists of the Weito valley, between Konso and the Hamar.',
     intro:
@@ -1205,7 +1205,7 @@ export const destinations: Destination[] = [
     name: 'Yirgacheffe & Sidama',
     region: 'Southern Ethiopia & Omo Valley',
     tag: 'Coffee Lands',
-    image: '/images/coffee-farm.jpg',
+    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/coffee-farm.jpg',
     teaser:
       'The farms and washing stations behind some of the world’s most celebrated coffees.',
     intro:
@@ -1229,7 +1229,7 @@ export const destinations: Destination[] = [
     name: 'Kaffa & Bonga',
     region: 'Southern Ethiopia & Omo Valley',
     tag: 'Birthplace of Coffee',
-    image: '/images/kaffa-forest.jpg',
+    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/kaffa-forest.jpg',
     teaser:
       'Wild Arabica in the montane forests of the Kafa Biosphere Reserve.',
     intro:
@@ -1255,7 +1255,7 @@ export const destinations: Destination[] = [
     name: 'Timkat (Epiphany)',
     region: 'Festivals & Events',
     tag: 'UNESCO Intangible Heritage',
-    image: '/images/timkat.jpg',
+    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/timkat.jpg',
     teaser:
       'Ethiopia’s greatest festival: processions, holy water and joyful celebration.',
     intro:
@@ -1280,7 +1280,7 @@ export const destinations: Destination[] = [
     name: 'Meskel (Finding of the True Cross)',
     region: 'Festivals & Events',
     tag: 'UNESCO Intangible Heritage',
-    image: '/images/meskel.jpg',
+    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/meskel.jpg',
     teaser:
       'Bonfires, yellow daisies and songs to celebrate the discovery of the True Cross.',
     intro:
@@ -1304,7 +1304,7 @@ export const destinations: Destination[] = [
     name: 'Genna (Ethiopian Christmas)',
     region: 'Festivals & Events',
     tag: 'Festival',
-    image: '/images/genna.jpg',
+    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/genna.jpg',
     teaser:
       'An all-night vigil among the rock-hewn churches of Lalibela on 7 January.',
     intro:
@@ -1328,7 +1328,7 @@ export const destinations: Destination[] = [
     name: 'Fasika (Ethiopian Easter)',
     region: 'Festivals & Events',
     tag: 'Festival',
-    image: '/images/fasika.jpg',
+    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/fasika.jpg',
     teaser:
       'Candle-lit services and celebrations that end the 55-day Lenten fast.',
     intro:
@@ -1352,7 +1352,7 @@ export const destinations: Destination[] = [
     name: 'Enkutatash (Ethiopian New Year)',
     region: 'Festivals & Events',
     tag: 'Festival',
-    image: '/images/enkutatash.jpg',
+    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/enkutatash.jpg',
     teaser:
       'Yellow flowers, songs and new beginnings as the rains end on 11 September.',
     intro:
@@ -1376,7 +1376,7 @@ export const destinations: Destination[] = [
     name: 'Ashenda',
     region: 'Festivals & Events',
     tag: 'Festival',
-    image: '/images/ashenda.jpg',
+    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/ashenda.jpg',
     teaser:
       'A celebration of girls and young women in the towns of Tigray and Amhara.',
     intro:
@@ -1400,7 +1400,7 @@ export const destinations: Destination[] = [
     name: 'Buhe',
     region: 'Festivals & Events',
     tag: 'Festival',
-    image: '/images/meskel.jpg',
+    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/meskel.jpg',
     teaser:
       'The Feast of the Transfiguration: bonfires, bread and boys singing hoya hoye.',
     intro:
@@ -1424,7 +1424,7 @@ export const destinations: Destination[] = [
     name: 'Hidar Tsion',
     region: 'Festivals & Events',
     tag: 'Pilgrimage',
-    image: '/images/axum-zion.jpg',
+    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/axum-zion.jpg',
     teaser:
       'Thousands of pilgrims gather in Axum to honour Mary of Zion each November.',
     intro:
@@ -1448,7 +1448,7 @@ export const destinations: Destination[] = [
     name: 'Eid al-Fitr',
     region: 'Festivals & Events',
     tag: 'Islamic Festival',
-    image: '/images/eid.jpg',
+    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/eid.jpg',
     teaser:
       'Communal prayers and family feasts marking the end of Ramadan.',
     intro:
@@ -1472,7 +1472,7 @@ export const destinations: Destination[] = [
     name: 'Eid al-Adha',
     region: 'Festivals & Events',
     tag: 'Islamic Festival',
-    image: '/images/harar-gate.jpg',
+    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/harar-gate.jpg',
     teaser:
       'The Festival of Sacrifice, celebrated with prayers, sharing and community.',
     intro:
@@ -1496,7 +1496,7 @@ export const destinations: Destination[] = [
     name: 'Great Ethiopian Run',
     region: 'Festivals & Events',
     tag: 'Sporting Event',
-    image: '/images/great-run.jpg',
+    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/great-run.jpg',
     teaser:
       'Run 10 km at 2,400 metres with tens of thousands of Ethiopians each November.',
     intro:

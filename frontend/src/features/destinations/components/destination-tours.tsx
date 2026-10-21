@@ -6,6 +6,7 @@ import { ArrowRight } from 'lucide-react'
 import { Reveal } from '@/components/ui/reveal'
 import { TourCard } from '@/features/tours/components/tour-card'
 import { getTours } from '@/features/tours/data/localized'
+import { toursVisiting } from '../data/relations'
 import type { Destination } from '../types'
 
 export function DestinationTours({
@@ -17,14 +18,9 @@ export function DestinationTours({
 
   const tours = getTours(useLocale() as AppLocale)
 
-  const related = tours
-    .filter((t) =>
-      (t.canonicalPlaces ?? t.places).some((p) =>
-        p.includes((d.canonicalName ?? d.name).split(' ')[0]),
-      ),
-    )
-    .slice(0, 3)
-  const fallback = related.length ? related : tours.slice(0, 3)
+  // Only itineraries that genuinely visit this destination; none, no section.
+  const related = toursVisiting(d, tours).slice(0, 4)
+  if (!related.length) return null
   return (
     <div className="border-t border-border pt-12 lg:col-start-1 lg:row-start-3 lg:mt-14">
       <Reveal className="mb-10 flex flex-col justify-between gap-6 sm:mb-12 md:flex-row md:items-end">
@@ -47,7 +43,7 @@ export function DestinationTours({
       </Reveal>
 
       <div className="grid gap-6 sm:grid-cols-2">
-        {fallback.map((t, i) => (
+        {related.map((t, i) => (
           <Reveal key={t.slug} delay={(i % 2) * 90} className="h-full">
             <TourCard
               tour={t}

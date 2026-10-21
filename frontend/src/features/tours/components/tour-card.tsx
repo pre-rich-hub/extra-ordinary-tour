@@ -3,10 +3,16 @@ import type { AppLocale } from '@/i18n/routing'
 import { useCopy } from '@/i18n/copy'
 import { CalendarDays, Clock, MapPin, Users } from 'lucide-react'
 import { InfoCard } from '@/components/cards/info-card'
-import type { Tour } from '../types'
+import type { TourCardData } from '../types'
 import { hasPrice, nightsLabel, priceShort } from '../lib/format'
 
-export function TourCard({ tour: t, sizes }: { tour: Tour; sizes?: string }) {
+export function TourCard({
+  tour: t,
+  sizes,
+}: {
+  tour: TourCardData
+  sizes?: string
+}) {
   const copy = useCopy()
   const locale = useLocale() as AppLocale
 

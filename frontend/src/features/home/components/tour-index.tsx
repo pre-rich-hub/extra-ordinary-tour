@@ -14,9 +14,24 @@ import { hasPrice, priceShort } from '@/features/tours/lib/format'
 const ALL = 'All'
 const MAX_CARDS = 6
 
+// Only the fields a card shows cross to the client, not full itineraries.
+export type TourIndexItem = Pick<
+  Tour,
+  | 'slug'
+  | 'image'
+  | 'title'
+  | 'style'
+  | 'nights'
+  | 'days'
+  | 'group'
+  | 'teaser'
+  | 'season'
+  | 'from'
+>
+
 // Featured tours as filterable, information-rich cards: trip type, length,
 // group size, a short description and price at a glance.
-export function TourIndex({ tours }: { tours: Tour[] }) {
+export function TourIndex({ tours }: { tours: TourIndexItem[] }) {
   const copy = useCopy()
 
   const [filter, setFilter] = useState(ALL)
@@ -100,7 +115,7 @@ export function TourIndex({ tours }: { tours: Tour[] }) {
   )
 }
 
-function TourCard({ tour: t }: { tour: Tour }) {
+function TourCard({ tour: t }: { tour: TourIndexItem }) {
   const copy = useCopy()
 
   return (

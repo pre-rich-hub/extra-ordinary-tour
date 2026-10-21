@@ -24,7 +24,7 @@ export function FounderStory() {
           />
           <div className="relative aspect-[4/5] overflow-hidden rounded-sm shadow-[0_50px_90px_-40px_black]">
             <Image
-              src="/images/founder-maereg-tefere.jpg"
+              src="https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/founder-maereg-tefere.jpg"
               alt={copy(
                 'Maereg Tefere, founder of Extraordinary Ethiopia Tours',
               )}
@@ -79,7 +79,7 @@ export function FounderStory() {
           <div className="mt-12 flex items-center gap-5 border-t border-background/15 pt-8">
             <span className="relative h-14 w-14 shrink-0 overflow-hidden rounded-full border border-accent/40 bg-background">
               <Image
-                src="/images/founder-maereg-tefere.jpg"
+                src="https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/founder-maereg-tefere.jpg"
                 alt=""
                 aria-hidden
                 fill

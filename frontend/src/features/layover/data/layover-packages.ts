@@ -8,7 +8,7 @@ export const layoverPackages: LayoverPackage[] = [
     hours: '6 Hours',
     title: 'Addis Highlights',
     price: 'On request',
-    image: '/images/addis-skyline.jpg',
+    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/addis-skyline.jpg',
     teaser:
       'A short loop of the capital for tight connections: Entoto views, a cathedral and a coffee ceremony.',
     itinerary: [
@@ -31,7 +31,7 @@ export const layoverPackages: LayoverPackage[] = [
     hours: '12 Hours',
     title: 'Full-Day City Tour',
     price: 'On request',
-    image: '/images/addis-trinity.jpg',
+    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/addis-trinity.jpg',
     teaser:
       'Our full Addis Ababa day: Entoto, Lucy at the National Museum, Holy Trinity, Merkato and a coffee ceremony.',
     itinerary: [
@@ -55,7 +55,7 @@ export const layoverPackages: LayoverPackage[] = [
     hours: '24 Hours',
     title: 'Overnight & Day Trip',
     price: 'On request',
-    image: '/images/blue-nile-gorge.jpg',
+    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/blue-nile-gorge.jpg',
     teaser:
       'A night in Addis Ababa, a cultural dinner, and a day trip to Debre Libanos or Wenchi Crater Lake.',
     itinerary: [
@@ -79,7 +79,7 @@ export const layoverPackages: LayoverPackage[] = [
     hours: '48 Hours',
     title: 'Lalibela Stopover',
     price: 'On request',
-    image: '/images/lalibela-giyorgis.jpg',
+    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/lalibela-giyorgis.jpg',
     teaser:
       'Two days is enough for Lalibela: fly north, explore the rock-hewn churches, and fly back for your onward leg.',
     itinerary: [

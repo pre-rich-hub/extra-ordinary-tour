@@ -3,6 +3,9 @@ import { setRequestLocale } from 'next-intl/server'
 import { isLocale } from '@/i18n/routing'
 import { buildPageMetadata } from '@/i18n/metadata'
 import { notFound } from 'next/navigation'
+import { JsonLd } from '@/components/seo/json-ld'
+import { pageGraph } from '@/lib/seo/schema'
+import { site } from '@/lib/seo/entities'
 import { storySlugs } from '@/features/home/data/signature-journeys'
 import { getToursData } from '@/features/tours/server/catalog'
 import { Hero } from '@/features/home/components/hero'
@@ -33,6 +36,7 @@ export default async function Page({
 
   return (
     <>
+      <JsonLd data={pageGraph({ path: '/', locale, name: site.name })} />
       <Hero />
       <WhyTravel />
       <SignatureDestinations />
@@ -53,7 +57,22 @@ export async function generateMetadata({
 }) {
   const { locale } = await params
   if (!isLocale(locale)) notFound()
-  return buildPageMetadata({}, '/', locale)
+  const copy = await getCopy()
+  return buildPageMetadata(
+    {
+      title: {
+        absolute: copy(
+          'Extraordinary Ethiopia Tours — Private Tours & Journeys Across Ethiopia',
+        ),
+      },
+      description: copy(
+        'Private and small-group tours of Ethiopia: the historic north, Omo Valley, Danakil Depression, Simien trekking, festivals and Addis Ababa layovers. Locally run from Lalibela since 2005.',
+      ),
+      openGraph: { type: 'website' },
+    },
+    '/',
+    locale,
+  )
 }
 
 export const revalidate = 3600

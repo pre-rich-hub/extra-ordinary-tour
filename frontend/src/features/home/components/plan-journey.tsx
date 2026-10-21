@@ -14,7 +14,7 @@ export function PlanJourney() {
     >
       <div className="absolute inset-0 opacity-15">
         <Image
-          src="/images/lalibela-landscape.jpg"
+          src="https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/lalibela-landscape.jpg"
           alt=""
           aria-hidden
           fill

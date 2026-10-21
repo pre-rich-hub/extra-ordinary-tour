@@ -41,7 +41,7 @@ export function ArticleHeader({ post }: { post: Post }) {
           <div className="mt-9 flex items-center gap-4 border-t border-border pt-7">
             <span className="relative h-11 w-11 shrink-0 overflow-hidden rounded-full">
               <Image
-                src="/images/traveler-portrait.png"
+                src="https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/traveler-portrait.png"
                 alt=""
                 aria-hidden
                 fill

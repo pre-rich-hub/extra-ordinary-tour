@@ -20,3 +20,39 @@ export type Tour = {
   places: string[]
   featured?: boolean
 }
+
+/** What a tour card shows; client lists receive only these fields. */
+export type TourCardData = Pick<
+  Tour,
+  | 'slug'
+  | 'title'
+  | 'image'
+  | 'days'
+  | 'nights'
+  | 'style'
+  | 'styleKeys'
+  | 'season'
+  | 'from'
+  | 'group'
+  | 'teaser'
+  | 'places'
+>
+
+export function toCardData(t: Tour): TourCardData {
+  const { slug, title, image, days, nights, style, styleKeys } = t
+  const { season, from, group, teaser, places } = t
+  return {
+    slug,
+    title,
+    image,
+    days,
+    nights,
+    style,
+    styleKeys,
+    season,
+    from,
+    group,
+    teaser,
+    places,
+  }
+}

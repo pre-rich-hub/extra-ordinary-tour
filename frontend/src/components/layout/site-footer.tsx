@@ -10,8 +10,6 @@ import {
   InstagramIcon,
   YouTubeIcon,
   FacebookIcon,
-  TikTokIcon,
-  XIcon,
   TripadvisorMark,
   SafariBookingsMark,
   SafariGoMark,
@@ -37,16 +35,6 @@ const socials: { name: string; href: string; icon: React.ReactNode }[] = [
     name: 'Facebook',
     href: 'https://www.facebook.com/extraordinaryethiopiatours',
     icon: <FacebookIcon />,
-  },
-  {
-    name: 'TikTok',
-    href: '#',
-    icon: <TikTokIcon />,
-  },
-  {
-    name: 'X',
-    href: '#',
-    icon: <XIcon />,
   },
 ]
 
@@ -137,7 +125,11 @@ export function SiteFooter() {
           <div className="lg:row-span-2">
             <Link href="/" className="inline-flex items-center gap-4">
               <img
-                src="/images/logo.png"
+                src="/images/logo-160.webp"
+                width={160}
+                height={160}
+                loading="lazy"
+                decoding="async"
                 alt={copy('Extraordinary Ethiopia Tours logo')}
                 className="h-20 w-20 rounded-full border border-accent/25 object-cover shadow-[0_10px_30px_-12px_black]"
               />
@@ -311,13 +303,13 @@ export function SiteFooter() {
           </p>
           <div className="flex flex-wrap gap-x-8 gap-y-2 md:justify-end">
             <Link
-              href="/contact"
+              href="/privacy-policy"
               className="transition-colors hover:text-background/85"
             >
               {copy('Privacy Policy')}
             </Link>
             <Link
-              href="/contact"
+              href="/terms-and-conditions"
               className="transition-colors hover:text-background/85"
             >
               {copy('Terms & Conditions')}

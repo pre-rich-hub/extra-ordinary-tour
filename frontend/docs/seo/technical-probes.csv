@@ -1,0 +1,10 @@
+requested_path,initial_status,final_status,redirect_chain,resolved_url,all_robots_meta,x_robots_tag,raw_html_lang,raw_html_h1,environment,observed_at
+/,308,200,"[{""location"": ""http://127.0.0.1:3104/en"", ""status"": 308, ""url"": ""http://127.0.0.1:3104/""}]",http://127.0.0.1:3104/en,"[""index, follow""]",,en,"[""Discover Ethiopia Experience the Extraordinary!""]",local-production-build,2026-10-21T06:23:39+00:00
+/about,308,200,"[{""location"": ""http://127.0.0.1:3104/en/about"", ""status"": 308, ""url"": ""http://127.0.0.1:3104/about""}]",http://127.0.0.1:3104/en/about,"[""index, follow""]",,en,"[""Discover Ethiopia. Experience the Extraordinary!""]",local-production-build,2026-10-21T06:23:39+00:00
+/en,200,200,[],http://127.0.0.1:3104/en,"[""index, follow""]",,en,"[""Discover Ethiopia Experience the Extraordinary!""]",local-production-build,2026-10-21T06:23:39+00:00
+/en/tours/unknown,200,200,[],http://127.0.0.1:3104/en/tours/unknown,"[""index, follow"", ""noindex""]",,en,[],local-production-build,2026-10-21T06:23:39+00:00
+/fr/destinations/unknown,200,200,[],http://127.0.0.1:3104/fr/destinations/unknown,"[""index, follow"", ""noindex""]",,fr,[],local-production-build,2026-10-21T06:23:39+00:00
+/en/blog/unknown,404,404,[],http://127.0.0.1:3104/en/blog/unknown,"[""noindex"", ""index, follow""]",,,[],local-production-build,2026-10-21T06:23:39+00:00
+/de,404,404,[],http://127.0.0.1:3104/de,"[""noindex""]",,,[],local-production-build,2026-10-21T06:23:39+00:00
+/admin,307,200,"[{""location"": ""http://127.0.0.1:3104/login"", ""status"": 307, ""url"": ""http://127.0.0.1:3104/admin""}]",http://127.0.0.1:3104/login,"[""noindex, nofollow""]",,en,"[""Admin""]",local-production-build,2026-10-21T06:23:39+00:00
+/login,200,200,[],http://127.0.0.1:3104/login,"[""noindex, nofollow""]",,en,"[""Admin""]",local-production-build,2026-10-21T06:23:39+00:00

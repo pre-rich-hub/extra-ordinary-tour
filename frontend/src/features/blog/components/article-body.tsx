@@ -2,18 +2,30 @@ import { useCopy } from '@/i18n/copy'
 import { useLocale } from 'next-intl'
 import type { AppLocale } from '@/i18n/routing'
 import { Link } from '@/i18n/navigation'
-import { ArrowRight } from 'lucide-react'
+import { ArrowRight, MapPin } from 'lucide-react'
 import { Reveal } from '@/components/ui/reveal'
+import { getDestinations } from '@/features/destinations/data/localized'
+import { toursVisiting } from '@/features/destinations/data/relations'
+import { getTours } from '@/features/tours/data/localized'
 import { getPosts } from '../data/localized'
+import { postDestinations } from '../data/relations'
 import type { Post } from '../types'
 
 export function ArticleBody({ post }: { post: Post }) {
   const copy = useCopy()
 
-  const posts = getPosts(useLocale() as AppLocale)
+  const locale = useLocale() as AppLocale
+  const posts = getPosts(locale)
+  const destinations = getDestinations(locale)
 
   const index = posts.findIndex((p) => p.slug === post.slug)
   const next = posts[(index + 1) % posts.length]
+  const covered = (postDestinations[post.slug] ?? [])
+    .map((slug) => destinations.find((d) => d.slug === slug))
+    .filter((d) => d !== undefined)
+  const journeys = covered.length
+    ? toursVisiting(covered[0], getTours(locale)).slice(0, 3)
+    : []
   return (
     <div className="shell py-14 sm:py-16 lg:py-20">
       <div className="mx-auto max-w-2xl">
@@ -50,6 +62,49 @@ export function ArticleBody({ post }: { post: Post }) {
             .
           </p>
         </Reveal>
+
+        {covered.length > 0 && (
+          <Reveal className="mt-12">
+            <h2 className="eyebrow font-sans text-accent">
+              {copy('In This Article')}
+            </h2>
+            <ul className="mt-5 flex flex-wrap gap-2">
+              {covered.map((d) => (
+                <li key={d.slug}>
+                  <Link
+                    href={`/destinations/${d.slug}`}
+                    className="inline-flex items-center gap-2 border border-border bg-card px-4 py-2 text-[10px] font-semibold uppercase tracking-[0.14em] text-muted-foreground transition-colors hover:border-primary/40 hover:text-primary sm:text-[11px]"
+                  >
+                    <MapPin className="h-3 w-3 text-accent" />
+                    {copy('{v0} travel guide', { v0: d.name })}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+            {journeys.length > 0 && (
+              <>
+                <p className="mt-8 text-sm text-muted-foreground">
+                  {copy('Tours that visit {v0}', { v0: covered[0].name })}
+                </p>
+                <ul className="mt-3 divide-y divide-border border-y border-border">
+                  {journeys.map((t) => (
+                    <li key={t.slug}>
+                      <Link
+                        href={`/tours/${t.slug}`}
+                        className="group flex items-center justify-between gap-4 py-4 text-foreground transition-colors hover:text-primary"
+                      >
+                        <span className="font-serif text-lg">
+                          {copy(t.title)}
+                        </span>
+                        <ArrowRight className="h-3.5 w-3.5 shrink-0 text-primary transition-transform duration-300 group-hover:translate-x-1" />
+                      </Link>
+                    </li>
+                  ))}
+                </ul>
+              </>
+            )}
+          </Reveal>
+        )}
 
         <Reveal className="mt-12">
           <Link
