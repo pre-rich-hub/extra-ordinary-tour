@@ -47,7 +47,10 @@ function Wordmark({
       className="flex items-center"
     >
       <img
-        src="/images/logo.png"
+        src="/images/logo-160.webp"
+        width={160}
+        height={160}
+        decoding="async"
         alt={copy('Extraordinary Ethiopia Tours logo')}
         className="h-14 w-14 rounded-full object-cover border border-accent/25 shadow-md transition-transform duration-300 hover:scale-105"
       />

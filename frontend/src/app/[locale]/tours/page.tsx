@@ -10,6 +10,7 @@ import { getToursData } from '@/features/tours/server/catalog'
 import { PageHero } from '@/components/layout/page-hero'
 import { SectionHeading } from '@/components/ui/section-heading'
 import { ToursGrid } from '@/features/tours/components/tours-grid'
+import { toCardData } from '@/features/tours/types'
 import { CtaBand } from '@/components/layout/cta-band'
 import { FeaturedJourney } from '@/features/tours/components/featured-journey'
 import { JourneyPromises } from '@/features/tours/components/journey-promises'
@@ -91,7 +92,7 @@ export default async function ToursPage({
             'Filter by the kind of travelling you want to do: historical, cultural, festival, coffee, wildlife, trekking, birding, Danakil or day trips. Any of these can be lengthened, shortened or combined.',
           )}
         />
-        <ToursGrid tours={tours} />
+        <ToursGrid tours={tours.map(toCardData)} />
       </section>
 
       {/* Promises */}

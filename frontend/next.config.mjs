@@ -15,6 +15,9 @@ const nextConfig = {
   images: {
     loader: 'custom',
     loaderFile: './src/lib/media/cloudinary-loader.ts',
+    // Finer steps than the default (640 → 750 → … → 3840): cards near 450px
+    // get 480px files, and full-bleed heroes stop at 2560px.
+    deviceSizes: [480, 640, 750, 828, 960, 1080, 1200, 1440, 1920, 2560],
   },
   async headers() {
     const noindex = [{ key: 'X-Robots-Tag', value: 'noindex, nofollow' }]

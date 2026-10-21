@@ -1,6 +1,6 @@
 # SEO implementation plan
 
-Prepared: 2026-10-21. Status: **Phases 0–4 complete; Phase 5 is next**.
+Prepared: 2026-10-21. Status: **Phases 0–5 complete; Phase 6 is next**.
 
 Implement one phase at a time. For each phase, record changed files, checks, results and any dependency before moving to the next phase. This document does not authorize deployment or changes to external accounts.
 
@@ -164,15 +164,44 @@ Pending client items: confirm Instagram and YouTube ownership; supply TikTok/X p
 
 Tasks:
 
-- [ ] Measure representative mobile and desktop pages: home, tours list/detail, destinations list/detail, journal detail, gallery and contact.
-- [ ] Audit current file sizes, intrinsic dimensions, responsive `sizes`, hero loading priority, deferred images and layout stability.
+- [x] Measure representative mobile and desktop pages: home, tours list/detail, destinations list/detail, journal detail, gallery and contact.
+- [x] Audit current file sizes, intrinsic dimensions, responsive `sizes`, hero loading priority, deferred images and layout stability.
 - [x] Cloudinary delivery is implemented through a custom Next Image loader, with automatic quality/format and responsive widths. Validate its performance on the eventual host.
-- [ ] Serve appropriately sized modern images, reserve layout space, and retain original source filenames when the later Cloudinary migration needs them.
-- [ ] Review alt text by purpose: descriptive text for meaningful images, empty alt for decorative images. Do not use alt text for keyword repetition.
-- [ ] Reduce unnecessary hero/carousel work, animation overhead, font cost and shared client payloads where measurements show a problem. For example, the root layout currently supplies complete slim catalogue arrays to a menu that displays only a few entries.
+- [x] Serve appropriately sized modern images, reserve layout space, and retain original source filenames when the later Cloudinary migration needs them.
+- [x] Review alt text by purpose: descriptive text for meaningful images, empty alt for decorative images. Do not use alt text for keyword repetition.
+- [x] Reduce unnecessary hero/carousel work, animation overhead, font cost and shared client payloads where measurements show a problem. For example, the root layout currently supplies complete slim catalogue arrays to a menu that displays only a few entries.
 - [ ] Record repeatable lab results and follow real-user metrics after launch. Aim for LCP ≤2.5 s, INP ≤200 ms and CLS ≤0.1 at the 75th percentile when field data is available; Lighthouse alone cannot establish these field results.
 
 Done when: there are measured improvements or a documented acceptable baseline, no visual/functional regression, and a clear remaining media task list. The local logo does not block the earlier phases.
+
+Phase 5 result: Lighthouse 12.8.2 lab runs (simulated throttling, local production server, images from Cloudinary) on eight representative pages, mobile and desktop, before and after the changes. Lab timings in this environment vary by up to ±2 s between identical runs because image download time from Cloudinary dominates LCP; byte weight is the stable signal. CLS was 0 on every run before and after.
+
+| Page (mobile)      | Perf    | LCP (s)   | Total weight (KiB) |
+| ------------------ | ------- | --------- | ------------------ |
+| Home               | 87 → 94 | 3.2 → 2.9 | 1221 → 930         |
+| Tours              | 70 → 72 | 7.1 → 5.9 | 1115 → 830         |
+| Tour detail        | 77 → 79 | 6.1 → 5.0 | 878 → 600          |
+| Destinations       | 76 → 78 | 6.1 → 5.2 | 1256 → 979         |
+| Destination detail | 75 → 71 | 6.4 → 5.4 | 995 → 717          |
+| Article            | 76 → 79 | 6.3 → 4.9 | 922 → 644          |
+| Gallery            | 76 → 75 | 6.3 → 5.0 | 1307 → 1062        |
+| Contact            | 71 → 82 | 6.4 → 4.7 | 829 → 551          |
+
+Desktop weight fell 30–45% on every page (home 2582 → 1438 KiB, gallery LCP 9.5 → 3.9 s). Mobile LCP is still above 2.5 s: on a simulated slow 4G link nearly all of it is the hero photograph's download time.
+
+Changes:
+
+- Logo: the 181 KB 512 px PNG, preloaded on every page and the homepage's LCP element, is replaced in the header and footer by a 6.7 KB 160 px WebP (`public/images/logo-160.webp`) with explicit dimensions. The 512 px PNG remains the structured-data logo.
+- Client payloads: the layout now sends the menu only the four destinations and three tours it previews (previously all 62 + 50 records on every page); the homepage tour index and the tours grid receive card fields only (`TourCardData`), not itineraries and inclusions. Compressed HTML: tours 136 → 52 KB, home 80 → 62 KB, contact 41 → 35 KB, which also shrinks the `/tours` prefetch every page triggers.
+- Responsive widths: `images.deviceSizes` adds 480, 960 and 1440 px steps and stops at 2560 px, so cards near 450 px and 1350–1440 px heroes stop downloading the next size up (hero 303 → 209 KB on desktop).
+- Already sound and unchanged: the hero image on each page is preloaded (`priority`), others lazy-load; the home slideshow mounts only the current and next slide; every image reserves space (`fill` in sized containers); alt text is descriptive for content images and empty for decorative or inactive slides; two font files are preloaded.
+
+Remaining media tasks:
+
+1. Mobile hero LCP: test a lighter mobile hero (e.g. `q_auto:eco` or a 4:5 mobile crop) and a Cloudinary-side preconnect on the deployed host; judge by field LCP, not lab runs here.
+2. Translation messages (~27 KB, all 532 UI phrases) are serialized on every page; scoping them per client component needs an i18n refactor.
+3. `public/images` holds 57 MB of local originals no page references; keep them for the Cloudinary migration, then remove from the deployed bundle.
+4. After launch, track LCP ≤ 2.5 s, INP ≤ 200 ms and CLS ≤ 0.1 at the 75th percentile in field data (Vercel Analytics/Search Console); lab results cannot establish these.
 
 ### Phase 6 — SEO automation and release verification
 
@@ -247,7 +276,8 @@ Create helper files as their phases need them. Do not create a second route inve
 | 2     | Complete    | Localized titles/descriptions, OG/Twitter, article dates; 399-URL metadata audit   |
 | 3     | Complete    | Shared business/website entities, breadcrumbs, article/trip/destination JSON-LD    |
 | 4     | Complete    | Verified relationships, contextual links, real legal pages, footer corrections     |
-| 5–6   | Not started | Performance and release verification                                               |
+| 5     | Complete    | Lighter logo and client payloads, finer image widths; before/after lab baseline    |
+| 6     | Not started | Release verification                                                               |
 | 7     | Not started | Complete legacy inventory; hosting/domain/account access                           |
 | 8     | Not started | Production search data after launch                                                |
 

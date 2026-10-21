@@ -52,18 +52,20 @@ export default async function LocaleLayout({
   setRequestLocale(locale)
   const messages = await getMessages()
   const t = await getTranslations('Common')
-  const destinations = getDestinations(locale).map(
-    ({ slug, name, region, tag, image, teaser }) => ({
+  // The menu previews four destinations and three tours; send only those.
+  const destinations = getDestinations(locale)
+    .slice(0, 4)
+    .map(({ slug, name, region, tag, image, teaser }) => ({
       slug,
       name,
       region,
       tag,
       image,
       teaser,
-    }),
-  )
-  const tours = getTours(locale).map(
-    ({ slug, title, image, style, from, days, teaser }) => ({
+    }))
+  const tours = getTours(locale)
+    .slice(0, 3)
+    .map(({ slug, title, image, style, from, days, teaser }) => ({
       slug,
       title,
       image,
@@ -71,8 +73,7 @@ export default async function LocaleLayout({
       from,
       days,
       teaser,
-    }),
-  )
+    }))
   return (
     <html lang={locale} className={documentClass}>
       <body className="antialiased">

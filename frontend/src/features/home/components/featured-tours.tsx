@@ -1,7 +1,7 @@
 import { useCopy } from '@/i18n/copy'
 import { useLocale } from 'next-intl'
 import type { AppLocale } from '@/i18n/routing'
-import { TourIndex } from './tour-index'
+import { TourIndex, type TourIndexItem } from './tour-index'
 import { getTours } from '@/features/tours/data/localized'
 import type { Tour } from '@/features/tours/types'
 
@@ -11,7 +11,20 @@ export function FeaturedTours({ tours: providedTours }: { tours?: Tour[] }) {
   const staticTours = getTours(useLocale() as AppLocale)
   const tours = providedTours ?? staticTours
 
-  const featured = tours.filter((t) => t.featured)
+  const featured = tours
+    .filter((t) => t.featured)
+    .map((t): TourIndexItem => ({
+      slug: t.slug,
+      image: t.image,
+      title: t.title,
+      style: t.style,
+      nights: t.nights,
+      days: t.days,
+      group: t.group,
+      teaser: t.teaser,
+      season: t.season,
+      from: t.from,
+    }))
 
   return (
     <section

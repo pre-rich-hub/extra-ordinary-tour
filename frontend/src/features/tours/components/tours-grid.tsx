@@ -5,13 +5,13 @@ import { useCopy } from '@/i18n/copy'
 import { useMemo, useState } from 'react'
 import { Reveal } from '@/components/ui/reveal'
 import { TourCard } from './tour-card'
-import type { Tour } from '../types'
+import type { TourCardData } from '../types'
 
-function styleTokens(tour: Tour) {
+function styleTokens(tour: TourCardData) {
   return tour.styleKeys ?? tour.style.split('·').map((s) => s.trim())
 }
 
-export function ToursGrid({ tours }: { tours: Tour[] }) {
+export function ToursGrid({ tours }: { tours: TourCardData[] }) {
   const copy = useCopy()
 
   const labels = new Map<string, string>()
