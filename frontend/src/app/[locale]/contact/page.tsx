@@ -49,7 +49,7 @@ export default async function ContactPage({
         lede={copy(
           'Questions, or ready to plan your Ethiopian adventure? Write to our team in Lalibela and we will reply personally, usually the same day.',
         )}
-        image="/images/simien-trek.jpg"
+        image="https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/simien-trek.jpg"
         imageAlt={copy(
           'The escarpment of the Simien Mountains in the Ethiopian highlands',
         )}

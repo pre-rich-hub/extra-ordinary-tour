@@ -11,7 +11,7 @@ export const galleryCategories: GalleryCategory[] = [
 export const galleryPhotos: GalleryPhoto[] = [
   {
     id: 'lalibela-giyorgis',
-    src: '/images/lalibela-giyorgis.jpg',
+    src: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/lalibela-giyorgis.jpg',
     alt: 'The cross-shaped Church of St George carved into the rock at Lalibela',
     title: 'Carved downward',
     location: 'Lalibela',
@@ -22,7 +22,7 @@ export const galleryPhotos: GalleryPhoto[] = [
   },
   {
     id: 'danakil-dallol',
-    src: '/images/danakil-dallol.jpg',
+    src: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/danakil-dallol.jpg',
     alt: 'Yellow and green sulphur terraces at Dallol in the Danakil Depression',
     title: 'Salt and fire',
     location: 'Dallol, Danakil Depression',
@@ -33,7 +33,7 @@ export const galleryPhotos: GalleryPhoto[] = [
   },
   {
     id: 'simien-gelada',
-    src: '/images/simien-gelada.jpg',
+    src: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/simien-gelada.jpg',
     alt: 'A large troop of gelada monkeys grazing in the Simien Mountains',
     title: 'The grass eaters',
     location: 'Simien Mountains',
@@ -44,7 +44,7 @@ export const galleryPhotos: GalleryPhoto[] = [
   },
   {
     id: 'karo',
-    src: '/images/karo.jpg',
+    src: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/karo.jpg',
     alt: 'A Karo man with white face paint above the Omo River',
     title: 'Painted for the occasion',
     location: 'Karo villages, Omo Valley',
@@ -55,7 +55,7 @@ export const galleryPhotos: GalleryPhoto[] = [
   },
   {
     id: 'timkat',
-    src: '/images/timkat.jpg',
+    src: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/timkat.jpg',
     alt: 'Priests in white and gold robes lined up during the Timkat procession',
     title: 'Timkat',
     location: 'Ethiopian Epiphany',
@@ -66,7 +66,7 @@ export const galleryPhotos: GalleryPhoto[] = [
   },
   {
     id: 'simien-landscape',
-    src: '/images/simien-landscape.jpg',
+    src: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/simien-landscape.jpg',
     alt: 'Basalt pinnacles of the Simien Mountains above a sea of cloud',
     title: 'Above the clouds',
     location: 'Simien Mountains',
@@ -76,7 +76,7 @@ export const galleryPhotos: GalleryPhoto[] = [
   },
   {
     id: 'gondar-debre-berhan',
-    src: '/images/gondar-debre-berhan.jpg',
+    src: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/gondar-debre-berhan.jpg',
     alt: 'Painted angel faces on the ceiling of Debre Berhan Selassie in Gondar',
     title: 'A ceiling of angels',
     location: 'Debre Berhan Selassie, Gondar',
@@ -87,7 +87,7 @@ export const galleryPhotos: GalleryPhoto[] = [
   },
   {
     id: 'bale-wolf',
-    src: '/images/bale-wolf.jpg',
+    src: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/bale-wolf.jpg',
     alt: 'An Ethiopian wolf hunting on the moorland of the Bale Mountains',
     title: 'The rarest canid',
     location: 'Sanetti Plateau, Bale Mountains',
@@ -98,7 +98,7 @@ export const galleryPhotos: GalleryPhoto[] = [
   },
   {
     id: 'meskel',
-    src: '/images/meskel.jpg',
+    src: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/meskel.jpg',
     alt: 'The Demera bonfire burning during the Meskel celebration',
     title: 'Demera',
     location: 'Meskel, Addis Ababa',
@@ -109,7 +109,7 @@ export const galleryPhotos: GalleryPhoto[] = [
   },
   {
     id: 'mursi',
-    src: '/images/mursi.jpg',
+    src: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/mursi.jpg',
     alt: 'A Mursi woman wearing a decorated clay lip plate',
     title: 'Identity and beauty',
     location: 'Mago National Park',
@@ -120,7 +120,7 @@ export const galleryPhotos: GalleryPhoto[] = [
   },
   {
     id: 'erta-ale',
-    src: '/images/erta-ale.jpg',
+    src: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/erta-ale.jpg',
     alt: 'The cone and lava fields inside the crater of Erta Ale volcano',
     title: 'The smoking mountain',
     location: 'Erta Ale, Afar',
@@ -131,7 +131,7 @@ export const galleryPhotos: GalleryPhoto[] = [
   },
   {
     id: 'axum-stelae',
-    src: '/images/axum-stelae.jpg',
+    src: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/axum-stelae.jpg',
     alt: 'Granite obelisks standing in the Northern Stelae Park at Axum',
     title: 'Towers of granite',
     location: 'Axum',
@@ -142,7 +142,7 @@ export const galleryPhotos: GalleryPhoto[] = [
   },
   {
     id: 'simien-walia',
-    src: '/images/simien-walia.jpg',
+    src: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/simien-walia.jpg',
     alt: 'A walia ibex with long curved horns among giant lobelias',
     title: 'Walia ibex',
     location: 'Simien Mountains',
@@ -153,7 +153,7 @@ export const galleryPhotos: GalleryPhoto[] = [
   },
   {
     id: 'hamar',
-    src: '/images/hamar.jpg',
+    src: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/hamar.jpg',
     alt: 'Hamar women and children with beadwork and ochre-coated hair',
     title: 'Ochre and beads',
     location: 'Turmi, Omo Valley',
@@ -164,7 +164,7 @@ export const galleryPhotos: GalleryPhoto[] = [
   },
   {
     id: 'genna',
-    src: '/images/genna.jpg',
+    src: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/genna.jpg',
     alt: 'Pilgrims holding candles at night during Ethiopian Christmas in Lalibela',
     title: 'Genna by candlelight',
     location: 'Lalibela',
@@ -175,7 +175,7 @@ export const galleryPhotos: GalleryPhoto[] = [
   },
   {
     id: 'blue-nile-falls',
-    src: '/images/blue-nile-falls.jpg',
+    src: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/blue-nile-falls.jpg',
     alt: 'The Blue Nile Falls pouring over a basalt cliff into the gorge',
     title: 'The smoking water',
     location: 'Blue Nile Falls',
@@ -186,7 +186,7 @@ export const galleryPhotos: GalleryPhoto[] = [
   },
   {
     id: 'lake-tana-monastery',
-    src: '/images/lake-tana-monastery.jpg',
+    src: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/lake-tana-monastery.jpg',
     alt: 'A round thatched monastery church on the shore of Lake Tana',
     title: 'Island sanctuaries',
     location: 'Lake Tana',
@@ -197,7 +197,7 @@ export const galleryPhotos: GalleryPhoto[] = [
   },
   {
     id: 'bale-nyala',
-    src: '/images/bale-nyala.jpg',
+    src: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/bale-nyala.jpg',
     alt: 'A mountain nyala antelope in the Bale Mountains',
     title: 'Mountain nyala',
     location: 'Dinsho, Bale Mountains',
@@ -208,7 +208,7 @@ export const galleryPhotos: GalleryPhoto[] = [
   },
   {
     id: 'coffee-ceremony',
-    src: '/images/coffee-ceremony.jpg',
+    src: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/coffee-ceremony.jpg',
     alt: 'A clay jebena and small cups prepared for an Ethiopian coffee ceremony',
     title: 'Buna',
     location: 'Across Ethiopia',
@@ -219,7 +219,7 @@ export const galleryPhotos: GalleryPhoto[] = [
   },
   {
     id: 'danakil-assale',
-    src: '/images/danakil-assale.jpg',
+    src: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/danakil-assale.jpg',
     alt: 'A rock formation reflected in the salt flats of Lake Assale at dusk',
     title: 'Mirror of salt',
     location: 'Lake Assale, Danakil',
@@ -230,7 +230,7 @@ export const galleryPhotos: GalleryPhoto[] = [
   },
   {
     id: 'gondar-fasilides-bath',
-    src: '/images/gondar-fasilides-bath.jpg',
+    src: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/gondar-fasilides-bath.jpg',
     alt: 'Crowds gathered around Fasilides’ Bath in Gondar during Timkat',
     title: 'The royal bath',
     location: 'Gondar',
@@ -241,7 +241,7 @@ export const galleryPhotos: GalleryPhoto[] = [
   },
   {
     id: 'abuna-yemata',
-    src: '/images/abuna-yemata.jpg',
+    src: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/abuna-yemata.jpg',
     alt: 'Ancient frescoes of saints inside the cliff church of Abuna Yemata Guh',
     title: 'Frescoes in the cliff',
     location: 'Gheralta, Tigray',
@@ -252,7 +252,7 @@ export const galleryPhotos: GalleryPhoto[] = [
   },
   {
     id: 'banna',
-    src: '/images/banna.jpg',
+    src: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/banna.jpg',
     alt: 'Banna young men walking on tall stilts painted with chalk',
     title: 'On stilts',
     location: 'Key Afar, Omo Valley',
@@ -263,7 +263,7 @@ export const galleryPhotos: GalleryPhoto[] = [
   },
   {
     id: 'abijatta-flamingo',
-    src: '/images/abijatta-flamingo.jpg',
+    src: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/abijatta-flamingo.jpg',
     alt: 'Flamingos feeding along the shore of Lake Abijatta',
     title: 'Pink on the shore',
     location: 'Abijatta-Shalla National Park',

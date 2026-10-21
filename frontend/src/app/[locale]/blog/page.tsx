@@ -57,7 +57,7 @@ export default async function BlogPage({
         lede={copy(
           'Written by the people who run these journeys: when to come, what to pack, where to go and the festivals worth planning around.',
         )}
-        image="/images/coffee-ceremony.jpg"
+        image="https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/coffee-ceremony.jpg"
         imageAlt={copy(
           'A jebena and cups prepared for an Ethiopian coffee ceremony',
         )}
@@ -100,7 +100,7 @@ export default async function BlogPage({
           'Most of these articles started as an answer to a guest question. Ask us yours and it may well become the next one.',
         )}
         secondary={{ label: copy('Browse Tours'), href: '/tours' }}
-        image="/images/simien-trek.jpg"
+        image="https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/simien-trek.jpg"
       />
     </>
   )

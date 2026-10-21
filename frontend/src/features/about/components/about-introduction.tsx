@@ -43,7 +43,7 @@ export function AboutIntroduction() {
           <div className="grid aspect-[5/6] grid-cols-6 grid-rows-[repeat(8,minmax(0,1fr))] gap-4 sm:gap-5 lg:aspect-auto lg:h-full lg:min-h-[620px]">
             <div className="relative col-span-4 row-span-5 overflow-hidden rounded-sm shadow-[0_40px_80px_-40px_oklch(0.185_0.012_58/0.55)]">
               <Image
-                src="/images/lalibela-pilgrims.jpg"
+                src="https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/lalibela-pilgrims.jpg"
                 alt={copy(
                   'Priests holding processional crosses during a celebration in Lalibela',
                 )}
@@ -54,7 +54,7 @@ export function AboutIntroduction() {
             </div>
             <div className="relative col-span-2 col-start-5 row-span-3 row-start-2 overflow-hidden rounded-sm">
               <Image
-                src="/images/coffee-ceremony.jpg"
+                src="https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/coffee-ceremony.jpg"
                 alt={copy(
                   'A jebena and cups prepared for an Ethiopian coffee ceremony',
                 )}
@@ -65,7 +65,7 @@ export function AboutIntroduction() {
             </div>
             <div className="relative col-span-4 col-start-3 row-span-3 row-start-6 overflow-hidden rounded-sm shadow-[0_40px_80px_-40px_oklch(0.185_0.012_58/0.55)]">
               <Image
-                src="/images/simien-landscape.jpg"
+                src="https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/simien-landscape.jpg"
                 alt={copy(
                   'Basalt pinnacles of the Simien Mountains rising above the clouds',
                 )}

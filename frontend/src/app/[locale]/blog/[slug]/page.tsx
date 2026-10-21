@@ -24,14 +24,8 @@ export async function generateMetadata({
   const { locale, slug } = await params
   if (!isLocale(locale)) notFound()
   setRequestLocale(locale)
-  const copy = await getCopy()
   const p = getPost(slug, locale)
-  if (!p)
-    return buildPageMetadata(
-      { title: copy('Article not found') },
-      `/blog/${slug}`,
-      locale,
-    )
+  if (!p) notFound()
   return buildPageMetadata(
     {
       title: p.title,

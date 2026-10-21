@@ -63,7 +63,7 @@ export default async function AboutPage({
         )}
         primary={{ label: copy('Plan your journey'), href: '/contact' }}
         secondary={{ label: copy('Browse tours'), href: '/tours' }}
-        image="/images/lalibela-landscape.jpg"
+        image="https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/lalibela-landscape.jpg"
       />
     </>
   )

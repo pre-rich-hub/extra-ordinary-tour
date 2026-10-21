@@ -46,7 +46,7 @@ export function CompanyValues() {
           </p>
           <div className="relative mt-10 hidden aspect-[4/3] overflow-hidden rounded-sm lg:block">
             <Image
-              src="/images/dorze.jpg"
+              src="https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/dorze.jpg"
               alt={copy(
                 'Traditional beehive-shaped Dorze houses in the Guge highlands',
               )}

@@ -29,14 +29,8 @@ export async function generateMetadata({
   const { locale, slug } = await params
   if (!isLocale(locale)) notFound()
   setRequestLocale(locale)
-  const copy = await getCopy()
   const d = getDestination(slug, locale)
-  if (!d)
-    return buildPageMetadata(
-      { title: copy('Destination not found') },
-      `/destinations/${slug}`,
-      locale,
-    )
+  if (!d) notFound()
   return buildPageMetadata(
     {
       title: d.name,

@@ -56,7 +56,7 @@ export default async function GalleryPage({
         lede={copy(
           'Salt and fire in the Danakil, stone churches in the north, wildlife on the high plateaus and the people who make each place what it is.',
         )}
-        image="/images/simien-landscape.jpg"
+        image="https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/simien-landscape.jpg"
         imageAlt={copy(
           'Basalt pinnacles of the Simien Mountains rising above the clouds',
         )}
@@ -93,7 +93,7 @@ export default async function GalleryPage({
         )}
         primary={{ label: copy('Plan Your Journey'), href: '/contact' }}
         secondary={{ label: copy('Browse Tours'), href: '/tours' }}
-        image="/images/danakil-assale.jpg"
+        image="https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/danakil-assale.jpg"
       />
     </>
   )

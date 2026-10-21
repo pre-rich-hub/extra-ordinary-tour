@@ -8,7 +8,7 @@ export const posts: Post[] = [
     category: 'Planning',
     date: 'July 11, 2026',
     readTime: '7 min read',
-    image: '/images/simien-landscape.jpg',
+    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/simien-landscape.jpg',
     author: 'Zelalem',
     authorRole: 'Travel Writer',
     excerpt:
@@ -31,7 +31,7 @@ export const posts: Post[] = [
     category: 'Festivals',
     date: 'September 18, 2026',
     readTime: '8 min read',
-    image: '/images/meskel.jpg',
+    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/meskel.jpg',
     author: 'Zelalem',
     authorRole: 'Travel Writer',
     excerpt:
@@ -52,7 +52,7 @@ export const posts: Post[] = [
     category: 'Culture',
     date: 'August 29, 2026',
     readTime: '7 min read',
-    image: '/images/dassanech.jpg',
+    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/dassanech.jpg',
     author: 'Zelalem',
     authorRole: 'Travel Writer',
     excerpt:
@@ -73,7 +73,7 @@ export const posts: Post[] = [
     category: 'Planning',
     date: 'August 21, 2026',
     readTime: '9 min read',
-    image: '/images/lalibela-landscape.jpg',
+    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/lalibela-landscape.jpg',
     author: 'Zelalem',
     authorRole: 'Travel Writer',
     excerpt:
@@ -94,7 +94,7 @@ export const posts: Post[] = [
     category: 'Destinations',
     date: 'August 8, 2026',
     readTime: '7 min read',
-    image: '/images/lalibela-pilgrims.jpg',
+    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/lalibela-pilgrims.jpg',
     author: 'Zelalem',
     authorRole: 'Travel Writer',
     excerpt:
@@ -115,7 +115,7 @@ export const posts: Post[] = [
     category: 'Destinations',
     date: 'August 1, 2026',
     readTime: '7 min read',
-    image: '/images/danakil-assale.jpg',
+    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/danakil-assale.jpg',
     author: 'Zelalem',
     authorRole: 'Travel Writer',
     excerpt:
@@ -136,7 +136,7 @@ export const posts: Post[] = [
     category: 'Culture',
     date: 'July 25, 2026',
     readTime: '6 min read',
-    image: '/images/coffee-ceremony.jpg',
+    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/coffee-ceremony.jpg',
     author: 'Zelalem',
     authorRole: 'Travel Writer',
     excerpt:
@@ -157,7 +157,7 @@ export const posts: Post[] = [
     category: 'News',
     date: 'July 16, 2026',
     readTime: '2 min read',
-    image: '/images/lalibela-medhane-alem.jpg',
+    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/lalibela-medhane-alem.jpg',
     author: 'Zelalem',
     authorRole: 'Travel Writer',
     excerpt:
@@ -175,7 +175,7 @@ export const posts: Post[] = [
     category: 'Trekking',
     date: 'June 17, 2026',
     readTime: '5 min read',
-    image: '/images/simien-gelada.jpg',
+    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/simien-gelada.jpg',
     author: 'Zelalem',
     authorRole: 'Travel Writer',
     excerpt:
@@ -195,7 +195,7 @@ export const posts: Post[] = [
     category: 'Destinations',
     date: 'June 12, 2026',
     readTime: '6 min read',
-    image: '/images/lalibela-giyorgis.jpg',
+    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/lalibela-giyorgis.jpg',
     author: 'Zelalem',
     authorRole: 'Travel Writer',
     excerpt:
@@ -215,7 +215,7 @@ export const posts: Post[] = [
     category: 'History',
     date: 'August 21, 2026',
     readTime: '5 min read',
-    image: '/images/axum-stelae.jpg',
+    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/axum-stelae.jpg',
     author: 'Zelalem',
     authorRole: 'Travel Writer',
     excerpt:
@@ -235,7 +235,7 @@ export const posts: Post[] = [
     category: 'Practical',
     date: 'August 21, 2026',
     readTime: '6 min read',
-    image: '/images/injera.jpg',
+    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/injera.jpg',
     author: 'Zelalem',
     authorRole: 'Travel Writer',
     excerpt:
@@ -255,7 +255,7 @@ export const posts: Post[] = [
     category: 'Practical',
     date: 'August 11, 2026',
     readTime: '7 min read',
-    image: '/images/addis-trinity.jpg',
+    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/addis-trinity.jpg',
     author: 'Maereg Tefere',
     authorRole: 'Founder & Tour Specialist',
     excerpt:

@@ -29,14 +29,8 @@ export async function generateMetadata({
   const { locale, slug } = await params
   if (!isLocale(locale)) notFound()
   setRequestLocale(locale)
-  const copy = await getCopy()
   const t = getTour(slug, locale)
-  if (!t)
-    return buildPageMetadata(
-      { title: copy('Journey not found') },
-      `/tours/${slug}`,
-      locale,
-    )
+  if (!t) notFound()
   return buildPageMetadata(
     {
       title: t.title,

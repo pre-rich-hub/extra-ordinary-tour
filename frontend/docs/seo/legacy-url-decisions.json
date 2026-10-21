@@ -1,0 +1,1004 @@
+{
+  "/": {
+    "target": "/en",
+    "action": "propose_permanent_redirect",
+    "confidence": "high",
+    "reason": "Equivalent business/home/contact/journal or itinerary collection purpose in the existing project."
+  },
+  "/10-days-historic-route-tours/": {
+    "target": "/en/tours/10-day-historic-route",
+    "action": "propose_permanent_redirect",
+    "confidence": "high",
+    "reason": "Exact tour identifier EDT-03-H10: legacy visible Tour Code heading matches the existing source catalogue comment. Validate itinerary/commercial changes at launch; no redirect rule is applied in Phase 0."
+  },
+  "/11-days-ethiopian-history-and-cultural-tours/": {
+    "target": "/en/tours/11-day-history-and-culture-easter",
+    "action": "propose_permanent_redirect",
+    "confidence": "high",
+    "reason": "Exact tour identifier EDT-03-H11: legacy visible Tour Code heading matches the existing source catalogue comment. Validate itinerary/commercial changes at launch; no redirect rule is applied in Phase 0."
+  },
+  "/11-days-omo-valley-cultural-tour-ethiopia-tribal-cultural-experience/": {
+    "target": "/en/tours/11-day-omo-valley-cultural",
+    "action": "propose_permanent_redirect",
+    "confidence": "high",
+    "reason": "Exact tour identifier EDT-05-OT: legacy visible Tour Code heading matches the existing source catalogue comment. Validate itinerary/commercial changes at launch; no redirect rule is applied in Phase 0."
+  },
+  "/12-day-ethiopian-safari-tours/": {
+    "target": "/en/tours/12-day-ethiopian-safari",
+    "action": "propose_permanent_redirect",
+    "confidence": "high",
+    "reason": "Exact tour identifier EDT-06-EST: legacy visible Tour Code heading matches the existing source catalogue comment. Validate itinerary/commercial changes at launch; no redirect rule is applied in Phase 0."
+  },
+  "/12-days-amazing-ethiopia-tours/": {
+    "target": "/en/tours/12-day-amazing-ethiopia",
+    "action": "propose_permanent_redirect",
+    "confidence": "high",
+    "reason": "Exact tour identifier EDT-03-H12: legacy visible Tour Code heading matches the existing source catalogue comment. Validate itinerary/commercial changes at launch; no redirect rule is applied in Phase 0."
+  },
+  "/13-days-ethiopian-adventures/": {
+    "target": "/en/tours/13-day-ethiopian-adventure",
+    "action": "propose_permanent_redirect",
+    "confidence": "high",
+    "reason": "Exact tour identifier EDT-03-H13A: legacy visible Tour Code heading matches the existing source catalogue comment. Validate itinerary/commercial changes at launch; no redirect rule is applied in Phase 0."
+  },
+  "/13-days-ethiopian-history-and-culture-tours/": {
+    "target": "/en/tours/13-day-history-culture-and-danakil",
+    "action": "propose_permanent_redirect",
+    "confidence": "high",
+    "reason": "Exact tour identifier EDT-03-H13B: legacy visible Tour Code heading matches the existing source catalogue comment. Validate itinerary/commercial changes at launch; no redirect rule is applied in Phase 0."
+  },
+  "/13-days-historical-route-omo-valley/": {
+    "target": "/en/tours/13-day-historic-route-and-omo-valley",
+    "action": "propose_permanent_redirect",
+    "confidence": "high",
+    "reason": "Exact tour identifier EDT-03-H13: legacy visible Tour Code heading matches the existing source catalogue comment. Validate itinerary/commercial changes at launch; no redirect rule is applied in Phase 0."
+  },
+  "/13-days-omo-valley-photography-expedition/": {
+    "target": "/en/tours/13-day-omo-valley-photography-expedition",
+    "action": "propose_permanent_redirect",
+    "confidence": "high",
+    "reason": "Exact tour identifier EDT-03-H13C: legacy visible Tour Code heading matches the existing source catalogue comment. Validate itinerary/commercial changes at launch; no redirect rule is applied in Phase 0."
+  },
+  "/15-days-ethiopian-history-and-cultural-tours/": {
+    "target": "/en/tours/15-day-history-and-culture",
+    "action": "propose_permanent_redirect",
+    "confidence": "high",
+    "reason": "Exact tour identifier EDT-03-H15: legacy visible Tour Code heading matches the existing source catalogue comment. Validate itinerary/commercial changes at launch; no redirect rule is applied in Phase 0."
+  },
+  "/17-day-ethiopia-wildlife-tour/": {
+    "target": "/en/tours/17-day-ethiopia-wildlife-safari",
+    "action": "propose_permanent_redirect",
+    "confidence": "high",
+    "reason": "Exact tour identifier EDT-06-EWT: legacy visible Tour Code heading matches the existing source catalogue comment. Validate itinerary/commercial changes at launch; no redirect rule is applied in Phase 0."
+  },
+  "/2-days-abijata-shalla-national-park/": {
+    "target": "/en/tours/2-day-abijatta-shalla",
+    "action": "propose_permanent_redirect",
+    "confidence": "high",
+    "reason": "Exact tour identifier EDT-01-AS: legacy visible Tour Code heading matches the existing source catalogue comment. Validate itinerary/commercial changes at launch; no redirect rule is applied in Phase 0."
+  },
+  "/2-days-awash-national-park-tours/": {
+    "target": "/en/tours/2-day-awash-national-park",
+    "action": "propose_permanent_redirect",
+    "confidence": "high",
+    "reason": "Exact tour identifier EDT-01-AN: legacy visible Tour Code heading matches the existing source catalogue comment. Validate itinerary/commercial changes at launch; no redirect rule is applied in Phase 0."
+  },
+  "/2-days-lalibela-tours/": {
+    "target": "/en/tours/2-day-lalibela",
+    "action": "propose_permanent_redirect",
+    "confidence": "high",
+    "reason": "Exact tour identifier EDT-01-LT: legacy visible Tour Code heading matches the existing source catalogue comment. Validate itinerary/commercial changes at launch; no redirect rule is applied in Phase 0."
+  },
+  "/3-days-afar-region-tour/": {
+    "target": "/en/tours/3-day-afar-danakil-from-addis",
+    "action": "propose_permanent_redirect",
+    "confidence": "high",
+    "reason": "Exact tour identifier EDT-09-ART: legacy visible Tour Code heading matches the existing source catalogue comment. Validate itinerary/commercial changes at launch; no redirect rule is applied in Phase 0."
+  },
+  "/3-days-bale-mountain-national-park-trekking/": {
+    "target": "/en/tours/3-day-bale-mountains-trek",
+    "action": "propose_permanent_redirect",
+    "confidence": "high",
+    "reason": "Exact tour identifier EDT-07-BMT: legacy visible Tour Code heading matches the existing source catalogue comment. Validate itinerary/commercial changes at launch; no redirect rule is applied in Phase 0."
+  },
+  "/3-days-danakil-depression-tours/": {
+    "target": "/en/tours/3-day-danakil-depression-from-mekelle",
+    "action": "propose_permanent_redirect",
+    "confidence": "high",
+    "reason": "Exact tour identifier EDT-09-DDT: legacy visible Tour Code heading matches the existing source catalogue comment. Validate itinerary/commercial changes at launch; no redirect rule is applied in Phase 0."
+  },
+  "/3-days-lalibela-tours/": {
+    "target": "/en/tours/3-day-lalibela-rock-churches",
+    "action": "propose_permanent_redirect",
+    "confidence": "high",
+    "reason": "Exact tour identifier EDT-03-H3: legacy visible Tour Code heading matches the existing source catalogue comment. Validate itinerary/commercial changes at launch; no redirect rule is applied in Phase 0."
+  },
+  "/3-days-simien-mountains-national-park-trekking/": {
+    "target": "/en/tours/3-day-simien-mountains-trek",
+    "action": "propose_permanent_redirect",
+    "confidence": "high",
+    "reason": "Exact tour identifier EDT-07-SMT: legacy visible Tour Code heading matches the existing source catalogue comment. Validate itinerary/commercial changes at launch; no redirect rule is applied in Phase 0."
+  },
+  "/3-days-to-awash-national-park/": {
+    "target": "/en/tours/3-day-awash-national-park-safari",
+    "action": "propose_permanent_redirect",
+    "confidence": "high",
+    "reason": "Exact tour identifier EDT-06-ANP: legacy visible Tour Code heading matches the existing source catalogue comment. Validate itinerary/commercial changes at launch; no redirect rule is applied in Phase 0."
+  },
+  "/3-days-to-bale-national-park/": {
+    "target": "/en/tours/3-day-bale-mountains-wildlife",
+    "action": "propose_permanent_redirect",
+    "confidence": "high",
+    "reason": "Exact tour identifier EDT-06-BNP: legacy visible Tour Code heading matches the existing source catalogue comment. Validate itinerary/commercial changes at launch; no redirect rule is applied in Phase 0."
+  },
+  "/4-days-birding-tours/": {
+    "target": "/en/tours/4-day-rift-valley-birding",
+    "action": "propose_permanent_redirect",
+    "confidence": "high",
+    "reason": "Exact tour identifier EDT-08-DB1: legacy visible Tour Code heading matches the existing source catalogue comment. Validate itinerary/commercial changes at launch; no redirect rule is applied in Phase 0."
+  },
+  "/4-days-lalibela-trekking-tours/": {
+    "target": "/en/tours/4-day-lalibela-trek",
+    "action": "propose_permanent_redirect",
+    "confidence": "high",
+    "reason": "Exact tour identifier EDT-07-LLT: legacy visible Tour Code heading matches the existing source catalogue comment. Validate itinerary/commercial changes at launch; no redirect rule is applied in Phase 0."
+  },
+  "/4-days-to-simien-national-park/": {
+    "target": "/en/tours/4-day-simien-trekking-and-wildlife",
+    "action": "propose_permanent_redirect",
+    "confidence": "high",
+    "reason": "Exact tour identifier EDT-06-SNP: legacy visible Tour Code heading matches the existing source catalogue comment. Validate itinerary/commercial changes at launch; no redirect rule is applied in Phase 0."
+  },
+  "/5-days-birding-tours/": {
+    "target": "/en/tours/5-day-rift-valley-and-wondo-genet-birding",
+    "action": "propose_permanent_redirect",
+    "confidence": "high",
+    "reason": "Exact tour identifier EDT-08-DB2: legacy visible Tour Code heading matches the existing source catalogue comment. Validate itinerary/commercial changes at launch; no redirect rule is applied in Phase 0."
+  },
+  "/5-days-christmas-festival-tours/": {
+    "target": "/en/tours/5-day-genna-christmas-lalibela",
+    "action": "propose_permanent_redirect",
+    "confidence": "high",
+    "reason": "Exact tour identifier EDT-03-CF: legacy visible Tour Code heading matches the existing source catalogue comment. Validate itinerary/commercial changes at launch; no redirect rule is applied in Phase 0."
+  },
+  "/5-days-ethiopia-coffee-tours/": {
+    "target": "/en/tours/5-day-ethiopia-coffee",
+    "action": "propose_permanent_redirect",
+    "confidence": "high",
+    "reason": "Exact tour identifier EDT-02-D5: legacy visible Tour Code heading matches the existing source catalogue comment. Validate itinerary/commercial changes at launch; no redirect rule is applied in Phase 0."
+  },
+  "/6-days-ethiopia-coffee-tours/": {
+    "target": "/en/tours/6-day-ethiopia-coffee-kaffa",
+    "action": "propose_permanent_redirect",
+    "confidence": "high",
+    "reason": "Exact tour identifier EDT-02-D6: legacy visible Tour Code heading matches the existing source catalogue comment. Validate itinerary/commercial changes at launch; no redirect rule is applied in Phase 0."
+  },
+  "/7-days-historic-route-tours/": {
+    "target": "/en/tours/7-day-historic-route",
+    "action": "propose_permanent_redirect",
+    "confidence": "high",
+    "reason": "Exact tour identifier EDT-03-H7: legacy visible Tour Code heading matches the existing source catalogue comment. Validate itinerary/commercial changes at launch; no redirect rule is applied in Phase 0."
+  },
+  "/8-days-lalibela-omo-valley-tours/": {
+    "target": "/en/tours/8-day-lalibela-and-omo-valley",
+    "action": "propose_permanent_redirect",
+    "confidence": "high",
+    "reason": "Exact tour identifier EDT-05-LO: legacy visible Tour Code heading matches the existing source catalogue comment. Validate itinerary/commercial changes at launch; no redirect rule is applied in Phase 0."
+  },
+  "/8-days-north-with-timkaet-festival-tour/": {
+    "target": "/en/tours/8-day-north-with-timkat-festival",
+    "action": "propose_permanent_redirect",
+    "confidence": "high",
+    "reason": "Observed legacy alias resolves to /8-days-north-with-timkaet-festival-tours/. Exact tour identifier EDT-03-NF: legacy visible Tour Code heading matches the existing source catalogue comment. Validate itinerary/commercial changes at launch; no redirect rule is applied in Phase 0."
+  },
+  "/8-days-north-with-timkaet-festival-tours/": {
+    "target": "/en/tours/8-day-north-with-timkat-festival",
+    "action": "propose_permanent_redirect",
+    "confidence": "high",
+    "reason": "Exact tour identifier EDT-03-NF: legacy visible Tour Code heading matches the existing source catalogue comment. Validate itinerary/commercial changes at launch; no redirect rule is applied in Phase 0."
+  },
+  "/9-days-omo-valley-cultural-tours/": {
+    "target": "/en/tours/9-day-omo-valley-cultural",
+    "action": "propose_permanent_redirect",
+    "confidence": "high",
+    "reason": "Exact tour identifier EDT-05-OV: legacy visible Tour Code heading matches the existing source catalogue comment. Validate itinerary/commercial changes at launch; no redirect rule is applied in Phase 0."
+  },
+  "/?elementskit_template=footer": {
+    "target": "",
+    "action": "review_template_retirement",
+    "confidence": "unresolved",
+    "reason": "Public WordPress builder template, not the homepage. Query parameters are meaningful. Check indexing/backlinks before excluding or retiring; no redirect to /en is assumed."
+  },
+  "/?elementskit_template=header": {
+    "target": "",
+    "action": "review_template_retirement",
+    "confidence": "unresolved",
+    "reason": "Public WordPress builder template, not the homepage. Query parameters are meaningful. Check indexing/backlinks before excluding or retiring; no redirect to /en is assumed."
+  },
+  "/Negash/": {
+    "target": "/en/destinations/negash",
+    "action": "propose_permanent_redirect",
+    "confidence": "high",
+    "reason": "Observed legacy alias resolves to /negash-ethiopia/. Equivalent named place, cultural group or festival identified from the legacy title/visible content headings and existing destination record. Spelling/slug differences are intentionally mapped."
+  },
+  "/abijatta-and-shalla-lake-tour/": {
+    "target": "/en/destinations/abijatta-shalla",
+    "action": "propose_permanent_redirect",
+    "confidence": "high",
+    "reason": "Equivalent named place, cultural group or festival identified from the legacy title/visible content headings and existing destination record. Spelling/slug differences are intentionally mapped."
+  },
+  "/about-us/": {
+    "target": "/en/about",
+    "action": "propose_permanent_redirect",
+    "confidence": "high",
+    "reason": "Equivalent business/home/contact/journal or itinerary collection purpose in the existing project."
+  },
+  "/abune-yossef/": {
+    "target": "/en/destinations/abune-yosef",
+    "action": "propose_permanent_redirect",
+    "confidence": "high",
+    "reason": "Equivalent named place, cultural group or festival identified from the legacy title/visible content headings and existing destination record. Spelling/slug differences are intentionally mapped."
+  },
+  "/addis-ababa-full-day-city-tour/": {
+    "target": "/en/tours/addis-ababa-full-day-city-tour",
+    "action": "propose_permanent_redirect",
+    "confidence": "high",
+    "reason": "Exact tour identifier EDT-01-AA: legacy visible Tour Code heading matches the existing source catalogue comment. Validate itinerary/commercial changes at launch; no redirect rule is applied in Phase 0."
+  },
+  "/addis-ababa-the-surroundings/": {
+    "target": "",
+    "action": "resolve_content_gap",
+    "confidence": "unresolved",
+    "reason": "Legacy topic/category content has no dedicated equivalent in the present route inventory. Preserve its search intent with a suitable page or a verified equivalent before launch. Existing client-side filters are not indexable category URLs."
+  },
+  "/addis-ababa/": {
+    "target": "/en/destinations/addis-ababa",
+    "action": "propose_permanent_redirect",
+    "confidence": "high",
+    "reason": "Equivalent named place, cultural group or festival identified from the legacy title/visible content headings and existing destination record. Spelling/slug differences are intentionally mapped."
+  },
+  "/addis-and-lalibela-tours/": {
+    "target": "/en/tours/4-day-addis-and-lalibela",
+    "action": "propose_permanent_redirect",
+    "confidence": "high",
+    "reason": "Exact tour identifier EDT-03-H4: legacy visible Tour Code heading matches the existing source catalogue comment. Validate itinerary/commercial changes at launch; no redirect rule is applied in Phase 0."
+  },
+  "/arbore-tribe/": {
+    "target": "/en/destinations/arbore-people",
+    "action": "propose_permanent_redirect",
+    "confidence": "high",
+    "reason": "Equivalent named place, cultural group or festival identified from the legacy title/visible content headings and existing destination record. Spelling/slug differences are intentionally mapped."
+  },
+  "/ari-tribe/": {
+    "target": "/en/destinations/ari-people",
+    "action": "propose_permanent_redirect",
+    "confidence": "high",
+    "reason": "Equivalent named place, cultural group or festival identified from the legacy title/visible content headings and existing destination record. Spelling/slug differences are intentionally mapped."
+  },
+  "/ashendye/": {
+    "target": "/en/destinations/ashenda",
+    "action": "propose_permanent_redirect",
+    "confidence": "high",
+    "reason": "Equivalent named place, cultural group or festival identified from the legacy title/visible content headings and existing destination record. Spelling/slug differences are intentionally mapped."
+  },
+  "/author/zelalem/": {
+    "target": "/en/blog",
+    "action": "propose_archive_consolidation",
+    "confidence": "medium",
+    "reason": "Author/category pagination lists the same journal corpus; proposed archive consolidation into the complete journal index. Confirm indexed/backlinked archive value before launch."
+  },
+  "/author/zelalem/page/2/": {
+    "target": "/en/blog",
+    "action": "propose_archive_consolidation",
+    "confidence": "medium",
+    "reason": "Author/category pagination lists the same journal corpus; proposed archive consolidation into the complete journal index. Confirm indexed/backlinked archive value before launch."
+  },
+  "/awash-national-park-wildlife-and-natural-beauty-near-addis-ababa/": {
+    "target": "/en/destinations/awash-national-park",
+    "action": "propose_permanent_redirect",
+    "confidence": "high",
+    "reason": "Equivalent named place, cultural group or festival identified from the legacy title/visible content headings and existing destination record. Spelling/slug differences are intentionally mapped."
+  },
+  "/awash-national-park/": {
+    "target": "/en/destinations/awash-national-park",
+    "action": "propose_permanent_redirect",
+    "confidence": "high",
+    "reason": "Observed legacy alias resolves to /awash-national-park-wildlife-and-natural-beauty-near-addis-ababa/. Equivalent named place, cultural group or festival identified from the legacy title/visible content headings and existing destination record. Spelling/slug differences are intentionally mapped."
+  },
+  "/axum/": {
+    "target": "/en/destinations/axum",
+    "action": "propose_permanent_redirect",
+    "confidence": "high",
+    "reason": "Equivalent named place, cultural group or festival identified from the legacy title/visible content headings and existing destination record. Spelling/slug differences are intentionally mapped."
+  },
+  "/bahir-dar-the-gateway-to-lake-tana-and-the-blue-nile-falls/": {
+    "target": "/en/destinations/blue-nile-falls",
+    "action": "propose_permanent_redirect",
+    "confidence": "high",
+    "reason": "Equivalent named place, cultural group or festival identified from the legacy title/visible content headings and existing destination record. Spelling/slug differences are intentionally mapped."
+  },
+  "/bahirdar-lake-tana/": {
+    "target": "/en/destinations/bahir-dar-lake-tana",
+    "action": "propose_permanent_redirect",
+    "confidence": "high",
+    "reason": "Equivalent named place, cultural group or festival identified from the legacy title/visible content headings and existing destination record. Spelling/slug differences are intentionally mapped."
+  },
+  "/bale-mountain-national-park-trekking-2/": {
+    "target": "/en/tours/6-day-bale-mountains-trek",
+    "action": "propose_permanent_redirect",
+    "confidence": "high",
+    "reason": "Exact tour identifier EDT-07-BPT: legacy visible Tour Code heading matches the existing source catalogue comment. Validate itinerary/commercial changes at launch; no redirect rule is applied in Phase 0."
+  },
+  "/bale-mountain-national-park-trekking/": {
+    "target": "/en/tours/4-day-bale-mountains-trek",
+    "action": "propose_permanent_redirect",
+    "confidence": "high",
+    "reason": "Exact tour identifier EDT-07-BNT: legacy visible Tour Code heading matches the existing source catalogue comment. Validate itinerary/commercial changes at launch; no redirect rule is applied in Phase 0."
+  },
+  "/bale-mountain-national-park/": {
+    "target": "/en/destinations/bale-mountains",
+    "action": "propose_permanent_redirect",
+    "confidence": "high",
+    "reason": "Equivalent named place, cultural group or festival identified from the legacy title/visible content headings and existing destination record. Spelling/slug differences are intentionally mapped."
+  },
+  "/banna-tribe/": {
+    "target": "/en/destinations/banna-people",
+    "action": "propose_permanent_redirect",
+    "confidence": "high",
+    "reason": "Equivalent named place, cultural group or festival identified from the legacy title/visible content headings and existing destination record. Spelling/slug differences are intentionally mapped."
+  },
+  "/best-time-to-visit-ethiopia/": {
+    "target": "/en/blog/best-time-to-visit-ethiopia",
+    "action": "propose_permanent_redirect",
+    "confidence": "high",
+    "reason": "Matching article/informational purpose verified from legacy title and content headings against the existing journal record; preserve the article intent rather than treating the old URL as a destination."
+  },
+  "/bird-watching-tours/": {
+    "target": "",
+    "action": "resolve_content_gap",
+    "confidence": "unresolved",
+    "reason": "Legacy topic/category content has no dedicated equivalent in the present route inventory. Preserve its search intent with a suitable page or a verified equivalent before launch. Existing client-side filters are not indexable category URLs."
+  },
+  "/bird-watching/": {
+    "target": "",
+    "action": "resolve_content_gap",
+    "confidence": "unresolved",
+    "reason": "Legacy topic/category content has no dedicated equivalent in the present route inventory. Preserve its search intent with a suitable page or a verified equivalent before launch. Existing client-side filters are not indexable category URLs."
+  },
+  "/birding-tours/": {
+    "target": "/en/tours/7-day-ethiopia-birding",
+    "action": "propose_permanent_redirect",
+    "confidence": "high",
+    "reason": "Exact tour identifier EDT-08-DB3: legacy visible Tour Code heading matches the existing source catalogue comment. Validate itinerary/commercial changes at launch; no redirect rule is applied in Phase 0."
+  },
+  "/blog/": {
+    "target": "/en/blog",
+    "action": "propose_permanent_redirect",
+    "confidence": "high",
+    "reason": "Equivalent business/home/contact/journal or itinerary collection purpose in the existing project."
+  },
+  "/buhe-transfiguration-feast/": {
+    "target": "/en/destinations/buhe",
+    "action": "propose_permanent_redirect",
+    "confidence": "high",
+    "reason": "Equivalent named place, cultural group or festival identified from the legacy title/visible content headings and existing destination record. Spelling/slug differences are intentionally mapped."
+  },
+  "/category/blog/": {
+    "target": "/en/blog",
+    "action": "propose_archive_consolidation",
+    "confidence": "medium",
+    "reason": "Author/category pagination lists the same journal corpus; proposed archive consolidation into the complete journal index. Confirm indexed/backlinked archive value before launch."
+  },
+  "/category/blog/page/2/": {
+    "target": "/en/blog",
+    "action": "propose_archive_consolidation",
+    "confidence": "medium",
+    "reason": "Author/category pagination lists the same journal corpus; proposed archive consolidation into the complete journal index. Confirm indexed/backlinked archive value before launch."
+  },
+  "/chebera-churchura-national-park/": {
+    "target": "/en/destinations/chebera-churchura-national-park",
+    "action": "propose_permanent_redirect",
+    "confidence": "high",
+    "reason": "Equivalent named place, cultural group or festival identified from the legacy title/visible content headings and existing destination record. Spelling/slug differences are intentionally mapped."
+  },
+  "/coffee-tours/": {
+    "target": "",
+    "action": "resolve_content_gap",
+    "confidence": "unresolved",
+    "reason": "Legacy topic/category content has no dedicated equivalent in the present route inventory. Preserve its search intent with a suitable page or a verified equivalent before launch. Existing client-side filters are not indexable category URLs."
+  },
+  "/complete-guide-to-lalibela/": {
+    "target": "/en/blog/complete-guide-to-lalibela",
+    "action": "propose_permanent_redirect",
+    "confidence": "high",
+    "reason": "Matching article/informational purpose verified from legacy title and content headings against the existing journal record; preserve the article intent rather than treating the old URL as a destination."
+  },
+  "/contact-us/": {
+    "target": "/en/contact",
+    "action": "propose_permanent_redirect",
+    "confidence": "high",
+    "reason": "Equivalent business/home/contact/journal or itinerary collection purpose in the existing project."
+  },
+  "/cultural-tours/": {
+    "target": "",
+    "action": "resolve_content_gap",
+    "confidence": "unresolved",
+    "reason": "Legacy topic/category content has no dedicated equivalent in the present route inventory. Preserve its search intent with a suitable page or a verified equivalent before launch. Existing client-side filters are not indexable category URLs."
+  },
+  "/danakel-tours/": {
+    "target": "",
+    "action": "resolve_content_gap",
+    "confidence": "unresolved",
+    "reason": "Legacy topic/category content has no dedicated equivalent in the present route inventory. Preserve its search intent with a suitable page or a verified equivalent before launch. Existing client-side filters are not indexable category URLs."
+  },
+  "/danakil-depression-travel-guide/": {
+    "target": "/en/blog/danakil-depression-travel-guide",
+    "action": "propose_permanent_redirect",
+    "confidence": "high",
+    "reason": "Matching article/informational purpose verified from legacy title and content headings against the existing journal record; preserve the article intent rather than treating the old URL as a destination."
+  },
+  "/danakil-depression/": {
+    "target": "/en/destinations/danakil-depression",
+    "action": "propose_permanent_redirect",
+    "confidence": "high",
+    "reason": "Equivalent named place, cultural group or festival identified from the legacy title/visible content headings and existing destination record. Spelling/slug differences are intentionally mapped."
+  },
+  "/dassanech-tribe/": {
+    "target": "/en/destinations/dassanech-people",
+    "action": "propose_permanent_redirect",
+    "confidence": "high",
+    "reason": "Equivalent named place, cultural group or festival identified from the legacy title/visible content headings and existing destination record. Spelling/slug differences are intentionally mapped."
+  },
+  "/day-trip-to-adadi-mariam-tiya-stele/": {
+    "target": "/en/tours/adadi-mariam-and-tiya-day-trip",
+    "action": "propose_permanent_redirect",
+    "confidence": "high",
+    "reason": "Exact tour identifier EDT-01-AM: legacy visible Tour Code heading matches the existing source catalogue comment. Validate itinerary/commercial changes at launch; no redirect rule is applied in Phase 0."
+  },
+  "/day-trip-to-debre-libanos-blue-nile-gorge/": {
+    "target": "/en/tours/debre-libanos-and-blue-nile-gorge-day-trip",
+    "action": "propose_permanent_redirect",
+    "confidence": "high",
+    "reason": "Exact tour identifier EDT-01-DL: legacy visible Tour Code heading matches the existing source catalogue comment. Validate itinerary/commercial changes at launch; no redirect rule is applied in Phase 0."
+  },
+  "/day-trip-to-wenchi-crater-lake-lounge/": {
+    "target": "/en/tours/wenchi-crater-lake-day-trip",
+    "action": "propose_permanent_redirect",
+    "confidence": "high",
+    "reason": "Exact tour identifier EDT-01-WC: legacy visible Tour Code heading matches the existing source catalogue comment. Validate itinerary/commercial changes at launch; no redirect rule is applied in Phase 0."
+  },
+  "/day-trips-excursion/": {
+    "target": "",
+    "action": "resolve_content_gap",
+    "confidence": "unresolved",
+    "reason": "Legacy topic/category content has no dedicated equivalent in the present route inventory. Preserve its search intent with a suitable page or a verified equivalent before launch. Existing client-side filters are not indexable category URLs."
+  },
+  "/dire-dawa/": {
+    "target": "/en/destinations/dire-dawa",
+    "action": "propose_permanent_redirect",
+    "confidence": "high",
+    "reason": "Equivalent named place, cultural group or festival identified from the legacy title/visible content headings and existing destination record. Spelling/slug differences are intentionally mapped."
+  },
+  "/easter-the-holy-week/": {
+    "target": "/en/destinations/fasika",
+    "action": "propose_permanent_redirect",
+    "confidence": "high",
+    "reason": "Equivalent named place, cultural group or festival identified from the legacy title/visible content headings and existing destination record. Spelling/slug differences are intentionally mapped."
+  },
+  "/eastern-ethiopia/": {
+    "target": "",
+    "action": "resolve_content_gap",
+    "confidence": "unresolved",
+    "reason": "Legacy topic/category content has no dedicated equivalent in the present route inventory. Preserve its search intent with a suitable page or a verified equivalent before launch. Existing client-side filters are not indexable category URLs."
+  },
+  "/eid-al-deha/": {
+    "target": "/en/destinations/eid-al-adha",
+    "action": "propose_permanent_redirect",
+    "confidence": "high",
+    "reason": "Equivalent named place, cultural group or festival identified from the legacy title/visible content headings and existing destination record. Spelling/slug differences are intentionally mapped."
+  },
+  "/eid-al-fitr/": {
+    "target": "/en/destinations/eid-al-fitr",
+    "action": "propose_permanent_redirect",
+    "confidence": "high",
+    "reason": "Equivalent named place, cultural group or festival identified from the legacy title/visible content headings and existing destination record. Spelling/slug differences are intentionally mapped."
+  },
+  "/entoto-natural-park/": {
+    "target": "/en/destinations/entoto",
+    "action": "propose_permanent_redirect",
+    "confidence": "high",
+    "reason": "Equivalent named place, cultural group or festival identified from the legacy title/visible content headings and existing destination record. Spelling/slug differences are intentionally mapped."
+  },
+  "/ertale/": {
+    "target": "/en/destinations/erta-ale",
+    "action": "propose_permanent_redirect",
+    "confidence": "high",
+    "reason": "Equivalent named place, cultural group or festival identified from the legacy title/visible content headings and existing destination record. Spelling/slug differences are intentionally mapped."
+  },
+  "/essential-travel-information/": {
+    "target": "/en/blog/essential-travel-information",
+    "action": "propose_permanent_redirect",
+    "confidence": "high",
+    "reason": "Matching article/informational purpose verified from legacy title and content headings against the existing journal record; preserve the article intent rather than treating the old URL as a destination."
+  },
+  "/ethiopia-a-journey-through-the-cradle-of-humanity/": {
+    "target": "/en/blog/ethiopia-a-journey-through-the-cradle-of-humanity",
+    "action": "propose_permanent_redirect",
+    "confidence": "high",
+    "reason": "Matching article/informational purpose verified from legacy title and content headings against the existing journal record; preserve the article intent rather than treating the old URL as a destination."
+  },
+  "/ethiopia-tours/": {
+    "target": "/en",
+    "action": "propose_permanent_redirect",
+    "confidence": "high",
+    "reason": "Observed legacy alias resolves to /. Equivalent business/home/contact/journal or itinerary collection purpose in the existing project."
+  },
+  "/ethiopia-travel-information/": {
+    "target": "/en/blog/what-to-know-before-visiting-ethiopia",
+    "action": "propose_permanent_redirect",
+    "confidence": "high",
+    "reason": "Matching article/informational purpose verified from legacy title and content headings against the existing journal record; preserve the article intent rather than treating the old URL as a destination."
+  },
+  "/ethiopia-travel/": {
+    "target": "/en/blog/about-ethiopia",
+    "action": "propose_permanent_redirect",
+    "confidence": "high",
+    "reason": "Matching article/informational purpose verified from legacy title and content headings against the existing journal record; preserve the article intent rather than treating the old URL as a destination."
+  },
+  "/ethiopia-wildlife/": {
+    "target": "",
+    "action": "resolve_content_gap",
+    "confidence": "unresolved",
+    "reason": "Legacy topic/category content has no dedicated equivalent in the present route inventory. Preserve its search intent with a suitable page or a verified equivalent before launch. Existing client-side filters are not indexable category URLs."
+  },
+  "/ethiopia/": {
+    "target": "/en/blog/ethiopia-a-journey-through-the-cradle-of-humanity",
+    "action": "propose_permanent_redirect",
+    "confidence": "high",
+    "reason": "Observed legacy alias resolves to /ethiopia-a-journey-through-the-cradle-of-humanity/. Matching article/informational purpose verified from legacy title and content headings against the existing journal record; preserve the article intent rather than treating the old URL as a destination."
+  },
+  "/ethiopian-christmas/": {
+    "target": "/en/destinations/genna",
+    "action": "propose_permanent_redirect",
+    "confidence": "high",
+    "reason": "Equivalent named place, cultural group or festival identified from the legacy title/visible content headings and existing destination record. Spelling/slug differences are intentionally mapped."
+  },
+  "/ethiopian-coffee-tours/": {
+    "target": "/en/tours/4-day-ethiopia-coffee",
+    "action": "propose_permanent_redirect",
+    "confidence": "high",
+    "reason": "Exact tour identifier EDT-02-D4: legacy visible Tour Code heading matches the existing source catalogue comment. Validate itinerary/commercial changes at launch; no redirect rule is applied in Phase 0."
+  },
+  "/ethiopian-festival-tours/": {
+    "target": "",
+    "action": "resolve_content_gap",
+    "confidence": "unresolved",
+    "reason": "Legacy topic/category content has no dedicated equivalent in the present route inventory. Preserve its search intent with a suitable page or a verified equivalent before launch. Existing client-side filters are not indexable category URLs."
+  },
+  "/ethiopian-festivals/": {
+    "target": "",
+    "action": "resolve_content_gap",
+    "confidence": "unresolved",
+    "reason": "Legacy topic/category content has no dedicated equivalent in the present route inventory. Preserve its search intent with a suitable page or a verified equivalent before launch. Existing client-side filters are not indexable category URLs."
+  },
+  "/ethiopian-history-and-cultural-tours/": {
+    "target": "/en/tours/14-day-history-and-culture",
+    "action": "propose_permanent_redirect",
+    "confidence": "high",
+    "reason": "Exact tour identifier EDT-03-H14: legacy visible Tour Code heading matches the existing source catalogue comment. Validate itinerary/commercial changes at launch; no redirect rule is applied in Phase 0."
+  },
+  "/ethiopian-itineraries/": {
+    "target": "/en/tours",
+    "action": "propose_permanent_redirect",
+    "confidence": "medium",
+    "reason": "Equivalent business/home/contact/journal or itinerary collection purpose in the existing project."
+  },
+  "/ethiopian-meskel-celebration/": {
+    "target": "/en/blog/ethiopian-meskel-celebration",
+    "action": "propose_permanent_redirect",
+    "confidence": "high",
+    "reason": "Matching article/informational purpose verified from legacy title and content headings against the existing journal record; preserve the article intent rather than treating the old URL as a destination."
+  },
+  "/ethiopian-new-year/": {
+    "target": "/en/destinations/enkutatash",
+    "action": "propose_permanent_redirect",
+    "confidence": "high",
+    "reason": "Equivalent named place, cultural group or festival identified from the legacy title/visible content headings and existing destination record. Spelling/slug differences are intentionally mapped."
+  },
+  "/gambella-national-park-2/": {
+    "target": "/en/destinations/gambella-national-park",
+    "action": "propose_permanent_redirect",
+    "confidence": "high",
+    "reason": "Equivalent named place, cultural group or festival identified from the legacy title/visible content headings and existing destination record. Spelling/slug differences are intentionally mapped."
+  },
+  "/gambella-national-park/": {
+    "target": "/en/destinations/gambella-national-park",
+    "action": "propose_permanent_redirect",
+    "confidence": "high",
+    "reason": "Equivalent named place, cultural group or festival identified from the legacy title/visible content headings and existing destination record. Spelling/slug differences are intentionally mapped."
+  },
+  "/gambella/": {
+    "target": "/en/destinations/gambella-national-park",
+    "action": "propose_permanent_redirect",
+    "confidence": "high",
+    "reason": "Observed legacy alias resolves to /gambella-national-park/. Equivalent named place, cultural group or festival identified from the legacy title/visible content headings and existing destination record. Spelling/slug differences are intentionally mapped."
+  },
+  "/gonder-tours/": {
+    "target": "/en/destinations/gondar",
+    "action": "propose_permanent_redirect",
+    "confidence": "high",
+    "reason": "Equivalent named place, cultural group or festival identified from the legacy title/visible content headings and existing destination record. Spelling/slug differences are intentionally mapped."
+  },
+  "/gonder/": {
+    "target": "/en/destinations/gondar",
+    "action": "propose_permanent_redirect",
+    "confidence": "high",
+    "reason": "Observed legacy alias resolves to /gonder-tours/. Equivalent named place, cultural group or festival identified from the legacy title/visible content headings and existing destination record. Spelling/slug differences are intentionally mapped."
+  },
+  "/great-ethiopian-run/": {
+    "target": "/en/destinations/great-ethiopian-run",
+    "action": "propose_permanent_redirect",
+    "confidence": "high",
+    "reason": "Equivalent named place, cultural group or festival identified from the legacy title/visible content headings and existing destination record. Spelling/slug differences are intentionally mapped."
+  },
+  "/hamer-tribe-ethiopia/": {
+    "target": "/en/destinations/hamar-people",
+    "action": "propose_permanent_redirect",
+    "confidence": "high",
+    "reason": "Equivalent named place, cultural group or festival identified from the legacy title/visible content headings and existing destination record. Spelling/slug differences are intentionally mapped."
+  },
+  "/harrar-ethiopia/": {
+    "target": "/en/destinations/harar",
+    "action": "propose_permanent_redirect",
+    "confidence": "high",
+    "reason": "Equivalent named place, cultural group or festival identified from the legacy title/visible content headings and existing destination record. Spelling/slug differences are intentionally mapped."
+  },
+  "/harrar/": {
+    "target": "/en/destinations/harar",
+    "action": "propose_permanent_redirect",
+    "confidence": "high",
+    "reason": "Observed legacy alias resolves to /harrar-ethiopia/. Equivalent named place, cultural group or festival identified from the legacy title/visible content headings and existing destination record. Spelling/slug differences are intentionally mapped."
+  },
+  "/hidar-tsion/": {
+    "target": "/en/destinations/hidar-tsion",
+    "action": "propose_permanent_redirect",
+    "confidence": "high",
+    "reason": "Equivalent named place, cultural group or festival identified from the legacy title/visible content headings and existing destination record. Spelling/slug differences are intentionally mapped."
+  },
+  "/historic-north/": {
+    "target": "",
+    "action": "resolve_content_gap",
+    "confidence": "unresolved",
+    "reason": "Legacy topic/category content has no dedicated equivalent in the present route inventory. Preserve its search intent with a suitable page or a verified equivalent before launch. Existing client-side filters are not indexable category URLs."
+  },
+  "/historical-tours/": {
+    "target": "",
+    "action": "resolve_content_gap",
+    "confidence": "unresolved",
+    "reason": "Legacy topic/category content has no dedicated equivalent in the present route inventory. Preserve its search intent with a suitable page or a verified equivalent before launch. Existing client-side filters are not indexable category URLs."
+  },
+  "/karo-tribe/": {
+    "target": "/en/destinations/karo-people",
+    "action": "propose_permanent_redirect",
+    "confidence": "high",
+    "reason": "Equivalent named place, cultural group or festival identified from the legacy title/visible content headings and existing destination record. Spelling/slug differences are intentionally mapped."
+  },
+  "/kefta-sheraro-national-park/": {
+    "target": "/en/destinations/kafta-sheraro-national-park",
+    "action": "propose_permanent_redirect",
+    "confidence": "high",
+    "reason": "Equivalent named place, cultural group or festival identified from the legacy title/visible content headings and existing destination record. Spelling/slug differences are intentionally mapped."
+  },
+  "/konso-ethiopia/": {
+    "target": "/en/destinations/konso",
+    "action": "propose_permanent_redirect",
+    "confidence": "high",
+    "reason": "Equivalent named place, cultural group or festival identified from the legacy title/visible content headings and existing destination record. Spelling/slug differences are intentionally mapped."
+  },
+  "/konso/": {
+    "target": "/en/destinations/konso",
+    "action": "propose_permanent_redirect",
+    "confidence": "high",
+    "reason": "Observed legacy alias resolves to /konso-ethiopia/. Equivalent named place, cultural group or festival identified from the legacy title/visible content headings and existing destination record. Spelling/slug differences are intentionally mapped."
+  },
+  "/lalibela-churches-guide-discover-ethiopias-remarkable-rock-hewn-wonders/": {
+    "target": "/en/blog/lalibela-churches-guide",
+    "action": "propose_permanent_redirect",
+    "confidence": "high",
+    "reason": "Matching article/informational purpose verified from legacy title and content headings against the existing journal record; preserve the article intent rather than treating the old URL as a destination."
+  },
+  "/lalibela-named-among-the-worlds-top-5-must-visit-unesco-world-heritage-sites/": {
+    "target": "/en/blog/lalibela-named-among-the-worlds-top-5-unesco-sites",
+    "action": "propose_permanent_redirect",
+    "confidence": "high",
+    "reason": "Matching article/informational purpose verified from legacy title and content headings against the existing journal record; preserve the article intent rather than treating the old URL as a destination."
+  },
+  "/lalibela-tours/": {
+    "target": "/en/destinations/lalibela",
+    "action": "propose_permanent_redirect",
+    "confidence": "high",
+    "reason": "Equivalent named place, cultural group or festival identified from the legacy title/visible content headings and existing destination record. Spelling/slug differences are intentionally mapped."
+  },
+  "/lalibela-trekking-tours/": {
+    "target": "/en/tours/6-day-lalibela-trek-and-churches",
+    "action": "propose_permanent_redirect",
+    "confidence": "high",
+    "reason": "Exact tour identifier EDT-07-LTT: legacy visible Tour Code heading matches the existing source catalogue comment. Validate itinerary/commercial changes at launch; no redirect rule is applied in Phase 0."
+  },
+  "/lalibela/": {
+    "target": "/en/blog/lalibela-churches-guide",
+    "action": "propose_permanent_redirect",
+    "confidence": "high",
+    "reason": "Observed legacy alias resolves to /lalibela-churches-guide-discover-ethiopias-remarkable-rock-hewn-wonders/. Matching article/informational purpose verified from legacy title and content headings against the existing journal record; preserve the article intent rather than treating the old URL as a destination."
+  },
+  "/mago-national-park/": {
+    "target": "/en/destinations/mago-national-park",
+    "action": "propose_permanent_redirect",
+    "confidence": "high",
+    "reason": "Equivalent named place, cultural group or festival identified from the legacy title/visible content headings and existing destination record. Spelling/slug differences are intentionally mapped."
+  },
+  "/menagesha-suba-forest/": {
+    "target": "/en/destinations/menagesha-suba-forest",
+    "action": "propose_permanent_redirect",
+    "confidence": "high",
+    "reason": "Equivalent named place, cultural group or festival identified from the legacy title/visible content headings and existing destination record. Spelling/slug differences are intentionally mapped."
+  },
+  "/meskel-festival/": {
+    "target": "/en/destinations/meskel",
+    "action": "propose_permanent_redirect",
+    "confidence": "high",
+    "reason": "Equivalent named place, cultural group or festival identified from the legacy title/visible content headings and existing destination record. Spelling/slug differences are intentionally mapped."
+  },
+  "/meskel/": {
+    "target": "/en/destinations/meskel",
+    "action": "propose_permanent_redirect",
+    "confidence": "high",
+    "reason": "Observed legacy alias resolves to /meskel-festival/. Equivalent named place, cultural group or festival identified from the legacy title/visible content headings and existing destination record. Spelling/slug differences are intentionally mapped."
+  },
+  "/mursi-tribe-ethiopia/": {
+    "target": "/en/destinations/mursi-people",
+    "action": "propose_permanent_redirect",
+    "confidence": "high",
+    "reason": "Equivalent named place, cultural group or festival identified from the legacy title/visible content headings and existing destination record. Spelling/slug differences are intentionally mapped."
+  },
+  "/mursi/": {
+    "target": "/en/destinations/mursi-people",
+    "action": "propose_permanent_redirect",
+    "confidence": "high",
+    "reason": "Observed legacy alias resolves to /mursi-tribe-ethiopia/. Equivalent named place, cultural group or festival identified from the legacy title/visible content headings and existing destination record. Spelling/slug differences are intentionally mapped."
+  },
+  "/museum-monuments/": {
+    "target": "/en/destinations/museums-and-monuments",
+    "action": "propose_permanent_redirect",
+    "confidence": "high",
+    "reason": "Equivalent named place, cultural group or festival identified from the legacy title/visible content headings and existing destination record. Spelling/slug differences are intentionally mapped."
+  },
+  "/nech-sar-national-park/": {
+    "target": "/en/destinations/nech-sar-national-park",
+    "action": "propose_permanent_redirect",
+    "confidence": "high",
+    "reason": "Equivalent named place, cultural group or festival identified from the legacy title/visible content headings and existing destination record. Spelling/slug differences are intentionally mapped."
+  },
+  "/negash-ethiopia/": {
+    "target": "/en/destinations/negash",
+    "action": "propose_permanent_redirect",
+    "confidence": "high",
+    "reason": "Equivalent named place, cultural group or festival identified from the legacy title/visible content headings and existing destination record. Spelling/slug differences are intentionally mapped."
+  },
+  "/north-with-christmas-festival-tours/": {
+    "target": "/en/tours/8-day-north-with-genna-christmas",
+    "action": "propose_permanent_redirect",
+    "confidence": "high",
+    "reason": "Exact tour identifier EDT-03-NC: legacy visible Tour Code heading matches the existing source catalogue comment. Validate itinerary/commercial changes at launch; no redirect rule is applied in Phase 0."
+  },
+  "/nyangatom-tribe-ethiopia/": {
+    "target": "/en/destinations/nyangatom-people",
+    "action": "propose_permanent_redirect",
+    "confidence": "high",
+    "reason": "Equivalent named place, cultural group or festival identified from the legacy title/visible content headings and existing destination record. Spelling/slug differences are intentionally mapped."
+  },
+  "/nyangatom-tribe/": {
+    "target": "/en/destinations/nyangatom-people",
+    "action": "propose_permanent_redirect",
+    "confidence": "high",
+    "reason": "Observed legacy alias resolves to /nyangatom-tribe-ethiopia/. Equivalent named place, cultural group or festival identified from the legacy title/visible content headings and existing destination record. Spelling/slug differences are intentionally mapped."
+  },
+  "/omo-national-park/": {
+    "target": "/en/destinations/omo-national-park",
+    "action": "propose_permanent_redirect",
+    "confidence": "high",
+    "reason": "Equivalent named place, cultural group or festival identified from the legacy title/visible content headings and existing destination record. Spelling/slug differences are intentionally mapped."
+  },
+  "/omo-valley-cultural-tours/": {
+    "target": "/en/tours/6-day-omo-valley-tribal-and-cultural",
+    "action": "propose_permanent_redirect",
+    "confidence": "high",
+    "reason": "Exact tour identifier EDT-05-OC: legacy visible Tour Code heading matches the existing source catalogue comment. Validate itinerary/commercial changes at launch; no redirect rule is applied in Phase 0."
+  },
+  "/omo-valley-tours/": {
+    "target": "/en/destinations/omo-valley",
+    "action": "propose_permanent_redirect",
+    "confidence": "high",
+    "reason": "Equivalent named place, cultural group or festival identified from the legacy title/visible content headings and existing destination record. Spelling/slug differences are intentionally mapped."
+  },
+  "/omo-valley-tribes/": {
+    "target": "/en/blog/omo-valley-tribes-explained",
+    "action": "propose_permanent_redirect",
+    "confidence": "high",
+    "reason": "Matching article/informational purpose verified from legacy title and content headings against the existing journal record; preserve the article intent rather than treating the old URL as a destination."
+  },
+  "/omo-valley/": {
+    "target": "/en/tours/6-day-omo-valley-tribal-and-cultural",
+    "action": "propose_permanent_redirect",
+    "confidence": "high",
+    "reason": "Observed legacy alias resolves to /omo-valley-cultural-tours/. Exact tour identifier EDT-05-OC: legacy visible Tour Code heading matches the existing source catalogue comment. Validate itinerary/commercial changes at launch; no redirect rule is applied in Phase 0."
+  },
+  "/privacy-policy/": {
+    "target": "",
+    "action": "retain_or_recreate_legal_page",
+    "confidence": "unresolved",
+    "reason": "A real legacy legal page exists, but the new frontend has no equivalent route. Preserve/create the appropriate page in Phase 4 before selecting a redirect; the contact page is not a replacement."
+  },
+  "/rock-hewn-churches-of-tigray/": {
+    "target": "/en/destinations/gheralta-tigray-churches",
+    "action": "propose_permanent_redirect",
+    "confidence": "high",
+    "reason": "Equivalent named place, cultural group or festival identified from the legacy title/visible content headings and existing destination record. Spelling/slug differences are intentionally mapped."
+  },
+  "/safari-tours-in-ethiopia/": {
+    "target": "",
+    "action": "resolve_content_gap",
+    "confidence": "unresolved",
+    "reason": "Legacy topic/category content has no dedicated equivalent in the present route inventory. Preserve its search intent with a suitable page or a verified equivalent before launch. Existing client-side filters are not indexable category URLs."
+  },
+  "/safari-tours/": {
+    "target": "",
+    "action": "resolve_content_gap",
+    "confidence": "unresolved",
+    "reason": "Legacy topic/category content has no dedicated equivalent in the present route inventory. Preserve its search intent with a suitable page or a verified equivalent before launch. Existing client-side filters are not indexable category URLs."
+  },
+  "/simien-mountains-national-park-tours/": {
+    "target": "/en/tours/5-day-simien-mountains-trek",
+    "action": "propose_permanent_redirect",
+    "confidence": "high",
+    "reason": "Exact tour identifier EDT-07-SNT: legacy visible Tour Code heading matches the existing source catalogue comment. Validate itinerary/commercial changes at launch; no redirect rule is applied in Phase 0."
+  },
+  "/simien-mountains-national-park/": {
+    "target": "/en/destinations/simien-mountains",
+    "action": "propose_permanent_redirect",
+    "confidence": "high",
+    "reason": "Equivalent named place, cultural group or festival identified from the legacy title/visible content headings and existing destination record. Spelling/slug differences are intentionally mapped."
+  },
+  "/simien-mountains-trekking-guide-2026-ethiopias-roof-of-africa-adventure/": {
+    "target": "/en/blog/simien-mountains-trekking-guide",
+    "action": "propose_permanent_redirect",
+    "confidence": "high",
+    "reason": "Matching article/informational purpose verified from legacy title and content headings against the existing journal record; preserve the article intent rather than treating the old URL as a destination."
+  },
+  "/sof-omar-lake-ethiopia/": {
+    "target": "/en/destinations/sof-omar-cave",
+    "action": "propose_permanent_redirect",
+    "confidence": "medium",
+    "reason": "Legacy URL/title says lake but its description discusses caves. Candidate is the Sof Omar cave record; verify this naming discrepancy before applying a redirect."
+  },
+  "/sof-omar-lake/": {
+    "target": "/en/destinations/sof-omar-cave",
+    "action": "propose_permanent_redirect",
+    "confidence": "medium",
+    "reason": "Observed legacy alias resolves to /sof-omar-lake-ethiopia/. Legacy URL/title says lake but its description discusses caves. Candidate is the Sof Omar cave record; verify this naming discrepancy before applying a redirect."
+  },
+  "/southern-ethiopia-tours/": {
+    "target": "",
+    "action": "resolve_content_gap",
+    "confidence": "unresolved",
+    "reason": "Legacy topic/category content has no dedicated equivalent in the present route inventory. Preserve its search intent with a suitable page or a verified equivalent before launch. Existing client-side filters are not indexable category URLs."
+  },
+  "/southern-ethiopia/": {
+    "target": "",
+    "action": "resolve_content_gap",
+    "confidence": "unresolved",
+    "reason": "Legacy topic/category content has no dedicated equivalent in the present route inventory. Preserve its search intent with a suitable page or a verified equivalent before launch. Existing client-side filters are not indexable category URLs."
+  },
+  "/surma-tribe-ethiopia/": {
+    "target": "/en/destinations/surma-people",
+    "action": "propose_permanent_redirect",
+    "confidence": "high",
+    "reason": "Equivalent named place, cultural group or festival identified from the legacy title/visible content headings and existing destination record. Spelling/slug differences are intentionally mapped."
+  },
+  "/surma-tribe/": {
+    "target": "/en/destinations/surma-people",
+    "action": "propose_permanent_redirect",
+    "confidence": "high",
+    "reason": "Observed legacy alias resolves to /surma-tribe-ethiopia/. Equivalent named place, cultural group or festival identified from the legacy title/visible content headings and existing destination record. Spelling/slug differences are intentionally mapped."
+  },
+  "/terms-and-conditions/": {
+    "target": "",
+    "action": "retain_or_recreate_legal_page",
+    "confidence": "unresolved",
+    "reason": "A real legacy legal page exists, but the new frontend has no equivalent route. Preserve/create the appropriate page in Phase 4 before selecting a redirect; the contact page is not a replacement."
+  },
+  "/tigray-churches-tours/": {
+    "target": "/en/tours/5-day-tigray-rock-hewn-churches",
+    "action": "propose_permanent_redirect",
+    "confidence": "high",
+    "reason": "Exact tour identifier EDT-03-H5: legacy visible Tour Code heading matches the existing source catalogue comment. Validate itinerary/commercial changes at launch; no redirect rule is applied in Phase 0."
+  },
+  "/timket-festival-tours/": {
+    "target": "/en/tours/5-day-timkat-festival-lalibela",
+    "action": "propose_permanent_redirect",
+    "confidence": "high",
+    "reason": "Exact tour identifier EDT-03-TF: legacy visible Tour Code heading matches the existing source catalogue comment. Validate itinerary/commercial changes at launch; no redirect rule is applied in Phase 0."
+  },
+  "/timket-festival/": {
+    "target": "/en/destinations/timkat",
+    "action": "propose_permanent_redirect",
+    "confidence": "high",
+    "reason": "Equivalent named place, cultural group or festival identified from the legacy title/visible content headings and existing destination record. Spelling/slug differences are intentionally mapped."
+  },
+  "/timket/": {
+    "target": "/en/destinations/timkat",
+    "action": "propose_permanent_redirect",
+    "confidence": "high",
+    "reason": "Observed legacy alias resolves to /timket-festival/. Equivalent named place, cultural group or festival identified from the legacy title/visible content headings and existing destination record. Spelling/slug differences are intentionally mapped."
+  },
+  "/travel-in-ethiopia/": {
+    "target": "/en/blog/travel-in-ethiopia",
+    "action": "propose_permanent_redirect",
+    "confidence": "high",
+    "reason": "Matching article/informational purpose verified from legacy title and content headings against the existing journal record; preserve the article intent rather than treating the old URL as a destination."
+  },
+  "/trekking-hiking-tours/": {
+    "target": "",
+    "action": "resolve_content_gap",
+    "confidence": "unresolved",
+    "reason": "Legacy topic/category content has no dedicated equivalent in the present route inventory. Preserve its search intent with a suitable page or a verified equivalent before launch. Existing client-side filters are not indexable category URLs."
+  },
+  "/tsemay-tribe-ethiopia/": {
+    "target": "/en/destinations/tsemay-people",
+    "action": "propose_permanent_redirect",
+    "confidence": "high",
+    "reason": "Equivalent named place, cultural group or festival identified from the legacy title/visible content headings and existing destination record. Spelling/slug differences are intentionally mapped."
+  },
+  "/tsemay-tribe/": {
+    "target": "/en/destinations/tsemay-people",
+    "action": "propose_permanent_redirect",
+    "confidence": "high",
+    "reason": "Observed legacy alias resolves to /tsemay-tribe-ethiopia/. Equivalent named place, cultural group or festival identified from the legacy title/visible content headings and existing destination record. Spelling/slug differences are intentionally mapped."
+  },
+  "/unity-park/": {
+    "target": "/en/destinations/unity-park",
+    "action": "propose_permanent_redirect",
+    "confidence": "high",
+    "reason": "Equivalent named place, cultural group or festival identified from the legacy title/visible content headings and existing destination record. Spelling/slug differences are intentionally mapped."
+  },
+  "/valley-tours/": {
+    "target": "/en/tours/5-day-omo-valley-by-flight",
+    "action": "propose_permanent_redirect",
+    "confidence": "high",
+    "reason": "Exact tour identifier EDT-05-OF: legacy visible Tour Code heading matches the existing source catalogue comment. Validate itinerary/commercial changes at launch; no redirect rule is applied in Phase 0."
+  },
+  "/yeha-ethiopia/": {
+    "target": "/en/destinations/yeha",
+    "action": "propose_permanent_redirect",
+    "confidence": "high",
+    "reason": "Equivalent named place, cultural group or festival identified from the legacy title/visible content headings and existing destination record. Spelling/slug differences are intentionally mapped."
+  },
+  "/yeha/": {
+    "target": "/en/destinations/yeha",
+    "action": "propose_permanent_redirect",
+    "confidence": "high",
+    "reason": "Observed legacy alias resolves to /yeha-ethiopia/. Equivalent named place, cultural group or festival identified from the legacy title/visible content headings and existing destination record. Spelling/slug differences are intentionally mapped."
+  },
+  "/yimerhanna-kirstos-ethiopia/": {
+    "target": "/en/destinations/yemrehanna-kristos",
+    "action": "propose_permanent_redirect",
+    "confidence": "high",
+    "reason": "Equivalent named place, cultural group or festival identified from the legacy title/visible content headings and existing destination record. Spelling/slug differences are intentionally mapped."
+  },
+  "/yimerhanna-kirstos/": {
+    "target": "/en/destinations/yemrehanna-kristos",
+    "action": "propose_permanent_redirect",
+    "confidence": "high",
+    "reason": "Observed legacy alias resolves to /yimerhanna-kirstos-ethiopia/. Equivalent named place, cultural group or festival identified from the legacy title/visible content headings and existing destination record. Spelling/slug differences are intentionally mapped."
+  }
+}

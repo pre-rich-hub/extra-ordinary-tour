@@ -8,7 +8,7 @@ import {
 import { notFound } from 'next/navigation'
 import { documentClass, viewport } from '@/config/fonts'
 import { routing, isLocale } from '@/i18n/routing'
-import { buildPageMetadata } from '@/i18n/metadata'
+import { siteOrigin } from '@/lib/seo/urls'
 import { SiteNav } from '@/components/layout/site-nav'
 import { SiteFooter } from '@/components/layout/site-footer'
 import { FloatingSupport } from '@/components/layout/floating-support'
@@ -27,17 +27,16 @@ export async function generateMetadata({
   const { locale } = await params
   if (!isLocale(locale)) notFound()
   const t = await getTranslations({ locale, namespace: 'Common' })
-  return buildPageMetadata(
-    {
-      title: {
-        default: t('siteTitle'),
-        template: '%s · Extraordinary Ethiopia Tours',
-      },
-      description: t('siteDescription'),
+  // Route pages own canonicals, language alternatives and indexing policy.
+  // A missing route must not inherit the homepage's canonical or index rule.
+  return {
+    metadataBase: new URL(siteOrigin),
+    title: {
+      default: t('siteTitle'),
+      template: '%s · Extraordinary Ethiopia Tours',
     },
-    '/',
-    locale,
-  )
+    description: t('siteDescription'),
+  }
 }
 export default async function LocaleLayout({
   children,

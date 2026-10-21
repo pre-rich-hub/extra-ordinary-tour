@@ -14,42 +14,42 @@ const FADE_MS = 1800
 // Each slide drifts along its own path so the sequence feels like camera moves.
 const slides = [
   {
-    src: '/images/lalibela-giyorgis.jpg',
+    src: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/lalibela-giyorgis.jpg',
     alt: 'Bet Giyorgis (Church of St. George) in Lalibela, Ethiopia, a historic monolithic rock-hewn church',
     place: 'Bet Giyorgis, Lalibela',
     from: 'scale(1.12)',
     to: 'scale(1)',
   },
   {
-    src: '/images/simien-landscape.jpg',
+    src: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/simien-landscape.jpg',
     alt: 'Jagged peaks rising through the clouds in the Simien Mountains',
     place: 'Simien Mountains',
     from: 'scale(1.04) translate3d(-2%, 1%, 0)',
     to: 'scale(1.14) translate3d(1.5%, -1%, 0)',
   },
   {
-    src: '/images/lalibela-landscape.jpg',
+    src: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/lalibela-landscape.jpg',
     alt: 'Green terraced valleys and mountains in the Lalibela highlands',
     place: 'Lalibela highlands',
     from: 'scale(1.14) translate3d(2%, 0, 0)',
     to: 'scale(1.03) translate3d(-1.5%, 0, 0)',
   },
   {
-    src: '/images/lake-tana.jpg',
+    src: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/lake-tana.jpg',
     alt: 'Fishermen paddling papyrus boats on Lake Tana',
     place: 'Lake Tana',
     from: 'scale(1.03) translate3d(1.5%, 0, 0)',
     to: 'scale(1.12) translate3d(-2%, -1%, 0)',
   },
   {
-    src: '/images/blue-nile-falls.jpg',
+    src: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/blue-nile-falls.jpg',
     alt: 'The Blue Nile Falls pouring into a rocky gorge',
     place: 'Blue Nile Falls',
     from: 'scale(1.14) translate3d(0, -1.5%, 0)',
     to: 'scale(1.02) translate3d(0, 1%, 0)',
   },
   {
-    src: '/images/abune-yosef.jpg',
+    src: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/abune-yosef.jpg',
     alt: 'Mountain ridges fading into golden light at sunset',
     place: 'Abune Yosef',
     from: 'scale(1.03) translate3d(-1%, 1%, 0)',

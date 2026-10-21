@@ -85,7 +85,7 @@ for (const path of [
   const response = await fetch(`${base}${path}`)
   const html = await response.text()
   assert.ok(
-    response.status === 404 || html.includes('noindex'),
+    response.status === 404 && html.includes('noindex'),
     `${path}: 404/noindex`,
   )
 }
@@ -99,7 +99,7 @@ assert.ok(
 )
 assert.ok(
   (await (await fetch(`${base}/robots.txt`)).text()).includes(
-    'Disallow: /admin',
+    'Disallow: /api/',
   ),
 )
 assert.equal((await fetch(`${base}/login`)).status, 200)

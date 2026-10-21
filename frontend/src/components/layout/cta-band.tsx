@@ -19,7 +19,7 @@ export function CtaBand({
   text,
   primary = { label: 'Plan Your Journey', href: '/contact' },
   secondary,
-  image = '/images/lalibela-landscape.jpg',
+  image = 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/lalibela-landscape.jpg',
 }: CtaBandProps) {
   const copy = useCopy()
 

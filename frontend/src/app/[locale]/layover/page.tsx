@@ -59,7 +59,7 @@ export default async function LayoverPage({
         lede={copy(
           'Ethiopian Airlines connects half of Africa through Bole. If your connection is long enough for coffee, it is long enough for a private city loop: met at the gate, back at check-in with time to spare.',
         )}
-        image="/images/addis-skyline.jpg"
+        image="https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/addis-skyline.jpg"
         imageAlt={copy(
           'The Addis Ababa skyline at dusk seen from the Entoto hills',
         )}
@@ -91,7 +91,7 @@ export default async function LayoverPage({
         )}
         primary={{ label: copy('Plan a Stopover'), href: '/contact' }}
         secondary={{ label: copy('See Tours'), href: '/tours' }}
-        image="/images/lalibela-medhane-alem.jpg"
+        image="https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/lalibela-medhane-alem.jpg"
       />
     </>
   )

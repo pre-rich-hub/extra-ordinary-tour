@@ -50,7 +50,7 @@ export default async function DestinationsPage({
         lede={copy(
           'Rock-hewn churches and royal castles, Afro-alpine plateaus, a lava lake below sea level, the peoples of the Omo Valley and festivals found nowhere else.',
         )}
-        image="/images/gondar-fasil.jpg"
+        image="https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/gondar-fasil.jpg"
         imageAlt={copy(
           'The castle of Fasilides in the royal enclosure of Gondar',
         )}
@@ -74,7 +74,7 @@ export default async function DestinationsPage({
           'Send us a sentence about the trip you have in mind (the season, the pace, what draws you to Ethiopia) and our team will come back with two or three routes worth considering.',
         )}
         secondary={{ label: copy('Browse Tours'), href: '/tours' }}
-        image="/images/simien-gelada.jpg"
+        image="https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/simien-gelada.jpg"
       />
     </>
   )

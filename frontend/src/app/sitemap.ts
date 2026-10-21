@@ -1,11 +1,13 @@
 import type { MetadataRoute } from 'next'
 import { routing } from '@/i18n/routing'
 import { isPublished } from '@/i18n/publication'
-import { languageAlternates, localePath, siteOrigin } from '@/i18n/metadata'
+import { languageAlternates, localePath, siteOrigin } from '@/lib/seo/metadata'
+import { isProductionDeployment } from '@/lib/seo/environment.mjs'
 import { tours } from '@/features/tours/data/tours'
 import { destinations } from '@/features/destinations/data/destinations'
 import { posts } from '@/features/blog/data/posts'
 export default function sitemap(): MetadataRoute.Sitemap {
+  if (!isProductionDeployment()) return []
   const paths = [
     '/',
     '/about',
