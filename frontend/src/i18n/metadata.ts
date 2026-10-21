@@ -4,4 +4,5 @@ export {
   languageAlternates,
   localePath,
   siteOrigin,
+  socialImage,
 } from '@/lib/seo/metadata'

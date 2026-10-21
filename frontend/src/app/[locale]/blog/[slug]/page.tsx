@@ -1,7 +1,7 @@
 import { getCopy } from '@/i18n/copy-server'
 import { setRequestLocale } from 'next-intl/server'
 import { isLocale } from '@/i18n/routing'
-import { buildPageMetadata } from '@/i18n/metadata'
+import { buildPageMetadata, socialImage } from '@/i18n/metadata'
 import type { Metadata } from 'next'
 import { notFound } from 'next/navigation'
 import { posts } from '@/features/blog/data/posts'
@@ -32,10 +32,12 @@ export async function generateMetadata({
       description: p.excerpt,
       authors: [{ name: p.author }],
       openGraph: {
-        title: p.title,
-        description: p.excerpt,
         type: 'article',
-        images: [p.image],
+        publishedTime: p.datePublished,
+        ...(p.dateModified ? { modifiedTime: p.dateModified } : {}),
+        authors: [p.author],
+        section: p.category,
+        images: [socialImage(p.image, p.title)],
       },
     },
     `/blog/${slug}`,

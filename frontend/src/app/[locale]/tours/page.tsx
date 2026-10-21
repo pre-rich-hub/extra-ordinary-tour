@@ -23,7 +23,7 @@ export async function generateMetadata({
   const copy = await getCopy()
   return buildPageMetadata(
     {
-      title: copy('Tours & Journeys'),
+      title: copy('Ethiopia Tour Packages & Private Journeys'),
       description: copy(
         'Ethiopia tour packages from Extraordinary Ethiopia Tours: historical and heritage tours, the Omo Valley, Danakil Depression, Simien and Bale trekking, wildlife safaris, birding, coffee, festivals and Addis Ababa day trips.',
       ),

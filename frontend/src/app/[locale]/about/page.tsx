@@ -25,10 +25,9 @@ export async function generateMetadata({
   const copy = await getCopy()
   return buildPageMetadata(
     {
-      title: copy('About Us'),
+      title: copy('About Us: A Local Ethiopia Tour Operator from Lalibela'),
       description: copy(
-        '{v0} Extraordinary Ethiopia Tours is a locally based Ethiopia tour operator founded in Lalibela, offering private and group tours across the historic north, the Omo Valley, the Danakil, the Simien and Bale Mountains and beyond.',
-        { v0: slogan },
+        'Extraordinary Ethiopia Tours is a locally based Ethiopia tour operator founded in Lalibela, offering private and group tours across the historic north, the Omo Valley, the Danakil, the Simien and Bale Mountains and beyond.',
       ),
     },
     '/about',

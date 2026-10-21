@@ -21,7 +21,7 @@ export async function generateMetadata({
   const copy = await getCopy()
   return buildPageMetadata(
     {
-      title: copy('Destinations'),
+      title: copy('Ethiopia Destinations: Lalibela, Simien, Danakil & Omo Valley'),
       description: copy(
         'Ethiopia destinations: Lalibela, Gondar, Axum, the Simien and Bale Mountains, the Danakil Depression, Harar, the Omo Valley and its peoples, Addis Ababa and the country’s great festivals.',
       ),

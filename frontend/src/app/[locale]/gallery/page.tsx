@@ -25,7 +25,7 @@ export async function generateMetadata({
   const copy = await getCopy()
   return buildPageMetadata(
     {
-      title: copy('Gallery'),
+      title: copy('Ethiopia Photo Gallery'),
       description: copy(
         'Rock-hewn churches, highland wildlife, salt flats, festivals and the peoples of the Omo Valley: a gallery of Ethiopia from the routes we travel.',
       ),

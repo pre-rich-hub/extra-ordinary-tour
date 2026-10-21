@@ -1,6 +1,6 @@
 # SEO implementation plan
 
-Prepared: 2026-10-21. Status: **Phases 0–1 complete; Phase 2 is next**.
+Prepared: 2026-10-21. Status: **Phases 0–2 complete; Phase 3 is next**.
 
 Implement one phase at a time. For each phase, record changed files, checks, results and any dependency before moving to the next phase. This document does not authorize deployment or changes to external accounts.
 
@@ -85,16 +85,18 @@ Phase 1 result: [technical foundation report](docs/seo/technical-foundation.md).
 
 Tasks:
 
-- [ ] Add purpose-written SEO titles and descriptions to feature-owned SEO data, with complete English/Spanish/French coverage.
-- [ ] Give the homepage a clear brand-and-service title and description rather than relying only on layout defaults.
-- [ ] Make list pages, tours, destinations and articles distinct; include duration/location/theme only where supported by their content.
-- [ ] Keep visible headings and search intent consistent with metadata. Use length recommendations as editorial guidance, not a guaranteed Google display limit or a reason to truncate words blindly.
-- [ ] Apply the title template once and support an absolute homepage title.
-- [ ] Complete Open Graph and Twitter card defaults/overrides: localized title and description, canonical URL, absolute image URL, dimensions where known, and useful image alt text.
-- [ ] Define a default branded share image using existing assets; use entity-specific images for appropriate detail pages. No AI image generation or Cloudinary upload is required.
-- [ ] Add canonical ISO article publication dates from genuine source dates; add modification dates only when an actual editorial change is known. Do not use build time as a content update date.
+- [x] Add purpose-written SEO titles and descriptions to feature-owned SEO data, with complete English/Spanish/French coverage.
+- [x] Give the homepage a clear brand-and-service title and description rather than relying only on layout defaults.
+- [x] Make list pages, tours, destinations and articles distinct; include duration/location/theme only where supported by their content.
+- [x] Keep visible headings and search intent consistent with metadata. Use length recommendations as editorial guidance, not a guaranteed Google display limit or a reason to truncate words blindly.
+- [x] Apply the title template once and support an absolute homepage title.
+- [x] Complete Open Graph and Twitter card defaults/overrides: localized title and description, canonical URL, absolute image URL, dimensions where known, and useful image alt text.
+- [x] Define a default branded share image using existing assets; use entity-specific images for appropriate detail pages. No AI image generation or Cloudinary upload is required.
+- [x] Add canonical ISO article publication dates from genuine source dates; add modification dates only when an actual editorial change is known. Do not use build time as a content update date.
 
 Done when: every public URL has appropriate localized metadata, one intended canonical, complete language alternatives and a resolvable social image. Missing/duplicate metadata is reported by the audit, with intentional exceptions documented.
+
+Phase 2 result: `corepack pnpm seo:metadata` (production server on port 3104) audited all 399 sitemap URLs: one title/description per page, no duplicate titles or descriptions within a locale, a single self-canonical, en/es/fr/x-default alternates, complete Open Graph/Twitter tags, `article:published_time` on articles, and resolvable 1200×630 social images. No intentional exceptions were needed. `seo:technical`, `typecheck` and `i18n:audit` pass. Detail images use a Cloudinary `c_fill,g_auto,w_1200,h_630` JPEG crop (`socialImage` in `src/lib/seo/metadata.ts`); other pages share `public/images/og-default.jpg`. Article dates are the posts' own publication dates; no modification dates are set because no editorial changes are recorded. Tour titles already carry duration and place; destination titles use “{name}, Ethiopia: Travel Guide”.
 
 ### Phase 3 — Structured data and business identity
 
@@ -211,7 +213,8 @@ Create helper files as their phases need them. Do not create a second route inve
 | Plan  | Complete    | Existing code inspected; current primary documentation consulted                   |
 | 0     | Complete    | 399 project URLs and 167 legacy URLs inventoried; map and validation complete      |
 | 1     | Complete    | Technical helpers, true 404s, canonical redirects, production/preview verification |
-| 2–6   | Not started | Remaining metadata, schema, content, performance and release verification          |
+| 2     | Complete    | Localized titles/descriptions, OG/Twitter, article dates; 399-URL metadata audit   |
+| 3–6   | Not started | Schema, content, performance and release verification                              |
 | 7     | Not started | Complete legacy inventory; hosting/domain/account access                           |
 | 8     | Not started | Production search data after launch                                                |
 

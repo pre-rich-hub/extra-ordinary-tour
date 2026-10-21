@@ -25,7 +25,7 @@ export async function generateMetadata({
   const copy = await getCopy()
   return buildPageMetadata(
     {
-      title: copy('The Journal'),
+      title: copy('Ethiopia Travel Guides & Stories'),
       description: copy(
         'Ethiopia travel guides, destination articles and festival notes from Extraordinary Ethiopia Tours: when to go, what to pack and what to expect.',
       ),

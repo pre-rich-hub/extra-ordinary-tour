@@ -1,7 +1,7 @@
 import { getCopy } from '@/i18n/copy-server'
 import { setRequestLocale } from 'next-intl/server'
 import { isLocale } from '@/i18n/routing'
-import { buildPageMetadata } from '@/i18n/metadata'
+import { buildPageMetadata, socialImage } from '@/i18n/metadata'
 import type { Metadata } from 'next'
 import { notFound } from 'next/navigation'
 import { tours } from '@/features/tours/data/tours'
@@ -35,7 +35,7 @@ export async function generateMetadata({
     {
       title: t.title,
       description: t.summary,
-      openGraph: { title: t.title, description: t.summary, images: [t.image] },
+      openGraph: { images: [socialImage(t.image, t.title)] },
     },
     `/tours/${slug}`,
     locale,

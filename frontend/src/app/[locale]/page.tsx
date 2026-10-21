@@ -53,7 +53,22 @@ export async function generateMetadata({
 }) {
   const { locale } = await params
   if (!isLocale(locale)) notFound()
-  return buildPageMetadata({}, '/', locale)
+  const copy = await getCopy()
+  return buildPageMetadata(
+    {
+      title: {
+        absolute: copy(
+          'Extraordinary Ethiopia Tours — Private Tours & Journeys Across Ethiopia',
+        ),
+      },
+      description: copy(
+        'Private and small-group tours of Ethiopia: the historic north, Omo Valley, Danakil Depression, Simien trekking, festivals and Addis Ababa layovers. Locally run from Lalibela since 2005.',
+      ),
+      openGraph: { type: 'website' },
+    },
+    '/',
+    locale,
+  )
 }
 
 export const revalidate = 3600

@@ -22,9 +22,10 @@ export async function generateMetadata({
   const copy = await getCopy()
   return buildPageMetadata(
     {
-      title: copy('Contact Us'),
-      description:
+      title: copy('Contact Us: Plan Your Ethiopia Tour'),
+      description: copy(
         'Contact Extraordinary Ethiopia Tours in Lalibela to plan your private or group tour of Ethiopia. Call or WhatsApp +251 912 039405 or email info@extraordinaryethiopiatours.com. We are available 24/7.',
+      ),
     },
     '/contact',
     locale,

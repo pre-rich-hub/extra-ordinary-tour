@@ -1,7 +1,7 @@
 import { getCopy } from '@/i18n/copy-server'
 import { setRequestLocale } from 'next-intl/server'
 import { isLocale } from '@/i18n/routing'
-import { buildPageMetadata } from '@/i18n/metadata'
+import { buildPageMetadata, socialImage } from '@/i18n/metadata'
 import type { Metadata } from 'next'
 import { notFound } from 'next/navigation'
 import { destinations } from '@/features/destinations/data/destinations'
@@ -31,11 +31,12 @@ export async function generateMetadata({
   setRequestLocale(locale)
   const d = getDestination(slug, locale)
   if (!d) notFound()
+  const copy = await getCopy()
   return buildPageMetadata(
     {
-      title: d.name,
+      title: copy('{name}, Ethiopia: Travel Guide', { name: d.name }),
       description: d.intro,
-      openGraph: { title: d.name, description: d.intro, images: [d.image] },
+      openGraph: { images: [socialImage(d.image, d.name)] },
     },
     `/destinations/${slug}`,
     locale,
