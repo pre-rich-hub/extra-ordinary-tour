@@ -1,6 +1,6 @@
 # SEO implementation plan
 
-Prepared: 2026-10-21. Status: **Phases 0–3 complete; Phase 4 is next**.
+Prepared: 2026-10-21. Status: **Phases 0–4 complete; Phase 5 is next**.
 
 Implement one phase at a time. For each phase, record changed files, checks, results and any dependency before moving to the next phase. This document does not authorize deployment or changes to external accounts.
 
@@ -132,16 +132,33 @@ Deliberately omitted: coordinates, postal code, founding date, legal identifiers
 
 Tasks:
 
-- [ ] Audit one clear main heading per page and a sensible heading hierarchy for the existing design.
-- [ ] Check that introductions answer the page's intended question and that tour itineraries/inclusions and destination guidance are visible and useful.
-- [ ] Replace broad name-substring matching for related tours with verified slug/ID relationships where it produces irrelevant recommendations.
-- [ ] Connect destination pages to relevant tours and articles, and articles back to useful destination/tour pages. Use descriptive localized anchor text.
-- [ ] Identify orphan pages and ensure all published catalogue pages are reachable through normal navigation, not only through the sitemap or filters.
-- [ ] Check visible author information and practical business/contact details against actual sources.
-- [ ] Correct placeholder social links and mislabeled footer destinations. Use genuine privacy/terms pages only when suitable business content exists; do not generate legal claims or label the contact page as a legal policy.
-- [ ] Keep catalog offerings and translations intact unless a specific change is needed for clarity or accuracy. Do not repeat the entire translation project or require the waived human review.
+- [x] Audit one clear main heading per page and a sensible heading hierarchy for the existing design.
+- [x] Check that introductions answer the page's intended question and that tour itineraries/inclusions and destination guidance are visible and useful.
+- [x] Replace broad name-substring matching for related tours with verified slug/ID relationships where it produces irrelevant recommendations.
+- [x] Connect destination pages to relevant tours and articles, and articles back to useful destination/tour pages. Use descriptive localized anchor text.
+- [x] Identify orphan pages and ensure all published catalogue pages are reachable through normal navigation, not only through the sitemap or filters.
+- [x] Check visible author information and practical business/contact details against actual sources.
+- [x] Correct placeholder social links and mislabeled footer destinations. Use genuine privacy/terms pages only when suitable business content exists; do not generate legal claims or label the contact page as a legal policy.
+- [x] Keep catalog offerings and translations intact unless a specific change is needed for clarity or accuracy. Do not repeat the entire translation project or require the waived human review.
 
 Done when: important pages have relevant contextual incoming links, no broken/misleading key navigation remains, headings fit the content, and all identity claims are grounded in real facts. Pending client-supplied legal/business fields are recorded rather than fabricated.
+
+Phase 4 result (English crawl of the production build, in-content links only):
+
+| Check                                     | Before            | After                       |
+| ----------------------------------------- | ----------------- | --------------------------- |
+| Pages with one H1 / heading-level skips   | 133 / 1 (`/blog`) | 135 / 0                     |
+| Tours with only the list-page link        | 12                | 0 (median incoming 3 → 5.5) |
+| Destinations with only the list-page link | 56                | 0 (median incoming 1 → 8)   |
+| Articles, median incoming links           | 2                 | 5                           |
+
+- Relationships are explicit: `features/destinations/data/relations.ts` maps destinations to the itinerary place names that visit them (every alias appears in that destination's own guide text), and `features/blog/data/relations.ts` lists the destinations each article is substantially about. First-word name matching and the "first three tours" fallbacks are gone; a destination no tour visits shows no tour section instead of unrelated tours.
+- Tour place chips link to destination guides; destinations list the tours that visit them, articles about them and other destinations in their region; articles link to the destinations they cover and tours visiting the main one; related tours and articles rank by shared destinations.
+- Every tour and destination has itinerary/inclusions or guide paragraphs, highlights and best-time guidance in all three languages; no content was rewritten.
+- Footer: removed the `#` TikTok and X links; Privacy Policy and Terms & Conditions now open `/privacy-policy` and `/terms-and-conditions`, carrying the client's published English text verbatim (`features/legal/data`). Spanish/French versions show a translated notice, canonicalize to the English page and carry no hreflang; only the English URLs are in the sitemap (401 URLs).
+- Identity claims were checked against [business facts](docs/seo/business-facts.md): contact details, founder and authors come from the shared config and article data; the payment marks are client-confirmed.
+
+Pending client items: confirm Instagram and YouTube ownership; supply TikTok/X profiles if they exist; review the legal text for currency (it shows no effective date, and its address reads “Workdinagy Street” where the site uses “Workdingay Street”); approve any Spanish/French legal translations.
 
 ### Phase 5 — Image SEO and performance
 
@@ -229,7 +246,8 @@ Create helper files as their phases need them. Do not create a second route inve
 | 1     | Complete    | Technical helpers, true 404s, canonical redirects, production/preview verification |
 | 2     | Complete    | Localized titles/descriptions, OG/Twitter, article dates; 399-URL metadata audit   |
 | 3     | Complete    | Shared business/website entities, breadcrumbs, article/trip/destination JSON-LD    |
-| 4–6   | Not started | Content, performance and release verification                                      |
+| 4     | Complete    | Verified relationships, contextual links, real legal pages, footer corrections     |
+| 5–6   | Not started | Performance and release verification                                               |
 | 7     | Not started | Complete legacy inventory; hosting/domain/account access                           |
 | 8     | Not started | Production search data after launch                                                |
 

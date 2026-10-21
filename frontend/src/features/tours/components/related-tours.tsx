@@ -6,14 +6,19 @@ import { ArrowRight } from 'lucide-react'
 import { Reveal } from '@/components/ui/reveal'
 import { TourCard } from './tour-card'
 import { getTours } from '../data/localized'
+import { getDestinations } from '@/features/destinations/data/localized'
+import { relatedTours } from '@/features/destinations/data/relations'
 import type { Tour } from '../types'
 
 export function RelatedTours({ tour: t }: { tour: Tour }) {
   const copy = useCopy()
 
-  const tours = getTours(useLocale() as AppLocale)
+  const locale = useLocale() as AppLocale
+  const tours = getTours(locale)
+  const current = tours.find((o) => o.slug === t.slug) ?? t
 
-  const others = tours.filter((o) => o.slug !== t.slug).slice(0, 3)
+  const others = relatedTours(current, tours, getDestinations(locale))
+  if (!others.length) return null
   return (
     <section className="shell py-16 sm:py-20 lg:py-28">
       <Reveal className="mb-10 flex flex-col justify-between gap-6 sm:mb-14 md:flex-row md:items-end">

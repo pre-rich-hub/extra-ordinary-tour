@@ -17,6 +17,8 @@ import { DestinationOverview } from '@/features/destinations/components/destinat
 import { DestinationBooking } from '@/features/destinations/components/destination-booking'
 import { DestinationHighlights } from '@/features/destinations/components/destination-highlights'
 import { DestinationTours } from '@/features/destinations/components/destination-tours'
+import { DestinationArticles } from '@/features/destinations/components/destination-articles'
+import { DestinationRegion } from '@/features/destinations/components/destination-region'
 import { DestinationEnquiry } from '@/features/destinations/components/destination-enquiry'
 
 export function generateStaticParams() {
@@ -102,7 +104,11 @@ export default async function DestinationPage({
         <DestinationTours destination={d} />
       </section>
 
+      <DestinationRegion destination={d} destinations={destinations} />
+
       {/* Enquiry */}
+      <DestinationArticles destination={d} />
+
       <DestinationEnquiry destination={d} />
 
       <CtaBand

@@ -1,10 +1,20 @@
 import { useCopy } from '@/i18n/copy'
+import { useLocale } from 'next-intl'
+import type { AppLocale } from '@/i18n/routing'
+import { Link } from '@/i18n/navigation'
 import { MapPin } from 'lucide-react'
 import { Reveal } from '@/components/ui/reveal'
+import { getDestinations } from '@/features/destinations/data/localized'
+import { placeDestinations } from '@/features/destinations/data/relations'
 import type { Tour } from '../types'
+
+const chip =
+  'inline-flex items-center gap-2 border border-border bg-card px-4 py-2 text-[10px] font-semibold uppercase tracking-[0.14em] text-muted-foreground sm:text-[11px]'
 
 export function TourOverview({ tour: t }: { tour: Tour }) {
   const copy = useCopy()
+  // Places with a destination guide link to it; the rest stay plain labels.
+  const guides = placeDestinations(t, getDestinations(useLocale() as AppLocale))
 
   return (
     <Reveal className="lg:col-start-1 lg:row-start-1">
@@ -23,13 +33,22 @@ export function TourOverview({ tour: t }: { tour: Tour }) {
       <div className="mt-10">
         <p className="eyebrow mb-5 text-primary">{copy('Places')}</p>
         <ul className="flex flex-wrap gap-2">
-          {t.places.map((p) => (
-            <li
-              key={p}
-              className="inline-flex items-center gap-2 border border-border bg-card px-4 py-2 text-[10px] font-semibold uppercase tracking-[0.14em] text-muted-foreground sm:text-[11px]"
-            >
-              <MapPin className="h-3 w-3 text-accent" />
-              {copy(p)}
+          {t.places.map((p, i) => (
+            <li key={p}>
+              {guides[i] ? (
+                <Link
+                  href={`/destinations/${guides[i]}`}
+                  className={`${chip} transition-colors hover:border-primary/40 hover:text-primary`}
+                >
+                  <MapPin className="h-3 w-3 text-accent" />
+                  {copy(p)}
+                </Link>
+              ) : (
+                <span className={chip}>
+                  <MapPin className="h-3 w-3 text-accent" />
+                  {copy(p)}
+                </span>
+              )}
             </li>
           ))}
         </ul>

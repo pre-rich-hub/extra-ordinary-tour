@@ -5,6 +5,8 @@ const origin = 'https://extraordinaryethiopiatours.com'
 const locales = ['en', 'es', 'fr']
 // Intentional exceptions: none yet. Add `path: reason` entries here.
 const duplicateExceptions = {}
+// Client legal text exists only in English: no language alternates.
+const englishOnly = ['/en/privacy-policy', '/en/terms-and-conditions']
 
 const decode = (s) =>
   s
@@ -65,11 +67,16 @@ async function audit(url) {
     fail(path, `brand repeated in title "${h.title}"`)
   if (h.canonical.length !== 1 || h.canonical[0] !== url)
     fail(path, `canonical ${JSON.stringify(h.canonical)}`)
-  for (const l of locales)
-    if (h.alternates[l] !== `${origin}/${l}${path.slice(3)}`)
-      fail(path, `hreflang ${l} → ${h.alternates[l]}`)
-  if (h.alternates['x-default'] !== `${origin}/en${path.slice(3)}`)
-    fail(path, `x-default → ${h.alternates['x-default']}`)
+  if (englishOnly.includes(path)) {
+    if (Object.keys(h.alternates).length)
+      fail(path, 'English-only page has language alternates')
+  } else {
+    for (const l of locales)
+      if (h.alternates[l] !== `${origin}/${l}${path.slice(3)}`)
+        fail(path, `hreflang ${l} → ${h.alternates[l]}`)
+    if (h.alternates['x-default'] !== `${origin}/en${path.slice(3)}`)
+      fail(path, `x-default → ${h.alternates['x-default']}`)
+  }
 
   if (!one('og:title')) fail(path, 'empty og:title')
   if (one('og:description') !== description)

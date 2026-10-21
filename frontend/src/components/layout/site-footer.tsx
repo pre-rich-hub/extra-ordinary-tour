@@ -10,8 +10,6 @@ import {
   InstagramIcon,
   YouTubeIcon,
   FacebookIcon,
-  TikTokIcon,
-  XIcon,
   TripadvisorMark,
   SafariBookingsMark,
   SafariGoMark,
@@ -37,16 +35,6 @@ const socials: { name: string; href: string; icon: React.ReactNode }[] = [
     name: 'Facebook',
     href: 'https://www.facebook.com/extraordinaryethiopiatours',
     icon: <FacebookIcon />,
-  },
-  {
-    name: 'TikTok',
-    href: '#',
-    icon: <TikTokIcon />,
-  },
-  {
-    name: 'X',
-    href: '#',
-    icon: <XIcon />,
   },
 ]
 
@@ -311,13 +299,13 @@ export function SiteFooter() {
           </p>
           <div className="flex flex-wrap gap-x-8 gap-y-2 md:justify-end">
             <Link
-              href="/contact"
+              href="/privacy-policy"
               className="transition-colors hover:text-background/85"
             >
               {copy('Privacy Policy')}
             </Link>
             <Link
-              href="/contact"
+              href="/terms-and-conditions"
               className="transition-colors hover:text-background/85"
             >
               {copy('Terms & Conditions')}

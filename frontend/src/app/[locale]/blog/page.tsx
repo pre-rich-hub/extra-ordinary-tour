@@ -83,7 +83,9 @@ export default async function BlogPage({
       {/* Featured */}
       <section className="shell py-16 sm:py-20 lg:py-24">
         <Reveal className="mb-8">
-          <p className="eyebrow text-accent">{copy('Latest Dispatch')}</p>
+          <h2 className="eyebrow font-sans text-accent">
+            {copy('Latest Dispatch')}
+          </h2>
         </Reveal>
         <Reveal delay={80}>
           <PostCard post={featured} wide />

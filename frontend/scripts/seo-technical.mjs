@@ -82,7 +82,7 @@ assert.match(rules, /Allow: \//)
 assert.doesNotMatch(rules, /Disallow: \/(?:admin|login)/)
 assert.equal(rules.includes('Sitemap:'), !preview)
 const { html: xml } = await get('/sitemap.xml')
-assert.equal((xml.match(/<loc>/g) ?? []).length, preview ? 0 : 399)
+assert.equal((xml.match(/<loc>/g) ?? []).length, preview ? 0 : 401)
 console.log(
   `PASS: ${checked} ${preview ? 'preview' : 'production'} technical SEO responses (browser, Googlebot and Twitterbot).`,
 )
