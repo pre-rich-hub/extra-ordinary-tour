@@ -1,7 +1,7 @@
 {
   "10-day-historic-route": {
     "title": "Ruta Histórica de 10 Días",
-    "days": "10 dias",
+    "days": "10 días",
     "style": "Histórico · Cultural",
     "season": "Octubre a marzo",
     "from": "A pedido",
@@ -24,7 +24,7 @@
     "itinerary": [
       {
         "day": "Día 1",
-        "title": "Explora Addis Abeba, museos, mercados y cultura",
+        "title": "Addis Abeba: museos, mercados y cultura",
         "text": "Después de la recogida en el aeropuerto y el registro en el hotel, comience su exploración de Addis Abeba, la vibrante capital de Etiopía. Conduzca hasta el Monte Entoto para disfrutar de vistas panorámicas de la ciudad, luego visite Merkato, uno de los mercados al aire libre más grandes de África, para experimentar la energía del comercio local y la vida cotidiana. Continúe hasta el Museo Nacional, hogar del famoso fósil de Lucy y una notable colección de artefactos históricos etíopes. Visite el Museo Etnográfico, ubicado en el antiguo palacio del emperador Haile Selassie, para descubrir las diversas culturas y tradiciones de Etiopía. Por la noche, disfrute de una cena tradicional etíope acompañada de música en vivo, espectáculos de danza cultural y una cálida introducción a la rica hospitalidad de Etiopía."
       },
       {
@@ -49,7 +49,7 @@
       },
       {
         "day": "Día 6",
-        "title": "Fly Gondar, Lalibela",
+        "title": "Vuelo de Gondar a Lalibela",
         "text": "Vuele a Lalibela, declarada Patrimonio de la Humanidad por la UNESCO y el corazón espiritual de Etiopía. A su llegada, disfrute del almuerzo antes de comenzar su exploración de las notables iglesias medievales excavadas en la roca del grupo norte de Lalibela, talladas directamente en roca volcánica sólida hace más de 900 años. Visite los lugares destacados que incluyen Bete Medhane Alem, la iglesia monolítica más grande de Lalibela, junto con Bete Maryam y Bete Golgotha, cada una de las cuales exhibe una arquitectura extraordinaria, simbolismo religioso y artesanía antigua. Concluya su visita con Bete Giyorgis (Iglesia de San Jorge), la iglesia más emblemática y bellamente conservada, famosa por su diseño único en forma de cruz."
       },
       {
@@ -64,7 +64,7 @@
       },
       {
         "day": "Día 9",
-        "title": "Explora la ciudad amurallada de Harar",
+        "title": "La ciudad amurallada de Harar",
         "text": "Pase el día explorando el fascinante patrimonio cultural de Harar Jugol, la histórica ciudad antigua fortificada y declarada Patrimonio de la Humanidad por la UNESCO. Pasee por sus callejuelas estrechas, mercados coloridos y calles antiguas mientras descubre las tradiciones islámicas, la arquitectura y la vibrante cultura Harari únicas de la ciudad. Visite el Museo Cultural Harari para aprender sobre las costumbres locales y los estilos de vida tradicionales, explore animados mercados llenos de especias y artesanías y entre en las casas tradicionales Harari conocidas por sus hermosos interiores. Continúe hasta el Centro Cultural Arthur Rimbaud, dedicado al poeta y aventurero francés que vivió y trabajó en Harar durante el siglo XIX."
       },
       {
@@ -78,7 +78,7 @@
       "Debre Libanos",
       "Bahir-Dar",
       "Cataratas del Nilo Azul",
-      "gondar",
+      "Gondar",
       "Montañas Simien",
       "Lalibela",
       "Dire Dawa",
@@ -87,7 +87,7 @@
   },
   "7-day-historic-route": {
     "title": "Ruta Histórica de 7 Días",
-    "days": "7 dias",
+    "days": "7 días",
     "style": "Histórico · Cultural",
     "season": "Octubre a marzo",
     "from": "A pedido",
@@ -130,8 +130,8 @@
       },
       {
         "day": "Día 5",
-        "title": "Fly Gondar, Lalibela",
-        "text": "Después del desayuno, traslado al aeropuerto para tomar vuelo a Lalibela, la ciudad más sagrada de Etiopía y uno de los destinos de peregrinación más destacados del mundo. A su llegada, regístrese en su hotel y disfrute del almuerzo antes de comenzar su exploración del grupo norte de las famosas iglesias excavadas en la roca de Lalibela. Talladas directamente en roca volcánica roja durante el siglo XII, estas extraordinarias iglesias representan uno de los mayores logros arquitectónicos y espirituales de Etiopía. Visite lugares destacados como Bete Medhane Alem, la iglesia monolítica más grande del mundo, Bete Maryam, Bete Meskel, Bete Golgotha ​​y la icónica Bete Giyorgis (Iglesia de San Jorge), famosa por su diseño único en forma de cruz excavado profundamente en el suelo."
+        "title": "Vuelo de Gondar a Lalibela",
+        "text": "Después del desayuno, traslado al aeropuerto para tomar vuelo a Lalibela, la ciudad más sagrada de Etiopía y uno de los destinos de peregrinación más destacados del mundo. A su llegada, regístrese en su hotel y disfrute del almuerzo antes de comenzar su exploración del grupo norte de las famosas iglesias excavadas en la roca de Lalibela. Talladas directamente en roca volcánica roja durante el siglo XII, estas extraordinarias iglesias representan uno de los mayores logros arquitectónicos y espirituales de Etiopía. Visite lugares destacados como Bete Medhane Alem, la iglesia monolítica más grande del mundo, Bete Maryam, Bete Meskel, Bete Golgotha y la icónica Bete Giyorgis (Iglesia de San Jorge), famosa por su diseño único en forma de cruz excavado profundamente en el suelo."
       },
       {
         "day": "Día 6",
@@ -148,7 +148,7 @@
       "Addis Abeba",
       "Bahir-Dar",
       "Cataratas del Nilo Azul",
-      "gondar",
+      "Gondar",
       "Montañas Simien",
       "Lalibela",
       "Yemrehanna Kristos"
@@ -156,7 +156,7 @@
   },
   "3-day-lalibela-rock-churches": {
     "title": "Iglesias excavadas en la roca de Lalibela de 3 días",
-    "days": "3 dias",
+    "days": "3 días",
     "style": "Histórico · Cultural",
     "season": "Octubre a abril",
     "from": "A pedido",
@@ -197,7 +197,7 @@
   },
   "4-day-addis-and-lalibela": {
     "title": "Addis y Lalibela de 4 días",
-    "days": "4 dias",
+    "days": "4 días",
     "style": "Histórico · Cultural",
     "season": "Octubre a abril",
     "from": "A pedido",
@@ -243,7 +243,7 @@
   },
   "5-day-tigray-rock-hewn-churches": {
     "title": "Iglesias excavadas en la roca de Tigray de 5 días",
-    "days": "5 dias",
+    "days": "5 días",
     "style": "Histórico · Trekking",
     "season": "Septiembre a abril",
     "from": "A pedido",
@@ -278,7 +278,7 @@
       {
         "day": "Día 3",
         "title": "Excursión a Debre Tsion Mariam y Yohannes Maikudi",
-        "text": "Hoy, explore algunas de las iglesias excavadas en la roca más remotas y notables de la región de Tigray. Comience con una visita a Debre Tsion Mariam, una iglesia monolítica tallada enteramente en la roca circundante, conocida por su ubicación tranquila, sus antiguos murales y su diseño arquitectónico único. Continúa tu aventura hasta Yohannes Maikudi, escondido entre imponentes acantilados de arenisca y al que se llega a través de un estrecho pasaje en la roca. El enfoque dramático, combinado con el entorno remoto y la atmósfera espiritual de la iglesia, hacen de esta una de las experiencias más memorables de las tierras altas de Tigray."
+        "text": "Hoy, explore algunas de las iglesias excavadas en la roca más remotas y notables de la región de Tigray. Comience con una visita a Debre Tsion Mariam, una iglesia monolítica tallada enteramente en la roca circundante, conocida por su ubicación tranquila, sus antiguos murales y su diseño arquitectónico único. Continúe su aventura hasta Yohannes Maikudi, escondido entre imponentes acantilados de arenisca y al que se llega a través de un estrecho pasaje en la roca. El enfoque dramático, combinado con el entorno remoto y la atmósfera espiritual de la iglesia, hacen de esta una de las experiencias más memorables de las tierras altas de Tigray."
       },
       {
         "day": "Día 4",
@@ -293,16 +293,16 @@
     ],
     "places": [
       "Addis Abeba",
-      "mekel",
+      "Mekele",
       "Hawzen",
-      "geralta",
+      "Gheralta",
       "Abuna Yemata Guh",
-      "Abreha nosotros Atsbeha"
+      "Abreha we Atsbeha"
     ]
   },
   "11-day-history-and-culture-easter": {
     "title": "11 días de historia y cultura con Pascua en Lalibela",
-    "days": "11 dias",
+    "days": "11 días",
     "style": "Histórico · Cultural",
     "season": "Octubre a marzo",
     "from": "A pedido",
@@ -357,7 +357,7 @@
       {
         "day": "Día 7",
         "title": "Addis Abeba, Arba Minch, Jinka",
-        "text": "Después del desayuno, traslado al aeropuerto para tomar el vuelo de Addis Abeba a Arba Minch con Ethiopian Airlines. A su llegada, reúnase con su conductor y comience su viaje con un recorrido panorámico hasta el lago Chamo. Disfrute de un viaje en barco por el lago Chamo, donde visitará el famoso \"Mercado de Cocodrilos\" y tendrá la oportunidad de ver grandes cocodrilos, hipopótamos y otros animales salvajes a lo largo de la orilla del lago. Después de la excursión en barco, continúa tu viaje hacia el sur hacia Jinka, pasando por los hermosos paisajes del valle de Omo. En el camino, haga una parada en Weyto (día de mercado: domingo) y Key Afer (día de mercado: jueves), donde podrá experimentar los vibrantes mercados locales y las interacciones entre diferentes comunidades. El tiempo total de conducción hoy es de aproximadamente 5,5 horas. Alojamiento: Jinka Eco-Omo Lodge, Jinka."
+        "text": "Después del desayuno, traslado al aeropuerto para tomar el vuelo de Addis Abeba a Arba Minch con Ethiopian Airlines. A su llegada, reúnase con su conductor y comience su viaje con un recorrido panorámico hasta el lago Chamo. Disfrute de un viaje en barco por el lago Chamo, donde visitará el famoso \"Mercado de Cocodrilos\" y tendrá la oportunidad de ver grandes cocodrilos, hipopótamos y otros animales salvajes a lo largo de la orilla del lago. Después de la excursión en barco, continúe su viaje hacia el sur hacia Jinka, pasando por los hermosos paisajes del valle de Omo. En el camino, haga una parada en Weyto (día de mercado: domingo) y Key Afer (día de mercado: jueves), donde podrá experimentar los vibrantes mercados locales y las interacciones entre diferentes comunidades. El tiempo total de conducción hoy es de aproximadamente 5,5 horas. Alojamiento: Jinka Eco-Omo Lodge, Jinka."
       },
       {
         "day": "Día 8",
@@ -377,13 +377,13 @@
       {
         "day": "Día 11",
         "title": "Salida",
-        "text": "¡Es hora de despedirte de Etiopía hasta tu próxima aventura! Después del desayuno, salga de su hotel y disfrute de sus últimos momentos en Addis Abeba. Lo trasladarán al aeropuerto internacional de Bole a tiempo para tomar su vuelo de regreso a casa, con recuerdos inolvidables de la historia, la cultura, los paisajes y la cálida hospitalidad de Etiopía. El precio incluye las entradas a todos los sitios y pueblos mencionados en el itinerario. Todas las excursiones enumeradas en los itinerarios. Gastos de guía turístico experimentado de habla inglesa y guía local. Transporte terrestre mediante vehículo turístico. (Incluye conductor y combustible.) Todas las comidas durante la duración del tour. Alojamiento según lo indicado en el itinerario por 10 noches. Descuento en tarifas aéreas nacionales; a menos que sean USD 400 adicionales por persona si no tiene un vuelo internacional con pasaporte ET o Etiopía. Todos los traslados hotel/aeropuerto listados en el itinerario Cena de despedida Ceremonia de café y clase de cocina, Precio No Incluye Bebidas Alcohólicas. Pasaje aéreo internacional. Tarifas de video y fotografía Costos de visa. Gratitud y cualquier otro carácter personal Y lo que NO se incluye en la lista “Incluir”"
+        "text": "¡Es hora de despedirse de Etiopía hasta su próxima aventura! Después del desayuno, salga de su hotel y disfrute de sus últimos momentos en Addis Abeba. Lo trasladarán al aeropuerto internacional de Bole a tiempo para tomar su vuelo de regreso a casa, con recuerdos inolvidables de la historia, la cultura, los paisajes y la cálida hospitalidad de Etiopía. El precio incluye las entradas a todos los sitios y pueblos mencionados en el itinerario. Todas las excursiones enumeradas en los itinerarios. Gastos de guía turístico experimentado de habla inglesa y guía local. Transporte terrestre mediante vehículo turístico. (Incluye conductor y combustible.) Todas las comidas durante la duración del tour. Alojamiento según lo indicado en el itinerario por 10 noches. Descuento en tarifas aéreas nacionales; a menos que sean USD 400 adicionales por persona si no tiene un vuelo internacional con pasaporte ET o Etiopía. Todos los traslados hotel/aeropuerto listados en el itinerario Cena de despedida Ceremonia de café y clase de cocina, Precio No Incluye Bebidas Alcohólicas. Pasaje aéreo internacional. Tarifas de video y fotografía Costos de visa. Gratitud y cualquier otro carácter personal Y lo que NO se incluye en la lista “Incluir”"
       }
     ],
     "places": [
       "Addis Abeba",
       "Lalibela (Fasika)",
-      "gondar",
+      "Gondar",
       "Arba Minch",
       "Jinka",
       "Turmi",
@@ -392,7 +392,7 @@
   },
   "12-day-amazing-ethiopia": {
     "title": "12 días en la increíble Etiopía",
-    "days": "12 dias",
+    "days": "12 días",
     "style": "Histórico · Cultural · Danakil",
     "season": "Octubre a marzo",
     "from": "A pedido",
@@ -446,7 +446,7 @@
       {
         "day": "Día 6",
         "title": "Dallol, Erta Ale",
-        "text": "Distancia total en automóvil: aproximadamente 300 km / 6 a 7 horas Distancia total a pie: aproximadamente 3,5 horas Despiértese antes del amanecer y comience su viaje hacia la extraordinaria zona geotérmica de Dallol, uno de los paisajes más singulares de la Tierra. Explore este entorno volcánico surrealista donde las reacciones químicas naturales crean una exhibición espectacular de colores brillantes, formaciones minerales y paisajes de otro mundo como ningún otro lugar del planeta. Continúe explorando las formaciones de sal y barro debajo del cráter Dallol, incluida una fascinante zona de cueva natural formada por estos procesos geológicos únicos. Disfrute de un desayuno tipo picnic cerca mientras contempla el increíble entorno. Luego, conduzca hasta las vastas llanuras de sal y visite el lago Karum (lago Assale), donde podrá presenciar las actividades tradicionales de extracción de sal del pueblo Afar. Experimenta el impresionante proceso de extracción de sal del desierto y, si las condiciones lo permiten, disfruta de un baño en las piscinas de agua salada bajo el intenso sol de Danakil. Regreso a Hamed Ela para almorzar y descansar un poco antes de continuar hacia el volcán Erta Ale. Llegue al área de campamento cerca de la caldera y comience la caminata hasta la cima. La caminata dura aproximadamente una hora para llegar a la zona del cráter. Aunque el lago de lava está actualmente inactivo, el paisaje volcánico y el paisaje circundante siguen siendo una increíble maravilla natural. Pase tiempo en la cumbre antes de descender de regreso al campamento por la noche. La caminata generalmente comienza alrededor de las 5:30 p. m. y regresa alrededor de las 8:00 p. m., lo que le permite experimentar la espectacular atmósfera del volcán después del atardecer. Alojamiento en un campamento al aire libre en terreno llano, equipado con cómodos colchones, almohadas, sábanas limpias y un tranquilo entorno desértico. Alojamiento: Camping, Dodom."
+        "text": "Distancia total en automóvil: aproximadamente 300 km / 6 a 7 horas Distancia total a pie: aproximadamente 3,5 horas Despiértese antes del amanecer y comience su viaje hacia la extraordinaria zona geotérmica de Dallol, uno de los paisajes más singulares de la Tierra. Explore este entorno volcánico surrealista donde las reacciones químicas naturales crean una exhibición espectacular de colores brillantes, formaciones minerales y paisajes de otro mundo como ningún otro lugar del planeta. Continúe explorando las formaciones de sal y barro debajo del cráter Dallol, incluida una fascinante zona de cueva natural formada por estos procesos geológicos únicos. Disfrute de un desayuno tipo picnic cerca mientras contempla el increíble entorno. Luego, conduzca hasta las vastas llanuras de sal y visite el lago Karum (lago Assale), donde podrá presenciar las actividades tradicionales de extracción de sal del pueblo Afar. Experimenta el impresionante proceso de extracción de sal del desierto y, si las condiciones lo permiten, disfrute de un baño en las piscinas de agua salada bajo el intenso sol de Danakil. Regreso a Hamed Ela para almorzar y descansar un poco antes de continuar hacia el volcán Erta Ale. Llegue al área de campamento cerca de la caldera y comience la caminata hasta la cima. La caminata dura aproximadamente una hora para llegar a la zona del cráter. Aunque el lago de lava está actualmente inactivo, el paisaje volcánico y el paisaje circundante siguen siendo una increíble maravilla natural. Pase tiempo en la cumbre antes de descender de regreso al campamento por la noche. La caminata generalmente comienza alrededor de las 5:30 p. m. y regresa alrededor de las 8:00 p. m., lo que le permite experimentar la espectacular atmósfera del volcán después del atardecer. Alojamiento en un campamento al aire libre en terreno llano, equipado con cómodos colchones, almohadas, sábanas limpias y un tranquilo entorno desértico. Alojamiento: Camping, Dodom."
       },
       {
         "day": "Día 7",
@@ -461,7 +461,7 @@
       {
         "day": "Día 9",
         "title": "Conducir a Turmi vía Konso",
-        "text": "Después de un desayuno temprano, comience su viaje a Konso, declarado Patrimonio de la Humanidad por la UNESCO, conocido por sus extraordinarios paisajes, cultura tradicional e impresionantes terrazas agrícolas. Explore las comunidades únicas de Konso, famosas por su colorida vestimenta tradicional, sus pueblos con paredes de piedra y generaciones de terrazas cuidadosamente construidas que transforman las colinas secas de basalto en tierras de cultivo productivas. Los Konso son agricultores cualificados y su sistema de terrazas representa siglos de adaptación, conocimiento y gestión sostenible de la tierra. Descubra los pueblos tradicionales rodeados de muros de piedra, postes generacionales que marcan la edad de cada asentamiento y las famosas estatuas de madera waka utilizadas como lápidas para honrar a los antepasados ​​y miembros importantes de la comunidad. Continúe hasta Key Afer para experimentar el colorido mercado de los jueves, una de las reuniones culturales más vibrantes del valle de Omo. Aquí podrá conocer gente de diferentes comunidades, incluidos los Ari, Bena, Hamer y Tsemay. Observe su vestimenta tradicional, peinados, joyas y expresiones culturales únicas. Las mujeres Bena y Hamer son conocidas por sus distintivas trenzas recubiertas de arcilla roja, decoradas con mantequilla y perfumadas con incienso, mientras que las mujeres Tsemay visten faldas tradicionales con cuentas que reflejan su estado civil. Los hombres suelen lucir peinados elaborados decorados con plumas y cuentas de colores. Después de explorar el mercado, continúe hacia Jinka, la puerta de entrada al valle de Omo y un centro para explorar las diversas culturas indígenas de la región. Alojamiento: Buska Lodge, Turmi."
+        "text": "Después de un desayuno temprano, comience su viaje a Konso, declarado Patrimonio de la Humanidad por la UNESCO, conocido por sus extraordinarios paisajes, cultura tradicional e impresionantes terrazas agrícolas. Explore las comunidades únicas de Konso, famosas por su colorida vestimenta tradicional, sus pueblos con paredes de piedra y generaciones de terrazas cuidadosamente construidas que transforman las colinas secas de basalto en tierras de cultivo productivas. Los Konso son agricultores cualificados y su sistema de terrazas representa siglos de adaptación, conocimiento y gestión sostenible de la tierra. Descubra los pueblos tradicionales rodeados de muros de piedra, postes generacionales que marcan la edad de cada asentamiento y las famosas estatuas de madera waka utilizadas como lápidas para honrar a los antepasados y miembros importantes de la comunidad. Continúe hasta Key Afer para experimentar el colorido mercado de los jueves, una de las reuniones culturales más vibrantes del valle de Omo. Aquí podrá conocer gente de diferentes comunidades, incluidos los Ari, Bena, Hamer y Tsemay. Observe su vestimenta tradicional, peinados, joyas y expresiones culturales únicas. Las mujeres Bena y Hamer son conocidas por sus distintivas trenzas recubiertas de arcilla roja, decoradas con mantequilla y perfumadas con incienso, mientras que las mujeres Tsemay visten faldas tradicionales con cuentas que reflejan su estado civil. Los hombres suelen lucir peinados elaborados decorados con plumas y cuentas de colores. Después de explorar el mercado, continúe hacia Jinka, la puerta de entrada al valle de Omo y un centro para explorar las diversas culturas indígenas de la región. Alojamiento: Buska Lodge, Turmi."
       },
       {
         "day": "Día 10",
@@ -475,7 +475,7 @@
       },
       {
         "day": "Día 12",
-        "title": "Visita la tribu Mursi y vuela a Addis Abeba",
+        "title": "Visita al pueblo mursi y vuelo a Addis Abeba",
         "text": "Comience el día conduciendo temprano por la mañana hasta las tierras altas de Mursi, hogar de una de las comunidades indígenas más famosas y distintivas de Etiopía. Ubicado en los paisajes remotos del Parque Nacional Mago, el pueblo Mursi es conocido internacionalmente por sus tradicionales placas labiales que usan algunas mujeres como símbolo de belleza, identidad y orgullo cultural. Dedique tiempo a aprender sobre las tradiciones, la vida diaria y las costumbres sociales de Mursi. La comunidad también es conocida por sus tradiciones guerreras, con escarificaciones simbólicas entre algunos hombres que representan coraje, logros y batallas históricas. También podrás observar sus peinados tradicionales y expresiones culturales únicas. Después de la visita, regreso a Jinka para almorzar y traslado al aeropuerto de Jinka para tomar el vuelo de regreso a Addis Abeba. A su llegada a Addis Abeba, disfrute de una memorable cena cultural de despedida con cocina tradicional etíope, bebidas locales, música y espectáculos culturales. Después de la cena, traslado al aeropuerto internacional de Bole para su salida internacional, llevándose recuerdos inolvidables de la historia, los paisajes y las diversas culturas de Etiopía. ### Qué llevar para el tour de la depresión de Danakil Luz/linterna (especialmente para caminar de noche) Mochila pequeña para la caminata a la cima del volcán Zapatos cerrados y cómodos para caminar o zapatos de trekking Protección solar (protector solar, lentes de sol y sombrero) Chaqueta abrigada para pasar la noche en el volcán Papel higiénico (suave) Bolsa de dormir, almohada o manta (algunos equipos de campamento serán proporcionados por la agencia) El precio incluye las entradas a todos los sitios y pueblos mencionados en el itinerario. Todas las excursiones enumeradas en los itinerarios. Gastos de guía turístico experimentado de habla inglesa y guía local. Transporte terrestre mediante vehículo turístico. (Incluye conductor, combustible y asignación de conductor. Todas las comidas para Danakil Tours Alojamiento como se indica en el itinerario por 11 noches. Descuento en tarifas aéreas nacionales; a menos que sean USD 386 adicionales por persona si no tiene un vuelo internacional con ET o pasaporte de Etiopía. Todos los traslados al hotel/aeropuerto enumerados en el itinerario Tarifa Scout en el Parque Nacional Mago y la Depresión de Danakil Cena de despedida Tarifa de fotografía y video El precio no incluye ningún costo de naturaleza personal. Bebidas alcohólicas. Tarifa aérea internacional. Propinas para proveedor de servicios Costos de Visa Comidas Y lo que NO incluye en la lista “Incluye” Información de vuelo ET120 ADD -LLI SALIDA 11:50 AM- LLEGADA 13:05 PM DURACIÓN 1H 15M SIN PARADA ET121 LLI- DIR SALIDA 13:35 PM- LLEGADA 17:55 PM DURACIÓN 4H 20M ONE STOP ADD. ET205 DIR-AÑADIR SALIDA 14:35 PM- LLEGADA 15:45 PM DURACIÓN 1H 15M SIN PARADA ET 110 ADD-SZE SALIDA 06:45 AM, LLEGADA 08:05 AM DURACIÓN 1H 20M- SIN PARADA ET 165 TAMAÑO AÑADIR SALIDA 17:40 PM- LLEGADA 19:00 H DURACIÓN 1H20M -NO PARADA ET 171 ADD -AMH SALIDA 08:00 H - LLEGADA 9:15 4M DURACIÓN 1H10M -NO PARADA ET 270 BCO-AÑADIR SALIDA 14:00 H - LLEGADA 15:55 H DURACIÓN 1H20M -NO PARADA Observaciones ADD- Addis Abeba LLI- Lalibela SZE- Semera BCO- Jinka AMH- Arba Minch DIR- Dire Dewa Hoteles Addis Abeba-Hayes Hotel Arba Minch, Wubetie Hotel Lalibela- Top 12 Hotel Jinka- NASA Hotel Turmi- Buska Lodge Harar- Rawuda Harari Guest House Danakil depresión- Camping"
       }
     ],
@@ -495,7 +495,7 @@
   },
   "13-day-ethiopian-adventure": {
     "title": "Aventura etíope de 13 días",
-    "days": "13 dias",
+    "days": "13 días",
     "style": "Histórico · Cultural",
     "season": "Octubre a marzo",
     "from": "A pedido",
@@ -550,7 +550,7 @@
       },
       {
         "day": "Día 7",
-        "title": "Vuela a Arba Minch",
+        "title": "Vuelo a Arba Minch",
         "text": "Después del desayuno, nos trasladaremos al aeropuerto de Lalibela para tomar nuestro vuelo incluido de regreso a Addis Abeba, donde conectaremos con nuestro vuelo de regreso al sur de Etiopía. A su llegada a Arba Minch, seremos recibidos calurosamente y trasladados a Paradise Lodge, bellamente situado con vista a los bosques y lagos de la región. Disfrute del tranquilo entorno del albergue, que cuenta con bungalows tradicionales con techo de paja, terrazas privadas y vistas impresionantes de la belleza natural del sur de Etiopía. Alojamiento: Paradise Lodge, Arba Minch."
       },
       {
@@ -576,12 +576,12 @@
       {
         "day": "Día 12",
         "title": "Los caminos de los Mursi y el regreso a Addis Abeba",
-        "text": "Después del desayuno, saldremos de Jinka y nos adentramos en el Parque Nacional Mago, una remota y hermosa región del Valle de Omo ubicada a lo largo de la orilla oriental del río Omo. El parque es el hogar del pueblo Mursi, una de las comunidades indígenas más distintivas de Etiopía, conocida por sus decoraciones corporales tradicionales, ceremonias culturales y su forma de vida única. Durante nuestra visita a un pueblo Mursi, aprenda sobre sus tradiciones y actividades diarias. Las mujeres Mursi son conocidas por sus distintivas placas labiales, que son una parte importante de su herencia cultural, mientras que tanto hombres como mujeres decoran sus cuerpos con pigmentos naturales, joyas y adornos. Los hombres Mursi también son reconocidos por las tradicionales ceremonias de lucha con palos donga, que representan fuerza y ​​estatus social dentro de la comunidad. Después de nuestra experiencia cultural, regrese a Jinka para almorzar antes de trasladarse al aeropuerto para tomar su vuelo de regreso a Addis Abeba. A su llegada, traslado al hotel Best Western Plus y disfrute de una cena de despedida para celebrar el final de su aventura en Etiopía. Alojamiento: Hotel Best Western Plus, Addis Abeba."
+        "text": "Después del desayuno, saldremos de Jinka y nos adentramos en el Parque Nacional Mago, una remota y hermosa región del Valle de Omo ubicada a lo largo de la orilla oriental del río Omo. El parque es el hogar del pueblo Mursi, una de las comunidades indígenas más distintivas de Etiopía, conocida por sus decoraciones corporales tradicionales, ceremonias culturales y su forma de vida única. Durante nuestra visita a un pueblo Mursi, aprenda sobre sus tradiciones y actividades diarias. Las mujeres Mursi son conocidas por sus distintivas placas labiales, que son una parte importante de su herencia cultural, mientras que tanto hombres como mujeres decoran sus cuerpos con pigmentos naturales, joyas y adornos. Los hombres Mursi también son reconocidos por las tradicionales ceremonias de lucha con palos donga, que representan fuerza y estatus social dentro de la comunidad. Después de nuestra experiencia cultural, regrese a Jinka para almorzar antes de trasladarse al aeropuerto para tomar su vuelo de regreso a Addis Abeba. A su llegada, traslado al hotel Best Western Plus y disfrute de una cena de despedida para celebrar el final de su aventura en Etiopía. Alojamiento: Hotel Best Western Plus, Addis Abeba."
       },
       {
         "day": "Día 13",
         "title": "Un último día en Addis Abeba",
-        "text": "Esta mañana tienes libre para relajarte, disfrutar de las instalaciones del hotel o hacer algunas compras de última hora. Para aquellos interesados ​​en souvenirs, una visita a Merkato, el mercado al aire libre más grande de África, ofrece la oportunidad de encontrar artesanías tradicionales, especias, textiles y productos locales. Por la tarde, continúe su exploración de Addis Abeba con una visita al Museo Etnológico, ubicado en el antiguo palacio del emperador Haile Selassie dentro de los hermosos terrenos de la Universidad de Addis Abeba. El museo presenta una impresionante colección de artefactos tradicionales, artesanías y exhibiciones culturales que representan los diversos grupos étnicos y el patrimonio de Etiopía. Después de hacer turismo, lo trasladarán al aeropuerto internacional de Bole para tomar su vuelo de salida. Despídase de su guía y llévese recuerdos inolvidables de su aventura de 13 días en Etiopía."
+        "text": "Esta mañana tiene tiempo libre para relajarse, disfrutar de las instalaciones del hotel o hacer algunas compras de última hora. Para aquellos interesados en souvenirs, una visita a Merkato, el mercado al aire libre más grande de África, ofrece la oportunidad de encontrar artesanías tradicionales, especias, textiles y productos locales. Por la tarde, continúe su exploración de Addis Abeba con una visita al Museo Etnológico, ubicado en el antiguo palacio del emperador Haile Selassie dentro de los hermosos terrenos de la Universidad de Addis Abeba. El museo presenta una impresionante colección de artefactos tradicionales, artesanías y exhibiciones culturales que representan los diversos grupos étnicos y el patrimonio de Etiopía. Después de hacer turismo, lo trasladarán al aeropuerto internacional de Bole para tomar su vuelo de salida. Despídase de su guía y llévese recuerdos inolvidables de su aventura de 13 días en Etiopía."
       }
     ],
     "places": [
@@ -592,13 +592,13 @@
       "Dorzé y Chencha",
       "Konso",
       "Turmi",
-      "Omorar",
+      "Omorate",
       "Jinka"
     ]
   },
   "13-day-history-culture-and-danakil": {
     "title": "Historia de 13 días, Simien Trek y Danakil",
-    "days": "13 dias",
+    "days": "13 días",
     "style": "Histórico · Trekking · Danakil",
     "season": "Octubre a marzo",
     "from": "A pedido",
@@ -630,7 +630,7 @@
       },
       {
         "day": "Día 2",
-        "title": "Vuela a Bahir Dar",
+        "title": "Vuelo a Bahir Dar",
         "text": "Tome un vuelo por la mañana con Ethiopian Airlines desde Addis Abeba a Bahir Dar. A su llegada, reúnase con su conductor y guía en el aeropuerto y traslado a su hotel. Después del check-in y el desayuno, viaje hasta las cataratas del Nilo Azul (Tis Issat). Visite la central hidroeléctrica y disfrute de una caminata fácil hasta el Puente Portugués mientras contempla el hermoso paisaje. Regreso a Bahir Dar para almorzar. Por la tarde, disfrute de un paseo en barco por el lago Tana para visitar los antiguos monasterios insulares. Durante el crucero, podrá observar una variedad de especies de aves, hipopótamos y la fuente del Nilo Azul. Alojamiento: Hotel Jacaranda, Bahir Dar."
       },
       {
@@ -641,12 +641,12 @@
       {
         "day": "Día 4",
         "title": "Trekking en el Parque Nacional de las Montañas Simien",
-        "text": "Salga de Gondar por la mañana y conduzca hasta Debark, donde obtendrá los permisos necesarios para ingresar al Parque Nacional de las Montañas Simien. A su llegada a Debark, reúnase con su guía local, explorador, cocinero y porteadores (si es necesario). Tu equipo de trekking también será revisado antes de ingresar al parque. Luego, continúa con un viaje de una hora hacia el corazón del parque, donde comienza tu aventura. Comience su primera caminata de 3 a 4 horas hasta el campamento Sankaber, ubicado a una altitud de 3250 metros sobre el nivel del mar. La caminata ofrece impresionantes vistas de espectaculares acantilados, valles profundos y hermosos paisajes. En el camino, es posible que tengas la oportunidad de observar a los endémicos babuinos Gelada en su hábitat natural. Alojamiento: Acampada en el campamento Sankaber (3250 m)."
+        "text": "Salga de Gondar por la mañana y conduzca hasta Debark, donde obtendrá los permisos necesarios para ingresar al Parque Nacional de las Montañas Simien. A su llegada a Debark, reúnase con su guía local, explorador, cocinero y porteadores (si es necesario). Su equipo de trekking también será revisado antes de ingresar al parque. Luego, continúa con un viaje de una hora hacia el corazón del parque, donde comienza su aventura. Comience su primera caminata de 3 a 4 horas hasta el campamento Sankaber, ubicado a una altitud de 3250 metros sobre el nivel del mar. La caminata ofrece impresionantes vistas de espectaculares acantilados, valles profundos y hermosos paisajes. En el camino, es posible que tengas la oportunidad de observar a los endémicos babuinos Gelada en su hábitat natural. Alojamiento: Acampada en el campamento Sankaber (3250 m)."
       },
       {
         "day": "Día 5",
         "title": "Senderismo en las montañas Simien",
-        "text": "Después de un desayuno temprano al aire libre, comience el día con una caminata de dos horas hasta la cascada Jinbar. El sendero te lleva a través de un terreno accidentado y ofrece vistas espectaculares de las montañas Simien. Pase un tiempo en la cascada, disfrutando del ambiente tranquilo y la belleza del paisaje circundante. Después de visitar la cascada, regrese a la carretera principal y conduzca hasta Chenek, uno de los mejores lugares del parque para observar la vida silvestre y el paisaje panorámico de las montañas. Al llegar a Chenek, realice una breve caminata en busca de la endémica Walia ibex, una especie de cabra salvaje que sólo se encuentra en las montañas Simien. También tendrás la oportunidad de ver babuinos Gelada y, con un poco de suerte, el raro lobo etíope. A última hora de la tarde, acampe en Chenek, situado a una altitud de 3500 metros sobre el nivel del mar, y disfrute de las impresionantes vistas de los picos circundantes. Alojamiento: Acampada en el campamento Chenek (3.500 m)."
+        "text": "Después de un desayuno temprano al aire libre, comience el día con una caminata de dos horas hasta la cascada Jinbar. El sendero le lleva a través de un terreno accidentado y ofrece vistas espectaculares de las montañas Simien. Pase un tiempo en la cascada, disfrutando del ambiente tranquilo y la belleza del paisaje circundante. Después de visitar la cascada, regrese a la carretera principal y conduzca hasta Chenek, uno de los mejores lugares del parque para observar la vida silvestre y el paisaje panorámico de las montañas. Al llegar a Chenek, realice una breve caminata en busca de la endémica Walia ibex, una especie de cabra salvaje que sólo se encuentra en las montañas Simien. También tendrás la oportunidad de ver babuinos Gelada y, con un poco de suerte, el raro lobo etíope. A última hora de la tarde, acampe en Chenek, situado a una altitud de 3500 metros sobre el nivel del mar, y disfrute de las impresionantes vistas de los picos circundantes. Alojamiento: Acampada en el campamento Chenek (3.500 m)."
       },
       {
         "day": "Día 6",
@@ -655,12 +655,12 @@
       },
       {
         "day": "Día 7",
-        "title": "Vuela a Lalibela y visita las iglesias excavadas en la roca",
+        "title": "Vuelo a Lalibela y visita de las iglesias excavadas en la roca",
         "text": "Tome un vuelo por la mañana con Ethiopian Airlines desde Gondar a Lalibela. A su llegada, traslado a su hotel y disfrute del almuerzo. Por la tarde, explore las magníficas iglesias excavadas en la roca de Lalibela, declaradas Patrimonio de la Humanidad por la UNESCO. Este notable complejo de iglesias monolíticas y semimonolíticas fue excavado directamente en la ladera de la montaña hace más de 900 años. El sitio presenta la iglesia monolítica más grande del mundo, una fascinante red de túneles y pasadizos, detalles arquitectónicos bellamente tallados e impresionantes pinturas religiosas. Durante su visita, explore el primer grupo de iglesias, incluidas Bete Medhane Alem, Bete Maryam, Bete Meskel, Bete Denagil y Debre Sina y Golgotha. También visitará el famoso tercer grupo de iglesias, que consiste en la icónica Bete Giyorgis (Iglesia de San Jorge). Por la noche, disfrute de una tradicional ceremonia del café etíope. Alojamiento: Sora Lodge, Lalibela."
       },
       {
         "day": "Día 8",
-        "title": "Explora las iglesias de Lalibela y vuela a Addis Abeba",
+        "title": "Iglesias de Lalibela y vuelo a Addis Abeba",
         "text": "Después del desayuno, continúe su exploración de las notables iglesias excavadas en la roca de Lalibela visitando el segundo grupo de iglesias, que incluye Bete Emanuel, Bete Gabriel-Rufael, Bete Mercoreos y Bete Abba Libanos. Después de completar la visita, regreso al hotel para realizar el check-out y traslado al aeropuerto de Lalibela para tomar su vuelo a Addis Abeba. A su llegada a Addis Abeba, traslado a su hotel y relájese. Alojamiento: Hotel Lobelia, Addis Abeba."
       },
       {
@@ -670,7 +670,7 @@
       },
       {
         "day": "Día 10",
-        "title": "Explora el volcán Dallol y Erta Ale",
+        "title": "Dallol y el volcán Erta Ale",
         "text": "Temprano por la mañana, antes del amanecer, conduciremos hasta la extraordinaria zona geotérmica de Dallol, un paisaje único como ningún otro lugar de la Tierra. Aquí serás testigo de un espectacular fenómeno natural creado por reacciones químicas, que produce colores y formaciones increíbles que hacen de Dallol uno de los lugares más fascinantes del mundo. Después de explorar Dallol, continúe visitando las formaciones de sal y barro debajo del cráter Dallol. A poca distancia en coche descubrirá un paisaje completamente diferente. Disfrute de un desayuno tipo picnic cerca de este increíble sitio natural. Continúe el viaje hacia las vastas llanuras saladas y el lago Karum, donde podrá experimentar las formaciones únicas de agua salada. Visite a los mineros de sal tradicionales y aprenda sobre sus antiguos métodos de extracción de sal antes de regresar a Hamed Ela para descansar y almorzar. Por la tarde, continuaremos conduciendo hacia Erta Ale, uno de los volcanes más activos de Etiopía. Llegue al área de campamento cerca del volcán y comience la caminata hasta el cráter de la cumbre. La caminata dura aproximadamente 30 minutos para llegar al lago del cráter, donde podrás presenciar la impresionante actividad volcánica. Pase tiempo observando esta increíble maravilla natural antes de caminar de regreso al campamento. La caminata a Erta Ale suele comenzar alrededor de las 17:30 y regresar alrededor de las 20:00, dependiendo de las condiciones y el ritmo del grupo. Durante la noche, disfrute de un campamento al aire libre en un área plana y cómoda con colchones, almohadas, sábanas limpias y un ambiente tranquilo. Alojamiento: Camping Dodom."
       },
       {
@@ -680,7 +680,7 @@
       },
       {
         "day": "Día 12",
-        "title": "Explora las iglesias rupestres de Gheralta y conduce hasta Mekelle",
+        "title": "Iglesias rupestres de Gheralta y traslado a Mekele",
         "text": "Comience el día con una visita a la iglesia Maryam Korkor, una impresionante iglesia excavada en la roca con forma de cruz, conocida por su arquitectura única, pilares cruciformes, arcos y hermosos frescos antiguos. La caminata hasta la iglesia dura aproximadamente una hora y lo recompensa con espectaculares vistas panorámicas de las montañas Gheralta circundantes. Desde Maryam Korkor, continúe con una corta caminata hasta la iglesia Daniel Korkor. Ubicada sobre un espectacular acantilado, esta iglesia menos visitada ofrece impresionantes vistas del paisaje circundante y presenta notables pinturas religiosas. Más tarde, visite la famosa iglesia Abuna Yemata Guh, excavada en lo alto de un acantilado. Dedicada a Abuna Yemata, uno de los Nueve Santos que contribuyeron a la expansión del cristianismo en Etiopía, esta antigua iglesia es famosa por sus pinturas murales y de cúpula del siglo V. Aunque la subida requiere esfuerzo y coraje, las increíbles obras de arte y las espectaculares vistas la convierten en una experiencia verdaderamente inolvidable. Después de explorar las iglesias, conduzca hasta Mekelle. Alojamiento: Hotel Libanos, Mekelle."
       },
       {
@@ -692,19 +692,19 @@
     "places": [
       "Addis Abeba",
       "Bahir-Dar",
-      "gondar",
+      "Gondar",
       "Montañas Simien",
       "Lalibela",
       "Depresión de Danakil",
       "Erta Ale",
       "Hawzen",
-      "geralta",
-      "mekel"
+      "Gheralta",
+      "Mekele"
     ]
   },
   "14-day-history-and-culture": {
     "title": "Historia y cultura etíopes de 14 días",
-    "days": "14 dias",
+    "days": "14 días",
     "style": "Histórico · Cultural",
     "season": "Octubre a marzo",
     "from": "A pedido",
@@ -734,12 +734,12 @@
       },
       {
         "day": "Día 2",
-        "title": "Vuela a Dire Dawa y visita Harar",
+        "title": "Vuelo a Dire Dawa y visita de Harar",
         "text": "Tome un vuelo por la mañana desde Addis Abeba a Dire Dawa. Al llegar, comenzará el viaje hacia Harar, pasando por Awaday, el centro del famoso comercio de khat de Etiopía. Originaria del Cuerno de África y la Península Arábiga, el khat es una planta de hoja utilizada tradicionalmente por sus suaves efectos estimulantes. Continúe su viaje hacia Harar, una de las ciudades más históricas de Etiopía y considerada la cuarta ciudad más sagrada del mundo islámico después de La Meca, Medina y Jerusalén. A su llegada, explore las animadas calles, los callejones estrechos y el patrimonio arquitectónico único de la ciudad. Harar alberga más de 180 mezquitas y santuarios, incluidos varios sitios antiguos que datan de siglos atrás. Por la noche, experimente una de las tradiciones más singulares de Harar al conocer a los famosos Hombres Hiena de Harar. Esta notable tradición, transmitida de generación en generación, consiste en alimentar manualmente a las hienas salvajes. Cada noche, estos animales se acercan a la ciudad en busca de alimento, creando una experiencia cultural inolvidable. Alojamiento: Hotel Grand Gato, Harar."
       },
       {
         "day": "Día 3",
-        "title": "Explora el patrimonio cultural de Harar",
+        "title": "El patrimonio cultural de Harar",
         "text": "Hoy, continúe explorando el patrimonio cultural único de Harar, comenzando con una visita a una casa tradicional Harari. Las distintivas casas de Harar se encuentran entre las características más notables de la ciudad. A estas casas se accede a través de puertas bellamente talladas y se presentan diseños interiores excepcionales centrados en una sala de estar decorada con coloridas cestas tradicionales y diversos artículos para el hogar. Continúe hasta el Museo de la ciudad de Harari, ubicado en una histórica mansión con balcones donde el emperador Haile Selassie pasó parte de su infancia. El museo alberga una fascinante colección de artefactos históricos, incluidos antiguos manuscritos islámicos, monedas Harari que datan de más de 200 años, vestimentas tradicionales e instrumentos musicales antiguos. También visitará la tumba del Emir Nur, el gobernante responsable de construir las antiguas murallas defensivas que rodean la histórica ciudad de Harar. Alojamiento: Hotel Grand Gato, Harar."
       },
       {
@@ -749,12 +749,12 @@
       },
       {
         "day": "Día 5",
-        "title": "Vuela a Mekelle y explora las iglesias excavadas en la roca de Tigray",
+        "title": "Vuelo a Mekele e iglesias excavadas en la roca de Tigray",
         "text": "Después del desayuno, traslado al aeropuerto para tomar vuelo a Mekelle. A su llegada, reúnase con su conductor y guía local y luego continúe el viaje hasta Hawzen. En el camino, visite la iglesia semi excavada en la roca de Wukro Cherkos, un impresionante sitio histórico y religioso excavado en las montañas de Tigray. Continúe hasta la iglesia Abreha we Atsbeha, una de las iglesias antiguas más importantes de Etiopía. Su extraordinaria arquitectura y su interior bellamente decorado lo convierten en un lugar fascinante para visitar. Finalmente, visite Medhanialem Adikesho (también conocida como Adi Kesho), una de las iglesias excavadas en la roca más antiguas, altas e impresionantes de Tigray. La iglesia presenta paredes exteriores e interiores toscamente talladas, que resaltan la belleza de su techo artesonado elaboradamente tallado y detalles arquitectónicos antiguos. Continúe hasta Hawzen para registrarse en su albergue. Alojamiento: Gheralta Lodge, Hawzen."
       },
       {
         "day": "Día 6",
-        "title": "Explora las iglesias rupestres de Gheralta",
+        "title": "Iglesias rupestres de Gheralta",
         "text": "Comience el día con una visita a la iglesia Maryam Korkor, una extraordinaria iglesia excavada en la roca con forma de cruz, conocida por su arquitectura única, pilares cruciformes, arcos y hermosos frescos antiguos. La caminata hasta la iglesia dura aproximadamente una hora y ofrece espectaculares vistas panorámicas de las montañas Gheralta circundantes. Desde Maryam Korkor, continúe con una corta caminata hasta la iglesia Daniel Korkor. Ubicada sobre un espectacular acantilado, esta iglesia menos visitada ofrece impresionantes vistas del paisaje circundante y presenta impresionantes pinturas antiguas. Más tarde, visite la famosa iglesia Abuna Yemata Guh, excavada en lo alto de un acantilado. Dedicada a Abuna Yemata, uno de los Nueve Santos que contribuyeron a la expansión del cristianismo en Etiopía, esta iglesia monolítica es famosa por su notable cúpula y pinturas murales del siglo V. Aunque la subida a Abuna Yemata Guh es desafiante y requiere una atención cuidadosa, las increíbles obras de arte, el significado histórico y las impresionantes vistas la convierten en una experiencia verdaderamente gratificante. Alojamiento: Gheralta Lodge, Hawzen."
       },
       {
@@ -764,7 +764,7 @@
       },
       {
         "day": "Día 8",
-        "title": "Vuela a Jinka y explora las tribus Mursi y Hamer",
+        "title": "Vuelo a Jinka y visita a los pueblos mursi y hamer",
         "text": "Después del desayuno, traslado al aeropuerto para tomar el vuelo a Jinka. Vuele de Addis Abeba a Jinka con Ethiopian Airlines. Al llegar a Jinka, comience el viaje hacia Turmi. En el camino, visite al pueblo Mursi. Tenga en cuenta que el Parque Nacional Mago está actualmente cerrado, por lo que no es posible visitar las comunidades Mursi que viven dentro del parque. En su lugar, visitaremos la comunidad Mursi cerca de Key Afer, donde tendrá la oportunidad de aprender sobre su cultura y tradiciones únicas. Los Mursi son uno de los grupos étnicos más distintivos de Etiopía. Viven en chozas tradicionales hechas de materiales naturales como paja y hojas. Las mujeres Mursi son bien conocidas por usar placas de arcilla en los labios y adornos decorativos en sus estirados labios inferiores y lóbulos de las orejas. Los hombres Mursi también son reconocidos por sus peinados tradicionales, escarificaciones corporales y prácticas culturales. El tamaño de la placa labial se ha asociado tradicionalmente con la belleza y el valor social entre las mujeres. Continúe su viaje hacia Turmi, hogar del pueblo Hamer. Visite un pueblo Hamer y experimente su forma de vida única. Los Hamer son conocidos por sus hermosas decoraciones corporales, cuentas de colores, pulseras y peinados tradicionales. También son famosos por su danza tradicional Evangadi (luz de la luna) y la ceremonia del salto del toro, un importante rito de iniciación que marca la transición de la niñez a la edad adulta. Alojamiento: Paradise Lodge, Turmi."
       },
       {
@@ -779,12 +779,12 @@
       },
       {
         "day": "Día 11",
-        "title": "Vuela a Gondar y explora la ciudad histórica",
+        "title": "Vuelo a Gondar y visita de la ciudad histórica",
         "text": "Tome un vuelo por la mañana con Ethiopian Airlines desde Addis Abeba a Gondar. A su llegada, traslado a su hotel, regístrese y tómese un tiempo para relajarse. Por la tarde, explore Gondar, la antigua capital imperial de Etiopía fundada por el emperador Fasilides en el siglo XVII. Gondar, conocida como el \"Camelot de África\", es famosa por sus notables castillos y palacios construidos por diferentes emperadores durante un período de más de 236 años. La arquitectura única de la ciudad refleja una mezcla de influencias etíopes, portuguesas e indias. Visite el Recinto Real (Fasil Ghebbi), declarado Patrimonio de la Humanidad por la UNESCO, incluido el Palacio de Fasilides, uno de los castillos más antiguos e impresionantes del complejo, construido en 1632. Continúe su visita al Baño de Fasilides, una histórica piscina real que todavía se utiliza hoy durante la celebración anual de Timkat (Epifanía). Alojamiento: Haile Resort, Gondar."
       },
       {
         "day": "Día 12",
-        "title": "Vuela a Lalibela y visita las iglesias excavadas en la roca",
+        "title": "Vuelo a Lalibela y visita de las iglesias excavadas en la roca",
         "text": "Tome un vuelo por la mañana con Ethiopian Airlines desde Gondar a Lalibela. A su llegada, traslado a su hotel y disfrute del almuerzo. Por la tarde, explore las magníficas iglesias excavadas en la roca de Lalibela, declaradas Patrimonio de la Humanidad por la UNESCO. Este notable complejo de iglesias monolíticas y semimonolíticas fue excavado directamente en la ladera de la montaña hace más de 900 años. El sitio presenta la iglesia monolítica más grande del mundo, una fascinante red de túneles y pasadizos, detalles arquitectónicos bellamente tallados e impresionantes pinturas religiosas. Durante su visita, explore el primer grupo de iglesias, incluidas Bete Medhane Alem, Bete Maryam, Bete Meskel, Bete Denagil y Debre Sina y Golgotha. También visitará el tercer grupo de iglesias, que consiste en la icónica Bete Giyorgis (Iglesia de San Jorge). Alojamiento: Sora Lodge, Lalibela."
       },
       {
@@ -802,19 +802,19 @@
       "Addis Abeba",
       "Dire Dawa",
       "Harar",
-      "mekel",
-      "geralta",
+      "Mekele",
+      "Gheralta",
       "Jinka",
       "Turmi",
       "Pueblos Karo",
       "Pueblos ari",
-      "gondar",
+      "Gondar",
       "Lalibela"
     ]
   },
   "15-day-history-and-culture": {
     "title": "Historia y cultura etíopes de 15 días",
-    "days": "15 dias",
+    "days": "15 días",
     "style": "Histórico · Cultural",
     "season": "Octubre a marzo",
     "from": "A pedido",
@@ -880,7 +880,7 @@
       {
         "day": "Día 9",
         "title": "Arba Minch, Jinka",
-        "text": "Después del desayuno, disfrute de un paseo en barco por el lago Chamo, uno de los puntos destacados de la zona de Arba Minch. Durante la excursión en barco, tendrás la oportunidad de ver de cerca un gran número de hipopótamos y cocodrilos. Visite el famoso \"Azo Gebeya\" (Mercado de Cocodrilos), una zona costera conocida por su impresionante población de grandes cocodrilos. Después del viaje en barco, continúa tu viaje hacia Konso. Visite los pueblos de Konso, conocidos por sus hermosas laderas en terrazas, asentamientos tradicionales con muros de piedra, finos tejidos y lápidas de madera talladas únicas conocidas como Waga. El paisaje cultural de Konso está reconocido como Patrimonio de la Humanidad por la UNESCO. Continúe conduciendo hasta Jinka, la puerta de entrada al valle de Omo. Jinka es el hogar del pueblo Ari, uno de los grupos étnicos más grandes y culturalmente influyentes de la región. Los Ari son conocidos por su agricultura, alfarería, artesanía tradicional y naturaleza acogedora. Visite un pueblo Ari y experimente su forma de vida tradicional. Algunas aldeas Ari son comunidades grandes con varias calles, con chozas tradicionales de bambú y paja, así como casas de adobe y cañas donde se encuentran áreas para cocinar y dormir. Alojamiento: Hotel Nasa, Jinka."
+        "text": "Después del desayuno, disfrute de un paseo en barco por el lago Chamo, uno de los puntos destacados de la zona de Arba Minch. Durante la excursión en barco, tendrás la oportunidad de ver de cerca un gran número de hipopótamos y cocodrilos. Visite el famoso \"Azo Gebeya\" (Mercado de Cocodrilos), una zona costera conocida por su impresionante población de grandes cocodrilos. Después del viaje en barco, continúe su viaje hacia Konso. Visite los pueblos de Konso, conocidos por sus hermosas laderas en terrazas, asentamientos tradicionales con muros de piedra, finos tejidos y lápidas de madera talladas únicas conocidas como Waga. El paisaje cultural de Konso está reconocido como Patrimonio de la Humanidad por la UNESCO. Continúe conduciendo hasta Jinka, la puerta de entrada al valle de Omo. Jinka es el hogar del pueblo Ari, uno de los grupos étnicos más grandes y culturalmente influyentes de la región. Los Ari son conocidos por su agricultura, alfarería, artesanía tradicional y naturaleza acogedora. Visite un pueblo Ari y experimente su forma de vida tradicional. Algunas aldeas Ari son comunidades grandes con varias calles, con chozas tradicionales de bambú y paja, así como casas de adobe y cañas donde se encuentran áreas para cocinar y dormir. Alojamiento: Hotel Nasa, Jinka."
       },
       {
         "day": "Día 10",
@@ -910,13 +910,13 @@
       {
         "day": "Día 15",
         "title": "Excursión al lago del cráter Wenchi y salida.",
-        "text": "Después del desayuno, realice una excursión de un día al lago del cráter Wenchi, una hermosa atracción natural ubicada aproximadamente a 155 km al oeste de Addis Abeba, entre Ambo y Weliso. Wenchi es un volcán extinto con una cumbre que alcanza los 3.380 metros sobre el nivel del mar. Dentro del cráter se encuentra un impresionante lago rodeado de valles verdes, tierras de cultivo, cascadas y manantiales minerales calientes naturales. La zona también alberga un antiguo monasterio y una iglesia ubicados en una de las islas del lago. Comience el viaje por la mañana al oeste de Addis Abeba hacia Wenchi. A su llegada, complete los trámites de entrada y reúnase con su guía local antes de continuar cuesta arriba hasta el punto de inicio de la excursión. Tienes la opción de caminar aproximadamente 4 km hasta la orilla del lago o disfrutar de un paseo a caballo. El sendero ofrece hermosas vistas de los paisajes circundantes, las laderas verdes, los pueblos locales y las tranquilas aguas del lago del cráter. En la orilla del lago, disfrute de actividades como caminatas, paseos a caballo y un viaje en barco para visitar el monasterio de la isla. Después de la visita, regreso a Addis Abeba. Por la noche, disfrute de una cena cultural de despedida con platos tradicionales etíopes, bebidas locales, música y bailes de diferentes grupos étnicos etíopes. Experimente una ceremonia tradicional del café etíope antes de trasladarse al aeropuerto internacional Bole de Addis Abeba para su salida. Fin del recorrido"
+        "text": "Después del desayuno, realice una excursión de un día al lago del cráter Wenchi, una hermosa atracción natural ubicada aproximadamente a 155 km al oeste de Addis Abeba, entre Ambo y Weliso. Wenchi es un volcán extinto con una cumbre que alcanza los 3.380 metros sobre el nivel del mar. Dentro del cráter se encuentra un impresionante lago rodeado de valles verdes, tierras de cultivo, cascadas y manantiales minerales calientes naturales. La zona también alberga un antiguo monasterio y una iglesia ubicados en una de las islas del lago. Comience el viaje por la mañana al oeste de Addis Abeba hacia Wenchi. A su llegada, complete los trámites de entrada y reúnase con su guía local antes de continuar cuesta arriba hasta el punto de inicio de la excursión. Tiene la opción de caminar aproximadamente 4 km hasta la orilla del lago o disfrutar de un paseo a caballo. El sendero ofrece hermosas vistas de los paisajes circundantes, las laderas verdes, los pueblos locales y las tranquilas aguas del lago del cráter. En la orilla del lago, disfrute de actividades como caminatas, paseos a caballo y un viaje en barco para visitar el monasterio de la isla. Después de la visita, regreso a Addis Abeba. Por la noche, disfrute de una cena cultural de despedida con platos tradicionales etíopes, bebidas locales, música y bailes de diferentes grupos étnicos etíopes. Experimente una ceremonia tradicional del café etíope antes de trasladarse al aeropuerto internacional Bole de Addis Abeba para su salida. Fin del recorrido"
       }
     ],
     "places": [
       "Addis Abeba",
       "Bahir-Dar",
-      "gondar",
+      "Gondar",
       "Montañas Simien",
       "Lalibela",
       "Lagos del valle del Rift",
@@ -930,7 +930,7 @@
   },
   "13-day-historic-route-and-omo-valley": {
     "title": "Ruta histórica de 13 días y valle de Omo",
-    "days": "13 dias",
+    "days": "13 días",
     "style": "Histórico · Cultural",
     "season": "Octubre a marzo",
     "from": "A pedido",
@@ -954,7 +954,7 @@
     "itinerary": [
       {
         "day": "Día 1",
-        "title": "Explora Addis Abeba",
+        "title": "Visita de Addis Abeba",
         "text": "Después de su llegada y registro en el hotel, comience su exploración de Addis Abeba con un recorrido panorámico hasta el monte Entoto, que ofrece vistas panorámicas de la capital. Continúe hasta Merkato, uno de los mercados al aire libre más grandes de África, donde podrá experimentar la atmósfera vibrante y la vida cotidiana de la ciudad. Visite el Museo Nacional, hogar del famoso fósil de Lucy e importantes descubrimientos arqueológicos, seguido del Museo Etnográfico, ubicado en el antiguo palacio del emperador Haile Selassie, donde podrá aprender sobre las diversas culturas, tradiciones e historia de Etiopía."
       },
       {
@@ -964,13 +964,13 @@
       },
       {
         "day": "Día 3",
-        "title": "Conduce a Gondar, explora la ciudad real",
+        "title": "Por carretera a Gondar y visita de la ciudad imperial",
         "text": "Viaje hacia el norte a través de los pintorescos paisajes de las tierras altas de Etiopía hasta Gondar, la antigua capital imperial de Etiopía. Explore el Recinto Real (Fasil Ghebbi), declarado Patrimonio de la Humanidad por la UNESCO, que cuenta con impresionantes castillos y palacios construidos por emperadores etíopes. Visite la piscina de Fasilidas, un histórico lugar de baño real que todavía se utiliza durante las celebraciones anuales de Timkat (Epifanía), y continúe hasta la iglesia Debre Birhan Selassie, famosa por sus impresionantes frescos y su icónico techo cubierto de ángeles. Termine su exploración con una visita al Palacio Kuskuam, una histórica residencia real asociada con la emperatriz Mentewab y el legado imperial de Etiopía."
       },
       {
         "day": "Día 4",
-        "title": "Vuela a Lalibela, iglesias excavadas en la roca del norte",
-        "text": "Vuele a Lalibela, el corazón espiritual de Etiopía y declarado Patrimonio de la Humanidad por la UNESCO. Después de su llegada, comience su exploración del grupo noroeste de las extraordinarias iglesias excavadas en la roca de Lalibela, talladas directamente en roca volcánica sólida hace más de 900 años. Descubra iglesias notables como Bete Medhane Alem, Bete Maryam, Bete Meskel, Bete Danaghel, Bete Golgotha ​​y Bete Mikael. Cada iglesia revela la increíble artesanía, la devoción religiosa y los logros arquitectónicos de la Etiopía medieval."
+        "title": "Vuelo a Lalibela e iglesias del grupo norte",
+        "text": "Vuele a Lalibela, el corazón espiritual de Etiopía y declarado Patrimonio de la Humanidad por la UNESCO. Después de su llegada, comience su exploración del grupo noroeste de las extraordinarias iglesias excavadas en la roca de Lalibela, talladas directamente en roca volcánica sólida hace más de 900 años. Descubra iglesias notables como Bete Medhane Alem, Bete Maryam, Bete Meskel, Bete Danaghel, Bete Golgotha y Bete Mikael. Cada iglesia revela la increíble artesanía, la devoción religiosa y los logros arquitectónicos de la Etiopía medieval."
       },
       {
         "day": "Día 5",
@@ -980,7 +980,7 @@
       {
         "day": "Día 6",
         "title": "Regreso a Addis, Valle del Rift y aguas termales",
-        "text": "Vuela de regreso a Addis Abeba y continúa tu viaje hacia el sur a través de los pintorescos paisajes del Gran Valle del Rift. En el camino, visite el lago Ziway, uno de los hermosos lagos del Valle del Rift de la región, conocido por su avifauna, su entorno tranquilo y sus comunidades pesqueras locales. Continúe hasta Wondo Genet, un destino exuberante y relajante famoso por sus aguas termales naturales y jardines tropicales. Disfrute del ambiente tranquilo, tómese el tiempo para relajarse y experimente la refrescante belleza de las tierras altas del sur de Etiopía."
+        "text": "Vuela de regreso a Addis Abeba y continúe su viaje hacia el sur a través de los pintorescos paisajes del Gran Valle del Rift. En el camino, visite el lago Ziway, uno de los hermosos lagos del Valle del Rift de la región, conocido por su avifauna, su entorno tranquilo y sus comunidades pesqueras locales. Continúe hasta Wondo Genet, un destino exuberante y relajante famoso por sus aguas termales naturales y jardines tropicales. Disfrute del ambiente tranquilo, tómese el tiempo para relajarse y experimente la refrescante belleza de las tierras altas del sur de Etiopía."
       },
       {
         "day": "Día 7",
@@ -990,7 +990,7 @@
       {
         "day": "Día 8",
         "title": "Barco por el lago Chamo, viaje a Jinka",
-        "text": "Realice un viaje panorámico en barco por el lago Chamo, conocido por su rica vida silvestre y sus hermosos alrededores. Disfrute de la oportunidad de ver hipopótamos, cocodrilos grandes y otros animales salvajes en el famoso \"Mercado de Cocodrilos\", donde estos impresionantes animales se reúnen a lo largo de la costa. Después de la excursión en barco, continúa tu viaje hacia el sur a través de los diversos paisajes del valle de Omo. Pase por vibrantes pueblos con mercados locales como Weyto y Key Afar, y experimente el paisaje cambiante y la diversidad cultural mientras se dirige a Jinka, la puerta de entrada a las comunidades indígenas del valle de Omo."
+        "text": "Realice un viaje panorámico en barco por el lago Chamo, conocido por su rica vida silvestre y sus hermosos alrededores. Disfrute de la oportunidad de ver hipopótamos, cocodrilos grandes y otros animales salvajes en el famoso \"Mercado de Cocodrilos\", donde estos impresionantes animales se reúnen a lo largo de la costa. Después de la excursión en barco, continúe su viaje hacia el sur a través de los diversos paisajes del valle de Omo. Pase por vibrantes pueblos con mercados locales como Weyto y Key Afar, y experimente el paisaje cambiante y la diversidad cultural mientras se dirige a Jinka, la puerta de entrada a las comunidades indígenas del valle de Omo."
       },
       {
         "day": "Día 9",
@@ -1021,7 +1021,7 @@
     "places": [
       "Addis Abeba",
       "Bahir-Dar",
-      "gondar",
+      "Gondar",
       "Lalibela",
       "Lagos del valle del Rift",
       "Arba Minch",
@@ -1035,8 +1035,8 @@
   },
   "6-day-omo-valley-tribal-and-cultural": {
     "title": "6 días tribales y culturales del valle de Omo",
-    "days": "6 dias",
-    "style": "culturales",
+    "days": "6 días",
+    "style": "Cultural",
     "season": "Septiembre a abril",
     "from": "A pedido",
     "group": "1 a 12 invitados",
@@ -1091,7 +1091,7 @@
     ],
     "places": [
       "Addis Abeba",
-      "tiya",
+      "Tiya",
       "Arba Minch",
       "Dorzé y Chencha",
       "Konso",
@@ -1105,8 +1105,8 @@
   },
   "5-day-omo-valley-by-flight": {
     "title": "Valle de Omo de 5 días en vuelo",
-    "days": "5 dias",
-    "style": "culturales",
+    "days": "5 días",
+    "style": "Cultural",
     "season": "Octubre a abril",
     "from": "A pedido",
     "group": "1 a 10 invitados",
@@ -1145,7 +1145,7 @@
       },
       {
         "day": "Día 4",
-        "title": "Visita las Comunidades Dassanech y Karo, Experiencias Culturales a lo largo del Río Omo",
+        "title": "Visita a las comunidades dassanech y karo a orillas del río Omo",
         "text": "Hoy está dedicado a una exploración cultural más profunda y a encuentros auténticos con las comunidades del Valle de Omo. Por la mañana, viaje a Omorate para visitar al pueblo Dassanech, que vive cerca del extremo sur del río Omo. Cruce el río en una canoa tradicional y continúe hasta su pueblo, donde aprenderá sobre su estilo de vida único, sus tradiciones y su estrecha relación con el entorno que lo rodea. Alternativamente, visite al pueblo Karo, conocido por su hermosa pintura corporal, decoraciones tradicionales y prácticas ceremoniales. Explore sus pintorescos pueblos junto a los acantilados en Murulle, Kolcho o Dus, donde podrá experimentar una de las culturas visualmente más cautivadoras del valle de Omo. Estas comunidades tienen una conexión profunda con el ecosistema del río Omo y esta visita brinda una oportunidad significativa para comprender sus tradiciones, vida diaria y patrimonio cultural. Noche: Turmi."
       },
       {
@@ -1166,8 +1166,8 @@
   },
   "9-day-omo-valley-cultural": {
     "title": "9 días de cultura en el valle de Omo",
-    "days": "9 dias",
-    "style": "culturales",
+    "days": "9 días",
+    "style": "Cultural",
     "season": "Septiembre a marzo",
     "from": "A pedido",
     "group": "1 a 12 invitados",
@@ -1201,13 +1201,13 @@
       },
       {
         "day": "Día 3",
-        "title": "Vuela a Arba Minch y visita el pueblo de Dorze",
+        "title": "Vuelo a Arba Minch y visita al pueblo de Dorze",
         "text": "Tome un vuelo por la mañana desde Addis Abeba a Arba Minch. A su llegada, traslado a su albergue y disfrute del almuerzo antes de comenzar su exploración cultural. Conduzca hacia las pintorescas montañas Gughe para visitar al pueblo Dorze, famoso por sus casas únicas en forma de colmena, su tejido tradicional de algodón y sus ricas tradiciones culturales. Explore el pueblo, aprenda sobre su vida diaria y experimente su extraordinaria artesanía. Regrese a Arba Minch por la tarde y relájese mientras disfruta del hermoso entorno de su albergue con vista a los impresionantes paisajes de la región."
       },
       {
         "day": "Día 4",
         "title": "Paseo en barco por el lago Chamo, viaje a Jinka",
-        "text": "Comience el día con una excursión panorámica en barco por el lago Chamo, donde visitará el famoso \"Mercado de Cocodrilos\" y tendrá la oportunidad de ver grandes cocodrilos del Nilo, hipopótamos y una variedad de aves a lo largo de la orilla del lago. Después del viaje en barco, continúa tu viaje hacia el sur hacia Jinka, recorriendo hermosos paisajes y comunidades rurales. En el camino, pase por las ciudades de Weyto y Key Afer, ambas conocidas por sus vibrantes mercados tribales. Si su visita coincide con los días de mercado, experimentará las animadas reuniones donde diferentes grupos étnicos se reúnen para intercambiar ganado, productos agrícolas, artesanías tradicionales y bienes locales. Continúe hacia Jinka, la puerta de entrada a algunas de las comunidades indígenas más fascinantes del valle de Omo."
+        "text": "Comience el día con una excursión panorámica en barco por el lago Chamo, donde visitará el famoso \"Mercado de Cocodrilos\" y tendrá la oportunidad de ver grandes cocodrilos del Nilo, hipopótamos y una variedad de aves a lo largo de la orilla del lago. Después del viaje en barco, continúe su viaje hacia el sur hacia Jinka, recorriendo hermosos paisajes y comunidades rurales. En el camino, pase por las ciudades de Weyto y Key Afer, ambas conocidas por sus vibrantes mercados tribales. Si su visita coincide con los días de mercado, experimentará las animadas reuniones donde diferentes grupos étnicos se reúnen para intercambiar ganado, productos agrícolas, artesanías tradicionales y bienes locales. Continúe hacia Jinka, la puerta de entrada a algunas de las comunidades indígenas más fascinantes del valle de Omo."
       },
       {
         "day": "Día 5",
@@ -1249,8 +1249,8 @@
   },
   "11-day-omo-valley-cultural": {
     "title": "11 días de cultura en el valle de Omo",
-    "days": "11 dias",
-    "style": "culturales",
+    "days": "11 días",
+    "style": "Cultural",
     "season": "Octubre a marzo",
     "from": "A pedido",
     "group": "1 a 12 invitados",
@@ -1274,7 +1274,7 @@
     "itinerary": [
       {
         "day": "Día 1",
-        "title": "Descubre Addis Abeba",
+        "title": "Descubriendo Addis Abeba",
         "text": "Comience su viaje con un recorrido panorámico por el monte Entoto para disfrutar de vistas panorámicas de Addis Abeba. Descienda a la ciudad para visitar el Museo Nacional, hogar del famoso fósil de los primeros homínidos \"Lucy\". Continúe hasta la gran Catedral de la Santísima Trinidad, construida durante la Segunda Guerra Mundial, y el Museo Etnográfico ubicado dentro del antiguo palacio de Haile Selassie. Termine el día en Merkato, el mercado al aire libre más grande de África Oriental."
       },
       {
@@ -1299,7 +1299,7 @@
       },
       {
         "day": "Día 6",
-        "title": "Visita los pueblos Karo en Omorate",
+        "title": "Visita a las aldeas karo en Omorate",
         "text": "Cruce el río Omo para visitar los pueblos Karo de Dus, Korcho y Murulle. Los Karo son conocidos por su intrincada pintura corporal y decoraciones ceremoniales. Disfrute de impresionantes vistas del río y oportunidades fotográficas antes de regresar a Turmi."
       },
       {
@@ -1333,12 +1333,12 @@
       "Butajira",
       "Arba Minch",
       "Konso",
-      "Clave lejos",
+      "Key Afar",
       "Jinka",
       "Parque Nacional Mago",
       "Pueblos Mursi",
       "Turmi",
-      "Omorar",
+      "Omorate",
       "Pueblos Karo",
       "Dorzé y Chencha",
       "Awasa"
@@ -1346,8 +1346,8 @@
   },
   "13-day-omo-valley-photography-expedition": {
     "title": "Expedición fotográfica de 13 días al valle de Omo",
-    "days": "13 dias",
-    "style": "culturales",
+    "days": "13 días",
+    "style": "Cultural",
     "season": "Octubre a marzo",
     "from": "A pedido",
     "group": "1 a 8 invitados",
@@ -1377,7 +1377,7 @@
       {
         "day": "Día 2",
         "title": "Mizan Teferi, Kibish",
-        "text": "Hoy marca el comienzo de tu primera sesión de fotografía mientras viajas hacia las profundidades de la remota región suroeste de Etiopía. En el camino, pase por la famosa plantación de café Bebeka, ubicada a unos 30 km de Mizan Teferi y una de las plantaciones de café más grandes y antiguas de Etiopía. Continúe por la ciudad de Tulgit antes de llegar a Kibish, la puerta de entrada a la remota tierra natal del pueblo Suri. El enfoque de hoy será capturar la cultura única y la vida cotidiana de una de las comunidades menos visitadas y mejor preservadas culturalmente del Valle de Omo. Los Suri son tradicionalmente pastores con una profunda conexión con su ganado, que juega un papel importante en su identidad social y cultural. Son famosos por su extraordinaria decoración corporal, que incluye coloridas pinturas corporales, escarificaciones y adornos creativos hechos de materiales naturales como flores, hojas y arcilla. Las mujeres suri también son conocidas por usar placas labiales distintivas, similares a la tradición Mursi. Pase tiempo fotografiando momentos auténticos, estilos de vida tradicionales y las notables expresiones artísticas del pueblo Suri en su entorno natural. Alojamiento: Camping, Kibish."
+        "text": "Hoy comienza su primera sesión de fotografía mientras viaja hacia las profundidades de la remota región suroeste de Etiopía. En el camino, pase por la famosa plantación de café Bebeka, ubicada a unos 30 km de Mizan Teferi y una de las plantaciones de café más grandes y antiguas de Etiopía. Continúe por la ciudad de Tulgit antes de llegar a Kibish, la puerta de entrada a la remota tierra natal del pueblo Suri. El enfoque de hoy será capturar la cultura única y la vida cotidiana de una de las comunidades menos visitadas y mejor preservadas culturalmente del Valle de Omo. Los Suri son tradicionalmente pastores con una profunda conexión con su ganado, que juega un papel importante en su identidad social y cultural. Son famosos por su extraordinaria decoración corporal, que incluye coloridas pinturas corporales, escarificaciones y adornos creativos hechos de materiales naturales como flores, hojas y arcilla. Las mujeres suri también son conocidas por usar placas labiales distintivas, similares a la tradición Mursi. Pase tiempo fotografiando momentos auténticos, estilos de vida tradicionales y las notables expresiones artísticas del pueblo Suri en su entorno natural. Alojamiento: Camping, Kibish."
       },
       {
         "day": "Día 3",
@@ -1402,7 +1402,7 @@
       {
         "day": "Día 7",
         "title": "Fotografía en Turmi",
-        "text": "Después del desayuno, comience su sesión de fotografía en el vibrante mercado al aire libre Hamer en Turmi. Esta animada reunión ofrece una excelente oportunidad para capturar momentos auténticos de la vida cotidiana, el comercio tradicional y las coloridas expresiones culturales del pueblo Hamer. Las mujeres Hamer son famosas por su apariencia distintiva, que incluye pesados ​​collares de cobre que indican el estado civil, faldas de cuentas bellamente decoradas y sus icónicos peinados hechos con una mezcla de ocre rojo y mantequilla. Los hombres Hamer también son reconocidos por sus peinados únicos, a menudo formados con gorros de arcilla de colores conocidos como Poro. Dedique tiempo a fotografiar la atmósfera del mercado, la vestimenta tradicional, las interacciones locales y los ricos detalles culturales que hacen de la comunidad Hamer uno de los grupos más fascinantes del Valle de Omo. Alojamiento: Paradise Lodge, Turmi."
+        "text": "Después del desayuno, comience su sesión de fotografía en el vibrante mercado al aire libre Hamer en Turmi. Esta animada reunión ofrece una excelente oportunidad para capturar momentos auténticos de la vida cotidiana, el comercio tradicional y las coloridas expresiones culturales del pueblo Hamer. Las mujeres Hamer son famosas por su apariencia distintiva, que incluye pesados collares de cobre que indican el estado civil, faldas de cuentas bellamente decoradas y sus icónicos peinados hechos con una mezcla de ocre rojo y mantequilla. Los hombres Hamer también son reconocidos por sus peinados únicos, a menudo formados con gorros de arcilla de colores conocidos como Poro. Dedique tiempo a fotografiar la atmósfera del mercado, la vestimenta tradicional, las interacciones locales y los ricos detalles culturales que hacen de la comunidad Hamer uno de los grupos más fascinantes del Valle de Omo. Alojamiento: Paradise Lodge, Turmi."
       },
       {
         "day": "Día 8",
@@ -1432,26 +1432,26 @@
       {
         "day": "Día 13",
         "title": "Jinka, Addis Abeba, Salida",
-        "text": "Después del desayuno, visita del pueblo de Ari, ubicado en las tierras altas alrededor de Jinka. El pueblo Ari es uno de los grupos étnicos más grandes del valle de Omo, conocido por sus prácticas agrícolas tradicionales, alfarería, tejido y ricas tradiciones culturales. Disfrute de una sesión de fotografía que capture su vida cotidiana, la artesanía local y su forma de vida única. Regreso al hotel para realizar el check-out y traslado al aeropuerto de Jinka para tomar su vuelo de regreso a Addis Abeba, la capital diplomática de Etiopía. A su llegada a Addis Abeba, visite el Museo Nacional de Etiopía, que alberga notables colecciones históricas y los famosos restos fósiles de Lucy, de 3,2 millones de años de antigüedad, uno de los primeros antepasados ​​de la humanidad. Continúe hasta el Museo Etnológico, ubicado en el antiguo palacio del emperador Haile Selassie, donde descubrirá las diversas culturas, tradiciones e historia de Etiopía dentro de hermosos jardines y alrededores. Por la noche, disfrute de una memorable cena de despedida en el restaurante cultural Yod Abyssinia, que ofrece cocina tradicional etíope, bebidas locales, música y espectáculos culturales. Después de la celebración de despedida, traslado al aeropuerto internacional de Bole para su salida internacional. El precio incluye las entradas a todos los sitios y pueblos mencionados en el itinerario. Todas las excursiones enumeradas en los itinerarios. Gastos de guía turístico experimentado de habla inglesa y guía local. Transporte terrestre mediante vehículo turístico. (Incluye conductor, combustible y asignación de conductor. Todas las comidas durante la duración del recorrido. Alojamiento como se indica en el itinerario por 12 noches. Tarifas aéreas nacionales con descuento; a menos que sean USD 150 adicionales por persona si no tiene un vuelo internacional con ET o pasaporte de Etiopía. Todos los traslados al hotel/aeropuerto enumerados en el itinerario Tarifa Scout en el Parque Nacional Mago y la Depresión de Danakil Cena de despedida Tarifa de fotografía y video El precio no incluye ningún costo de naturaleza personal. Bebidas alcohólicas. Internacional Tarifa aérea Propinas para el proveedor de servicios Costos de Visa Y lo que NO está incluido en la lista “Incluir” Información de vuelo ET231 ADD- JIM SALIDA 08:25 AM, LLEGADA 09:30 AM DURACIÓN 1H 5M- SIN PARADA ET270 BCO-ADD SALIDA 10:15 AM, LLEGADA 11:40 AM DURACIÓN 1 H 25M- SIN PARADA Observaciones. ADD- Addis Abeba JIM- Jimma BCO -Jinka Hotels Mizan Tefere- El gran hotel y Spa Jinka- NASA Hotel Turmi- Buska Lodge Suri (Surma)- Camping Turmi- Paradise Lodge"
+        "text": "Después del desayuno, visita del pueblo de Ari, ubicado en las tierras altas alrededor de Jinka. El pueblo Ari es uno de los grupos étnicos más grandes del valle de Omo, conocido por sus prácticas agrícolas tradicionales, alfarería, tejido y ricas tradiciones culturales. Disfrute de una sesión de fotografía que capture su vida cotidiana, la artesanía local y su forma de vida única. Regreso al hotel para realizar el check-out y traslado al aeropuerto de Jinka para tomar su vuelo de regreso a Addis Abeba, la capital diplomática de Etiopía. A su llegada a Addis Abeba, visite el Museo Nacional de Etiopía, que alberga notables colecciones históricas y los famosos restos fósiles de Lucy, de 3,2 millones de años de antigüedad, uno de los primeros antepasados de la humanidad. Continúe hasta el Museo Etnológico, ubicado en el antiguo palacio del emperador Haile Selassie, donde descubrirá las diversas culturas, tradiciones e historia de Etiopía dentro de hermosos jardines y alrededores. Por la noche, disfrute de una memorable cena de despedida en el restaurante cultural Yod Abyssinia, que ofrece cocina tradicional etíope, bebidas locales, música y espectáculos culturales. Después de la celebración de despedida, traslado al aeropuerto internacional de Bole para su salida internacional. El precio incluye las entradas a todos los sitios y pueblos mencionados en el itinerario. Todas las excursiones enumeradas en los itinerarios. Gastos de guía turístico experimentado de habla inglesa y guía local. Transporte terrestre mediante vehículo turístico. (Incluye conductor, combustible y asignación de conductor. Todas las comidas durante la duración del recorrido. Alojamiento como se indica en el itinerario por 12 noches. Tarifas aéreas nacionales con descuento; a menos que sean USD 150 adicionales por persona si no tiene un vuelo internacional con ET o pasaporte de Etiopía. Todos los traslados al hotel/aeropuerto enumerados en el itinerario Tarifa Scout en el Parque Nacional Mago y la Depresión de Danakil Cena de despedida Tarifa de fotografía y video El precio no incluye ningún costo de naturaleza personal. Bebidas alcohólicas. Internacional Tarifa aérea Propinas para el proveedor de servicios Costos de Visa Y lo que NO está incluido en la lista “Incluir” Información de vuelo ET231 ADD- JIM SALIDA 08:25 AM, LLEGADA 09:30 AM DURACIÓN 1H 5M- SIN PARADA ET270 BCO-ADD SALIDA 10:15 AM, LLEGADA 11:40 AM DURACIÓN 1 H 25M- SIN PARADA Observaciones. ADD- Addis Abeba JIM- Jimma BCO -Jinka Hotels Mizan Tefere- El gran hotel y Spa Jinka- NASA Hotel Turmi- Buska Lodge Suri (Surma)- Camping Turmi- Paradise Lodge"
       }
     ],
     "places": [
       "Addis Abeba",
-      "Jima",
+      "Jimma",
       "Mizan Teferi",
       "Kibish (Surma)",
       "Turmi",
       "Pueblos nyangatom",
       "Pueblos Karo",
-      "cenador",
-      "Omorar",
+      "Arbore",
+      "Omorate",
       "Jinka",
       "Parque Nacional Mago"
     ]
   },
   "8-day-lalibela-and-omo-valley": {
     "title": "Lalibela y el valle de Omo, 8 días",
-    "days": "8 dias",
+    "days": "8 días",
     "style": "Cultural · Histórico",
     "season": "Septiembre a marzo",
     "from": "A pedido",
@@ -1481,12 +1481,12 @@
       },
       {
         "day": "Día 2",
-        "title": "Vuela a Lalibela y visita las iglesias excavadas en la roca",
+        "title": "Vuelo a Lalibela y visita de las iglesias excavadas en la roca",
         "text": "Después del desayuno, traslado al aeropuerto internacional Bole de Addis Abeba para tomar su vuelo a Lalibela. A su llegada, su guía local lo recibirá y lo trasladará a su hotel para registrarse. Después del almuerzo, comience su exploración de las notables iglesias excavadas en la roca de Lalibela, a menudo descritas como la \"Octava Maravilla del Mundo\". Talladas íntegramente en roca volcánica sólida durante los siglos XII y XIII, estas extraordinarias iglesias monolíticas se encuentran entre los mayores tesoros históricos y religiosos de Etiopía. Las iglesias están divididas en tres grupos principales y conectadas por una red de túneles y pasadizos subterráneos. Durante su visita por la tarde, explore el primer y tercer grupo de iglesias y descubra seis magníficas iglesias, cada una con su propio diseño arquitectónico único, significado religioso e historia fascinante."
       },
       {
         "day": "Día 3",
-        "title": "Vuela a Addis Abeba y conduce hasta Ziway.",
+        "title": "Vuelo a Addis Abeba y traslado por carretera a Ziway",
         "text": "Levántese temprano y visite el último grupo de notables iglesias excavadas en la roca de Lalibela, incluida la famosa Iglesia de San Jorge, una obra maestra tallada en forma de cruz en un solo bloque de roca. Después de la visita, regrese a su hotel para desayunar y realizar el check out. Luego será trasladado al aeropuerto de Lalibela para tomar su vuelo de regreso a Addis Abeba. Al llegar a la capital, reúnase con su conductor y comience su viaje panorámico hacia el sur a través de las hermosas tierras altas de Etiopía hacia la ciudad de Ziway, junto al lago. Disfrute de los paisajes cambiantes a lo largo del camino, pasando por campos fértiles y pueblos rurales mientras continúa hacia el Gran Valle del Rift, donde pasará la noche en Ziway."
       },
       {
@@ -1497,7 +1497,7 @@
       {
         "day": "Día 5",
         "title": "Lago Chamo, Jinka vía Weyto y Key Afar",
-        "text": "Esta mañana, disfrute de una excursión panorámica en barco por el lago Chamo, uno de los lagos más bellos del valle del Rift de Etiopía. Durante el viaje, observe los grandes cocodrilos del Nilo, los hipopótamos y una variedad de especies de aves a lo largo de la costa y los humedales circundantes. Después de la excursión en barco, continúa tu viaje hacia el sur, hacia Jinka, recorriendo paisajes cambiantes y comunidades rurales remotas. En el camino, pase por las ciudades de Weyto y Key Afer, ambas conocidas por sus vibrantes mercados tribales tradicionales. Si su visita coincide con los días de mercado, es posible que tenga la oportunidad de experimentar estas animadas reuniones, donde diferentes grupos étnicos se reúnen para intercambiar ganado, productos agrícolas, artesanías tradicionales y coloridos productos locales. Continúe hasta Jinka, la puerta de entrada a varias de las fascinantes comunidades indígenas del valle de Omo, donde pasará la noche."
+        "text": "Esta mañana, disfrute de una excursión panorámica en barco por el lago Chamo, uno de los lagos más bellos del valle del Rift de Etiopía. Durante el viaje, observe los grandes cocodrilos del Nilo, los hipopótamos y una variedad de especies de aves a lo largo de la costa y los humedales circundantes. Después de la excursión en barco, continúe su viaje hacia el sur, hacia Jinka, recorriendo paisajes cambiantes y comunidades rurales remotas. En el camino, pase por las ciudades de Weyto y Key Afer, ambas conocidas por sus vibrantes mercados tribales tradicionales. Si su visita coincide con los días de mercado, es posible que tenga la oportunidad de experimentar estas animadas reuniones, donde diferentes grupos étnicos se reúnen para intercambiar ganado, productos agrícolas, artesanías tradicionales y coloridos productos locales. Continúe hasta Jinka, la puerta de entrada a varias de las fascinantes comunidades indígenas del valle de Omo, donde pasará la noche."
       },
       {
         "day": "Día 6",
@@ -1531,7 +1531,7 @@
   },
   "8-day-north-with-timkat-festival": {
     "title": "8 días por el norte de Etiopía con Timkat",
-    "days": "8 dias",
+    "days": "8 días",
     "style": "Festival · Histórico",
     "season": "Enero (Timkat)",
     "from": "A pedido",
@@ -1581,7 +1581,7 @@
       },
       {
         "day": "Día 6",
-        "title": "Vuela a Lalibela y explora las iglesias excavadas en la roca",
+        "title": "Vuelo a Lalibela y visita de las iglesias excavadas en la roca",
         "text": "Después del desayuno, traslado al aeropuerto de Gondar para tomar su vuelo nacional a Lalibela, uno de los destinos más sagrados e históricamente más importantes de Etiopía, a menudo descrito como el corazón espiritual de Etiopía. A su llegada, comience a explorar las extraordinarias iglesias excavadas en la roca de Lalibela, declaradas Patrimonio de la Humanidad por la UNESCO. Talladas directamente en roca volcánica rojiza hace más de 800 años, estas notables iglesias representan uno de los mayores logros arquitectónicos de África. Conectados por una red de túneles subterráneos, trincheras y pasadizos, continúan sirviendo como lugares activos de culto para los cristianos ortodoxos etíopes. Descubra algunas de las iglesias más impresionantes de Lalibela, incluida Bete Amanuel, conocida por su exterior finamente tallado y su estilo arquitectónico tradicional; Bete Mercoreos, rica en significado histórico y religioso; y la icónica Bete Giyorgis (Iglesia de San Jorge), una magnífica iglesia en forma de cruz excavada en la roca. A lo largo de la visita, aprenda sobre la historia, las leyendas y el significado espiritual de la visión del rey Lalibela de crear una \"Nueva Jerusalén\" en Etiopía. Regrese a su hotel por la tarde y disfrute del ambiente tranquilo de este antiguo pueblo de las tierras altas."
       },
       {
@@ -1606,8 +1606,8 @@
   },
   "5-day-timkat-festival-lalibela": {
     "title": "Festival Timkat de 5 días en Lalibela",
-    "days": "5 dias",
-    "style": "fiesta",
+    "days": "5 días",
+    "style": "Festival",
     "season": "Enero (Timkat)",
     "from": "A pedido",
     "group": "1 a 12 invitados",
@@ -1655,11 +1655,11 @@
         "text": "Después del desayuno, traslado al aeropuerto de Lalibela para tomar su vuelo nacional de regreso a Addis Abeba. A su llegada, dependiendo de su horario de salida internacional, es posible que tenga la oportunidad de disfrutar de un recorrido por la ciudad opcional o de algo de tiempo libre para compras de último momento y relajación. Por la noche, únase a una cena especial de despedida organizada por Extraordinary Ethiopia Tours. Disfrute de una deliciosa selección de cocina tradicional etíope, bebidas locales, música cultural y una memorable ceremonia del café etíope preparada de la manera tradicional. Esta última noche ofrece la oportunidad perfecta para celebrar su viaje, compartir recuerdos y experimentar la calidez de la hospitalidad etíope antes de su partida. Después de la cena, lo trasladarán al aeropuerto internacional Bole de Addis Abeba para tomar su vuelo internacional, lo que marcará el final de su inolvidable viaje cultural al Festival Timkat y a Lalibela."
       }
     ],
-    "places": ["Addis Abeba", "Lalibela (Timkat)", "Ashton Maryam"]
+    "places": ["Addis Abeba", "Lalibela (Timkat)", "Asheton Maryam"]
   },
   "8-day-north-with-genna-christmas": {
     "title": "8 días por el norte de Etiopía con Genna (Navidad)",
-    "days": "8 dias",
+    "days": "8 días",
     "style": "Festival · Histórico",
     "season": "Finales de diciembre al 7 de enero",
     "from": "A pedido",
@@ -1704,7 +1704,7 @@
       },
       {
         "day": "Día 5",
-        "title": "Vuela a Lalibela, Festival de Nochebuena",
+        "title": "Vuelo a Lalibela, víspera de Navidad",
         "text": "Por la mañana, tome un vuelo a la ciudad sagrada de Lalibela, a menudo denominada \"La Petra de África\" y uno de los destinos históricos y espirituales más extraordinarios de Etiopía. Talladas directamente en roca volcánica entre los siglos XII y XIII, las notables iglesias excavadas en la roca de la ciudad, declaradas Patrimonio de la Humanidad por la UNESCO, representan uno de los mayores logros arquitectónicos de África. Comience a explorar el primer grupo de iglesias famosas de Lalibela, incluida la magnífica Bete Medhane Alem (Casa del Salvador del Mundo), la iglesia excavada en la roca más grande de Lalibela; Bete Mariam, conocida por sus hermosas tallas y coloridos frescos; y la icónica Bete Giorgis (Iglesia de San Jorge), una notable iglesia en forma de cruz tallada enteramente en un solo bloque de roca. Por la noche, experimente uno de los momentos más inolvidables del viaje mientras se une a miles de peregrinos ortodoxos etíopes vestidos con túnicas blancas tradicionales para la celebración de la víspera de Genna (Navidad etíope). Reúnase en la iglesia Bete Mariam para presenciar a los sacerdotes y fieles participar en antiguas oraciones, cantos sagrados y ceremonias espirituales que continúan durante toda la noche. La celebración alcanza su momento más conmovedor alrededor de la medianoche con un servicio a la luz de las velas que marca el nacimiento de Cristo, creando una atmósfera de profunda fe, devoción y belleza cultural."
       },
       {
@@ -1726,7 +1726,7 @@
     "places": [
       "Addis Abeba",
       "Bahir-Dar",
-      "gondar",
+      "Gondar",
       "Montañas Simien",
       "Lalibela (Genna)",
       "Genete Maryam"
@@ -1734,8 +1734,8 @@
   },
   "5-day-genna-christmas-lalibela": {
     "title": "Genna (Navidad) de 5 días en Lalibela",
-    "days": "5 dias",
-    "style": "fiesta",
+    "days": "5 días",
+    "style": "Festival",
     "season": "Finales de diciembre al 7 de enero",
     "from": "A pedido",
     "group": "1 a 12 invitados",
@@ -1764,7 +1764,7 @@
       },
       {
         "day": "Día 2",
-        "title": "Vuela a Lalibela y explora las iglesias excavadas en la roca",
+        "title": "Vuelo a Lalibela y visita de las iglesias excavadas en la roca",
         "text": "Después del desayuno, traslado al aeropuerto internacional Bole de Addis Abeba para tomar su vuelo nacional a la ciudad sagrada de Lalibela, uno de los destinos históricos y espirituales más preciados de Etiopía. A su llegada, reúnase con su guía local y comience a explorar el extraordinario sitio de iglesias excavadas en la roca de Lalibela, declarado Patrimonio de la Humanidad por la UNESCO. Pase el día descubriendo la notable red de once iglesias monolíticas y semimonolíticas, excavadas directamente en roca volcánica sólida hace más de 800 años durante el reinado del rey Lalibela. Conectadas por un fascinante laberinto de túneles subterráneos, pasadizos y patios, estas obras maestras arquitectónicas continúan sirviendo como lugares activos de culto para los cristianos ortodoxos etíopes. Admire la artesanía excepcional de las iglesias, los relieves bellamente tallados, los murales antiguos y los artefactos religiosos centenarios mientras aprende sobre su significado histórico y su perdurable importancia espiritual. La experiencia ofrece una visión única de la rica herencia cristiana de Etiopía y de uno de los logros arquitectónicos más notables del mundo. Por la noche, regístrese en el Hotel Roha y disfrute de una cena mientras disfruta del ambiente tranquilo de esta histórica ciudad de las tierras altas."
       },
       {
@@ -1787,7 +1787,7 @@
   },
   "4-day-ethiopia-coffee": {
     "title": "Café de 4 días en Etiopía",
-    "days": "4 dias",
+    "days": "4 días",
     "style": "Café · Cultural",
     "season": "Septiembre a mayo",
     "from": "A pedido",
@@ -1842,7 +1842,7 @@
   },
   "5-day-ethiopia-coffee": {
     "title": "Café de Etiopía de 5 días",
-    "days": "5 dias",
+    "days": "5 días",
     "style": "Café · Cultural",
     "season": "Septiembre a mayo",
     "from": "A pedido",
@@ -1902,7 +1902,7 @@
   },
   "6-day-ethiopia-coffee-kaffa": {
     "title": "Orígenes del café Kaffa de 6 días",
-    "days": "6 dias",
+    "days": "6 días",
     "style": "Café · Cultural",
     "season": "Septiembre a mayo",
     "from": "A pedido",
@@ -1957,15 +1957,15 @@
     ],
     "places": [
       "Addis Abeba",
-      "Jima",
+      "Jimma",
       "Bonga (Kaffa)",
-      "bosque mankira",
-      "bebeka"
+      "Bosque de Mankira",
+      "Bebeka"
     ]
   },
   "3-day-afar-danakil-from-addis": {
     "title": "Región de Afar de 3 días y depresión de Danakil",
-    "days": "3 dias",
+    "days": "3 días",
     "style": "Danakil",
     "season": "Octubre a marzo",
     "from": "A pedido",
@@ -2011,12 +2011,12 @@
       "Erta Ale",
       "Depresión de Danakil",
       "Dallol",
-      "lago assale"
+      "Lago Assale"
     ]
   },
   "3-day-danakil-depression-from-mekelle": {
     "title": "Depresión de Danakil de 3 días de Mekelle",
-    "days": "3 dias",
+    "days": "3 días",
     "style": "Danakil",
     "season": "Octubre a marzo",
     "from": "A pedido",
@@ -2057,18 +2057,18 @@
       }
     ],
     "places": [
-      "mekel",
-      "dodom",
+      "Mekele",
+      "Dodom",
       "Erta Ale",
-      "Ela Hamed",
-      "lago assale",
+      "Hamed Ela",
+      "Lago Assale",
       "Dallol",
       "Depresión de Danakil"
     ]
   },
   "12-day-ethiopian-safari": {
     "title": "Safari etíope de 12 días",
-    "days": "12 dias",
+    "days": "12 días",
     "style": "Vida Silvestre · Trekking",
     "season": "Octubre a marzo",
     "from": "A pedido",
@@ -2106,7 +2106,7 @@
       {
         "day": "Día 3",
         "title": "Montañas Simien, Addis Abeba, Parque Nacional Awash",
-        "text": "Después del desayuno, traslado al aeropuerto de Gondar para tomar el vuelo de regreso a Addis Abeba. Al llegar a la capital, reúnase con su conductor y continúe su viaje hacia el este, hacia el Parque Nacional Awash, uno de los destinos de vida silvestre más antiguos y accesibles de Etiopía. El viaje lo llevará a través de los paisajes cambiantes del Gran Valle del Rift, pasando por paisajes volcánicos, pueblos tradicionales y vastos paisajes abiertos del este de Etiopía. A medida que te acercas al parque, el paisaje se transforma en una sabana seca, bosques de acacias y llanuras ricas en vida silvestre. A última hora de la tarde, comience su primer recorrido por la vida silvestre en el Parque Nacional Awash, explorando los diversos hábitats del parque en busca de especies nativas. Esté atento a Beisa oryx, gran kudu, jabalíes, gacelas, babuinos y una variedad de especies de aves que habitan en este ecosistema único. Disfrute de la atmósfera tranquila del parque mientras el sol se pone sobre el paisaje del Valle del Rift, creando una hermosa introducción a la naturaleza salvaje del este de Etiopía. Alojamiento: Parque Nacional Awash / Doho Lodge."
+        "text": "Después del desayuno, traslado al aeropuerto de Gondar para tomar el vuelo de regreso a Addis Abeba. Al llegar a la capital, reúnase con su conductor y continúe su viaje hacia el este, hacia el Parque Nacional Awash, uno de los destinos de vida silvestre más antiguos y accesibles de Etiopía. El viaje lo llevará a través de los paisajes cambiantes del Gran Valle del Rift, pasando por paisajes volcánicos, pueblos tradicionales y vastos paisajes abiertos del este de Etiopía. A medida que se acerca al parque, el paisaje se transforma en una sabana seca, bosques de acacias y llanuras ricas en vida silvestre. A última hora de la tarde, comience su primer recorrido por la vida silvestre en el Parque Nacional Awash, explorando los diversos hábitats del parque en busca de especies nativas. Esté atento a Beisa oryx, gran kudu, jabalíes, gacelas, babuinos y una variedad de especies de aves que habitan en este ecosistema único. Disfrute de la atmósfera tranquila del parque mientras el sol se pone sobre el paisaje del Valle del Rift, creando una hermosa introducción a la naturaleza salvaje del este de Etiopía. Alojamiento: Parque Nacional Awash / Doho Lodge."
       },
       {
         "day": "Día 4",
@@ -2121,7 +2121,7 @@
       {
         "day": "Día 6",
         "title": "Reserva de Vida Silvestre Alledeghi, Lago Ziway, Lago Langano",
-        "text": "Después del desayuno, continúe su viaje hacia la hermosa región de los lagos del Gran Valle del Rift, conduciendo hasta el lago Langano con una parada en el lago Ziway, uno de los destinos importantes para la observación de aves en Etiopía. Ubicado a lo largo del Valle del Rift, el lago Ziway es un paraíso para los entusiastas de las aves y ofrece excelentes oportunidades para observar una amplia variedad de aves acuáticas y especies migratorias. Durante su visita, explore la orilla del lago y busque aves como pelícanos, flamencos, garzas, cigüeñas y martines pescadores. El lago también es conocido por sus comunidades pesqueras locales y sus pintorescos paisajes isleños. Continúe el viaje a través de la hermosa campiña del Valle del Rift hacia el lago Langano, famoso por sus cálidas aguas marrones, playas tranquilas y un relajante entorno natural. Después de llegar a su albergue, disfrute de tiempo para relajarse y disfrutar de las vistas del lago y el bosque circundante. Por la tarde, únete a una caminata nocturna guiada por el bosque para descubrir la vida silvestre escondida que se activa después del atardecer. Con la ayuda de su guía, busque criaturas nocturnas como pequeños mamíferos, búhos y otras especies nocturnas mientras experimenta los sonidos y la atmósfera únicos de la naturaleza etíope al anochecer. Pernocte: Lago Langano."
+        "text": "Después del desayuno, continúe su viaje hacia la hermosa región de los lagos del Gran Valle del Rift, conduciendo hasta el lago Langano con una parada en el lago Ziway, uno de los destinos importantes para la observación de aves en Etiopía. Ubicado a lo largo del Valle del Rift, el lago Ziway es un paraíso para los entusiastas de las aves y ofrece excelentes oportunidades para observar una amplia variedad de aves acuáticas y especies migratorias. Durante su visita, explore la orilla del lago y busque aves como pelícanos, flamencos, garzas, cigüeñas y martines pescadores. El lago también es conocido por sus comunidades pesqueras locales y sus pintorescos paisajes isleños. Continúe el viaje a través de la hermosa campiña del Valle del Rift hacia el lago Langano, famoso por sus cálidas aguas marrones, playas tranquilas y un relajante entorno natural. Después de llegar a su albergue, disfrute de tiempo para relajarse y disfrutar de las vistas del lago y el bosque circundante. Por la tarde, únase a una caminata nocturna guiada por el bosque para descubrir la vida silvestre escondida que se activa después del atardecer. Con la ayuda de su guía, busque criaturas nocturnas como pequeños mamíferos, búhos y otras especies nocturnas mientras experimenta los sonidos y la atmósfera únicos de la naturaleza etíope al anochecer. Pernocte: Lago Langano."
       },
       {
         "day": "Día 7",
@@ -2131,7 +2131,7 @@
       {
         "day": "Días 8 al 11",
         "title": "Expedición al Parque Nacional de las Montañas Bale",
-        "text": "## Día 8: De Hawassa al Parque Nacional de las Montañas Bale Después del desayuno, conduzca hacia las espectaculares montañas Bale, uno de los destinos de vida silvestre más importantes de Etiopía. A medida que asciendes hacia las tierras altas, disfruta de paisajes cambiantes que van desde pastizales abiertos hasta bosques de montaña y valles espectaculares. Explore las áreas circundantes y busque parte de la vida silvestre distintiva de la región, incluidos servals, caracales, nyala de montaña y antílope de Menelik. El recorrido panorámico y las oportunidades de vida silvestre brindan una emocionante introducción a la extraordinaria biodiversidad de las montañas Bale. ## Día 9: Safari de vida silvestre en la meseta de Sanetti Después del desayuno, salga a explorar la impresionante meseta de Sanetti, un vasto desierto de gran altitud famoso por sus espectaculares paisajes afroalpinos y su vida silvestre única. La meseta es uno de los mejores lugares de Etiopía para buscar al lobo etíope en peligro de extinción, al que a menudo se le ve cazando ratas topo gigantes en las praderas abiertas. Esté atento a otros animales salvajes de las tierras altas y disfrute del espectacular paisaje de las montañas, los valles y los paisajes volcánicos de Bale. Pase el día explorando este extraordinario ecosistema y experimentando uno de los destinos de vida silvestre más extraordinarios de Etiopía. ## Día 10: Tierras Altas de Bale y Bosque de Harenna Continúe explorando los diversos ecosistemas de las Montañas Bale, viajando desde los pastizales abiertos de las tierras altas hacia el exuberante bosque de Harenna. Este dramático cambio de altitud crea una notable variedad de hábitats y vida silvestre. Disfrute de la observación de la vida silvestre y de paseos por la naturaleza durante el día mientras explora la rica biodiversidad del bosque. Por la noche, embárquese en un emocionante safari nocturno en busca de vida silvestre nocturna y experimente el bosque mientras cobra vida después del atardecer. ## Día 11: Bosque de Harenna a Goba Después del desayuno, continúe explorando los bosques y pastizales de menor altitud de la región de Bale. Descubra la rica biodiversidad del área mientras disfruta de tranquilos paseos por la naturaleza, paisajes pintorescos y oportunidades para observar la vida silvestre. Más tarde, comience su viaje de regreso hacia Goba, contemplando el paisaje cambiante de las tierras altas de Bale a lo largo del camino. Disfrute de una relajante última noche en la región y reflexione sobre la inolvidable vida silvestre y los paisajes experimentados durante su safari en Etiopía. Noche: Goba."
+        "text": "## Día 8: De Hawassa al Parque Nacional de las Montañas Bale Después del desayuno, conduzca hacia las espectaculares montañas Bale, uno de los destinos de vida silvestre más importantes de Etiopía. A medida que asciende hacia las tierras altas, disfrute de paisajes cambiantes que van desde pastizales abiertos hasta bosques de montaña y valles espectaculares. Explore las áreas circundantes y busque parte de la vida silvestre distintiva de la región, incluidos servals, caracales, nyala de montaña y antílope de Menelik. El recorrido panorámico y las oportunidades de vida silvestre brindan una emocionante introducción a la extraordinaria biodiversidad de las montañas Bale. ## Día 9: Safari de vida silvestre en la meseta de Sanetti Después del desayuno, salga a explorar la impresionante meseta de Sanetti, un vasto desierto de gran altitud famoso por sus espectaculares paisajes afroalpinos y su vida silvestre única. La meseta es uno de los mejores lugares de Etiopía para buscar al lobo etíope en peligro de extinción, al que a menudo se le ve cazando ratas topo gigantes en las praderas abiertas. Esté atento a otros animales salvajes de las tierras altas y disfrute del espectacular paisaje de las montañas, los valles y los paisajes volcánicos de Bale. Pase el día explorando este extraordinario ecosistema y experimentando uno de los destinos de vida silvestre más extraordinarios de Etiopía. ## Día 10: Tierras Altas de Bale y Bosque de Harenna Continúe explorando los diversos ecosistemas de las Montañas Bale, viajando desde los pastizales abiertos de las tierras altas hacia el exuberante bosque de Harenna. Este dramático cambio de altitud crea una notable variedad de hábitats y vida silvestre. Disfrute de la observación de la vida silvestre y de paseos por la naturaleza durante el día mientras explora la rica biodiversidad del bosque. Por la noche, embárquese en un emocionante safari nocturno en busca de vida silvestre nocturna y experimente el bosque mientras cobra vida después del atardecer. ## Día 11: Bosque de Harenna a Goba Después del desayuno, continúe explorando los bosques y pastizales de menor altitud de la región de Bale. Descubra la rica biodiversidad del área mientras disfruta de tranquilos paseos por la naturaleza, paisajes pintorescos y oportunidades para observar la vida silvestre. Más tarde, comience su viaje de regreso hacia Goba, contemplando el paisaje cambiante de las tierras altas de Bale a lo largo del camino. Disfrute de una relajante última noche en la región y reflexione sobre la inolvidable vida silvestre y los paisajes experimentados durante su safari en Etiopía. Noche: Goba."
       },
       {
         "day": "Día 12",
@@ -2141,20 +2141,20 @@
     ],
     "places": [
       "Addis Abeba",
-      "gondar",
+      "Gondar",
       "Montañas Simien",
       "Parque Nacional Awash",
       "Alledeghi",
       "Lagos del valle del Rift",
       "Abijatta-Shalla",
-      "Senkel",
+      "Senkelle",
       "Awasa",
       "Montañas Bale"
     ]
   },
   "17-day-ethiopia-wildlife-safari": {
     "title": "Safari de vida silvestre en Etiopía de 17 días",
-    "days": "17 dias",
+    "days": "17 días",
     "style": "Vida Silvestre · Observación de Aves",
     "season": "Octubre a marzo",
     "from": "A pedido",
@@ -2180,7 +2180,7 @@
       {
         "day": "Día 1",
         "title": "Llegada a Addis Abeba",
-        "text": "A su llegada al aeropuerto internacional Bole de Addis Abeba, su guía le dará una cálida bienvenida y le trasladará a su hotel. Ubicada en el corazón de Etiopía, Addis Abeba es el centro político, cultural y económico del país, así como una puerta de entrada a su rica historia y diversos paisajes. Tómate el tiempo para instalarte, relajarte después de tu viaje y prepararte para la inolvidable aventura que te espera. Dependiendo de su hora de llegada, podrá disfrutar de una breve introducción a la ciudad o experimentar una ceremonia tradicional del café etíope. Alojamiento: Addis Abeba."
+        "text": "A su llegada al aeropuerto internacional Bole de Addis Abeba, su guía le dará una cálida bienvenida y le trasladará a su hotel. Ubicada en el corazón de Etiopía, Addis Abeba es el centro político, cultural y económico del país, así como una puerta de entrada a su rica historia y diversos paisajes. Tómese tiempo para instalarse, descansar del viaje y prepararse para la inolvidable aventura que le espera. Dependiendo de su hora de llegada, podrá disfrutar de una breve introducción a la ciudad o experimentar una ceremonia tradicional del café etíope. Alojamiento: Addis Abeba."
       },
       {
         "day": "Día 2",
@@ -2265,14 +2265,14 @@
     ],
     "places": [
       "Addis Abeba",
-      "gondar",
+      "Gondar",
       "Montañas Simien",
       "Dire Dawa",
       "Harar",
       "Alledeghi",
       "Parque Nacional Awash",
       "Lagos del valle del Rift",
-      "Senkel",
+      "Senkelle",
       "Awasa",
       "Montañas Bale",
       "Bosque de Harenna"
@@ -2280,7 +2280,7 @@
   },
   "3-day-awash-national-park-safari": {
     "title": "Safari de 3 días en el Parque Nacional Awash",
-    "days": "3 dias",
+    "days": "3 días",
     "style": "Vida silvestre",
     "season": "Octubre a abril",
     "from": "A pedido",
@@ -2310,7 +2310,7 @@
       {
         "day": "Día 2",
         "title": "Excursión en el Parque Nacional Awash y sus alrededores",
-        "text": "Comience el día con una emocionante excursión a las estribaciones del monte Fentale, un volcán extinto que se eleva espectacularmente sobre el paisaje circundante. Disfrute de una caminata panorámica por las laderas más bajas, donde podrá admirar impresionantes vistas panorámicas del Parque Nacional Awash, el Gran Valle del Rift y las vastas tierras bajas que se extienden hacia el horizonte. El paisaje volcánico de la zona, su vegetación única y su atmósfera tranquila la convierten en una experiencia gratificante para los amantes de la naturaleza y los fotógrafos. Después de un almuerzo tipo picnic rodeado de la belleza de la naturaleza, regrese a Doho Lodge por un tiempo para relajarse y disfrutar de las aguas termales naturales. Rodeadas de palmeras y paisajes tranquilos, las cálidas aguas minerales brindan la oportunidad perfecta para relajarse después de la aventura de la mañana. Por la tarde, continúa tu exploración con una visita al lago Beseka, un tranquilo lago volcánico ubicado cerca del parque. El lago atrae una variedad de aves, incluidos flamencos y aves acuáticas, lo que lo convierte en un excelente lugar para la observación de aves y la fotografía. Cuando el día llegue a su fin, visite la cercana Cueva de la Hiena, donde tendrá la rara oportunidad de presenciar un fascinante espectáculo de vida salvaje. Justo antes del atardecer, grupos de 20 a 30 hienas suelen emerger de las sombras, ofreciendo una oportunidad única de observar estos extraordinarios animales en su entorno natural. Regrese a Doho Lodge para pasar una tarde relajante, disfrutando de los tranquilos alrededores y del claro cielo nocturno de las tierras bajas del este de Etiopía. Alojamiento: Doho Lodge."
+        "text": "Comience el día con una emocionante excursión a las estribaciones del monte Fentale, un volcán extinto que se eleva espectacularmente sobre el paisaje circundante. Disfrute de una caminata panorámica por las laderas más bajas, donde podrá admirar impresionantes vistas panorámicas del Parque Nacional Awash, el Gran Valle del Rift y las vastas tierras bajas que se extienden hacia el horizonte. El paisaje volcánico de la zona, su vegetación única y su atmósfera tranquila la convierten en una experiencia gratificante para los amantes de la naturaleza y los fotógrafos. Después de un almuerzo tipo picnic rodeado de la belleza de la naturaleza, regrese a Doho Lodge por un tiempo para relajarse y disfrutar de las aguas termales naturales. Rodeadas de palmeras y paisajes tranquilos, las cálidas aguas minerales brindan la oportunidad perfecta para relajarse después de la aventura de la mañana. Por la tarde, continúe su exploración con una visita al lago Beseka, un tranquilo lago volcánico ubicado cerca del parque. El lago atrae una variedad de aves, incluidos flamencos y aves acuáticas, lo que lo convierte en un excelente lugar para la observación de aves y la fotografía. Cuando el día llegue a su fin, visite la cercana Cueva de la Hiena, donde tendrá la rara oportunidad de presenciar un fascinante espectáculo de vida salvaje. Justo antes del atardecer, grupos de 20 a 30 hienas suelen emerger de las sombras, ofreciendo una oportunidad única de observar estos extraordinarios animales en su entorno natural. Regrese a Doho Lodge para pasar una tarde relajante, disfrutando de los tranquilos alrededores y del claro cielo nocturno de las tierras bajas del este de Etiopía. Alojamiento: Doho Lodge."
       },
       {
         "day": "Día 3",
@@ -2321,13 +2321,13 @@
     "places": [
       "Addis Abeba",
       "Parque Nacional Awash",
-      "Cataratas inundadas",
-      "aguas termales de doho"
+      "Cataratas del Awash",
+      "Aguas termales de Doho"
     ]
   },
   "3-day-bale-mountains-wildlife": {
     "title": "3 días de vida salvaje y naturaleza en las montañas Bale",
-    "days": "3 dias",
+    "days": "3 días",
     "style": "Vida silvestre",
     "season": "Octubre a abril",
     "from": "A pedido",
@@ -2368,7 +2368,7 @@
     ],
     "places": [
       "Addis Abeba",
-      "bata",
+      "Robe",
       "Montañas Bale",
       "Meseta de Sanetti",
       "Tulu Dimtu",
@@ -2377,7 +2377,7 @@
   },
   "4-day-simien-trekking-and-wildlife": {
     "title": "Trekking y vida salvaje de 4 días en las montañas Simien",
-    "days": "4 dias",
+    "days": "4 días",
     "style": "Vida Silvestre · Trekking",
     "season": "Octubre a marzo",
     "from": "A pedido",
@@ -2415,7 +2415,7 @@
       {
         "day": "Día 3",
         "title": "Mirador Imet Gogo y caminata al campamento Chenek",
-        "text": "La caminata de hoy es el día más pintoresco y gratificante del viaje, y lo llevará a través de algunos de los paisajes más espectaculares del Parque Nacional de las Montañas Simien. Comience la mañana caminando por vastos campos de lobelia gigante, una planta afroalpina única que prospera en el entorno de gran altitud de las montañas Simien. Continúe hacia Imet Gogo, a 3.926 metros, uno de los miradores más impresionantes de Etiopía. Desde este espectacular afloramiento rocoso, disfrute de inolvidables vistas panorámicas de 360 ​​grados de las mesetas circundantes, los valles profundos y las interminables cadenas montañosas. El mirador ofrece una de las mejores perspectivas de la belleza escarpada que hace famosas las montañas Simien. Luego, el sendero continúa a lo largo de espectaculares bordes de acantilados y desciende hacia el valle del río Jinbahir, revelando una perspectiva diferente de los antiguos paisajes volcánicos, las profundas gargantas y los espectaculares acantilados del parque. Continúe su caminata hacia una cumbre que alcanza aproximadamente 4070 metros, donde se detendrá para disfrutar de un almuerzo tipo picnic rodeado de increíbles vistas de las montañas. Después del almuerzo, descenderemos gradualmente hacia el campamento Chenek, uno de los más bellos de las montañas Simien. Ubicado entre espectaculares acantilados y pastizales abiertos, Chenek es también uno de los mejores lugares del parque para observar la vida silvestre. Al final de la tarde, relájese y disfrute del ambiente tranquilo de las montañas. Mantenga su cámara lista para tener la posibilidad de observar la cabra montés Walia, la icónica cabra montesa endémica de Etiopía, que a menudo se puede ver moviéndose a lo largo de los acantilados y laderas cercanas al campamento. Mientras el sol se pone sobre la escarpa de Simien, disfrute de los cielos despejados de las montañas y de la inolvidable sensación de estar rodeado por uno de los paisajes salvajes más grandes de África. Alojamiento: Campamento Chenek."
+        "text": "La caminata de hoy es el día más pintoresco y gratificante del viaje, y lo llevará a través de algunos de los paisajes más espectaculares del Parque Nacional de las Montañas Simien. Comience la mañana caminando por vastos campos de lobelia gigante, una planta afroalpina única que prospera en el entorno de gran altitud de las montañas Simien. Continúe hacia Imet Gogo, a 3.926 metros, uno de los miradores más impresionantes de Etiopía. Desde este espectacular afloramiento rocoso, disfrute de inolvidables vistas panorámicas de 360 grados de las mesetas circundantes, los valles profundos y las interminables cadenas montañosas. El mirador ofrece una de las mejores perspectivas de la belleza escarpada que hace famosas las montañas Simien. Luego, el sendero continúa a lo largo de espectaculares bordes de acantilados y desciende hacia el valle del río Jinbahir, revelando una perspectiva diferente de los antiguos paisajes volcánicos, las profundas gargantas y los espectaculares acantilados del parque. Continúe su caminata hacia una cumbre que alcanza aproximadamente 4070 metros, donde se detendrá para disfrutar de un almuerzo tipo picnic rodeado de increíbles vistas de las montañas. Después del almuerzo, descenderemos gradualmente hacia el campamento Chenek, uno de los más bellos de las montañas Simien. Ubicado entre espectaculares acantilados y pastizales abiertos, Chenek es también uno de los mejores lugares del parque para observar la vida silvestre. Al final de la tarde, relájese y disfrute del ambiente tranquilo de las montañas. Mantenga su cámara lista para tener la posibilidad de observar la cabra montés Walia, la icónica cabra montesa endémica de Etiopía, que a menudo se puede ver moviéndose a lo largo de los acantilados y laderas cercanas al campamento. Mientras el sol se pone sobre la escarpa de Simien, disfrute de los cielos despejados de las montañas y de la inolvidable sensación de estar rodeado por uno de los paisajes salvajes más grandes de África. Alojamiento: Campamento Chenek."
       },
       {
         "day": "Día 4",
@@ -2424,9 +2424,9 @@
       }
     ],
     "places": [
-      "gondar",
+      "Gondar",
       "Montañas Simien",
-      "gich",
+      "Gich",
       "Imet Gogo",
       "Chenek",
       "Buwahit"
@@ -2434,7 +2434,7 @@
   },
   "2-day-awash-national-park": {
     "title": "Parque Nacional Awash de 2 días",
-    "days": "2 dias",
+    "days": "2 días",
     "style": "Vida Silvestre · Excursión de un día",
     "season": "Octubre a abril",
     "from": "A pedido",
@@ -2467,11 +2467,11 @@
         "text": "Comience la mañana con un safari corto o una experiencia de observación de aves antes del desayuno. También puede visitar las cercanas aguas termales de Filwoha (opcional) antes de comenzar el viaje de regreso a Addis Abeba. Disfrute del almuerzo en el camino y luego llegue a Addis Abeba para disfrutar de una cena cultural tradicional etíope con platos locales, música, danza y una ceremonia del café. Posteriormente, será trasladado al aeropuerto para su salida."
       }
     ],
-    "places": ["Addis Abeba", "Parque Nacional Awash", "Cataratas inundadas"]
+    "places": ["Addis Abeba", "Parque Nacional Awash", "Cataratas del Awash"]
   },
   "2-day-abijatta-shalla": {
     "title": "2 días Abijatta-Shalla y lago Langano",
-    "days": "2 dias",
+    "days": "2 días",
     "style": "Vida silvestre · Observación de aves · Excursión de un día",
     "season": "Septiembre a mayo",
     "from": "A pedido",
@@ -2496,7 +2496,7 @@
       {
         "day": "Día 1",
         "title": "Addis Abeba, Langano",
-        "text": "¡Bienvenidos a Etiopía! A tu llegada, te recibiremos en el aeropuerto y comenzaremos nuestro viaje hacia el lago Langano, el único lago del Valle del Rift en Etiopía seguro y cómodo para nadar. En el camino, nos detendremos en el río Awash y el lago Ziway para disfrutar de la observación de aves y observar una variedad de aves acuáticas, incluidas cigüeñas, jacanas grandes, águilas pescadoras africanas, dardos, garzas y abubillas. Después del almuerzo en la ciudad de Ziway, continuamos hacia el lago Langano. A su llegada, podrá relajarse y disfrutar del tranquilo entorno junto al lago. Por la noche, disfrute de una cena en el albergue y pase la noche junto al lago."
+        "text": "¡Bienvenido a Etiopía! A su llegada, le recibiremos en el aeropuerto y comenzaremos nuestro viaje hacia el lago Langano, el único lago del Valle del Rift en Etiopía seguro y cómodo para nadar. En el camino, nos detendremos en el río Awash y el lago Ziway para disfrutar de la observación de aves y observar una variedad de aves acuáticas, incluidas cigüeñas, jacanas grandes, águilas pescadoras africanas, dardos, garzas y abubillas. Después del almuerzo en la ciudad de Ziway, continuamos hacia el lago Langano. A su llegada, podrá relajarse y disfrutar del tranquilo entorno junto al lago. Por la noche, disfrute de una cena en el albergue y pase la noche junto al lago."
       },
       {
         "day": "Día 2",
@@ -2513,8 +2513,8 @@
   },
   "3-day-simien-mountains-trek": {
     "title": "Caminata de 3 días por las montañas Simien",
-    "days": "3 dias",
-    "style": "senderismo",
+    "days": "3 días",
+    "style": "Senderismo",
     "season": "Octubre a marzo",
     "from": "A pedido",
     "group": "1 a 8 invitados",
@@ -2554,12 +2554,12 @@
         "text": "Después de un desayuno temprano, disfrute de sus momentos finales en las impresionantes montañas Simien antes de salir de excursión y conducir de regreso a Gondar. En el camino, disfrute de las últimas vistas de los espectaculares paisajes montañosos, los profundos valles y los espectaculares acantilados que hacen de las montañas Simien uno de los destinos de senderismo más destacados de África. A su llegada a Gondar, traslado al aeropuerto para tomar su vuelo de Lebanon Airlines de regreso a Addis Abeba. Dependiendo del horario de su vuelo, es posible que tenga algo de tiempo libre para relajarse o explorar la ciudad antes del programa nocturno. Por la noche, disfrute de una memorable cena cultural de despedida en uno de los famosos restaurantes tradicionales de Addis Abeba. Saboree una variedad de auténticos platos etíopes mientras disfruta de vibrantes espectáculos culturales con música y bailes tradicionales de los diversos grupos étnicos de Etiopía. La velada ofrece una maravillosa oportunidad para celebrar el rico patrimonio cultural de Etiopía y reflexionar sobre las experiencias inolvidables de su viaje. Para concluir su aventura, participe en una ceremonia tradicional del café etíope, un símbolo importante de la hospitalidad y la cultura etíopes. Después de la cena, traslado al aeropuerto internacional Bole de Addis Abeba para su salida internacional. Fin del recorrido"
       }
     ],
-    "places": ["Addis Abeba", "gondar", "Montañas Simien", "Sankaber", "gich"]
+    "places": ["Addis Abeba", "Gondar", "Montañas Simien", "Sankaber", "Gich"]
   },
   "5-day-simien-mountains-trek": {
     "title": "Caminata de 5 días por las montañas Simien",
-    "days": "5 dias",
-    "style": "senderismo",
+    "days": "5 días",
+    "style": "Senderismo",
     "season": "Octubre a marzo",
     "from": "A pedido",
     "group": "1 a 8 invitados",
@@ -2611,17 +2611,17 @@
     ],
     "places": [
       "Addis Abeba",
-      "gondar",
+      "Gondar",
       "Montañas Simien",
       "Sankaber",
-      "gich",
+      "Gich",
       "Inatye",
       "Chenek"
     ]
   },
   "3-day-bale-mountains-trek": {
     "title": "Caminata de 3 días por las montañas Bale",
-    "days": "3 dias",
+    "days": "3 días",
     "style": "Trekking · Vida Silvestre",
     "season": "Octubre a abril",
     "from": "A pedido",
@@ -2670,7 +2670,7 @@
   },
   "4-day-bale-mountains-trek": {
     "title": "Caminata de 4 días por las montañas Bale",
-    "days": "4 dias",
+    "days": "4 días",
     "style": "Trekking · Vida Silvestre",
     "season": "Octubre a abril",
     "from": "A pedido",
@@ -2710,7 +2710,7 @@
       {
         "day": "Día 4",
         "title": "Montañas Bale, regreso a Addis Abeba, salida",
-        "text": "Después del desayuno, comienza tu viaje de regreso a Addis Abeba. A su llegada, disfrute de una cena especial de despedida con una selección de platos tradicionales etíopes y espectáculos de danza cultural que representan a varios de los grupos étnicos del país. Experimente una ceremonia tradicional del café etíope para concluir su viaje. Más tarde en la noche, lo trasladarán al aeropuerto para su salida internacional o conexión posterior."
+        "text": "Después del desayuno, comience su viaje de regreso a Addis Abeba. A su llegada, disfrute de una cena especial de despedida con una selección de platos tradicionales etíopes y espectáculos de danza cultural que representan a varios de los grupos étnicos del país. Experimente una ceremonia tradicional del café etíope para concluir su viaje. Más tarde en la noche, lo trasladarán al aeropuerto para su salida internacional o conexión posterior."
       }
     ],
     "places": [
@@ -2723,7 +2723,7 @@
   },
   "6-day-bale-mountains-trek": {
     "title": "Montañas Bale de 6 días y valle del Rift",
-    "days": "6 dias",
+    "days": "6 días",
     "style": "Trekking · Vida Silvestre",
     "season": "Octubre a abril",
     "from": "A pedido",
@@ -2779,7 +2779,7 @@
     "places": [
       "Addis Abeba",
       "Dinsho",
-      "goba",
+      "Goba",
       "Montañas Bale",
       "Meseta de Sanetti",
       "Bosque de Harenna",
@@ -2792,7 +2792,7 @@
   },
   "4-day-lalibela-trek": {
     "title": "Caminata comunitaria de 4 días por Lalibela",
-    "days": "4 dias",
+    "days": "4 días",
     "style": "Senderismo · Culturales",
     "season": "Septiembre a mayo",
     "from": "A pedido",
@@ -2817,8 +2817,8 @@
     "itinerary": [
       {
         "day": "Día 1",
-        "title": "Explora Addis Abeba",
-        "text": "Comience su recorrido con una exploración cultural de la capital de Etiopía. Visite el Museo Etnográfico, ubicado en el antiguo palacio del emperador Haile Selassie, para sumergirse profundamente en las diversas culturas de Etiopía. Continúe hasta el vibrante Mercato, uno de los mercados al aire libre más grandes de África, seguido de una visita a la gran Catedral de la Santísima Trinidad, el lugar de descanso final del emperador Haile Selassie. Relájate y prepárate para la aventura que te espera."
+        "title": "Visita de Addis Abeba",
+        "text": "Comience su recorrido con una exploración cultural de la capital de Etiopía. Visite el Museo Etnográfico, ubicado en el antiguo palacio del emperador Haile Selassie, para sumergirse profundamente en las diversas culturas de Etiopía. Continúe hasta el vibrante Mercato, uno de los mercados al aire libre más grandes de África, seguido de una visita a la gran Catedral de la Santísima Trinidad, el lugar de descanso final del emperador Haile Selassie. Relájese y prepárese para la aventura que le espera."
       },
       {
         "day": "Día 2",
@@ -2839,15 +2839,15 @@
     "places": [
       "Addis Abeba",
       "Lalibela",
-      "Mariam Mekuat",
-      "meskel",
+      "Mekuat Mariam",
+      "Meskel",
       "Wajela",
       "Aterow"
     ]
   },
   "6-day-lalibela-trek-and-churches": {
     "title": "Caminata de 6 días por Lalibela e iglesias excavadas en la roca",
-    "days": "6 dias",
+    "days": "6 días",
     "style": "Trekking · Histórico",
     "season": "Septiembre a mayo",
     "from": "A pedido",
@@ -2872,12 +2872,12 @@
     "itinerary": [
       {
         "day": "Día 1",
-        "title": "Explora Addis Abeba",
+        "title": "Visita de Addis Abeba",
         "text": "Comience su viaje con un recorrido de día completo por la ciudad de Addis Abeba, la capital de Etiopía. Visite el Museo Etnográfico, ubicado en el antiguo palacio del emperador Haile Selassie, para disfrutar de una profunda introducción a las diversas culturas de Etiopía. Continúe hacia Merkato, el mercado al aire libre más grande de África, seguido de una visita a la Catedral de la Santísima Trinidad, el lugar de descanso final del emperador Haile Selassie y otras figuras prominentes de Etiopía."
       },
       {
         "day": "Día 2",
-        "title": "Vuela a Lalibela y explora las iglesias excavadas en la roca",
+        "title": "Vuelo a Lalibela y visita de las iglesias excavadas en la roca",
         "text": "Después del desayuno, tome un vuelo por la mañana a Lalibela, la ciudad montañosa más sagrada de Etiopía. Pase el día explorando las impresionantes iglesias excavadas en la roca, excavadas directamente en las montañas hace más de 900 años. Estas once iglesias medievales están conectadas por túneles y pasadizos y presentan extraordinarias tallas en piedra, pinturas de iconos y un profundo simbolismo espiritual. El complejo incluye Bete Medhane Alem, la iglesia monolítica más grande del mundo."
       },
       {
@@ -2901,11 +2901,11 @@
         "text": "Después del desayuno, traslado al aeropuerto de Lalibela para tomar el vuelo de regreso a Addis Abeba. Por la noche, según el horario de su vuelo, asista a una cena de despedida gratuita ofrecida por Extraordinary Ethiopia Tours. Disfrute de un buffet de cocina tradicional etíope acompañado de música en vivo y espectáculos de danza cultural. Concluya la velada con una auténtica ceremonia del café etíope antes de trasladarse al aeropuerto internacional de Bole para su salida internacional."
       }
     ],
-    "places": ["Addis Abeba", "Lalibela", "Mariam Mekuat", "meskel", "Wajela"]
+    "places": ["Addis Abeba", "Lalibela", "Mekuat Mariam", "Meskel", "Wajela"]
   },
   "4-day-rift-valley-birding": {
     "title": "Observación de aves en el valle del Rift durante 4 días",
-    "days": "4 dias",
+    "days": "4 días",
     "style": "Observación de aves · Vida silvestre",
     "season": "Octubre a abril",
     "from": "A pedido",
@@ -2960,7 +2960,7 @@
   },
   "5-day-rift-valley-and-wondo-genet-birding": {
     "title": "5 días de observación de aves en el valle del Rift y Wondo Genet",
-    "days": "5 dias",
+    "days": "5 días",
     "style": "Observación de aves · Vida silvestre",
     "season": "Octubre a abril",
     "from": "A pedido",
@@ -3018,7 +3018,7 @@
   },
   "7-day-ethiopia-birding": {
     "title": "Observación de aves en Etiopía durante 7 días",
-    "days": "7 dias",
+    "days": "7 días",
     "style": "Observación de aves · Vida silvestre",
     "season": "Octubre a abril",
     "from": "A pedido",
@@ -3088,7 +3088,7 @@
   },
   "2-day-lalibela": {
     "title": "Lalibela de 2 días",
-    "days": "2 dias",
+    "days": "2 días",
     "style": "Histórico · Excursión de un día",
     "season": "Octubre a marzo",
     "from": "A pedido",
@@ -3184,10 +3184,10 @@
       {
         "day": "Día completo",
         "title": "Addis Abeba, Adadi Mariam, Tiya, Addis Abeba",
-        "text": "Su guía lo recogerá de su hotel en Addis Abeba por la mañana y comenzará el viaje hacia el sur por la pintoresca carretera Butajira. La primera parada es Adadi Mariam, una extraordinaria iglesia excavada en la roca del siglo XII que se cree tiene conexiones con el rey Lalibela. Tallada en roca volcánica y todavía utilizada para el culto en la actualidad, la iglesia ofrece una visión fascinante de las antiguas tradiciones religiosas y la cultura local de Etiopía. Continúe hasta el sitio arqueológico de Tiya, declarado Patrimonio de la Humanidad por la UNESCO, conocido por sus misteriosas estelas de piedra talladas. Aquí se encuentran más de 40 piedras decoradas, con símbolos y diseños únicos que se cree que están asociados con antiguas tradiciones funerarias. Después de explorar estos sitios históricos, disfrute de un almuerzo tradicional etíope en un restaurante local antes de regresar a Addis Abeba. Llegará a última hora de la tarde y será trasladado de regreso a su hotel. Una excursión de un día perfecta para viajeros interesados ​​en la historia antigua, la cultura y los tesoros escondidos de Etiopía."
+        "text": "Su guía lo recogerá de su hotel en Addis Abeba por la mañana y comenzará el viaje hacia el sur por la pintoresca carretera Butajira. La primera parada es Adadi Mariam, una extraordinaria iglesia excavada en la roca del siglo XII que se cree tiene conexiones con el rey Lalibela. Tallada en roca volcánica y todavía utilizada para el culto en la actualidad, la iglesia ofrece una visión fascinante de las antiguas tradiciones religiosas y la cultura local de Etiopía. Continúe hasta el sitio arqueológico de Tiya, declarado Patrimonio de la Humanidad por la UNESCO, conocido por sus misteriosas estelas de piedra talladas. Aquí se encuentran más de 40 piedras decoradas, con símbolos y diseños únicos que se cree que están asociados con antiguas tradiciones funerarias. Después de explorar estos sitios históricos, disfrute de un almuerzo tradicional etíope en un restaurante local antes de regresar a Addis Abeba. Llegará a última hora de la tarde y será trasladado de regreso a su hotel. Una excursión de un día perfecta para viajeros interesados en la historia antigua, la cultura y los tesoros escondidos de Etiopía."
       }
     ],
-    "places": ["Addis Abeba", "Mariam Adadi", "tiya"]
+    "places": ["Addis Abeba", "Adadi Mariam", "Tiya"]
   },
   "debre-libanos-and-blue-nile-gorge-day-trip": {
     "title": "Excursión de un día a Debre Libanos y el desfiladero del Nilo Azul",
@@ -3214,7 +3214,7 @@
       {
         "day": "Día completo",
         "title": "Addis Abeba, Debre Libanos, Garganta del Nilo Azul, Addis Abeba",
-        "text": "Su día comienza con una recogida por la mañana en su hotel en Addis Abeba, seguido de un recorrido panorámico por las montañas Entoto y las hermosas tierras altas del centro-norte de Etiopía. La primera parada es el Monasterio Debre Libanos, un importante centro espiritual rodeado de espectaculares acantilados y belleza natural. Explora el monasterio, visita el museo cercano y aprende sobre la historia y las tradiciones religiosas de este sitio sagrado. Continúe con una corta caminata hasta el Puente Portugués, donde podrá disfrutar de impresionantes vistas de la garganta del río Jemma y buscar especies de aves endémicas y babuinos Gelada. El viaje continúa hacia la espectacular Garganta del Nilo Azul, una vasta maravilla natural excavada en lo profundo de las tierras altas de Etiopía. Disfrute de puntos de vista panorámicos, capture fotografías impresionantes y aprecie la impresionante escala de este espectacular paisaje. Después del almuerzo, regrese a Addis Abeba y llegue al final de la tarde o temprano en la noche, con traslado de regreso a su hotel. Un viaje de un día perfecto que combina el patrimonio espiritual, la vida silvestre y los paisajes montañosos inolvidables de Etiopía."
+        "text": "Su día comienza con una recogida por la mañana en su hotel en Addis Abeba, seguido de un recorrido panorámico por las montañas Entoto y las hermosas tierras altas del centro-norte de Etiopía. La primera parada es el Monasterio Debre Libanos, un importante centro espiritual rodeado de espectaculares acantilados y belleza natural. Explore el monasterio, visite el museo cercano y conozca la historia y las tradiciones religiosas de este sitio sagrado. Continúe con una corta caminata hasta el Puente Portugués, donde podrá disfrutar de impresionantes vistas de la garganta del río Jemma y buscar especies de aves endémicas y babuinos Gelada. El viaje continúa hacia la espectacular Garganta del Nilo Azul, una vasta maravilla natural excavada en lo profundo de las tierras altas de Etiopía. Disfrute de puntos de vista panorámicos, capture fotografías impresionantes y aprecie la impresionante escala de este espectacular paisaje. Después del almuerzo, regrese a Addis Abeba y llegue al final de la tarde o temprano en la noche, con traslado de regreso a su hotel. Un viaje de un día perfecto que combina el patrimonio espiritual, la vida silvestre y los paisajes montañosos inolvidables de Etiopía."
       }
     ],
     "places": [
@@ -3257,7 +3257,7 @@
   },
   "9-day-highlands-and-wildlife": {
     "title": "9 días de tierras altas y vida silvestre",
-    "days": "9 dias",
+    "days": "9 días",
     "style": "Vida Silvestre · Trekking",
     "season": "Octubre a marzo",
     "from": "A pedido",
@@ -3306,7 +3306,7 @@
     ],
     "places": [
       "Addis Abeba",
-      "gondar",
+      "Gondar",
       "Montañas Simien",
       "Ziway",
       "Montañas Bale",

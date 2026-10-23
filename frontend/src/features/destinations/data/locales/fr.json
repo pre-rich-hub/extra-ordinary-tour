@@ -250,7 +250,7 @@
     ]
   },
   "yeha": {
-    "name": "Ouais",
+    "name": "Yeha",
     "region": "Nord historique",
     "tag": "Archéologie",
     "teaser": "Le bâtiment le plus ancien d’Éthiopie : un temple vieux de 2 500 ans près d’Axum.",
@@ -344,7 +344,7 @@
       "Vols faciles depuis Addis-Abeba"
     ],
     "paragraphs": [
-      "Dire Dawa a été fondée en 1902 lorsque le chemin de fer Ethiopie-Djibouti a atteint la région, et est rapidement devenue une plaque tournante du commerce et de l'industrie. Ses rues bordées d'arbres, ses bâtiments à arcades et son atmosphère multiculturelle la rendent unique en son genre en Éthiopie.",
+      "Dire Dawa a été fondée en 1902 lorsque le chemin de fer Éthiopie-Djibouti a atteint la région, et est rapidement devenue une plaque tournante du commerce et de l'industrie. Ses rues bordées d'arbres, ses bâtiments à arcades et son atmosphère multiculturelle la rendent unique en son genre en Éthiopie.",
       "La plupart des voyageurs passent par là en direction de Harar, à environ une heure de route, mais les marchés, le patrimoine ferroviaire et le rythme détendu valent à eux seuls quelques heures."
     ]
   },
@@ -630,7 +630,7 @@
     ]
   },
   "mago-national-park": {
-    "name": "Parc National de Magó",
+    "name": "Parc national de Mago",
     "region": "Nature et faune",
     "tag": "Nature sauvage",
     "teaser": "Savane et forêt riveraine sur l'Omo, patrie du peuple Mursi.",
@@ -690,7 +690,7 @@
     ]
   },
   "gambella-national-park": {
-    "name": "Parc National Gambella",
+    "name": "Parc national de Gambella",
     "region": "Nature et faune",
     "tag": "Migration de la faune",
     "teaser": "L’ouest tropical de l’Éthiopie, avec la grande migration du cobe à oreilles blanches.",
@@ -850,7 +850,7 @@
     ]
   },
   "banna-people": {
-    "name": "Les gens de Banna",
+    "name": "Peuple Banna",
     "region": "Sud de l'Éthiopie et vallée de l'Omo",
     "tag": "Personnes et culture",
     "teaser": "Voisins des Highlands du Hamar, célèbres pour leurs promenades sur échasses et leur apiculture.",
@@ -870,7 +870,7 @@
     ]
   },
   "arbore-people": {
-    "name": "Arborer les gens",
+    "name": "Peuple Arbore",
     "region": "Sud de l'Éthiopie et vallée de l'Omo",
     "tag": "Personnes et culture",
     "teaser": "Des pasteurs des plaines sèches près du lac Chew Bahir, avec des foulards noirs frappants.",
@@ -950,7 +950,7 @@
     ]
   },
   "surma-people": {
-    "name": "Les gens de Surma (Suri)",
+    "name": "Peuple Surma (Suri)",
     "region": "Sud de l'Éthiopie et vallée de l'Omo",
     "tag": "Personnes et culture",
     "teaser": "Éleveurs de bétail isolés de Kibish, connus pour leurs œuvres d'art corporel, leurs plaques à lèvres et leurs Donga.",

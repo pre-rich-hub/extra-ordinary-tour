@@ -1,4 +1,3 @@
-import { useCopy } from '@/i18n/copy'
 // Third-party brand marks (social networks, review platforms, payment
 // providers), drawn inline in each brand's own colours.
 
@@ -91,8 +90,6 @@ export function XIcon() {
 }
 
 export function ViatorMark() {
-  const copy = useCopy()
-
   return (
     <span className="font-sans text-[1.6rem] font-bold tracking-[-0.03em] text-[#186b6d]">
       {'viator'}
@@ -101,8 +98,6 @@ export function ViatorMark() {
 }
 
 export function TripadvisorMark() {
-  const copy = useCopy()
-
   return (
     <span className="flex items-center gap-1.5">
       <svg viewBox="0 0 32 32" aria-hidden className="h-7 w-7 shrink-0">
@@ -134,51 +129,43 @@ export function TripadvisorMark() {
         />
       </svg>
       <span className="font-sans text-[15px] font-bold tracking-[-0.01em] text-black sm:text-base">
-        {copy('Tripadvisor')}
+        Tripadvisor
       </span>
     </span>
   )
 }
 
 export function SafariBookingsMark() {
-  const copy = useCopy()
-
   return (
     <span className="font-serif text-[13px] font-medium uppercase tracking-[0.12em] text-[#5a4632] sm:text-[14px]">
-      {copy('SafariBookings')}
+      SafariBookings
     </span>
   )
 }
 
 export function SafariGoMark() {
-  const copy = useCopy()
-
   return (
     <span className="font-sans text-[1.35rem] font-extrabold tracking-[-0.02em] text-[#2e7d32]">
-      {copy('Safari')}
-      <span className="text-[#f39200]">{copy('Go')}</span>
+      Safari
+      <span className="text-[#f39200]">Go</span>
     </span>
   )
 }
 
 export function GetYourGuideMark() {
-  const copy = useCopy()
-
   return (
     <span className="flex flex-col font-sans text-[13px] font-black uppercase leading-[0.95] text-[#ff5533]">
-      <span>{copy('Get')}</span>
-      <span>{copy('Your')}</span>
-      <span>{copy('Guide')}</span>
+      <span>Get</span>
+      <span>Your</span>
+      <span>Guide</span>
     </span>
   )
 }
 
 export function VisaMark() {
-  const copy = useCopy()
-
   return (
     <span className="font-sans text-[1.9rem] font-black italic tracking-[-0.02em] text-[#1a1f71]">
-      {copy('VISA')}
+      VISA
     </span>
   )
 }
@@ -194,8 +181,6 @@ export function MastercardMark() {
 }
 
 export function PayPalMark() {
-  const copy = useCopy()
-
   return (
     <span className="flex items-center gap-1 font-sans text-[1.35rem] font-extrabold italic tracking-[-0.02em]">
       <svg viewBox="0 0 24 24" aria-hidden className="h-6 w-6">
@@ -208,8 +193,8 @@ export function PayPalMark() {
           fill="#009CDE"
         />
       </svg>
-      <span className="text-[#003087]">{copy('Pay')}</span>
-      <span className="-ml-1 text-[#009CDE]">{copy('Pal')}</span>
+      <span className="text-[#003087]">Pay</span>
+      <span className="-ml-1 text-[#009CDE]">Pal</span>
     </span>
   )
 }
