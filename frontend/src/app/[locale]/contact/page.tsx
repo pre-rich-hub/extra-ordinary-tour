@@ -11,6 +11,7 @@ import { Reveal } from '@/components/ui/reveal'
 import { EnquiryForm } from '@/features/enquiry/components/enquiry-form'
 import { ContactDetails } from '@/features/contact/components/contact-details'
 import { PlanningSteps } from '@/features/contact/components/planning-steps'
+import { ContactFaq } from '@/features/contact/components/contact-faq'
 import { ContactPromises } from '@/features/contact/components/contact-promises'
 
 export async function generateMetadata({
@@ -90,6 +91,9 @@ export default async function ContactPage({
 
       {/* Process */}
       <PlanningSteps />
+
+      {/* Planning questions */}
+      <ContactFaq />
 
       {/* Promises */}
       <ContactPromises />

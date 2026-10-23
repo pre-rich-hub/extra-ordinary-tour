@@ -1,6 +1,6 @@
 # GEO implementation plan
 
-Prepared: 2026-10-23. Status: **G1 complete in the repository (training-crawler decision pending with the client); G0, G2–G5 not started**.
+Prepared: 2026-10-23. Status: **G1 complete in the repository (training-crawler decision pending with the client); G2 partly complete (tour and contact FAQs; planning content needs client facts); G0, G3–G5 not started**.
 
 Implement one phase at a time. For each phase, record changed files, checks, results and any dependency before moving to the next phase. This document does not authorize deployment or changes to external accounts.
 
@@ -76,15 +76,17 @@ G1 result: the crawler list and the training decision live in `src/lib/seo/crawl
 
 Tasks:
 
-- [ ] **Quick facts.** On tour pages, confirm or add a labelled block near the top: duration, start/end, route (linked destinations), best season, group size, price from (only when the booking API supplies a real price), what is included. On destination pages: region, altitude, best time, suggested time, nearest airport/how to get there (only if sourced). Each fact on its own line with its label, so a single sentence can be quoted.
-- [ ] **Direct answers.** Start each tour summary and destination intro with one or two plain sentences that answer "what is this and who is it for" before the narrative copy.
-- [ ] **Visible FAQs.** Add short question-and-answer sections to tour, destination and planning pages, drawn from the G0 questions and from what the client is actually asked. Use real HTML headings and text; no `FAQPage` markup.
-- [ ] **Planning content.** Draft practical pages or articles that answer recurring questions (visas and e-visa, best time to visit by region, altitude and health, getting around, layover tours, costs), each citing official sources and carrying a review date. Client reviews every fact before publishing.
-- [ ] **Freshness.** Show a "last reviewed" date only where someone actually reviewed the content; expose it as `dateModified` in the existing JSON-LD.
-- [ ] **Translation.** Add new copy through the existing `copy()`/catalogue system so `i18n:audit` keeps passing in all three languages.
-- [ ] Extend `seo:schema`/`seo:routes` assertions for new sections (one H1, no skipped heading levels, facts match catalogue data).
+- [x] **Quick facts.** Already present before G2: the page hero shows a labelled `<dl>` (tours: duration, season, group size, price; destinations: best time, suggested stay, altitude, region), and the tour pricing card repeats duration, group size, best season and start/finish. Places link to their destination guides (SEO Phase 4). Nearest airport/how to get there is not in the catalogue and needs client-supplied facts.
+- [x] **Direct answers.** Already present: tour teasers/summaries and destination intros open with a plain statement of what the place or journey is. No rewrite needed.
+- [ ] **Visible FAQs.** Done for tours and the contact page; destinations deferred (see result). Real HTML headings and text; no `FAQPage` markup.
+- [ ] **Planning content.** Needs client facts and official sources; questions listed in [client questions](docs/geo/client-questions.md).
+- [ ] **Freshness.** Not started: no content has been reviewed by the client yet, so no "last reviewed" dates are shown.
+- [x] **Translation.** All new copy goes through `copy()` with Spanish and French catalogue entries; `i18n:audit` passes (564 phrases).
+- [x] Checks: `seo:routes` already enforces one H1, no skipped heading levels and resolving links on every sitemap URL, so it covers the new sections; answers are generated from catalogue data, so they cannot drift from it.
 
 Done when: every tour and destination has a quick-facts block and at least a few verified Q&As, the new pages are live in all three languages, and all checks pass.
+
+G2 result (so far): `src/components/ui/faq.tsx` renders visible questions as H3s under an H2, server-rendered. `src/features/tours/components/tour-faq.tsx` adds four questions to all 50 tour pages, each answered from that tour's own data or the published terms: length with the first and last itinerary day, recommended season (year-round tours answered separately), private/small-group with the group size, and price and booking (quote within 24 hours, 30% deposit, balance 30 days before arrival, link to the terms). `src/features/contact/components/contact-faq.tsx` adds seven general questions to the contact page, restating only what the site already publishes; the visa answer makes no visa-policy claim and points to the official e-visa service. Claims were checked against the catalogue: every tour includes a guide (44 of 50 say "licensed", the birding tours use specialist guides) and 46 of 50 exclude international flights, the visa and insurance, so the general answer says "most tours". Destination pages get no FAQ yet: their catalogue facts are short labels already shown in the hero, and turning them into sentences ("Allow Expedition") reads badly and only repeats the hero; they wait for client-supplied questions. On 2026-10-23: typecheck, 24 unit tests, `i18n:audit`, a production build, all 7 `seo:audit` checks and the headless-browser check passed (the browser check needed one retry after a slow Cloudinary image load timed out the first page).
 
 ### G3 — Off-site entity presence
 
@@ -122,14 +124,14 @@ Done when: a repeatable monthly report exists and the next content work is based
 
 ## Status
 
-| Phase | Status                               | Result                                                               |
-| ----- | ------------------------------------ | -------------------------------------------------------------------- |
-| G0    | Not started                          |                                                                      |
-| G1    | Complete (training decision pending) | Explicit AI crawler groups; `geo:crawl` passes locally and on Vercel |
-| G2    | Not started                          |                                                                      |
-| G3    | Not started                          |                                                                      |
-| G4    | Not started                          |                                                                      |
-| G5    | Not started                          |                                                                      |
+| Phase | Status                               | Result                                                                              |
+| ----- | ------------------------------------ | ----------------------------------------------------------------------------------- |
+| G0    | Not started                          |                                                                                     |
+| G1    | Complete (training decision pending) | Explicit AI crawler groups; `geo:crawl` passes locally and on Vercel                |
+| G2    | In progress                          | Tour and contact FAQs live; destinations and planning content wait for client facts |
+| G3    | Not started                          |                                                                                     |
+| G4    | Not started                          |                                                                                     |
+| G5    | Not started                          |                                                                                     |
 
 ## Primary references
 
