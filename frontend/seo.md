@@ -1,6 +1,6 @@
 # SEO implementation plan
 
-Prepared: 2026-10-21. Status: **Phases 0–5 complete; Phase 6 is next**.
+Prepared: 2026-10-21. Status: **Phases 0–6 complete; Phase 7 (launch) needs hosting, DNS and account access**.
 
 Implement one phase at a time. For each phase, record changed files, checks, results and any dependency before moving to the next phase. This document does not authorize deployment or changes to external accounts.
 
@@ -207,16 +207,18 @@ Remaining media tasks:
 
 Tasks:
 
-- [ ] Add `seo:audit`/`seo:routes` checks alongside the existing i18n checks, reusing inventory and URL helpers rather than duplicating their source of truth.
-- [ ] Crawl all 399 current URLs for status, robots, canonical, hreflang, titles/descriptions, headings, internal links and social image responses.
-- [ ] Check actual response headers and raw HTML as well as browser-rendered output. Include known/unknown slugs, unsupported locales, query variants and URL normalization cases.
-- [ ] Verify sitemap URLs return 200, are canonical/indexable and contain reciprocal locale alternatives. Update expected counts if the legitimate page inventory changes.
-- [ ] Check JSON-LD structure, business IDs, language/URL consistency, absent invented offers and safe serialization.
-- [ ] Run focused regression tests, explicit TypeScript, the translation audit and production build. The existing `ignoreBuildErrors` setting means a successful build is insufficient by itself.
-- [ ] Perform representative browser, mobile, social-preview and structured-data validation; review performance results from Phase 5.
-- [ ] Produce a release report with resolved items, exact known limitations and external launch dependencies.
+- [x] Add `seo:audit`/`seo:routes` checks alongside the existing i18n checks, reusing inventory and URL helpers rather than duplicating their source of truth.
+- [x] Crawl all 399 current URLs for status, robots, canonical, hreflang, titles/descriptions, headings, internal links and social image responses.
+- [x] Check actual response headers and raw HTML as well as browser-rendered output. Include known/unknown slugs, unsupported locales, query variants and URL normalization cases.
+- [x] Verify sitemap URLs return 200, are canonical/indexable and contain reciprocal locale alternatives. Update expected counts if the legitimate page inventory changes.
+- [x] Check JSON-LD structure, business IDs, language/URL consistency, absent invented offers and safe serialization.
+- [x] Run focused regression tests, explicit TypeScript, the translation audit and production build. The existing `ignoreBuildErrors` setting means a successful build is insufficient by itself.
+- [x] Perform representative browser, mobile, social-preview and structured-data validation; review performance results from Phase 5.
+- [x] Produce a release report with resolved items, exact known limitations and external launch dependencies.
 
 Done when: release-critical failures are fixed and checks are reproducible. Do not require a perfect Lighthouse score or promise rankings/indexing merely because validation passes.
+
+Phase 6 result: [release report](docs/seo/release-report.md). `corepack pnpm seo:audit` runs `seo:technical`, the new `seo:routes` crawl, `i18n:routes`, `seo:metadata`, `seo:schema` and the new `seo:vocab` Schema.org check against one production server; all six pass on the 401 sitemap URLs. Typecheck, 24 tests, the translation audit, the production build, the preview-noindex build and the headless-browser flows pass. The audit found and fixed one stale check: `i18n:routes` still expected 399 sitemap entries after the Phase 4 legal pages.
 
 ### Phase 7 — Existing-site migration and production launch
 
@@ -277,7 +279,7 @@ Create helper files as their phases need them. Do not create a second route inve
 | 3     | Complete    | Shared business/website entities, breadcrumbs, article/trip/destination JSON-LD    |
 | 4     | Complete    | Verified relationships, contextual links, real legal pages, footer corrections     |
 | 5     | Complete    | Lighter logo and client payloads, finer image widths; before/after lab baseline    |
-| 6     | Not started | Release verification                                                               |
+| 6     | Complete    | `seo:audit` gate (6 checks), route crawl, vocabulary check, release report         |
 | 7     | Not started | Complete legacy inventory; hosting/domain/account access                           |
 | 8     | Not started | Production search data after launch                                                |
 
