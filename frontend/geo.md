@@ -1,6 +1,6 @@
 # GEO implementation plan
 
-Prepared: 2026-10-23. Status: **G1 complete in the repository (training-crawler decision pending with the client); G2 partly complete (tour and contact FAQs; planning content needs client facts); G3 audited, fixes are client-owned; G0, G4–G5 not started**.
+Prepared: 2026-10-23. Status: **G1 complete in the repository (training-crawler decision pending with the client); G2 partly complete (tour and contact FAQs; planning content needs client facts); G3 audited, fixes are client-owned; G4 `llms.txt` done, IndexNow deferred to launch; G0, G5 not started**.
 
 Implement one phase at a time. For each phase, record changed files, checks, results and any dependency before moving to the next phase. This document does not authorize deployment or changes to external accounts.
 
@@ -106,11 +106,13 @@ G3 result (so far): the off-site audit is in [entity presence](docs/geo/entity-p
 
 Tasks:
 
-- [ ] Publish `/llms.txt`: a short Markdown index of the business, main tour and destination sections, and the contact page, generated from the catalogue so it cannot drift. Describe it as experimental; it is not a ranking or citation signal any major engine has confirmed.
-- [ ] After launch, consider IndexNow (used by Bing, which feeds ChatGPT search and Copilot) to notify changed URLs on deploy.
-- [ ] Do not create separate Markdown copies of pages or bot-only variants.
+- [x] Publish `/llms.txt`: a short Markdown index of the business, main tour and destination sections, and the contact page, generated from the catalogue so it cannot drift. Describe it as experimental; it is not a ranking or citation signal any major engine has confirmed.
+- [ ] After launch, consider IndexNow (used by Bing, which feeds ChatGPT search and Copilot) to notify changed URLs on deploy. Deferred: it needs a key file served from the production domain and a post-deploy hook, and should start only once Bing Webmaster Tools is verified (SEO Phase 7).
+- [x] Do not create separate Markdown copies of pages or bot-only variants.
 
 Done when: `llms.txt` is generated, listed nowhere as a guarantee, and covered by a check that its links return 200.
+
+G4 result: `src/app/llms.txt/route.ts` serves `/llms.txt` as a static Markdown file (`text/markdown`, `X-Robots-Tag: noindex`) in the [llms.txt](https://llmstxt.org/) layout: business summary, contact details and address from `src/lib/seo/entities.ts`, then Company, Tours (50), Destinations (62), Journal (13) and Optional sections, each entry an English canonical URL with the catalogue teaser or excerpt. It is built from the same catalogues as the sitemap, so new or removed tours, destinations and articles appear or disappear automatically. The proxy matcher already skips paths with a dot, so it is served at the root. `geo:crawl` now also checks that it is served as Markdown, lists every catalogue entry once (131 links) and that each link returns 200 directly. On 2026-10-23 typecheck, 24 unit tests, the build and all 7 `seo:audit` checks passed. IndexNow is deferred to launch.
 
 ### G5 — Measurement and iteration
 
@@ -132,7 +134,7 @@ Done when: a repeatable monthly report exists and the next content work is based
 | G1    | Complete (training decision pending) | Explicit AI crawler groups; `geo:crawl` passes locally and on Vercel                |
 | G2    | In progress                          | Tour and contact FAQs live; destinations and planning content wait for client facts |
 | G3    | Audited; waiting on client           | Listing conflicts recorded; unsourced founding year removed from the site           |
-| G4    | Not started                          |                                                                                     |
+| G4    | `llms.txt` done; IndexNow at launch  | Generated `/llms.txt` (131 links) checked by `geo:crawl`                            |
 | G5    | Not started                          |                                                                                     |
 
 ## Primary references
