@@ -10,7 +10,7 @@ Make Extraordinary Ethiopia Tours easy to crawl, understand and discover across 
 
 Keep the feature-based architecture and direct component composition in `app/[locale]` pages. Keep current tours, destinations, route slugs and business facts unless a specific defect requires correction. All three languages remain published, as requested; human translation review is not a prerequisite for this plan.
 
-Cloudinary migration is complete for 84 content images; the logo remains local because its Cloudinary URL was unavailable. SEO work uses the current optimized delivery URLs. A separate GEO/AI-search project can reuse the business identity and structured content established here.
+Cloudinary migration is complete for 84 content images; the logo remains local because its Cloudinary URL was unavailable. SEO work uses the current optimized delivery URLs. A separate GEO/AI-search project ([geo.md](geo.md)) can reuse the business identity and structured content established here.
 
 ## Current project baseline
 

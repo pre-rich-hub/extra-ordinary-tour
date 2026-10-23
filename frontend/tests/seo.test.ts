@@ -58,11 +58,31 @@ describe('deployment indexing', () => {
     }
     expect(sitemap()).toEqual([])
     expect(robots().sitemap).toBeUndefined()
-    expect(robots().rules).toEqual({
-      userAgent: '*',
-      allow: '/',
-      disallow: ['/api/'],
-    })
+    const site = { allow: '/', disallow: ['/api/'] }
+    expect(robots().rules).toEqual([
+      { userAgent: '*', ...site },
+      {
+        userAgent: [
+          'OAI-SearchBot',
+          'ChatGPT-User',
+          'PerplexityBot',
+          'Perplexity-User',
+          'Claude-SearchBot',
+          'Claude-User',
+        ],
+        ...site,
+      },
+      {
+        userAgent: [
+          'GPTBot',
+          'ClaudeBot',
+          'CCBot',
+          'Google-Extended',
+          'Applebot-Extended',
+        ],
+        ...site,
+      },
+    ])
   })
 
   it('keeps all 401 canonical URLs indexable in production', () => {
