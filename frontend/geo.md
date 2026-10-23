@@ -1,6 +1,6 @@
 # GEO implementation plan
 
-Prepared: 2026-10-23. Status: **G1 complete in the repository (training-crawler decision pending with the client); G2 partly complete (tour and contact FAQs; planning content needs client facts); G0, G3–G5 not started**.
+Prepared: 2026-10-23. Status: **G1 complete in the repository (training-crawler decision pending with the client); G2 partly complete (tour and contact FAQs; planning content needs client facts); G3 audited, fixes are client-owned; G0, G4–G5 not started**.
 
 Implement one phase at a time. For each phase, record changed files, checks, results and any dependency before moving to the next phase. This document does not authorize deployment or changes to external accounts.
 
@@ -100,6 +100,8 @@ Tasks (mostly client-owned; repository work only where noted):
 
 Done when: listings are consistent, confirmed profiles are linked from structured data, and the changes are recorded in the business facts file.
 
+G3 result (so far): the off-site audit is in [entity presence](docs/geo/entity-presence.md). Name and phone match wherever they are shown, but the founding year conflicts (SafariBookings 2019, SafariGo 2011), SafariGo adds an Addis Ababa base, SafariBookings links to `http://www.` and omits the town, and SafariGo has no website link. Web search surfaces only SafariBookings pages; no Google Business Profile, press, association directory or Wikidata entry was found, and Tripadvisor and Facebook block automated checks. The audit also found an unsourced "since 2005" in the new site's homepage description (added in SEO Phase 2), now removed in all three languages. No `sameAs` change: nothing new is confirmed. Everything else here waits for the client; questions added to [client questions](docs/geo/client-questions.md).
+
 ### G4 — Machine-readable extras (optional)
 
 Tasks:
@@ -129,7 +131,7 @@ Done when: a repeatable monthly report exists and the next content work is based
 | G0    | Not started                          |                                                                                     |
 | G1    | Complete (training decision pending) | Explicit AI crawler groups; `geo:crawl` passes locally and on Vercel                |
 | G2    | In progress                          | Tour and contact FAQs live; destinations and planning content wait for client facts |
-| G3    | Not started                          |                                                                                     |
+| G3    | Audited; waiting on client           | Listing conflicts recorded; unsourced founding year removed from the site           |
 | G4    | Not started                          |                                                                                     |
 | G5    | Not started                          |                                                                                     |
 
