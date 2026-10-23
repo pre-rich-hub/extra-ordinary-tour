@@ -1,9 +1,9 @@
 {
   "local": {
-    "label": "locales",
+    "label": "Local",
     "place": "Lalibela",
-    "title": "Basado localmente, administrado localmente",
-    "text": "Fundado por un guía autorizado de Lalibela. Nuestro equipo te muestra la Etiopía en la que crecimos: su gente, su historia y sus rincones escondidos.",
+    "title": "Con base y gestión locales",
+    "text": "Fundado por un guía autorizado de Lalibela. Nuestro equipo le muestra la Etiopía en la que crecimos: su gente, su historia y sus rincones escondidos.",
     "body": "Somos un operador turístico local de Lalibela y Etiopía es el país que mejor conocemos. Nuestro experimentado equipo aporta conocimiento local genuino a cada viaje, conectándolo con las comunidades locales, las tradiciones antiguas y las culturas que hacen que Etiopía sea extraordinaria. Para nosotros, viajar es más que hacer turismo."
   },
   "tailored": {
@@ -11,31 +11,31 @@
     "place": "Montañas Simien",
     "title": "Privado, grupo o solo",
     "text": "Privado, en grupos pequeños o solo. Cada itinerario se basa en sus intereses, ritmo y presupuesto, y se mantiene flexible durante el viaje.",
-    "body": "Cada viaje está diseñado a medida según sus intereses, estilo de viaje y presupuesto, para parejas, familias, amigos, grupos de todos los tamaños y personas que viajan solas. ¿Viajando solo? Eres especialmente bienvenido: itinerarios personalizados, alojamiento confortable, transporte confiable y soporte local profesional te permitirán descubrir Etiopía a tu propio ritmo."
+    "body": "Cada viaje está diseñado a medida según sus intereses, estilo de viaje y presupuesto, para parejas, familias, amigos, grupos de todos los tamaños y personas que viajan solas. ¿Viaja solo? Es especialmente bienvenido: itinerarios personalizados, alojamiento confortable, transporte confiable y apoyo local profesional le permitirán descubrir Etiopía a su propio ritmo."
   },
   "handled": {
-    "label": "arreglado",
-    "place": "gondar",
+    "label": "Organizado",
+    "place": "Gondar",
     "title": "Todo arreglado",
     "text": "Vuelos nacionales, traslados al aeropuerto, hoteles, comidas y guías, todo organizado para usted, sin costes ocultos en el camino."
   },
   "support": {
     "label": "24/7",
-    "place": "Ceremonia del cafe",
-    "title": "Contigo 24/7",
-    "text": "Un equipo en WhatsApp desde tu primer mensaje hasta tu último día. Los vuelos retrasados ​​y los cambios de planes se solucionan rápidamente."
+    "place": "Ceremonia del café",
+    "title": "A su lado 24/7",
+    "text": "Un mismo equipo en WhatsApp desde su primer mensaje hasta su último día. Los retrasos de vuelos y los cambios de planes se resuelven rápidamente."
   },
   "safety": {
     "label": "Seguridad",
     "place": "Dallol, Danakil",
-    "title": "manos seguras",
+    "title": "En buenas manos",
     "text": "Conductores experimentados, vehículos 4x4 en buen estado y consejos honestos sobre las condiciones locales, para que pueda simplemente disfrutar del viaje."
   },
   "responsible": {
     "label": "Responsable",
     "place": "Konso",
     "title": "Viaje responsable",
-    "text": "Trabajamos con guías y comunidades locales, preguntamos antes de fotografiar y ayudamos a preservar los lugares que compartimos contigo."
+    "text": "Trabajamos con guías y comunidades locales, preguntamos antes de fotografiar y ayudamos a preservar los lugares que compartimos con usted."
   },
   "explore": {
     "label": "Explorar",
