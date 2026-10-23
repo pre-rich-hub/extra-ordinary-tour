@@ -42,6 +42,12 @@ Social previews: sampled home, tour, destination and article share images are re
 | 5     | 25–45% lighter pages: 6.7 KB logo, trimmed client payloads, finer image widths; before/after Lighthouse baseline                                                                           |
 | 6     | `seo:routes`, `seo:vocab` and the `seo:audit` gate; stale sitemap count in `i18n:routes` corrected; this report                                                                            |
 
+## Staging deployment
+
+`https://extra-ordinary-tour.vercel.app` serves the current build. On 2026-10-23 the full `seo:audit` passed against it in production mode; it was then rebuilt with `SEO_ENV=preview` and verified with `SEO_CHECK_PREVIEW=1 seo:technical`: `X-Robots-Tag: noindex, nofollow` and `noindex` meta on every page, an empty sitemap and no sitemap line in robots.txt. Keep it that way until launch.
+
+The Express backend is not built yet, so `API_BASE_URL` is unset on Vercel and `/api/*` fails there (`DNS_HOSTNAME_RESOLVED_PRIVATE`). Until it exists, the enquiry and newsletter forms, the support assistant and admin login do not work on that deployment, and tour/layover pages show static catalogue prices (no `Offer` markup).
+
 ## Known limitations
 
 - **Mobile LCP is above 2.5 s in lab runs** (about 4.7–5.9 s on most pages under simulated slow 4G), dominated by the hero photograph's download from Cloudinary. Lab timings here vary by ±2 s between runs; judge by field data after launch. Desktop and byte-weight results are in [seo.md, Phase 5](../../seo.md).
@@ -55,10 +61,11 @@ Social previews: sampled home, tour, destination and article share images are re
 
 These need hosting, DNS, accounts or the client, and were out of reach for repository work:
 
-1. **Hosting**: a Node.js host that runs the proxy, rewrites (`API_BASE_URL`) and ISR; HTTPS and a single preferred host (www vs. apex) redirecting at the edge.
-2. **Legacy redirects**: implement the 145 proposed old → new mappings from `legacy-url-map.csv` before the generic “add `/en`” redirect, and decide the 22 unresolved URLs (including `/privacy-policy/` and `/terms-and-conditions/`, which now have direct equivalents at `/en/privacy-policy` and `/en/terms-and-conditions`).
-3. **Production environment**: deploy with production `SEO_ENV`/`VERCEL_ENV` so pages are indexable, and preview deployments with `SEO_ENV=preview`.
-4. **After deployment**: rerun `seo:audit` with `SEO_BASE_URL=https://extraordinaryethiopiatours.com`; run Google's Rich Results Test on an article and a tour; check link previews in WhatsApp/Facebook.
-5. **Search Console / Bing Webmaster Tools**: verify the property and submit `https://extraordinaryethiopiatours.com/sitemap.xml`. No Change of Address (same domain).
-6. **Client confirmations**: Instagram and YouTube ownership (then add them and Facebook to structured-data `sameAs`); legal text currency, effective date and the “Workdinagy/Workdingay Street” spelling; any Spanish/French legal translations.
-7. **Monitoring (Phase 8)**: field LCP/INP/CLS at the 75th percentile, Search Console coverage and redirect hits for at least a year.
+1. **Backend**: build and deploy the Express API publicly, set `API_BASE_URL` to its origin in Vercel and redeploy; then test the enquiry and newsletter forms end to end. Launch should wait for this, or the contact form will not deliver enquiries.
+2. **Hosting**: a Node.js host that runs the proxy, rewrites (`API_BASE_URL`) and ISR; HTTPS and a single preferred host (www vs. apex) redirecting at the edge.
+3. **Legacy redirects**: implement the 145 proposed old → new mappings from `legacy-url-map.csv` before the generic “add `/en`” redirect, and decide the 22 unresolved URLs (including `/privacy-policy/` and `/terms-and-conditions/`, which now have direct equivalents at `/en/privacy-policy` and `/en/terms-and-conditions`).
+4. **Production environment**: on launch day remove `SEO_ENV=preview` from the Vercel Production environment (or set it to `production`), connect the domain and redeploy; the setting is read at build time.
+5. **After deployment**: rerun `seo:audit` with `SEO_BASE_URL=https://extraordinaryethiopiatours.com`; run Google's Rich Results Test on an article and a tour; check link previews in WhatsApp/Facebook.
+6. **Search Console / Bing Webmaster Tools**: verify the property and submit `https://extraordinaryethiopiatours.com/sitemap.xml`. No Change of Address (same domain).
+7. **Client confirmations**: Instagram and YouTube ownership (then add them and Facebook to structured-data `sameAs`); legal text currency, effective date and the “Workdinagy/Workdingay Street” spelling; any Spanish/French legal translations.
+8. **Monitoring (Phase 8)**: field LCP/INP/CLS at the 75th percentile, Search Console coverage and redirect hits for at least a year.
