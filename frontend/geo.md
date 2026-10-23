@@ -1,6 +1,6 @@
 # GEO implementation plan
 
-Prepared: 2026-10-23. Status: **G1 complete in the repository (training-crawler decision pending with the client); G2 partly complete (tour and contact FAQs; planning content needs client facts); G3 audited, fixes are client-owned; G4 `llms.txt` done, IndexNow deferred to launch; G0, G5 not started**.
+Prepared: 2026-10-23. Status: **G1 complete in the repository (training-crawler decision pending with the client); G2 partly complete (tour and contact FAQs; planning content needs client facts); G3 audited, fixes are client-owned; G4 `llms.txt` done, IndexNow deferred to launch; G0 question set and G5 routine/report ready, first run and live data pending**.
 
 Implement one phase at a time. For each phase, record changed files, checks, results and any dependency before moving to the next phase. This document does not authorize deployment or changes to external accounts.
 
@@ -51,11 +51,13 @@ Checked on 2026-10-23 against `https://extra-ordinary-tour.vercel.app`, fetched 
 
 Tasks:
 
-- [ ] Write about 20 fixed questions a real traveller would ask, split across intents: choosing an operator ("Ethiopia historic route tour operator"), planning ("how many days for Lalibela", "best time to visit the Danakil Depression"), logistics (visas, getting to Gondar, altitude), layover tours from Addis Ababa, plus a few in Spanish and French.
+- [x] Write about 20 fixed questions a real traveller would ask, split across intents: choosing an operator ("Ethiopia historic route tour operator"), planning ("how many days for Lalibela", "best time to visit the Danakil Depression"), logistics (visas, getting to Gondar, altitude), layover tours from Addis Ababa, plus a few in Spanish and French.
 - [ ] Run each in ChatGPT search, Perplexity, Google AI Mode/AI Overviews, Gemini and Claude with web search. Record for each answer: brand mentioned (yes/no), site cited (URL), competitors cited, and any factual errors about the business.
-- [ ] Store the results as a dated CSV in `docs/geo/` with the exact question text, engine and date.
+- [x] Store the results as a dated CSV in `docs/geo/results/`, one file per run, with engine and question id; the question text lives once in `docs/geo/questions.csv`.
 
 Done when: a repeatable question set and the first dated results exist. Answers vary by account, location and time; treat single results as anecdotes and trends across re-runs as the signal.
+
+G0 result (so far): [`docs/geo/questions.csv`](docs/geo/questions.csv) holds 20 fixed questions (14 English, 3 Spanish, 3 French) across operator, planning, logistics and brand intents, each with the page that should answer it; `geo:report` checks every target is a real page in that language. The recording template and the step-by-step routine are in [measurement](docs/geo/measurement.md). **Pending:** the first manual run in each engine. Before launch it measures the old WordPress site, which is still useful as the "before" baseline.
 
 ### G1 — Crawler access
 
@@ -118,24 +120,26 @@ G4 result: `src/app/llms.txt/route.ts` serves `/llms.txt` as a static Markdown f
 
 Tasks:
 
-- [ ] Segment analytics referrals from `chatgpt.com`, `perplexity.ai`, `gemini.google.com`, `copilot.microsoft.com`, `claude.ai` and links carrying `utm_source=chatgpt.com`. Track enquiry conversions only once analytics consent is in place.
-- [ ] Review edge/server logs or Vercel bot analytics monthly for AI crawler hits per page family and for blocked or failed requests.
-- [ ] Re-run the G0 question set monthly; compare mentions, citations, cited URLs and factual errors.
-- [ ] Fix factual errors at the source: correct the page, structured data or third-party listing the engine appears to rely on.
-- [ ] Prioritize new content from questions where the site is absent or misrepresented, not from guesses.
+- [x] Segment analytics referrals from `chatgpt.com`, `perplexity.ai`, `gemini.google.com`, `copilot.microsoft.com`, `claude.ai` and links carrying `utm_source=chatgpt.com`. Track enquiry conversions only once analytics consent is in place (not set up; client decision).
+- [x] Review edge/server logs or Vercel bot analytics monthly for AI crawler hits per page family and for blocked or failed requests.
+- [x] Re-run the G0 question set monthly; compare mentions, citations, cited URLs and factual errors.
+- [x] Fix factual errors at the source: correct the page, structured data or third-party listing the engine appears to rely on.
+- [x] Prioritize new content from questions where the site is absent or misrepresented, not from guesses.
 
 Done when: a repeatable monthly report exists and the next content work is based on recorded results.
 
+G5 result (so far): the routine is written and the tooling exists; ticked tasks above are documented procedures, not yet performed. [Measurement](docs/geo/measurement.md) covers the monthly question run, AI referral traffic (Vercel Web Analytics referrers and `utm_source=chatgpt.com`, which survives the site's redirects; Search Console, which counts AI Overviews and AI Mode in the normal Performance report; Bing Webmaster Tools), crawler activity (Vercel Firewall/Observability, `geo:crawl` against the live domain) and how to act on results. `corepack pnpm geo:report` (`scripts/geo-report.mjs`) validates the results files and prints mention, citation and intended-page rates by run, engine and language, factual errors, competitors and never-cited questions; it was tested against sample and deliberately invalid files, which were then removed. Real data starts with the first run and, for traffic, after launch. Enquiry conversion tracking is not set up and needs a client decision on tooling and consent.
+
 ## Status
 
-| Phase | Status                               | Result                                                                              |
-| ----- | ------------------------------------ | ----------------------------------------------------------------------------------- |
-| G0    | Not started                          |                                                                                     |
-| G1    | Complete (training decision pending) | Explicit AI crawler groups; `geo:crawl` passes locally and on Vercel                |
-| G2    | In progress                          | Tour and contact FAQs live; destinations and planning content wait for client facts |
-| G3    | Audited; waiting on client           | Listing conflicts recorded; unsourced founding year removed from the site           |
-| G4    | `llms.txt` done; IndexNow at launch  | Generated `/llms.txt` (131 links) checked by `geo:crawl`                            |
-| G5    | Not started                          |                                                                                     |
+| Phase | Status                                      | Result                                                                              |
+| ----- | ------------------------------------------- | ----------------------------------------------------------------------------------- |
+| G0    | Question set ready; first run pending       | 20 questions with target pages; recording template                                  |
+| G1    | Complete (training decision pending)        | Explicit AI crawler groups; `geo:crawl` passes locally and on Vercel                |
+| G2    | In progress                                 | Tour and contact FAQs live; destinations and planning content wait for client facts |
+| G3    | Audited; waiting on client                  | Listing conflicts recorded; unsourced founding year removed from the site           |
+| G4    | `llms.txt` done; IndexNow at launch         | Generated `/llms.txt` (131 links) checked by `geo:crawl`                            |
+| G5    | Routine and report ready; data after launch | `geo:report` and monthly routine in docs/geo/measurement.md                         |
 
 ## Primary references
 

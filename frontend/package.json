@@ -18,7 +18,8 @@
     "seo:routes": "node scripts/seo-routes.mjs",
     "seo:vocab": "node scripts/seo-vocab.mjs",
     "seo:audit": "node scripts/seo-audit.mjs",
-    "geo:crawl": "node scripts/geo-crawl.mjs"
+    "geo:crawl": "node scripts/geo-crawl.mjs",
+    "geo:report": "node scripts/geo-report.mjs"
   },
   "dependencies": {
     "@base-ui/react": "^1.5.0",

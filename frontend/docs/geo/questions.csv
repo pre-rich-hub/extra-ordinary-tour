@@ -1,0 +1,21 @@
+id,locale,intent,question,target
+q01,en,operator,Which local tour operators in Lalibela run private tours of Ethiopia's historic route?,/en/about
+q02,en,operator,Recommend a 7-day Ethiopia historic route tour with Lalibela and Gondar,/en/tours/7-day-historic-route
+q03,en,operator,Who runs Danakil Depression tours from Mekelle?,/en/tours/3-day-danakil-depression-from-mekelle
+q04,en,operator,Ethiopia birding tour operators for endemic birds,/en/tours/7-day-ethiopia-birding
+q05,en,operator,Private Omo Valley cultural tour operators,/en/tours/9-day-omo-valley-cultural
+q06,en,planning,How many days do I need in Lalibela?,/en/destinations/lalibela
+q07,en,planning,When is the best time to visit Ethiopia?,/en/blog/best-time-to-visit-ethiopia
+q08,en,planning,How many days do I need to trek the Simien Mountains?,/en/destinations/simien-mountains
+q09,en,planning,How can I see Timkat in Lalibela?,/en/tours/5-day-timkat-festival-lalibela
+q10,en,planning,Is it safe and practical to visit the Danakil Depression?,/en/blog/danakil-depression-travel-guide
+q11,en,logistics,What can I do in Addis Ababa on a 12-hour layover?,/en/layover
+q12,en,logistics,Do I need a visa to visit Ethiopia as a tourist?,/en/contact
+q13,en,brand,What is Extraordinary Ethiopia Tours?,/en/about
+q14,en,brand,Is Extraordinary Ethiopia Tours a reliable company to book with?,/en/about
+q15,es,planning,¿Cuántos días se necesitan para visitar Lalibela?,/es/destinations/lalibela
+q16,es,planning,¿Cuál es la mejor época para viajar a Etiopía?,/es/blog/best-time-to-visit-ethiopia
+q17,es,operator,Tour privado por la ruta histórica de Etiopía con agencia local,/es/tours/7-day-historic-route
+q18,fr,planning,Combien de jours faut-il pour visiter Lalibela ?,/fr/destinations/lalibela
+q19,fr,planning,Quelle est la meilleure période pour visiter l'Éthiopie ?,/fr/blog/best-time-to-visit-ethiopia
+q20,fr,operator,Circuit privé en Éthiopie sur la route historique avec une agence locale,/fr/tours/7-day-historic-route
