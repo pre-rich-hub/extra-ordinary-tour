@@ -35,9 +35,12 @@ python3 scripts/seo-phase0-check.py
 corepack pnpm seo:technical  # Phase 1: crawl rules, canonicals, 404s
 corepack pnpm seo:metadata   # Phase 2: titles, descriptions, hreflang, social images
 corepack pnpm seo:schema     # Phase 3: JSON-LD validity and visible-content match
+corepack pnpm seo:routes     # Phase 6: full crawl, headers, headings, links, reciprocity
+corepack pnpm seo:vocab      # Phase 6: JSON-LD against the Schema.org vocabulary
+corepack pnpm seo:audit      # all of the above plus i18n:routes, as one release gate
 ```
 
-`SEO_BASE_URL` points the Node checks at another server. `seo:metadata` also fetches each social image from Cloudinary, so it needs network access.
+`SEO_BASE_URL` points the Node checks at another server. `seo:metadata` (Cloudinary images) and `seo:vocab` (Schema.org vocabulary; or set `SCHEMA_VOCAB=<path>`) need network access. See the [release report](release-report.md).
 
 The baseline crawler obtains project URLs from the actual sitemap instead of maintaining another route registry. The intent generator reads the existing feature catalogues and translations. It never edits page content, metadata, URLs or publication settings.
 

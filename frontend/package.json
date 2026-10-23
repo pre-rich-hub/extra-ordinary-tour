@@ -14,7 +14,10 @@
     "i18n:browser": "node scripts/i18n-browser.cjs",
     "seo:technical": "node scripts/seo-technical.mjs",
     "seo:metadata": "node scripts/seo-metadata.mjs",
-    "seo:schema": "node scripts/seo-schema.mjs"
+    "seo:schema": "node scripts/seo-schema.mjs",
+    "seo:routes": "node scripts/seo-routes.mjs",
+    "seo:vocab": "node scripts/seo-vocab.mjs",
+    "seo:audit": "node scripts/seo-audit.mjs"
   },
   "dependencies": {
     "@base-ui/react": "^1.5.0",
