@@ -37,6 +37,7 @@ corepack pnpm seo:metadata   # Phase 2: titles, descriptions, hreflang, social i
 corepack pnpm seo:schema     # Phase 3: JSON-LD validity and visible-content match
 corepack pnpm seo:routes     # Phase 6: full crawl, headers, headings, links, reciprocity
 corepack pnpm seo:vocab      # Phase 6: JSON-LD against the Schema.org vocabulary
+corepack pnpm geo:crawl      # GEO G1: AI crawler robots groups and full HTML per crawler
 corepack pnpm seo:audit      # all of the above plus i18n:routes, as one release gate
 ```
 

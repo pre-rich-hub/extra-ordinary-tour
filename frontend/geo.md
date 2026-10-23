@@ -1,6 +1,6 @@
 # GEO implementation plan
 
-Prepared: 2026-10-23. Status: **Not started**.
+Prepared: 2026-10-23. Status: **G1 complete in the repository (training-crawler decision pending with the client); G0, G2–G5 not started**.
 
 Implement one phase at a time. For each phase, record changed files, checks, results and any dependency before moving to the next phase. This document does not authorize deployment or changes to external accounts.
 
@@ -61,14 +61,16 @@ Done when: a repeatable question set and the first dated results exist. Answers 
 
 Tasks:
 
-- [ ] Replace the single `*` rule in `src/app/robots.ts` with explicit groups, keeping `/api/` disallowed for everyone:
-  - **Search/retrieval crawlers (allow):** `OAI-SearchBot`, `ChatGPT-User`, `PerplexityBot`, `Perplexity-User`, `Claude-SearchBot`, `Claude-User`, `Bingbot`, `Googlebot`.
+- [x] Replace the single `*` rule in `src/app/robots.ts` with explicit groups, keeping `/api/` disallowed for everyone:
+  - **Search/retrieval crawlers (allow):** `OAI-SearchBot`, `ChatGPT-User`, `PerplexityBot`, `Perplexity-User`, `Claude-SearchBot`, `Claude-User`. Googlebot and Bingbot stay under `*`, which already allows them.
   - **Training crawlers (client decision, default allow):** `GPTBot`, `ClaudeBot`, `Google-Extended`, `Applebot-Extended`, `CCBot`. Blocking them keeps content out of model training and does not remove the site from AI search.
-- [ ] Preserve preview behavior: preview builds still send noindex and no sitemap line.
-- [ ] Check Vercel firewall/Bot Protection settings so retrieval crawlers are not challenged or blocked; fetch representative pages with each crawler's user agent and confirm HTTP 200 and full HTML.
-- [ ] Add a `geo:crawl` check (and include it in `seo:audit` or a `geo:audit` gate): robots groups as intended, each listed user agent receives 200 with the H1 and main content in the HTML, no `noindex` in production.
+- [x] Preserve preview behavior: preview builds still send noindex and no sitemap line.
+- [x] Check Vercel firewall/Bot Protection settings so retrieval crawlers are not challenged or blocked; fetch representative pages with each crawler's user agent and confirm HTTP 200 and full HTML.
+- [x] Add a `geo:crawl` check (and include it in `seo:audit` or a `geo:audit` gate): robots groups as intended, each listed user agent receives 200 with the H1 and main content in the HTML, no `noindex` in production.
 
 Done when: the policy is explicit, recorded in this file with the client's training decision, and the check passes on a production build and on the Vercel deployment.
+
+G1 result: the crawler list and the training decision live in `src/lib/seo/crawlers.mjs` (`allowTraining`), which `src/app/robots.ts` turns into three groups (`*`, six retrieval crawlers, five training crawlers), each allowing `/` and disallowing `/api/`; setting `allowTraining = false` makes the training group `Disallow: /`. A named group replaces `*` for that crawler, which is why each group repeats the API rule. `corepack pnpm geo:crawl` (also part of `seo:audit`) checks the robots.txt groups and fetches 25 pages (8 page families × 3 languages plus the privacy policy) as each of the 9 crawlers that send requests, requiring HTTP 200, a server-rendered H1, at least 250 words of text and production indexing (`SEO_CHECK_PREVIEW=1` expects noindex instead). On 2026-10-23 it passed on a local production build (225 fetches; `seo:technical` and the 24 unit tests also pass), and all 225 fetches against `extra-ordinary-tour.vercel.app` returned full HTML; that deployment's robots.txt only gains the named groups once this change is deployed. The fetches came from a normal network with crawler user agents, so they show Vercel does not block by user agent; if Bot Protection is turned on later, recheck in Vercel's firewall logs that verified AI crawlers are allowed. **Pending:** the client's training-crawler decision (currently allow, matching earlier behavior).
 
 ### G2 — Answerable content
 
@@ -120,14 +122,14 @@ Done when: a repeatable monthly report exists and the next content work is based
 
 ## Status
 
-| Phase | Status      | Result |
-| ----- | ----------- | ------ |
-| G0    | Not started |        |
-| G1    | Not started |        |
-| G2    | Not started |        |
-| G3    | Not started |        |
-| G4    | Not started |        |
-| G5    | Not started |        |
+| Phase | Status                               | Result                                                               |
+| ----- | ------------------------------------ | -------------------------------------------------------------------- |
+| G0    | Not started                          |                                                                      |
+| G1    | Complete (training decision pending) | Explicit AI crawler groups; `geo:crawl` passes locally and on Vercel |
+| G2    | Not started                          |                                                                      |
+| G3    | Not started                          |                                                                      |
+| G4    | Not started                          |                                                                      |
+| G5    | Not started                          |                                                                      |
 
 ## Primary references
 

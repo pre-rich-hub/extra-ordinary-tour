@@ -9,6 +9,7 @@ const checks = [
   ['metadata', 'scripts/seo-metadata.mjs'],
   ['schema', 'scripts/seo-schema.mjs'],
   ['schema.org vocabulary', 'scripts/seo-vocab.mjs'],
+  ['AI crawlers', 'scripts/geo-crawl.mjs'],
 ]
 const results = checks.map(([name, script]) => {
   const run = spawnSync(process.execPath, [script], {
