@@ -7,6 +7,18 @@
   --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
   --font-serif: var(--font-cormorant), ui-serif, Georgia, serif;
 
+  /* Weights sit one notch heavier than Tailwind's defaults so text reads
+     clearly; Inter is variable and takes the in-between values as given. */
+  --font-weight-light: 400;
+  --font-weight-normal: 450;
+  --font-weight-medium: 550;
+  --font-weight-semibold: 650;
+  --font-weight-bold: 750;
+
+  /* Plain `transition` utilities ease out over 300ms instead of a snappy 150ms. */
+  --default-transition-duration: 300ms;
+  --default-transition-timing-function: cubic-bezier(0.22, 1, 0.36, 1);
+
   /* Brand palette */
   --color-charcoal: var(--charcoal);
   --color-sand: var(--sand);
@@ -106,7 +118,7 @@
     font-size: 15px;
   }
   body {
-    @apply bg-background font-sans text-foreground;
+    @apply bg-background font-sans font-normal text-foreground;
     font-feature-settings: 'kern' 1, 'liga' 1, 'lnum' 1;
   }
   ::selection {
@@ -188,11 +200,10 @@
 
 .reveal {
   opacity: 0;
-  transform: translate3d(0, 26px, 0);
+  transform: translate3d(0, 18px, 0);
   transition:
-    opacity 0.9s cubic-bezier(0.16, 1, 0.3, 1),
-    transform 0.9s cubic-bezier(0.16, 1, 0.3, 1);
-  transition-delay: inherit;
+    opacity 0.8s cubic-bezier(0.22, 1, 0.36, 1),
+    transform 0.8s cubic-bezier(0.22, 1, 0.36, 1);
 }
 .reveal.is-visible {
   opacity: 1;

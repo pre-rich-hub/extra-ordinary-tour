@@ -34,7 +34,7 @@ export function WhyTravelClient({ whyUs }: { whyUs: typeof sourceRecords }) {
     <section
       id="why-us"
       aria-labelledby="why-us-title"
-      className="overflow-hidden bg-background py-20 sm:py-24 lg:py-32"
+      className="overflow-hidden bg-background pb-20 sm:pb-24 lg:py-32"
     >
       <div className="grid lg:grid-cols-2 lg:items-stretch">
         {/* Image panel — bleeds to the left edge of the viewport */}
