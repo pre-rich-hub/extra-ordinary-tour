@@ -10,6 +10,8 @@ import {
   InstagramIcon,
   YouTubeIcon,
   FacebookIcon,
+  TikTokIcon,
+  XIcon,
   TripadvisorMark,
   SafariBookingsMark,
   SafariGoMark,
@@ -35,6 +37,17 @@ const socials: { name: string; href: string; icon: React.ReactNode }[] = [
     name: 'Facebook',
     href: 'https://www.facebook.com/extraordinaryethiopiatours',
     icon: <FacebookIcon />,
+  },
+  // No profile links yet; the icons stay in the footer regardless.
+  {
+    name: 'TikTok',
+    href: '#',
+    icon: <TikTokIcon />,
+  },
+  {
+    name: 'X',
+    href: '#',
+    icon: <XIcon />,
   },
 ]
 
