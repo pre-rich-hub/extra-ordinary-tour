@@ -124,7 +124,7 @@ function TourCard({ tour: t }: { tour: TourIndexItem }) {
         href={`/tours/${t.slug}`}
         className="group flex h-full flex-col border border-border bg-card transition-shadow duration-500 hover:shadow-[0_30px_60px_-35px_oklch(0.215_0.012_55/0.45)]"
       >
-        <div className="relative aspect-[4/3] overflow-hidden bg-muted">
+        <div className="relative aspect-[3/2] overflow-hidden bg-muted">
           <Image
             src={t.image}
             alt={copy(t.title)}
@@ -144,23 +144,23 @@ function TourCard({ tour: t }: { tour: TourIndexItem }) {
           </div>
         </div>
 
-        <div className="flex flex-1 flex-col p-6">
+        <div className="flex flex-1 flex-col px-6 py-5">
           <h3 className="text-balance font-serif text-[1.65rem] leading-[1.1] text-foreground transition-colors duration-300 group-hover:text-primary">
             {copy(t.title)}
           </h3>
-          <p className="mt-3 text-[11px] font-semibold uppercase tracking-[0.14em] text-foreground/80">
+          <p className="mt-2 text-[11px] font-semibold uppercase tracking-[0.14em] text-foreground/80">
             {copy(t.days)} · {copy(t.group)}
           </p>
-          <p className="mt-4 text-pretty text-[14px] leading-relaxed text-muted-foreground line-clamp-3">
+          <p className="mt-2.5 text-pretty text-[14px] leading-relaxed text-muted-foreground line-clamp-3">
             {copy(t.teaser)}
           </p>
-          <p className="mt-auto pt-5 text-[13px] text-muted-foreground">
+          <p className="mt-auto pt-3 text-[13px] text-muted-foreground">
             {copy('Best season: ')}
             <span className="text-foreground">{copy(t.season)}</span>
           </p>
         </div>
 
-        <div className="flex items-center justify-between gap-4 border-t border-border px-6 py-4">
+        <div className="flex items-center justify-between gap-4 border-t border-border px-6 py-3">
           <p className="whitespace-nowrap font-serif text-base italic text-foreground sm:text-lg">
             {hasPrice(t.from) ? (
               <>
