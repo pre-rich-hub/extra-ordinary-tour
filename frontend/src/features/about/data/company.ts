@@ -15,8 +15,8 @@ export const whyUs: (BrandPromise & {
   {
     icon: 'local',
     label: 'Local',
-    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/v1792849778/Lalibela.png',
-    place: 'Lalibela',
+    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/v1792849727/Axum.png',
+    place: 'Axum',
     title: 'Locally based, locally run',
     text: 'Founded by a licensed guide from Lalibela. Our team shows you the Ethiopia we grew up in: its people, history and hidden corners.',
     body:
