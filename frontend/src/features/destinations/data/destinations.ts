@@ -1352,7 +1352,7 @@ export const destinations: Destination[] = [
     name: 'Enkutatash (Ethiopian New Year)',
     region: 'Festivals & Events',
     tag: 'Festival',
-    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/enkutatash.jpg',
+    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/v1792851938/enkutatesh.png',
     teaser:
       'Yellow flowers, songs and new beginnings as the rains end on 11 September.',
     intro:
@@ -1376,7 +1376,7 @@ export const destinations: Destination[] = [
     name: 'Ashenda',
     region: 'Festivals & Events',
     tag: 'Festival',
-    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/ashenda.jpg',
+    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/v1792851930/ashenda.png',
     teaser:
       'A celebration of girls and young women in the towns of Tigray and Amhara.',
     intro:
@@ -1472,7 +1472,7 @@ export const destinations: Destination[] = [
     name: 'Eid al-Adha',
     region: 'Festivals & Events',
     tag: 'Islamic Festival',
-    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/harar-gate.jpg',
+    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/v1792851928/Eid_al-Adha.png',
     teaser:
       'The Festival of Sacrifice, celebrated with prayers, sharing and community.',
     intro:
