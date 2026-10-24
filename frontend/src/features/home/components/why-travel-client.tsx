@@ -73,6 +73,7 @@ export function WhyTravelClient({ whyUs }: { whyUs: typeof sourceRecords }) {
                   ? 'scale-100 opacity-100'
                   : 'scale-[1.04] opacity-0',
               )}
+              style={{ objectPosition: r.position }}
               aria-hidden={i !== active}
             />
           ))}

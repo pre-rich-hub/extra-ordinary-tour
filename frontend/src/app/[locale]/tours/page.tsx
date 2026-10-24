@@ -67,9 +67,9 @@ export default async function ToursPage({
         lede={copy(
           'From day trips out of Addis Ababa to three-week expeditions, choose a package as it stands or let us adapt it to your dates, interests and budget.',
         )}
-        image="https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/simien-landscape.jpg"
+        image="https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/v1792849778/Lalibela.png"
         imageAlt={copy(
-          'Basalt pinnacles of the Simien Mountains rising above the clouds',
+          'Pilgrims in white shawls at the entrance of Bete Giyorgis, the rock-hewn Church of St George in Lalibela',
         )}
         crumbs={crumbs}
         meta={[
