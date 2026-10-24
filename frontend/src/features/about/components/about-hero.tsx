@@ -18,9 +18,9 @@ export function AboutHero() {
   return (
     <section className="relative isolate flex min-h-[100svh] flex-col justify-end overflow-hidden bg-charcoal">
       <Image
-        src="https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/lalibela-giyorgis.jpg"
+        src="https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/v1792850077/erta-ale.png"
         alt={copy(
-          'The cross-shaped Church of St George carved into the rock at Lalibela',
+          'Steam rising from the summit crater of Erta Ale, the active shield volcano of the Danakil.',
         )}
         fill
         priority

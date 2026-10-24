@@ -6,6 +6,8 @@ export const whyUs: (BrandPromise & {
   icon: 'local' | 'tailored' | 'handled' | 'support' | 'safety' | 'responsible' | 'explore'
   label: string
   image: string
+  // CSS object-position for photos whose subject is off-centre.
+  position?: string
   place: string
   // Longer copy for the homepage section; other pages use `text`.
   body?: string
@@ -13,7 +15,7 @@ export const whyUs: (BrandPromise & {
   {
     icon: 'local',
     label: 'Local',
-    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/lalibela-pilgrims.jpg',
+    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/v1792849778/Lalibela.png',
     place: 'Lalibela',
     title: 'Locally based, locally run',
     text: 'Founded by a licensed guide from Lalibela. Our team shows you the Ethiopia we grew up in: its people, history and hidden corners.',
@@ -23,8 +25,10 @@ export const whyUs: (BrandPromise & {
   {
     icon: 'tailored',
     label: 'Tailored',
-    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/simien-trek.jpg',
-    place: 'Simien Mountains',
+    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/v1792853426/sammy-wong-NVz_cZM2MDQ-unsplash_1.jpg',
+    // Portrait: keep the face in frame when the panel crops it.
+    position: 'center 25%',
+    place: 'Hamar, Omo Valley',
     title: 'Private, group or solo',
     text: 'Private, small-group or solo. Every itinerary is built around your interests, pace and budget, and stays flexible during the trip.',
     body:
@@ -49,7 +53,7 @@ export const whyUs: (BrandPromise & {
   {
     icon: 'safety',
     label: 'Safety',
-    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/danakil-dallol.jpg',
+    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/v1792849753/danakil.png',
     place: 'Dallol, Danakil',
     title: 'Safe hands',
     text: 'Experienced drivers, well-maintained 4x4 vehicles and honest advice on local conditions, so you can simply enjoy the journey.',
@@ -57,7 +61,7 @@ export const whyUs: (BrandPromise & {
   {
     icon: 'responsible',
     label: 'Responsible',
-    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/konso.jpg',
+    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/v1792849768/konso.png',
     place: 'Konso',
     title: 'Responsible travel',
     text: 'We work with local guides and communities, ask before we photograph, and help preserve the places we share with you.',
@@ -65,8 +69,8 @@ export const whyUs: (BrandPromise & {
   {
     icon: 'explore',
     label: 'Explore',
-    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/danakil-dallol.jpg',
-    place: 'Dallol, Danakil',
+    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/v1792853432/yohannes-minas-MLagkKCpmlw-unsplash_1.jpg',
+    place: 'Ethiopian highlands',
     title: 'All of Ethiopia',
     text: 'The Historic Route, the Danakil Depression, the Omo Valley, the Simien and Bale Mountains and Addis Ababa, combined into one journey.',
     body:

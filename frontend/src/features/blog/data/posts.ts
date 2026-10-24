@@ -9,7 +9,7 @@ export const posts: Post[] = [
     date: 'July 11, 2026',
     datePublished: '2026-07-11',
     readTime: '7 min read',
-    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/simien-landscape.jpg',
+    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/v1792851938/enkutatesh.png',
     author: 'Zelalem',
     authorRole: 'Travel Writer',
     excerpt:
@@ -55,7 +55,7 @@ export const posts: Post[] = [
     date: 'August 29, 2026',
     datePublished: '2026-08-29',
     readTime: '7 min read',
-    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/dassanech.jpg',
+    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/v1792849767/omo-valley.jpg',
     author: 'Zelalem',
     authorRole: 'Travel Writer',
     excerpt:
@@ -77,7 +77,7 @@ export const posts: Post[] = [
     date: 'August 21, 2026',
     datePublished: '2026-08-21',
     readTime: '9 min read',
-    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/lalibela-landscape.jpg',
+    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/v1792849768/konso.png',
     author: 'Zelalem',
     authorRole: 'Travel Writer',
     excerpt:
@@ -99,7 +99,7 @@ export const posts: Post[] = [
     date: 'August 8, 2026',
     datePublished: '2026-08-08',
     readTime: '7 min read',
-    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/lalibela-pilgrims.jpg',
+    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/v1792852734/3-Day_Lalibela_Rock-Hewn_Churches.jpg',
     author: 'Zelalem',
     authorRole: 'Travel Writer',
     excerpt:
@@ -121,7 +121,7 @@ export const posts: Post[] = [
     date: 'August 1, 2026',
     datePublished: '2026-08-01',
     readTime: '7 min read',
-    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/danakil-assale.jpg',
+    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/v1792849753/danakil.png',
     author: 'Zelalem',
     authorRole: 'Travel Writer',
     excerpt:
@@ -143,7 +143,7 @@ export const posts: Post[] = [
     date: 'July 25, 2026',
     datePublished: '2026-07-25',
     readTime: '6 min read',
-    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/coffee-ceremony.jpg',
+    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/v1792849804/timkat-festival-journey.jpg',
     author: 'Zelalem',
     authorRole: 'Travel Writer',
     excerpt:
@@ -184,7 +184,7 @@ export const posts: Post[] = [
     date: 'June 17, 2026',
     datePublished: '2026-06-17',
     readTime: '5 min read',
-    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/simien-gelada.jpg',
+    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/v1792849798/Simien_Mountains.png',
     author: 'Zelalem',
     authorRole: 'Travel Writer',
     excerpt:
@@ -205,7 +205,7 @@ export const posts: Post[] = [
     date: 'June 12, 2026',
     datePublished: '2026-06-12',
     readTime: '6 min read',
-    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/lalibela-giyorgis.jpg',
+    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/v1792849778/Lalibela.png',
     author: 'Zelalem',
     authorRole: 'Travel Writer',
     excerpt:
@@ -226,7 +226,7 @@ export const posts: Post[] = [
     date: 'August 21, 2026',
     datePublished: '2026-08-21',
     readTime: '5 min read',
-    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/axum-stelae.jpg',
+    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/v1792849727/Axum.png',
     author: 'Zelalem',
     authorRole: 'Travel Writer',
     excerpt:
@@ -268,7 +268,7 @@ export const posts: Post[] = [
     date: 'August 11, 2026',
     datePublished: '2026-08-11',
     readTime: '7 min read',
-    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/addis-trinity.jpg',
+    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/v1792854897/layove.jpg',
     author: 'Maereg Tefere',
     authorRole: 'Founder & Tour Specialist',
     excerpt:

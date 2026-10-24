@@ -8,38 +8,50 @@ import { Play, Pause, ChevronLeft, ChevronRight } from 'lucide-react'
 
 const shots = [
   {
-    src: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/lalibela-giyorgis.jpg',
+    src: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/v1792849778/Lalibela.png',
     location: 'Lalibela',
     description:
-      'The cross-shaped roof of Bete Giyorgis, carved down into the rock.',
+      'Pilgrims at the doorway of Bete Giyorgis, seen from the trench carved around it.',
   },
   {
-    src: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/simien-gelada.jpg',
+    src: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/v1792849798/Simien_Mountains.png',
     location: 'Simien Mountains',
     description:
-      'Gelada troops grazing on the highland meadows above the escarpment.',
+      'A gelada, the grass-grazing monkey found only in the Ethiopian highlands.',
   },
   {
-    src: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/danakil-dallol.jpg',
+    src: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/v1792849753/danakil.png',
     location: 'Danakil Depression',
     description:
       'Sulphur springs and salt terraces more than 100 metres below sea level.',
   },
   {
-    src: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/omo-river.jpg',
+    src: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/v1792849767/omo-valley.jpg',
     location: 'Omo Valley',
-    description: 'Evening light on a great bend of the Omo River.',
+    description: 'Villagers gathered on a bluff above the Omo River.',
   },
   {
-    src: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/timkat.jpg',
+    src: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/v1792849804/timkat-festival-journey.jpg',
     location: 'Timkat',
     description: 'Priests in ceremonial robes leading the Epiphany procession.',
   },
   {
-    src: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/lake-tana-monastery.jpg',
-    location: 'Lake Tana',
+    src: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/v1792849727/Axum.png',
+    location: 'Axum',
     description:
-      'A thatched island monastery on the shore of Ethiopia’s largest lake.',
+      'The stelae of Axum, each carved from a single block of granite some 1,700 years ago.',
+  },
+  {
+    src: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/v1792849764/bale-mountains.png',
+    location: 'Bale Mountains',
+    description:
+      'An Ethiopian wolf, the rarest canid in the world, on the Bale plateau.',
+  },
+  {
+    src: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/v1792850077/erta-ale.png',
+    location: 'Erta Ale',
+    description:
+      'Steam rising from the summit crater of Erta Ale, the active shield volcano of the Danakil.',
   },
 ]
 
