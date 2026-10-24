@@ -1,6 +1,6 @@
 import { useCopy } from '@/i18n/copy'
 import { HeroActions } from './hero-actions'
-import { HeroSlideshow } from './hero-slideshow'
+import { HeroVideo } from './hero-video'
 
 export function Hero() {
   const copy = useCopy()
@@ -11,7 +11,7 @@ export function Hero() {
       className="relative isolate flex min-h-[100svh] w-full flex-col justify-end overflow-hidden"
     >
       <div className="absolute inset-0 -z-10">
-        <HeroSlideshow />
+        <HeroVideo />
         <div className="absolute inset-0 bg-gradient-to-b from-charcoal/55 via-charcoal/25 to-charcoal/85" />
         <div className="absolute inset-0 bg-gradient-to-r from-charcoal/55 via-charcoal/10 to-transparent" />
       </div>
