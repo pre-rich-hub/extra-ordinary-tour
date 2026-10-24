@@ -43,9 +43,9 @@ export function AboutIntroduction() {
           <div className="grid aspect-[5/6] grid-cols-6 grid-rows-[repeat(8,minmax(0,1fr))] gap-4 sm:gap-5 lg:aspect-auto lg:h-full lg:min-h-[620px]">
             <div className="relative col-span-4 row-span-5 overflow-hidden rounded-sm shadow-[0_40px_80px_-40px_oklch(0.185_0.012_58/0.55)]">
               <Image
-                src="https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/lalibela-pilgrims.jpg"
+                src="https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/v1792852734/3-Day_Lalibela_Rock-Hewn_Churches.jpg"
                 alt={copy(
-                  'Priests holding processional crosses during a celebration in Lalibela',
+                  'Pilgrims in white shawls walking among the rock-hewn churches of Lalibela',
                 )}
                 fill
                 sizes="(max-width: 1024px) 60vw, 30vw"
@@ -54,9 +54,9 @@ export function AboutIntroduction() {
             </div>
             <div className="relative col-span-2 col-start-5 row-span-3 row-start-2 overflow-hidden rounded-sm">
               <Image
-                src="https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/coffee-ceremony.jpg"
+                src="https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/v1792851938/enkutatesh.png"
                 alt={copy(
-                  'A jebena and cups prepared for an Ethiopian coffee ceremony',
+                  'Yellow Adey Abeba daisies, the flowers of the Ethiopian New Year',
                 )}
                 fill
                 sizes="(max-width: 1024px) 30vw, 15vw"
@@ -65,9 +65,9 @@ export function AboutIntroduction() {
             </div>
             <div className="relative col-span-4 col-start-3 row-span-3 row-start-6 overflow-hidden rounded-sm shadow-[0_40px_80px_-40px_oklch(0.185_0.012_58/0.55)]">
               <Image
-                src="https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/simien-landscape.jpg"
+                src="https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/v1792849798/Simien_Mountains.png"
                 alt={copy(
-                  'Basalt pinnacles of the Simien Mountains rising above the clouds',
+                  'A gelada, the grass-grazing monkey found only in the Ethiopian highlands.',
                 )}
                 fill
                 sizes="(max-width: 1024px) 60vw, 30vw"
