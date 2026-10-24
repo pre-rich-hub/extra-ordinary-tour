@@ -18,7 +18,7 @@ export const whyUs: (BrandPromise & {
     title: 'Locally based, locally run',
     text: 'Founded by a licensed guide from Lalibela. Our team shows you the Ethiopia we grew up in: its people, history and hidden corners.',
     body:
-      'We are a locally based tour operator from Lalibela, and Ethiopia is the country we know best. Our experienced team brings genuine local knowledge to every journey, connecting you with local communities, ancient traditions and the cultures that make Ethiopia extraordinary. For us, travel is more than sightseeing.',
+      'We are a locally based tour operator from Lalibela, and Ethiopia is the country we know best. Our team connects you with local communities, ancient traditions and the cultures that make Ethiopia extraordinary.',
   },
   {
     icon: 'tailored',
@@ -28,7 +28,7 @@ export const whyUs: (BrandPromise & {
     title: 'Private, group or solo',
     text: 'Private, small-group or solo. Every itinerary is built around your interests, pace and budget, and stays flexible during the trip.',
     body:
-      'Every journey is custom-designed around your interests, travel style and budget, for couples, families, friends, groups of all sizes and solo travelers. Travelling alone? You’re especially welcome: personalised itineraries, comfortable accommodation, dependable transport and professional local support let you discover Ethiopia at your own pace.',
+      'Every journey is built around your interests, pace and budget, for couples, families, groups and solo travellers alike. Travelling alone? You’ll have personal support, comfortable stays and dependable transport throughout.',
   },
   {
     icon: 'handled',
@@ -70,7 +70,7 @@ export const whyUs: (BrandPromise & {
     title: 'All of Ethiopia',
     text: 'The Historic Route, the Danakil Depression, the Omo Valley, the Simien and Bale Mountains and Addis Ababa, combined into one journey.',
     body:
-      'Follow the Historic Route through the UNESCO World Heritage Sites of Axum, Lalibela, Gondar and Tigray. Cross the volcanic landscapes of the Danakil Depression, meet the cultures of the Omo Valley, or trek the Simien and Bale Mountains. Add Addis Ababa’s museums, markets and cuisine, and combine it all into one journey.',
+      'Follow the Historic Route through Axum, Lalibela, Gondar and Tigray, or cross the volcanic Danakil Depression. Meet the cultures of the Omo Valley, trek the Simien and Bale Mountains, and combine it all into one journey.',
   },
 ]
 

@@ -4,14 +4,14 @@
     "place": "Lalibela",
     "title": "Basé localement, géré localement",
     "text": "Fondé par un guide agréé de Lalibela. Notre équipe vous montre l'Éthiopie dans laquelle nous avons grandi : ses habitants, son histoire et ses coins cachés.",
-    "body": "Nous sommes un voyagiste basé à Lalibela et l'Éthiopie est le pays que nous connaissons le mieux. Notre équipe expérimentée apporte de véritables connaissances locales à chaque voyage, vous mettant en contact avec les communautés locales, les traditions anciennes et les cultures qui rendent l'Éthiopie extraordinaire. Pour nous, voyager est bien plus que faire du tourisme."
+    "body": "Nous sommes un voyagiste basé à Lalibela, et l'Éthiopie est le pays que nous connaissons le mieux. Notre équipe vous met en contact avec les communautés locales, les traditions anciennes et les cultures qui rendent l'Éthiopie extraordinaire."
   },
   "tailored": {
     "label": "Sur mesure",
     "place": "Monts du Simien",
     "title": "Privé, en groupe ou solo",
     "text": "Privé, en petit groupe ou en solo. Chaque itinéraire est construit en fonction de vos intérêts, de votre rythme et de votre budget, et reste flexible pendant le voyage.",
-    "body": "Chaque voyage est conçu sur mesure en fonction de vos intérêts, de votre style de voyage et de votre budget, pour les couples, les familles, les amis, les groupes de toutes tailles et les voyageurs seuls. Vous voyagez seul ? Vous êtes particulièrement les bienvenus : des itinéraires personnalisés, un hébergement confortable, un transport fiable et un accompagnement local professionnel vous permettent de découvrir l’Éthiopie à votre rythme."
+    "body": "Chaque voyage est conçu selon vos intérêts, votre rythme et votre budget, pour les couples, les familles, les groupes et les voyageurs en solo. Vous voyagez seul ? Vous bénéficiez d'un accompagnement personnel, d'un hébergement confortable et d'un transport fiable tout au long du séjour."
   },
   "handled": {
     "label": "Arrangé",
@@ -42,6 +42,6 @@
     "place": "Dallol, Danakil",
     "title": "Toute l'Éthiopie",
     "text": "La Route historique, la dépression de Danakil, la vallée de l'Omo, les monts Simien et Bale et Addis-Abeba, réunis en un seul voyage.",
-    "body": "Suivez la route historique à travers les sites du patrimoine mondial de l'UNESCO d'Axum, Lalibela, Gondar et Tigray. Traversez les paysages volcaniques de la dépression de Danakil, rencontrez les cultures de la vallée de l'Omo ou parcourez les montagnes du Simien et du Bale. Ajoutez les musées, les marchés et la cuisine d’Addis-Abeba et combinez le tout en un seul voyage."
+    "body": "Suivez la Route historique à travers Axum, Lalibela, Gondar et le Tigray, ou traversez la dépression volcanique du Danakil. Rencontrez les cultures de la vallée de l'Omo, randonnez dans les monts du Simien et du Bale, et réunissez le tout en un seul voyage."
   }
 }
