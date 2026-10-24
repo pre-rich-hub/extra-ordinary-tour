@@ -1,5 +1,4 @@
 import { LegalPage, legalMetadata } from '@/features/legal/server/legal-page'
-import { privacyPolicy } from '@/features/legal/data/privacy-policy'
 
 type Params = { params: Promise<{ locale: string }> }
 
@@ -18,7 +17,7 @@ export default function PrivacyPolicyPage(props: Params) {
       {...props}
       path="/privacy-policy"
       label="Privacy Policy"
-      document={privacyPolicy}
+      document="privacyPolicy"
     />
   )
 }

@@ -10,6 +10,8 @@ const paths = [
   '/gallery',
   '/blog',
   '/contact',
+  '/privacy-policy',
+  '/terms-and-conditions',
 ]
 for (const feature of ['tours', 'destinations', 'blog'])
   paths.push(
@@ -90,18 +92,10 @@ for (const path of [
   )
 }
 const xml = await (await fetch(`${base}/sitemap.xml`)).text()
-// Translated pages carry language alternates; the rest are English-only legal pages.
+// Every page is translated, so every sitemap entry carries language alternates.
 const entries = [...xml.matchAll(/<url>([\s\S]*?)<\/url>/g)].map((m) => m[1])
-assert.equal(
-  entries.filter((entry) => entry.includes('hreflang=')).length,
-  paths.length * 3,
-)
-assert.deepEqual(
-  entries
-    .filter((entry) => !entry.includes('hreflang='))
-    .map((entry) => new URL(entry.match(/<loc>([^<]+)/)[1]).pathname),
-  ['/en/privacy-policy', '/en/terms-and-conditions'],
-)
+assert.equal(entries.length, paths.length * 3)
+assert.ok(entries.every((entry) => entry.includes('hreflang=')))
 assert.ok(
   [...xml.matchAll(/<loc>([^<]+)<\/loc>/g)].every((match) =>
     /^\/(?:en|es|fr)(?:\/|$)/.test(new URL(match[1]).pathname),

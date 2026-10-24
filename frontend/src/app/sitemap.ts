@@ -17,28 +17,23 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/gallery',
     '/blog',
     '/contact',
+    '/privacy-policy',
+    '/terms-and-conditions',
     ...tours.map((t) => `/tours/${t.slug}`),
     ...destinations.map((d) => `/destinations/${d.slug}`),
     ...posts.map((p) => `/blog/${p.slug}`),
   ]
-  // Legal text is published only in English; translations canonicalize to it.
-  const englishOnly = ['/privacy-policy', '/terms-and-conditions']
-  return [
-    ...routing.locales.filter(isPublished).flatMap((locale) =>
-      paths.map((path) => ({
-        url: `${siteOrigin}${localePath(path, locale)}`,
-        alternates: {
-          languages: Object.fromEntries(
-            Object.entries(languageAlternates(path)).map(([lang, url]) => [
-              lang,
-              `${siteOrigin}${url}`,
-            ]),
-          ),
-        },
-      })),
-    ),
-    ...englishOnly.map((path) => ({
-      url: `${siteOrigin}${localePath(path, 'en')}`,
+  return routing.locales.filter(isPublished).flatMap((locale) =>
+    paths.map((path) => ({
+      url: `${siteOrigin}${localePath(path, locale)}`,
+      alternates: {
+        languages: Object.fromEntries(
+          Object.entries(languageAlternates(path)).map(([lang, url]) => [
+            lang,
+            `${siteOrigin}${url}`,
+          ]),
+        ),
+      },
     })),
-  ]
+  )
 }

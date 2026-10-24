@@ -2,7 +2,7 @@ import type { LegalDocument } from '../types'
 
 // Verbatim English text of the client's published Terms and Conditions
 // (extraordinaryethiopiatours.com/terms-and-conditions/, captured 2026-10-21).
-// Do not edit or translate without the client's approval.
+// Keep locales/es.json and locales/fr.json in step with any change here.
 export const termsAndConditions: LegalDocument = {
   title: 'Terms and Conditions',
   intro: [

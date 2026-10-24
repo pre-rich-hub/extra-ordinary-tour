@@ -1,5 +1,4 @@
 import { LegalPage, legalMetadata } from '@/features/legal/server/legal-page'
-import { termsAndConditions } from '@/features/legal/data/terms-and-conditions'
 
 type Params = { params: Promise<{ locale: string }> }
 
@@ -18,7 +17,7 @@ export default function TermsPage(props: Params) {
       {...props}
       path="/terms-and-conditions"
       label="Terms & Conditions"
-      document={termsAndConditions}
+      document="termsAndConditions"
     />
   )
 }

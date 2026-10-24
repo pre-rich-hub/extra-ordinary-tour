@@ -88,7 +88,7 @@ for (let i = 0; i < targets.length; i += 8)
   )
 
 // Edge cases beyond seo:technical: query variants and unknown slugs on detail
-// templates, and English-only legal pages served in other languages.
+// templates, and translated legal pages.
 const cases = [
   [
     '/en/tours/10-day-historic-route?utm_source=qa',
@@ -105,8 +105,8 @@ const cases = [
     200,
     `${origin}/es/blog/best-time-to-visit-ethiopia`,
   ],
-  ['/es/privacy-policy', 200, `${origin}/en/privacy-policy`],
-  ['/fr/terms-and-conditions', 200, `${origin}/en/terms-and-conditions`],
+  ['/es/privacy-policy', 200, `${origin}/es/privacy-policy`],
+  ['/fr/terms-and-conditions', 200, `${origin}/fr/terms-and-conditions`],
   ['/en/destinations/atlantis', 404],
   ['/fr/tours/10-day-historic-route-x', 404],
   ['/es/legal', 404],
