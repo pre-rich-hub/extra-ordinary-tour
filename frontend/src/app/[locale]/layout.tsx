@@ -14,6 +14,7 @@ import { JsonLd } from '@/components/seo/json-ld'
 import { SiteNav } from '@/components/layout/site-nav'
 import { SiteFooter } from '@/components/layout/site-footer'
 import { FloatingSupport } from '@/components/layout/floating-support'
+import { TouchActive } from '@/components/layout/touch-active'
 import { getDestinations } from '@/features/destinations/data/localized'
 import { getTours } from '@/features/tours/data/localized'
 import '../globals.css'
@@ -89,6 +90,7 @@ export default async function LocaleLayout({
           <main id="main">{children}</main>
           <SiteFooter />
           <FloatingSupport />
+          <TouchActive />
         </NextIntlClientProvider>
         {process.env.NODE_ENV === 'production' && <Analytics />}
       </body>

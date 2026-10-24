@@ -19,6 +19,8 @@ export function SignatureDestinations() {
       <div className="shell">
         <SectionHeading
           eyebrow={copy('Signature Destinations')}
+          eyebrowHref="/destinations"
+          compactOnMobile
           title={copy('Top destinations loved by travellers')}
           aside={copy(
             "From rock-hewn churches and walled cities to volcanic lowlands and Afro-alpine plateaus, each region reveals a different chapter of Ethiopia's story.",
