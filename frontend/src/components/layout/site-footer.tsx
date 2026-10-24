@@ -38,7 +38,7 @@ const socials: { name: string; href: string; icon: React.ReactNode }[] = [
     href: 'https://www.facebook.com/extraordinaryethiopiatours',
     icon: <FacebookIcon />,
   },
-  // No profile links yet: hidden until a real URL replaces '#'.
+  // No profile links yet; the icons stay in the footer regardless.
   {
     name: 'TikTok',
     href: '#',
@@ -211,18 +211,16 @@ export function SiteFooter() {
             </ul>
 
             <div className="mt-8 flex flex-wrap items-center gap-3">
-              {socials
-                .filter((s) => s.href !== '#')
-                .map((s) => (
-                  <a
-                    key={s.name}
-                    href={s.href}
-                    aria-label={copy(s.name)}
-                    className="flex h-12 w-12 items-center justify-center rounded-full bg-background shadow-[0_8px_20px_-10px_black] transition-transform duration-300 hover:-translate-y-1"
-                  >
-                    {copy(s.icon)}
-                  </a>
-                ))}
+              {socials.map((s) => (
+                <a
+                  key={s.name}
+                  href={s.href}
+                  aria-label={copy(s.name)}
+                  className="flex h-12 w-12 items-center justify-center rounded-full bg-background shadow-[0_8px_20px_-10px_black] transition-transform duration-300 hover:-translate-y-1"
+                >
+                  {copy(s.icon)}
+                </a>
+              ))}
             </div>
           </div>
 
