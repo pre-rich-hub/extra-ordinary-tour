@@ -175,7 +175,7 @@ export const tours: Tour[] = [
     // Tour code EDT-03-H3
     slug: '3-day-lalibela-rock-churches',
     title: '3-Day Lalibela Rock-Hewn Churches',
-    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/lalibela-medhane-alem.jpg',
+    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/v1792852734/3-Day_Lalibela_Rock-Hewn_Churches.jpg',
     days: '3 Days',
     nights: 2,
     style: 'Historical · Cultural',
@@ -222,7 +222,7 @@ export const tours: Tour[] = [
     // Tour code EDT-03-H4
     slug: '4-day-addis-and-lalibela',
     title: '4-Day Addis & Lalibela',
-    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/lalibela-pilgrims.jpg',
+    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/v1792849769/bahirdar.jpg',
     days: '4 Days',
     nights: 3,
     style: 'Historical · Cultural',
@@ -341,7 +341,7 @@ export const tours: Tour[] = [
     // Tour code EDT-03-H11
     slug: '11-day-history-and-culture-easter',
     title: '11-Day History & Culture with Easter in Lalibela',
-    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/lalibela-pilgrims.jpg',
+    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/v1792849778/Lalibela.png',
     days: '11 Days',
     nights: 10,
     style: 'Historical · Cultural',
