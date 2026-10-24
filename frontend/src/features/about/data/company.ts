@@ -49,7 +49,7 @@ export const whyUs: (BrandPromise & {
   {
     icon: 'safety',
     label: 'Safety',
-    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/danakil-dallol.jpg',
+    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/v1792849753/danakil.png',
     place: 'Dallol, Danakil',
     title: 'Safe hands',
     text: 'Experienced drivers, well-maintained 4x4 vehicles and honest advice on local conditions, so you can simply enjoy the journey.',
@@ -57,7 +57,7 @@ export const whyUs: (BrandPromise & {
   {
     icon: 'responsible',
     label: 'Responsible',
-    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/konso.jpg',
+    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/v1792849768/konso.png',
     place: 'Konso',
     title: 'Responsible travel',
     text: 'We work with local guides and communities, ask before we photograph, and help preserve the places we share with you.',
@@ -65,7 +65,7 @@ export const whyUs: (BrandPromise & {
   {
     icon: 'explore',
     label: 'Explore',
-    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/danakil-dallol.jpg',
+    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/v1792849753/danakil.png',
     place: 'Dallol, Danakil',
     title: 'All of Ethiopia',
     text: 'The Historic Route, the Danakil Depression, the Omo Valley, the Simien and Bale Mountains and Addis Ababa, combined into one journey.',

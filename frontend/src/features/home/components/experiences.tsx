@@ -21,7 +21,7 @@ const experiences = [
     kicker: 'Fire & salt',
     title: 'Danakil Expeditions',
     text: 'Camp beneath desert stars, watch the glow of Erta Ale’s lava lake and walk among the sulphur springs of Dallol.',
-    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/danakil-dallol.jpg',
+    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/v1792849753/danakil.png',
     href: '/tours/3-day-afar-danakil-from-addis',
   },
   {

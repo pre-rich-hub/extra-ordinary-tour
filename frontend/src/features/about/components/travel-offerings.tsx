@@ -25,7 +25,7 @@ const offerings = [
   {
     title: 'Danakil Depression',
     text: 'Erta Ale’s lava lake, Dallol and the salt caravans.',
-    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/danakil-dallol.jpg',
+    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/v1792849753/danakil.png',
     href: '/tours/3-day-afar-danakil-from-addis',
     span: 'lg:col-span-5',
   },
@@ -39,7 +39,7 @@ const offerings = [
   {
     title: 'Festivals & Coffee',
     text: 'Timkat, Genna and Meskel, and the coffee lands of the south.',
-    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/timkat.jpg',
+    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/v1792849804/timkat-festival-journey.jpg',
     href: '/tours/8-day-north-with-timkat-festival',
     span: 'lg:col-span-4',
   },

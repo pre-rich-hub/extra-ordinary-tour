@@ -8,7 +8,7 @@ export const layoverPackages: LayoverPackage[] = [
     hours: '6 Hours',
     title: 'Addis Highlights',
     price: 'On request',
-    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/addis-skyline.jpg',
+    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/v1792849746/addis-abebe.jpg',
     teaser:
       'A short loop of the capital for tight connections: Entoto views, a cathedral and a coffee ceremony.',
     itinerary: [
@@ -79,7 +79,7 @@ export const layoverPackages: LayoverPackage[] = [
     hours: '48 Hours',
     title: 'Lalibela Stopover',
     price: 'On request',
-    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/lalibela-giyorgis.jpg',
+    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/v1792849778/Lalibela.png',
     teaser:
       'Two days is enough for Lalibela: fly north, explore the rock-hewn churches, and fly back for your onward leg.',
     itinerary: [
