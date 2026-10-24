@@ -495,6 +495,13 @@ export function SiteNav({
               {copy(contact.phone)}
             </a>
             <a
+              href={`tel:${contact.ukPhone.replace(/[^\d+]/g, '')}`}
+              className="flex items-center gap-3"
+            >
+              <Phone className="h-4 w-4 text-accent" />
+              {copy(contact.ukPhone)}
+            </a>
+            <a
               href={`mailto:${contact.email}`}
               className="flex items-center gap-3"
             >

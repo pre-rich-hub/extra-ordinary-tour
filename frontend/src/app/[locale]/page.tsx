@@ -40,8 +40,8 @@ export default async function Page({
       <Hero />
       <WhyTravel />
       <SignatureDestinations />
-      <FeaturedTours tours={tours} />
       <StoryCarousel tours={stories} />
+      <FeaturedTours tours={tours} />
       <Experiences />
       <Reviews />
       <Gallery />

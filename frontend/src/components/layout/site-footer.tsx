@@ -10,6 +10,8 @@ import {
   InstagramIcon,
   YouTubeIcon,
   FacebookIcon,
+  TikTokIcon,
+  XIcon,
   TripadvisorMark,
   SafariBookingsMark,
   SafariGoMark,
@@ -35,6 +37,17 @@ const socials: { name: string; href: string; icon: React.ReactNode }[] = [
     name: 'Facebook',
     href: 'https://www.facebook.com/extraordinaryethiopiatours',
     icon: <FacebookIcon />,
+  },
+  // No profile links yet; the icons stay in the footer regardless.
+  {
+    name: 'TikTok',
+    href: '#',
+    icon: <TikTokIcon />,
+  },
+  {
+    name: 'X',
+    href: '#',
+    icon: <XIcon />,
   },
 ]
 
@@ -169,6 +182,18 @@ export function SiteFooter() {
                     strokeWidth={1.6}
                   />
                   {copy(contact.phone)}
+                </a>
+              </li>
+              <li>
+                <a
+                  href={`tel:${contact.ukPhone.replace(/[^\d+]/g, '')}`}
+                  className="flex items-center gap-3.5 transition-colors hover:text-accent"
+                >
+                  <Phone
+                    className="h-[18px] w-[18px] shrink-0 text-accent"
+                    strokeWidth={1.6}
+                  />
+                  {copy(contact.ukPhone)}
                 </a>
               </li>
               <li>

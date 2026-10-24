@@ -56,7 +56,7 @@ const slots: Record<number, string> = {
 }
 const hiddenSlot = 'left-[45%] top-[10%] h-[80%] w-[10%] opacity-0'
 
-const AUTOPLAY_MS = 6000
+const AUTOPLAY_MS = 2000
 
 export function Experiences() {
   const copy = useCopy()

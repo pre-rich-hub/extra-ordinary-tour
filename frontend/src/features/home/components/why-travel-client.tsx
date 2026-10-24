@@ -2,17 +2,17 @@
 
 import { useCopy } from '@/i18n/copy'
 
-import { useRef, useState, type KeyboardEvent } from 'react'
 import Image from 'next/image'
 import { Link } from '@/i18n/navigation'
-import { ChevronLeft, ChevronRight, MapPin } from 'lucide-react'
+import { MapPin } from 'lucide-react'
 import { Reveal } from '@/components/ui/reveal'
 import { cn } from '@/lib/utils'
 import { reviewSummaries } from '@/features/reviews/data/testimonials'
 import { slogan } from '@/config/site'
 import type { whyUs as sourceRecords } from '@/features/about/data/company'
 
-// The three reasons this section features; the rest still feed other pages.
+// The three reasons this section features, shown together; the rest still
+// feed other pages.
 const featured = ['local', 'tailored', 'explore'] as const
 
 const stats = [
@@ -28,55 +28,25 @@ export function WhyTravelClient({ whyUs }: { whyUs: typeof sourceRecords }) {
   const copy = useCopy()
 
   const reasons = featured.map((icon) => whyUs.find((r) => r.icon === icon)!)
-  const [active, setActive] = useState(0)
-  const tabRefs = useRef<(HTMLButtonElement | null)[]>([])
-  const reason = reasons[active]
-
-  const go = (i: number, focus = false) => {
-    const next = (i + reasons.length) % reasons.length
-    setActive(next)
-    if (focus) tabRefs.current[next]?.focus()
-  }
-
-  const onTabKey = (e: KeyboardEvent<HTMLButtonElement>) => {
-    const moves: Record<string, number> = {
-      ArrowRight: active + 1,
-      ArrowLeft: active - 1,
-      Home: 0,
-      End: reasons.length - 1,
-    }
-    if (e.key in moves) {
-      e.preventDefault()
-      go(moves[e.key], true)
-    }
-  }
+  const lead = reasons[0]
 
   return (
     <section
       id="why-us"
       aria-labelledby="why-us-title"
-      className="overflow-hidden bg-background py-20 sm:py-24 lg:py-32"
+      className="overflow-hidden bg-background pb-20 sm:pb-24 lg:py-32"
     >
       <div className="grid lg:grid-cols-2 lg:items-stretch">
         {/* Image panel — bleeds to the left edge of the viewport */}
         <Reveal className="relative aspect-[4/3] w-full min-w-0 overflow-hidden bg-muted lg:aspect-auto lg:min-h-[640px]">
-          {reasons.map((r, i) => (
-            <Image
-              key={r.image}
-              src={r.image}
-              alt={copy('{v0}, Ethiopia', { v0: r.place })}
-              fill
-              sizes="(min-width: 1024px) 50vw, 100vw"
-              className={cn(
-                'object-cover transition-[opacity,transform] duration-[1200ms] ease-out',
-                i === active
-                  ? 'scale-100 opacity-100'
-                  : 'scale-[1.04] opacity-0',
-              )}
-              style={{ objectPosition: r.position }}
-              aria-hidden={i !== active}
-            />
-          ))}
+          <Image
+            src={lead.image}
+            alt={copy('{v0}, Ethiopia', { v0: lead.place })}
+            fill
+            sizes="(min-width: 1024px) 50vw, 100vw"
+            className="object-cover"
+            style={{ objectPosition: lead.position }}
+          />
           <div
             aria-hidden
             className="pointer-events-none absolute inset-x-0 bottom-0 h-40 bg-gradient-to-t from-black/55 to-transparent"
@@ -84,38 +54,8 @@ export function WhyTravelClient({ whyUs }: { whyUs: typeof sourceRecords }) {
 
           <p className="absolute bottom-5 left-5 flex items-center gap-2 text-[10px] font-semibold uppercase tracking-[0.22em] text-white/90 sm:bottom-7 sm:left-8">
             <MapPin className="h-3.5 w-3.5" strokeWidth={1.5} aria-hidden />
-            {copy(reason.place)}
+            {copy(lead.place)}
           </p>
-
-          <div className="absolute bottom-4 right-4 flex items-center gap-2 sm:bottom-6 sm:right-8">
-            <span className="mr-2 font-serif text-base tabular-nums text-white">
-              {String(active + 1).padStart(2, '0')}
-              <span className="mx-1.5 text-white/40">/</span>
-              {String(reasons.length).padStart(2, '0')}
-            </span>
-            {[
-              {
-                label: copy('Previous reason'),
-                Icon: ChevronLeft,
-                to: active - 1,
-              },
-              {
-                label: copy('Next reason'),
-                Icon: ChevronRight,
-                to: active + 1,
-              },
-            ].map(({ label, Icon, to }) => (
-              <button
-                key={label}
-                type="button"
-                onClick={() => go(to)}
-                aria-label={copy(label)}
-                className="flex h-10 w-10 items-center justify-center rounded-full border border-white/40 bg-white/10 text-white backdrop-blur-sm transition-colors duration-300 hover:border-white hover:bg-white hover:text-foreground"
-              >
-                <Icon className="h-4 w-4" strokeWidth={1.5} aria-hidden />
-              </button>
-            ))}
-          </div>
         </Reveal>
 
         {/* Content panel */}
@@ -134,56 +74,17 @@ export function WhyTravelClient({ whyUs }: { whyUs: typeof sourceRecords }) {
             </Reveal>
 
             <Reveal delay={80}>
-              <div
-                role="tablist"
-                aria-label={copy('Reasons to travel with us')}
-                className="-mx-5 mt-10 flex gap-x-6 overflow-x-auto px-5 [scrollbar-width:none] sm:mx-0 sm:px-0 [&::-webkit-scrollbar]:hidden"
-              >
-                {reasons.map((r, i) => (
-                  <button
-                    key={r.title}
-                    ref={(el) => {
-                      tabRefs.current[i] = el
-                    }}
-                    type="button"
-                    role="tab"
-                    id={`why-tab-${i}`}
-                    aria-selected={i === active}
-                    aria-controls="why-panel"
-                    tabIndex={i === active ? 0 : -1}
-                    onClick={() => go(i)}
-                    onKeyDown={onTabKey}
-                    className={cn(
-                      'relative shrink-0 whitespace-nowrap pb-2 text-[11px] font-medium uppercase tracking-[0.16em] transition-colors duration-300',
-                      'after:absolute after:inset-x-0 after:bottom-0 after:h-px after:origin-left after:bg-accent after:transition-transform after:duration-500',
-                      i === active
-                        ? 'text-foreground after:scale-x-100'
-                        : 'text-muted-foreground/70 after:scale-x-0 hover:text-foreground',
-                    )}
-                  >
-                    {copy(r.label)}
-                  </button>
+              <div className="mt-10 space-y-7">
+                {reasons.map((r) => (
+                  <div key={r.title}>
+                    <h3 className="font-serif text-2xl text-foreground sm:text-[1.75rem]">
+                      {copy(r.title)}
+                    </h3>
+                    <p className="mt-2.5 text-pretty leading-[1.85] text-muted-foreground">
+                      {r.body ?? r.text}
+                    </p>
+                  </div>
                 ))}
-              </div>
-
-              <div
-                id="why-panel"
-                role="tabpanel"
-                aria-labelledby={`why-tab-${active}`}
-                aria-live="polite"
-                className="mt-8 lg:min-h-[12.75rem]"
-              >
-                <div
-                  key={active}
-                  className="animate-in fade-in slide-in-from-bottom-1 duration-700"
-                >
-                  <h3 className="font-serif text-3xl text-foreground sm:text-[2.1rem]">
-                    {copy(reason.title)}
-                  </h3>
-                  <p className="mt-4 text-pretty leading-[1.85] text-muted-foreground">
-                    {reason.body ?? reason.text}
-                  </p>
-                </div>
               </div>
             </Reveal>
 
