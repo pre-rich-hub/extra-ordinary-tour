@@ -173,6 +173,18 @@ export function SiteFooter() {
               </li>
               <li>
                 <a
+                  href={`tel:${contact.ukPhone.replace(/[^\d+]/g, '')}`}
+                  className="flex items-center gap-3.5 transition-colors hover:text-accent"
+                >
+                  <Phone
+                    className="h-[18px] w-[18px] shrink-0 text-accent"
+                    strokeWidth={1.6}
+                  />
+                  {copy(contact.ukPhone)}
+                </a>
+              </li>
+              <li>
+                <a
                   href={`mailto:${contact.email}`}
                   className="flex items-center gap-3.5 transition-colors hover:text-accent"
                 >

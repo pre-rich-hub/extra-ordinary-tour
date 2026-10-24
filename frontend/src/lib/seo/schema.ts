@@ -48,26 +48,34 @@ export function siteGraph() {
         founder: { '@type': 'Person', name: site.founder },
         areaServed: ethiopia,
         // Round-the-clock contact availability, not physical office hours.
-        contactPoint: {
-          '@type': 'ContactPoint',
-          contactType: 'customer support',
-          telephone,
-          email: site.contact.email,
-          hoursAvailable: {
-            '@type': 'OpeningHoursSpecification',
-            dayOfWeek: [
-              'Monday',
-              'Tuesday',
-              'Wednesday',
-              'Thursday',
-              'Friday',
-              'Saturday',
-              'Sunday',
-            ],
-            opens: '00:00',
-            closes: '23:59',
+        contactPoint: [
+          {
+            '@type': 'ContactPoint',
+            contactType: 'customer support',
+            telephone,
+            email: site.contact.email,
+            hoursAvailable: {
+              '@type': 'OpeningHoursSpecification',
+              dayOfWeek: [
+                'Monday',
+                'Tuesday',
+                'Wednesday',
+                'Thursday',
+                'Friday',
+                'Saturday',
+                'Sunday',
+              ],
+              opens: '00:00',
+              closes: '23:59',
+            },
           },
-        },
+          {
+            '@type': 'ContactPoint',
+            contactType: 'customer support',
+            telephone: site.contact.ukPhone.replace(/\s/g, ''),
+            areaServed: 'GB',
+          },
+        ],
         sameAs: site.profiles,
       },
       {

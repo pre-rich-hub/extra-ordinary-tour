@@ -52,6 +52,13 @@ export function ContactDetails() {
           >
             {copy(contact.phone)}
           </a>
+          <br />
+          <a
+            href={`tel:${contact.ukPhone.replace(/[^\d+]/g, '')}`}
+            className="border-b border-accent/40 pb-0.5 transition-colors hover:border-accent hover:text-primary"
+          >
+            {copy(contact.ukPhone)}
+          </a>
         </Detail>
         <Detail icon={MessageCircle} label={copy('WhatsApp')}>
           <a
