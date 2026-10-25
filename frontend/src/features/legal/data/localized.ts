@@ -10,13 +10,18 @@ import fr from './locales/fr.json'
 const sources = { privacyPolicy, termsAndConditions }
 export type LegalDocumentKey = keyof typeof sources
 
-/** Translated legal text, or the English original if a translation is incomplete. */
+/**
+ * Translated legal text, or the English original if a translation is missing
+ * or incomplete; German has none yet.
+ */
 export function getLegalDocument(
   key: LegalDocumentKey,
   locale: AppLocale,
-): LegalDocument {
+): { document: LegalDocument; translated: boolean } {
   const source = sources[key]
-  if (locale === 'en') return source
-  const translated = { es, fr }[locale][key]
-  return sameShape(source, translated) ? (translated as LegalDocument) : source
+  const catalogues: Partial<Record<AppLocale, typeof es>> = { es, fr }
+  const translated = catalogues[locale]?.[key]
+  return translated && sameShape(source, translated)
+    ? { document: translated as LegalDocument, translated: true }
+    : { document: source, translated: false }
 }
