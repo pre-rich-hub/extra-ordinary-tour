@@ -78,17 +78,6 @@ export function TikTokIcon() {
   )
 }
 
-export function XIcon() {
-  return (
-    <svg viewBox="0 0 24 24" aria-hidden className="h-[22px] w-[22px]">
-      <path
-        d="M17.8 2.5h3.2l-7 8 8.2 11h-6.4l-5-6.6-5.8 6.6H1.8l7.5-8.6L1.4 2.5H8l4.6 6.1 5.2-6.1Zm-1.1 17.1h1.8L7.4 4.3H5.5l11.2 15.3Z"
-        fill="#000"
-      />
-    </svg>
-  )
-}
-
 export function ViatorMark() {
   return (
     <span className="font-sans text-[1.6rem] font-bold tracking-[-0.03em] text-[#186b6d]">
@@ -139,15 +128,6 @@ export function SafariBookingsMark() {
   return (
     <span className="font-serif text-[13px] font-medium uppercase tracking-[0.12em] text-[#5a4632] sm:text-[14px]">
       SafariBookings
-    </span>
-  )
-}
-
-export function SafariGoMark() {
-  return (
-    <span className="font-sans text-[1.35rem] font-extrabold tracking-[-0.02em] text-[#2e7d32]">
-      Safari
-      <span className="text-[#f39200]">Go</span>
     </span>
   )
 }

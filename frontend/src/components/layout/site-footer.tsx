@@ -11,10 +11,10 @@ import {
   YouTubeIcon,
   FacebookIcon,
   TikTokIcon,
-  XIcon,
   TripadvisorMark,
   SafariBookingsMark,
-  SafariGoMark,
+  ViatorMark,
+  GetYourGuideMark,
   VisaMark,
   MastercardMark,
   PayPalMark,
@@ -44,11 +44,6 @@ const socials: { name: string; href: string; icon: React.ReactNode }[] = [
     href: '#',
     icon: <TikTokIcon />,
   },
-  {
-    name: 'X',
-    href: '#',
-    icon: <XIcon />,
-  },
 ]
 
 // Logo tiles: brand marks are set in type and simple shapes on light cards.
@@ -66,10 +61,16 @@ const platforms: { name: string; href: string; mark: React.ReactNode }[] = [
     href: 'https://www.safaribookings.com/p6779',
     mark: <SafariBookingsMark />,
   },
+  // No listing links yet: shown as plain tiles until a real URL replaces '#'.
   {
-    name: 'SafariGo',
-    href: 'https://www.safarigo.com/operator/extraordinary-ethiopia-tours-3022',
-    mark: <SafariGoMark />,
+    name: 'Viator',
+    href: '#',
+    mark: <ViatorMark />,
+  },
+  {
+    name: 'GetYourGuide',
+    href: '#',
+    mark: <GetYourGuideMark />,
   },
 ]
 
@@ -280,16 +281,22 @@ export function SiteFooter() {
             <p className="mt-2 text-[15px] text-background/60">
               {copy('Find and review us where seasoned travellers plan.')}
             </p>
-            <ul className="mt-6 grid grid-cols-2 gap-3 sm:grid-cols-3">
+            <ul className="mt-6 grid grid-cols-2 gap-3 sm:grid-cols-4">
               {platforms.map((p) => (
                 <li key={p.name}>
-                  <a
-                    href={p.href}
-                    aria-label={copy(p.name)}
-                    className={logoTile}
-                  >
-                    {copy(p.mark)}
-                  </a>
+                  {p.href === '#' ? (
+                    <span aria-label={copy(p.name)} className={logoTile}>
+                      {copy(p.mark)}
+                    </span>
+                  ) : (
+                    <a
+                      href={p.href}
+                      aria-label={copy(p.name)}
+                      className={logoTile}
+                    >
+                      {copy(p.mark)}
+                    </a>
+                  )}
                 </li>
               ))}
             </ul>

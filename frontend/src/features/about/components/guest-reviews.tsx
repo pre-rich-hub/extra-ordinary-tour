@@ -4,9 +4,10 @@ import { useCopy } from '@/i18n/copy'
 import { ArrowUpRight } from 'lucide-react'
 import { Reveal } from '@/components/ui/reveal'
 import {
+  GetYourGuideMark,
   SafariBookingsMark,
-  SafariGoMark,
   TripadvisorMark,
+  ViatorMark,
 } from '@/components/icons/brand-marks'
 import { contact } from '@/config/site'
 import { getTestimonials } from '@/features/reviews/data/localized'
@@ -22,10 +23,16 @@ const platforms = [
     href: 'https://www.safaribookings.com/p6779',
     mark: <SafariBookingsMark />,
   },
+  // No listing links yet: shown as plain tiles until a real URL replaces '#'.
   {
-    name: 'SafariGo',
-    href: 'https://www.safarigo.com/operator/extraordinary-ethiopia-tours-3022',
-    mark: <SafariGoMark />,
+    name: 'Viator',
+    href: '#',
+    mark: <ViatorMark />,
+  },
+  {
+    name: 'GetYourGuide',
+    href: '#',
+    mark: <GetYourGuideMark />,
   },
 ]
 
@@ -74,20 +81,30 @@ export function GuestReviews() {
           .
         </p>
         <ul className="mt-8 grid gap-3">
-          {platforms.map((p) => (
-            <li key={p.name}>
-              <a
-                href={p.href}
-                target="_blank"
-                rel="noopener noreferrer"
-                aria-label={copy('{v0} reviews', { v0: p.name })}
-                className="group flex h-[72px] items-center justify-between rounded-md bg-ivory px-6 transition-all duration-300 hover:-translate-y-0.5 hover:shadow-[0_14px_30px_-18px_oklch(0.185_0.012_58/0.6)]"
+          {platforms.map((p) =>
+            p.href === '#' ? (
+              <li
+                key={p.name}
+                aria-label={copy(p.name)}
+                className="flex h-[72px] items-center rounded-md bg-ivory px-6"
               >
                 {copy(p.mark)}
-                <ArrowUpRight className="h-4 w-4 text-muted-foreground transition-colors group-hover:text-accent" />
-              </a>
-            </li>
-          ))}
+              </li>
+            ) : (
+              <li key={p.name}>
+                <a
+                  href={p.href}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label={copy('{v0} reviews', { v0: p.name })}
+                  className="group flex h-[72px] items-center justify-between rounded-md bg-ivory px-6 transition-all duration-300 hover:-translate-y-0.5 hover:shadow-[0_14px_30px_-18px_oklch(0.185_0.012_58/0.6)]"
+                >
+                  {copy(p.mark)}
+                  <ArrowUpRight className="h-4 w-4 text-muted-foreground transition-colors group-hover:text-accent" />
+                </a>
+              </li>
+            ),
+          )}
         </ul>
       </Reveal>
     </section>

@@ -38,3 +38,11 @@ Sources were inspected without logging in, sending enquiries, subscribing addres
 | Instagram, YouTube    | Footer URLs respond, but the live client site does not link them and ownership is unconfirmed                                                             | Footer links kept; excluded from `sameAs` pending client confirmation                                                                       |
 | TikTok, X             | Footer used `#` placeholders; the live site links neither                                                                                                 | Removed                                                                                                                                     |
 | Privacy policy, terms | Live client pages `/privacy-policy/` (≈670 words) and `/terms-and-conditions/` (≈2,380 words)                                                             | Ported verbatim in English; no effective date is published; the terms' address reads “Workdinagy Street” (site config: “Workdingay Street”) |
+
+## Client feedback (2026-10-25)
+
+| Field                | Observation                                                 | Treatment                                                                                        |
+| -------------------- | ----------------------------------------------------------- | ------------------------------------------------------------------------------------------------ |
+| SafariGo             | Client asked to remove SafariGo from the website            | Removed from the footer, About reviews panel and structured-data `sameAs`                        |
+| Viator, GetYourGuide | Client asked to add both; no listing URLs supplied or found | Added as `#` placeholders, hidden until the client supplies the listing URLs                     |
+| X (Twitter)          | Client asked to remove all X links                          | Footer placeholder and icon removed; `twitter:*` card meta kept, as it only shapes link previews |

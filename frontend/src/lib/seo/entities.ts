@@ -16,8 +16,5 @@ export const site = {
   founder: 'Maereg Tefere',
   logo: { path: '/images/logo.png', width: 512, height: 512 },
   // Only profiles verified to show this business; see business-facts.md.
-  profiles: [
-    'https://www.safaribookings.com/p6779',
-    'https://www.safarigo.com/operator/extraordinary-ethiopia-tours-3022',
-  ],
+  profiles: ['https://www.safaribookings.com/p6779'],
 } as const
