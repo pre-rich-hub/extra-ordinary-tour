@@ -26,7 +26,7 @@ export function TourCard({
       eyebrow={
         hasPrice(t.from)
           ? copy('From {v0} per person', { v0: priceShort(t.from) })
-          : copy('Tailor-Made Journey')
+          : copy('Designed Around You')
       }
       title={copy(t.title)}
       summary={t.teaser}

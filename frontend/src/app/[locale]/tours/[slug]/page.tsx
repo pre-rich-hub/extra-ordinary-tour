@@ -89,7 +89,7 @@ export default async function TourPage({
             label: hasPrice(t.from) ? copy('From') : copy('Price'),
             value: hasPrice(t.from)
               ? priceShort(t.from)
-              : copy('Tailor-Made Journey'),
+              : copy('Designed Around You'),
           },
         ]}
       />

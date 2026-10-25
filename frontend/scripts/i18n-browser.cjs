@@ -193,7 +193,7 @@ function send(method, params = {}, sessionId) {
     'French native validation',
   )
   await evaluate(
-    `(()=>{const form=document.querySelector('#name').form;for(const [selector,value]of [['#name','Test traveller'],['#email','test@example.com'],['#dream','Bonjour, mon voyage personnel.']]){const el=form.querySelector(selector);el.value=value;el.dispatchEvent(new Event('input',{bubbles:true}))}form.requestSubmit()})()`,
+    `(()=>{const form=document.querySelector('#name').form;for(const [selector,value]of [['#name','Test traveller'],['#email','test@example.com'],['#travellers','2 travellers'],['#phone','7700 900123'],['#dream','Bonjour, mon voyage personnel.']]){const el=form.querySelector(selector);el.value=value;el.dispatchEvent(new Event('input',{bubbles:true}))}form.requestSubmit()})()`,
   )
   await waitFor(
     '!!document.querySelector("main [role=alert]")',
@@ -218,6 +218,14 @@ function send(method, params = {}, sessionId) {
   assert.ok(
     payload.message.includes('Bonjour, mon voyage personnel.'),
     'free text preserved',
+  )
+  assert.ok(
+    payload.message.includes('Travellers: 2 travellers'),
+    'canonical English group size',
+  )
+  assert.ok(
+    /Mobile \/ WhatsApp: (\+\d+ )?7700 900123/.test(payload.message),
+    'phone number sent',
   )
   await evaluate(
     `window.__success=false;const el=document.querySelector('footer input[type=email]');el.value='test@example.com';el.dispatchEvent(new Event('input',{bubbles:true}));el.form.requestSubmit()`,

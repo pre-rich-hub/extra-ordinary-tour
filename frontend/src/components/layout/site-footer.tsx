@@ -120,7 +120,6 @@ export function SiteFooter() {
           label: copy('Best Time to Visit'),
           href: '/blog/best-time-to-visit-ethiopia',
         },
-        { label: copy('Contact Us'), href: '/contact' },
       ],
     },
   ]

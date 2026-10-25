@@ -10,7 +10,7 @@ export function TourItinerary({ tour: t }: { tour: Tour }) {
       <Reveal className="mb-12 max-w-2xl sm:mb-16">
         <p className="eyebrow mb-5 text-accent">{copy('Day by Day')}</p>
         <h2 className="text-balance text-3xl leading-[1.1] text-foreground sm:text-4xl lg:text-5xl">
-          {copy('The itinerary, as it usually runs')}
+          {copy('Detailed Day-by-Day Itinerary')}
         </h2>
         <p className="mt-5 text-pretty leading-relaxed text-muted-foreground sm:text-lg">
           {copy(

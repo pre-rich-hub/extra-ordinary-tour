@@ -52,7 +52,7 @@ export function FeaturedJourney({ tours }: { tours: Tour[] }) {
                 label: hasPrice(hero.from) ? copy('From') : copy('Price'),
                 value: hasPrice(hero.from)
                   ? priceShort(hero.from)
-                  : copy('Tailor-Made Journey'),
+                  : copy('Designed Around You'),
               },
             ].map((m) => (
               <div key={m.label} className="border-t border-border pt-4">
