@@ -11,6 +11,7 @@ import { Reveal } from '@/components/ui/reveal'
 import { reviewSummaries } from '../data/testimonials'
 import { useScrollEdges } from '@/hooks/use-scroll-edges'
 import {
+  GoogleG,
   SafariBookingsEmblem,
   TripadvisorOwl,
 } from '@/components/icons/brand-marks'
@@ -24,6 +25,7 @@ const AUTOPLAY_MS = 5000
 const platformStyle: Record<ReviewPlatform, { tile: string; name: string }> = {
   Tripadvisor: { tile: 'bg-tripadvisor', name: 'Tripadvisor' },
   SafariBookings: { tile: 'bg-safaribookings', name: 'SafariBookings' },
+  Google: { tile: 'bg-white ring-1 ring-border', name: 'Google' },
 }
 
 export function ReviewsClient({
@@ -53,13 +55,17 @@ export function ReviewsClient({
                     id={r === 0 ? 'reviews-title' : undefined}
                     className="mt-3 font-sans text-[2rem] font-extrabold uppercase leading-none tracking-[0.02em] text-foreground"
                   >
-                    {copy('Excellent')}
+                    {summary.rating === null
+                      ? copy('{v0} reviews', { v0: summary.platform })
+                      : copy('Excellent')}
                   </h2>
-                  <Stars
-                    value={summary.rating ?? 5}
-                    className="mt-4 justify-center gap-1 lg:justify-start"
-                    size="h-9 w-9"
-                  />
+                  {summary.rating !== null && (
+                    <Stars
+                      value={summary.rating}
+                      className="mt-4 justify-center gap-1 lg:justify-start"
+                      size="h-9 w-9"
+                    />
+                  )}
                   <p className="mt-4 text-[15px] text-foreground/80">
                     {copy('Based on')}{' '}
                     <span className="font-semibold text-foreground underline decoration-accent decoration-2 underline-offset-4">
@@ -132,7 +138,8 @@ function ReviewRow({
     return () => window.clearInterval(id)
   }, [track])
 
-  if (reviews.length === 0) return null
+  if (reviews.length === 0)
+    return summary.writeUrl ? <ReviewInvite summary={summary} /> : null
 
   return (
     <div>
@@ -173,6 +180,36 @@ function ReviewRow({
   )
 }
 
+// Shown beside a platform's rating card when there are no reviews to quote.
+function ReviewInvite({ summary }: { summary: ReviewSummary }) {
+  const copy = useCopy()
+
+  return (
+    <div className="flex h-full flex-col items-start justify-center gap-5 rounded-lg border border-dashed border-border bg-card/60 p-6 sm:flex-row sm:items-center sm:justify-between sm:p-8">
+      <div className="flex items-center gap-4">
+        <PlatformTile platform={summary.platform} className="h-12 w-12" />
+        <div>
+          <p className="font-serif text-xl text-foreground sm:text-2xl">
+            {copy('Travelled with us?')}
+          </p>
+          <p className="mt-1 text-[15px] text-muted-foreground">
+            {copy('Share your experience on {v0}.', { v0: summary.platform })}
+          </p>
+        </div>
+      </div>
+      <a
+        href={summary.writeUrl}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="group inline-flex shrink-0 items-center gap-2 border border-accent px-5 py-3 text-[11px] font-semibold uppercase tracking-[0.18em] text-foreground transition-colors duration-300 hover:bg-accent hover:text-accent-foreground"
+      >
+        {copy('Write a review')}
+        <ArrowUpRight className="h-4 w-4 transition-transform duration-300 group-hover:-translate-y-0.5 group-hover:translate-x-0.5" />
+      </a>
+    </div>
+  )
+}
+
 function PlatformTile({
   platform,
   className,
@@ -190,6 +227,8 @@ function PlatformTile({
     >
       {platform === 'Tripadvisor' ? (
         <TripadvisorOwl className="h-[62%] w-[62%]" />
+      ) : platform === 'Google' ? (
+        <GoogleG className="h-[54%] w-[54%]" />
       ) : (
         <SafariBookingsEmblem className="h-[66%] w-[66%]" />
       )}
@@ -223,7 +262,9 @@ function PlatformCard({
               {rating.toFixed(1)}
             </span>
           )}
-          <Stars value={rating ?? 5} className="gap-0.5" size="h-4 w-4" />
+          {rating !== null && (
+            <Stars value={rating} className="gap-0.5" size="h-4 w-4" />
+          )}
         </span>
         {count !== null && (
           <span className="mt-1 block text-[13px] text-muted-foreground">

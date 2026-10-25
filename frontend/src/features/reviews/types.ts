@@ -1,4 +1,4 @@
-export type ReviewPlatform = 'Tripadvisor' | 'SafariBookings'
+export type ReviewPlatform = 'Tripadvisor' | 'SafariBookings' | 'Google'
 
 export type Testimonial = {
   id: string
@@ -20,4 +20,6 @@ export type ReviewSummary = {
   count: number | null
   /** Average rating out of 5. */
   rating: number | null
+  /** Where guests can leave a new review, when the platform offers a link. */
+  writeUrl?: string
 }

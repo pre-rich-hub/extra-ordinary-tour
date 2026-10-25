@@ -15,11 +15,14 @@ import type { whyUs as sourceRecords } from '@/features/about/data/company'
 // feed other pages.
 const featured = ['local', 'tailored', 'explore'] as const
 
+// Rated platforms only; the strip has room for four figures.
 const stats = [
-  ...reviewSummaries.map((s) => ({
-    label: s.platform,
-    value: `${s.rating?.toFixed(1)} / 5`,
-  })),
+  ...reviewSummaries
+    .filter((s) => s.rating !== null && s.platform !== 'Google')
+    .map((s) => ({
+      label: s.platform,
+      value: `${s.rating?.toFixed(1)} / 5`,
+    })),
   { label: 'Experience', value: '10+ years' },
   { label: 'Support', value: '24/7' },
 ]
