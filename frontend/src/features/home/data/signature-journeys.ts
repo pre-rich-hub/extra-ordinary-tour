@@ -5,5 +5,5 @@ export const storySlugs = [
   '5-day-simien-mountains-trek',
   '5-day-timkat-festival-lalibela',
   '6-day-ethiopia-coffee-kaffa',
-  '3-day-danakil-depression-from-mekelle',
+  '3-day-afar-danakil-from-addis',
 ]

@@ -168,7 +168,7 @@ function TourCard({ tour: t }: { tour: TourIndexItem }) {
                 <span className="not-italic">{priceShort(t.from)}</span>
               </>
             ) : (
-              copy('Price on request')
+              copy('Tailor-Made Journey')
             )}
           </p>
           <span className="shrink-0 border border-accent px-4 py-2.5 text-[10px] font-medium uppercase tracking-[0.18em] text-foreground transition-colors duration-300 group-hover:bg-accent group-hover:text-accent-foreground">

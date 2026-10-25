@@ -1,3 +1,5 @@
+import { categoriesOf } from './data/categories'
+
 export type Tour = {
   canonicalTitle?: string
   canonicalPlaces?: string[]
@@ -36,7 +38,7 @@ export type TourCardData = Pick<
   | 'group'
   | 'teaser'
   | 'places'
->
+> & { categories?: string[] }
 
 export function toCardData(t: Tour): TourCardData {
   const { slug, title, image, days, nights, style, styleKeys } = t
@@ -54,5 +56,6 @@ export function toCardData(t: Tour): TourCardData {
     group,
     teaser,
     places,
+    categories: categoriesOf(t),
   }
 }
