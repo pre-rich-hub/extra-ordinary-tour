@@ -44,7 +44,7 @@ function Wordmark({
       href="/"
       onClick={onClick}
       aria-label={copy('Extraordinary Ethiopia Tours, home')}
-      className="flex items-center"
+      className="flex shrink-0 items-center"
     >
       <img
         src="/images/logo-160.webp"
@@ -153,7 +153,7 @@ export function SiteNav({
         >
           <Wordmark tone={open ? 'dark' : tone} />
 
-          <ul className="ml-auto mr-4 hidden items-center gap-7 lg:flex xl:mr-10 xl:gap-12">
+          <ul className="ml-auto mr-3 hidden items-center gap-5 lg:flex xl:mr-10 xl:gap-12">
             {navLinks.map((link) => {
               const active = isActive(link.href)
               const hasDropdown =

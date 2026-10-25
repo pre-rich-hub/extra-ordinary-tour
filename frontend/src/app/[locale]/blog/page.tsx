@@ -53,7 +53,7 @@ export default async function BlogPage({
 
   const crumbs = [
     { label: copy('Home'), href: '/' },
-    { label: copy('Journal') },
+    { label: copy('Travel Journal') },
   ]
 
   return (
@@ -68,7 +68,7 @@ export default async function BlogPage({
         })}
       />
       <PageHero
-        eyebrow={copy('The Journal')}
+        eyebrow={copy('The Travel Journal')}
         title={copy('Ethiopia travel guides & stories')}
         lede={copy(
           'Written by the people who run these journeys: when to come, what to pack, where to go and the festivals worth planning around.',

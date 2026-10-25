@@ -57,7 +57,7 @@ export function GET() {
       entry(`/destinations/${d.slug}`, d.name, `${d.region}. ${d.teaser}`),
     ),
     '',
-    '## Journal',
+    '## Travel Journal',
     '',
     ...posts.map((p) => entry(`/blog/${p.slug}`, p.title, p.excerpt)),
     '',

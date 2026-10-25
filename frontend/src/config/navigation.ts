@@ -17,5 +17,5 @@ export const navLinks: readonly NavLink[] = [
       { label: 'About Ethiopia', href: '/about-ethiopia' },
     ],
   },
-  { label: 'Journal', href: '/blog' },
+  { label: 'Travel Journal', href: '/blog' },
 ]
