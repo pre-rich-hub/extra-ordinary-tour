@@ -12,16 +12,20 @@ export function TourBooking({ tour: t }: { tour: Tour }) {
       <div className="lg:sticky lg:top-28">
         <Reveal delay={120}>
           <BookingCard
-            label={copy('Pricing')}
+            label={
+              hasPrice(t.from) ? copy('Pricing') : copy('Tailor-Made Journey')
+            }
             title={
               hasPrice(t.from)
                 ? copy('From {v0}', { v0: priceShort(t.from) })
-                : copy('Price on request')
+                : copy('Priced to Your Plans')
             }
             subtitle={
               hasPrice(t.from)
                 ? copy('per person, twin share')
-                : copy('quoted for your dates and group size')
+                : copy(
+                    'Quoted individually once we know your travel dates, accommodation preferences, and group size.',
+                  )
             }
             rows={[
               {

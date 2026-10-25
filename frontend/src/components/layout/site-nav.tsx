@@ -317,7 +317,9 @@ export function SiteNav({
                                       : copy('Price')}
                                   </span>
                                   <span className="text-xs font-bold text-accent">
-                                    {priceShort(t.from)}
+                                    {hasPrice(t.from)
+                                      ? priceShort(t.from)
+                                      : copy('Tailor-Made Journey')}
                                   </span>
                                 </div>
                               </div>

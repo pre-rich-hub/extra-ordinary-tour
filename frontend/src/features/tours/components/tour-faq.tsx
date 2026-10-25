@@ -66,7 +66,9 @@ export function TourFaq({ tour: t }: { tour: Tour }) {
             <>
               {hasPrice(t.from)
                 ? copy('Prices start at {v0}.', { v0: t.from })
-                : copy('We quote it for your dates and group.')}{' '}
+                : copy(
+                    'It is a tailor-made journey, priced to your plans and quoted individually once we know your travel dates, accommodation preferences, and group size.',
+                  )}{' '}
               {copy(
                 'Send an enquiry and within 24 hours our team confirms availability and sends an itinerary and a clear quote. A 30% deposit secures the booking, and the balance is due at least 30 days before arrival.',
               )}{' '}
