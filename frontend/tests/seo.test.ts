@@ -85,10 +85,10 @@ describe('deployment indexing', () => {
     ])
   })
 
-  it('keeps all 401 canonical URLs indexable in production', () => {
+  it('keeps all 398 canonical URLs indexable in production', () => {
     vi.stubEnv('SEO_ENV', 'production')
-    // 133 pages in each of three languages, plus two English-only legal pages.
-    expect(sitemap()).toHaveLength(401)
+    // 132 pages in each of three languages, plus two English-only legal pages.
+    expect(sitemap()).toHaveLength(398)
     expect(
       sitemap()
         .filter((entry) => !entry.alternates)

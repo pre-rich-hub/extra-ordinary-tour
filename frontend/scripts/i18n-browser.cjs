@@ -182,20 +182,6 @@ function send(method, params = {}, sessionId) {
     )
   }
   console.log('PASS: French tour and Spanish article filters and reset.')
-  await navigate('/es/gallery')
-  await click('main [role=group] button:nth-child(2)')
-  await click('main ul button[aria-label]')
-  await waitFor('!!document.querySelector("[role=dialog]")', 'Spanish lightbox')
-  await cdp('Input.dispatchKeyEvent', {
-    type: 'keyDown',
-    key: 'Escape',
-    code: 'Escape',
-  })
-  await waitFor(
-    '!document.querySelector("[role=dialog]")',
-    'Escape closes gallery',
-  )
-  console.log('PASS: Spanish gallery filtering and keyboard close.')
   await navigate('/fr/tours/10-day-historic-route')
   await evaluate(
     `window.__success=false;window.__posted=[];const realFetch=fetch.bind(window);window.fetch=async(input,init)=>{if(init?.method==='POST'){if(!['/api/v1/contact','/api/v1/subscribe'].includes(String(input)))throw Error('Unexpected POST blocked');window.__posted.push({path:String(input),body:JSON.parse(init.body)});return new Response(JSON.stringify({success:window.__success,message:'Simulated backend error in English',data:null}),{status:window.__success?200:400,headers:{'Content-Type':'application/json'}})}return realFetch(input,init)};`,

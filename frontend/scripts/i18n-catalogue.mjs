@@ -77,13 +77,6 @@ export const catalogueSpecs = [
     ],
   },
   {
-    feature: 'gallery',
-    file: 'gallery',
-    binding: 'galleryPhotos',
-    key: 'id',
-    fields: ['alt', 'title', 'location', 'caption'],
-  },
-  {
     feature: 'reviews',
     file: 'testimonials',
     binding: 'testimonials',
