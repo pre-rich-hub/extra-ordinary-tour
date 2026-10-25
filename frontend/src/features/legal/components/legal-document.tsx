@@ -69,7 +69,13 @@ function Block({ block }: { block: LegalBlock }) {
 }
 
 /** The client's legal text; translations defer to the English original. */
-export function LegalDocument({ document }: { document: Document }) {
+export function LegalDocument({
+  document,
+  translated,
+}: {
+  document: Document
+  translated: boolean
+}) {
   const copy = useCopy()
   const locale = useLocale()
 
@@ -77,11 +83,12 @@ export function LegalDocument({ document }: { document: Document }) {
     <div className="shell py-14 sm:py-16 lg:py-20">
       <div className="mx-auto max-w-2xl">
         {locale !== 'en' && (
-          <p className="mb-10 border border-border bg-card px-5 py-4 text-sm leading-relaxed text-muted-foreground"
-          >
-            {copy(
-              'This translation is provided for convenience. If it differs from the English version, the English version applies.',
-            )}
+          <p className="mb-10 border border-border bg-card px-5 py-4 text-sm leading-relaxed text-muted-foreground">
+            {translated
+              ? copy(
+                  'This translation is provided for convenience. If it differs from the English version, the English version applies.',
+                )
+              : copy('This document is published in English.')}
           </p>
         )}
         {document.intro.map((block, i) => (

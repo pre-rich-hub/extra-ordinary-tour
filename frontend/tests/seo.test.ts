@@ -85,18 +85,15 @@ describe('deployment indexing', () => {
     ])
   })
 
-  it('keeps all 530 canonical URLs indexable in production', () => {
+  it('keeps all 536 canonical URLs indexable in production', () => {
     vi.stubEnv('SEO_ENV', 'production')
-    // 132 pages in each of four languages, plus two English-only legal pages.
-    expect(sitemap()).toHaveLength(530)
+    // 134 pages, legal pages included, in each of four languages.
+    expect(sitemap()).toHaveLength(536)
     expect(
       sitemap()
         .filter((entry) => !entry.alternates)
         .map((e) => e.url),
-    ).toEqual([
-      'https://extraordinaryethiopiatours.com/en/privacy-policy',
-      'https://extraordinaryethiopiatours.com/en/terms-and-conditions',
-    ])
+    ).toEqual([])
     expect(robots().sitemap).toBe(
       'https://extraordinaryethiopiatours.com/sitemap.xml',
     )

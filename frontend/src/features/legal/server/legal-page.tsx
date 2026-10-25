@@ -44,13 +44,11 @@ export async function LegalPage({
   setRequestLocale(locale)
   const copy = await getCopy()
   const crumbs = [{ label: copy('Home'), href: '/' }, { label: copy(label) }]
-  const legal = getLegalDocument(document, locale)
+  const { document: legal, translated } = getLegalDocument(document, locale)
 
   return (
     <>
-      <JsonLd
-        data={pageGraph({ path, locale, name: legal.title, crumbs })}
-      />
+      <JsonLd data={pageGraph({ path, locale, name: legal.title, crumbs })} />
       <PageHero
         eyebrow={site.name}
         title={copy(label)}
@@ -58,7 +56,7 @@ export async function LegalPage({
         imageAlt={copy('The highland landscape around Lalibela')}
         crumbs={crumbs}
       />
-      <LegalDocument document={legal} />
+      <LegalDocument document={legal} translated={translated} />
     </>
   )
 }

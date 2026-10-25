@@ -130,18 +130,18 @@ describe('search publication', () => {
     }
     expect(languageAlternates('/tours')).toEqual(languages)
   })
-  it('lists 132 translated pages per language and excludes private URLs', () => {
+  it('lists 134 translated pages per language and excludes private URLs', () => {
     const entries = sitemap()
-    expect(entries).toHaveLength(530)
-    expect(new Set(entries.map((entry) => entry.url)).size).toBe(530)
-    // The two legal pages are English-only and carry no alternates.
+    expect(entries).toHaveLength(536)
+    expect(new Set(entries.map((entry) => entry.url)).size).toBe(536)
     const translated = entries.filter((entry) => entry.alternates)
+    expect(translated).toHaveLength(536)
     for (const locale of ['en', 'es', 'fr', 'de']) {
       expect(
         translated.filter((entry) =>
           new URL(entry.url).pathname.match(new RegExp(`^/${locale}(?:/|$)`)),
         ),
-      ).toHaveLength(132)
+      ).toHaveLength(134)
     }
     expect(
       entries.every(
