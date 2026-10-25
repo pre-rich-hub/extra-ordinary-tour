@@ -2133,7 +2133,7 @@ export const tours: Tour[] = [
   {
     // Tour code EDT-09-ART
     slug: '3-day-afar-danakil-from-addis',
-    title: '3-Day Afar Region & Danakil Depression',
+    title: '3-Day Danakil Depression from Semera',
     image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/danakil-salt.jpg',
     days: '3 Days',
     nights: 2,
@@ -2142,9 +2142,9 @@ export const tours: Tour[] = [
     from: 'On request',
     group: '2 to 12 guests',
     teaser:
-      'Fly to Semera for the lava lake of Erta Ale, the sulphur springs of Dallol and the salt caravans.',
+      'From Semera Airport to the crater of Erta Ale, Lake Afdera, the sulphur springs of Dallol and the salt caravans, and back.',
     summary:
-      'The Danakil Depression from Addis Ababa via Semera, the capital of the Afar Region. Hike to the rim of Erta Ale to watch its glowing lava lake, camp beneath the desert stars, explore the extraordinary colours of Dallol and meet the salt miners and camel caravans of Lake Assale.',
+      'A Danakil expedition that starts and ends at Semera, the capital of the Afar Region, an hour’s flight from Addis Ababa. Hike to the summit of the Erta Ale shield volcano, swim in the warm salt water of Lake Afdera, camp beneath the desert stars, explore the extraordinary colours of Dallol and meet the salt miners and camel caravans of Lake Assale.',
     includes: [
       'Meet-and-assist at Bole International Airport and all transfers',
       '4x4 vehicles with experienced desert drivers',
