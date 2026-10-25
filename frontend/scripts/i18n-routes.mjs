@@ -7,7 +7,6 @@ const paths = [
   '/tours',
   '/destinations',
   '/layover',
-  '/gallery',
   '/blog',
   '/contact',
   '/privacy-policy',

@@ -153,7 +153,7 @@ export function SiteNav({
         >
           <Wordmark tone={open ? 'dark' : tone} />
 
-          <ul className="ml-auto mr-4 hidden items-center gap-4 lg:flex xl:mr-10 xl:gap-8">
+          <ul className="ml-auto mr-4 hidden items-center gap-7 lg:flex xl:mr-10 xl:gap-12">
             {navLinks.map((link) => {
               const active = isActive(link.href)
               const hasDropdown =
@@ -385,7 +385,7 @@ export function SiteNav({
 
             <Link
               href="/contact"
-              className="hidden items-center whitespace-nowrap rounded-full bg-accent px-4 py-2 text-[10px] font-semibold uppercase tracking-[0.16em] text-accent-foreground shadow-[0_8px_22px_-12px_oklch(0.705_0.098_76/0.75)] transition-all duration-300 hover:-translate-y-0.5 hover:bg-sand lg:-mr-4 lg:inline-flex xl:-mr-[min(3.5rem,calc((100vw-1280px)/2+1rem))]"
+              className="hidden items-center whitespace-nowrap rounded-full bg-accent px-4 py-2 text-[10px] font-semibold uppercase tracking-[0.16em] text-accent-foreground shadow-[0_8px_22px_-12px_oklch(0.705_0.098_76/0.75)] transition-all duration-300 hover:-translate-y-0.5 hover:bg-sand lg:inline-flex"
             >
               {copy('Request Your Journey')}
             </Link>

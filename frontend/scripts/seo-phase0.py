@@ -24,7 +24,6 @@ FIXED={
  'tours':('commercial/collection','compare itineraries and travel styles',{'en':'Ethiopia tour packages','es':'circuitos por Etiopía','fr':'circuits en Éthiopie'}),
  'destinations':('informational/collection','choose places and regions',{'en':'places to visit in Ethiopia','es':'lugares que visitar en Etiopía','fr':'lieux à visiter en Éthiopie'}),
  'layover':('commercial/layover','use an Addis Ababa stopover',{'en':'Addis Ababa layover tours','es':'excursiones de escala en Adís Abeba','fr':'visites pendant une escale à Addis-Abeba'}),
- 'gallery':('visual/inspiration','real photographs of places on the routes',{'en':'Ethiopia travel photos','es':'fotos de viajes a Etiopía','fr':'photos de voyage en Éthiopie'}),
  'blog':('informational/collection','browse practical and cultural guides',{'en':'Ethiopia travel guides','es':'guías de viaje a Etiopía','fr':'guides de voyage en Éthiopie'}),
 }
 POSTS={

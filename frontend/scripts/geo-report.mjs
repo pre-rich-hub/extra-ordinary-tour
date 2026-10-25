@@ -61,7 +61,6 @@ const pages = new Set(
     '/tours',
     '/destinations',
     '/layover',
-    '/gallery',
     '/blog',
     '/contact',
   ].concat(

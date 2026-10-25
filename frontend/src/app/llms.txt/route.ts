@@ -53,7 +53,6 @@ export function GET() {
     '',
     '## Optional',
     '',
-    entry('/gallery', 'Gallery', 'photographs from our journeys'),
     entry('/privacy-policy', 'Privacy policy', 'English only'),
     entry(
       '/terms-and-conditions',

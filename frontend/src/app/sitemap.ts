@@ -14,7 +14,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/tours',
     '/destinations',
     '/layover',
-    '/gallery',
     '/blog',
     '/contact',
     '/privacy-policy',
