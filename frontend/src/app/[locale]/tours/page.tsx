@@ -89,7 +89,7 @@ export default async function ToursPage({
           eyebrow={copy('The Collection')}
           title={copy('Every journey we run')}
           aside={copy(
-            'Filter by the kind of travelling you want to do: historical, cultural, festival, coffee, wildlife, trekking, birding, Danakil or day trips. Any of these can be lengthened, shortened or combined.',
+            'Browse by category, from day trips and coffee tours to the Danakil Depression and the Omo Valley. Any of these journeys can be lengthened, shortened or combined.',
           )}
         />
         <ToursGrid tours={tours.map(toCardData)} />

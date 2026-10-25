@@ -21,6 +21,7 @@ import {
 } from 'lucide-react'
 import { cn } from '@/lib/utils'
 import { hasPrice, priceShort } from '@/features/tours/lib/format'
+import { tourCategories } from '@/features/tours/data/categories'
 import { navLinks } from '@/config/navigation'
 import { contact } from '@/config/site'
 
@@ -257,20 +258,27 @@ export function SiteNav({
 
                   {link.label === 'Tours' && (
                     <div className="absolute left-0 top-full w-full bg-background/98 backdrop-blur-2xl border-t border-accent/25 border-b border-border/80 shadow-2xl opacity-0 invisible -translate-y-2 group-hover:opacity-100 group-hover:visible group-hover:translate-y-0 transition-all duration-300 pointer-events-none group-hover:pointer-events-auto z-45 text-foreground">
-                      <div className="shell grid grid-cols-[1fr_3.2fr] gap-12 py-10">
+                      <div className="shell grid grid-cols-[1.5fr_2fr] gap-12 py-10">
                         <div className="flex flex-col justify-between">
                           <div>
                             <span className="text-[10px] font-semibold uppercase tracking-[0.2em] text-accent mb-2 block">
                               {copy('Our Tours')}
                             </span>
                             <h3 className="font-serif text-2xl text-foreground mb-4">
-                              {copy('Popular Itineraries')}
+                              {copy('Tour Categories')}
                             </h3>
-                            <p className="text-xs text-muted-foreground leading-relaxed">
-                              {copy(
-                                'Private and customized journeys across Ethiopia: history, culture, trekking, wildlife, festivals and coffee, led by licensed local guides.',
-                              )}
-                            </p>
+                            <ul className="grid grid-cols-2 gap-x-6 gap-y-2">
+                              {tourCategories.map((c) => (
+                                <li key={c.id}>
+                                  <Link
+                                    href={`/tours?category=${c.id}`}
+                                    className="text-[13px] text-muted-foreground transition-colors hover:text-accent"
+                                  >
+                                    {copy(c.label)}
+                                  </Link>
+                                </li>
+                              ))}
+                            </ul>
                           </div>
                           <Link
                             href="/tours"
@@ -281,8 +289,8 @@ export function SiteNav({
                           </Link>
                         </div>
 
-                        <div className="grid grid-cols-3 gap-6">
-                          {tours.slice(0, 3).map((t) => (
+                        <div className="grid grid-cols-2 gap-6">
+                          {tours.slice(0, 2).map((t) => (
                             <Link
                               key={t.slug}
                               href={`/tours/${t.slug}`}
