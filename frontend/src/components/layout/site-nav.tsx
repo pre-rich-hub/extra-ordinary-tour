@@ -262,7 +262,7 @@ export function SiteNav({
                             </h3>
                             <p className="text-xs text-muted-foreground leading-relaxed">
                               {copy(
-                                'Private and small-group journeys across Ethiopia: history, culture, trekking, wildlife, festivals and coffee, led by licensed local guides.',
+                                'Private and customized journeys across Ethiopia: history, culture, trekking, wildlife, festivals and coffee, led by licensed local guides.',
                               )}
                             </p>
                           </div>

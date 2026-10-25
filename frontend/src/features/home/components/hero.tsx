@@ -25,9 +25,13 @@ export function Hero() {
             </em>
           </h1>
 
-          <p className="mt-6 max-w-[52ch] text-pretty leading-relaxed text-background/90 [animation:fade-up_1s_ease_0.25s_both] sm:mt-8 sm:text-lg">
+          <h2 className="mt-6 text-balance text-lg font-medium tracking-[0.01em] text-background text-shadow-soft [animation:fade-up_1s_ease_0.2s_both] sm:mt-8 sm:text-2xl">
+            {copy('Private & Customized Tours in Ethiopia')}
+          </h2>
+
+          <p className="mt-3 max-w-[56ch] text-pretty leading-relaxed text-background/90 [animation:fade-up_1s_ease_0.25s_both] sm:mt-4 sm:text-lg">
             {copy(
-              'Private and small-group journeys from the rock-hewn churches of Lalibela to the salt and fire of the Danakil.',
+              'Discover Ethiopia your way, from the ancient rock-hewn churches of Lalibela to the dramatic landscapes of the Danakil Depression. Every journey is tailored to your interests, pace, and preferences.',
             )}
           </p>
         </div>

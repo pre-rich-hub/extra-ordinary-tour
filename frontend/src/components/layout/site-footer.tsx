@@ -156,7 +156,7 @@ export function SiteFooter() {
             </Link>
             <p className="mt-6 max-w-sm text-pretty text-[15px] leading-relaxed text-background/65">
               {copy(
-                'A locally based tour operator from Lalibela, guiding private and small-group journeys across Ethiopia.',
+                'A locally based tour operator from Lalibela, creating private and customized journeys across Ethiopia.',
               )}
             </p>
             <p className="mt-3 font-serif text-xl italic text-accent">
