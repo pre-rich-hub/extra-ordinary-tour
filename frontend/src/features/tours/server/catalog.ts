@@ -10,7 +10,7 @@ import { getTours, getTourBySlug, type ApiTour } from '../api/client'
 // Live price and featured flags overlay static display content by slug.
 function formatPrice(price: number | null, locale: AppLocale): string | null {
   if (price === null || price === undefined) return null
-  return `${new Intl.NumberFormat(locale, { style: 'currency', currency: 'USD', minimumFractionDigits: 0, maximumFractionDigits: 2 }).format(price)} ${{ en: 'per person', es: 'por persona', fr: 'par personne' }[locale]}`
+  return `${new Intl.NumberFormat(locale, { style: 'currency', currency: 'USD', minimumFractionDigits: 0, maximumFractionDigits: 2 }).format(price)} ${{ en: 'per person', es: 'por persona', fr: 'par personne', de: 'pro Person' }[locale]}`
 }
 
 function overlayLive(staticTour: Tour, live: ApiTour, locale: AppLocale): Tour {

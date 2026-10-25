@@ -2,7 +2,7 @@
 // metadata and a resolvable social image. Run against a production server.
 const base = process.env.SEO_BASE_URL ?? 'http://127.0.0.1:3104'
 const origin = 'https://extraordinaryethiopiatours.com'
-const locales = ['en', 'es', 'fr']
+const locales = ['en', 'es', 'fr', 'de']
 // Intentional exceptions: none yet. Add `path: reason` entries here.
 const duplicateExceptions = {}
 // Client legal text exists only in English: no language alternates.

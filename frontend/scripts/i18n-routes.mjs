@@ -18,7 +18,7 @@ for (const feature of ['tours', 'destinations', 'blog'])
       catalogueSpecs.find((spec) => spec.feature === feature),
     ).map((record) => `/${feature}/${record.slug}`),
   )
-const jobs = ['en', 'es', 'fr'].flatMap((locale) =>
+const jobs = ['en', 'es', 'fr', 'de'].flatMap((locale) =>
   paths.map((path) => ({ locale, path })),
 )
 let completed = 0
@@ -46,7 +46,7 @@ await Promise.all(
         html.includes('content="index, follow"'),
         `${localized}: robots`,
       )
-      for (const language of ['en', 'es', 'fr', 'x-default']) {
+      for (const language of ['en', 'es', 'fr', 'de', 'x-default']) {
         const targetLocale = language === 'x-default' ? 'en' : language
         const target = `https://extraordinaryethiopiatours.com/${targetLocale}${path === '/' ? '' : path}`
         assert.ok(
@@ -105,7 +105,7 @@ assert.deepEqual(
 )
 assert.ok(
   [...xml.matchAll(/<loc>([^<]+)<\/loc>/g)].every((match) =>
-    /^\/(?:en|es|fr)(?:\/|$)/.test(new URL(match[1]).pathname),
+    /^\/(?:en|es|fr|de)(?:\/|$)/.test(new URL(match[1]).pathname),
   ),
   'Unexpected locale in sitemap',
 )

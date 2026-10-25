@@ -43,7 +43,16 @@ function check(source, translated, label) {
     )
   } else assert.equal(translated, source, `${label}: stable value`)
 }
-for (const locale of ['es', 'fr']) {
+// Draft languages may hold partial catalogues: each record present must be
+// complete, and missing records fall back to English until publication.
+const publication = fs.readFileSync(
+  path.join(root, 'src/i18n/publication.ts'),
+  'utf8',
+)
+const locales = [...publication.matchAll(/^\s+(\w\w): '(published|draft)'/gm)]
+  .map(([, locale, state]) => ({ locale, draft: state === 'draft' }))
+  .filter(({ locale }) => locale !== 'en')
+for (const { locale, draft } of locales) {
   const messages = read(`src/messages/${locale}.json`)
   check(en, messages, `${locale}.UI`)
   for (const lang of ['en', locale]) {
@@ -70,12 +79,25 @@ for (const locale of ['es', 'fr']) {
       records.length,
       `${spec.feature}: duplicate IDs`,
     )
+    const translated = read(
+      `src/features/${spec.feature}/data/locales/${locale}.json`,
+    )
+    const source = sourceOverlay(spec)
+    const present = Object.keys(translated).length
     check(
-      sourceOverlay(spec),
-      read(`src/features/${spec.feature}/data/locales/${locale}.json`),
+      draft
+        ? Object.fromEntries(
+            Object.entries(source).filter(([id]) => id in translated),
+          )
+        : source,
+      translated,
       `${locale}.${spec.feature}`,
     )
-    console.log(`${locale}: ${spec.feature} ${records.length} records complete`)
+    console.log(
+      draft
+        ? `${locale} (draft): ${spec.feature} ${present} of ${records.length} records`
+        : `${locale}: ${spec.feature} ${records.length} records complete`,
+    )
   }
 }
 console.log(

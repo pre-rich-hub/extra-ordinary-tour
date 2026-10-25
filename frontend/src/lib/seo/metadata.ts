@@ -17,6 +17,7 @@ const LOCALE_OG_MAP: Record<AppLocale, string> = {
   en: 'en_US',
   es: 'es_ES',
   fr: 'fr_FR',
+  de: 'de_DE',
 }
 
 const cloudinaryUpload = 'https://res.cloudinary.com/oyw9kdvp/image/upload/'

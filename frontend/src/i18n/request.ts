@@ -5,6 +5,7 @@ import en from '../messages/en.json'
 const loaders = {
   es: () => import('../messages/es.json'),
   fr: () => import('../messages/fr.json'),
+  de: () => import('../messages/de.json'),
 }
 export default getRequestConfig(async ({ requestLocale }) => {
   const requested = await requestLocale

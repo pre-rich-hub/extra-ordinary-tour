@@ -34,7 +34,7 @@ const nextConfig = {
       ['about-ethiopia', 'about-ethiopia'],
       ['what-to-know-before-visiting-ethiopia', 'travel-guide'],
     ].map(([post, page]) => ({
-      source: `/:locale(en|es|fr)/blog/${post}`,
+      source: `/:locale(en|es|fr|de)/blog/${post}`,
       destination: `/:locale/${page}`,
       permanent: true,
     }))
