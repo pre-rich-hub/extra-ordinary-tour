@@ -16,6 +16,7 @@ import { SiteFooter } from '@/components/layout/site-footer'
 import { FloatingSupport } from '@/components/layout/floating-support'
 import { TouchActive } from '@/components/layout/touch-active'
 import { getDestinations } from '@/features/destinations/data/localized'
+import { destinationRegions } from '@/features/destinations/data/regions'
 import { getTours } from '@/features/tours/data/localized'
 import '../globals.css'
 export { viewport }
@@ -54,7 +55,13 @@ export default async function LocaleLayout({
   const messages = await getMessages()
   const t = await getTranslations('Common')
   // The menu previews four destinations and three tours; send only those.
-  const destinations = getDestinations(locale)
+  const allDestinations = getDestinations(locale)
+  const regions = destinationRegions.map(({ id, label }) => ({
+    id,
+    label:
+      allDestinations.find((d) => d.regionKey === label)?.region ?? label,
+  }))
+  const destinations = allDestinations
     .slice(0, 4)
     .map(({ slug, name, region, tag, image, teaser }) => ({
       slug,
@@ -86,7 +93,11 @@ export default async function LocaleLayout({
           >
             {t('skipToContent')}
           </a>
-          <SiteNav destinations={destinations} tours={tours} />
+          <SiteNav
+            destinations={destinations}
+            regions={regions}
+            tours={tours}
+          />
           <main id="main">{children}</main>
           <SiteFooter />
           <FloatingSupport />

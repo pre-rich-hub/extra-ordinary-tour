@@ -62,12 +62,15 @@ function Wordmark({
 
 export function SiteNav({
   destinations,
+  regions,
   tours,
 }: {
   destinations: Pick<
     Destination,
     'slug' | 'name' | 'region' | 'tag' | 'image' | 'teaser'
   >[]
+  /** Destination regions with labels in the page language. */
+  regions: { id: string; label: string }[]
   tours: Pick<
     Tour,
     'slug' | 'title' | 'image' | 'style' | 'from' | 'days' | 'teaser'
@@ -204,11 +207,18 @@ export function SiteNav({
                             <h3 className="font-serif text-2xl text-foreground mb-4">
                               {copy('Our Destinations')}
                             </h3>
-                            <p className="text-xs text-muted-foreground leading-relaxed">
-                              {copy(
-                                'From churches carved from solid rock to volcanic landscapes below sea level. Explore Ethiopia, the Land of Origins.',
-                              )}
-                            </p>
+                            <ul className="space-y-2">
+                              {regions.map((r) => (
+                                <li key={r.id}>
+                                  <Link
+                                    href={`/destinations#${r.id}`}
+                                    className="text-[13px] text-muted-foreground transition-colors hover:text-accent"
+                                  >
+                                    {r.label}
+                                  </Link>
+                                </li>
+                              ))}
+                            </ul>
                           </div>
                           <Link
                             href="/destinations"

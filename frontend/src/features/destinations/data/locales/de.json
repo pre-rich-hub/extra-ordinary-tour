@@ -1,7 +1,7 @@
 {
   "lalibela": {
     "name": "Lalibela",
-    "region": "Historischer Norden",
+    "region": "Historischer Norden Äthiopiens",
     "tag": "UNESCO-Welterbe",
     "teaser": "Elf Kirchen, nach unten in den gewachsenen Fels gehauen und bis heute voller Gebet.",
     "intro": "Das „Neue Jerusalem“ von König Lalibela: eine heilige Stadt aus dem 12. Jahrhundert, aus dem roten Vulkangestein des Lasta-Gebirges gehauen, in der die Liturgie nie verstummt ist.",
@@ -129,7 +129,7 @@
   },
   "gondar": {
     "name": "Gondar",
-    "region": "Historischer Norden",
+    "region": "Historischer Norden Äthiopiens",
     "tag": "Kaiserstadt",
     "teaser": "Das Camelot Afrikas: Burgen, Bäder und bemalte Decken eines Hochlandreichs.",
     "intro": "Äthiopiens kaiserliche Hauptstadt des 17. Jahrhunderts, in der steinerne Burgen über der Stadt aufragen und Timkat jeden Januar noch immer das königliche Bad füllt.",
@@ -149,7 +149,7 @@
   },
   "bahir-dar-lake-tana": {
     "name": "Bahir Dar & Tanasee",
-    "region": "Historischer Norden",
+    "region": "Historischer Norden Äthiopiens",
     "tag": "Inselklöster",
     "teaser": "Inselklöster, Papyrusboote und die Quelle des Blauen Nils.",
     "intro": "Eine palmengesäumte Stadt am Ufer des größten Sees Äthiopiens, dessen Inseln bemalte Klöster und jahrhundertealte Handschriften bergen.",
@@ -169,7 +169,7 @@
   },
   "blue-nile-falls": {
     "name": "Fälle des Blauen Nils",
-    "region": "Historischer Norden",
+    "region": "Historischer Norden Äthiopiens",
     "tag": "Naturwunder",
     "teaser": "Tis Issat, das „rauchende Wasser“, das donnernd in eine Basaltschlucht stürzt.",
     "intro": "Nahe Bahir Dar stürzt der Blaue Nil mehr als 40 Meter über eine breite Basaltkante und wirft einen Gischtschleier auf, der die Zuschauer durchnässt und Regenbögen über die Schlucht malt.",
@@ -189,7 +189,7 @@
   },
   "axum": {
     "name": "Axum",
-    "region": "Historischer Norden",
+    "region": "Historischer Norden Äthiopiens",
     "tag": "Antike Hauptstadt",
     "teaser": "Granitstelen, Königsgräber und der mutmaßliche Aufbewahrungsort der Bundeslade.",
     "intro": "Hauptstadt des Königreichs Aksum, einer der vier Großmächte der antiken Welt, und das geistliche Herz des äthiopisch-orthodoxen Christentums.",
@@ -210,7 +210,7 @@
   },
   "gheralta-tigray-churches": {
     "name": "Gheralta & die Felsenkirchen von Tigray",
-    "region": "Historischer Norden",
+    "region": "Historischer Norden Äthiopiens",
     "tag": "Felsenkirchen",
     "teaser": "Mehr als 120 Felsenkirchen, manche nur über eine Kletterpartie erreichbar.",
     "intro": "Zwischen den Sandsteintürmen des Gheralta-Massivs sind alte Kirchen in Felswände gehauen, ihre Wände mit Fresken bedeckt, die nur wenige Reisende je zu sehen bekommen.",
@@ -231,7 +231,7 @@
   },
   "yemrehanna-kristos": {
     "name": "Yemrehanna Kristos",
-    "region": "Historischer Norden",
+    "region": "Historischer Norden Äthiopiens",
     "tag": "Höhlenkirche",
     "teaser": "Eine gemauerte Kirche aus Holz und Stein, verborgen in einer Höhle oberhalb von Lalibela.",
     "intro": "Eines der am besten erhaltenen spätaksumitischen Bauwerke Äthiopiens, errichtet in abwechselnden Schichten aus Holz und Stein in einer gewaltigen natürlichen Höhle.",
@@ -251,7 +251,7 @@
   },
   "yeha": {
     "name": "Yeha",
-    "region": "Historischer Norden",
+    "region": "Historischer Norden Äthiopiens",
     "tag": "Archäologie",
     "teaser": "Das älteste stehende Gebäude Äthiopiens: ein 2.500 Jahre alter Tempel nahe Axum.",
     "intro": "Der Geburtsort der frühesten Hochkultur Äthiopiens, wo ein vorchristlicher Tempel nach 25 Jahrhunderten noch in voller Höhe steht.",
@@ -271,7 +271,7 @@
   },
   "negash": {
     "name": "Negash",
-    "region": "Historischer Norden",
+    "region": "Historischer Norden Äthiopiens",
     "tag": "Islamisches Erbe",
     "teaser": "Ort der ersten muslimischen Siedlung Afrikas und ein Symbol religiösen Zusammenlebens.",
     "intro": "Ein kleines Dorf in Tigray, in dem der christliche König von Aksum im 7. Jahrhundert den ersten Anhängern des Propheten Mohammed Zuflucht gewährte.",
@@ -291,7 +291,7 @@
   },
   "abune-yosef": {
     "name": "Abune Yosef",
-    "region": "Historischer Norden",
+    "region": "Historischer Norden Äthiopiens",
     "tag": "Trekking im Hochland",
     "teaser": "Ein 4.284 Meter hohes Massiv über Lalibela mit Äthiopischen Wölfen und Dscheladas.",
     "intro": "Einer der spektakulärsten Berge des Lasta-Massivs: eine empfindliche afroalpine Welt aus Riesenlobelien, seltenen Tieren und abgelegenen Bauerndörfern.",
@@ -311,7 +311,7 @@
   },
   "asheton-maryam": {
     "name": "Asheton Maryam",
-    "region": "Historischer Norden",
+    "region": "Historischer Norden Äthiopiens",
     "tag": "Bergkloster",
     "teaser": "Ein Kloster hoch auf den Klippen über Lalibela mit weitem Blick über das Lasta-Gebirge.",
     "intro": "In die Flanke des Abune Yosef auf rund 3.150 Metern gehauen, wird dieses Kloster traditionell König Na’akueto La’ab zugeschrieben, einem Neffen Lalibelas.",
@@ -671,7 +671,7 @@
   },
   "chebera-churchura-national-park": {
     "name": "Chebera-Churchura-Nationalpark",
-    "region": "Natur & Tierwelt",
+    "region": "Weitere Reiseziele & Erlebnisse",
     "tag": "Elefanten",
     "teaser": "Grüne Wälder, Wasserfälle und eine der größten Elefantenherden Äthiopiens.",
     "intro": "Ein abgelegener, üppiger Park im Becken von Omo und Gibe, der Elefanten, Löwen, Büffel und Flusspferde zwischen Wäldern, Flüssen und Feuchtgebieten schützt.",
@@ -691,7 +691,7 @@
   },
   "gambella-national-park": {
     "name": "Gambella-Nationalpark",
-    "region": "Natur & Tierwelt",
+    "region": "Weitere Reiseziele & Erlebnisse",
     "tag": "Tierwanderung",
     "teaser": "Äthiopiens tropischer Westen mit der großen Wanderung der Weißohr-Moorantilope.",
     "intro": "Die weiten Grasebenen am Baro: eines der größten und am wenigsten erkundeten Schutzgebiete Äthiopiens.",
@@ -711,7 +711,7 @@
   },
   "kafta-sheraro-national-park": {
     "name": "Kafta-Sheraro-Nationalpark",
-    "region": "Natur & Tierwelt",
+    "region": "Weitere Reiseziele & Erlebnisse",
     "tag": "Elefanten",
     "teaser": "Elefantenland zwischen dem Tekeze und der Grenze zu Eritrea.",
     "intro": "Dieser 2007 im Nordwesten Tigrays gegründete Park ist Teil eines großen grenzüberschreitenden Ökosystems mit dem eritreischen Gash-Setit.",
@@ -991,7 +991,7 @@
   },
   "yirgacheffe-and-sidama": {
     "name": "Yirgacheffe & Sidama",
-    "region": "Südäthiopien & Omo-Tal",
+    "region": "Weitere Reiseziele & Erlebnisse",
     "tag": "Kaffeeregionen",
     "teaser": "Die Farmen und Aufbereitungsstationen hinter einigen der berühmtesten Kaffees der Welt.",
     "intro": "In den grünen Hügeln südlich von Hawassa bauen Kleinbauern seit Generationen Kaffee im Schatten von Ensete und einheimischen Bäumen an.",
@@ -1011,7 +1011,7 @@
   },
   "kaffa-and-bonga": {
     "name": "Kaffa & Bonga",
-    "region": "Südäthiopien & Omo-Tal",
+    "region": "Weitere Reiseziele & Erlebnisse",
     "tag": "Heimat des Kaffees",
     "teaser": "Wilder Arabica in den Bergwäldern des Kafa-Biosphärenreservats.",
     "intro": "Im Südwesten Äthiopiens birgt die Region Kaffa, die dem Kaffee seinen Namen gab, noch immer Wälder, in denen Coffea arabica wild wächst.",
@@ -1248,6 +1248,27 @@
     "paragraphs": [
       "Haile Gebrselassie, Peter Middlebrook und Abi Masefield entwickelten die Idee zu dem Lauf nach den Olympischen Spielen 2000 in Sydney, und die erste Ausgabe 2001 zog 10.000 Läufer an. Seitdem ist er auf Zehntausende Teilnehmende angewachsen, ergänzt durch einen 5-km-Lauf nur für Frauen.",
       "Spitzenathleten wie Kenenisa Bekele und Tirunesh Dibaba sind hier gelaufen, doch für die meisten Teilnehmenden sind die Höhe und die Atmosphäre die eigentliche Herausforderung. Wir können die Anmeldung übernehmen und den Lauf mit einer Rundreise verbinden."
+    ]
+  },
+  "hawassa": {
+    "name": "Hawassa",
+    "region": "Südäthiopien & Omo-Tal",
+    "tag": "Stadt am See",
+    "teaser": "Eine entspannte Stadt am See im Rift Valley, bekannt für ihren morgendlichen Fischmarkt.",
+    "intro": "Am Ufer des Hawassa-Sees, etwa 275 km südlich von Addis Abeba, ist Hawassa eine grüne, gelassene Stadt und ein natürlicher Zwischenstopp zwischen der Hauptstadt und dem Süden.",
+    "bestTime": "Ganzjährig",
+    "duration": "1 bis 2 Tage",
+    "altitude": "1.708 m",
+    "highlights": [
+      "Der Fischmarkt am frühen Morgen am Seeufer",
+      "Marabus, Pelikane und Eisvögel am Wasser",
+      "Bootsfahrten auf dem Hawassa-See zu den Flusspferden",
+      "Sonnenuntergänge über dem See vom Tabor-Hügel"
+    ],
+    "paragraphs": [
+      "Hawassa liegt am Ostufer des Hawassa-Sees, eines Süßwassersees im Großen Rift Valley. Baumgesäumte Alleen und die Uferpromenade machen sie zu einer der angenehmsten Städte Südäthiopiens.",
+      "Bekannt ist die Stadt vor allem für ihren Fischmarkt, auf dem die Fischer im Morgengrauen ihren Fang anlanden, während Marabus auf Reste warten. Im See leben außerdem Flusspferde und viele Wasservögel.",
+      "Hawassa ist ein bequemer Übernachtungsstopp auf Reisen zwischen Addis Abeba, Arba Minch und dem Omo-Tal und ein Ausgangspunkt für die heißen Quellen von Wondo Genet und die Kaffeegebiete von Sidama."
     ]
   }
 }

@@ -1,7 +1,7 @@
 {
   "lalibela": {
     "name": "Lalibela",
-    "region": "Nord historique",
+    "region": "Nord historique de l’Éthiopie",
     "tag": "Patrimoine UNESCO",
     "teaser": "Onze églises creusées dans la roche vivante, toujours vivantes de prière.",
     "intro": "La « Nouvelle Jérusalem » du roi Lalibela : une ville sainte du XIIe siècle creusée dans la roche volcanique rouge des monts Lasta, où la liturgie ne s'est jamais arrêtée.",
@@ -129,7 +129,7 @@
   },
   "gondar": {
     "name": "Gondar",
-    "region": "Nord historique",
+    "region": "Nord historique de l’Éthiopie",
     "tag": "Cité Impériale",
     "teaser": "Le Camelot d'Afrique : châteaux, bains et plafonds peints d'un empire des hautes terres.",
     "intro": "Capitale impériale de l'Éthiopie du XVIIe siècle, où les châteaux de pierre s'élèvent au-dessus de la ville et où Timkat remplit encore le bain royal chaque mois de janvier.",
@@ -149,7 +149,7 @@
   },
   "bahir-dar-lake-tana": {
     "name": "Bahir Dar et le lac Tana",
-    "region": "Nord historique",
+    "region": "Nord historique de l’Éthiopie",
     "tag": "Monastères insulaires",
     "teaser": "Monastères insulaires, bateaux en papyrus et source du Nil Bleu.",
     "intro": "Une ville bordée de palmiers au bord du plus grand lac d’Éthiopie, dont les îles abritent des monastères peints et des manuscrits vieux de plusieurs siècles.",
@@ -169,7 +169,7 @@
   },
   "blue-nile-falls": {
     "name": "Chutes du Nil Bleu",
-    "region": "Nord historique",
+    "region": "Nord historique de l’Éthiopie",
     "tag": "Merveille naturelle",
     "teaser": "Tis Issat, « l'eau fumante », gronde dans une gorge de basalte.",
     "intro": "Près de Bahir Dar, le Nil Bleu plonge de plus de 40 mètres sur une large lèvre de basalte, projetant une brume qui inonde les spectateurs et peint des arcs-en-ciel à travers la gorge.",
@@ -189,7 +189,7 @@
   },
   "axum": {
     "name": "Aksoum",
-    "region": "Nord historique",
+    "region": "Nord historique de l’Éthiopie",
     "tag": "Ancienne capitale",
     "teaser": "Obélisques de granit, tombeaux royaux et lieu de repos revendiqué de l'Arche.",
     "intro": "Capitale du royaume d'Axoum, l'une des quatre grandes puissances du monde antique et cœur spirituel du christianisme orthodoxe éthiopien.",
@@ -210,7 +210,7 @@
   },
   "gheralta-tigray-churches": {
     "name": "Gheralta et les églises rupestres du Tigré",
-    "region": "Nord historique",
+    "region": "Nord historique de l’Éthiopie",
     "tag": "Églises des falaises",
     "teaser": "Plus de 120 églises taillées dans le roc, certaines accessibles uniquement en escaladant une falaise.",
     "intro": "Parmi les tours de grès du massif de Gheralta, d'anciennes églises sont creusées dans les falaises, leurs murs recouverts de fresques que peu de voyageurs voient.",
@@ -231,7 +231,7 @@
   },
   "yemrehanna-kristos": {
     "name": "Yemrehanna Kristos",
-    "region": "Nord historique",
+    "region": "Nord historique de l’Éthiopie",
     "tag": "Église troglodyte",
     "teaser": "Une église construite en bois et en pierre, cachée dans une grotte au-dessus de Lalibela.",
     "intro": "L'un des bâtiments de la fin de l'Aksumite les mieux conservés d'Éthiopie, construit en alternant des couches de bois et de pierre à l'intérieur d'une vaste grotte naturelle.",
@@ -251,7 +251,7 @@
   },
   "yeha": {
     "name": "Yeha",
-    "region": "Nord historique",
+    "region": "Nord historique de l’Éthiopie",
     "tag": "Archéologie",
     "teaser": "Le bâtiment le plus ancien d’Éthiopie : un temple vieux de 2 500 ans près d’Axum.",
     "intro": "Berceau de la première haute civilisation éthiopienne, où un temple préchrétien se dresse encore de toute sa hauteur après 25 siècles.",
@@ -271,7 +271,7 @@
   },
   "negash": {
     "name": "Négash",
-    "region": "Nord historique",
+    "region": "Nord historique de l’Éthiopie",
     "tag": "Patrimoine islamique",
     "teaser": "Site de la première colonie musulmane d’Afrique et symbole de coexistence religieuse.",
     "intro": "Un petit village du Tigré où le roi chrétien d'Axoum donna refuge aux premiers disciples du prophète Mahomet au VIIe siècle.",
@@ -291,7 +291,7 @@
   },
   "abune-yosef": {
     "name": "Abune Yossef",
-    "region": "Nord historique",
+    "region": "Nord historique de l’Éthiopie",
     "tag": "Randonnée dans les hautes terres",
     "teaser": "Un massif de 4 284 mètres au-dessus de Lalibela avec des loups éthiopiens et des geladas.",
     "intro": "L'une des montagnes les plus spectaculaires du massif du Lasta : un monde afro-alpin fragile de lobélies géantes, d'animaux rares et de villages agricoles isolés.",
@@ -311,7 +311,7 @@
   },
   "asheton-maryam": {
     "name": "Asheton Maryam",
-    "region": "Nord historique",
+    "region": "Nord historique de l’Éthiopie",
     "tag": "Monastère de montagne",
     "teaser": "Un monastère au sommet d'une falaise au-dessus de Lalibela avec une vue imprenable sur les montagnes de Lasta.",
     "intro": "Creusé dans le flanc du mont Abune Yosef à environ 3 150 mètres d’altitude, ce monastère est traditionnellement attribué au roi Na’akueto La’ab, neveu de Lalibela.",
@@ -671,7 +671,7 @@
   },
   "chebera-churchura-national-park": {
     "name": "Parc national de Chebera Churchura",
-    "region": "Nature et faune",
+    "region": "Autres destinations et expériences",
     "tag": "Éléphants",
     "teaser": "Des forêts vertes, des cascades et l’un des plus grands troupeaux d’éléphants d’Éthiopie.",
     "intro": "Un parc isolé et luxuriant dans le bassin de l'Omo-Gibe, protégeant les éléphants, les lions, les buffles et les hippopotames au milieu des forêts, rivières et zones humides.",
@@ -691,7 +691,7 @@
   },
   "gambella-national-park": {
     "name": "Parc national de Gambella",
-    "region": "Nature et faune",
+    "region": "Autres destinations et expériences",
     "tag": "Migration de la faune",
     "teaser": "L’ouest tropical de l’Éthiopie, avec la grande migration du cobe à oreilles blanches.",
     "intro": "Les vastes plaines herbeuses de la région du fleuve Baro : l’une des zones protégées les plus vastes et les moins explorées d’Éthiopie.",
@@ -711,7 +711,7 @@
   },
   "kafta-sheraro-national-park": {
     "name": "Parc national Kafta Sheraro",
-    "region": "Nature et faune",
+    "region": "Autres destinations et expériences",
     "tag": "Éléphants",
     "teaser": "Pays des éléphants entre la rivière Tekeze et la frontière érythréenne.",
     "intro": "Créé en 2007 dans le nord-ouest du Tigré, ce parc fait partie d’un vaste écosystème transfrontalier avec le Gash-Setit d’Érythrée.",
@@ -991,7 +991,7 @@
   },
   "yirgacheffe-and-sidama": {
     "name": "Yirgacheffe & Sidama",
-    "region": "Sud de l'Éthiopie et vallée de l'Omo",
+    "region": "Autres destinations et expériences",
     "tag": "Terres de café",
     "teaser": "Les fermes et les stations de lavage derrière certains des cafés les plus célèbres au monde.",
     "intro": "Dans les collines verdoyantes au sud d’Hawassa, les petits agriculteurs cultivent du café à l’ombre des ensètes et des arbres indigènes, comme ils le font depuis des générations.",
@@ -1011,7 +1011,7 @@
   },
   "kaffa-and-bonga": {
     "name": "Kaffa et Bonga",
-    "region": "Sud de l'Éthiopie et vallée de l'Omo",
+    "region": "Autres destinations et expériences",
     "tag": "Berceau du café",
     "teaser": "Arabica sauvage dans les forêts de montagne de la réserve de biosphère de Kafa.",
     "intro": "Au sud-ouest de l’Éthiopie, la région de Kaffa, qui a donné son nom au café, abrite encore des forêts où pousse à l’état sauvage Coffea arabica.",
@@ -1248,6 +1248,27 @@
     "paragraphs": [
       "Haile Gebrselassie, Peter Middlebrook et Abi Masefield ont conçu la course après les Jeux olympiques de Sydney en 2000 et sa première édition en 2001 a attiré 10 000 coureurs. Depuis, elle compte des dizaines de milliers de participants, avec également une course de 5 km réservée aux femmes.",
       "Des athlètes d'élite tels que Kenenisa Bekele et Tirunesh Dibaba ont couru ici, mais pour la plupart des participants, l'altitude et l'atmosphère constituent le véritable défi. Nous pouvons organiser l'inscription et combiner la course avec une visite."
+    ]
+  },
+  "hawassa": {
+    "name": "Hawassa",
+    "region": "Sud de l'Éthiopie et vallée de l'Omo",
+    "tag": "Ville au bord du lac",
+    "teaser": "Une ville paisible au bord d'un lac de la vallée du Rift, connue pour son marché aux poissons matinal.",
+    "intro": "Sur la rive du lac Hawassa, à environ 275 km au sud d'Addis-Abeba, Hawassa est une ville verte et détendue, étape naturelle entre la capitale et le sud.",
+    "bestTime": "Toute l'année",
+    "duration": "1 à 2 jours",
+    "altitude": "1 708 m",
+    "highlights": [
+      "Le marché aux poissons à l'aube sur la rive",
+      "Marabouts, pélicans et martins-pêcheurs au bord de l'eau",
+      "Sorties en bateau sur le lac Hawassa à la recherche des hippopotames",
+      "Couchers de soleil sur le lac depuis la colline Tabor"
+    ],
+    "paragraphs": [
+      "Hawassa s'étend sur la rive orientale du lac Hawassa, un lac d'eau douce de la grande vallée du Rift. Ses avenues ombragées et sa promenade au bord du lac en font l'une des villes les plus agréables du sud de l'Éthiopie.",
+      "La ville est surtout connue pour son marché aux poissons, où les pêcheurs rapportent leurs prises à l'aube tandis que les marabouts attendent les restes. Le lac abrite aussi des hippopotames et une grande variété d'oiseaux d'eau.",
+      "Hawassa est une étape pratique pour la nuit sur les trajets entre Addis-Abeba, Arba Minch et la vallée de l'Omo, et une base pour les sources chaudes de Wondo Genet et les terres caféières du Sidama."
     ]
   }
 }

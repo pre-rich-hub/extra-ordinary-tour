@@ -8,7 +8,7 @@ export const destinations: Destination[] = [
   {
     slug: 'lalibela',
     name: 'Lalibela',
-    region: 'Historic North',
+    region: 'Historic Northern Ethiopia',
     tag: 'UNESCO Heritage',
     image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/v1792849778/Lalibela.png',
     teaser:
@@ -161,7 +161,7 @@ export const destinations: Destination[] = [
   {
     slug: 'gondar',
     name: 'Gondar',
-    region: 'Historic North',
+    region: 'Historic Northern Ethiopia',
     tag: 'Imperial City',
     image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/gondar-fasil.jpg',
     teaser:
@@ -185,7 +185,7 @@ export const destinations: Destination[] = [
   {
     slug: 'bahir-dar-lake-tana',
     name: 'Bahir Dar & Lake Tana',
-    region: 'Historic North',
+    region: 'Historic Northern Ethiopia',
     tag: 'Island Monasteries',
     image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/v1792849769/bahirdar.jpg',
     teaser:
@@ -209,7 +209,7 @@ export const destinations: Destination[] = [
   {
     slug: 'blue-nile-falls',
     name: 'Blue Nile Falls',
-    region: 'Historic North',
+    region: 'Historic Northern Ethiopia',
     tag: 'Natural Wonder',
     image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/blue-nile-falls.jpg',
     teaser:
@@ -233,7 +233,7 @@ export const destinations: Destination[] = [
   {
     slug: 'axum',
     name: 'Axum',
-    region: 'Historic North',
+    region: 'Historic Northern Ethiopia',
     tag: 'Ancient Capital',
     image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/v1792849727/Axum.png',
     teaser:
@@ -258,7 +258,7 @@ export const destinations: Destination[] = [
   {
     slug: 'gheralta-tigray-churches',
     name: 'Gheralta & the Rock Churches of Tigray',
-    region: 'Historic North',
+    region: 'Historic Northern Ethiopia',
     tag: 'Cliff Churches',
     image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/v1792849747/gheralta-mountains.jpg',
     teaser:
@@ -283,7 +283,7 @@ export const destinations: Destination[] = [
   {
     slug: 'yemrehanna-kristos',
     name: 'Yemrehanna Kristos',
-    region: 'Historic North',
+    region: 'Historic Northern Ethiopia',
     tag: 'Cave Church',
     image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/yemrehanna-kristos.jpg',
     teaser:
@@ -307,7 +307,7 @@ export const destinations: Destination[] = [
   {
     slug: 'yeha',
     name: 'Yeha',
-    region: 'Historic North',
+    region: 'Historic Northern Ethiopia',
     tag: 'Archaeology',
     image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/v1792849794/yeha.png',
     teaser:
@@ -331,7 +331,7 @@ export const destinations: Destination[] = [
   {
     slug: 'negash',
     name: 'Negash',
-    region: 'Historic North',
+    region: 'Historic Northern Ethiopia',
     tag: 'Islamic Heritage',
     image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/negash.jpg',
     teaser:
@@ -355,7 +355,7 @@ export const destinations: Destination[] = [
   {
     slug: 'abune-yosef',
     name: 'Abune Yosef',
-    region: 'Historic North',
+    region: 'Historic Northern Ethiopia',
     tag: 'Highland Trekking',
     image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/v1792849709/abune-yosef-ascent.png',
     teaser:
@@ -379,7 +379,7 @@ export const destinations: Destination[] = [
   {
     slug: 'asheton-maryam',
     name: 'Asheton Maryam',
-    region: 'Historic North',
+    region: 'Historic Northern Ethiopia',
     tag: 'Mountain Monastery',
     image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/asheton-maryam.jpg',
     teaser:
@@ -817,7 +817,7 @@ export const destinations: Destination[] = [
   {
     slug: 'chebera-churchura-national-park',
     name: 'Chebera Churchura National Park',
-    region: 'Nature & Wildlife',
+    region: 'Other Destinations & Experiences',
     tag: 'Elephants',
     image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/chebera.jpg',
     teaser:
@@ -841,7 +841,7 @@ export const destinations: Destination[] = [
   {
     slug: 'gambella-national-park',
     name: 'Gambella National Park',
-    region: 'Nature & Wildlife',
+    region: 'Other Destinations & Experiences',
     tag: 'Wildlife Migration',
     image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/gambella.jpg',
     teaser:
@@ -865,7 +865,7 @@ export const destinations: Destination[] = [
   {
     slug: 'kafta-sheraro-national-park',
     name: 'Kafta Sheraro National Park',
-    region: 'Nature & Wildlife',
+    region: 'Other Destinations & Experiences',
     tag: 'Elephants',
     image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/kafta.jpg',
     teaser:
@@ -958,6 +958,31 @@ export const destinations: Destination[] = [
     paragraphs: [
       'Arba Minch is named after the springs that bubble up in the groundwater forest below the town. It sits between Lake Abaya, tinted red by sediment, and Lake Chamo, home to large crocodiles and hippos.',
       'With good hotels and an airport, it is the natural base for exploring southern Ethiopia before continuing to Konso, Jinka and Turmi.',
+    ],
+  },
+  {
+    slug: 'hawassa',
+    name: 'Hawassa',
+    region: 'Southern Ethiopia & Omo Valley',
+    tag: 'Lakeside City',
+    image: '/images/hawassa.webp',
+    teaser:
+      'A relaxed lakeside city in the Rift Valley, known for its morning fish market.',
+    intro:
+      'On the shore of Lake Hawassa, about 275 km south of Addis Ababa, Hawassa is a green, easy-going city and a natural stop between the capital and the south.',
+    bestTime: 'Year-round',
+    duration: '1 to 2 days',
+    altitude: '1,708 m',
+    highlights: [
+      'The early-morning fish market on the lakeshore',
+      'Marabou storks, pelicans and kingfishers along the water',
+      'Boat trips on Lake Hawassa to look for hippos',
+      'Sunset views over the lake from Tabor Hill',
+    ],
+    paragraphs: [
+      'Hawassa lies on the eastern shore of Lake Hawassa, a freshwater lake in the Great Rift Valley. Its tree-lined avenues and lakeside promenade make it one of the most pleasant cities in southern Ethiopia.',
+      'The city is best known for its fish market, where fishermen bring in their catch at dawn while marabou storks wait for scraps. The lake is also home to hippos and a rich variety of water birds.',
+      'Hawassa is a convenient overnight stop on journeys between Addis Ababa, Arba Minch and the Omo Valley, and a base for the hot springs of Wondo Genet and the coffee lands of Sidama.',
     ],
   },
   {
@@ -1203,7 +1228,7 @@ export const destinations: Destination[] = [
   {
     slug: 'yirgacheffe-and-sidama',
     name: 'Yirgacheffe & Sidama',
-    region: 'Southern Ethiopia & Omo Valley',
+    region: 'Other Destinations & Experiences',
     tag: 'Coffee Lands',
     image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/coffee-farm.jpg',
     teaser:
@@ -1227,7 +1252,7 @@ export const destinations: Destination[] = [
   {
     slug: 'kaffa-and-bonga',
     name: 'Kaffa & Bonga',
-    region: 'Southern Ethiopia & Omo Valley',
+    region: 'Other Destinations & Experiences',
     tag: 'Birthplace of Coffee',
     image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/kaffa-forest.jpg',
     teaser:
