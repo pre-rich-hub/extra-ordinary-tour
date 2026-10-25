@@ -15,7 +15,7 @@ export const destinations: Destination[] = [
       'Eleven churches carved downward into living rock, still alive with prayer.',
     intro:
       'The “New Jerusalem” of King Lalibela: a 12th-century holy city excavated from the red volcanic rock of the Lasta Mountains, where the liturgy has never stopped.',
-    bestTime: 'October to March',
+    bestTime: 'September to July',
     duration: '2 to 3 days',
     altitude: '2,500 m',
     highlights: [
@@ -89,7 +89,7 @@ export const destinations: Destination[] = [
       'A living mosaic of peoples who have shaped this river valley for millennia.',
     intro:
       'The lower Omo is one of the most culturally diverse regions on earth, home to the Hamar, Mursi, Karo, Dassanech and many more, each with its own language, dress and ceremonies.',
-    bestTime: 'October to March',
+    bestTime: 'Year-round except April and May',
     duration: '5 to 9 days',
     altitude: '400 to 1,500 m',
     highlights: [
@@ -115,7 +115,7 @@ export const destinations: Destination[] = [
       'The Roof of Africa, where gelada monkeys graze above a thousand-metre drop.',
     intro:
       'Jagged basalt pinnacles, escarpments that fall away into cloud, and endemic wildlife found nowhere else: walia ibex, gelada and the Ethiopian wolf.',
-    bestTime: 'October to March',
+    bestTime: 'September to June',
     duration: '1 to 5 days',
     altitude: '3,200 to 4,550 m',
     highlights: [
@@ -168,7 +168,7 @@ export const destinations: Destination[] = [
       'The Camelot of Africa: castles, baths and painted ceilings of a highland empire.',
     intro:
       'Ethiopia’s 17th-century imperial capital, where stone castles rise above the city and Timkat still fills the royal bath each January.',
-    bestTime: 'October to March',
+    bestTime: 'September to July',
     duration: '1 to 2 days',
     altitude: '2,133 m',
     highlights: [
@@ -192,7 +192,7 @@ export const destinations: Destination[] = [
       'Island monasteries, papyrus boats and the source of the Blue Nile.',
     intro:
       'A palm-lined lakeside town on the shore of Ethiopia’s largest lake, whose islands shelter painted monasteries and centuries-old manuscripts.',
-    bestTime: 'September to March',
+    bestTime: 'September to July',
     duration: '1 to 2 days',
     altitude: '1,800 m',
     highlights: [
@@ -240,7 +240,7 @@ export const destinations: Destination[] = [
       'Granite obelisks, royal tombs and the claimed resting place of the Ark.',
     intro:
       'Capital of the Kingdom of Aksum, one of the four great powers of the ancient world, and the spiritual heart of Ethiopian Orthodox Christianity.',
-    bestTime: 'October to March',
+    bestTime: 'September to July',
     duration: '1 to 2 days',
     altitude: '2,131 m',
     highlights: [
@@ -314,7 +314,7 @@ export const destinations: Destination[] = [
       'Ethiopia’s oldest standing building: a 2,500-year-old temple near Axum.',
     intro:
       'The birthplace of Ethiopia’s earliest high civilisation, where a pre-Christian temple still stands to its full height after 25 centuries.',
-    bestTime: 'October to March',
+    bestTime: 'September to July',
     duration: 'Half day',
     altitude: '2,100 m',
     highlights: [
@@ -338,7 +338,7 @@ export const destinations: Destination[] = [
       'Site of Africa’s first Muslim settlement and a symbol of religious coexistence.',
     intro:
       'A small village in Tigray where the Christian king of Aksum gave refuge to the earliest followers of the Prophet Muhammad in the 7th century.',
-    bestTime: 'October to March',
+    bestTime: 'September to July',
     duration: '1 to 2 hours',
     altitude: '2,000 m',
     highlights: [
@@ -776,7 +776,7 @@ export const destinations: Destination[] = [
       'Savannah and riverine forest on the Omo, home of the Mursi people.',
     intro:
       'A 2,162-square-kilometre park on the east bank of the Omo River, where wildlife and some of Ethiopia’s most distinctive cultures share the land.',
-    bestTime: 'October to March',
+    bestTime: 'Year-round except April and May',
     duration: '1 day',
     altitude: '450 to 2,528 m',
     highlights: [
@@ -898,7 +898,7 @@ export const destinations: Destination[] = [
       'Walled hilltop villages, stone terraces and carved wooden waka memorials.',
     intro:
       'A UNESCO-listed cultural landscape of dry-stone terraces and fortified villages, shaped by more than 400 years of Konso farming tradition.',
-    bestTime: 'October to March',
+    bestTime: 'Year-round except April and May',
     duration: 'Half day to 1 day',
     altitude: '1,650 m',
     highlights: [
@@ -970,7 +970,7 @@ export const destinations: Destination[] = [
       'Cattle herders of Mago National Park, known for the clay lip plate.',
     intro:
       'One of the best-known peoples of the Omo Valley, living between the Omo River and Mago National Park.',
-    bestTime: 'October to March',
+    bestTime: 'Year-round except April and May',
     duration: 'Half day',
     altitude: '500 to 1,500 m',
     highlights: [
@@ -994,7 +994,7 @@ export const destinations: Destination[] = [
       'Ochre-braided hair, beaded leather, and the bull-jumping rite of passage.',
     intro:
       'Semi-pastoralists of the Hamer Bena district around Turmi and Dimeka, and among the most visited communities of the Omo Valley.',
-    bestTime: 'October to March',
+    bestTime: 'Year-round except April and May',
     duration: '1 to 2 days',
     altitude: '900 to 1,500 m',
     highlights: [
@@ -1018,7 +1018,7 @@ export const destinations: Destination[] = [
       'Master body painters living on the banks of the Omo River.',
     intro:
       'A small community on the eastern bank of the Omo, renowned for some of the most elaborate body painting in Africa.',
-    bestTime: 'October to March',
+    bestTime: 'Year-round except April and May',
     duration: 'Half day',
     altitude: '400 to 500 m',
     highlights: [
@@ -1042,7 +1042,7 @@ export const destinations: Destination[] = [
       'Highland neighbours of the Hamar, famous for stilt walking and beekeeping.',
     intro:
       'Living in the hills between Key Afar and Jinka, the Banna share language and many customs with the Hamar and Bashada peoples.',
-    bestTime: 'October to March',
+    bestTime: 'Year-round except April and May',
     duration: 'Half day',
     altitude: '1,200 to 1,600 m',
     highlights: [
@@ -1066,7 +1066,7 @@ export const destinations: Destination[] = [
       'Pastoralists of the dry plains near Lake Chew Bahir, with striking black headscarves.',
     intro:
       'A small community in the southern Omo Valley with ancestral ties to the Borana and Konso peoples.',
-    bestTime: 'October to March',
+    bestTime: 'Year-round except April and May',
     duration: 'Half day',
     altitude: '500 m',
     highlights: [
@@ -1114,7 +1114,7 @@ export const destinations: Destination[] = [
       'Semi-nomads of the Omo delta, near the northern shore of Lake Turkana.',
     intro:
       'Living in Ethiopia’s far south near the Kenyan border, the Dassanech have adapted to one of the harshest environments in the country.',
-    bestTime: 'October to March',
+    bestTime: 'Year-round except April and May',
     duration: 'Half day',
     altitude: '370 m',
     highlights: [
@@ -1138,7 +1138,7 @@ export const destinations: Destination[] = [
       'Nilotic pastoralists of the west bank, famous for their heavy bead collars.',
     intro:
       'Also known as the Bume, the Nyangatom live near the borders with South Sudan and Kenya and are related to the Toposa and Turkana.',
-    bestTime: 'October to March',
+    bestTime: 'Year-round except April and May',
     duration: 'Half day to 1 day',
     altitude: '400 to 500 m',
     highlights: [
@@ -1186,7 +1186,7 @@ export const destinations: Destination[] = [
       'Agro-pastoralists of the Weito valley, between Konso and the Hamar.',
     intro:
       'A small community living south of Konso and east of the Hamar, with close ties to the Banna and Arbore.',
-    bestTime: 'October to March',
+    bestTime: 'Year-round except April and May',
     duration: 'Half day',
     altitude: '600 to 1,000 m',
     highlights: [

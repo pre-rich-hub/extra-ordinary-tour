@@ -11,7 +11,7 @@ export const tours: Tour[] = [
     days: '10 Days',
     nights: 9,
     style: 'Historical · Cultural',
-    season: 'October to March',
+    season: 'September to July',
     from: 'On request',
     group: '1 to 12 guests',
     teaser:
@@ -104,7 +104,7 @@ export const tours: Tour[] = [
     days: '7 Days',
     nights: 6,
     style: 'Historical · Cultural',
-    season: 'October to March',
+    season: 'September to July',
     from: 'On request',
     group: '1 to 12 guests',
     teaser:
@@ -179,7 +179,7 @@ export const tours: Tour[] = [
     days: '3 Days',
     nights: 2,
     style: 'Historical · Cultural',
-    season: 'October to April',
+    season: 'September to July',
     from: 'On request',
     group: '1 to 12 guests',
     teaser:
@@ -226,7 +226,7 @@ export const tours: Tour[] = [
     days: '4 Days',
     nights: 3,
     style: 'Historical · Cultural',
-    season: 'October to April',
+    season: 'September to July',
     from: 'On request',
     group: '1 to 12 guests',
     teaser:
@@ -279,7 +279,7 @@ export const tours: Tour[] = [
     days: '5 Days',
     nights: 4,
     style: 'Historical · Trekking',
-    season: 'September to April',
+    season: 'September to July',
     from: 'On request',
     group: '1 to 8 guests',
     teaser:
@@ -345,7 +345,7 @@ export const tours: Tour[] = [
     days: '11 Days',
     nights: 10,
     style: 'Historical · Cultural',
-    season: 'October to March',
+    season: 'Easter (April or May)',
     from: 'On request',
     group: '1 to 12 guests',
     teaser:
@@ -441,7 +441,7 @@ export const tours: Tour[] = [
     days: '12 Days',
     nights: 11,
     style: 'Historical · Cultural · Danakil',
-    season: 'October to March',
+    season: 'November to March',
     from: 'On request',
     group: '1 to 12 guests',
     teaser:
@@ -550,7 +550,7 @@ export const tours: Tour[] = [
     days: '13 Days',
     nights: 12,
     style: 'Historical · Cultural',
-    season: 'October to March',
+    season: 'September to July',
     from: 'On request',
     group: '1 to 12 guests',
     teaser:
@@ -659,7 +659,7 @@ export const tours: Tour[] = [
     days: '13 Days',
     nights: 12,
     style: 'Historical · Trekking · Danakil',
-    season: 'October to March',
+    season: 'November to March',
     from: 'On request',
     group: '1 to 10 guests',
     teaser:
@@ -772,7 +772,7 @@ export const tours: Tour[] = [
     days: '14 Days',
     nights: 13,
     style: 'Historical · Cultural',
-    season: 'October to March',
+    season: 'September to July',
     from: 'On request',
     group: '1 to 12 guests',
     teaser:
@@ -888,7 +888,7 @@ export const tours: Tour[] = [
     days: '15 Days',
     nights: 14,
     style: 'Historical · Cultural',
-    season: 'October to March',
+    season: 'September to July',
     from: 'On request',
     group: '1 to 12 guests',
     teaser:
@@ -1010,7 +1010,7 @@ export const tours: Tour[] = [
     days: '13 Days',
     nights: 12,
     style: 'Historical · Cultural',
-    season: 'October to March',
+    season: 'September to March and June to July',
     from: 'On request',
     group: '1 to 12 guests',
     teaser:
@@ -1121,7 +1121,7 @@ export const tours: Tour[] = [
     days: '6 Days',
     nights: 5,
     style: 'Cultural',
-    season: 'September to April',
+    season: 'Year-round except April and May',
     from: 'On request',
     group: '1 to 12 guests',
     teaser:
@@ -1198,7 +1198,7 @@ export const tours: Tour[] = [
     days: '5 Days',
     nights: 4,
     style: 'Cultural',
-    season: 'October to April',
+    season: 'Year-round except April and May',
     from: 'On request',
     group: '1 to 10 guests',
     teaser:
@@ -1267,7 +1267,7 @@ export const tours: Tour[] = [
     days: '9 Days',
     nights: 8,
     style: 'Cultural',
-    season: 'September to March',
+    season: 'Year-round except April and May',
     from: 'On request',
     group: '1 to 12 guests',
     teaser:
@@ -1356,7 +1356,7 @@ export const tours: Tour[] = [
     days: '11 Days',
     nights: 10,
     style: 'Cultural',
-    season: 'October to March',
+    season: 'Year-round except April and May',
     from: 'On request',
     group: '1 to 12 guests',
     teaser:
@@ -1459,7 +1459,7 @@ export const tours: Tour[] = [
     days: '13 Days',
     nights: 12,
     style: 'Cultural',
-    season: 'October to March',
+    season: 'Year-round except April and May',
     from: 'On request',
     group: '1 to 8 guests',
     teaser:
@@ -1570,7 +1570,7 @@ export const tours: Tour[] = [
     days: '8 Days',
     nights: 7,
     style: 'Cultural · Historical',
-    season: 'September to March',
+    season: 'September to March and June to July',
     from: 'On request',
     group: '1 to 12 guests',
     teaser:
@@ -2138,7 +2138,7 @@ export const tours: Tour[] = [
     days: '3 Days',
     nights: 2,
     style: 'Danakil',
-    season: 'October to March',
+    season: 'November to March',
     from: 'On request',
     group: '2 to 12 guests',
     teaser:
@@ -2196,7 +2196,7 @@ export const tours: Tour[] = [
     days: '3 Days',
     nights: 2,
     style: 'Danakil',
-    season: 'October to March',
+    season: 'November to March',
     from: 'On request',
     group: '2 to 12 guests',
     teaser:
@@ -2254,7 +2254,7 @@ export const tours: Tour[] = [
     days: '12 Days',
     nights: 11,
     style: 'Wildlife · Trekking',
-    season: 'October to March',
+    season: 'October to April',
     from: 'On request',
     group: '1 to 10 guests',
     teaser:
@@ -2347,7 +2347,7 @@ export const tours: Tour[] = [
     days: '17 Days',
     nights: 16,
     style: 'Wildlife · Birding',
-    season: 'October to March',
+    season: 'October to April',
     from: 'On request',
     group: '1 to 10 guests',
     teaser:
@@ -2479,7 +2479,7 @@ export const tours: Tour[] = [
     days: '3 Days',
     nights: 2,
     style: 'Wildlife',
-    season: 'October to April',
+    season: 'September to April',
     from: 'On request',
     group: '1 to 12 guests',
     teaser:
@@ -2588,7 +2588,7 @@ export const tours: Tour[] = [
     days: '4 Days',
     nights: 3,
     style: 'Wildlife · Trekking',
-    season: 'October to March',
+    season: 'September to June',
     from: 'On request',
     group: '1 to 8 guests',
     teaser:
@@ -2651,7 +2651,7 @@ export const tours: Tour[] = [
     days: '2 Days',
     nights: 1,
     style: 'Wildlife · Day Trip',
-    season: 'October to April',
+    season: 'September to April',
     from: 'On request',
     group: '1 to 12 guests',
     teaser:
@@ -2742,7 +2742,7 @@ export const tours: Tour[] = [
     days: '3 Days',
     nights: 2,
     style: 'Trekking',
-    season: 'October to March',
+    season: 'September to June',
     from: 'On request',
     group: '1 to 8 guests',
     teaser:
@@ -2794,7 +2794,7 @@ export const tours: Tour[] = [
     days: '5 Days',
     nights: 4,
     style: 'Trekking',
-    season: 'October to March',
+    season: 'September to June',
     from: 'On request',
     group: '1 to 8 guests',
     teaser:
@@ -3052,7 +3052,7 @@ export const tours: Tour[] = [
     days: '4 Days',
     nights: 3,
     style: 'Trekking · Cultural',
-    season: 'September to May',
+    season: 'September to June',
     from: 'On request',
     group: '1 to 8 guests',
     teaser:
@@ -3113,7 +3113,7 @@ export const tours: Tour[] = [
     days: '6 Days',
     nights: 5,
     style: 'Trekking · Historical',
-    season: 'September to May',
+    season: 'September to June',
     from: 'On request',
     group: '1 to 8 guests',
     teaser:
@@ -3177,7 +3177,7 @@ export const tours: Tour[] = [
     days: '4 Days',
     nights: 3,
     style: 'Birding · Wildlife',
-    season: 'October to April',
+    season: 'September to April',
     from: 'On request',
     group: '1 to 8 guests',
     teaser:
@@ -3238,7 +3238,7 @@ export const tours: Tour[] = [
     days: '5 Days',
     nights: 4,
     style: 'Birding · Wildlife',
-    season: 'October to April',
+    season: 'September to April',
     from: 'On request',
     group: '1 to 8 guests',
     teaser:
@@ -3302,7 +3302,7 @@ export const tours: Tour[] = [
     days: '7 Days',
     nights: 6,
     style: 'Birding · Wildlife',
-    season: 'October to April',
+    season: 'September to April',
     from: 'On request',
     group: '1 to 8 guests',
     teaser:
@@ -3378,7 +3378,7 @@ export const tours: Tour[] = [
     days: '2 Days',
     nights: 1,
     style: 'Historical · Day Trip',
-    season: 'October to March',
+    season: 'September to July',
     from: 'On request',
     group: '1 to 12 guests',
     teaser:
@@ -3499,7 +3499,7 @@ export const tours: Tour[] = [
     days: 'Full Day',
     nights: 0,
     style: 'Day Trip · Historical',
-    season: 'September to May',
+    season: 'September to July',
     from: 'On request',
     group: '1 to 15 guests',
     teaser:
@@ -3576,7 +3576,7 @@ export const tours: Tour[] = [
     days: '9 Days',
     nights: 8,
     style: 'Wildlife · Trekking',
-    season: 'October to March',
+    season: 'October to April',
     from: 'On request',
     group: '1 to 8 guests',
     teaser:
