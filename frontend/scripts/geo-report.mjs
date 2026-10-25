@@ -58,6 +58,8 @@ const pages = new Set(
   [
     '',
     '/about',
+    '/about-ethiopia',
+    '/travel-guide',
     '/tours',
     '/destinations',
     '/layover',
@@ -75,7 +77,7 @@ const questions = new Map()
 for (const q of parseCsv(path.join(dir, 'questions.csv'))) {
   assert.ok(!questions.has(q.id), `questions.csv: duplicate ${q.id}`)
   assert.ok(
-    ['en', 'es', 'fr'].includes(q.locale),
+    ['en', 'es', 'fr', 'de'].includes(q.locale),
     `${q.id}: locale ${q.locale}`,
   )
   const [, locale, ...rest] = q.target.split('/')

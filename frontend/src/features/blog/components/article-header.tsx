@@ -18,7 +18,7 @@ export function ArticleHeader({ post }: { post: Post }) {
               className="group inline-flex items-center gap-2 text-[10px] font-semibold uppercase tracking-[0.18em] text-muted-foreground transition-colors hover:text-primary sm:text-[11px]"
             >
               <ArrowLeft className="h-3.5 w-3.5 transition-transform duration-300 group-hover:-translate-x-1" />
-              {copy('The Journal')}
+              {copy('The Travel Journal')}
             </Link>
           </nav>
 

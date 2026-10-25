@@ -90,6 +90,28 @@ export const catalogueSpecs = [
     key: 'icon',
     fields: ['label', 'place', 'title', 'text', 'body'],
   },
+  {
+    feature: 'about-ethiopia',
+    file: 'about-ethiopia',
+    binding: 'aboutEthiopia',
+    key: 'id',
+    fields: [
+      'label',
+      'eyebrow',
+      'title',
+      'imageAlt',
+      'paragraphs',
+      'facts',
+      'links',
+    ],
+  },
+  {
+    feature: 'travel-guide',
+    file: 'travel-guide',
+    binding: 'travelGuide',
+    key: 'id',
+    fields: ['label', 'eyebrow', 'title', 'paragraphs', 'facts', 'links'],
+  },
 ]
 export function readCatalogue(spec) {
   const filename = path.join(

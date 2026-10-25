@@ -69,7 +69,7 @@ export default async function ArticlePage({
           name: post.title,
           description: post.excerpt,
           crumbs: [
-            { label: copy('The Journal'), href: '/blog' },
+            { label: copy('The Travel Journal'), href: '/blog' },
             { label: post.title },
           ],
           about: articleSchema(post, `/blog/${slug}`, locale),

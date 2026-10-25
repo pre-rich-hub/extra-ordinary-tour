@@ -38,6 +38,7 @@ describe('translation fallback', () => {
         {
           es: { 'stable-id': { title: 'Español', itinerary: ['Uno'] } },
           fr: {},
+          de: {},
         },
         ['title', 'itinerary'],
       ),
@@ -58,6 +59,7 @@ describe('translation fallback', () => {
           },
         },
         fr: {},
+        de: {},
       },
       ['title', 'itinerary'],
     )
@@ -77,7 +79,7 @@ describe('translation fallback', () => {
   })
 })
 describe('canonical catalogue identity', () => {
-  for (const locale of ['es', 'fr'] as const)
+  for (const locale of ['es', 'fr', 'de'] as const)
     it(`preserves source identifiers and relationships in ${locale}`, () => {
       const source = getTours('en'),
         translated = getTours(locale)
@@ -102,7 +104,7 @@ describe('canonical catalogue identity', () => {
       )
       expect(translated[0].summary).not.toBe(source[0].summary)
       expect(getDestinations(locale)).toHaveLength(62)
-      expect(getPosts(locale)).toHaveLength(13)
+      expect(getPosts(locale)).toHaveLength(11)
       expect(getPosts(locale).map((p) => p.categoryKey)).toEqual(
         getPosts('en').map((p) => p.category),
       )
@@ -114,9 +116,10 @@ describe('search publication', () => {
       en: '/en/tours',
       es: '/es/tours',
       fr: '/fr/tours',
+      de: '/de/tours',
       'x-default': '/en/tours',
     }
-    for (const locale of ['en', 'es', 'fr'] as const) {
+    for (const locale of ['en', 'es', 'fr', 'de'] as const) {
       const metadata = buildPageMetadata({ title: 'Tours' }, '/tours', locale)
       expect(metadata.alternates).toEqual({
         canonical: `/${locale}/tours`,
@@ -129,11 +132,11 @@ describe('search publication', () => {
   })
   it('lists 132 translated pages per language and excludes private URLs', () => {
     const entries = sitemap()
-    expect(entries).toHaveLength(398)
-    expect(new Set(entries.map((entry) => entry.url)).size).toBe(398)
+    expect(entries).toHaveLength(530)
+    expect(new Set(entries.map((entry) => entry.url)).size).toBe(530)
     // The two legal pages are English-only and carry no alternates.
     const translated = entries.filter((entry) => entry.alternates)
-    for (const locale of ['en', 'es', 'fr']) {
+    for (const locale of ['en', 'es', 'fr', 'de']) {
       expect(
         translated.filter((entry) =>
           new URL(entry.url).pathname.match(new RegExp(`^/${locale}(?:/|$)`)),
@@ -150,6 +153,7 @@ describe('search publication', () => {
       en: 'published',
       es: 'published',
       fr: 'published',
+      de: 'published',
     })
     expect(localePath('/', 'fr')).toBe('/fr')
   })

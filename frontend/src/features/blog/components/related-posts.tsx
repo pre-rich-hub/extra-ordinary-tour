@@ -31,7 +31,7 @@ export function RelatedPosts({ post }: { post: Post }) {
         <Reveal className="mb-10 flex flex-col justify-between gap-6 sm:mb-14 md:flex-row md:items-end">
           <div>
             <p className="eyebrow mb-4 text-accent sm:mb-5">
-              {copy('More From The Journal')}
+              {copy('More From The Travel Journal')}
             </p>
             <h2 className="text-balance text-3xl leading-[1.1] text-foreground sm:text-4xl">
               {copy('Also worth your time')}

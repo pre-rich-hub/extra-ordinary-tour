@@ -11,13 +11,12 @@ import {
   YouTubeIcon,
   FacebookIcon,
   TikTokIcon,
-  XIcon,
   TripadvisorMark,
   SafariBookingsMark,
-  SafariGoMark,
-  VisaMark,
-  MastercardMark,
+  ViatorMark,
+  GetYourGuideMark,
   PayPalMark,
+  BankDepositMark,
 } from '@/components/icons/brand-marks'
 import { NewsletterForm } from '@/features/newsletter/components/newsletter-form'
 
@@ -44,11 +43,6 @@ const socials: { name: string; href: string; icon: React.ReactNode }[] = [
     href: '#',
     icon: <TikTokIcon />,
   },
-  {
-    name: 'X',
-    href: '#',
-    icon: <XIcon />,
-  },
 ]
 
 // Logo tiles: brand marks are set in type and simple shapes on light cards.
@@ -66,25 +60,27 @@ const platforms: { name: string; href: string; mark: React.ReactNode }[] = [
     href: 'https://www.safaribookings.com/p6779',
     mark: <SafariBookingsMark />,
   },
+  // No listing links yet: shown as plain tiles until a real URL replaces '#'.
   {
-    name: 'SafariGo',
-    href: 'https://www.safarigo.com/operator/extraordinary-ethiopia-tours-3022',
-    mark: <SafariGoMark />,
+    name: 'Viator',
+    href: '#',
+    mark: <ViatorMark />,
+  },
+  {
+    name: 'GetYourGuide',
+    href: '#',
+    mark: <GetYourGuideMark />,
   },
 ]
 
 const payments: { name: string; mark: React.ReactNode }[] = [
   {
-    name: 'Visa',
-    mark: <VisaMark />,
-  },
-  {
-    name: 'Mastercard',
-    mark: <MastercardMark />,
-  },
-  {
     name: 'PayPal',
     mark: <PayPalMark />,
+  },
+  {
+    name: 'Bank Deposit',
+    mark: <BankDepositMark />,
   },
 ]
 
@@ -114,7 +110,7 @@ export function SiteFooter() {
     {
       title: copy('Explore'),
       links: [
-        { label: copy('Addis Layover Tours'), href: '/layover' },
+        { label: copy('Travel Guide'), href: '/travel-guide' },
         { label: copy('Travel Journal'), href: '/blog' },
         {
           label: copy('Essential Travel Information'),
@@ -156,7 +152,7 @@ export function SiteFooter() {
             </Link>
             <p className="mt-6 max-w-sm text-pretty text-[15px] leading-relaxed text-background/65">
               {copy(
-                'A locally based tour operator from Lalibela, guiding private and small-group journeys across Ethiopia.',
+                'A locally based tour operator from Lalibela, creating private and customized journeys across Ethiopia.',
               )}
             </p>
             <p className="mt-3 font-serif text-xl italic text-accent">
@@ -278,16 +274,22 @@ export function SiteFooter() {
             <p className="mt-2 text-[15px] text-background/60">
               {copy('Find and review us where seasoned travellers plan.')}
             </p>
-            <ul className="mt-6 grid grid-cols-2 gap-3 sm:grid-cols-3">
+            <ul className="mt-6 grid grid-cols-2 gap-3 sm:grid-cols-4">
               {platforms.map((p) => (
                 <li key={p.name}>
-                  <a
-                    href={p.href}
-                    aria-label={copy(p.name)}
-                    className={logoTile}
-                  >
-                    {copy(p.mark)}
-                  </a>
+                  {p.href === '#' ? (
+                    <span aria-label={copy(p.name)} className={logoTile}>
+                      {copy(p.mark)}
+                    </span>
+                  ) : (
+                    <a
+                      href={p.href}
+                      aria-label={copy(p.name)}
+                      className={logoTile}
+                    >
+                      {copy(p.mark)}
+                    </a>
+                  )}
                 </li>
               ))}
             </ul>
@@ -297,9 +299,9 @@ export function SiteFooter() {
               {copy('We accept')}
             </p>
             <p className="mt-2 text-[15px] text-background/60">
-              {copy('Secure payments by card or PayPal.')}
+              {copy('Pay securely by PayPal or bank deposit.')}
             </p>
-            <ul className="mt-6 grid grid-cols-3 gap-3">
+            <ul className="mt-6 grid grid-cols-2 gap-3">
               {payments.map((p) => (
                 <li key={p.name} aria-label={copy(p.name)} className={logoTile}>
                   {copy(p.mark)}

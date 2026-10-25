@@ -5,7 +5,7 @@
     "tag": "Patrimoine UNESCO",
     "teaser": "Onze églises creusées dans la roche vivante, toujours vivantes de prière.",
     "intro": "La « Nouvelle Jérusalem » du roi Lalibela : une ville sainte du XIIe siècle creusée dans la roche volcanique rouge des monts Lasta, où la liturgie ne s'est jamais arrêtée.",
-    "bestTime": "Octobre à mars",
+    "bestTime": "Septembre à juillet",
     "duration": "2 à 3 jours",
     "altitude": "2 500 m",
     "highlights": [
@@ -68,7 +68,7 @@
     "tag": "Cultures vivantes",
     "teaser": "Une mosaïque vivante de peuples qui ont façonné cette vallée fluviale depuis des millénaires.",
     "intro": "Le bas Omo est l'une des régions les plus diversifiées culturellement au monde, abritant les Hamar, Mursi, Karo, Dassanech et bien d'autres, chacun avec sa propre langue, ses vêtements et ses cérémonies.",
-    "bestTime": "Octobre à mars",
+    "bestTime": "Toute l'année sauf avril et mai",
     "duration": "5 à 9 jours",
     "altitude": "400 à 1 500 m",
     "highlights": [
@@ -90,7 +90,7 @@
     "tag": "Parc national UNESCO",
     "teaser": "Le Toit de l'Afrique, où les singes geladas paissent à plus de mille mètres de dénivelé.",
     "intro": "Des pinacles de basalte déchiquetés, des escarpements qui s'effondrent dans les nuages et une faune endémique que l'on ne trouve nulle part ailleurs : le walia ibex, le gelada et le loup éthiopien.",
-    "bestTime": "Octobre à mars",
+    "bestTime": "Septembre à juin",
     "duration": "1 à 5 jours",
     "altitude": "3 200 à 4 550 m",
     "highlights": [
@@ -133,7 +133,7 @@
     "tag": "Cité Impériale",
     "teaser": "Le Camelot d'Afrique : châteaux, bains et plafonds peints d'un empire des hautes terres.",
     "intro": "Capitale impériale de l'Éthiopie du XVIIe siècle, où les châteaux de pierre s'élèvent au-dessus de la ville et où Timkat remplit encore le bain royal chaque mois de janvier.",
-    "bestTime": "Octobre à mars",
+    "bestTime": "Septembre à juillet",
     "duration": "1 à 2 jours",
     "altitude": "2 133 m",
     "highlights": [
@@ -153,7 +153,7 @@
     "tag": "Monastères insulaires",
     "teaser": "Monastères insulaires, bateaux en papyrus et source du Nil Bleu.",
     "intro": "Une ville bordée de palmiers au bord du plus grand lac d’Éthiopie, dont les îles abritent des monastères peints et des manuscrits vieux de plusieurs siècles.",
-    "bestTime": "Septembre à mars",
+    "bestTime": "Septembre à juillet",
     "duration": "1 à 2 jours",
     "altitude": "1 800 m",
     "highlights": [
@@ -193,7 +193,7 @@
     "tag": "Ancienne capitale",
     "teaser": "Obélisques de granit, tombeaux royaux et lieu de repos revendiqué de l'Arche.",
     "intro": "Capitale du royaume d'Axoum, l'une des quatre grandes puissances du monde antique et cœur spirituel du christianisme orthodoxe éthiopien.",
-    "bestTime": "Octobre à mars",
+    "bestTime": "Septembre à juillet",
     "duration": "1 à 2 jours",
     "altitude": "2 131 m",
     "highlights": [
@@ -255,7 +255,7 @@
     "tag": "Archéologie",
     "teaser": "Le bâtiment le plus ancien d’Éthiopie : un temple vieux de 2 500 ans près d’Axum.",
     "intro": "Berceau de la première haute civilisation éthiopienne, où un temple préchrétien se dresse encore de toute sa hauteur après 25 siècles.",
-    "bestTime": "Octobre à mars",
+    "bestTime": "Septembre à juillet",
     "duration": "Demi-journée",
     "altitude": "2 100 m",
     "highlights": [
@@ -275,7 +275,7 @@
     "tag": "Patrimoine islamique",
     "teaser": "Site de la première colonie musulmane d’Afrique et symbole de coexistence religieuse.",
     "intro": "Un petit village du Tigré où le roi chrétien d'Axoum donna refuge aux premiers disciples du prophète Mahomet au VIIe siècle.",
-    "bestTime": "Octobre à mars",
+    "bestTime": "Septembre à juillet",
     "duration": "1 à 2 heures",
     "altitude": "2 000 m",
     "highlights": [
@@ -635,7 +635,7 @@
     "tag": "Nature sauvage",
     "teaser": "Savane et forêt riveraine sur l'Omo, patrie du peuple Mursi.",
     "intro": "Un parc de 2 162 kilomètres carrés sur la rive est de la rivière Omo, où se partagent la faune et certaines des cultures les plus distinctives d’Éthiopie.",
-    "bestTime": "Octobre à mars",
+    "bestTime": "Toute l'année sauf avril et mai",
     "duration": "1 jour",
     "altitude": "450 à 2 528 m",
     "highlights": [
@@ -735,7 +735,7 @@
     "tag": "Paysage culturel de l'UNESCO",
     "teaser": "Villages perchés fortifiés, terrasses en pierre et monuments commémoratifs waka en bois sculpté.",
     "intro": "Un paysage culturel de terrasses en pierres sèches et de villages fortifiés, classé au patrimoine mondial de l'UNESCO, façonné par plus de 400 ans de tradition agricole Konso.",
-    "bestTime": "Octobre à mars",
+    "bestTime": "Toute l'année sauf avril et mai",
     "duration": "Demi-journée à 1 journée",
     "altitude": "1 650 m",
     "highlights": [
@@ -795,7 +795,7 @@
     "tag": "Personnes et culture",
     "teaser": "Éleveurs de bétail du parc national de Mago, connu pour la plaque à lèvres en argile.",
     "intro": "L'un des peuples les plus connus de la vallée de l'Omo, vivant entre la rivière Omo et le parc national de Mago.",
-    "bestTime": "Octobre à mars",
+    "bestTime": "Toute l'année sauf avril et mai",
     "duration": "Demi-journée",
     "altitude": "500 à 1 500 m",
     "highlights": [
@@ -815,7 +815,7 @@
     "tag": "Personnes et culture",
     "teaser": "Cheveux tressés ocre, cuir perlé et rite de passage du saut au taureau.",
     "intro": "Semi-pasteurs du district de Hamer Bena autour de Turmi et Dimeka, et parmi les communautés les plus visitées de la vallée de l'Omo.",
-    "bestTime": "Octobre à mars",
+    "bestTime": "Toute l'année sauf avril et mai",
     "duration": "1 à 2 jours",
     "altitude": "900 à 1 500 m",
     "highlights": [
@@ -835,7 +835,7 @@
     "tag": "Personnes et culture",
     "teaser": "Maîtres peintres corporels vivant sur les rives de la rivière Omo.",
     "intro": "Une petite communauté sur la rive orientale de l'Omo, réputée pour certaines des peintures corporelles les plus élaborées d'Afrique.",
-    "bestTime": "Octobre à mars",
+    "bestTime": "Toute l'année sauf avril et mai",
     "duration": "Demi-journée",
     "altitude": "400 à 500 m",
     "highlights": [
@@ -855,7 +855,7 @@
     "tag": "Personnes et culture",
     "teaser": "Voisins des Highlands du Hamar, célèbres pour leurs promenades sur échasses et leur apiculture.",
     "intro": "Vivant dans les collines entre Key Afar et Jinka, les Banna partagent la langue et de nombreuses coutumes avec les peuples Hamar et Bashada.",
-    "bestTime": "Octobre à mars",
+    "bestTime": "Toute l'année sauf avril et mai",
     "duration": "Demi-journée",
     "altitude": "1 200 à 1 600 m",
     "highlights": [
@@ -875,7 +875,7 @@
     "tag": "Personnes et culture",
     "teaser": "Des pasteurs des plaines sèches près du lac Chew Bahir, avec des foulards noirs frappants.",
     "intro": "Une petite communauté du sud de la vallée de l'Omo ayant des liens ancestraux avec les peuples Borana et Konso.",
-    "bestTime": "Octobre à mars",
+    "bestTime": "Toute l'année sauf avril et mai",
     "duration": "Demi-journée",
     "altitude": "500 m",
     "highlights": [
@@ -915,7 +915,7 @@
     "tag": "Personnes et culture",
     "teaser": "Semi-nomades du delta de l'Omo, près de la rive nord du lac Turkana.",
     "intro": "Vivant à l’extrême sud de l’Éthiopie, près de la frontière kenyane, les Dassanech se sont adaptés à l’un des environnements les plus difficiles du pays.",
-    "bestTime": "Octobre à mars",
+    "bestTime": "Toute l'année sauf avril et mai",
     "duration": "Demi-journée",
     "altitude": "370 m",
     "highlights": [
@@ -935,7 +935,7 @@
     "tag": "Personnes et culture",
     "teaser": "Pasteurs nilotiques de Cisjordanie, célèbres pour leurs lourds colliers de perles.",
     "intro": "Également connus sous le nom de Bume, les Nyangatom vivent près des frontières avec le Soudan du Sud et le Kenya et sont apparentés aux Toposa et Turkana.",
-    "bestTime": "Octobre à mars",
+    "bestTime": "Toute l'année sauf avril et mai",
     "duration": "Demi-journée à 1 journée",
     "altitude": "400 à 500 m",
     "highlights": [
@@ -975,7 +975,7 @@
     "tag": "Personnes et culture",
     "teaser": "Agro-éleveurs de la vallée du Weito, entre Konso et Hamar.",
     "intro": "Une petite communauté vivant au sud de Konso et à l'est du Hamar, avec des liens étroits avec les Banna et Arbore.",
-    "bestTime": "Octobre à mars",
+    "bestTime": "Toute l'année sauf avril et mai",
     "duration": "Demi-journée",
     "altitude": "600 à 1 000 m",
     "highlights": [

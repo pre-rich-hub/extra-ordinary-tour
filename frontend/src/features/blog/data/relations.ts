@@ -24,8 +24,6 @@ export const postDestinations: Record<string, string[]> = {
   'lalibela-named-among-the-worlds-top-5-unesco-sites': ['lalibela'],
   'simien-mountains-trekking-guide': ['simien-mountains', 'gondar'],
   'lalibela-churches-guide': ['lalibela'],
-  'about-ethiopia': ['lalibela', 'simien-mountains', 'gondar'],
-  'what-to-know-before-visiting-ethiopia': ['addis-ababa'],
   'essential-travel-information': [],
 }
 

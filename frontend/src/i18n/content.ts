@@ -22,7 +22,7 @@ export function localizeRecord<T extends object>(
   source: T,
   key: string,
   locale: AppLocale,
-  overlays: Record<'es' | 'fr', unknown>,
+  overlays: Record<Exclude<AppLocale, 'en'>, unknown>,
   fields: readonly string[],
 ): T {
   if (locale === 'en') return { ...source }

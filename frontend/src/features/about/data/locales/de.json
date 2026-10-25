@@ -1,0 +1,47 @@
+{
+  "local": {
+    "label": "Lokal",
+    "place": "Axum",
+    "title": "Vor Ort ansässig, vor Ort geführt",
+    "text": "Gegründet von einem lizenzierten Guide aus Lalibela. Unser Team zeigt Ihnen das Äthiopien, in dem wir aufgewachsen sind: seine Menschen, seine Geschichte und seine verborgenen Winkel.",
+    "body": "Wir sind ein lokaler Reiseveranstalter aus Lalibela, und Äthiopien ist das Land, das wir am besten kennen. Unser Team bringt Sie mit lokalen Gemeinschaften, alten Traditionen und den Kulturen in Kontakt, die Äthiopien so außergewöhnlich machen."
+  },
+  "tailored": {
+    "label": "Maßgeschneidert",
+    "place": "Hamar, Omo-Tal",
+    "title": "Privat, in der Gruppe oder allein",
+    "text": "Privat, in kleiner Gruppe oder allein. Jede Reiseroute richtet sich nach Ihren Interessen, Ihrem Tempo und Ihrem Budget und bleibt während der Reise flexibel.",
+    "body": "Jede Reise richtet sich nach Ihren Interessen, Ihrem Tempo und Ihrem Budget, für Paare, Familien, Gruppen und Alleinreisende gleichermaßen. Sie reisen allein? Dann haben Sie durchgehend persönliche Betreuung, komfortable Unterkünfte und zuverlässigen Transport."
+  },
+  "handled": {
+    "label": "Organisiert",
+    "place": "Gondar",
+    "title": "Alles organisiert",
+    "text": "Inlandsflüge, Flughafentransfers, Hotels, Mahlzeiten und Guides, alles für Sie organisiert, ohne versteckte Kosten unterwegs."
+  },
+  "support": {
+    "label": "24/7",
+    "place": "Kaffeezeremonie",
+    "title": "Rund um die Uhr für Sie da",
+    "text": "Ein Team auf WhatsApp von Ihrer ersten Nachricht bis zu Ihrem letzten Tag. Verspätete Flüge und geänderte Pläne werden schnell gelöst."
+  },
+  "safety": {
+    "label": "Sicherheit",
+    "place": "Dallol, Danakil",
+    "title": "In sicheren Händen",
+    "text": "Erfahrene Fahrer, gut gewartete Allradfahrzeuge und ehrliche Hinweise zu den Bedingungen vor Ort, damit Sie die Reise einfach genießen können."
+  },
+  "responsible": {
+    "label": "Verantwortung",
+    "place": "Konso",
+    "title": "Verantwortungsvolles Reisen",
+    "text": "Wir arbeiten mit lokalen Guides und Gemeinschaften, fragen, bevor wir fotografieren, und helfen, die Orte zu bewahren, die wir mit Ihnen teilen."
+  },
+  "explore": {
+    "label": "Entdecken",
+    "place": "Äthiopisches Hochland",
+    "title": "Ganz Äthiopien",
+    "text": "Die Historische Route, die Danakil-Senke, das Omo-Tal, das Simien- und das Bale-Gebirge und Addis Abeba, verbunden zu einer Reise.",
+    "body": "Folgen Sie der Historischen Route durch Axum, Lalibela, Gondar und Tigray oder durchqueren Sie die vulkanische Danakil-Senke. Begegnen Sie den Kulturen des Omo-Tals, wandern Sie im Simien- und Bale-Gebirge und verbinden Sie alles zu einer Reise."
+  }
+}

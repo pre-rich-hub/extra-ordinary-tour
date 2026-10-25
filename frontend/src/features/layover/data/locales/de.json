@@ -1,0 +1,85 @@
+{
+  "6-hour": {
+    "hours": "6 Stunden",
+    "title": "Höhepunkte von Addis",
+    "price": "Auf Anfrage",
+    "teaser": "Eine kurze Runde durch die Hauptstadt für knappe Anschlüsse: Aussicht vom Entoto, eine Kathedrale und eine Kaffeezeremonie.",
+    "itinerary": [
+      "Empfang in der Ankunftshalle mit Namensschild",
+      "Fahrt auf den Mount Entoto mit Panoramablick über Addis Abeba",
+      "Dreifaltigkeitskathedrale und das Grab von Kaiser Haile Selassie",
+      "Eine traditionelle Kaffeezeremonie und ein leichtes äthiopisches Mittagessen",
+      "Rechtzeitige Rückkehr nach Bole für Ihren Weiterflug"
+    ],
+    "includes": [
+      "Privates klimatisiertes Fahrzeug und lizenzierter Guide",
+      "Alle Eintrittsgelder",
+      "Mittagessen und Kaffeezeremonie",
+      "Empfang am Flughafen in beide Richtungen"
+    ],
+    "best": "Anschlüsse ab 8 Stunden"
+  },
+  "12-hour": {
+    "hours": "12 Stunden",
+    "title": "Ganztägige Stadtführung",
+    "price": "Auf Anfrage",
+    "teaser": "Unser ganzer Tag in Addis Abeba: Entoto, Lucy im Nationalmuseum, die Dreifaltigkeitskathedrale, der Merkato und eine Kaffeezeremonie.",
+    "itinerary": [
+      "Empfang in der Ankunftshalle und Start mit der Aussicht vom Mount Entoto",
+      "Das Nationalmuseum Äthiopiens: Begegnung mit Lucy",
+      "Dreifaltigkeitskathedrale und Ethnologisches Museum",
+      "Traditionelles äthiopisches Mittagessen",
+      "Der Merkato, einer der größten Freiluftmärkte Afrikas",
+      "Kaffeezeremonie, dann Rückkehr nach Bole zum Check-in"
+    ],
+    "includes": [
+      "Privates Fahrzeug oder Kleinbus mit lizenziertem Guide",
+      "Alle Eintrittsgelder",
+      "Mittagessen und Kaffeezeremonie",
+      "Flughafentransfers und Hilfe beim Check-in"
+    ],
+    "best": "Anschlüsse ab 14 Stunden"
+  },
+  "24-hour": {
+    "hours": "24 Stunden",
+    "title": "Übernachtung & Tagesausflug",
+    "price": "Auf Anfrage",
+    "teaser": "Eine Nacht in Addis Abeba, ein kulturelles Abendessen und ein Tagesausflug nach Debre Libanos oder zum Wenchi-Kratersee.",
+    "itinerary": [
+      "Empfang in der Ankunftshalle und Transfer zum Hotel",
+      "Abendessen in einem traditionellen Restaurant mit Musik und Tanz",
+      "Morgendliche Fahrt nach Debre Libanos und zur Portugiesischen Brücke",
+      "Dscheladas an den Felswänden und der Rand der Schlucht des Blauen Nils",
+      "Oder wählen Sie den Wenchi-Kratersee oder Tiya und Adadi Mariam",
+      "Rückkehr nach Addis Abeba und Transfer zum Flughafen"
+    ],
+    "includes": [
+      "Eine Nacht in einem 3- bis 4-Sterne-Hotel mit Frühstück",
+      "Privates Fahrzeug und lizenzierter Guide während der ganzen Zeit",
+      "Kulturelles Abendessen, Mittagessen und alle Eintrittsgelder",
+      "Flughafentransfers in beide Richtungen"
+    ],
+    "best": "Anschlüsse mit Übernachtung und Stopover"
+  },
+  "48-hour": {
+    "hours": "48 Stunden",
+    "title": "Stopover in Lalibela",
+    "price": "Auf Anfrage",
+    "teaser": "Zwei Tage genügen für Lalibela: in den Norden fliegen, die Felsenkirchen erkunden und für den Weiterflug zurückfliegen.",
+    "itinerary": [
+      "Empfang in der Ankunftshalle und Morgenflug nach Lalibela",
+      "Die nördliche und die östliche Kirchengruppe mit einem lokalen Guide",
+      "Bete Giyorgis im Nachmittagslicht",
+      "Kaffeezeremonie am Abend und Übernachtung in einer Lodge in Lalibela",
+      "Besichtigung am Morgen, dann Rückflug nach Addis Abeba",
+      "Transfer nach Bole zu Ihrem Weiterflug"
+    ],
+    "includes": [
+      "Inlandsflüge Addis Abeba – Lalibela – Addis Abeba",
+      "Eine Nacht in einer Lodge mit Vollpension",
+      "Lizenzierter lokaler Guide und alle Eintrittsgelder für die Kirchen",
+      "Alle Flughafen- und Hoteltransfers"
+    ],
+    "best": "Stopover ab zwei Tagen"
+  }
+}

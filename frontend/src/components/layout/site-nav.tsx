@@ -28,6 +28,7 @@ const languages = [
   { code: 'en', label: 'English' },
   { code: 'es', label: 'Español' },
   { code: 'fr', label: 'Français' },
+  { code: 'de', label: 'Deutsch' },
 ] as const
 
 function Wordmark({
@@ -44,7 +45,7 @@ function Wordmark({
       href="/"
       onClick={onClick}
       aria-label={copy('Extraordinary Ethiopia Tours, home')}
-      className="flex items-center"
+      className="flex shrink-0 items-center"
     >
       <img
         src="/images/logo-160.webp"
@@ -153,13 +154,18 @@ export function SiteNav({
         >
           <Wordmark tone={open ? 'dark' : tone} />
 
-          <ul className="ml-auto mr-4 hidden items-center gap-7 lg:flex xl:mr-10 xl:gap-12">
+          <ul className="ml-auto mr-3 hidden items-center gap-5 lg:flex xl:mr-10 xl:gap-12">
             {navLinks.map((link) => {
               const active = isActive(link.href)
               const hasDropdown =
-                link.label === 'Destinations' || link.label === 'Tours'
+                link.label === 'Destinations' ||
+                link.label === 'Tours' ||
+                !!link.children
               return (
-                <li key={link.href} className="group py-5">
+                <li
+                  key={link.href}
+                  className={cn('group py-5', link.children && 'relative')}
+                >
                   <Link
                     href={link.href}
                     className={cn(
@@ -262,7 +268,7 @@ export function SiteNav({
                             </h3>
                             <p className="text-xs text-muted-foreground leading-relaxed">
                               {copy(
-                                'Private and small-group journeys across Ethiopia: history, culture, trekking, wildlife, festivals and coffee, led by licensed local guides.',
+                                'Private and customized journeys across Ethiopia: history, culture, trekking, wildlife, festivals and coffee, led by licensed local guides.',
                               )}
                             </p>
                           </div>
@@ -320,6 +326,29 @@ export function SiteNav({
                         </div>
                       </div>
                     </div>
+                  )}
+
+                  {link.children && (
+                    <ul className="invisible absolute left-1/2 top-full z-45 w-56 -translate-x-1/2 -translate-y-2 border-t border-accent/25 bg-background/98 py-2 text-foreground opacity-0 shadow-2xl backdrop-blur-2xl transition-all duration-300 pointer-events-none group-hover:visible group-hover:translate-y-0 group-hover:opacity-100 group-hover:pointer-events-auto group-focus-within:visible group-focus-within:translate-y-0 group-focus-within:opacity-100 group-focus-within:pointer-events-auto">
+                      {link.children.map((child) => (
+                        <li key={child.href}>
+                          <Link
+                            href={child.href}
+                            aria-current={
+                              pathname === child.href ? 'page' : undefined
+                            }
+                            className={cn(
+                              'block px-5 py-3 text-[11px] font-semibold uppercase tracking-[0.14em] transition-colors duration-200 hover:bg-muted/60 hover:text-accent',
+                              pathname === child.href
+                                ? 'text-accent'
+                                : 'text-foreground/75',
+                            )}
+                          >
+                            {copy(child.label)}
+                          </Link>
+                        </li>
+                      ))}
+                    </ul>
                   )}
                 </li>
               )
@@ -458,6 +487,29 @@ export function SiteNav({
                       )}
                     />
                   </Link>
+                  {link.children && (
+                    <ul className="-mt-2 flex flex-wrap gap-x-6 gap-y-2 pb-5 pl-8">
+                      {link.children
+                        .filter((child) => child.href !== link.href)
+                        .map((child) => (
+                          <li key={child.href}>
+                            <Link
+                              href={child.href}
+                              onClick={() => setOpen(false)}
+                              className={cn(
+                                'inline-flex items-center gap-2 text-[11px] font-semibold uppercase tracking-[0.16em]',
+                                pathname === child.href
+                                  ? 'text-accent'
+                                  : 'text-muted-foreground',
+                              )}
+                            >
+                              {copy(child.label)}
+                              <ArrowRight className="h-3.5 w-3.5" />
+                            </Link>
+                          </li>
+                        ))}
+                    </ul>
+                  )}
                 </li>
               )
             })}

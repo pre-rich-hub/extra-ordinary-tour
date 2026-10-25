@@ -534,16 +534,16 @@
     "reason": "Observed legacy alias resolves to /. Equivalent business/home/contact/journal or itinerary collection purpose in the existing project."
   },
   "/ethiopia-travel-information/": {
-    "target": "/en/blog/what-to-know-before-visiting-ethiopia",
+    "target": "/en/travel-guide",
     "action": "propose_permanent_redirect",
     "confidence": "high",
-    "reason": "Matching article/informational purpose verified from legacy title and content headings against the existing journal record; preserve the article intent rather than treating the old URL as a destination."
+    "reason": "Client feedback (2026-10-25): the legacy Travel Guide page maps to the dedicated Travel Guide page, which replaced the earlier journal article."
   },
   "/ethiopia-travel/": {
-    "target": "/en/blog/about-ethiopia",
+    "target": "/en/about-ethiopia",
     "action": "propose_permanent_redirect",
     "confidence": "high",
-    "reason": "Matching article/informational purpose verified from legacy title and content headings against the existing journal record; preserve the article intent rather than treating the old URL as a destination."
+    "reason": "Client feedback (2026-10-25): the legacy About Ethiopia page maps to the dedicated About Ethiopia page, which replaced the earlier journal article."
   },
   "/ethiopia-wildlife/": {
     "target": "",

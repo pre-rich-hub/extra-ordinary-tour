@@ -77,7 +77,7 @@ export default async function DestinationsPage({
           { label: copy('Destinations'), value: String(destinations.length) },
           { label: copy('UNESCO Sites'), value: '12' },
           { label: copy('Altitude Range'), value: copy('-116 to 4,550 m') },
-          { label: copy('Best Months'), value: copy('Oct to Mar') },
+          { label: copy('Best Months'), value: copy('Sep to Jul') },
         ]}
       />
 

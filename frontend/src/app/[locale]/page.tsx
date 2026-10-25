@@ -66,7 +66,7 @@ export async function generateMetadata({
         ),
       },
       description: copy(
-        'Private and small-group tours of Ethiopia: the historic north, Omo Valley, Danakil Depression, Simien trekking, festivals and Addis Ababa layovers. Locally run from Lalibela.',
+        'Private and customized tours of Ethiopia: the historic north, Omo Valley, Danakil Depression, Simien trekking, festivals and Addis Ababa layovers. Locally run from Lalibela.',
       ),
       openGraph: { type: 'website' },
     },

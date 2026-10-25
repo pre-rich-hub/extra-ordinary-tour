@@ -11,6 +11,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const paths = [
     '/',
     '/about',
+    '/about-ethiopia',
+    '/travel-guide',
     '/tours',
     '/destinations',
     '/layover',

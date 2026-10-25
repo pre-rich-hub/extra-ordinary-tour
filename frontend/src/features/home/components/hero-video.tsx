@@ -10,7 +10,7 @@ import { cn } from '@/lib/utils'
 // Muted (ac_none) and resized by Cloudinary; WebM/VP9 is about 40% smaller
 // than MP4 where supported. Phones get the 960 px cut.
 const VIDEO =
-  'https://res.cloudinary.com/oyw9kdvp/video/upload/ac_none,q_auto,w_{w}/v1792847984/testlv_0_20261006130845'
+  'https://res.cloudinary.com/oyw9kdvp/video/upload/ac_none,q_auto,w_{w}/v1792932263/homev'
 const FALLBACK = {
   src: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/blue-nile-falls.jpg',
   alt: 'The Blue Nile Falls pouring into a rocky gorge',

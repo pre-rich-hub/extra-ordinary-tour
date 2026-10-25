@@ -46,10 +46,12 @@ for (const { token, purpose } of [{ token: '*' }, ...aiCrawlers]) {
 // Pages: one per family and language, fetched as each crawler.
 const first = (feature) =>
   readCatalogue(catalogueSpecs.find((spec) => spec.feature === feature))[0].slug
-const paths = ['en', 'es', 'fr'].flatMap((locale) =>
+const paths = ['en', 'es', 'fr', 'de'].flatMap((locale) =>
   [
     '',
     '/about',
+    '/about-ethiopia',
+    '/travel-guide',
     '/tours',
     `/tours/${first('tours')}`,
     `/destinations/${first('destinations')}`,

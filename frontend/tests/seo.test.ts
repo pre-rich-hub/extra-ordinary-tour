@@ -51,7 +51,7 @@ describe('deployment indexing', () => {
 
   it('keeps preview pages crawlable and noindex, with no sitemap discovery', () => {
     vi.stubEnv('SEO_ENV', 'preview')
-    for (const locale of ['en', 'es', 'fr'] as const) {
+    for (const locale of ['en', 'es', 'fr', 'de'] as const) {
       const metadata = buildPageMetadata({}, '/tours', locale)
       expect(metadata.robots).toEqual({ index: false, follow: true })
       expect(metadata.alternates?.canonical).toBe(`/${locale}/tours`)
@@ -85,10 +85,10 @@ describe('deployment indexing', () => {
     ])
   })
 
-  it('keeps all 398 canonical URLs indexable in production', () => {
+  it('keeps all 530 canonical URLs indexable in production', () => {
     vi.stubEnv('SEO_ENV', 'production')
-    // 132 pages in each of three languages, plus two English-only legal pages.
-    expect(sitemap()).toHaveLength(398)
+    // 132 pages in each of four languages, plus two English-only legal pages.
+    expect(sitemap()).toHaveLength(530)
     expect(
       sitemap()
         .filter((entry) => !entry.alternates)
@@ -100,7 +100,7 @@ describe('deployment indexing', () => {
     expect(robots().sitemap).toBe(
       'https://extraordinaryethiopiatours.com/sitemap.xml',
     )
-    for (const locale of ['en', 'es', 'fr'] as const) {
+    for (const locale of ['en', 'es', 'fr', 'de'] as const) {
       expect(buildPageMetadata({}, '/', locale).robots).toEqual({
         index: true,
         follow: true,

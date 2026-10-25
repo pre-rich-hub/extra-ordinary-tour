@@ -1,5 +1,7 @@
 // Third-party brand marks (social networks, review platforms, payment
 // providers), drawn inline in each brand's own colours.
+import { Landmark } from 'lucide-react'
+import { useCopy } from '@/i18n/copy'
 
 export function InstagramIcon() {
   return (
@@ -78,17 +80,6 @@ export function TikTokIcon() {
   )
 }
 
-export function XIcon() {
-  return (
-    <svg viewBox="0 0 24 24" aria-hidden className="h-[22px] w-[22px]">
-      <path
-        d="M17.8 2.5h3.2l-7 8 8.2 11h-6.4l-5-6.6-5.8 6.6H1.8l7.5-8.6L1.4 2.5H8l4.6 6.1 5.2-6.1Zm-1.1 17.1h1.8L7.4 4.3H5.5l11.2 15.3Z"
-        fill="#000"
-      />
-    </svg>
-  )
-}
-
 export function ViatorMark() {
   return (
     <span className="font-sans text-[1.6rem] font-bold tracking-[-0.03em] text-[#186b6d]">
@@ -143,15 +134,6 @@ export function SafariBookingsMark() {
   )
 }
 
-export function SafariGoMark() {
-  return (
-    <span className="font-sans text-[1.35rem] font-extrabold tracking-[-0.02em] text-[#2e7d32]">
-      Safari
-      <span className="text-[#f39200]">Go</span>
-    </span>
-  )
-}
-
 export function GetYourGuideMark() {
   return (
     <span className="flex flex-col font-sans text-[13px] font-black uppercase leading-[0.95] text-[#ff5533]">
@@ -162,21 +144,13 @@ export function GetYourGuideMark() {
   )
 }
 
-export function VisaMark() {
+export function BankDepositMark() {
+  const copy = useCopy()
   return (
-    <span className="font-sans text-[1.9rem] font-black italic tracking-[-0.02em] text-[#1a1f71]">
-      VISA
+    <span className="flex items-center gap-2 font-sans text-[1.05rem] font-bold tracking-[-0.01em] text-charcoal">
+      <Landmark aria-hidden className="h-6 w-6 shrink-0" strokeWidth={1.8} />
+      {copy('Bank Deposit')}
     </span>
-  )
-}
-
-export function MastercardMark() {
-  return (
-    <svg viewBox="0 0 52 32" aria-hidden className="h-9 w-auto">
-      <circle cx="18" cy="16" r="14" fill="#EB001B" />
-      <circle cx="34" cy="16" r="14" fill="#F79E1B" />
-      <path d="M26 4.5a14 14 0 0 1 0 23 14 14 0 0 1 0-23Z" fill="#FF5F00" />
-    </svg>
   )
 }
 

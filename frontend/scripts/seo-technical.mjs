@@ -49,7 +49,7 @@ for (const [path, target] of [
   assert.equal((await get(target)).response.status, 200, target)
 }
 
-for (const locale of ['en', 'es', 'fr']) {
+for (const locale of ['en', 'es', 'fr', 'de']) {
   const { response, html } = await get(
     `/${locale}/tours?utm_source=qa&style=trek`,
   )

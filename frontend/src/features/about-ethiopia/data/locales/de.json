@@ -1,0 +1,116 @@
+{
+  "overview": {
+    "label": "Überblick",
+    "eyebrow": "Das Land der Ursprünge",
+    "title": "Ein Land wie kein anderes",
+    "paragraphs": [
+      "Äthiopien ist eines der faszinierendsten Länder der Welt, ein Land, in dem alte Geschichte, dramatische Landschaften und lebendige kulturelle Traditionen zusammenkommen. Als Wiege der Menschheit und Heimat einer der ältesten Zivilisationen Afrikas bietet es eine bemerkenswerte Reise durch die Zeit.",
+      "Von den Gipfeln des Simien-Gebirges und dem mächtigen Blauen Nil bis zu den Felsenkirchen von Lalibela, von historischen Städten über mehr als achtzig Völker bis zu den Vulkanwundern der Danakil ist Äthiopien ein Reiseziel wie kein anderes. Es ist außerdem eines von nur zwei afrikanischen Ländern, die nie kolonisiert wurden, und hat sein eigenes Alphabet, seinen eigenen Kalender und seine eigene Zeitrechnung bewahrt."
+    ],
+    "facts": [
+      { "label": "Hauptstadt", "value": "Addis Abeba" },
+      { "label": "Bevölkerung", "value": "Mehr als 120 Millionen" },
+      { "label": "Fläche", "value": "Rund 1,1 Millionen km²" },
+      {
+        "label": "Sprachen",
+        "value": "Amharisch, Oromo, Tigrinya, Somali, Afar und über 80 weitere"
+      },
+      { "label": "Währung", "value": "Äthiopischer Birr (ETB)" },
+      { "label": "Zeitzone", "value": "Ostafrikanische Zeit (UTC+3)" },
+      { "label": "Kalender", "value": "13 Monate, 7 bis 8 Jahre zurück" },
+      { "label": "UNESCO-Welterbe", "value": "12 Stätten" }
+    ]
+  },
+  "history": {
+    "label": "Geschichte",
+    "eyebrow": "Dreitausend Jahre",
+    "title": "Vom Land Punt zur Afrikanischen Union",
+    "imageAlt": "Die antiken Granitstelen von Axum",
+    "paragraphs": [
+      "Die Geschichte beginnt lange vor der Schrift. 1974 wurde in der Region Afar das 3,2 Millionen Jahre alte Skelett von Lucy gefunden, in Äthiopien Dinkinesh genannt, einer von vielen Funden, die das Land zu einer Wiege der Menschheit machen.",
+      "Lange bevor viele der großen Zivilisationen der Welt entstanden, war diese Region ein Zentrum von Handel und Innovation. Die alten Ägypter kannten sie als Teil des Landes Punt, und Handelswege verbanden sie mit dem Nahen Osten, Asien und dem Mittelmeerraum. Das Königreich Aksum wurde zu einer der größten Mächte Afrikas, mit eigener Schrift, geprägten Münzen, gewaltigen Stelen und weitreichendem Handel.",
+      "Im 4. Jahrhundert nahm König Ezana von Aksum das Christentum an und machte Äthiopien zu einer der ersten christlichen Nationen der Welt. Im 7. Jahrhundert gewährte Aksum den ersten Anhängern des Propheten Mohammed Zuflucht, die vor Verfolgung aus Arabien flohen, der Beginn einer langen Tradition des Zusammenlebens von Christen und Muslimen.",
+      "Im späten 12. und frühen 13. Jahrhundert schuf König Lalibela sein „Neues Jerusalem“ aus elf Kirchen, die aus dem massiven Fels gehauen wurden. Im 17. Jahrhundert gründete Kaiser Fasilides Gondar als kaiserliche Hauptstadt, die als Zentrum von Religion, Kunst und Architektur aufblühte und deren Burgen und Kirchen bis heute zu den großen Sehenswürdigkeiten des Landes zählen.",
+      "Äthiopien bewahrte seine Unabhängigkeit während der Kolonialzeit. 1896 besiegte Kaiser Menelik II. die italienische Armee in der Schlacht von Adwa und inspirierte damit antikoloniale Bewegungen in ganz Afrika. Im 20. Jahrhundert modernisierte Kaiser Haile Selassie das Land, setzte sich für die afrikanische Einheit ein und half, die Organisation für Afrikanische Einheit zu gründen, die heutige Afrikanische Union mit Sitz in Addis Abeba."
+    ],
+    "links": [
+      { "label": "Axum", "href": "/destinations/axum" },
+      { "label": "Lalibela", "href": "/destinations/lalibela" },
+      { "label": "Gondar", "href": "/destinations/gondar" }
+    ]
+  },
+  "geography": {
+    "label": "Geografie",
+    "eyebrow": "Natur in ihrer dramatischsten Form",
+    "title": "Vom Dach Afrikas bis unter den Meeresspiegel",
+    "imageAlt": "Basaltgipfel des Simien-Gebirges über den Wolken",
+    "paragraphs": [
+      "Äthiopien liegt am Horn von Afrika und besteht größtenteils aus Hochland, weshalb im Hochland das ganze Jahr über ein mildes, angenehmes Klima herrscht. Der Ras Dashen im Simien-Gebirge erreicht 4.550 Meter, während die Danakil-Senke in der Region Afar mehr als 100 Meter unter den Meeresspiegel absinkt und zu den heißesten Orten der Erde gehört.",
+      "Der Große Afrikanische Grabenbruch durchzieht das Land von Nordosten nach Südwesten, gesäumt von Vulkanen, heißen Quellen und einer Kette vogelreicher Seen. Der Blaue Nil entspringt im Tanasee und stürzt über die Fälle des Blauen Nils, und das äthiopische Hochland liefert den größten Teil des Wassers, das über den Nil Ägypten erreicht.",
+      "Durch ihre Höhe isoliert, beherbergen die Berge Äthiopiens Tiere, die es nirgendwo sonst gibt: den Dschelada, den Walia-Steinbock, den Bergnyala und den Äthiopischen Wolf, den seltensten Hundeartigen der Welt. Mehr als 850 Vogelarten wurden nachgewiesen, von Flamingos an den Seen des Grabenbruchs bis zu endemischen Arten des Hochlands, was das Land zu einem der großen Vogelbeobachtungsziele Afrikas macht."
+    ],
+    "links": [
+      {
+        "label": "Das Simien-Gebirge",
+        "href": "/destinations/simien-mountains"
+      },
+      {
+        "label": "Die Danakil-Senke",
+        "href": "/destinations/danakil-depression"
+      },
+      { "label": "Das Bale-Gebirge", "href": "/destinations/bale-mountains" }
+    ]
+  },
+  "people-culture": {
+    "label": "Menschen & Kultur",
+    "eyebrow": "Ein lebendiges Mosaik",
+    "title": "Mehr als achtzig Völker, ein bemerkenswertes Erbe",
+    "imageAlt": "Hohe, aus Bambus geflochtene Häuser der Dorze im südlichen Hochland",
+    "paragraphs": [
+      "Äthiopien ist die Heimat von mehr als achtzig Volksgruppen, darunter die Oromo, Amhara, Somali, Tigray, Sidama, Afar und die vielen Völker des Südens. Jede hat ihre eigene Sprache, Kleidung, Musik und ihre eigenen Bräuche, und die Reise von einer Region in die nächste kann sich anfühlen wie die Einreise in ein anderes Land.",
+      "Amharisch wird in Ge’ez geschrieben, auch Fidel genannt, einem der ältesten noch täglich genutzten Alphabete der Welt, und Ge’ez selbst lebt als Sprache der orthodoxen Liturgie fort. Das Gada-System der Oromo, eine traditionelle Form der Selbstverwaltung, ist von der UNESCO als immaterielles Kulturerbe der Menschheit anerkannt.",
+      "Im Omo-Tal im äußersten Süden pflegen Gemeinschaften wie die Hamar, Karo, Mursi und Dassanech Lebensweisen, die vom Fluss und den Jahreszeiten geprägt sind; man besucht sie am besten respektvoll und mit erfahrenen lokalen Guides. Überall, von Tigray bis in den Süden, gehören Musik und Tanz zum Alltag: der Schultertanz Eskista, die Lieder der Azmari und der Klang der Krar."
+    ],
+    "links": [
+      { "label": "Das Omo-Tal", "href": "/destinations/omo-valley" },
+      { "label": "Konso", "href": "/destinations/konso" }
+    ]
+  },
+  "faith-traditions": {
+    "label": "Glaube & Traditionen",
+    "eyebrow": "Alte Religionen, lebendige Traditionen",
+    "title": "Wo der Glaube den Rhythmus des Jahres bestimmt",
+    "imageAlt": "Orthodoxe Priester in weißen Gewändern mit Prozessionskreuzen in Lalibela",
+    "paragraphs": [
+      "Die Äthiopisch-Orthodoxe Tewahedo-Kirche prägt das Land seit sechzehn Jahrhunderten. Ihre Priester tragen noch immer illuminierte Handschriften und Prozessionskreuze, die Gläubigen halten mehr als 180 Fastentage im Jahr ein, und die Kirchen von Tigray bis zum Tanasee bewahren jahrhundertealte Malereien und Schätze.",
+      "Der Islam kam schon zu Lebzeiten des Propheten Mohammed, und Äthiopien beheimatet eine der ältesten muslimischen Gemeinschaften Afrikas. Das Dorf Negash und die ummauerte Stadt Harar mit ihren Hunderten Moscheen und Schreinen sind bedeutende Zentren des islamischen Erbes.",
+      "Äthiopien folgt seinem eigenen Kalender mit dreizehn Monaten, sieben bis acht Jahre hinter dem gregorianischen, und das Neujahrsfest Enkutatash fällt in den September. Die Stunden werden ab der Morgendämmerung gezählt, sodass 7 Uhr morgens nach äthiopischer Zeit ein Uhr ist. Religiöse Feste füllen das Jahr mit Farbe: Meskel und Timkat sind beide von der UNESCO als immaterielles Kulturerbe anerkannt."
+    ],
+    "links": [
+      { "label": "Timkat, das Epiphaniasfest", "href": "/destinations/timkat" },
+      { "label": "Meskel", "href": "/destinations/meskel" },
+      { "label": "Harar", "href": "/destinations/harar" }
+    ]
+  },
+  "coffee-food": {
+    "label": "Kaffee & Essen",
+    "eyebrow": "Die Heimat des Kaffees",
+    "title": "Kaffee, Injera und die Kunst der Gastfreundschaft",
+    "imageAlt": "Eine traditionelle äthiopische Kaffeezeremonie mit einer Jebena aus Ton und kleinen Tassen",
+    "paragraphs": [
+      "Kaffee stammt aus Äthiopien. Der Legende nach bemerkte Kaldi, ein Ziegenhirte in der Region Kaffa, dass seine Ziegen tanzten, nachdem sie die Beeren eines wilden Strauchs gefressen hatten, und wilder Arabica wächst noch heute in den Wäldern des Südwestens. Yirgacheffe, Sidama und Harar geben einigen der begehrtesten Bohnen der Welt ihren Namen.",
+      "Die Kaffeezeremonie ist das Herz der äthiopischen Gastfreundschaft. Grüne Bohnen werden über Holzkohle geröstet, von Hand gemahlen und in einer Jebena aus Ton aufgebrüht, dann in drei Runden serviert, Abol, Tona und Baraka, begleitet von Weihrauch und Gesprächen. Zu einer eingeladen zu werden, ist ein Zeichen der Freundschaft.",
+      "Die äthiopische Küche dreht sich um Injera, ein weiches Sauerteigfladenbrot aus dem winzigen Getreide Teff, das man von einem gemeinsamen Teller mit Eintöpfen wie Doro Wat, Shiro und Misir Wat teilt. Dank der vielen Fastentage gibt es überall vegetarische und vegane Gerichte. Probieren Sie Tej, den traditionellen Honigwein, und Tella, das hausgebraute Bier."
+    ],
+    "links": [
+      {
+        "label": "Die Kaffeeregionen Yirgacheffe & Sidama",
+        "href": "/destinations/yirgacheffe-and-sidama"
+      },
+      {
+        "label": "Kaffa, Heimat des wilden Kaffees",
+        "href": "/destinations/kaffa-and-bonga"
+      }
+    ]
+  }
+}

@@ -17,13 +17,23 @@ export function GET() {
   const body = [
     `# ${site.name}`,
     '',
-    '> A locally based Ethiopia tour operator in Lalibela, running private and small-group journeys across Ethiopia: the historic north, the Omo Valley, the Danakil Depression, the Simien and Bale Mountains, festivals, coffee and Addis Ababa layovers.',
+    '> A locally based Ethiopia tour operator in Lalibela, running private and customized journeys across Ethiopia: the historic north, the Omo Valley, the Danakil Depression, the Simien and Bale Mountains, festivals, coffee and Addis Ababa layovers.',
     '',
     `Contact, 24 hours a day: ${contact.phone} (phone and WhatsApp), ${contact.ukPhone} (UK phone), ${contact.email}. Address: ${contact.address}. Every itinerary can be tailor-made; prices are quoted for the traveller's dates and group. Pages are published in English, Spanish (/es) and French (/fr); English URLs are listed here.`,
     '',
     '## Company',
     '',
     entry('/about', 'About us', 'who we are, our founder and how we work'),
+    entry(
+      '/about-ethiopia',
+      'About Ethiopia',
+      'history, geography, peoples, faith, coffee and major destinations',
+    ),
+    entry(
+      '/travel-guide',
+      'Ethiopia travel guide',
+      'seasons, packing, transport, visas, money, health, etiquette, food and public holidays',
+    ),
     entry(
       '/contact',
       'Contact and planning questions',
@@ -47,7 +57,7 @@ export function GET() {
       entry(`/destinations/${d.slug}`, d.name, `${d.region}. ${d.teaser}`),
     ),
     '',
-    '## Journal',
+    '## Travel Journal',
     '',
     ...posts.map((p) => entry(`/blog/${p.slug}`, p.title, p.excerpt)),
     '',

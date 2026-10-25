@@ -42,7 +42,7 @@ const shots = [
       'The stelae of Axum, each carved from a single block of granite some 1,700 years ago.',
   },
   {
-    src: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/v1792849764/bale-mountains.png',
+    src: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/bale-wolf.jpg',
     location: 'Bale Mountains',
     description:
       'An Ethiopian wolf, the rarest canid in the world, on the Bale plateau.',
