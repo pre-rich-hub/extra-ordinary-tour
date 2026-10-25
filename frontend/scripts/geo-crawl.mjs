@@ -50,6 +50,8 @@ const paths = ['en', 'es', 'fr'].flatMap((locale) =>
   [
     '',
     '/about',
+    '/about-ethiopia',
+    '/travel-guide',
     '/tours',
     `/tours/${first('tours')}`,
     `/destinations/${first('destinations')}`,

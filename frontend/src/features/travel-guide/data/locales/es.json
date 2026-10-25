@@ -1,0 +1,158 @@
+{
+  "when-to-go": {
+    "label": "Cuándo ir",
+    "eyebrow": "Clima y estaciones",
+    "title": "Cuándo visitar Etiopía",
+    "paragraphs": [
+      "El clima de Etiopía depende mucho más de la altitud que del mes. La mayor parte del país es una alta meseta donde los días son cálidos y las noches frescas todo el año, mientras que las tierras bajas del Danakil, Awash y el valle del Omo pueden ser extremadamente calurosas.",
+      "Recibimos viajeros de septiembre a julio. Las lluvias principales caen aproximadamente de mediados de junio a mediados de septiembre en el norte y el centro, así que septiembre trae colinas verdes, flores silvestres y las fiestas de Enkutatash y Meskel. De octubre a mayo el tiempo es seco y despejado en el norte histórico y las montañas, y el Danakil resulta más llevadero de noviembre a marzo. En el sur suelen caer lluvias cortas de marzo a mayo y de nuevo en octubre y noviembre.",
+      "Fiestas como Genna, Timkat y Meskel están entre las fechas más solicitadas del año, así que planifique y reserve con antelación si quiere viajar entonces."
+    ],
+    "facts": [
+      {
+        "label": "Tierras altas",
+        "value": "Días cálidos, noches frescas (unos 8 a 28 °C)"
+      },
+      {
+        "label": "Tierras bajas",
+        "value": "Muy calurosas, pueden superar los 45 °C"
+      },
+      {
+        "label": "Lluvias principales",
+        "value": "De mediados de junio a mediados de septiembre (norte)"
+      },
+      {
+        "label": "Lluvias en el sur",
+        "value": "Aproximadamente de marzo a mayo y de octubre a noviembre"
+      }
+    ],
+    "links": [
+      {
+        "label": "La mejor época para visitar Etiopía",
+        "href": "/blog/best-time-to-visit-ethiopia"
+      }
+    ]
+  },
+  "packing": {
+    "label": "Qué llevar",
+    "eyebrow": "Lista de equipaje",
+    "title": "Qué llevar a Etiopía",
+    "paragraphs": [
+      "Prepárese para varios climas en un mismo viaje. Las ciudades de las tierras altas como Adís Abeba, Lalibela, Gondar y las Simien son frescas por la mañana y por la noche, mientras que el valle del Omo, el Danakil y Awash pueden ser muy calurosos.",
+      "Recomendamos llevar el pasaporte y una copia de su e-Visa, calzado cómodo para caminar, ropa ligera para los días cálidos y un forro polar o una capa de abrigo, un chubasquero, sombrero, gafas de sol y protector solar, repelente de insectos, sus medicamentos y un botiquín básico, una linterna frontal, una batería externa, un adaptador universal, una botella reutilizable y una mochila pequeña. La ropa que cubre hombros y rodillas es útil para visitar iglesias y mezquitas."
+    ]
+  },
+  "getting-around": {
+    "label": "Desplazarse",
+    "eyebrow": "Transporte y conexión",
+    "title": "Cómo desplazarse por Etiopía",
+    "paragraphs": [
+      "Ethiopian Airlines opera una red nacional fiable que une Adís Abeba con Lalibela, Gondar, Axum, Bahir Dar, Dire Dawa, Arba Minch, Jinka y otros destinos clave. Viajar en avión ahorra días en las rutas largas del norte histórico.",
+      "Hoy las carreteras asfaltadas llegan a la mayoría de los destinos populares, mientras que zonas remotas como el valle del Omo y el Danakil requieren vehículos 4x4. El moderno ferrocarril Adís Abeba–Yibuti ofrece una ruta alternativa hacia el este. En nuestros tours, conductores experimentados y vehículos bien mantenidos se encargan de cada trayecto.",
+      "Internet y la cobertura móvil funcionan bien en las ciudades y en la mayoría de los hoteles, pero son limitados en el valle del Omo, el Danakil y las montañas. Las tarjetas SIM locales de Ethio Telecom o Safaricom se compran fácilmente con el pasaporte."
+    ],
+    "facts": [
+      {
+        "label": "Vuelos nacionales",
+        "value": "Ethiopian Airlines, desde Adís Abeba"
+      },
+      { "label": "Zonas remotas", "value": "Se necesitan vehículos 4x4" },
+      {
+        "label": "Electricidad",
+        "value": "220 V, enchufes de tipo europeo (C, E y F)"
+      },
+      { "label": "Redes móviles", "value": "Ethio Telecom y Safaricom" }
+    ]
+  },
+  "visas": {
+    "label": "Visados y entrada",
+    "eyebrow": "Antes de volar",
+    "title": "Visados y requisitos de entrada",
+    "paragraphs": [
+      "La mayoría de los viajeros internacionales necesitan visado. La opción más sencilla es el e-Visa oficial, que se solicita en línea en evisa.gov.et antes del viaje. Las nacionalidades que cumplen los requisitos pueden obtener el visado a la llegada en el aeropuerto internacional de Bole, en Adís Abeba, y los ciudadanos de Kenia y Yibuti pueden entrar sin visado.",
+      "Los pasajeros en tránsito por Adís Abeba con Ethiopian Airlines pueden optar a un visado de tránsito que les permite salir del aeropuerto y conocer la ciudad durante la escala. El pasaporte debe tener una validez mínima de seis meses tras la llegada, y se exige el certificado de vacunación contra la fiebre amarilla si llega desde un país con riesgo.",
+      "Las tasas y las normas de entrada cambian, así que consulte siempre la web oficial del e-Visa antes de viajar. Cuando reserva con nosotros, confirmamos los requisitos para su pasaporte."
+    ],
+    "facts": [
+      { "label": "Portal oficial del e-Visa", "value": "evisa.gov.et" },
+      {
+        "label": "e-Visa turístico de 30 días",
+        "value": "62 USD (una entrada)"
+      },
+      {
+        "label": "e-Visa turístico de 90 días",
+        "value": "152 USD (una entrada)"
+      },
+      { "label": "Validez del pasaporte", "value": "Al menos seis meses" }
+    ],
+    "links": [{ "label": "Tours de escala en Adís Abeba", "href": "/layover" }]
+  },
+  "money": {
+    "label": "Dinero",
+    "eyebrow": "Moneda y pagos",
+    "title": "Dinero y moneda",
+    "paragraphs": [
+      "La moneda es el birr etíope (ETB). Los dólares estadounidenses, euros y libras esterlinas se cambian en bancos y casas de cambio autorizadas; el Banco Nacional de Etiopía publica los tipos oficiales en nbe.gov.et. Guarde los recibos de cambio, ya que pueden pedírselos para volver a cambiar los birr sobrantes antes de salir.",
+      "Las tarjetas se aceptan en muchos hoteles, restaurantes y tiendas de Adís Abeba y otras ciudades grandes, donde abundan los cajeros, pero el efectivo es imprescindible en el campo, en los mercados y en regiones remotas como el valle del Omo, el Danakil y las Simien. La propina no es obligatoria, pero es habitual y muy apreciada por guías, conductores, escoltas y personal de hotel."
+    ]
+  },
+  "health-safety": {
+    "label": "Salud y seguridad",
+    "eyebrow": "Cuídese",
+    "title": "Salud, altitud y seguridad",
+    "paragraphs": [
+      "Muchos destinos están por encima de los 2000 metros, así que tómese el primer día con calma, beba mucha agua y limite el alcohol hasta aclimatarse. Beba solo agua embotellada o filtrada. Consulte con antelación a su médico o a un centro de vacunación internacional sobre las vacunas recomendadas y la prevención de la malaria en las tierras bajas.",
+      "Es imprescindible un seguro de viaje completo que cubra atención médica, evacuación e interrupción del viaje. Algunos lugares tienen terreno irregular y escalones empinados, así que indíquenos cualquier necesidad de movilidad o problema de salud al planificar su viaje. Nuestro equipo está disponible las 24 horas durante todo su viaje."
+    ]
+  },
+  "etiquette": {
+    "label": "Costumbres",
+    "eyebrow": "Viajar con respeto",
+    "title": "Costumbres locales, normas de cortesía y fotografía",
+    "paragraphs": [
+      "Etiopía alberga muchas culturas y tradiciones religiosas. Vista con recato en iglesias, monasterios y mezquitas, quítese los zapatos antes de entrar en las iglesias ortodoxas y siga los consejos de su guía sobre las costumbres locales. Pida siempre permiso antes de fotografiar a las personas.",
+      "Al visitar comunidades del valle del Omo, hable con su guía antes de dar nada; en lugar de repartir regalos, recomendamos apoyar escuelas o proyectos comunitarios. La fotografía está prohibida cerca de instalaciones militares, aeropuertos y algunos edificios oficiales, y ciertas ceremonias religiosas pueden restringirla. Los drones no pueden entrar en Etiopía sin autorización previa del gobierno."
+    ]
+  },
+  "food-drink": {
+    "label": "Comida y bebida",
+    "eyebrow": "Comer bien",
+    "title": "Comida y bebida",
+    "paragraphs": [
+      "La cocina etíope es rica, variada y llena de sabor. La base es la injera, un pan plano de masa madre elaborado con teff, que se sirve con guisos de carne y verduras como el doro wat, los tibs, el shiro y el misir wat. Los viajeros vegetarianos y veganos comen muy bien, sobre todo en los numerosos días de ayuno en que los restaurantes ofrecen menús vegetales. La comida internacional es fácil de encontrar en Adís Abeba y en los hoteles de las rutas principales.",
+      "No se pierda una ceremonia tradicional del café, un ritual centenario de hospitalidad y amistad, y pruebe bebidas locales como el tej (vino de miel), la tella (cerveza casera) y el areki (un aguardiente de cereales)."
+    ]
+  },
+  "holidays": {
+    "label": "Festivos",
+    "eyebrow": "El calendario etíope",
+    "title": "Festivos y fiestas",
+    "paragraphs": [
+      "Etiopía sigue su propio calendario, entre siete y ocho años por detrás del gregoriano. Muchos festivos tienen su origen en la tradición cristiana ortodoxa, y otros celebran la historia del país. Se celebran con ceremonias llenas de color, música y reuniones comunitarias, y son un momento maravilloso para visitar el país.",
+      "En el año anterior a un año bisiesto gregoriano, las fiestas de septiembre y enero caen un día más tarde. Las fiestas islámicas siguen el calendario lunar y cambian cada año, y el Viernes Santo y la Pascua siguen el calendario ortodoxo."
+    ],
+    "facts": [
+      { "label": "11 de septiembre", "value": "Año Nuevo etíope (Enkutatash)" },
+      {
+        "label": "27 de septiembre",
+        "value": "Hallazgo de la Vera Cruz (Meskel)"
+      },
+      { "label": "7 de enero", "value": "Navidad etíope (Genna)" },
+      { "label": "19 de enero", "value": "Epifanía etíope (Timkat)" },
+      { "label": "2 de marzo", "value": "Victoria de Adua" },
+      { "label": "Abril o mayo", "value": "Viernes Santo y Pascua (Fasika)" },
+      { "label": "1 de mayo", "value": "Día Internacional del Trabajo" },
+      { "label": "5 de mayo", "value": "Día de la Victoria de los Patriotas" },
+      { "label": "28 de mayo", "value": "Caída del Derg" },
+      {
+        "label": "Calendario lunar",
+        "value": "Eid al-Fitr, Eid al-Adha y Mawlid"
+      }
+    ],
+    "links": [
+      { "label": "Timkat", "href": "/destinations/timkat" },
+      { "label": "Meskel", "href": "/destinations/meskel" },
+      { "label": "Genna", "href": "/destinations/genna" }
+    ]
+  }
+}

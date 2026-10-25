@@ -28,6 +28,17 @@ const nextConfig = {
         }))
       : [{ source: '/:path*', headers: noindex }]
   },
+  // Journal articles superseded by the About Ethiopia and Travel Guide pages.
+  async redirects() {
+    return [
+      ['about-ethiopia', 'about-ethiopia'],
+      ['what-to-know-before-visiting-ethiopia', 'travel-guide'],
+    ].map(([post, page]) => ({
+      source: `/:locale(en|es|fr)/blog/${post}`,
+      destination: `/:locale/${page}`,
+      permanent: true,
+    }))
+  },
   async rewrites() {
     const apiBase = process.env.API_BASE_URL ?? 'http://localhost:5000'
     return [{ source: '/api/:path*', destination: `${apiBase}/api/:path*` }]

@@ -58,6 +58,8 @@ const pages = new Set(
   [
     '',
     '/about',
+    '/about-ethiopia',
+    '/travel-guide',
     '/tours',
     '/destinations',
     '/layover',

@@ -1,0 +1,119 @@
+{
+  "overview": {
+    "label": "Introducción",
+    "eyebrow": "La tierra de los orígenes",
+    "title": "Un país como ningún otro",
+    "paragraphs": [
+      "Etiopía es uno de los países más fascinantes del mundo, una tierra donde se unen la historia antigua, los paisajes espectaculares y unas tradiciones culturales llenas de vida. Cuna de la humanidad y hogar de una de las civilizaciones más antiguas de África, ofrece un viaje extraordinario a través del tiempo.",
+      "Desde las cumbres de las montañas Simien y el poderoso Nilo Azul hasta las iglesias excavadas en la roca de Lalibela, pasando por sus ciudades históricas, sus más de ochenta pueblos y las maravillas volcánicas del Danakil, Etiopía es un destino como ningún otro. Es además uno de los dos únicos países africanos que nunca fueron colonizados, y conserva su propio alfabeto, su propio calendario y su propia forma de contar las horas."
+    ],
+    "facts": [
+      { "label": "Capital", "value": "Adís Abeba" },
+      { "label": "Población", "value": "Más de 120 millones" },
+      { "label": "Superficie", "value": "Unos 1,1 millones de km²" },
+      {
+        "label": "Idiomas",
+        "value": "Amárico, afaan oromo, tigriña, somalí, afar y más de 80 más"
+      },
+      { "label": "Moneda", "value": "Birr etíope (ETB)" },
+      { "label": "Zona horaria", "value": "Hora de África Oriental (UTC+3)" },
+      {
+        "label": "Calendario",
+        "value": "13 meses, entre 7 y 8 años de diferencia"
+      },
+      { "label": "Patrimonio Mundial de la UNESCO", "value": "12 sitios" }
+    ]
+  },
+  "history": {
+    "label": "Historia",
+    "eyebrow": "Tres mil años de historia",
+    "title": "De la Tierra de Punt a la Unión Africana",
+    "imageAlt": "Las antiguas estelas de granito de Axum",
+    "paragraphs": [
+      "La historia comienza mucho antes de la escritura. En 1974 se descubrió en la región de Afar el esqueleto de Lucy, de 3,2 millones de años y conocida en Etiopía como Dinkinesh, uno de los muchos hallazgos que convierten al país en una cuna de la humanidad.",
+      "Mucho antes del auge de muchas grandes civilizaciones, esta región ya era un centro de comercio e innovación. Los antiguos egipcios la conocían como parte de la Tierra de Punt, y las rutas comerciales la unían con Oriente Medio, Asia y el Mediterráneo. El Reino de Aksum se convirtió en una de las mayores potencias de África, con escritura propia, monedas acuñadas, estelas monumentales y un comercio de gran alcance.",
+      "En el siglo IV, el rey Ezana de Aksum abrazó el cristianismo y convirtió a Etiopía en una de las primeras naciones cristianas del mundo. En el siglo VII, Aksum dio refugio a los primeros seguidores del profeta Mahoma que huían de la persecución en Arabia, el comienzo de una larga tradición de convivencia entre cristianos y musulmanes.",
+      "A finales del siglo XII y principios del XIII, el rey Lalibela creó su «Nueva Jerusalén» de once iglesias talladas en la roca. En el siglo XVII, el emperador Fasilidas fundó Gondar como capital imperial, que floreció como centro de religión, arte y arquitectura y cuyos castillos e iglesias siguen estando entre los grandes atractivos del país.",
+      "Etiopía conservó su independencia durante la era colonial. En 1896, el emperador Menelik II derrotó al ejército italiano en la batalla de Adua, inspirando a los movimientos anticoloniales de toda África. En el siglo XX, el emperador Haile Selassie modernizó el país y defendió la unidad africana, y contribuyó a fundar la Organización para la Unidad Africana, hoy la Unión Africana, con sede en Adís Abeba."
+    ],
+    "links": [
+      { "label": "Axum", "href": "/destinations/axum" },
+      { "label": "Lalibela", "href": "/destinations/lalibela" },
+      { "label": "Gondar", "href": "/destinations/gondar" }
+    ]
+  },
+  "geography": {
+    "label": "Geografía",
+    "eyebrow": "La naturaleza en su máxima expresión",
+    "title": "Del techo de África a debajo del nivel del mar",
+    "imageAlt": "Los picos de basalto de las montañas Simien por encima de las nubes",
+    "paragraphs": [
+      "Etiopía se encuentra en el Cuerno de África y en su mayor parte es una alta meseta, por eso las tierras altas disfrutan de un clima suave y agradable todo el año. El Ras Dashen, en las montañas Simien, alcanza los 4550 metros, mientras que la depresión de Danakil, en la región de Afar, desciende a más de 100 metros bajo el nivel del mar y es uno de los lugares más calurosos del planeta.",
+      "El Gran Valle del Rift atraviesa el país de noreste a suroeste, salpicado de volcanes, fuentes termales y una cadena de lagos ricos en aves. El Nilo Azul nace en el lago Tana y se precipita en las cataratas del Nilo Azul, y las tierras altas etíopes aportan la mayor parte del agua que llega a Egipto por el Nilo.",
+      "Aisladas por la altitud, las montañas de Etiopía albergan fauna que no existe en ningún otro lugar: el gelada, el íbice de Walia, el nyala de montaña y el lobo etíope, el cánido más raro del planeta. Se han registrado más de 850 especies de aves, desde los flamencos de los lagos del Rift hasta los endemismos de las tierras altas, lo que lo convierte en uno de los grandes destinos de observación de aves de África."
+    ],
+    "links": [
+      {
+        "label": "Las montañas Simien",
+        "href": "/destinations/simien-mountains"
+      },
+      {
+        "label": "La depresión de Danakil",
+        "href": "/destinations/danakil-depression"
+      },
+      { "label": "Las montañas Bale", "href": "/destinations/bale-mountains" }
+    ]
+  },
+  "people-culture": {
+    "label": "Pueblos y cultura",
+    "eyebrow": "Un mosaico vivo",
+    "title": "Más de ochenta pueblos, un patrimonio extraordinario",
+    "imageAlt": "Las altas casas de bambú trenzado del pueblo dorze en las tierras altas del sur",
+    "paragraphs": [
+      "Etiopía es el hogar de más de ochenta grupos étnicos, entre ellos los oromo, los amhara, los somalíes, los tigriños, los sidama, los afar y los numerosos pueblos del sur. Cada uno tiene su propia lengua, vestimenta, música y costumbres, y viajar de una región a otra puede parecer cruzar a otro país.",
+      "El amárico se escribe en ge’ez, o fidel, uno de los alfabetos más antiguos que siguen en uso cotidiano, y el propio ge’ez sobrevive como lengua de la liturgia ortodoxa. El sistema Gada de los oromo, una forma tradicional de autogobierno, está reconocido por la UNESCO como patrimonio cultural inmaterial de la humanidad.",
+      "En el valle del Omo, en el extremo sur, comunidades como los hamar, los karo, los mursi y los dassanech mantienen formas de vida marcadas por el río y las estaciones; conviene visitarlas con respeto y con guías locales experimentados. En todas partes, de Tigray al sur, la música y la danza forman parte de la vida diaria: la danza de hombros eskista, las canciones de los azmari y el sonido del krar."
+    ],
+    "links": [
+      { "label": "El valle del Omo", "href": "/destinations/omo-valley" },
+      { "label": "Konso", "href": "/destinations/konso" }
+    ]
+  },
+  "faith-traditions": {
+    "label": "Fe y tradiciones",
+    "eyebrow": "Religiones antiguas, tradiciones vivas",
+    "title": "Donde la fe marca el ritmo del año",
+    "imageAlt": "Sacerdotes ortodoxos con túnicas blancas sosteniendo cruces procesionales en Lalibela",
+    "paragraphs": [
+      "La Iglesia ortodoxa etíope Tewahedo ha dado forma al país durante dieciséis siglos. Sus sacerdotes aún portan manuscritos iluminados y cruces procesionales, los fieles guardan más de 180 días de ayuno al año, y las iglesias desde Tigray hasta el lago Tana conservan pinturas y tesoros de muchos siglos de antigüedad.",
+      "El islam llegó en vida del profeta Mahoma, y Etiopía alberga una de las comunidades musulmanas más antiguas de África. El pueblo de Negash y la ciudad amurallada de Harar, con sus cientos de mezquitas y santuarios, son centros importantes del patrimonio islámico.",
+      "Etiopía sigue su propio calendario de trece meses, entre siete y ocho años por detrás del gregoriano, y el Año Nuevo, Enkutatash, cae en septiembre. Las horas se cuentan desde el amanecer, así que las 7 de la mañana son la una en hora etíope. Las fiestas religiosas llenan el año de color: Meskel y Timkat están reconocidas por la UNESCO como patrimonio cultural inmaterial."
+    ],
+    "links": [
+      { "label": "Timkat, la Epifanía", "href": "/destinations/timkat" },
+      { "label": "Meskel", "href": "/destinations/meskel" },
+      { "label": "Harar", "href": "/destinations/harar" }
+    ]
+  },
+  "coffee-food": {
+    "label": "Café y comida",
+    "eyebrow": "La cuna del café",
+    "title": "Café, injera y el arte de la hospitalidad",
+    "imageAlt": "Una ceremonia tradicional del café etíope con una jebena de barro y tazas pequeñas",
+    "paragraphs": [
+      "El café viene de Etiopía. Cuenta la leyenda que Kaldi, un cabrero de la región de Kaffa, vio a sus cabras bailar después de comer las bayas de un arbusto silvestre, y el arábica silvestre todavía crece en los bosques del suroeste. Yirgacheffe, Sidama y Harar dan nombre a algunos de los granos más apreciados del mundo.",
+      "La ceremonia del café es el corazón de la hospitalidad etíope. Los granos verdes se tuestan sobre carbón, se muelen a mano y se preparan en una jebena de barro, y se sirven en tres rondas, abol, tona y baraka, con incienso y conversación. Ser invitado a una es una muestra de amistad.",
+      "La comida etíope gira en torno a la injera, un pan plano y esponjoso de masa madre elaborado con teff, un grano diminuto, que se comparte en un mismo plato con guisos como el doro wat, el shiro o el misir wat. Gracias a los numerosos días de ayuno, los platos vegetarianos y veganos están en todas partes. Pruebe el tej, el vino de miel tradicional, y la tella, la cerveza casera."
+    ],
+    "links": [
+      {
+        "label": "Las tierras cafeteras de Yirgacheffe y Sidama",
+        "href": "/destinations/yirgacheffe-and-sidama"
+      },
+      {
+        "label": "Kaffa, hogar del café silvestre",
+        "href": "/destinations/kaffa-and-bonga"
+      }
+    ]
+  }
+}

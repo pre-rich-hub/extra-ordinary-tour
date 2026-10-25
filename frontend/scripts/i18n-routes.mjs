@@ -4,6 +4,8 @@ const base = process.env.I18N_BASE_URL ?? 'http://127.0.0.1:3104'
 const paths = [
   '/',
   '/about',
+  '/about-ethiopia',
+  '/travel-guide',
   '/tours',
   '/destinations',
   '/layover',

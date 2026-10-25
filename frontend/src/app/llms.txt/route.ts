@@ -25,6 +25,16 @@ export function GET() {
     '',
     entry('/about', 'About us', 'who we are, our founder and how we work'),
     entry(
+      '/about-ethiopia',
+      'About Ethiopia',
+      'history, geography, peoples, faith, coffee and major destinations',
+    ),
+    entry(
+      '/travel-guide',
+      'Ethiopia travel guide',
+      'seasons, packing, transport, visas, money, health, etiquette, food and public holidays',
+    ),
+    entry(
       '/contact',
       'Contact and planning questions',
       'how to enquire, reply times, booking, payment and visas',

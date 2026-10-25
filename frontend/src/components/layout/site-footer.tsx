@@ -110,7 +110,7 @@ export function SiteFooter() {
     {
       title: copy('Explore'),
       links: [
-        { label: copy('Addis Layover Tours'), href: '/layover' },
+        { label: copy('Travel Guide'), href: '/travel-guide' },
         { label: copy('Travel Journal'), href: '/blog' },
         {
           label: copy('Essential Travel Information'),

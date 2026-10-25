@@ -1,0 +1,116 @@
+{
+  "overview": {
+    "label": "Aperçu",
+    "eyebrow": "Terre des origines",
+    "title": "Un pays à nul autre pareil",
+    "paragraphs": [
+      "L’Éthiopie est l’un des pays les plus fascinants au monde, une terre où se rencontrent histoire ancienne, paysages spectaculaires et traditions culturelles vivantes. Berceau de l’humanité et foyer de l’une des plus anciennes civilisations d’Afrique, elle offre un remarquable voyage à travers le temps.",
+      "Des sommets du Simien et du puissant Nil Bleu aux églises rupestres de Lalibela, en passant par ses villes historiques, ses plus de quatre-vingts peuples et les merveilles volcaniques du Danakil, l’Éthiopie ne ressemble à aucune autre destination. C’est aussi l’un des deux seuls pays africains jamais colonisés, et elle conserve son propre alphabet, son propre calendrier et sa propre façon de compter les heures."
+    ],
+    "facts": [
+      { "label": "Capitale", "value": "Addis-Abeba" },
+      { "label": "Population", "value": "Plus de 120 millions d’habitants" },
+      { "label": "Superficie", "value": "Environ 1,1 million de km²" },
+      {
+        "label": "Langues",
+        "value": "Amharique, afaan oromo, tigrinya, somali, afar et plus de 80 autres"
+      },
+      { "label": "Monnaie", "value": "Birr éthiopien (ETB)" },
+      {
+        "label": "Fuseau horaire",
+        "value": "Heure d’Afrique de l’Est (UTC+3)"
+      },
+      { "label": "Calendrier", "value": "13 mois, 7 à 8 ans de décalage" },
+      { "label": "Patrimoine mondial de l’UNESCO", "value": "12 sites" }
+    ]
+  },
+  "history": {
+    "label": "Histoire",
+    "eyebrow": "Trois mille ans d’histoire",
+    "title": "Du pays de Pount à l’Union africaine",
+    "imageAlt": "Les anciennes stèles de granit d’Axoum",
+    "paragraphs": [
+      "L’histoire commence bien avant l’écriture. En 1974, le squelette de Lucy, vieux de 3,2 millions d’années et connu en Éthiopie sous le nom de Dinkinesh, a été découvert dans la région Afar : l’une des nombreuses découvertes qui font du pays un berceau de l’humanité.",
+      "Bien avant l’essor de nombreuses grandes civilisations, cette région était un centre de commerce et d’innovation. Les anciens Égyptiens la connaissaient comme une partie du pays de Pount, et des routes commerciales la reliaient au Moyen-Orient, à l’Asie et à la Méditerranée. Le royaume d’Aksoum devint l’une des plus grandes puissances d’Afrique, avec sa propre écriture, ses pièces de monnaie, ses stèles monumentales et un commerce d’envergure.",
+      "Au IVe siècle, le roi Ezana d’Aksoum adopta le christianisme, faisant de l’Éthiopie l’une des premières nations chrétiennes du monde. Au VIIe siècle, Aksoum accueillit les premiers disciples du prophète Mahomet qui fuyaient les persécutions en Arabie : le début d’une longue tradition de coexistence entre chrétiens et musulmans.",
+      "À la fin du XIIe et au début du XIIIe siècle, le roi Lalibela créa sa « Nouvelle Jérusalem » de onze églises taillées dans la roche. Au XVIIe siècle, l’empereur Fasilidès fit de Gondar la capitale impériale, qui devint un foyer de religion, d’art et d’architecture et dont les châteaux et les églises comptent toujours parmi les grands sites du pays.",
+      "L’Éthiopie a préservé son indépendance tout au long de l’ère coloniale. En 1896, l’empereur Ménélik II vainquit l’armée italienne à la bataille d’Adoua, inspirant les mouvements anticoloniaux dans toute l’Afrique. Au XXe siècle, l’empereur Haïlé Sélassié modernisa le pays et défendit l’unité africaine, contribuant à fonder l’Organisation de l’unité africaine, aujourd’hui l’Union africaine, dont le siège est à Addis-Abeba."
+    ],
+    "links": [
+      { "label": "Axoum", "href": "/destinations/axum" },
+      { "label": "Lalibela", "href": "/destinations/lalibela" },
+      { "label": "Gondar", "href": "/destinations/gondar" }
+    ]
+  },
+  "geography": {
+    "label": "Géographie",
+    "eyebrow": "Une nature spectaculaire",
+    "title": "Du toit de l’Afrique au-dessous du niveau de la mer",
+    "imageAlt": "Les pitons de basalte du Simien au-dessus des nuages",
+    "paragraphs": [
+      "L’Éthiopie se situe dans la Corne de l’Afrique et se compose surtout de hauts plateaux, ce qui explique le climat doux et agréable des hautes terres toute l’année. Le Ras Dashen, dans le Simien, culmine à 4 550 mètres, tandis que la dépression du Danakil, dans la région Afar, descend à plus de 100 mètres sous le niveau de la mer et compte parmi les endroits les plus chauds de la planète.",
+      "La grande vallée du Rift traverse le pays du nord-est au sud-ouest, bordée de volcans, de sources chaudes et d’une chaîne de lacs riches en oiseaux. Le Nil Bleu naît au lac Tana et se précipite aux chutes du Nil Bleu, et les hauts plateaux éthiopiens fournissent la majeure partie de l’eau qui atteint l’Égypte par le Nil.",
+      "Isolées par l’altitude, les montagnes éthiopiennes abritent une faune unique au monde : le gélada, le bouquetin d’Abyssinie, le nyala des montagnes et le loup d’Abyssinie, le canidé le plus rare de la planète. Plus de 850 espèces d’oiseaux y ont été recensées, des flamants des lacs du Rift aux espèces endémiques des hautes terres, ce qui en fait l’une des grandes destinations ornithologiques d’Afrique."
+    ],
+    "links": [
+      { "label": "Le Simien", "href": "/destinations/simien-mountains" },
+      {
+        "label": "La dépression du Danakil",
+        "href": "/destinations/danakil-depression"
+      },
+      { "label": "Les monts Balé", "href": "/destinations/bale-mountains" }
+    ]
+  },
+  "people-culture": {
+    "label": "Peuples et culture",
+    "eyebrow": "Une mosaïque vivante",
+    "title": "Plus de quatre-vingts peuples, un patrimoine remarquable",
+    "imageAlt": "Les hautes maisons en bambou tressé du peuple Dorze, dans les hautes terres du sud",
+    "paragraphs": [
+      "L’Éthiopie compte plus de quatre-vingts groupes ethniques, parmi lesquels les Oromo, les Amhara, les Somali, les Tigréens, les Sidama, les Afar et les nombreux peuples du sud. Chacun a sa langue, ses vêtements, sa musique et ses coutumes, et passer d’une région à l’autre peut donner l’impression de changer de pays.",
+      "L’amharique s’écrit en guèze, ou fidel, l’un des plus anciens alphabets encore utilisés au quotidien, et le guèze lui-même survit comme langue de la liturgie orthodoxe. Le système Gada des Oromo, une forme traditionnelle d’autogouvernement, est inscrit par l’UNESCO au patrimoine culturel immatériel de l’humanité.",
+      "Dans la vallée de l’Omo, à l’extrême sud, des communautés comme les Hamar, les Karo, les Mursi et les Dassanech perpétuent des modes de vie rythmés par le fleuve et les saisons ; il convient de les visiter avec respect et accompagné de guides locaux expérimentés. Partout, du Tigré au sud, la musique et la danse font partie de la vie quotidienne : la danse des épaules eskista, les chants des azmari et le son du krar."
+    ],
+    "links": [
+      { "label": "La vallée de l’Omo", "href": "/destinations/omo-valley" },
+      { "label": "Konso", "href": "/destinations/konso" }
+    ]
+  },
+  "faith-traditions": {
+    "label": "Foi et traditions",
+    "eyebrow": "Religions anciennes, traditions vivantes",
+    "title": "Quand la foi rythme l’année",
+    "imageAlt": "Des prêtres orthodoxes en robe blanche portant des croix de procession à Lalibela",
+    "paragraphs": [
+      "L’Église orthodoxe éthiopienne Tewahedo façonne le pays depuis seize siècles. Ses prêtres portent encore des manuscrits enluminés et des croix de procession, les fidèles observent plus de 180 jours de jeûne par an, et les églises du Tigré au lac Tana conservent des peintures et des trésors vieux de plusieurs siècles.",
+      "L’islam est arrivé du vivant du prophète Mahomet, et l’Éthiopie abrite l’une des plus anciennes communautés musulmanes d’Afrique. Le village de Negash et la ville fortifiée de Harar, avec ses centaines de mosquées et de sanctuaires, sont des hauts lieux du patrimoine islamique.",
+      "L’Éthiopie suit son propre calendrier de treize mois, avec sept à huit ans de décalage sur le calendrier grégorien, et le Nouvel An, Enkutatash, tombe en septembre. Les heures se comptent à partir de l’aube : 7 heures du matin correspondent à une heure, heure éthiopienne. Les fêtes religieuses colorent toute l’année : Meskel et Timkat sont toutes deux inscrites par l’UNESCO au patrimoine culturel immatériel."
+    ],
+    "links": [
+      { "label": "Timkat, l’Épiphanie", "href": "/destinations/timkat" },
+      { "label": "Meskel", "href": "/destinations/meskel" },
+      { "label": "Harar", "href": "/destinations/harar" }
+    ]
+  },
+  "coffee-food": {
+    "label": "Café et cuisine",
+    "eyebrow": "Le berceau du café",
+    "title": "Café, injera et art de l’hospitalité",
+    "imageAlt": "Une cérémonie traditionnelle du café éthiopien avec une jebena en terre cuite et de petites tasses",
+    "paragraphs": [
+      "Le café vient d’Éthiopie. La légende raconte que Kaldi, un chevrier de la région de Kaffa, remarqua que ses chèvres dansaient après avoir mangé les baies d’un arbuste sauvage, et l’arabica sauvage pousse toujours dans les forêts du sud-ouest. Yirgacheffe, Sidama et Harar donnent leur nom à certains des grains les plus recherchés au monde.",
+      "La cérémonie du café est au cœur de l’hospitalité éthiopienne. Les grains verts sont torréfiés sur des braises, moulus à la main et infusés dans une jebena en terre cuite, puis servis en trois tournées, abol, tona et baraka, avec de l’encens et de la conversation. Y être invité est une marque d’amitié.",
+      "La cuisine éthiopienne s’articule autour de l’injera, une galette souple au levain faite de teff, une céréale minuscule, que l’on partage dans un même plat avec des ragoûts comme le doro wat, le shiro ou le misir wat. Grâce aux nombreux jours de jeûne, les plats végétariens et végétaliens sont partout. Goûtez le tej, le vin de miel traditionnel, et la tella, la bière artisanale."
+    ],
+    "links": [
+      {
+        "label": "Les terres du café de Yirgacheffe et Sidama",
+        "href": "/destinations/yirgacheffe-and-sidama"
+      },
+      {
+        "label": "Kaffa, berceau du café sauvage",
+        "href": "/destinations/kaffa-and-bonga"
+      }
+    ]
+  }
+}

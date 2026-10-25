@@ -102,7 +102,7 @@ describe('canonical catalogue identity', () => {
       )
       expect(translated[0].summary).not.toBe(source[0].summary)
       expect(getDestinations(locale)).toHaveLength(62)
-      expect(getPosts(locale)).toHaveLength(13)
+      expect(getPosts(locale)).toHaveLength(11)
       expect(getPosts(locale).map((p) => p.categoryKey)).toEqual(
         getPosts('en').map((p) => p.category),
       )
