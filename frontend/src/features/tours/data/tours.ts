@@ -2528,7 +2528,7 @@ export const tours: Tour[] = [
     // Tour code EDT-06-BNP
     slug: '3-day-bale-mountains-wildlife',
     title: '3-Day Bale Mountains Wildlife & Nature',
-    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/v1792849764/bale-mountains.png',
+    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/bale-sanetti.jpg',
     days: '3 Days',
     nights: 2,
     style: 'Wildlife',
@@ -2914,7 +2914,7 @@ export const tours: Tour[] = [
     // Tour code EDT-07-BNT
     slug: '4-day-bale-mountains-trek',
     title: '4-Day Bale Mountains Trek',
-    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/v1792849764/bale-mountains.png',
+    image: '/images/bale-landscape.webp',
     days: '4 Days',
     nights: 3,
     style: 'Trekking · Wildlife',

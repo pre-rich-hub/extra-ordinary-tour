@@ -136,7 +136,7 @@ export const destinations: Destination[] = [
     name: 'Bale Mountains',
     region: 'Nature & Wildlife',
     tag: 'UNESCO National Park',
-    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/v1792849764/bale-mountains.png',
+    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/bale-wolf.jpg',
     teaser:
       'Afro-alpine moorland holding the rarest canid on earth: the Ethiopian wolf.',
     intro:
