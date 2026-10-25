@@ -41,8 +41,9 @@ Sources were inspected without logging in, sending enquiries, subscribing addres
 
 ## Client feedback (2026-10-25)
 
-| Field                | Observation                                                 | Treatment                                                                                        |
-| -------------------- | ----------------------------------------------------------- | ------------------------------------------------------------------------------------------------ |
-| SafariGo             | Client asked to remove SafariGo from the website            | Removed from the footer, About reviews panel and structured-data `sameAs`                        |
-| Viator, GetYourGuide | Client asked to add both; no listing URLs supplied or found | Added as `#` placeholders, hidden until the client supplies the listing URLs                     |
-| X (Twitter)          | Client asked to remove all X links                          | Footer placeholder and icon removed; `twitter:*` card meta kept, as it only shapes link previews |
+| Field                | Observation                                                                                         | Treatment                                                                                                        |
+| -------------------- | --------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------- |
+| SafariGo             | Client asked to remove SafariGo from the website                                                    | Removed from the footer, About reviews panel and structured-data `sameAs`                                        |
+| Viator, GetYourGuide | Client asked to add both; no listing URLs supplied or found                                         | Added as `#` placeholders, hidden until the client supplies the listing URLs                                     |
+| X (Twitter)          | Client asked to remove all X links                                                                  | Footer placeholder and icon removed; `twitter:*` card meta kept, as it only shapes link previews                 |
+| Payment methods      | Client confirmed only PayPal and bank deposit are accepted, superseding the earlier card note above | Visa and Mastercard removed from the footer; footer shows PayPal and Bank Deposit; verbatim terms left unchanged |

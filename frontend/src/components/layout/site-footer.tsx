@@ -15,9 +15,8 @@ import {
   SafariBookingsMark,
   ViatorMark,
   GetYourGuideMark,
-  VisaMark,
-  MastercardMark,
   PayPalMark,
+  BankDepositMark,
 } from '@/components/icons/brand-marks'
 import { NewsletterForm } from '@/features/newsletter/components/newsletter-form'
 
@@ -76,16 +75,12 @@ const platforms: { name: string; href: string; mark: React.ReactNode }[] = [
 
 const payments: { name: string; mark: React.ReactNode }[] = [
   {
-    name: 'Visa',
-    mark: <VisaMark />,
-  },
-  {
-    name: 'Mastercard',
-    mark: <MastercardMark />,
-  },
-  {
     name: 'PayPal',
     mark: <PayPalMark />,
+  },
+  {
+    name: 'Bank Deposit',
+    mark: <BankDepositMark />,
   },
 ]
 
@@ -306,9 +301,9 @@ export function SiteFooter() {
               {copy('We accept')}
             </p>
             <p className="mt-2 text-[15px] text-background/60">
-              {copy('Secure payments by card or PayPal.')}
+              {copy('Pay securely by PayPal or bank deposit.')}
             </p>
-            <ul className="mt-6 grid grid-cols-3 gap-3">
+            <ul className="mt-6 grid grid-cols-2 gap-3">
               {payments.map((p) => (
                 <li key={p.name} aria-label={copy(p.name)} className={logoTile}>
                   {copy(p.mark)}

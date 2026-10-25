@@ -1,5 +1,7 @@
 // Third-party brand marks (social networks, review platforms, payment
 // providers), drawn inline in each brand's own colours.
+import { Landmark } from 'lucide-react'
+import { useCopy } from '@/i18n/copy'
 
 export function InstagramIcon() {
   return (
@@ -142,21 +144,13 @@ export function GetYourGuideMark() {
   )
 }
 
-export function VisaMark() {
+export function BankDepositMark() {
+  const copy = useCopy()
   return (
-    <span className="font-sans text-[1.9rem] font-black italic tracking-[-0.02em] text-[#1a1f71]">
-      VISA
+    <span className="flex items-center gap-2 font-sans text-[1.05rem] font-bold tracking-[-0.01em] text-charcoal">
+      <Landmark aria-hidden className="h-6 w-6 shrink-0" strokeWidth={1.8} />
+      {copy('Bank Deposit')}
     </span>
-  )
-}
-
-export function MastercardMark() {
-  return (
-    <svg viewBox="0 0 52 32" aria-hidden className="h-9 w-auto">
-      <circle cx="18" cy="16" r="14" fill="#EB001B" />
-      <circle cx="34" cy="16" r="14" fill="#F79E1B" />
-      <path d="M26 4.5a14 14 0 0 1 0 23 14 14 0 0 1 0-23Z" fill="#FF5F00" />
-    </svg>
   )
 }
 
