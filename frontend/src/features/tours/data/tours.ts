@@ -7,7 +7,7 @@ export const tours: Tour[] = [
     // Tour code EDT-03-H10
     slug: '10-day-historic-route',
     title: '10-Day Historic Route',
-    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/v1792849778/Lalibela.png',
+    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/c_fill,g_south,ar_16:9/v1793006889/lalibela-bete-giyorgis-sunset.jpg',
     days: '10 Days',
     nights: 9,
     style: 'Historical · Cultural',
@@ -100,7 +100,7 @@ export const tours: Tour[] = [
     // Tour code EDT-03-H7
     slug: '7-day-historic-route',
     title: '7-Day Historic Route',
-    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/gondar-fasil.jpg',
+    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/v1793006889/lalibela-bete-giyorgis-front.jpg',
     days: '7 Days',
     nights: 6,
     style: 'Historical · Cultural',
@@ -222,7 +222,7 @@ export const tours: Tour[] = [
     // Tour code EDT-03-H4
     slug: '4-day-addis-and-lalibela',
     title: '4-Day Addis & Lalibela',
-    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/v1792849769/bahirdar.jpg',
+    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/v1793006889/lalibela-priest-hand-crosses.jpg',
     days: '4 Days',
     nights: 3,
     style: 'Historical · Cultural',
@@ -341,7 +341,7 @@ export const tours: Tour[] = [
     // Tour code EDT-03-H11
     slug: '11-day-history-and-culture-easter',
     title: '11-Day History & Culture with Easter in Lalibela',
-    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/v1792849778/Lalibela.png',
+    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/v1793006889/lalibela-priests-procession-night.jpg',
     days: '11 Days',
     nights: 10,
     style: 'Historical · Cultural',
@@ -655,7 +655,7 @@ export const tours: Tour[] = [
     // Tour code EDT-03-H13B
     slug: '13-day-history-culture-and-danakil',
     title: '13-Day History, Simien Trek & Danakil',
-    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/v1792850077/erta-ale.png',
+    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/v1793006889/danakil-dallol-green-pool.jpg',
     days: '13 Days',
     nights: 12,
     style: 'Historical · Trekking · Danakil',
@@ -828,7 +828,7 @@ export const tours: Tour[] = [
       {
         day: 'Day 7',
         title: 'Drive to Mekelle and Fly Back to Addis Ababa',
-        text: 'After breakfast, drive from Hawzen to Mekelle. Upon arrival, enjoy lunch in Mekelle before transferring to the airport for your flight back to Addis Ababa. Upon arrival in Addis Ababa, transfer to your hotel and relax. Day 8 (Jan 14): Addis Ababa to Jinka to Turmi Overnight: Best Western Premier Dynasty, Addis Ababa.',
+        text: 'After breakfast, drive from Hawzen to Mekelle. Upon arrival, enjoy lunch in Mekelle before transferring to the airport for your flight back to Addis Ababa. Upon arrival in Addis Ababa, transfer to your hotel and relax. Overnight: Best Western Premier Dynasty, Addis Ababa.',
       },
       {
         day: 'Day 8',
@@ -1006,7 +1006,7 @@ export const tours: Tour[] = [
     // Tour code EDT-03-H13
     slug: '13-day-historic-route-and-omo-valley',
     title: '13-Day Historic Route & Omo Valley',
-    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/v1792849767/omo-valley.jpg',
+    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/v1793010802/omo-mursi-woman.webp',
     days: '13 Days',
     nights: 12,
     style: 'Historical · Cultural',
@@ -1117,7 +1117,7 @@ export const tours: Tour[] = [
     // Tour code EDT-05-OC
     slug: '6-day-omo-valley-tribal-and-cultural',
     title: '6-Day Omo Valley Tribal & Cultural',
-    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/karo.jpg',
+    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/v1793010802/omo-banna-stilt-walkers.jpg',
     days: '6 Days',
     nights: 5,
     style: 'Cultural',
@@ -1194,7 +1194,7 @@ export const tours: Tour[] = [
     // Tour code EDT-05-OF
     slug: '5-day-omo-valley-by-flight',
     title: '5-Day Omo Valley by Flight',
-    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/hamar.jpg',
+    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/v1793010802/omo-dassanech-hut.webp',
     days: '5 Days',
     nights: 4,
     style: 'Cultural',
@@ -1263,7 +1263,7 @@ export const tours: Tour[] = [
     // Tour code EDT-05-OV
     slug: '9-day-omo-valley-cultural',
     title: '9-Day Omo Valley Cultural',
-    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/mursi.jpg',
+    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/v1793010802/omo-karo-painted-men.jpg',
     days: '9 Days',
     nights: 8,
     style: 'Cultural',
@@ -1323,7 +1323,7 @@ export const tours: Tour[] = [
       {
         day: 'Day 7',
         title: 'Konso Cultural Site – Return to Arba Minch',
-        text: 'ravel north to the Konso highlands, a UNESCO World Heritage Site renowned for its remarkable stone-walled villages, traditional landscape management, and centuries-old terracing techniques. Explore the unique culture of the Konso people, known for their distinctive Waka wooden totems, strong community traditions, and sustainable farming practices. Enjoy a visit to a local village and experience freshly grown Ethiopian coffee before continuing your journey to Arba Minch for an overnight stay.',
+        text: 'Travel north to the Konso highlands, a UNESCO World Heritage Site renowned for its remarkable stone-walled villages, traditional landscape management, and centuries-old terracing techniques. Explore the unique culture of the Konso people, known for their distinctive Waka wooden totems, strong community traditions, and sustainable farming practices. Enjoy a visit to a local village and experience freshly grown Ethiopian coffee before continuing your journey to Arba Minch for an overnight stay.',
       },
       {
         day: 'Day 8',
@@ -1735,7 +1735,7 @@ export const tours: Tour[] = [
     // Tour code EDT-03-TF
     slug: '5-day-timkat-festival-lalibela',
     title: '5-Day Timkat Festival in Lalibela',
-    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/gondar-fasilides-bath.jpg',
+    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/c_crop,w_1.0,h_0.317,x_0,y_0.49/v1793006889/festival-procession-priests-CONFIRM.jpg',
     days: '5 Days',
     nights: 4,
     style: 'Festival',
@@ -1877,7 +1877,7 @@ export const tours: Tour[] = [
     // Tour code EDT-03-CF
     slug: '5-day-genna-christmas-lalibela',
     title: '5-Day Genna (Christmas) in Lalibela',
-    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/lalibela-landscape.jpg',
+    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/v1793006889/lalibela-genna-vigil-night.jpg',
     days: '5 Days',
     nights: 4,
     style: 'Festival',
@@ -2134,7 +2134,7 @@ export const tours: Tour[] = [
     // Tour code EDT-09-ART
     slug: '3-day-afar-danakil-from-addis',
     title: '3-Day Danakil Depression from Semera',
-    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/danakil-salt.jpg',
+    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/v1793006889/danakil-lake-assale-4x4-sunset.jpg',
     days: '3 Days',
     nights: 2,
     style: 'Danakil',
@@ -2192,7 +2192,7 @@ export const tours: Tour[] = [
     // Tour code EDT-09-DDT
     slug: '3-day-danakil-depression-from-mekelle',
     title: '3-Day Danakil Depression from Mekelle',
-    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/v1792850077/erta-ale.png',
+    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/v1793006889/danakil-lake-assale-sunrise-guest.jpg',
     days: '3 Days',
     nights: 2,
     style: 'Danakil',
@@ -2973,7 +2973,7 @@ export const tours: Tour[] = [
     // Tour code EDT-07-BPT
     slug: '6-day-bale-mountains-trek',
     title: '6-Day Bale Mountains & Rift Valley',
-    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/bale-wolf.jpg',
+    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/v1793006889/bale-ethiopian-wolf-flowers.jpg',
     days: '6 Days',
     nights: 5,
     style: 'Trekking · Wildlife',
@@ -3022,7 +3022,7 @@ export const tours: Tour[] = [
       {
         day: 'Day 5',
         title: 'Yirgalem – Hawassa – Lake Langano',
-        text: 'Begin your day with a short drive to Hawassa (Hawassa). Visit the vibrant fish market along Lake Hawassa and take a boat trip to observe hippos in their natural habitat. After lunch, continue to Lake Langano, a beautiful swimmable Rift Valley lake known for its serene shores and abundant birdlife. Enjoy a relaxing afternoon by the water.',
+        text: 'Begin your day with a short drive to Hawassa. Visit the vibrant fish market along Lake Hawassa and take a boat trip to observe hippos in their natural habitat. After lunch, continue to Lake Langano, a beautiful swimmable Rift Valley lake known for its serene shores and abundant birdlife. Enjoy a relaxing afternoon by the water.',
       },
       {
         day: 'Day 6',
@@ -3109,7 +3109,7 @@ export const tours: Tour[] = [
     // Tour code EDT-07-LTT
     slug: '6-day-lalibela-trek-and-churches',
     title: '6-Day Lalibela Trek & Rock-Hewn Churches',
-    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/lalibela-landscape.jpg',
+    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/v1793006889/lalibela-bete-giyorgis-roof.jpg',
     days: '6 Days',
     nights: 5,
     style: 'Trekking · Historical',
@@ -3374,7 +3374,7 @@ export const tours: Tour[] = [
     // Tour code EDT-01-LT
     slug: '2-day-lalibela',
     title: '2-Day Lalibela',
-    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/v1792849778/Lalibela.png',
+    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/v1793006889/lalibela-bete-giyorgis-trench.jpg',
     days: '2 Days',
     nights: 1,
     style: 'Historical · Day Trip',
@@ -3417,7 +3417,7 @@ export const tours: Tour[] = [
     // Tour code EDT-01-AA
     slug: 'addis-ababa-full-day-city-tour',
     title: 'Addis Ababa Full-Day City Tour',
-    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/addis-trinity.jpg',
+    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/v1793006889/addis-holy-trinity-cathedral-BIGSTOCK.jpg',
     days: 'Full Day',
     nights: 0,
     style: 'Day Trip · Cultural',
@@ -3866,7 +3866,7 @@ export const tours: Tour[] = [
     slug: '12-day-omo-valley-bale-harar-and-awash',
     title: '12-Day Omo Valley Cultures, Bale Wildlife, Harar & Awash',
     image:
-      'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/bale-wolf.jpg',
+      'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/v1793006889/bale-harenna-peaks-CONFIRM.jpg',
     days: '12 Days',
     nights: 11,
     style: 'Cultural · Wildlife · Historical',
@@ -3990,7 +3990,7 @@ export const tours: Tour[] = [
     slug: '14-day-omo-valley-danakil-and-lalibela',
     title: '14-Day Omo Valley Cultures, Danakil & Lalibela',
     image:
-      'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/hamar.jpg',
+      'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/v1793010802/omo-arbore-family.webp',
     days: '14 Days',
     nights: 13,
     style: 'Cultural · Danakil · Festival · Historical',

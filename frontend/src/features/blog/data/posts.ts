@@ -205,7 +205,7 @@ export const posts: Post[] = [
     date: 'June 12, 2026',
     datePublished: '2026-06-12',
     readTime: '6 min read',
-    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/v1792849778/Lalibela.png',
+    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/v1793006889/lalibela-bete-giyorgis-roof.jpg',
     author: 'Zelalem',
     authorRole: 'Travel Writer',
     excerpt:

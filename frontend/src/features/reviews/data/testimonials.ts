@@ -111,7 +111,7 @@ export const testimonials: Testimonial[] = [
     id: 'ceci-c',
     name: 'Ceci C',
     detail: 'Buenos Aires, Argentina · July 2026',
-    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/lalibela-landscape.jpg',
+    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/v1793006889/lalibela-bete-giyorgis-pilgrims-small.jpg',
     platform: 'Tripadvisor',
     rating: 5,
     title: 'Unmissable visit to Lalibela',

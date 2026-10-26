@@ -8,10 +8,10 @@ import { Play, Pause, ChevronLeft, ChevronRight } from 'lucide-react'
 
 const shots = [
   {
-    src: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/v1792849778/Lalibela.png',
+    src: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/v1793006889/lalibela-bete-giyorgis-roof.jpg',
     location: 'Lalibela',
     description:
-      'Pilgrims at the doorway of Bete Giyorgis, seen from the trench carved around it.',
+      'The cross-shaped roof of Bete Giyorgis in the evening light, level with the ground.',
   },
   {
     src: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/v1792849798/Simien_Mountains.png',
