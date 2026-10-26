@@ -28,7 +28,7 @@ const experiences = [
     kicker: 'People & culture',
     title: 'Omo Valley Encounters',
     text: 'Market days, village visits and ceremonies with the Hamar, Karo, Mursi and their neighbours, always respectfully, always with local guides.',
-    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/v1792849767/omo-valley.jpg',
+    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/v1793014223/omo-dance-ceremony.jpg',
     href: '/tours/6-day-omo-valley-tribal-and-cultural',
   },
   {

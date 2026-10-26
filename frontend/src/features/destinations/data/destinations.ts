@@ -10,7 +10,7 @@ export const destinations: Destination[] = [
     name: 'Lalibela',
     region: 'Historic Northern Ethiopia',
     tag: 'UNESCO Heritage',
-    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/v1792849778/Lalibela.png',
+    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/v1793006889/lalibela-bete-giyorgis-trench.jpg',
     teaser:
       'Eleven churches carved downward into living rock, still alive with prayer.',
     intro:
@@ -36,7 +36,7 @@ export const destinations: Destination[] = [
     name: 'Harar',
     region: 'Eastern Ethiopia',
     tag: 'UNESCO Heritage',
-    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/harar-gate.jpg',
+    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/v1793006889/harar-jugol-alley.jpg',
     teaser:
       'A walled Muslim city of 82 mosques, colourful markets and the hyena men.',
     intro:
@@ -60,7 +60,7 @@ export const destinations: Destination[] = [
     name: 'Danakil Depression',
     region: 'Nature & Wildlife',
     tag: 'Expedition',
-    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/v1792849753/danakil.png',
+    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/v1793006889/danakil-dallol-sulphur-pools.jpg',
     teaser: 'One of the hottest places on earth, painted in sulphur and salt.',
     intro:
       'More than 100 metres below sea level: acid springs the colour of egg yolk, a permanent lava lake, and salt caravans that have not changed in a thousand years.',
@@ -84,7 +84,7 @@ export const destinations: Destination[] = [
     name: 'Omo Valley',
     region: 'Southern Ethiopia & Omo Valley',
     tag: 'Living Cultures',
-    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/v1792849767/omo-valley.jpg',
+    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/v1793014223/omo-river-aerial.webp',
     teaser:
       'A living mosaic of peoples who have shaped this river valley for millennia.',
     intro:
@@ -136,7 +136,7 @@ export const destinations: Destination[] = [
     name: 'Bale Mountains',
     region: 'Nature & Wildlife',
     tag: 'UNESCO National Park',
-    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/bale-wolf.jpg',
+    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/v1793006889/bale-sanetti-lobelia-lake.jpg',
     teaser:
       'Afro-alpine moorland holding the rarest canid on earth: the Ethiopian wolf.',
     intro:
@@ -795,7 +795,7 @@ export const destinations: Destination[] = [
     name: 'Omo National Park',
     region: 'Nature & Wildlife',
     tag: 'Remote Wilderness',
-    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/v1792849767/omo-valley.jpg',
+    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/v1793014223/omo-national-park-eland.webp',
     teaser:
       'Ethiopia’s largest national park: true wilderness on the west bank of the Omo.',
     intro:
@@ -893,7 +893,7 @@ export const destinations: Destination[] = [
     name: 'Konso',
     region: 'Southern Ethiopia & Omo Valley',
     tag: 'UNESCO Cultural Landscape',
-    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/v1792849768/konso.png',
+    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/v1793010802/konso-village.webp',
     teaser:
       'Walled hilltop villages, stone terraces and carved wooden waka memorials.',
     intro:
@@ -990,7 +990,7 @@ export const destinations: Destination[] = [
     name: 'Mursi People',
     region: 'Southern Ethiopia & Omo Valley',
     tag: 'People & Culture',
-    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/mursi.jpg',
+    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/v1793010802/omo-mursi-woman.webp',
     teaser:
       'Cattle herders of Mago National Park, known for the clay lip plate.',
     intro:
@@ -1014,7 +1014,7 @@ export const destinations: Destination[] = [
     name: 'Hamar People',
     region: 'Southern Ethiopia & Omo Valley',
     tag: 'People & Culture',
-    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/hamar.jpg',
+    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/v1793014223/omo-hamar-woman-horn.jpg',
     teaser:
       'Ochre-braided hair, beaded leather, and the bull-jumping rite of passage.',
     intro:
@@ -1038,7 +1038,7 @@ export const destinations: Destination[] = [
     name: 'Karo People',
     region: 'Southern Ethiopia & Omo Valley',
     tag: 'People & Culture',
-    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/karo.jpg',
+    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/v1793010802/omo-karo-painted-men.jpg',
     teaser:
       'Master body painters living on the banks of the Omo River.',
     intro:
@@ -1086,7 +1086,7 @@ export const destinations: Destination[] = [
     name: 'Arbore People',
     region: 'Southern Ethiopia & Omo Valley',
     tag: 'People & Culture',
-    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/arbore.jpg',
+    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/v1793010802/omo-arbore-family.webp',
     teaser:
       'Pastoralists of the dry plains near Lake Chew Bahir, with striking black headscarves.',
     intro:
@@ -1110,7 +1110,7 @@ export const destinations: Destination[] = [
     name: 'Ari People',
     region: 'Southern Ethiopia & Omo Valley',
     tag: 'People & Culture',
-    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/ari.jpg',
+    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/v1793010802/omo-ari-woman.webp',
     teaser:
       'Farmers, potters and blacksmiths of the green highlands around Jinka.',
     intro:
@@ -1134,7 +1134,7 @@ export const destinations: Destination[] = [
     name: 'Dassanech People',
     region: 'Southern Ethiopia & Omo Valley',
     tag: 'People & Culture',
-    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/dassanech.jpg',
+    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/v1793010802/omo-dassanech-hut.webp',
     teaser:
       'Semi-nomads of the Omo delta, near the northern shore of Lake Turkana.',
     intro:
@@ -1158,7 +1158,7 @@ export const destinations: Destination[] = [
     name: 'Nyangatom People',
     region: 'Southern Ethiopia & Omo Valley',
     tag: 'People & Culture',
-    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/nyangatom.jpg',
+    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/v1793010802/omo-nyangatom-women.jpg',
     teaser:
       'Nilotic pastoralists of the west bank, famous for their heavy bead collars.',
     intro:
@@ -1182,7 +1182,7 @@ export const destinations: Destination[] = [
     name: 'Surma (Suri) People',
     region: 'Southern Ethiopia & Omo Valley',
     tag: 'People & Culture',
-    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/surma.jpg',
+    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/v1793010802/omo-surma-lip-plate.webp',
     teaser:
       'Remote cattle herders of Kibish, known for body art, lip plates and Donga.',
     intro:
@@ -1206,7 +1206,7 @@ export const destinations: Destination[] = [
     name: 'Tsemay People',
     region: 'Southern Ethiopia & Omo Valley',
     tag: 'People & Culture',
-    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/tsemay.jpg',
+    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/v1793010802/omo-tsemay-pottery-market.jpg',
     teaser:
       'Agro-pastoralists of the Weito valley, between Konso and the Hamar.',
     intro:
@@ -1329,7 +1329,7 @@ export const destinations: Destination[] = [
     name: 'Genna (Ethiopian Christmas)',
     region: 'Festivals & Events',
     tag: 'Festival',
-    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/genna.jpg',
+    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/v1793006889/lalibela-priests-procession-night.jpg',
     teaser:
       'An all-night vigil among the rock-hewn churches of Lalibela on 7 January.',
     intro:
