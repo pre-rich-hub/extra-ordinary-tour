@@ -196,7 +196,7 @@
     "places": ["Addis-Abeba", "Lalibela", "Yemrehanna Kristos"]
   },
   "4-day-addis-and-lalibela": {
-    "title": "Addis et Lalibela, 4 jours",
+    "title": "Circuit de 4 jours à Addis-Abeba et Lalibela",
     "days": "4 jours",
     "style": "Historique · Culturel",
     "season": "Septembre à juillet",
@@ -242,7 +242,7 @@
     "places": ["Addis-Abeba", "Lalibela"]
   },
   "5-day-tigray-rock-hewn-churches": {
-    "title": "Églises taillées dans le roc du Tigré, 5 jours",
+    "title": "Circuit de 5 jours des églises rupestres du Tigré",
     "days": "5 jours",
     "style": "Historique · Trekking",
     "season": "Septembre à juillet",
@@ -597,7 +597,7 @@
     ]
   },
   "13-day-history-culture-and-danakil": {
-    "title": "Histoire de 13 jours, Simien Trek et Danakil",
+    "title": "Route historique, trekking dans le Simien et Danakil en 13 jours",
     "days": "13 jours",
     "style": "Historique · Trekking · Danakil",
     "season": "Novembre à mars",
@@ -1034,7 +1034,7 @@
     ]
   },
   "6-day-omo-valley-tribal-and-cultural": {
-    "title": "Tribal et culturel de la vallée de l'Omo, 6 jours",
+    "title": "Circuit tribal et culturel de 6 jours dans la vallée de l’Omo",
     "days": "6 jours",
     "style": "Culturel",
     "season": "Toute l'année sauf avril et mai",
@@ -1075,7 +1075,7 @@
       },
       {
         "day": "Jour 4",
-        "title": "Konso – Banna People – Turmi",
+        "title": "Konso – Peuple Banna – Turmi",
         "text": "Commencez la journée par une visite du village de Konso, un site classé au patrimoine mondial de l'UNESCO, connu pour ses établissements traditionnels aux murs de pierre, ses paysages en terrasses et son patrimoine culturel unique. Découvrez les pratiques agricoles traditionnelles du peuple Konso, la culture du café, l’organisation sociale et le système clanique. Continuez votre voyage pour visiter le peuple Benna, une communauté pastorale semi-nomade connue pour ses coiffures distinctives, ses vêtements traditionnels et ses décorations culturelles uniques, notamment ses coiffes en argile portées lors d'occasions spéciales. Continuez vers Turmi, le cœur du peuple Hamer, où vous découvrirez le mode de vie traditionnel et les magnifiques paysages de la vallée de l'Omo. Turmi est l'un des meilleurs endroits pour découvrir les coutumes, les cérémonies et la vie quotidienne de la communauté Hamer. Overnight: Paradise lodge, Turmi."
       },
       {
@@ -1104,7 +1104,7 @@
     ]
   },
   "5-day-omo-valley-by-flight": {
-    "title": "Vallée de l'Omo, 5 jours en avion",
+    "title": "Circuit de 5 jours dans la vallée de l’Omo en avion",
     "days": "5 jours",
     "style": "Culturel",
     "season": "Toute l'année sauf avril et mai",
@@ -1530,7 +1530,7 @@
     ]
   },
   "8-day-north-with-timkat-festival": {
-    "title": "8 jours dans le nord de l'Éthiopie avec Timkat",
+    "title": "Circuit de 8 jours dans le nord de l’Éthiopie avec la fête de Timkat",
     "days": "8 jours",
     "style": "Festival · Historique",
     "season": "Janvier (Timkat)",
@@ -1786,7 +1786,7 @@
     "places": ["Addis-Abeba", "Lalibela (Genna)", "Yemrehanna Kristos"]
   },
   "4-day-ethiopia-coffee": {
-    "title": "Café éthiopien de 4 jours",
+    "title": "Circuit du café de 4 jours en Éthiopie",
     "days": "4 jours",
     "style": "Café · Culturel",
     "season": "Septembre à mai",
@@ -1901,7 +1901,7 @@
     ]
   },
   "6-day-ethiopia-coffee-kaffa": {
-    "title": "Origines du café Kaffa en 6 jours",
+    "title": "Circuit de 6 jours aux origines du café à Kaffa",
     "days": "6 jours",
     "style": "Café · Culturel",
     "season": "Septembre à mai",
@@ -1964,7 +1964,7 @@
     ]
   },
   "3-day-afar-danakil-from-addis": {
-    "title": "Dépression Danakil de 3 jours au départ de Semera",
+    "title": "Circuit de 3 jours dans la dépression du Danakil au départ de Semera",
     "days": "3 jours",
     "style": "Danakil",
     "season": "Novembre à mars",
@@ -2557,7 +2557,7 @@
     "places": ["Addis-Abeba", "Gondar", "Monts du Simien", "Sankaber", "Gich"]
   },
   "5-day-simien-mountains-trek": {
-    "title": "Trek des montagnes du Simien de 5 jours",
+    "title": "Trekking de 5 jours dans les montagnes du Simien",
     "days": "5 jours",
     "style": "Randonnée",
     "season": "Septembre à juin",
@@ -2791,7 +2791,7 @@
     ]
   },
   "4-day-lalibela-trek": {
-    "title": "Trek communautaire de Lalibela de 4 jours",
+    "title": "Trekking communautaire de 4 jours à Lalibela",
     "days": "4 jours",
     "style": "Trekking · Culturel",
     "season": "Septembre à juin",
@@ -3087,7 +3087,7 @@
     ]
   },
   "2-day-lalibela": {
-    "title": "Lalibela, 2 jours",
+    "title": "Circuit de 2 jours à Lalibela",
     "days": "2 jours",
     "style": "Historique · Excursion d'une journée",
     "season": "Septembre à juillet",
@@ -3512,7 +3512,7 @@
     ]
   },
   "12-day-omo-valley-bale-harar-and-awash": {
-    "title": "Cultures de la vallée de l’Omo, faune du Bale, Harar et Awash en 12 jours",
+    "title": "Culture de la vallée de l’Omo, faune du Bale, Harar et Awash en 12 jours",
     "days": "12 jours",
     "style": "Culturel · Faune · Historique",
     "season": "Octobre à mars",

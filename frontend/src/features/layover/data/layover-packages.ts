@@ -1,13 +1,14 @@
 import type { LayoverPackage } from '../types'
 
 // Addis Ababa layover and stopover programmes, built from the operator's
-// city tour, day trips and short Lalibela tour. Quoted per enquiry.
+// city tour, day trips and short Lalibela tour, with starting prices per person.
 export const layoverPackages: LayoverPackage[] = [
   {
     slug: '6-hour',
     hours: '6 Hours',
-    title: 'Addis Highlights',
-    price: 'On request',
+    title: 'Addis Ababa Highlights Tour',
+    price: '$60 per person',
+    priceAmount: 60,
     image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/v1792849746/addis-abebe.jpg',
     teaser:
       'A short loop of the capital for tight connections: Entoto views, a cathedral and a coffee ceremony.',
@@ -29,8 +30,9 @@ export const layoverPackages: LayoverPackage[] = [
   {
     slug: '12-hour',
     hours: '12 Hours',
-    title: 'Full-Day City Tour',
-    price: 'On request',
+    title: 'Addis Ababa Full-Day City Tour',
+    price: '$100 per person',
+    priceAmount: 100,
     image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/addis-trinity.jpg',
     teaser:
       'Our full Addis Ababa day: Entoto, Lucy at the National Museum, Holy Trinity, Merkato and a coffee ceremony.',
@@ -53,8 +55,9 @@ export const layoverPackages: LayoverPackage[] = [
   {
     slug: '24-hour',
     hours: '24 Hours',
-    title: 'Overnight & Day Trip',
-    price: 'On request',
+    title: 'Overnight Stay and Day Trip',
+    price: '$350 per person',
+    priceAmount: 350,
     image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/blue-nile-gorge.jpg',
     teaser:
       'A night in Addis Ababa, a cultural dinner, and a day trip to Debre Libanos or Wenchi Crater Lake.',
@@ -77,8 +80,9 @@ export const layoverPackages: LayoverPackage[] = [
   {
     slug: '48-hour',
     hours: '48 Hours',
-    title: 'Lalibela Stopover',
-    price: 'On request',
+    title: 'Lalibela Stopover Tour',
+    price: '$600 per person',
+    priceAmount: 600,
     image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/v1793006889/lalibela-bete-giyorgis-pilgrims-small.jpg',
     teaser:
       'Two days is enough for Lalibela: fly north, explore the rock-hewn churches, and fly back for your onward leg.',

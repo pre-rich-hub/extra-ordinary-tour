@@ -86,7 +86,7 @@ export default async function TourPage({
           { label: copy('Season'), value: t.season },
           { label: copy('Group Size'), value: t.group },
           {
-            label: hasPrice(t.from) ? copy('From') : copy('Price'),
+            label: hasPrice(t.from) ? copy('Starting from') : copy('Price'),
             value: hasPrice(t.from)
               ? priceShort(t.from)
               : copy('Designed Around You'),

@@ -67,7 +67,7 @@ export function TourIndex({ tours }: { tours: TourIndexItem[] }) {
         <div className="lg:pb-2">
           <p className="max-w-[44ch] text-pretty leading-relaxed text-muted-foreground sm:text-lg">
             {copy(
-              'Not fixed packages but starting points. Every itinerary is reshaped around your pace, your interests and the journey you imagined.',
+              'These tours are starting points, not fixed packages. Every journey can be tailored to your pace, interests and the experiences you want to discover along the way.',
             )}
           </p>
           <TextLink href="/tours" className="mt-5">

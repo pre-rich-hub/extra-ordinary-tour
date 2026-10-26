@@ -104,11 +104,8 @@ export function TravelOfferings() {
                 <ArrowUpRight className="h-4 w-4" />
               </span>
               <div className="absolute inset-x-0 bottom-0 p-6 sm:p-7">
-                <p className="text-[10px] font-semibold uppercase tracking-[0.22em] text-accent">
-                  {String(i + 1).padStart(2, '0')}
-                </p>
                 <h3
-                  className={`mt-2 font-serif leading-[1.05] text-background ${i === 0 ? 'text-4xl sm:text-5xl' : 'text-[1.7rem]'}`}
+                  className={`font-serif leading-[1.05] text-background ${i === 0 ? 'text-4xl sm:text-5xl' : 'text-[1.7rem]'}`}
                 >
                   {copy(o.title)}
                 </h3>

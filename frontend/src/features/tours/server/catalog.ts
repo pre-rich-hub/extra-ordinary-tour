@@ -6,15 +6,14 @@ import {
 } from '../data/localized'
 import type { AppLocale } from '@/i18n/routing'
 import { getTours, getTourBySlug, type ApiTour } from '../api/client'
+import { formatPrice } from '../lib/format'
 
 // Live price and featured flags overlay static display content by slug.
-function formatPrice(price: number | null, locale: AppLocale): string | null {
-  if (price === null || price === undefined) return null
-  return `${new Intl.NumberFormat(locale, { style: 'currency', currency: 'USD', minimumFractionDigits: 0, maximumFractionDigits: 2 }).format(price)} ${{ en: 'per person', es: 'por persona', fr: 'par personne', de: 'pro Person' }[locale]}`
-}
-
 function overlayLive(staticTour: Tour, live: ApiTour, locale: AppLocale): Tour {
-  const price = formatPrice(live.adultPrice, locale)
+  const price =
+    live.adultPrice === null || live.adultPrice === undefined
+      ? null
+      : formatPrice(live.adultPrice, locale)
   return {
     ...staticTour,
     // Operational values remain independent of translated narrative copy.

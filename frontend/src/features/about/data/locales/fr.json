@@ -2,28 +2,26 @@
   "local": {
     "label": "Locale",
     "place": "Axoum",
-    "title": "Basé localement, géré localement",
-    "text": "Fondé par un guide agréé de Lalibela. Notre équipe vous montre l'Éthiopie dans laquelle nous avons grandi : ses habitants, son histoire et ses coins cachés.",
-    "body": "Nous sommes un voyagiste basé à Lalibela, et l'Éthiopie est le pays que nous connaissons le mieux. Notre équipe vous met en contact avec les communautés locales, les traditions anciennes et les cultures qui rendent l'Éthiopie extraordinaire."
+    "title": "Basés et gérés sur place",
+    "text": "Née d’un attachement profond à Lalibela et de la passion de faire découvrir l’Éthiopie, notre équipe locale connaît de l’intérieur l’histoire, les cultures et les trésors cachés du pays. Nous créons des expériences de voyage porteuses de sens qui vous relient aux personnes, aux lieux et aux traditions qui rendent l’Éthiopie extraordinaire."
   },
   "tailored": {
     "label": "Sur mesure",
     "place": "Hamar, vallée de l'Omo",
-    "title": "Privé, en groupe ou solo",
-    "text": "Privé, en petit groupe ou en solo. Chaque itinéraire est construit en fonction de vos intérêts, de votre rythme et de votre budget, et reste flexible pendant le voyage.",
-    "body": "Chaque voyage est conçu selon vos intérêts, votre rythme et votre budget, pour les couples, les familles, les groupes et les voyageurs en solo. Vous voyagez seul ? Vous bénéficiez d'un accompagnement personnel, d'un hébergement confortable et d'un transport fiable tout au long du séjour."
+    "title": "Privé, en groupe ou en solo",
+    "text": "Que vous préfériez un circuit privé, une expérience en petit groupe ou une aventure en solo, nous adaptons chaque itinéraire à vos centres d’intérêt, à votre rythme et à votre budget, avec la souplesse nécessaire pour intégrer les changements en cours de route."
   },
   "handled": {
     "label": "Arrangé",
     "place": "Gondar",
-    "title": "Tout est arrangé",
-    "text": "Vols intérieurs, transferts aéroport, hôtels, repas et guides, tout organisé pour vous, sans frais cachés en cours de route."
+    "title": "Votre voyage, soigneusement organisé",
+    "text": "Des vols intérieurs et transferts aéroport à l’hébergement, aux repas et aux guides locaux, nous coordonnons chaque détail de votre voyage pour que vous voyagiez en toute confiance. Ce qui est inclus et ce qui ne l’est pas vous est clairement expliqué avant la réservation."
   },
   "support": {
-    "label": "24/7",
+    "label": "Assistance",
     "place": "Cérémonie du café",
-    "title": "Avec vous 24h/24 et 7j/7",
-    "text": "Une équipe sur WhatsApp de votre premier message jusqu'à votre dernier jour. Les vols retardés et les changements de plans sont résolus rapidement."
+    "title": "Un accompagnement personnel tout au long du voyage",
+    "text": "Notre équipe reste en contact avec vous de votre première demande jusqu’à la fin de votre voyage. Si un vol est retardé ou si vos projets changent, nous vous aidons à coordonner les ajustements nécessaires et vous tenons informé."
   },
   "safety": {
     "label": "Sécurité",

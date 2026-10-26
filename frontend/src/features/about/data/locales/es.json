@@ -2,28 +2,26 @@
   "local": {
     "label": "Local",
     "place": "Axum",
-    "title": "Con base y gestión locales",
-    "text": "Fundado por un guía autorizado de Lalibela. Nuestro equipo le muestra la Etiopía en la que crecimos: su gente, su historia y sus rincones escondidos.",
-    "body": "Somos un operador turístico local de Lalibela, y Etiopía es el país que mejor conocemos. Nuestro equipo lo conecta con las comunidades locales, las tradiciones antiguas y las culturas que hacen de Etiopía un país extraordinario."
+    "title": "Con sede local, gestión local",
+    "text": "Nacido de un profundo vínculo con Lalibela y de la pasión por compartir Etiopía, nuestro equipo local aporta un conocimiento de primera mano de la historia, las culturas y los rincones ocultos del país. Creamos experiencias de viaje con sentido que le conectan con las personas, los lugares y las tradiciones que hacen de Etiopía un país extraordinario."
   },
   "tailored": {
     "label": "A medida",
     "place": "Hamar, Valle de Omo",
-    "title": "Privado, grupo o solo",
-    "text": "Privado, en grupos pequeños o solo. Cada itinerario se basa en sus intereses, ritmo y presupuesto, y se mantiene flexible durante el viaje.",
-    "body": "Cada viaje se diseña según sus intereses, ritmo y presupuesto, para parejas, familias, grupos y viajeros solos. ¿Viaja solo? Contará con apoyo personal, alojamiento confortable y transporte confiable en todo momento."
+    "title": "Privado, en grupo o en solitario",
+    "text": "Tanto si prefiere un viaje privado, una experiencia en grupo reducido o una aventura en solitario, adaptamos cada itinerario a sus intereses, su ritmo y su presupuesto, con flexibilidad para ajustarnos a los cambios por el camino."
   },
   "handled": {
     "label": "Organizado",
     "place": "Gondar",
-    "title": "Todo arreglado",
-    "text": "Vuelos nacionales, traslados al aeropuerto, hoteles, comidas y guías, todo organizado para usted, sin costes ocultos en el camino."
+    "title": "Su viaje, cuidadosamente organizado",
+    "text": "Desde los vuelos nacionales y los traslados al aeropuerto hasta el alojamiento, las comidas y los guías locales, coordinamos los detalles de su viaje para que viaje con tranquilidad. Todo lo que está incluido y excluido se explica con claridad antes de reservar."
   },
   "support": {
-    "label": "24/7",
+    "label": "Asistencia",
     "place": "Ceremonia del café",
-    "title": "A su lado 24/7",
-    "text": "Un mismo equipo en WhatsApp desde su primer mensaje hasta su último día. Los retrasos de vuelos y los cambios de planes se resuelven rápidamente."
+    "title": "Atención personal durante todo el viaje",
+    "text": "Nuestro equipo está en contacto con usted desde su primera consulta hasta el final del viaje. Si un vuelo se retrasa o cambian los planes, le ayudamos a coordinar los ajustes necesarios y le mantenemos informado."
   },
   "safety": {
     "label": "Seguridad",

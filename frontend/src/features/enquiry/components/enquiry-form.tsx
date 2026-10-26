@@ -2,7 +2,7 @@
 
 import { useCopy } from '@/i18n/copy'
 
-import { useEffect, useMemo, useState } from 'react'
+import { useEffect, useState } from 'react'
 import { useLocale } from 'next-intl'
 import { Check, ArrowRight, ChevronDown } from 'lucide-react'
 import { journeyStyles } from '@/features/tours/data/journey-styles'
@@ -272,12 +272,19 @@ function PhoneInput() {
   const copy = useCopy()
   const locale = useLocale()
   const [region, setRegion] = useState('')
+  const [countries, setCountries] = useState<{ code: string; name: string }[]>(
+    [],
+  )
 
-  const countries = useMemo(() => {
+  // Built after mount: Node and the browser ship different ICU country
+  // names, so rendering them on the server breaks hydration.
+  useEffect(() => {
     const names = new Intl.DisplayNames([locale], { type: 'region' })
-    return Object.keys(dialCodes)
-      .map((code) => ({ code, name: names.of(code) ?? code }))
-      .sort((a, b) => a.name.localeCompare(b.name, locale))
+    setCountries(
+      Object.keys(dialCodes)
+        .map((code) => ({ code, name: names.of(code) ?? code }))
+        .sort((a, b) => a.name.localeCompare(b.name, locale)),
+    )
   }, [locale])
 
   // Guess the visitor's country from the browser language (en-GB → GB).

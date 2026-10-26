@@ -4,6 +4,7 @@ import { Check, Plane } from 'lucide-react'
 import { Reveal } from '@/components/ui/reveal'
 import { SectionHeading } from '@/components/ui/section-heading'
 import type { LayoverPackage } from '../types'
+import { hasPrice } from '@/features/tours/lib/format'
 
 export function LayoverPackages({ packages }: { packages: LayoverPackage[] }) {
   const copy = useCopy()
@@ -43,7 +44,9 @@ export function LayoverPackages({ packages }: { packages: LayoverPackage[] }) {
                     {copy(p.title)}
                   </h3>
                   <p className="font-serif text-xl text-primary sm:text-2xl">
-                    {copy(p.price)}
+                    {hasPrice(p.price)
+                      ? copy('Starting from {v0}', { v0: p.price })
+                      : copy(p.price)}
                   </p>
                 </div>
                 <p className="mt-3 max-w-xl text-pretty leading-relaxed text-muted-foreground">

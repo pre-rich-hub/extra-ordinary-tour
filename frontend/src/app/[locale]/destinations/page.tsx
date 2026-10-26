@@ -66,7 +66,7 @@ export default async function DestinationsPage({
         eyebrow={copy('Where We Travel')}
         title={copy('Discover the Land of Origins')}
         lede={copy(
-          'Rock-hewn churches and royal castles, Afro-alpine plateaus, a lava lake below sea level, the peoples of the Omo Valley and festivals found nowhere else.',
+          'From ancient rock-hewn churches and royal castles to Afro-alpine plateaus, volcanic landscapes, the rich cultural traditions of the Omo Valley and festivals rooted in centuries of history, Ethiopia offers extraordinary discoveries at every turn.',
         )}
         image="https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/gondar-fasil.jpg"
         imageAlt={copy(

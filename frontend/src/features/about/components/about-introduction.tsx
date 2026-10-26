@@ -16,20 +16,20 @@ export function AboutIntroduction() {
         <Reveal>
           <p className="eyebrow mb-6 text-accent">{copy('Who we are')}</p>
           <h2 className="text-balance font-serif text-4xl leading-[1.05] text-foreground sm:text-5xl lg:text-[3.6rem]">
-            {copy('Travel is more than sightseeing:')}{' '}
+            {copy('Travel is more than sightseeing.')}{' '}
             <em className="italic text-primary">
-              {copy('it is a connection to a place and its people.')}
+              {copy('It is a connection to a place and its people.')}
             </em>
           </h2>
           <div className="mt-10 space-y-5 text-pretty leading-relaxed text-muted-foreground sm:text-lg">
             <p>
               {copy(
-                "Extraordinary Ethiopia Tours is a trusted Ethiopia travel specialist and locally based tour operator. We create journeys that showcase the country's ancient history, diverse cultures and spectacular landscapes, with the professional, personal and flexible service that only a local team can give.",
+                "Extraordinary Ethiopia Tours is a locally owned tour operator based in Lalibela, specializing in journeys across Ethiopia. We bring the country's ancient history, diverse cultures and remarkable landscapes to life through thoughtful planning, first-hand local knowledge and personal service.",
               )}
             </p>
             <p>
               {copy(
-                'We specialise in custom-designed private tours and carefully organised group tours for solo travellers, couples, families and friends. Whether it is your first visit or your fifth, every itinerary is shaped around your interests, travel style and budget, and our tours can be combined into one complete journey.',
+                'We organize tailor-made private tours and carefully coordinated group journeys for solo travellers, couples, families and friends. Whether you are visiting Ethiopia for the first time or returning to discover more, we shape each itinerary around your interests, travel style and budget. You can also combine destinations and experiences to create a single journey that reflects your own vision of Ethiopia.',
               )}
             </p>
           </div>

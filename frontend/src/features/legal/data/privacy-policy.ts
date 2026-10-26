@@ -2,7 +2,7 @@ import type { LegalDocument } from '../types'
 
 // Verbatim English text of the client's published Privacy Policy
 // (extraordinaryethiopiatours.com/privacy-policy/, captured 2026-10-21).
-// Keep locales/es.json and locales/fr.json in step with any change here.
+// Keep locales/es.json, fr.json and de.json in step with any change here.
 export const privacyPolicy: LegalDocument = {
   title: 'Privacy Policy',
   intro: [

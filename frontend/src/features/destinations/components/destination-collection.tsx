@@ -27,9 +27,9 @@ export function DestinationCollection() {
       <section className="shell pb-6 pt-16 sm:pt-20 lg:pt-28">
         <SectionHeading
           eyebrow={copy('The Map')}
-          title={copy('Regions, peoples and festivals')}
+          title={copy('Explore Ethiopia’s regions, cultures & festivals')}
           aside={copy(
-            'Most itineraries combine several of these. Tell us which ones pull at you and we will plan the route between them.',
+            'Many of our journeys combine several destinations and experiences. Tell us what interests you most, and we will design a route that brings them together into a journey tailored to you.',
           )}
         />
       </section>

@@ -196,7 +196,7 @@
     "places": ["Addis Abeba", "Lalibela", "Yemrehanna Kristos"]
   },
   "4-day-addis-and-lalibela": {
-    "title": "Addis Abeba & Lalibela in 4 Tagen",
+    "title": "4-tägige Tour nach Addis Abeba & Lalibela",
     "days": "4 Tage",
     "style": "Geschichte · Kultur",
     "season": "September bis Juli",
@@ -242,7 +242,7 @@
     "places": ["Addis Abeba", "Lalibela"]
   },
   "5-day-tigray-rock-hewn-churches": {
-    "title": "Felsenkirchen von Tigray in 5 Tagen",
+    "title": "5-tägige Tour zu den Felsenkirchen von Tigray",
     "days": "5 Tage",
     "style": "Geschichte · Trekking",
     "season": "September bis Juli",
@@ -597,7 +597,7 @@
     ]
   },
   "13-day-history-culture-and-danakil": {
-    "title": "Geschichte, Simien-Trek & Danakil in 13 Tagen",
+    "title": "Historische Route, Simien-Trekking & Danakil in 13 Tagen",
     "days": "13 Tage",
     "style": "Geschichte · Trekking · Danakil",
     "season": "November bis März",
@@ -1034,7 +1034,7 @@
     ]
   },
   "6-day-omo-valley-tribal-and-cultural": {
-    "title": "Völker & Kulturen des Omo-Tals in 6 Tagen",
+    "title": "6-tägige Völker- & Kulturtour durch das Omo-Tal",
     "days": "6 Tage",
     "style": "Kultur",
     "season": "Ganzjährig außer April und Mai",
@@ -1104,7 +1104,7 @@
     ]
   },
   "5-day-omo-valley-by-flight": {
-    "title": "Omo-Tal per Flug in 5 Tagen",
+    "title": "5-tägige Omo-Tal-Tour mit Flug",
     "days": "5 Tage",
     "style": "Kultur",
     "season": "Ganzjährig außer April und Mai",
@@ -1530,7 +1530,7 @@
     ]
   },
   "8-day-north-with-timkat-festival": {
-    "title": "Nordäthiopien mit Timkat in 8 Tagen",
+    "title": "8-tägige Nordäthiopien-Tour mit dem Timkat-Fest",
     "days": "8 Tage",
     "style": "Fest · Geschichte",
     "season": "Januar (Timkat)",
@@ -1786,7 +1786,7 @@
     "places": ["Addis Abeba", "Lalibela (Genna)", "Yemrehanna Kristos"]
   },
   "4-day-ethiopia-coffee": {
-    "title": "Kaffeereise durch Äthiopien in 4 Tagen",
+    "title": "4-tägige Kaffeetour durch Äthiopien",
     "days": "4 Tage",
     "style": "Kaffee · Kultur",
     "season": "September bis Mai",
@@ -1901,7 +1901,7 @@
     ]
   },
   "6-day-ethiopia-coffee-kaffa": {
-    "title": "Kaffeeursprung in Kaffa in 6 Tagen",
+    "title": "6-tägige Tour zu den Ursprüngen des Kaffees in Kaffa",
     "days": "6 Tage",
     "style": "Kaffee · Kultur",
     "season": "September bis Mai",
@@ -1964,7 +1964,7 @@
     ]
   },
   "3-day-afar-danakil-from-addis": {
-    "title": "Danakil-Senke ab Semera in 3 Tagen",
+    "title": "3-tägige Tour in die Danakil-Senke ab Semera",
     "days": "3 Tage",
     "style": "Danakil",
     "season": "November bis März",
@@ -3087,7 +3087,7 @@
     ]
   },
   "2-day-lalibela": {
-    "title": "Lalibela in 2 Tagen",
+    "title": "2-tägige Lalibela-Tour",
     "days": "2 Tage",
     "style": "Geschichte · Tagesausflug",
     "season": "September bis Juli",
@@ -3512,7 +3512,7 @@
     ]
   },
   "12-day-omo-valley-bale-harar-and-awash": {
-    "title": "Kulturen des Omo-Tals, Tierwelt von Bale, Harar & Awash in 12 Tagen",
+    "title": "Kultur des Omo-Tals, Tierwelt von Bale, Harar & Awash in 12 Tagen",
     "days": "12 Tage",
     "style": "Kultur · Tierwelt · Geschichte",
     "season": "Oktober bis März",

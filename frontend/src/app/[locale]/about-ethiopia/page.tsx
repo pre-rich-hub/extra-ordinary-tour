@@ -72,7 +72,7 @@ export default async function AboutEthiopiaPage({
         eyebrow={copy('About Ethiopia')}
         title={copy('Welcome to Ethiopia, the Land of Origins')}
         lede={copy(
-          'Ancient kingdoms and rock-hewn churches, mountains above the clouds and deserts below sea level, more than eighty peoples and the world’s first coffee. An introduction to the country before you travel.',
+          'Discover ancient kingdoms and remarkable rock-hewn churches, mountain peaks rising above the clouds and volcanic deserts below sea level. Explore the traditions of Ethiopia’s many cultural communities and the birthplace of coffee. This is your introduction to the country, its people and the experiences that await you.',
         )}
         image="https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/lalibela-giyorgis.jpg"
         imageAlt={copy(

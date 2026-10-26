@@ -18,9 +18,8 @@ export const whyUs: (BrandPromise & {
     image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/v1792849727/Axum.png',
     place: 'Axum',
     title: 'Locally based, locally run',
-    text: 'Founded by a licensed guide from Lalibela. Our team shows you the Ethiopia we grew up in: its people, history and hidden corners.',
-    body:
-      'We are a locally based tour operator from Lalibela, and Ethiopia is the country we know best. Our team connects you with local communities, ancient traditions and the cultures that make Ethiopia extraordinary.',
+    text:
+      "Born from a deep connection to Lalibela and a passion for sharing Ethiopia, our locally run team brings first-hand knowledge of the country's history, cultures and hidden gems. We create meaningful travel experiences that connect you with the people, places and traditions that make Ethiopia extraordinary.",
   },
   {
     icon: 'tailored',
@@ -30,25 +29,26 @@ export const whyUs: (BrandPromise & {
     position: 'center 25%',
     place: 'Hamar, Omo Valley',
     title: 'Private, group or solo',
-    text: 'Private, small-group or solo. Every itinerary is built around your interests, pace and budget, and stays flexible during the trip.',
-    body:
-      'Every journey is built around your interests, pace and budget, for couples, families, groups and solo travellers alike. Travelling alone? You’ll have personal support, comfortable stays and dependable transport throughout.',
+    text:
+      'Whether you prefer a private tour, a small-group experience or a solo adventure, we tailor each itinerary to your interests, pace and budget, with flexibility to accommodate changes along the way.',
   },
   {
     icon: 'handled',
     label: 'Arranged',
     image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/gondar-fasil.jpg',
     place: 'Gondar',
-    title: 'Everything arranged',
-    text: 'Domestic flights, airport transfers, hotels, meals and guides, all organised for you, with no hidden costs along the way.',
+    title: 'Your journey, carefully arranged',
+    text:
+      'From domestic flights and airport transfers to accommodation, meals and local guides, we coordinate the details of your trip so you can travel with confidence. All inclusions and exclusions are clearly explained before you book.',
   },
   {
     icon: 'support',
-    label: '24/7',
+    label: 'Support',
     image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/coffee-ceremony.jpg',
     place: 'Coffee ceremony',
-    title: 'With you 24/7',
-    text: 'One team on WhatsApp from your first message to your last day. Delayed flights and changed plans are solved quickly.',
+    title: 'Personal support, throughout your trip',
+    text:
+      'Our team stays in touch from your first enquiry to the end of your journey. If flights are delayed or plans change, we help coordinate the necessary adjustments and keep you informed.',
   },
   {
     icon: 'safety',

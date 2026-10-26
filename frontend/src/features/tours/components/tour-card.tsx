@@ -25,7 +25,7 @@ export function TourCard({
       badge={kind}
       eyebrow={
         hasPrice(t.from)
-          ? copy('From {v0} per person', { v0: priceShort(t.from) })
+          ? copy('Starting from {v0} per person', { v0: priceShort(t.from) })
           : copy('Designed Around You')
       }
       title={copy(t.title)}

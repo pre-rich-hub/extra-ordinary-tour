@@ -9,7 +9,7 @@ import type { Metadata } from 'next'
 import { getLayoverPackagesData } from '@/features/layover/server/catalog'
 import { PageHero } from '@/components/layout/page-hero'
 import { CtaBand } from '@/components/layout/cta-band'
-import { hasPrice } from '@/features/tours/lib/format'
+import { hasPrice, priceShort } from '@/features/tours/lib/format'
 import { LayoverPackages } from '@/features/layover/components/layover-packages'
 import { LayoverAssurances } from '@/features/layover/components/layover-assurances'
 import { LayoverEnquiry } from '@/features/layover/components/layover-enquiry'
@@ -55,7 +55,7 @@ export default async function LayoverPage({
 
   const crumbs = [
     { label: copy('Home'), href: '/' },
-    { label: copy('Layover') },
+    { label: copy('Layover Tours') },
   ]
 
   return (
@@ -64,15 +64,15 @@ export default async function LayoverPage({
         data={pageGraph({
           path: '/layover',
           locale,
-          name: copy('Six hours in Addis is not a waiting room'),
+          name: copy('Six hours in Addis is more than a stopover'),
           crumbs,
         })}
       />
       <PageHero
-        eyebrow={copy('Addis Layover Tours')}
-        title={copy('Six hours in Addis is not a waiting room')}
+        eyebrow={copy('Addis Ababa Layover Tours')}
+        title={copy('Six hours in Addis is more than a stopover')}
         lede={copy(
-          'Ethiopian Airlines connects half of Africa through Bole. If your connection is long enough for coffee, it is long enough for a private city loop: met at the gate, back at check-in with time to spare.',
+          "With Ethiopian Airlines connecting travellers across Africa and beyond, a long layover in Addis Ababa can become an opportunity to discover Ethiopia's capital. Enjoy a private city tour with airport pickup and drop-off, explore local landmarks, experience Ethiopian coffee culture and return to the airport with sufficient time for your onward flight.",
         )}
         image="https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/v1792854897/layove.jpg"
         imageAlt={copy(
@@ -82,7 +82,10 @@ export default async function LayoverPage({
         meta={[
           { label: copy('Packages'), value: String(packageCount) },
           { label: copy('Shortest'), value: shortest },
-          { label: hasPrice(from) ? copy('From') : copy('Price'), value: from },
+          {
+            label: hasPrice(from) ? copy('Starting from') : copy('Price'),
+            value: hasPrice(from) ? priceShort(from) : from,
+          },
           { label: copy('Airport'), value: copy('Bole (ADD)') },
         ]}
       />
@@ -97,9 +100,9 @@ export default async function LayoverPage({
       <LayoverEnquiry />
 
       <CtaBand
-        title={copy('Long stopover? Go north instead.')}
+        title={copy('Long stopover? Discover Lalibela.')}
         text={copy(
-          'With two nights you can fly to Lalibela, see the rock churches at dawn and be back at Bole for your onward leg. It is the best 48 hours in the country.',
+          "With two nights in Ethiopia, you may have time to fly to Lalibela, explore its remarkable rock-hewn churches and experience the town's unique atmosphere before returning to Addis Ababa for your onward flight. We will help coordinate flights, accommodation and sightseeing around your schedule, subject to flight availability.",
         )}
         primary={{ label: copy('Plan a Stopover'), href: '/contact' }}
         secondary={{ label: copy('See Tours'), href: '/tours' }}

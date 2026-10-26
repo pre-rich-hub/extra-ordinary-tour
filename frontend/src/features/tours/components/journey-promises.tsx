@@ -14,7 +14,7 @@ export function JourneyPromises() {
       <div className="shell py-16 sm:py-20 lg:py-28">
         <SectionHeading
           eyebrow={copy('How We Work')}
-          title={copy('What is true of every journey on this page')}
+          title={copy('What every journey includes')}
           tone="dark"
         />
         <div className="grid gap-x-10 gap-y-10 sm:grid-cols-2 lg:grid-cols-4">

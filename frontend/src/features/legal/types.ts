@@ -1,4 +1,4 @@
-// Legal pages are client-published English text, with Spanish and French translations.
+// Legal pages are client-published English text, with Spanish, French and German translations.
 export type LegalBlock =
   | { type: 'paragraph'; lines: string[] }
   | { type: 'list'; items: string[] }

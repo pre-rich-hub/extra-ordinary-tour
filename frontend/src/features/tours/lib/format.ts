@@ -1,4 +1,7 @@
 import type { AppLocale } from '@/i18n/routing'
+export function formatPrice(price: number, locale: AppLocale = 'en') {
+  return `${new Intl.NumberFormat(locale, { style: 'currency', currency: 'USD', minimumFractionDigits: 0, maximumFractionDigits: 2 }).format(price)} ${{ en: 'per person', es: 'por persona', fr: 'par personne', de: 'pro Person' }[locale]}`
+}
 export function hasPrice(from: string) {
   return /\d/.test(from)
 }

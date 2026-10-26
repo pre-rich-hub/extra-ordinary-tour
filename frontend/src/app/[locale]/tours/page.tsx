@@ -12,7 +12,6 @@ import { SectionHeading } from '@/components/ui/section-heading'
 import { ToursGrid } from '@/features/tours/components/tours-grid'
 import { toCardData } from '@/features/tours/types'
 import { CtaBand } from '@/components/layout/cta-band'
-import { FeaturedJourney } from '@/features/tours/components/featured-journey'
 import { JourneyPromises } from '@/features/tours/components/journey-promises'
 
 export async function generateMetadata({
@@ -74,14 +73,11 @@ export default async function ToursPage({
         crumbs={crumbs}
         meta={[
           { label: copy('Journeys'), value: String(tours.length) },
-          { label: copy('Length'), value: copy('1 to 17 Days') },
+          { label: copy('Length'), value: copy('1 to 19 Days') },
           { label: copy('Group Size'), value: copy('Solo to Groups') },
           { label: copy('Guiding'), value: copy('Private & Group') },
         ]}
       />
-
-      {/* Featured journey */}
-      <FeaturedJourney tours={tours} />
 
       {/* All journeys */}
       <section className="shell py-16 sm:py-20 lg:py-28">
@@ -95,16 +91,17 @@ export default async function ToursPage({
         <ToursGrid tours={tours.map(toCardData)} />
       </section>
 
-      {/* Promises */}
-      <JourneyPromises />
-
+      {/* Create your own */}
       <CtaBand
-        title={copy('Or start with a blank page')}
+        title={copy('Or create your own journey')}
         text={copy(
-          'Many of our guests combine two of these tours. Describe the journey you have in mind and our team will design it around you.',
+          'Many of our guests combine several tours to experience more of Ethiopia in one trip. Tell us what interests you and our team will design a personalized itinerary around your travel dates, pace and preferences.',
         )}
         secondary={{ label: copy('See Destinations'), href: '/destinations' }}
       />
+
+      {/* Promises */}
+      <JourneyPromises />
     </>
   )
 }

@@ -44,11 +44,11 @@ export function StoryCarousel({ tours: providedTours }: { tours?: Tour[] }) {
           className="text-balance font-serif text-4xl leading-[1.05] text-foreground sm:text-5xl lg:text-6xl"
         >
           {copy('Six ways to ')}
-          <em className="italic text-accent">{copy('know Ethiopia')}</em>
+          <em className="italic text-accent">{copy('experience Ethiopia')}</em>
         </h2>
         <p className="mx-auto mt-6 max-w-[52ch] text-pretty leading-relaxed text-muted-foreground sm:text-lg">
           {copy(
-            'History, culture, trekking, wildlife, festivals and coffee. Wherever Ethiopia calls you, our local team brings honest advice and first-hand knowledge to every chapter of the journey.',
+            "From history and culture to mountain trekking, wildlife, festivals and coffee, discover Ethiopia through experiences that reflect the country's remarkable diversity. Our locally based team brings first-hand knowledge and personal attention to every journey.",
           )}
         </p>
       </Reveal>

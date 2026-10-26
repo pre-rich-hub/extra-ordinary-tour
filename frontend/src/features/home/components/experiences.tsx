@@ -100,7 +100,7 @@ export function Experiences() {
         </h2>
         <p className="mx-auto mt-6 max-w-[56ch] text-pretty leading-relaxed text-muted-foreground sm:text-lg">
           {copy(
-            'History, culture, adventure, wildlife and trekking. Combine them into one journey, designed around how you like to travel.',
+            'From meaningful cultural encounters and ancient history to wildlife, mountain trekking and outdoor adventures, discover the experiences that make Ethiopia extraordinary. Combine your interests into a personalized journey, designed around the way you want to travel.',
           )}
         </p>
         <Link

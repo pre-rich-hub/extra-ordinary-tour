@@ -2,6 +2,7 @@ import 'server-only'
 import { tours as sourceRecords } from './tours'
 import { localizeRecord } from '@/i18n/content'
 import type { AppLocale } from '@/i18n/routing'
+import { formatPrice } from '../lib/format'
 import es from './locales/es.json'
 import fr from './locales/fr.json'
 import de from './locales/de.json'
@@ -25,7 +26,11 @@ export function getTours(locale: AppLocale = 'en') {
     canonicalTitle: source.title,
     canonicalPlaces: source.places,
     styleKeys: source.style.split('·').map((value) => value.trim()),
-    priceAmount: null,
+    // Static starting prices are formatted per locale, not translated.
+    ...(source.priceAmount
+      ? { from: formatPrice(source.priceAmount, locale) }
+      : {}),
+    priceAmount: source.priceAmount ?? null,
   }))
 }
 export function getTour(slug: string, locale: AppLocale = 'en') {

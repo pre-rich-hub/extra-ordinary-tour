@@ -65,7 +65,7 @@ export function TourFaq({ tour: t }: { tour: Tour }) {
           answer: (
             <>
               {hasPrice(t.from)
-                ? copy('Prices start at {v0}.', { v0: t.from })
+                ? copy('Prices start from {v0}.', { v0: t.from })
                 : copy(
                     'We create a personalized quotation based on your itinerary, travel dates, accommodation preferences, and number of travellers.',
                   )}{' '}

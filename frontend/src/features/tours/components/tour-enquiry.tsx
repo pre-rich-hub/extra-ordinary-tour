@@ -29,7 +29,7 @@ export function TourEnquiry({ tour: t }: { tour: Tour }) {
             {copy(t.season)} · {copy(t.group)} ·{' '}
             <span className="text-background">
               {hasPrice(t.from)
-                ? copy('from {v0}', { v0: t.from })
+                ? copy('starting from {v0}', { v0: t.from })
                 : copy('A quote made for your journey')}
             </span>
           </p>

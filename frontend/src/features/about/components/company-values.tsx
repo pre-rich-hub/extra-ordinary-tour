@@ -4,24 +4,24 @@ import { Reveal } from '@/components/ui/reveal'
 
 const values = [
   {
-    title: 'Personalised tours',
-    text: 'Based in Lalibela, we design every journey around your interests, schedule and budget: private tours, small groups, families and solo travellers alike.',
+    title: 'Journeys shaped around you',
+    text: 'From our base in Lalibela, we plan each journey around your interests, dates and budget, whether you travel privately, in a small group, as a family or on your own.',
   },
   {
-    title: 'Expert, friendly guides',
-    text: 'Knowledgeable, licensed guides and professional drivers who share Ethiopia’s history, culture and hidden corners safely and with genuine warmth.',
+    title: 'Guides who know their country',
+    text: 'Licensed local guides and experienced drivers who share Ethiopia’s history, cultures and hidden places with knowledge, care and genuine warmth.',
   },
   {
-    title: 'Responsible travel',
-    text: 'Eco-conscious tourism that supports local communities and helps preserve Ethiopia’s natural and cultural heritage for the next generation.',
+    title: 'Travel that gives back',
+    text: 'We work with local guides, families and communities, travel respectfully and help protect the natural and cultural heritage we are proud to share.',
   },
   {
-    title: 'Authentic experiences',
-    text: 'We go beyond sightseeing: a coffee ceremony in a village home, a market day in the south, a feast day among the pilgrims of Lalibela.',
+    title: 'Experiences beyond sightseeing',
+    text: 'A coffee ceremony in a family home, a market day in the south, a feast day among the pilgrims of Lalibela: moments that connect you with everyday Ethiopian life.',
   },
   {
-    title: 'Trusted worldwide',
-    text: 'Five-star reviews on SafariBookings and warm feedback on Tripadvisor. Travellers know us for flexibility, reliability and personal service.',
+    title: 'Trust earned by our guests',
+    text: 'Our guests’ reviews on Tripadvisor, SafariBookings and Google speak of flexibility, reliability and personal service, and we work to earn that trust on every trip.',
   },
 ]
 
@@ -36,12 +36,14 @@ export function CompanyValues() {
             {copy('Why travel with us')}
           </p>
           <h2 className="text-balance font-serif text-4xl leading-[1.05] text-foreground sm:text-5xl">
-            {copy('The things we will ')}
-            <em className="italic text-primary">{copy('never compromise')}</em>
+            {copy('What we ')}
+            <em className="italic text-primary">
+              {copy('never compromise on')}
+            </em>
           </h2>
           <p className="mt-6 max-w-sm text-pretty leading-relaxed text-muted-foreground sm:text-lg">
             {copy(
-              'Five principles that shape every itinerary, every guide and every day you spend with us in Ethiopia.',
+              'Five principles guide every itinerary we create, every guide we work with and every experience we share with you in Ethiopia.',
             )}
           </p>
           <div className="relative mt-10 hidden aspect-[4/3] overflow-hidden rounded-sm lg:block">

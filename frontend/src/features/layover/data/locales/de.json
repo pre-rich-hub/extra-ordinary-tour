@@ -1,7 +1,7 @@
 {
   "6-hour": {
     "hours": "6 Stunden",
-    "title": "Höhepunkte von Addis",
+    "title": "Addis-Abeba-Highlights-Tour",
     "price": "Auf Anfrage",
     "teaser": "Eine kurze Runde durch die Hauptstadt für knappe Anschlüsse: Aussicht vom Entoto, eine Kathedrale und eine Kaffeezeremonie.",
     "itinerary": [
@@ -21,7 +21,7 @@
   },
   "12-hour": {
     "hours": "12 Stunden",
-    "title": "Ganztägige Stadtführung",
+    "title": "Ganztägige Stadtführung in Addis Abeba",
     "price": "Auf Anfrage",
     "teaser": "Unser ganzer Tag in Addis Abeba: Entoto, Lucy im Nationalmuseum, die Dreifaltigkeitskathedrale, der Merkato und eine Kaffeezeremonie.",
     "itinerary": [
@@ -42,7 +42,7 @@
   },
   "24-hour": {
     "hours": "24 Stunden",
-    "title": "Übernachtung & Tagesausflug",
+    "title": "Übernachtung und Tagesausflug",
     "price": "Auf Anfrage",
     "teaser": "Eine Nacht in Addis Abeba, ein kulturelles Abendessen und ein Tagesausflug nach Debre Libanos oder zum Wenchi-Kratersee.",
     "itinerary": [
@@ -63,7 +63,7 @@
   },
   "48-hour": {
     "hours": "48 Stunden",
-    "title": "Stopover in Lalibela",
+    "title": "Stopover-Tour nach Lalibela",
     "price": "Auf Anfrage",
     "teaser": "Zwei Tage genügen für Lalibela: in den Norden fliegen, die Felsenkirchen erkunden und für den Weiterflug zurückfliegen.",
     "itinerary": [

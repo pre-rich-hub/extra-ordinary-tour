@@ -15,12 +15,14 @@ export function TourBooking({ tour: t }: { tour: Tour }) {
             label={copy('Designed Around You')}
             title={
               hasPrice(t.from)
-                ? copy('From {v0}', { v0: priceShort(t.from) })
+                ? copy('Starting from {v0}', { v0: priceShort(t.from) })
                 : copy('A Quote Made for Your Journey')
             }
             subtitle={
               hasPrice(t.from)
-                ? copy('per person, twin share')
+                ? copy(
+                    'per person, twin share. The final cost depends on group size, accommodation standard and other arrangements.',
+                  )
                 : copy(
                     'We create a personalized quotation based on your itinerary, travel dates, accommodation preferences, and number of travellers.',
                   )

@@ -3,27 +3,25 @@
     "label": "Lokal",
     "place": "Axum",
     "title": "Vor Ort ansässig, vor Ort geführt",
-    "text": "Gegründet von einem lizenzierten Guide aus Lalibela. Unser Team zeigt Ihnen das Äthiopien, in dem wir aufgewachsen sind: seine Menschen, seine Geschichte und seine verborgenen Winkel.",
-    "body": "Wir sind ein lokaler Reiseveranstalter aus Lalibela, und Äthiopien ist das Land, das wir am besten kennen. Unser Team bringt Sie mit lokalen Gemeinschaften, alten Traditionen und den Kulturen in Kontakt, die Äthiopien so außergewöhnlich machen."
+    "text": "Entstanden aus einer tiefen Verbundenheit mit Lalibela und der Leidenschaft, Äthiopien zu teilen, bringt unser Team vor Ort Wissen aus erster Hand über die Geschichte, Kulturen und verborgenen Schätze des Landes mit. Wir gestalten bedeutsame Reiseerlebnisse, die Sie mit den Menschen, Orten und Traditionen verbinden, die Äthiopien so außergewöhnlich machen."
   },
   "tailored": {
     "label": "Maßgeschneidert",
     "place": "Hamar, Omo-Tal",
     "title": "Privat, in der Gruppe oder allein",
-    "text": "Privat, in kleiner Gruppe oder allein. Jede Reiseroute richtet sich nach Ihren Interessen, Ihrem Tempo und Ihrem Budget und bleibt während der Reise flexibel.",
-    "body": "Jede Reise richtet sich nach Ihren Interessen, Ihrem Tempo und Ihrem Budget, für Paare, Familien, Gruppen und Alleinreisende gleichermaßen. Sie reisen allein? Dann haben Sie durchgehend persönliche Betreuung, komfortable Unterkünfte und zuverlässigen Transport."
+    "text": "Ob Sie eine Privatreise, ein Erlebnis in kleiner Gruppe oder ein Abenteuer allein bevorzugen: Wir stimmen jede Reiseroute auf Ihre Interessen, Ihr Tempo und Ihr Budget ab und bleiben flexibel für Änderungen unterwegs."
   },
   "handled": {
     "label": "Organisiert",
     "place": "Gondar",
-    "title": "Alles organisiert",
-    "text": "Inlandsflüge, Flughafentransfers, Hotels, Mahlzeiten und Guides, alles für Sie organisiert, ohne versteckte Kosten unterwegs."
+    "title": "Ihre Reise, sorgfältig organisiert",
+    "text": "Von Inlandsflügen und Flughafentransfers bis zu Unterkünften, Mahlzeiten und lokalen Guides koordinieren wir die Details Ihrer Reise, damit Sie mit gutem Gefühl reisen. Alle enthaltenen und nicht enthaltenen Leistungen werden vor der Buchung klar erläutert."
   },
   "support": {
-    "label": "24/7",
+    "label": "Betreuung",
     "place": "Kaffeezeremonie",
-    "title": "Rund um die Uhr für Sie da",
-    "text": "Ein Team auf WhatsApp von Ihrer ersten Nachricht bis zu Ihrem letzten Tag. Verspätete Flüge und geänderte Pläne werden schnell gelöst."
+    "title": "Persönliche Betreuung während der ganzen Reise",
+    "text": "Unser Team bleibt von Ihrer ersten Anfrage bis zum Ende Ihrer Reise mit Ihnen in Kontakt. Verspäten sich Flüge oder ändern sich Pläne, helfen wir bei den nötigen Anpassungen und halten Sie auf dem Laufenden."
   },
   "safety": {
     "label": "Sicherheit",

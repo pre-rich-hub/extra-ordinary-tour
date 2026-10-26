@@ -11,18 +11,22 @@ export function LayoverEnquiry() {
       <Reveal>
         <p className="eyebrow mb-5 text-accent">{copy('Book a Layover')}</p>
         <h2 className="max-w-[18ch] text-balance text-3xl leading-[1.08] text-foreground sm:text-4xl lg:text-5xl">
-          {copy('Send us your flight numbers')}
+          {copy('Send us your flight details')}
         </h2>
         <p className="mt-6 max-w-md text-pretty leading-relaxed text-muted-foreground sm:text-lg">
           {copy(
-            'That is genuinely all we need to start. We will confirm the visa position for your passport, propose the right package, and hold a driver for the window.',
+            'Your flight numbers are all we need to get started. We will check the visa requirements for your passport, recommend a suitable layover tour and coordinate a driver around your arrival and departure schedule.',
           )}
         </p>
         <ul className="mt-10 space-y-4">
           {[
-            copy('Confirmed within a few hours, not days'),
-            copy('Met at Bole whatever your arrival time'),
-            copy('Private vehicle, never a shared coach'),
+            copy('Quick confirmation: we aim to respond within a few hours.'),
+            copy(
+              'Airport pickup: your driver will meet you at Bole International Airport at the agreed arrival time.',
+            ),
+            copy(
+              'Private transport: enjoy your own vehicle, never a shared coach.',
+            ),
           ].map((item) => (
             <li
               key={item}

@@ -7,22 +7,22 @@ const assurances = [
   {
     icon: Plane,
     title: 'We track your inbound flight',
-    text: 'If you land two hours late, your driver is still there and the day is reshaped around the time you actually have.',
+    text: 'If your flight arrives late, we adjust your pickup and itinerary around the time available. Your driver stays informed of your arrival, helping you make the most of your layover.',
   },
   {
     icon: BadgeCheck,
-    title: 'Visa on arrival, handled',
-    text: 'Most nationalities can buy a visa at Bole. We send the exact steps, the cost, and someone waiting on the other side of it.',
+    title: 'Visa guidance before you arrive',
+    text: 'We provide practical guidance on Ethiopian visa requirements, application procedures and applicable fees before your journey. Where visa on arrival is available to you, we explain what to expect at Bole International Airport.',
   },
   {
     icon: Clock3,
-    title: 'Back three hours early',
-    text: 'Every itinerary is timed to return you to the terminal three hours before your onward departure. We do not gamble with connections.',
+    title: 'Your onward flight comes first',
+    text: 'Every itinerary is planned around your departure time, airport procedures and expected traffic conditions. We allow a suitable return buffer so you can enjoy your city tour without unnecessary pressure about your connecting flight.',
   },
   {
     icon: ShieldCheck,
-    title: 'Luggage stays safe',
-    text: 'Checked through to your final destination in most cases. Hand luggage travels locked in the vehicle or in a day-room safe.',
+    title: 'Practical luggage arrangements',
+    text: 'If your checked luggage is transferred directly to your final destination, you can explore with less to carry. For hand luggage, we can discuss suitable storage arrangements in advance, depending on availability and your tour plans.',
   },
 ]
 
@@ -34,9 +34,9 @@ export function LayoverAssurances() {
       <div className="shell py-16 sm:py-20 lg:py-28">
         <SectionHeading
           eyebrow={copy('Logistics First')}
-          title={copy('On a layover, timing is the whole product')}
+          title={copy('On a layover, timing is everything')}
           lede={copy(
-            'Sights are easy. Not missing your onward flight is the part that takes experience.',
+            'Seeing the sights is the easy part. Planning your city tour around airport procedures, traffic conditions and your onward flight takes local knowledge and experience. We carefully plan every excursion to help you make the most of your time in Addis Ababa while allowing sufficient time to return to the airport.',
           )}
           tone="dark"
         />

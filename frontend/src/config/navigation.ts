@@ -8,7 +8,7 @@ type NavLink = {
 export const navLinks: readonly NavLink[] = [
   { label: 'Destinations', href: '/destinations' },
   { label: 'Tours', href: '/tours' },
-  { label: 'Layover', href: '/layover' },
+  { label: 'Layover Tours', href: '/layover' },
   {
     label: 'About Us',
     href: '/about',

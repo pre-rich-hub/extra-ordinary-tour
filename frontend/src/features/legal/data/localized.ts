@@ -6,20 +6,21 @@ import { privacyPolicy } from './privacy-policy'
 import { termsAndConditions } from './terms-and-conditions'
 import es from './locales/es.json'
 import fr from './locales/fr.json'
+import de from './locales/de.json'
 
 const sources = { privacyPolicy, termsAndConditions }
 export type LegalDocumentKey = keyof typeof sources
 
 /**
  * Translated legal text, or the English original if a translation is missing
- * or incomplete; German has none yet.
+ * or incomplete.
  */
 export function getLegalDocument(
   key: LegalDocumentKey,
   locale: AppLocale,
 ): { document: LegalDocument; translated: boolean } {
   const source = sources[key]
-  const catalogues: Partial<Record<AppLocale, typeof es>> = { es, fr }
+  const catalogues: Partial<Record<AppLocale, typeof es>> = { es, fr, de }
   const translated = catalogues[locale]?.[key]
   return translated && sameShape(source, translated)
     ? { document: translated as LegalDocument, translated: true }

@@ -1,7 +1,7 @@
 {
   "6-hour": {
     "hours": "6 heures",
-    "title": "Points forts d'Addis",
+    "title": "Circuit des incontournables d’Addis-Abeba",
     "price": "Sur demande",
     "teaser": "Une courte boucle de la capitale pour des connexions serrées : des vues d'Entoto, une cathédrale et une cérémonie du café.",
     "itinerary": [
@@ -21,7 +21,7 @@
   },
   "12-hour": {
     "hours": "12 heures",
-    "title": "Visite de la ville d'une journée",
+    "title": "Visite d’Addis-Abeba d’une journée",
     "price": "Sur demande",
     "teaser": "Notre journée complète à Addis-Abeba : Entoto, Lucy au Musée National, Holy Trinity, Merkato et une cérémonie du café.",
     "itinerary": [
@@ -42,7 +42,7 @@
   },
   "24-hour": {
     "hours": "24 heures",
-    "title": "Excursion d'une nuit et d'une journée",
+    "title": "Nuit sur place et excursion d’une journée",
     "price": "Sur demande",
     "teaser": "Une nuit à Addis-Abeba, un dîner culturel et une excursion d'une journée à Debre Libanos ou au lac Wenchi Crater.",
     "itinerary": [
@@ -63,7 +63,7 @@
   },
   "48-hour": {
     "hours": "48 heures",
-    "title": "Escale à Lalibela",
+    "title": "Circuit d’escale à Lalibela",
     "price": "Sur demande",
     "teaser": "Deux jours suffisent pour Lalibela : volez vers le nord, explorez les églises taillées dans le roc et revenez pour votre étape suivante.",
     "itinerary": [

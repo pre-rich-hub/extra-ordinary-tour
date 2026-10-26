@@ -1,7 +1,8 @@
 import type { Tour } from '../types'
 
 // Journeys offered by Extraordinary Ethiopia Tours. Day-by-day itineraries
-// follow the operator’s published programmes; prices are quoted on request.
+// follow the operator’s published programmes. Priced tours show a starting
+// price per person; the rest are quoted on request.
 export const tours: Tour[] = [
   {
     // Tour code EDT-03-H10
@@ -12,7 +13,8 @@ export const tours: Tour[] = [
     nights: 9,
     style: 'Historical · Cultural',
     season: 'September to July',
-    from: 'On request',
+    from: '$2,800 per person',
+    priceAmount: 2800,
     group: '1 to 12 guests',
     teaser:
       'Monasteries, castles, rock-hewn churches and the walled city of Harar: the classic northern circuit with an eastern finale.',
@@ -105,7 +107,8 @@ export const tours: Tour[] = [
     nights: 6,
     style: 'Historical · Cultural',
     season: 'September to July',
-    from: 'On request',
+    from: '$1,800 per person',
+    priceAmount: 1800,
     group: '1 to 12 guests',
     teaser:
       'Lake Tana, Gondar, the Simien escarpment and Lalibela in one well-paced week.',
@@ -221,13 +224,14 @@ export const tours: Tour[] = [
   {
     // Tour code EDT-03-H4
     slug: '4-day-addis-and-lalibela',
-    title: '4-Day Addis & Lalibela',
+    title: '4-Day Addis Ababa & Lalibela Tour',
     image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/v1793006889/lalibela-priest-hand-crosses.jpg',
     days: '4 Days',
     nights: 3,
     style: 'Historical · Cultural',
     season: 'September to July',
-    from: 'On request',
+    from: '$1,000 per person',
+    priceAmount: 1000,
     group: '1 to 12 guests',
     teaser:
       'A full day in the capital, then two days among the rock-hewn churches of Lalibela.',
@@ -274,13 +278,14 @@ export const tours: Tour[] = [
   {
     // Tour code EDT-03-H5
     slug: '5-day-tigray-rock-hewn-churches',
-    title: '5-Day Tigray Rock-Hewn Churches',
+    title: '5-Day Tigray Rock-Hewn Churches Tour',
     image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/v1792849747/gheralta-mountains.jpg',
     days: '5 Days',
     nights: 4,
     style: 'Historical · Trekking',
     season: 'September to July',
-    from: 'On request',
+    from: '$1,400 per person',
+    priceAmount: 1400,
     group: '1 to 8 guests',
     teaser:
       'Cliff-face churches, ancient frescoes and the dramatic sandstone towers of Gheralta.',
@@ -654,7 +659,7 @@ export const tours: Tour[] = [
   {
     // Tour code EDT-03-H13B
     slug: '13-day-history-culture-and-danakil',
-    title: '13-Day History, Simien Trek & Danakil',
+    title: '13-Day Historic Route, Simien Trekking & Danakil',
     image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/v1793006889/danakil-dallol-green-pool.jpg',
     days: '13 Days',
     nights: 12,
@@ -1116,13 +1121,14 @@ export const tours: Tour[] = [
   {
     // Tour code EDT-05-OC
     slug: '6-day-omo-valley-tribal-and-cultural',
-    title: '6-Day Omo Valley Tribal & Cultural',
+    title: '6-Day Omo Valley Tribal & Cultural Tour',
     image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/v1793010802/omo-banna-stilt-walkers.jpg',
     days: '6 Days',
     nights: 5,
     style: 'Cultural',
     season: 'Year-round except April and May',
-    from: 'On request',
+    from: '$1,500 per person',
+    priceAmount: 1500,
     group: '1 to 12 guests',
     teaser:
       'Tiya, Dorze, Konso and the Banna, Hamar, Karo, Mursi and Ari peoples in six days.',
@@ -1193,7 +1199,7 @@ export const tours: Tour[] = [
   {
     // Tour code EDT-05-OF
     slug: '5-day-omo-valley-by-flight',
-    title: '5-Day Omo Valley by Flight',
+    title: '5-Day Omo Valley Tour by Flight',
     image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/v1793010802/omo-dassanech-hut.webp',
     days: '5 Days',
     nights: 4,
@@ -1651,13 +1657,14 @@ export const tours: Tour[] = [
   {
     // Tour code EDT-03-NF
     slug: '8-day-north-with-timkat-festival',
-    title: '8-Day Northern Ethiopia with Timkat',
+    title: '8-Day Northern Ethiopia Tour with Timkat Festival',
     image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/v1792849804/timkat-festival-journey.jpg',
     days: '8 Days',
     nights: 7,
     style: 'Festival · Historical',
     season: 'January (Timkat)',
-    from: 'On request',
+    from: '$2,200 per person',
+    priceAmount: 2200,
     group: '1 to 12 guests',
     teaser:
       'Celebrate Epiphany at the bath of Fasilides in Gondar, then the Simien Mountains and Lalibela.',
@@ -1740,7 +1747,8 @@ export const tours: Tour[] = [
     nights: 4,
     style: 'Festival',
     season: 'January (Timkat)',
-    from: 'On request',
+    from: '$1,500 per person',
+    priceAmount: 1500,
     group: '1 to 12 guests',
     teaser:
       'The eve procession, the baptism ceremony and the second day of Timkat among Lalibela’s churches.',
@@ -1936,13 +1944,14 @@ export const tours: Tour[] = [
   {
     // Tour code EDT-02-D4
     slug: '4-day-ethiopia-coffee',
-    title: '4-Day Ethiopia Coffee',
+    title: '4-Day Ethiopia Coffee Tour',
     image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/coffee-farm.jpg',
     days: '4 Days',
     nights: 3,
     style: 'Coffee · Cultural',
     season: 'September to May',
-    from: 'On request',
+    from: '$1,100 per person',
+    priceAmount: 1100,
     group: '1 to 12 guests',
     teaser:
       'Sidama and Yirgacheffe: farms, washing stations and coffee ceremonies at the source.',
@@ -2064,13 +2073,14 @@ export const tours: Tour[] = [
   {
     // Tour code EDT-02-D6
     slug: '6-day-ethiopia-coffee-kaffa',
-    title: '6-Day Kaffa Coffee Origins',
+    title: '6-Day Kaffa Coffee Origins Tour',
     image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/kaffa-forest.jpg',
     days: '6 Days',
     nights: 5,
     style: 'Coffee · Cultural',
     season: 'September to May',
-    from: 'On request',
+    from: '$1,600 per person',
+    priceAmount: 1600,
     group: '1 to 12 guests',
     teaser:
       'Wild coffee in the Mankira forest, the Kaffa highlands of Bonga and the Bebeka estate.',
@@ -2133,13 +2143,14 @@ export const tours: Tour[] = [
   {
     // Tour code EDT-09-ART
     slug: '3-day-afar-danakil-from-addis',
-    title: '3-Day Danakil Depression from Semera',
+    title: '3-Day Danakil Depression Tour from Semera',
     image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/v1793006889/danakil-lake-assale-4x4-sunset.jpg',
     days: '3 Days',
     nights: 2,
     style: 'Danakil',
     season: 'November to March',
-    from: 'On request',
+    from: '$850 per person',
+    priceAmount: 850,
     group: '2 to 12 guests',
     teaser:
       'From Semera Airport to the crater of Erta Ale, Lake Afdera, the sulphur springs of Dallol and the salt caravans, and back.',
@@ -2255,7 +2266,8 @@ export const tours: Tour[] = [
     nights: 11,
     style: 'Wildlife · Trekking',
     season: 'October to April',
-    from: 'On request',
+    from: '$3,200 per person',
+    priceAmount: 3200,
     group: '1 to 10 guests',
     teaser:
       'Gelada and walia ibex in the Simien, oryx in Awash, Swayne’s hartebeest and the Ethiopian wolf of Bale.',
@@ -2789,13 +2801,14 @@ export const tours: Tour[] = [
   {
     // Tour code EDT-07-SNT
     slug: '5-day-simien-mountains-trek',
-    title: '5-Day Simien Mountains Trek',
+    title: '5-Day Simien Mountains Trekking',
     image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/v1792849798/Simien_Mountains.png',
     days: '5 Days',
     nights: 4,
     style: 'Trekking',
     season: 'September to June',
-    from: 'On request',
+    from: '$1,200 per person',
+    priceAmount: 1200,
     group: '1 to 8 guests',
     teaser:
       'Sankaber, Gich, the Inatye escarpment and Chenek: the finest walking in the Simien.',
@@ -3047,7 +3060,7 @@ export const tours: Tour[] = [
   {
     // Tour code EDT-07-LLT
     slug: '4-day-lalibela-trek',
-    title: '4-Day Lalibela Community Trek',
+    title: '4-Day Lalibela Community Trekking',
     image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/v1792849709/abune-yosef-ascent.png',
     days: '4 Days',
     nights: 3,
@@ -3373,7 +3386,7 @@ export const tours: Tour[] = [
   {
     // Tour code EDT-01-LT
     slug: '2-day-lalibela',
-    title: '2-Day Lalibela',
+    title: '2-Day Lalibela Tour',
     image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/v1793006889/lalibela-bete-giyorgis-trench.jpg',
     days: '2 Days',
     nights: 1,
@@ -3422,7 +3435,8 @@ export const tours: Tour[] = [
     nights: 0,
     style: 'Day Trip · Cultural',
     season: 'Year-round',
-    from: 'On request',
+    from: '$100 per person',
+    priceAmount: 100,
     group: '1 to 15 guests',
     teaser:
       'Entoto, Lucy at the National Museum, Holy Trinity Cathedral, Merkato and a coffee ceremony.',
@@ -3864,7 +3878,7 @@ export const tours: Tour[] = [
   },
   {
     slug: '12-day-omo-valley-bale-harar-and-awash',
-    title: '12-Day Omo Valley Cultures, Bale Wildlife, Harar & Awash',
+    title: '12-Day Omo Valley Culture, Bale Wildlife, Harar & Awash',
     image:
       'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/v1793006889/bale-harenna-peaks-CONFIRM.jpg',
     days: '12 Days',

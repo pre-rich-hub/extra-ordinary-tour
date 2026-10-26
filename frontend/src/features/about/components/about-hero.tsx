@@ -53,7 +53,7 @@ export function AboutHero() {
         </h1>
         <p className="mt-8 max-w-[50ch] text-pretty leading-relaxed text-background/80 [animation:fade-up_1s_ease_0.35s_both] sm:text-lg">
           {copy(
-            'A locally based tour operator from Lalibela, creating private and group journeys through the history, cultures and landscapes of the Land of Origins, for the real Ethiopian experience.',
+            'A locally owned tour operator based in Lalibela, creating private and group journeys through Ethiopia’s remarkable history, diverse cultures and breathtaking landscapes. Discover the Land of Origins through meaningful experiences and the knowledge of those who call it home.',
           )}
         </p>
       </div>

@@ -25,6 +25,11 @@ import { tourCategories } from '@/features/tours/data/categories'
 import { navLinks } from '@/config/navigation'
 import { contact } from '@/config/site'
 
+// Hides a hover dropdown after a tap or click inside it, even while the
+// pointer (or a touch screen's sticky hover) still rests on its trigger.
+const dismissed =
+  'group-data-[dismissed]:invisible! group-data-[dismissed]:opacity-0! group-data-[dismissed]:pointer-events-none!'
+
 const languages = [
   { code: 'en', label: 'English' },
   { code: 'es', label: 'Español' },
@@ -84,6 +89,7 @@ export function SiteNav({
   const [scrolled, setScrolled] = useState(false)
   const [open, setOpen] = useState(false)
   const [langOpen, setLangOpen] = useState(false)
+  const [dismissedHref, setDismissedHref] = useState<string | null>(null)
   const lang = languages.find((language) => language.code === locale)!
   const setLang = (language: (typeof languages)[number]) => {
     router.replace(
@@ -168,6 +174,15 @@ export function SiteNav({
               return (
                 <li
                   key={link.href}
+                  data-dismissed={dismissedHref === link.href || undefined}
+                  onPointerEnter={() => setDismissedHref(null)}
+                  onPointerLeave={() => setDismissedHref(null)}
+                  onClick={(e) => {
+                    if (!hasDropdown) return
+                    if (!(e.target as HTMLElement).closest('a')) return
+                    setDismissedHref(link.href)
+                    ;(document.activeElement as HTMLElement | null)?.blur()
+                  }}
                   className={cn('group py-5', link.children && 'relative')}
                 >
                   <Link
@@ -197,7 +212,9 @@ export function SiteNav({
 
                   {/* Dropdowns */}
                   {link.label === 'Destinations' && (
-                    <div className="absolute left-0 top-full w-full bg-background/98 backdrop-blur-2xl border-t border-accent/25 border-b border-border/80 shadow-2xl opacity-0 invisible -translate-y-2 group-hover:opacity-100 group-hover:visible group-hover:translate-y-0 transition-all duration-300 pointer-events-none group-hover:pointer-events-auto z-45 text-foreground">
+                    <div
+                      className={`absolute left-0 top-full w-full bg-background/98 backdrop-blur-2xl border-t border-accent/25 border-b border-border/80 shadow-2xl opacity-0 invisible -translate-y-2 group-hover:opacity-100 group-hover:visible group-hover:translate-y-0 transition-all duration-300 pointer-events-none group-hover:pointer-events-auto z-45 text-foreground ${dismissed}`}
+                    >
                       <div className="shell grid grid-cols-[1fr_3.2fr] gap-12 py-10">
                         <div className="flex flex-col justify-between">
                           <div>
@@ -212,9 +229,10 @@ export function SiteNav({
                                 <li key={r.id}>
                                   <Link
                                     href={`/destinations#${r.id}`}
-                                    className="text-[13px] text-muted-foreground transition-colors hover:text-accent"
+                                    className="group/cat inline-flex items-center gap-1.5 text-[13px] font-semibold text-foreground underline decoration-accent/40 underline-offset-4 transition-colors hover:text-accent hover:decoration-accent"
                                   >
                                     {r.label}
+                                    <ArrowRight className="h-3 w-3 text-accent transition-transform duration-200 group-hover/cat:translate-x-0.5" />
                                   </Link>
                                 </li>
                               ))}
@@ -267,7 +285,9 @@ export function SiteNav({
                   )}
 
                   {link.label === 'Tours' && (
-                    <div className="absolute left-0 top-full w-full bg-background/98 backdrop-blur-2xl border-t border-accent/25 border-b border-border/80 shadow-2xl opacity-0 invisible -translate-y-2 group-hover:opacity-100 group-hover:visible group-hover:translate-y-0 transition-all duration-300 pointer-events-none group-hover:pointer-events-auto z-45 text-foreground">
+                    <div
+                      className={`absolute left-0 top-full w-full bg-background/98 backdrop-blur-2xl border-t border-accent/25 border-b border-border/80 shadow-2xl opacity-0 invisible -translate-y-2 group-hover:opacity-100 group-hover:visible group-hover:translate-y-0 transition-all duration-300 pointer-events-none group-hover:pointer-events-auto z-45 text-foreground ${dismissed}`}
+                    >
                       <div className="shell grid grid-cols-[1.5fr_2fr] gap-12 py-10">
                         <div className="flex flex-col justify-between">
                           <div>
@@ -282,9 +302,10 @@ export function SiteNav({
                                 <li key={c.id}>
                                   <Link
                                     href={`/tours?category=${c.id}`}
-                                    className="text-[13px] text-muted-foreground transition-colors hover:text-accent"
+                                    className="group/cat inline-flex items-center gap-1.5 text-[13px] font-semibold text-foreground underline decoration-accent/40 underline-offset-4 transition-colors hover:text-accent hover:decoration-accent"
                                   >
                                     {copy(c.label)}
+                                    <ArrowRight className="h-3 w-3 text-accent transition-transform duration-200 group-hover/cat:translate-x-0.5" />
                                   </Link>
                                 </li>
                               ))}
@@ -331,7 +352,7 @@ export function SiteNav({
                                 <div className="mt-2.5 flex items-center justify-between border-t border-border/60 pt-2">
                                   <span className="text-[10px] text-muted-foreground uppercase tracking-wider">
                                     {hasPrice(t.from)
-                                      ? copy('From')
+                                      ? copy('Starting from')
                                       : copy('Price')}
                                   </span>
                                   <span className="text-xs font-bold text-accent">
@@ -349,7 +370,9 @@ export function SiteNav({
                   )}
 
                   {link.children && (
-                    <ul className="invisible absolute left-1/2 top-full z-45 w-56 -translate-x-1/2 -translate-y-2 border-t border-accent/25 bg-background/98 py-2 text-foreground opacity-0 shadow-2xl backdrop-blur-2xl transition-all duration-300 pointer-events-none group-hover:visible group-hover:translate-y-0 group-hover:opacity-100 group-hover:pointer-events-auto group-focus-within:visible group-focus-within:translate-y-0 group-focus-within:opacity-100 group-focus-within:pointer-events-auto">
+                    <ul
+                      className={`invisible absolute left-1/2 top-full z-45 w-56 -translate-x-1/2 -translate-y-2 border-t border-accent/25 bg-background/98 py-2 text-foreground opacity-0 shadow-2xl backdrop-blur-2xl transition-all duration-300 pointer-events-none group-hover:visible group-hover:translate-y-0 group-hover:opacity-100 group-hover:pointer-events-auto group-focus-within:visible group-focus-within:translate-y-0 group-focus-within:opacity-100 group-focus-within:pointer-events-auto ${dismissed}`}
+                    >
                       {link.children.map((child) => (
                         <li key={child.href}>
                           <Link
@@ -472,6 +495,25 @@ export function SiteNav({
           <ul className="border-t border-border">
             {navLinks.map((link, i) => {
               const active = isActive(link.href)
+              // Regions and categories mirror the desktop dropdowns so they
+              // are one tap away on phones.
+              const subLinks =
+                link.label === 'Destinations'
+                  ? regions.map((r) => ({
+                      label: r.label,
+                      href: `/destinations#${r.id}`,
+                    }))
+                  : link.label === 'Tours'
+                    ? tourCategories.map((c) => ({
+                        label: copy(c.label),
+                        href: `/tours?category=${c.id}`,
+                      }))
+                    : (link.children ?? [])
+                        .filter((child) => child.href !== link.href)
+                        .map((child) => ({
+                          label: copy(child.label),
+                          href: child.href,
+                        }))
               return (
                 <li key={link.href} className="border-b border-border">
                   <Link
@@ -487,18 +529,13 @@ export function SiteNav({
                         : 'translate-y-3 opacity-0',
                     )}
                   >
-                    <span className="flex items-baseline gap-3">
-                      <span className="text-[10px] font-semibold tracking-[0.18em] text-accent">
-                        {String(i + 1).padStart(2, '0')}
-                      </span>
-                      <span
-                        className={cn(
-                          'font-serif text-3xl sm:text-4xl',
-                          active ? 'text-primary' : 'text-foreground',
-                        )}
-                      >
-                        {copy(link.label)}
-                      </span>
+                    <span
+                      className={cn(
+                        'font-serif text-3xl sm:text-4xl',
+                        active ? 'text-primary' : 'text-foreground',
+                      )}
+                    >
+                      {copy(link.label)}
                     </span>
                     <ArrowRight
                       className={cn(
@@ -507,27 +544,25 @@ export function SiteNav({
                       )}
                     />
                   </Link>
-                  {link.children && (
-                    <ul className="-mt-2 flex flex-wrap gap-x-6 gap-y-2 pb-5 pl-8">
-                      {link.children
-                        .filter((child) => child.href !== link.href)
-                        .map((child) => (
-                          <li key={child.href}>
-                            <Link
-                              href={child.href}
-                              onClick={() => setOpen(false)}
-                              className={cn(
-                                'inline-flex items-center gap-2 text-[11px] font-semibold uppercase tracking-[0.16em]',
-                                pathname === child.href
-                                  ? 'text-accent'
-                                  : 'text-muted-foreground',
-                              )}
-                            >
-                              {copy(child.label)}
-                              <ArrowRight className="h-3.5 w-3.5" />
-                            </Link>
-                          </li>
-                        ))}
+                  {subLinks.length > 0 && (
+                    <ul className="-mt-1 flex flex-wrap gap-2 pb-5">
+                      {subLinks.map((sub) => (
+                        <li key={sub.href}>
+                          <Link
+                            href={sub.href}
+                            onClick={() => setOpen(false)}
+                            className={cn(
+                              'inline-flex items-center gap-1.5 rounded-full border px-3.5 py-2 text-[13px] font-semibold transition-colors',
+                              pathname === sub.href
+                                ? 'border-accent bg-accent/10 text-accent'
+                                : 'border-accent/30 text-foreground active:bg-accent/10',
+                            )}
+                          >
+                            {sub.label}
+                            <ArrowRight className="h-3 w-3 text-accent" />
+                          </Link>
+                        </li>
+                      ))}
                     </ul>
                   )}
                 </li>
