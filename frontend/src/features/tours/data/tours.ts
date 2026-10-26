@@ -1352,7 +1352,7 @@ export const tours: Tour[] = [
     // Tour code EDT-05-OT
     slug: '11-day-omo-valley-cultural',
     title: '11-Day Omo Valley Cultural',
-    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/banna.jpg',
+    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/v1793014223/omo-river-boatman.webp',
     days: '11 Days',
     nights: 10,
     style: 'Cultural',

@@ -26,9 +26,9 @@ const shots = [
       'Sulphur springs and salt terraces more than 100 metres below sea level.',
   },
   {
-    src: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/v1792849767/omo-valley.jpg',
+    src: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/v1793014223/omo-river-aerial.webp',
     location: 'Omo Valley',
-    description: 'Villagers gathered on a bluff above the Omo River.',
+    description: 'The Omo River winding through forest on its way south.',
   },
   {
     src: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/v1792849804/timkat-festival-journey.jpg',

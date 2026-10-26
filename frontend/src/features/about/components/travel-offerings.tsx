@@ -18,7 +18,7 @@ const offerings = [
   {
     title: 'Omo Valley Cultures',
     text: 'Markets, villages and ceremonies with the peoples of the south.',
-    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/karo.jpg',
+    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/v1793014223/omo-village-women-group.jpg',
     href: '/tours/6-day-omo-valley-tribal-and-cultural',
     span: 'lg:col-span-5',
   },

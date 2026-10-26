@@ -55,7 +55,7 @@ export const posts: Post[] = [
     date: 'August 29, 2026',
     datePublished: '2026-08-29',
     readTime: '7 min read',
-    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/v1792849767/omo-valley.jpg',
+    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/v1793010802/omo-nyangatom-women.jpg',
     author: 'Zelalem',
     authorRole: 'Travel Writer',
     excerpt:

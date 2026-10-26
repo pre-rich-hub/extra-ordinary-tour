@@ -251,7 +251,7 @@ export const testimonials: Testimonial[] = [
     id: 'd-thomas',
     name: 'D Thomas',
     detail: 'Google review · May 2026',
-    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/omo-valley.jpg',
+    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/v1793010802/omo-tsemay-pottery-market.jpg',
     platform: 'Google',
     rating: 5,
     date: 'May 2026',
