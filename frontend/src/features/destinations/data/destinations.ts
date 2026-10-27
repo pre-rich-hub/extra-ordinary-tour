@@ -110,7 +110,7 @@ export const destinations: Destination[] = [
     name: 'Simien Mountains',
     region: 'Nature & Wildlife',
     tag: 'UNESCO National Park',
-    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/v1792849798/Simien_Mountains.png',
+    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/v1793090614/gelada-male.jpg',
     teaser:
       'The Roof of Africa, where gelada monkeys graze above a thousand-metre drop.',
     intro:
@@ -163,7 +163,7 @@ export const destinations: Destination[] = [
     name: 'Gondar',
     region: 'Historic Northern Ethiopia',
     tag: 'Imperial City',
-    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/gondar-fasil.jpg',
+    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/v1793090614/gondar-fasilides-castle-stairs.jpg',
     teaser:
       'The Camelot of Africa: castles, baths and painted ceilings of a highland empire.',
     intro:
@@ -357,7 +357,7 @@ export const destinations: Destination[] = [
     name: 'Abune Yosef',
     region: 'Historic Northern Ethiopia',
     tag: 'Highland Trekking',
-    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/v1792849709/abune-yosef-ascent.png',
+    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/v1793090614/abune-yosef-summit-hikers.webp',
     teaser:
       'A 4,284-metre massif above Lalibela with Ethiopian wolves and gelada.',
     intro:
@@ -529,7 +529,7 @@ export const destinations: Destination[] = [
     name: 'Unity Park',
     region: 'Addis Ababa & Surroundings',
     tag: 'Palace Gardens',
-    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/unity-park.jpg',
+    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/v1793090614/unity-park-palace-hall.jpg',
     teaser:
       'The grounds of Menelik II’s Grand Palace, opened to the public in 2019.',
     intro:
@@ -1352,7 +1352,7 @@ export const destinations: Destination[] = [
     name: 'Timkat (Epiphany)',
     region: 'Festivals & Events',
     tag: 'UNESCO Intangible Heritage',
-    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/v1792849804/timkat-festival-journey.jpg',
+    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/v1793096397/gondar-timkat-fasilides-bath-crowd.jpg',
     teaser:
       'Ethiopia’s greatest festival: processions, holy water and joyful celebration.',
     intro:
@@ -1401,7 +1401,7 @@ export const destinations: Destination[] = [
     name: 'Genna (Ethiopian Christmas)',
     region: 'Festivals & Events',
     tag: 'Festival',
-    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/v1793006889/lalibela-priests-procession-night.jpg',
+    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/v1793096397/lalibela-genna-priests-flag.jpg',
     teaser:
       'An all-night vigil among the rock-hewn churches of Lalibela on 7 January.',
     intro:
@@ -1497,7 +1497,7 @@ export const destinations: Destination[] = [
     name: 'Buhe',
     region: 'Festivals & Events',
     tag: 'Festival',
-    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/meskel.jpg',
+    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/v1793090614/buhe-bonfire-celebration.jpg',
     teaser:
       'The Feast of the Transfiguration: bonfires, bread and boys singing hoya hoye.',
     intro:

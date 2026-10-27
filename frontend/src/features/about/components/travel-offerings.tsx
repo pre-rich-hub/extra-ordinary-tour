@@ -11,7 +11,7 @@ const offerings = [
   {
     title: 'The Historic Route',
     text: 'Axum, Lalibela, Gondar, Lake Tana and the cliff churches of Tigray.',
-    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/gondar-fasil.jpg',
+    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/v1793096397/gondar-fasil-ghebbi-walls.jpg',
     href: '/tours/10-day-historic-route',
     span: 'sm:col-span-2 sm:row-span-2 lg:col-span-7',
   },
@@ -25,21 +25,21 @@ const offerings = [
   {
     title: 'Danakil Depression',
     text: 'Erta Ale’s lava lake, Dallol and the salt caravans.',
-    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/v1792849753/danakil.png',
+    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/v1793096397/danakil-dallol-pools-visitors.jpg',
     href: '/tours/3-day-afar-danakil-from-addis',
     span: 'lg:col-span-5',
   },
   {
     title: 'Trekking & Wildlife',
     text: 'The Simien and Bale Mountains, gelada, walia ibex and the Ethiopian wolf.',
-    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/simien-gelada.jpg',
+    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/v1793096397/simien-escarpment-view.jpg',
     href: '/tours/5-day-simien-mountains-trek',
     span: 'lg:col-span-4',
   },
   {
     title: 'Festivals & Coffee',
     text: 'Timkat, Genna and Meskel, and the coffee lands of the south.',
-    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/v1792849804/timkat-festival-journey.jpg',
+    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/v1793096397/lalibela-genna-crowd-panorama.jpg',
     href: '/tours/8-day-north-with-timkat-festival',
     span: 'lg:col-span-4',
   },
