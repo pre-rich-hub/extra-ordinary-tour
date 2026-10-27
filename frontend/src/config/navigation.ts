@@ -10,7 +10,7 @@ export const navLinks: readonly NavLink[] = [
   { label: 'Tours', href: '/tours' },
   { label: 'Layover Tours', href: '/layover' },
   {
-    label: 'About Us',
+    label: 'About',
     href: '/about',
     children: [
       { label: 'About Us', href: '/about' },

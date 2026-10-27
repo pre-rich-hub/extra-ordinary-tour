@@ -5,23 +5,23 @@ import { SectionHeading } from '@/components/ui/section-heading'
 const steps = [
   {
     n: '01',
-    title: 'You write, we listen',
-    text: 'A sentence is enough to start: your dates, interests, travel style, group size and budget, or the package that caught your eye.',
+    title: 'You tell us what you have in mind',
+    text: 'Start with a few details: your travel dates, interests, preferred travel style, group size and budget. Or simply tell us which tour caught your eye. We’ll take it from there.',
   },
   {
     n: '02',
-    title: 'We draft a route',
-    text: 'Within 24 hours our team confirms availability and sends an itinerary and a clear quote for your dates and group.',
+    title: 'We design your itinerary',
+    text: 'Within 24 hours, we’ll respond to your enquiry, check availability and send you a tailored itinerary with clear pricing for your dates and group.',
   },
   {
     n: '03',
-    title: 'We redraw it',
-    text: 'Add a festival, a trek or an extra night; swap a drive for a flight. We adjust the plan until it is exactly right for you.',
+    title: 'We refine every detail',
+    text: 'Want to add a festival, include a trek, stay an extra night or replace a long drive with a flight? We’ll adjust the route and fine-tune the details until the journey feels right for you.',
   },
   {
     n: '04',
-    title: 'We are there',
-    text: 'Met at Bole International Airport whatever your arrival time, guided throughout, and supported by our team 24 hours a day.',
+    title: 'We welcome you to Ethiopia',
+    text: 'From your arrival at Bole International Airport to the final day of your tour, we’re here to help. Enjoy carefully arranged travel, knowledgeable local guides and support from our team throughout your journey, including 24-hour assistance for urgent travel needs.',
   },
 ]
 
@@ -35,7 +35,7 @@ export function PlanningSteps() {
           eyebrow={copy('What Happens Next')}
           title={copy('How we plan your journey')}
           aside={copy(
-            'Four simple steps from first message to your arrival in Ethiopia.',
+            'Four simple steps from your first enquiry to your arrival in Ethiopia.',
           )}
         />
         <div className="grid gap-x-10 gap-y-10 sm:grid-cols-2 lg:grid-cols-4">

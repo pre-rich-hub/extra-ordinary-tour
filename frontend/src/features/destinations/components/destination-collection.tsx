@@ -6,7 +6,7 @@ import { SectionNav } from '@/components/ui/section-nav'
 import { DestinationInfoCard } from './destination-card'
 import { SectionHeading } from '@/components/ui/section-heading'
 import { getDestinations } from '../data/localized'
-import { destinationRegions } from '../data/regions'
+import { destinationRegions, regionMembers } from '../data/regions'
 
 export function DestinationCollection() {
   const copy = useCopy()
@@ -17,8 +17,12 @@ export function DestinationCollection() {
   // destinations themselves so they follow the page language.
   const groups = destinationRegions
     .map((r) => {
-      const items = destinations.filter((d) => d.regionKey === r.label)
-      return { id: r.id, label: items[0]?.region ?? r.label, items }
+      const members = regionMembers(r.label, destinations)
+      const label =
+        members.find((d) => d.regionKey === r.label)?.region ?? r.label
+      // Cards name the group they are listed in, even for shared members.
+      const items = members.map((d) => ({ ...d, region: label }))
+      return { id: r.id, label, items }
     })
     .filter((g) => g.items.length)
 

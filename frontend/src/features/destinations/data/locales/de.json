@@ -690,7 +690,7 @@
     ]
   },
   "gambella-national-park": {
-    "name": "Gambella-Nationalpark",
+    "name": "Gambela-Nationalpark",
     "region": "Weitere Reiseziele & Erlebnisse",
     "tag": "Tierwanderung",
     "teaser": "Äthiopiens tropischer Westen mit der großen Wanderung der Weißohr-Moorantilope.",
@@ -705,8 +705,8 @@
       "Gemeinschaften der Anuak und Nuer am Baro"
     ],
     "paragraphs": [
-      "Gambella ist Äthiopiens echte Tropenzone, ein Land aus hohem sudanesischem Gras, Feuchtgebieten und Flüssen. Der Gambella-Nationalpark ist die Heimat von Elefant, Büffel, Löwe, Leopard, Flusspferd, Nilkrokodil und seltenen Antilopen wie der Weißnacken-Moorantilope und erlebt eine der größten Säugetierwanderungen Afrikas, wenn riesige Herden von Weißohr-Moorantilopen über die Ebenen ziehen.",
-      "Abgelegen und mit begrenzter Infrastruktur, besucht man Gambella am besten im Rahmen einer maßgeschneiderten Expedition für abenteuerlustige Reisende."
+      "Gambela ist Äthiopiens echte Tropenzone, ein Land aus hohem sudanesischem Gras, Feuchtgebieten und Flüssen. Der Gambela-Nationalpark ist die Heimat von Elefant, Büffel, Löwe, Leopard, Flusspferd, Nilkrokodil und seltenen Antilopen wie der Weißnacken-Moorantilope und erlebt eine der größten Säugetierwanderungen Afrikas, wenn riesige Herden von Weißohr-Moorantilopen über die Ebenen ziehen.",
+      "Abgelegen und mit begrenzter Infrastruktur, besucht man Gambela am besten im Rahmen einer maßgeschneiderten Expedition für abenteuerlustige Reisende."
     ]
   },
   "kafta-sheraro-national-park": {
@@ -1010,7 +1010,7 @@
     ]
   },
   "kaffa-and-bonga": {
-    "name": "Kaffa & Bonga",
+    "name": "Kafa-Biosphärenreservat & Bonga",
     "region": "Weitere Reiseziele & Erlebnisse",
     "tag": "Heimat des Kaffees",
     "teaser": "Wilder Arabica in den Bergwäldern des Kafa-Biosphärenreservats.",
@@ -1269,6 +1269,66 @@
       "Hawassa liegt am Ostufer des Hawassa-Sees, eines Süßwassersees im Großen Rift Valley. Baumgesäumte Alleen und die Uferpromenade machen sie zu einer der angenehmsten Städte Südäthiopiens.",
       "Bekannt ist die Stadt vor allem für ihren Fischmarkt, auf dem die Fischer im Morgengrauen ihren Fang anlanden, während Marabus auf Reste warten. Im See leben außerdem Flusspferde und viele Wasservögel.",
       "Hawassa ist ein bequemer Übernachtungsstopp auf Reisen zwischen Addis Abeba, Arba Minch und dem Omo-Tal und ein Ausgangspunkt für die heißen Quellen von Wondo Genet und die Kaffeegebiete von Sidama."
+    ]
+  },
+  "gambela": {
+    "name": "Gambela",
+    "region": "Westäthiopien",
+    "tag": "Tor zum Baro",
+    "teaser": "Eine Stadt am Ufer des Baro, Tor zum tropischen Westen Äthiopiens.",
+    "intro": "Die Hauptstadt der Region Gambela am Ufer des Baro-Flusses im westlichen Tiefland nahe der Grenze zum Südsudan.",
+    "bestTime": "November bis März",
+    "duration": "1 bis 2 Tage",
+    "altitude": "Etwa 500 m",
+    "highlights": [
+      "Das Leben am Ufer des Baro",
+      "Die Gemeinschaften der Anuak und Nuer und ihre Traditionen",
+      "Spuren des Flusshafens aus dem frühen 20. Jahrhundert",
+      "Ausgangspunkt für den Gambela-Nationalpark"
+    ],
+    "paragraphs": [
+      "Gambela liegt im heißen, grünen Tiefland Westäthiopiens, wo der Baro nach Westen in Richtung Südsudan und Nil fließt. Zu Beginn des 20. Jahrhunderts war die Stadt ein an den Anglo-Ägyptischen Sudan verpachteter Flusshafen, und Dampfer brachten Kaffee und andere Waren flussabwärts; Spuren dieser Zeit sind am Ufer noch zu sehen.",
+      "Heute leben in Gambela unter anderem die Anuak und Nuer, und die Stadt ist Ausgangspunkt für Expeditionen in den Gambela-Nationalpark. Ethiopian Airlines fliegt von Addis Abeba nach Gambela, und ein Besuch lässt sich am besten im Rahmen einer individuellen Reise in den Westen organisieren."
+    ]
+  },
+  "jimma": {
+    "name": "Jimma",
+    "region": "Westäthiopien",
+    "tag": "Königliche Kaffeestadt",
+    "teaser": "Die alte Hauptstadt des Königreichs Jimma, im Herzen von Äthiopiens Kaffeeland.",
+    "intro": "Die größte Stadt im Südwesten Äthiopiens, einst Sitz von König Abba Jifar II. und bis heute ein Zentrum des Kaffeehandels.",
+    "bestTime": "Oktober bis Februar",
+    "duration": "1 bis 2 Tage",
+    "altitude": "Etwa 1.780 m",
+    "highlights": [
+      "Der Palast von König Abba Jifar II. über der Stadt",
+      "Das Jimma-Museum und seine königliche Sammlung",
+      "Kaffeefarmen und Märkte in den umliegenden Hügeln",
+      "Ein Tor nach Kafa und zu den Wäldern des Südwestens"
+    ],
+    "paragraphs": [
+      "Jimma war die Hauptstadt des Königreichs Jimma, eines der Gibe-Königreiche im Südwesten. Sein bekanntester Herrscher, Abba Jifar II., regierte von 1878 bis 1932; sein hölzerner Palast und die Moschee stehen noch heute auf einem Hügel über der Stadt. Das Jimma-Museum zeigt Gegenstände aus dem königlichen Hof.",
+      "Umgeben von grünen Hügeln und Kaffeefarmen ist Jimma bis heute eines der wichtigsten Kaffeehandelszentren Äthiopiens und ein natürlicher Halt auf Reisen nach Kafa, Bonga und Mizan Teferi. Die Stadt hat einen Flughafen mit Flügen aus Addis Abeba."
+    ]
+  },
+  "mizan-teferi": {
+    "name": "Mizan Teferi",
+    "region": "Westäthiopien",
+    "tag": "Wälder & Kaffee",
+    "teaser": "Eine grüne Hochlandstadt zwischen Wäldern und Kaffeeplantagen im äußersten Südwesten Äthiopiens.",
+    "intro": "Eine Stadt in der Zone Bench Sheko, umgeben von Wald und Kaffeeplantagen, und das Tor zu den abgelegenen Gebieten der Surma.",
+    "bestTime": "November bis Februar",
+    "duration": "1 bis 2 Tage",
+    "altitude": "Etwa 1.450 m",
+    "highlights": [
+      "Die Kaffeeplantage Bebeka, eine der größten Äthiopiens",
+      "Waldwanderungen mit reicher Vogelwelt und Primaten",
+      "Das Volk der Bench und seine lokalen Märkte",
+      "Die Straße nach Süden in Richtung Kibish und zu den Surma (Suri)"
+    ],
+    "paragraphs": [
+      "Mizan Teferi liegt in einer der feuchtesten und grünsten Ecken Äthiopiens, wo das Hochland zum Tiefland des Omo abfällt. Die umliegenden Wälder und Plantagen machen den Ort zu einem lohnenden Halt für Reisende, die sich für Kaffee und Natur interessieren.",
+      "In der Nähe liegt Bebeka, eine der größten Kaffeeplantagen des Landes. Mizan Teferi ist außerdem Ausgangspunkt für Expeditionen nach Süden zu Kibish und den Gemeinschaften der Surma (Suri) und lässt sich gut mit Jimma, Bonga und dem Kafa-Biosphärenreservat verbinden."
     ]
   }
 }

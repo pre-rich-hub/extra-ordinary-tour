@@ -508,9 +508,7 @@ export function SiteNav({
                         label: copy(c.label),
                         href: `/tours?category=${c.id}`,
                       }))
-                    : (link.children ?? [])
-                        .filter((child) => child.href !== link.href)
-                        .map((child) => ({
+                    : (link.children ?? []).map((child) => ({
                           label: copy(child.label),
                           href: child.href,
                         }))

@@ -690,7 +690,7 @@
     ]
   },
   "gambella-national-park": {
-    "name": "Parque Nacional Gambella",
+    "name": "Parque Nacional de Gambela",
     "region": "Otros destinos y experiencias",
     "tag": "Migración de vida silvestre",
     "teaser": "El oeste tropical de Etiopía, con la gran migración del kob orejudo.",
@@ -705,8 +705,8 @@
       "Comunidades anuak y nuer a lo largo del río Baro"
     ],
     "paragraphs": [
-      "Gambella es la verdadera zona tropical de Etiopía, una tierra de altos pastos, humedales y ríos sudaneses. El Parque Nacional Gambella es hogar de elefantes, búfalos, leones, leopardos, hipopótamos, cocodrilos del Nilo y antílopes raros como el lechwe del Nilo, y alberga una de las migraciones de mamíferos más grandes de África cuando grandes manadas de kobs de orejas blancas se desplazan por las llanuras.",
-      "Remota y con una infraestructura limitada, es mejor visitar Gambella como una expedición hecha a medida para viajeros aventureros."
+      "Gambela es la verdadera zona tropical de Etiopía, una tierra de altos pastos, humedales y ríos sudaneses. El Parque Nacional Gambela es hogar de elefantes, búfalos, leones, leopardos, hipopótamos, cocodrilos del Nilo y antílopes raros como el lechwe del Nilo, y alberga una de las migraciones de mamíferos más grandes de África cuando grandes manadas de kobs de orejas blancas se desplazan por las llanuras.",
+      "Remota y con una infraestructura limitada, es mejor visitar Gambela como una expedición hecha a medida para viajeros aventureros."
     ]
   },
   "kafta-sheraro-national-park": {
@@ -1010,7 +1010,7 @@
     ]
   },
   "kaffa-and-bonga": {
-    "name": "Kaffa y Bonga",
+    "name": "Reserva de la Biosfera de Kafa y Bonga",
     "region": "Otros destinos y experiencias",
     "tag": "Lugar de nacimiento del café",
     "teaser": "Arábica silvestre en los bosques montanos de la Reserva de la Biosfera de Kafa.",
@@ -1269,6 +1269,66 @@
       "Hawassa se encuentra en la orilla oriental del lago Hawassa, un lago de agua dulce del Gran Valle del Rift. Sus avenidas arboladas y su paseo junto al lago la convierten en una de las ciudades más agradables del sur de Etiopía.",
       "La ciudad es conocida sobre todo por su mercado de pescado, donde los pescadores llegan con sus capturas al amanecer mientras los marabúes esperan las sobras. El lago también alberga hipopótamos y una gran variedad de aves acuáticas.",
       "Hawassa es una cómoda parada para pasar la noche en los viajes entre Addis Abeba, Arba Minch y el valle del Omo, y una base para visitar las fuentes termales de Wondo Genet y las tierras cafeteras de Sidama."
+    ]
+  },
+  "gambela": {
+    "name": "Gambela",
+    "region": "Etiopía occidental",
+    "tag": "Puerta del río Baro",
+    "teaser": "Una ciudad a orillas del Baro, puerta de entrada al oeste tropical de Etiopía.",
+    "intro": "La capital de la región de Gambela, a orillas del río Baro, en las tierras bajas occidentales cerca de la frontera con Sudán del Sur.",
+    "bestTime": "De noviembre a marzo",
+    "duration": "1 a 2 días",
+    "altitude": "Unos 500 m",
+    "highlights": [
+      "La vida a orillas del río Baro",
+      "Las comunidades anuak y nuer y sus tradiciones",
+      "Huellas del puerto fluvial de principios del siglo XX",
+      "El punto de partida hacia el Parque Nacional de Gambela"
+    ],
+    "paragraphs": [
+      "Gambela se encuentra en las cálidas y verdes tierras bajas del oeste de Etiopía, donde el río Baro fluye hacia Sudán del Sur y el Nilo. A principios del siglo XX la ciudad fue un puerto fluvial arrendado al Sudán angloegipcio, y los vapores transportaban café y otras mercancías río abajo; aún pueden verse huellas de aquella época a orillas del río.",
+      "Hoy Gambela es el hogar de los pueblos anuak y nuer, entre otros, y la base para las expediciones al Parque Nacional de Gambela. Ethiopian Airlines vuela a Gambela desde Addis Abeba, y lo mejor es organizar la visita como parte de un viaje a medida por el oeste."
+    ]
+  },
+  "jimma": {
+    "name": "Jimma",
+    "region": "Etiopía occidental",
+    "tag": "Ciudad real del café",
+    "teaser": "La antigua capital del Reino de Jimma, en el corazón de la región cafetera de Etiopía.",
+    "intro": "La mayor ciudad del suroeste de Etiopía, antigua sede del rey Abba Jifar II y todavía un centro del comercio del café.",
+    "bestTime": "De octubre a febrero",
+    "duration": "1 a 2 días",
+    "altitude": "Unos 1.780 m",
+    "highlights": [
+      "El palacio del rey Abba Jifar II sobre la ciudad",
+      "El Museo de Jimma y su colección real",
+      "Fincas y mercados de café en las colinas cercanas",
+      "Una puerta de entrada a Kafa y a los bosques del suroeste"
+    ],
+    "paragraphs": [
+      "Jimma fue la capital del Reino de Jimma, uno de los reinos del Gibe en el suroeste. Su soberano más conocido, Abba Jifar II, reinó de 1878 a 1932, y su palacio de madera y su mezquita siguen en pie sobre una colina que domina la ciudad. El Museo de Jimma conserva objetos de la corte real.",
+      "Rodeada de colinas verdes y fincas de café, Jimma sigue siendo uno de los principales centros del comercio cafetero de Etiopía y una parada natural en los viajes a Kafa, Bonga y Mizan Teferi. La ciudad tiene aeropuerto con vuelos desde Addis Abeba."
+    ]
+  },
+  "mizan-teferi": {
+    "name": "Mizan Teferi",
+    "region": "Etiopía occidental",
+    "tag": "Bosques y café",
+    "teaser": "Una verde ciudad de montaña entre bosques y fincas de café en el extremo suroeste de Etiopía.",
+    "intro": "Una ciudad de la zona de Bench Sheko, rodeada de bosques y plantaciones de café, y puerta de entrada a las remotas tierras surma.",
+    "bestTime": "De noviembre a febrero",
+    "duration": "1 a 2 días",
+    "altitude": "Unos 1.450 m",
+    "highlights": [
+      "La finca cafetera de Bebeka, una de las mayores de Etiopía",
+      "Paseos por el bosque ricos en aves y primates",
+      "El pueblo bench y sus mercados locales",
+      "La carretera hacia el sur, a Kibish y los surma (suri)"
+    ],
+    "paragraphs": [
+      "Mizan Teferi se encuentra en uno de los rincones más húmedos y verdes de Etiopía, donde las tierras altas descienden hacia las tierras bajas del Omo. Sus bosques y plantaciones la convierten en una parada muy gratificante para los viajeros interesados en el café y la naturaleza.",
+      "Cerca se encuentra Bebeka, una de las mayores fincas cafeteras del país. Mizan Teferi es también el punto de partida de las expediciones hacia el sur, a Kibish y las comunidades surma (suri), y se combina de forma natural con Jimma, Bonga y la Reserva de la Biosfera de Kafa."
     ]
   }
 }

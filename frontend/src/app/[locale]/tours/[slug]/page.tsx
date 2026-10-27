@@ -18,6 +18,7 @@ import { TourItinerary } from '@/features/tours/components/tour-itinerary'
 import { TourInclusions } from '@/features/tours/components/tour-inclusions'
 import { TourEnquiry } from '@/features/tours/components/tour-enquiry'
 import { TourFaq } from '@/features/tours/components/tour-faq'
+import { ReviewHighlights } from '@/features/reviews/components/review-highlights'
 import { RelatedTours } from '@/features/tours/components/related-tours'
 
 export function generateStaticParams() {
@@ -109,6 +110,9 @@ export default async function TourPage({
 
       {/* Questions answered from this tour's data */}
       <TourFaq tour={t} />
+
+      {/* Reviews */}
+      <ReviewHighlights />
 
       {/* Enquire */}
       <TourEnquiry tour={t} />

@@ -8,6 +8,7 @@ import { Reveal } from '@/components/ui/reveal'
 import { TextLink } from '@/components/ui/link-button'
 import { getTours } from '@/features/tours/data/localized'
 import type { Tour } from '@/features/tours/types'
+import { hasPrice, priceShort } from '@/features/tours/lib/format'
 import { cn } from '@/lib/utils'
 
 // Desktop mosaic: a large feature with two tiles stacked beside it, then a
@@ -136,6 +137,13 @@ function JourneyTile({ tour: t, large }: { tour: Tour; large: boolean }) {
           {copy(t.days)} <span className="mx-1.5 text-accent">·</span>{' '}
           {copy(t.season)}
         </p>
+        {hasPrice(t.from) && (
+          <p className="mt-2 text-[11px] font-semibold uppercase tracking-[0.16em] text-accent">
+            {copy('Starting from {v0} per person', {
+              v0: priceShort(t.from),
+            })}
+          </p>
+        )}
 
         {/* Short description opens on hover or keyboard focus on desktop */}
         <div className="grid grid-rows-[0fr] transition-[grid-template-rows] duration-500 ease-out lg:group-hover:grid-rows-[1fr] lg:group-focus-visible:grid-rows-[1fr]">

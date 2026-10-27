@@ -3,6 +3,7 @@ import { Link } from '@/i18n/navigation'
 import { MapPin } from 'lucide-react'
 import { Reveal } from '@/components/ui/reveal'
 import type { Destination } from '../types'
+import { regionMembers } from '../data/regions'
 
 /** The next few destinations in the same region, in catalogue order. */
 export function DestinationRegion({
@@ -14,7 +15,7 @@ export function DestinationRegion({
 }) {
   const copy = useCopy()
 
-  const region = destinations.filter((o) => o.regionKey === d.regionKey)
+  const region = regionMembers(d.regionKey ?? d.region, destinations)
   const at = region.findIndex((o) => o.slug === d.slug)
   const nearby = [...region.slice(at + 1), ...region.slice(0, at)].slice(0, 6)
   if (!nearby.length) return null

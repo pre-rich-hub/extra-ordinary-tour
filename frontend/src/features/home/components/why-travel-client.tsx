@@ -18,13 +18,12 @@ const featured = ['local', 'tailored', 'explore'] as const
 // Rated platforms only; the strip has room for four figures.
 const stats = [
   ...reviewSummaries
-    .filter((s) => s.rating !== null && s.platform !== 'Google')
+    .filter((s) => s.rating !== null)
     .map((s) => ({
       label: s.platform,
       value: `${s.rating?.toFixed(1)} / 5`,
     })),
   { label: 'Experience', value: '10+ years' },
-  { label: 'Support', value: '24/7' },
 ]
 
 export function WhyTravelClient({ whyUs }: { whyUs: typeof sourceRecords }) {

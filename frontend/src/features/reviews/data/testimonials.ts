@@ -322,13 +322,11 @@ export const reviewSummaries: ReviewSummary[] = [
     count: 38,
     rating: 4.9,
   },
-  // Rating to be confirmed from the Google profile; until then only the
-  // review count is shown.
   {
     platform: 'Google',
     url: GOOGLE_URL,
     count: 17,
-    rating: null,
+    rating: 5.0,
     writeUrl: GOOGLE_WRITE_URL,
   },
 ]

@@ -840,7 +840,7 @@ export const destinations: Destination[] = [
   },
   {
     slug: 'gambella-national-park',
-    name: 'Gambella National Park',
+    name: 'Gambela National Park',
     region: 'Other Destinations & Experiences',
     tag: 'Wildlife Migration',
     image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/gambella.jpg',
@@ -858,8 +858,80 @@ export const destinations: Destination[] = [
       'Anuak and Nuer communities along the Baro River',
     ],
     paragraphs: [
-      'Gambella is Ethiopia’s true tropical zone, a land of tall Sudanese grass, wetlands and rivers. Gambella National Park is home to elephant, buffalo, lion, leopard, hippo, Nile crocodile and rare antelopes such as the Nile lechwe, and hosts one of Africa’s largest mammal migrations when vast herds of white-eared kob move across the plains.',
-      'Remote and with limited infrastructure, Gambella is best visited as a tailor-made expedition for adventurous travellers.',
+      'Gambela is Ethiopia’s true tropical zone, a land of tall Sudanese grass, wetlands and rivers. Gambella National Park is home to elephant, buffalo, lion, leopard, hippo, Nile crocodile and rare antelopes such as the Nile lechwe, and hosts one of Africa’s largest mammal migrations when vast herds of white-eared kob move across the plains.',
+      'Remote and with limited infrastructure, Gambela is best visited as a tailor-made expedition for adventurous travellers.',
+    ],
+  },
+  {
+    slug: 'gambela',
+    name: 'Gambela',
+    region: 'Western Ethiopia',
+    tag: 'Baro River Gateway',
+    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/gambella.jpg',
+    teaser:
+      'A riverside town on the Baro, gateway to Ethiopia’s tropical west.',
+    intro:
+      'The capital of the Gambela Region, on the banks of the Baro River in the western lowlands near the border with South Sudan.',
+    bestTime: 'November to March',
+    duration: '1 to 2 days',
+    altitude: 'About 500 m',
+    highlights: [
+      'Life along the banks of the Baro River',
+      'Anuak and Nuer communities and their traditions',
+      'Traces of the early 20th-century river port',
+      'The starting point for Gambela National Park',
+    ],
+    paragraphs: [
+      'Gambela lies in the hot, green lowlands of western Ethiopia, where the Baro River flows west towards South Sudan and the Nile. In the early twentieth century the town was a river port leased to Anglo-Egyptian Sudan, and steamers carried coffee and other goods downriver; traces of that era can still be seen along the riverbank.',
+      'Today Gambela is home to the Anuak and Nuer peoples, among others, and is the base for expeditions into Gambela National Park. Ethiopian Airlines flies to Gambela from Addis Ababa, and visits are best arranged as part of a tailor-made journey to the west.',
+    ],
+  },
+  {
+    slug: 'jimma',
+    name: 'Jimma',
+    region: 'Western Ethiopia',
+    tag: 'Royal Coffee Town',
+    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/v1792854537/coffee_journey.jpg',
+    teaser:
+      'The old capital of the Kingdom of Jimma, at the heart of Ethiopia’s coffee country.',
+    intro:
+      'The largest city in southwestern Ethiopia, once the seat of King Abba Jifar II and still a centre of the coffee trade.',
+    bestTime: 'October to February',
+    duration: '1 to 2 days',
+    altitude: 'About 1,780 m',
+    highlights: [
+      'The palace of King Abba Jifar II above the city',
+      'The Jimma Museum and its royal collection',
+      'Coffee farms and markets in the surrounding hills',
+      'A gateway to Kafa and the southwestern forests',
+    ],
+    paragraphs: [
+      'Jimma was the capital of the Kingdom of Jimma, one of the Gibe kingdoms of the southwest. Its best-known ruler, Abba Jifar II, reigned from 1878 until 1932, and his wooden palace and mosque still stand on a hill above the city. The Jimma Museum holds objects from the royal court.',
+      'Surrounded by green hills and coffee farms, Jimma remains one of Ethiopia’s main coffee-trading centres and a natural stop on journeys to Kafa, Bonga and Mizan Teferi. The city has an airport with flights from Addis Ababa.',
+    ],
+  },
+  {
+    slug: 'mizan-teferi',
+    name: 'Mizan Teferi',
+    region: 'Western Ethiopia',
+    tag: 'Forests & Coffee',
+    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/coffee-farm.jpg',
+    teaser:
+      'A green highland town among forests and coffee estates in Ethiopia’s far southwest.',
+    intro:
+      'A town in the Bench Sheko Zone, surrounded by forest and coffee plantations, and the gateway to the remote Surma lands.',
+    bestTime: 'November to February',
+    duration: '1 to 2 days',
+    altitude: 'About 1,450 m',
+    highlights: [
+      'The Bebeka coffee estate, one of the largest in Ethiopia',
+      'Forest walks rich in birdlife and primates',
+      'The Bench people and their local markets',
+      'The road south towards Kibish and the Surma (Suri)',
+    ],
+    paragraphs: [
+      'Mizan Teferi sits in one of the wettest and greenest corners of Ethiopia, where the highlands fall away towards the lowlands of the Omo. The surrounding forests and plantations make it a rewarding stop for travellers interested in coffee and nature.',
+      'Nearby Bebeka is one of the country’s largest coffee estates. Mizan Teferi is also the starting point for expeditions south to Kibish and the Surma (Suri) communities, and combines naturally with Jimma, Bonga and the Kafa Biosphere Reserve.',
     ],
   },
   {
@@ -1251,7 +1323,7 @@ export const destinations: Destination[] = [
   },
   {
     slug: 'kaffa-and-bonga',
-    name: 'Kaffa & Bonga',
+    name: 'Kafa Biosphere Reserve & Bonga',
     region: 'Other Destinations & Experiences',
     tag: 'Birthplace of Coffee',
     image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/kaffa-forest.jpg',
