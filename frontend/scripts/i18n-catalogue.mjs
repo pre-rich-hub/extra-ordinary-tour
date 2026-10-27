@@ -110,7 +110,15 @@ export const catalogueSpecs = [
     file: 'travel-guide',
     binding: 'travelGuide',
     key: 'id',
-    fields: ['label', 'eyebrow', 'title', 'paragraphs', 'facts', 'links'],
+    fields: [
+      'label',
+      'eyebrow',
+      'title',
+      'imageAlt',
+      'paragraphs',
+      'facts',
+      'links',
+    ],
   },
 ]
 export function readCatalogue(spec) {
