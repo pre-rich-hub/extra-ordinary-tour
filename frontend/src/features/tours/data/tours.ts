@@ -178,7 +178,7 @@ export const tours: Tour[] = [
     // Tour code EDT-03-H3
     slug: '3-day-lalibela-rock-churches',
     title: '3-Day Lalibela Rock-Hewn Churches',
-    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/v1792852734/3-Day_Lalibela_Rock-Hewn_Churches.jpg',
+    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/v1793096397/lalibela-priest-doorway-cross.jpg',
     days: '3 Days',
     nights: 2,
     style: 'Historical · Cultural',
@@ -279,7 +279,7 @@ export const tours: Tour[] = [
     // Tour code EDT-03-H5
     slug: '5-day-tigray-rock-hewn-churches',
     title: '5-Day Tigray Rock-Hewn Churches Tour',
-    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/v1792849747/gheralta-mountains.jpg',
+    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/v1793090614/tigray-abuna-yemata-cliff-path.webp',
     days: '5 Days',
     nights: 4,
     style: 'Historical · Trekking',
@@ -442,7 +442,7 @@ export const tours: Tour[] = [
     // Tour code EDT-03-H12
     slug: '12-day-amazing-ethiopia',
     title: '12-Day Amazing Ethiopia',
-    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/v1792849753/danakil.png',
+    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/v1793096397/danakil-dallol-yellow-terraces.jpg',
     days: '12 Days',
     nights: 11,
     style: 'Historical · Cultural · Danakil',
@@ -1200,7 +1200,7 @@ export const tours: Tour[] = [
     // Tour code EDT-05-OF
     slug: '5-day-omo-valley-by-flight',
     title: '5-Day Omo Valley Tour by Flight',
-    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/v1793010802/omo-dassanech-hut.webp',
+    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/v1793096397/omo-hamar-dance-wide.jpg',
     days: '5 Days',
     nights: 4,
     style: 'Cultural',
@@ -1269,7 +1269,7 @@ export const tours: Tour[] = [
     // Tour code EDT-05-OV
     slug: '9-day-omo-valley-cultural',
     title: '9-Day Omo Valley Cultural',
-    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/v1793010802/omo-karo-painted-men.jpg',
+    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/v1793096397/omo-karo-women-painted-faces.jpg',
     days: '9 Days',
     nights: 8,
     style: 'Cultural',
@@ -1658,7 +1658,7 @@ export const tours: Tour[] = [
     // Tour code EDT-03-NF
     slug: '8-day-north-with-timkat-festival',
     title: '8-Day Northern Ethiopia Tour with Timkat Festival',
-    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/v1792849804/timkat-festival-journey.jpg',
+    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/v1793096397/gondar-timkat-fasilides-bath-pool.jpg',
     days: '8 Days',
     nights: 7,
     style: 'Festival · Historical',
@@ -1804,7 +1804,7 @@ export const tours: Tour[] = [
     // Tour code EDT-03-NC
     slug: '8-day-north-with-genna-christmas',
     title: '8-Day Northern Ethiopia with Genna (Christmas)',
-    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/genna.jpg',
+    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/v1793090614/lalibela-genna-night-crowd.jpg',
     days: '8 Days',
     nights: 7,
     style: 'Festival · Historical',
@@ -2261,7 +2261,7 @@ export const tours: Tour[] = [
     // Tour code EDT-06-EST
     slug: '12-day-ethiopian-safari',
     title: '12-Day Ethiopian Safari',
-    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/bale-wolf.jpg',
+    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/c_fill,g_south,ar_4:3/v1793090614/ethiopian-wolf-ridge.jpg',
     days: '12 Days',
     nights: 11,
     style: 'Wildlife · Trekking',
@@ -2750,7 +2750,7 @@ export const tours: Tour[] = [
     // Tour code EDT-07-SMT
     slug: '3-day-simien-mountains-trek',
     title: '3-Day Simien Mountains Trek',
-    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/simien-trek.jpg',
+    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/v1793096397/simien-trail-hikers.jpg',
     days: '3 Days',
     nights: 2,
     style: 'Trekking',
@@ -2802,7 +2802,7 @@ export const tours: Tour[] = [
     // Tour code EDT-07-SNT
     slug: '5-day-simien-mountains-trek',
     title: '5-Day Simien Mountains Trekking',
-    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/v1792849798/Simien_Mountains.png',
+    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/v1793090614/highland-village-valley.jpg',
     days: '5 Days',
     nights: 4,
     style: 'Trekking',
@@ -3061,7 +3061,7 @@ export const tours: Tour[] = [
     // Tour code EDT-07-LLT
     slug: '4-day-lalibela-trek',
     title: '4-Day Lalibela Community Trekking',
-    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/v1792849709/abune-yosef-ascent.png',
+    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/v1793090614/abune-yosef-plateau-guests.jpg',
     days: '4 Days',
     nights: 3,
     style: 'Trekking · Cultural',
@@ -3122,7 +3122,7 @@ export const tours: Tour[] = [
     // Tour code EDT-07-LTT
     slug: '6-day-lalibela-trek-and-churches',
     title: '6-Day Lalibela Trek & Rock-Hewn Churches',
-    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/v1793006889/lalibela-bete-giyorgis-roof.jpg',
+    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/v1793096397/lalibela-mountains-golden-sunset.jpg',
     days: '6 Days',
     nights: 5,
     style: 'Trekking · Historical',
@@ -3186,7 +3186,7 @@ export const tours: Tour[] = [
     // Tour code EDT-08-DB1
     slug: '4-day-rift-valley-birding',
     title: '4-Day Rift Valley Birding',
-    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/birds-endemic.jpg',
+    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/v1793090614/birding-flycatcher-branch.jpg',
     days: '4 Days',
     nights: 3,
     style: 'Birding · Wildlife',
@@ -3311,7 +3311,7 @@ export const tours: Tour[] = [
     // Tour code EDT-08-DB3
     slug: '7-day-ethiopia-birding',
     title: '7-Day Ethiopia Birding',
-    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/ziway.jpg',
+    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/v1793090614/white-headed-vulture.jpg',
     days: '7 Days',
     nights: 6,
     style: 'Birding · Wildlife',
@@ -3387,7 +3387,7 @@ export const tours: Tour[] = [
     // Tour code EDT-01-LT
     slug: '2-day-lalibela',
     title: '2-Day Lalibela Tour',
-    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/v1793006889/lalibela-bete-giyorgis-trench.jpg',
+    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/v1793096397/lalibela-bete-giyorgis-drone.jpg',
     days: '2 Days',
     nights: 1,
     style: 'Historical · Day Trip',
@@ -3586,7 +3586,7 @@ export const tours: Tour[] = [
   {
     slug: '9-day-highlands-and-wildlife',
     title: '9-Day Highlands & Wildlife',
-    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/simien-gelada.jpg',
+    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/v1793090614/gelada-mother-baby.jpg',
     days: '9 Days',
     nights: 8,
     style: 'Wildlife · Trekking',
@@ -3651,7 +3651,7 @@ export const tours: Tour[] = [
     slug: '8-day-danakil-and-tigray-rock-churches',
     title: '8-Day Danakil Depression & Tigray Rock-Hewn Churches',
     image:
-      'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/danakil-dallol.jpg',
+      'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/v1793096397/tigray-rock-church-arched-facade.jpg',
     days: '8 Days',
     nights: 7,
     style: 'Danakil · Historical',
@@ -3748,7 +3748,7 @@ export const tours: Tour[] = [
     slug: '12-day-gheralta-danakil-lalibela-and-omo-valley',
     title: '12-Day Gheralta, Danakil, Lalibela & Omo Valley',
     image:
-      'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/gheralta-mountains.jpg',
+      'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/v1793090614/gheralta-hawzen-range.webp',
     days: '12 Days',
     nights: 11,
     style: 'Historical · Danakil · Cultural',
@@ -4151,7 +4151,7 @@ export const tours: Tour[] = [
     slug: '19-day-ethiopia-grand-expedition',
     title: '19-Day Ethiopia Grand Expedition',
     image:
-      'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/lalibela-giyorgis.jpg',
+      'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/v1793090614/lalibela-bete-giyorgis-above.jpg',
     days: '19 Days',
     nights: 18,
     style: 'Historical · Cultural · Danakil · Wildlife',

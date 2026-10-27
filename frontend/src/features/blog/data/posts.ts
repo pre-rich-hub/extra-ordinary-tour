@@ -99,7 +99,7 @@ export const posts: Post[] = [
     date: 'August 8, 2026',
     datePublished: '2026-08-08',
     readTime: '7 min read',
-    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/v1792852734/3-Day_Lalibela_Rock-Hewn_Churches.jpg',
+    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/v1793090614/lalibela-bete-giyorgis-above.jpg',
     author: 'Zelalem',
     authorRole: 'Travel Writer',
     excerpt:
@@ -121,7 +121,7 @@ export const posts: Post[] = [
     date: 'August 1, 2026',
     datePublished: '2026-08-01',
     readTime: '7 min read',
-    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/v1792849753/danakil.png',
+    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/v1793090614/danakil-dallol-yellow-pools.webp',
     author: 'Zelalem',
     authorRole: 'Travel Writer',
     excerpt:
@@ -184,7 +184,7 @@ export const posts: Post[] = [
     date: 'June 17, 2026',
     datePublished: '2026-06-17',
     readTime: '5 min read',
-    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/v1792849798/Simien_Mountains.png',
+    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/v1793090614/simien-escarpment-canyon.jpg',
     author: 'Zelalem',
     authorRole: 'Travel Writer',
     excerpt:
@@ -205,7 +205,7 @@ export const posts: Post[] = [
     date: 'June 12, 2026',
     datePublished: '2026-06-12',
     readTime: '6 min read',
-    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/v1793006889/lalibela-bete-giyorgis-roof.jpg',
+    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/v1793090614/lalibela-bete-giyorgis-pilgrims-white.jpg',
     author: 'Zelalem',
     authorRole: 'Travel Writer',
     excerpt:
