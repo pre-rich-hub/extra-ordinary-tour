@@ -819,7 +819,7 @@ export const destinations: Destination[] = [
     name: 'Chebera Churchura National Park',
     region: 'Other Destinations & Experiences',
     tag: 'Elephants',
-    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/chebera.jpg',
+    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/v1793099700/chebera-churchura-forest-valley.jpg',
     teaser:
       'Green forests, waterfalls and one of Ethiopia’s largest elephant herds.',
     intro:
@@ -843,7 +843,7 @@ export const destinations: Destination[] = [
     name: 'Gambela National Park',
     region: 'Other Destinations & Experiences',
     tag: 'Wildlife Migration',
-    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/gambella.jpg',
+    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/v1793100841/gambela-park-white-eared-kob-herd.jpg',
     teaser:
       'Ethiopia’s tropical west, with the great migration of the white-eared kob.',
     intro:
@@ -867,7 +867,7 @@ export const destinations: Destination[] = [
     name: 'Gambela',
     region: 'Western Ethiopia',
     tag: 'Baro River Gateway',
-    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/gambella.jpg',
+    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/v1793099700/gambela-village-sunset.jpg',
     teaser:
       'A riverside town on the Baro, gateway to Ethiopia’s tropical west.',
     intro:
@@ -891,7 +891,7 @@ export const destinations: Destination[] = [
     name: 'Jimma',
     region: 'Western Ethiopia',
     tag: 'Royal Coffee Town',
-    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/v1792854537/coffee_journey.jpg',
+    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/v1793100842/jimma-abba-jifar-palace-aerial.jpg',
     teaser:
       'The old capital of the Kingdom of Jimma, at the heart of Ethiopia’s coffee country.',
     intro:
@@ -915,7 +915,7 @@ export const destinations: Destination[] = [
     name: 'Mizan Teferi',
     region: 'Western Ethiopia',
     tag: 'Forests & Coffee',
-    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/coffee-farm.jpg',
+    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/v1793099700/mizan-coffee-drying-beds.webp',
     teaser:
       'A green highland town among forests and coffee estates in Ethiopia’s far southwest.',
     intro:
