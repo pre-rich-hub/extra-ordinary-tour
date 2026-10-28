@@ -27,3 +27,7 @@ export function nightsLabel(nights: number, locale: AppLocale = 'en') {
   }[locale]
   return `${new Intl.NumberFormat(locale).format(nights)} ${unit[nights === 1 ? 0 : 1]}`
 }
+/** Shortest tours first; equal lengths keep catalogue order (stable sort). */
+export function byDuration(a: { nights: number }, b: { nights: number }) {
+  return a.nights - b.nights
+}

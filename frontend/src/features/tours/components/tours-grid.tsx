@@ -6,6 +6,7 @@ import { useEffect, useState } from 'react'
 import { Reveal } from '@/components/ui/reveal'
 import { TourCard } from './tour-card'
 import { tourCategories } from '../data/categories'
+import { byDuration } from '../lib/format'
 import type { TourCardData } from '../types'
 
 const ALL = '__all__'
@@ -42,10 +43,11 @@ export function ToursGrid({ tours }: { tours: TourCardData[] }) {
     window.history.replaceState(null, '', url)
   }
 
-  const visible =
+  const visible = (
     active === ALL
       ? tours
       : tours.filter((t) => (t.categories ?? []).includes(active))
+  ).slice().sort(byDuration)
 
   return (
     <div>

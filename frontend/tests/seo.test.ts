@@ -85,10 +85,10 @@ describe('deployment indexing', () => {
     ])
   })
 
-  it('keeps all 592 canonical URLs indexable in production', () => {
+  it('keeps all 600 canonical URLs indexable in production', () => {
     vi.stubEnv('SEO_ENV', 'production')
-    // 148 pages, legal pages included, in each of four languages.
-    expect(sitemap()).toHaveLength(592)
+    // 150 pages, legal pages included, in each of four languages.
+    expect(sitemap()).toHaveLength(600)
     expect(
       sitemap()
         .filter((entry) => !entry.alternates)
@@ -173,6 +173,13 @@ describe('catalogue relationships', () => {
       expect(
         tours.find((t) => t.slug === slug)!.canonicalPlaces!.join(' '),
       ).toMatch(/Timkat/)
+  })
+
+  it('lists each destination’s tours from shortest to longest', () => {
+    for (const d of destinations) {
+      const nights = toursVisiting(d, tours).map((t) => t.nights)
+      expect(nights).toEqual(nights.toSorted((a, b) => a - b))
+    }
   })
 
   it('ranks related tours by shared destinations, not catalogue order', () => {

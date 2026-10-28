@@ -1,4 +1,5 @@
 import type { Tour } from '@/features/tours/types'
+import { byDuration } from '@/features/tours/lib/format'
 
 // Canonical (English) itinerary place names that visit each destination, in
 // addition to the destination's own name. Every alias is named in that
@@ -79,14 +80,17 @@ export function placeDestinations(tour: Routed, destinations: Named[]) {
   )
 }
 
-/** Tours that visit a destination, most focused itineraries first. */
-export function toursVisiting<T extends Routed>(
+/** Tours that visit a destination, shortest first, then most focused. */
+export function toursVisiting<T extends Routed & { nights: number }>(
   destination: Named,
   tours: T[],
 ) {
   return tours
     .filter((t) => placesOf(t).some((place) => visits(destination, place)))
-    .sort((a, b) => placesOf(a).length - placesOf(b).length)
+    .sort(
+      (a, b) =>
+        byDuration(a, b) || placesOf(a).length - placesOf(b).length,
+    )
 }
 
 /** Tours sharing destinations (beyond the gateway) and then travel style. */
