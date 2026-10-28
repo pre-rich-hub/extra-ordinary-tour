@@ -26,7 +26,7 @@ export function FloatingSupport() {
   const whatsappUrl = `https://wa.me/${formattedWhatsapp}`
 
   return (
-    <div className="fixed bottom-6 right-6 z-40">
+    <div className="fixed bottom-6 right-6 z-40 [body[data-menu-open]_&]:hidden">
       <a
         href={whatsappUrl}
         target="_blank"
