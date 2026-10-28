@@ -75,9 +75,8 @@ export const aboutEthiopia: GuideSection[] = [
     label: 'People & culture',
     eyebrow: 'A living mosaic',
     title: 'More than 80 ethnic groups, one remarkable heritage',
-    image: img('dorze.jpg'),
-    imageAlt:
-      'Tall woven bamboo houses of the Dorze people in the southern highlands',
+    image: img('v1793096381/omo-hamar-dance-wide.jpg'),
+    imageAlt: 'Hamar women dancing together at a gathering in the Omo Valley',
     paragraphs: [
       'Ethiopia is home to more than 80 ethnic groups, among them the Oromo, Amhara, Somali, Tigrayan, Sidama, Afar and the many peoples of the south. Each has its own language, dress, music and customs, and travelling from one region to the next can feel like crossing into another country.',
       'Amharic is written in Ge’ez, or fidel, one of the world’s oldest alphabets still in everyday use, and Ge’ez itself survives as the language of the Orthodox liturgy. The Oromo Gada system, a traditional form of self-government, is recognised by UNESCO as part of humanity’s intangible heritage.',
@@ -93,9 +92,9 @@ export const aboutEthiopia: GuideSection[] = [
     label: 'Faith & traditions',
     eyebrow: 'Ancient faiths, living traditions',
     title: 'Where faith shapes the rhythm of the year',
-    image: img('lalibela-pilgrims.jpg'),
+    image: img('v1793187762/timket.jpg'),
     imageAlt:
-      'Orthodox priests in white robes holding processional crosses in Lalibela',
+      'Orthodox priests in embroidered robes and ceremonial umbrellas celebrate Timkat',
     paragraphs: [
       'The Ethiopian Orthodox Tewahedo Church has shaped the country for sixteen centuries. Its priests still carry illuminated manuscripts and processional crosses, believers observe more than 180 fasting days a year, and churches from Tigray to Lake Tana preserve paintings and treasures many centuries old.',
       'Islam arrived in the time of the Prophet Muhammad, and Ethiopia is home to one of Africa’s oldest Muslim communities. The village of Negash and the walled city of Harar, with its hundreds of mosques and shrines, are important centres of Islamic heritage.',
@@ -112,9 +111,9 @@ export const aboutEthiopia: GuideSection[] = [
     label: 'Coffee & food',
     eyebrow: 'The birthplace of coffee',
     title: 'Coffee, injera and the art of hospitality',
-    image: img('coffee-ceremony.jpg'),
+    image: img('v1793099711/mizan-coffee-drying-beds.webp'),
     imageAlt:
-      'A traditional Ethiopian coffee ceremony with a clay jebena and small cups',
+      'Hands sorting coffee cherries on raised drying beds near Mizan Teferi',
     paragraphs: [
       'Coffee comes from Ethiopia. Legend tells of Kaldi, a goatherd in the Kaffa region who noticed his goats dancing after eating the berries of a wild shrub, and wild Arabica still grows in the forests of the south-west. Yirgacheffe, Sidama and Harar give their names to some of the world’s most prized beans.',
       'The coffee ceremony is the heart of Ethiopian hospitality. Green beans are roasted over charcoal, ground by hand and brewed in a clay jebena, then served in three rounds, abol, tona and baraka, with incense and conversation. Being invited to one is a mark of friendship.',

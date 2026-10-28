@@ -1572,7 +1572,7 @@ export const tours: Tour[] = [
     // Tour code EDT-05-LO
     slug: '8-day-lalibela-and-omo-valley',
     title: '8-Day Lalibela & Omo Valley',
-    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/dorze.jpg',
+    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/v1793187900/8-day-lalibela-and-omo-valley.jpg',
     days: '8 Days',
     nights: 7,
     style: 'Cultural · Historical',
@@ -1742,7 +1742,7 @@ export const tours: Tour[] = [
     // Tour code EDT-03-TF
     slug: '5-day-timkat-festival-lalibela',
     title: '5-Day Timkat Festival in Lalibela',
-    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/c_crop,w_1.0,h_0.317,x_0,y_0.49/v1793006889/festival-procession-priests-CONFIRM.jpg',
+    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/v1793187762/timket.jpg',
     days: '5 Days',
     nights: 4,
     style: 'Festival',
@@ -2008,7 +2008,7 @@ export const tours: Tour[] = [
     // Tour code EDT-02-D5
     slug: '5-day-ethiopia-coffee',
     title: '5-Day Ethiopia Coffee',
-    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/coffee-ceremony.jpg',
+    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/v1793187919/5-day-ethiopia-coffee.jpg',
     days: '5 Days',
     nights: 4,
     style: 'Coffee · Cultural',

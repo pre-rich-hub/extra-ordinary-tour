@@ -65,9 +65,9 @@ export function AboutIntroduction() {
             </div>
             <div className="relative col-span-4 col-start-3 row-span-3 row-start-6 overflow-hidden rounded-sm shadow-[0_40px_80px_-40px_oklch(0.185_0.012_58/0.55)]">
               <Image
-                src="https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/v1792849798/Simien_Mountains.png"
+                src="https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/v1793194060/IMG-20261028-WA0011_2.jpg"
                 alt={copy(
-                  'A gelada, the grass-grazing monkey found only in the Ethiopian highlands.',
+                  'Crowds with umbrellas and flags fill the street during a festival procession',
                 )}
                 fill
                 sizes="(max-width: 1024px) 60vw, 30vw"
