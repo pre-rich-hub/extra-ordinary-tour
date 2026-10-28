@@ -11,18 +11,11 @@ import { cn } from '@/lib/utils'
 
 const experiences = [
   {
-    kicker: 'Origins & ritual',
-    title: 'Coffee Journeys',
-    text: 'Trace the bean from the wild forests of Kaffa to the farms of Yirgacheffe, and share the ceremony with the families who grow it.',
-    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/v1792854537/coffee_journey.jpg',
-    href: '/tours/4-day-ethiopia-coffee',
-  },
-  {
-    kicker: 'Fire & salt',
-    title: 'Danakil Expeditions',
-    text: 'Camp beneath desert stars, watch the glow of Erta Ale’s lava lake and walk among the sulphur springs of Dallol.',
-    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/v1793096397/danakil-dallol-green-pool-wide.jpg',
-    href: '/tours/3-day-afar-danakil-from-addis',
+    kicker: 'Faith & stone',
+    title: 'Rock-Hewn Lalibela',
+    text: 'Walk the tunnels and trenches between eleven churches carved from living rock, and hear the chants of priests who still worship in them every day.',
+    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/v1793006889/lalibela-bete-giyorgis-front.jpg',
+    href: '/destinations/lalibela',
   },
   {
     kicker: 'People & culture',
@@ -37,6 +30,41 @@ const experiences = [
     text: 'Walk the Simien escarpment among gelada troops, or search for the Ethiopian wolf on the Sanetti Plateau of the Bale Mountains.',
     image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/v1792854533/Trekking_Wildlife.jpg',
     href: '/tours/5-day-simien-mountains-trek',
+  },
+  {
+    kicker: 'Faith & celebration',
+    title: 'Festival Journeys',
+    text: 'Join the candlelit vigil of Genna in Lalibela or the Timkat processions of Gondar, when crowds dressed in white fill the streets with song.',
+    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/v1793006889/lalibela-priests-procession-night.jpg',
+    href: '/tours/8-day-north-with-genna-christmas',
+  },
+  {
+    kicker: 'Fire & salt',
+    title: 'Danakil Expeditions',
+    text: 'Camp beneath desert stars, watch the glow of Erta Ale’s lava lake and walk among the sulphur springs of Dallol.',
+    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/v1793096397/danakil-dallol-green-pool-wide.jpg',
+    href: '/tours/3-day-afar-danakil-from-addis',
+  },
+  {
+    kicker: 'Castles & kings',
+    title: 'Royal Gondar',
+    text: 'Explore the castles of Fasil Ghebbi, seat of the seventeenth-century emperors, and the painted angels of Debre Berhan Selassie.',
+    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/v1793090614/gondar-fasilides-castle-front.jpg',
+    href: '/destinations/gondar',
+  },
+  {
+    kicker: 'Origins & ritual',
+    title: 'Coffee Journeys',
+    text: 'Trace the bean from the wild forests of Kaffa to the farms of Yirgacheffe, and share the ceremony with the families who grow it.',
+    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/v1792854537/coffee_journey.jpg',
+    href: '/tours/4-day-ethiopia-coffee',
+  },
+  {
+    kicker: 'Walled city',
+    title: 'Ancient Harar',
+    text: 'Wander the alleys of the walled Jugol, step inside a traditional Harari house and watch the hyena men feed their wild guests at dusk.',
+    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/v1793090614/harar-hyena-feeding.jpg',
+    href: '/destinations/harar',
   },
 ]
 
