@@ -5,7 +5,7 @@ const TRIPADVISOR_URL =
 const SAFARIBOOKINGS_URL = 'https://www.safaribookings.com/reviews/p6779'
 // The client's Google Business Profile and its write-a-review link.
 const GOOGLE_URL = 'https://maps.app.goo.gl/bKjP81qy6eYaJgFQ6'
-const GOOGLE_WRITE_URL = 'https://g.page/r/CWV9UrweVSJ0EBM/review'
+const GOOGLE_WRITE_URL = 'https://g.page/r/CWV9UrweVSJ0EBE/review'
 
 // Verified guest reviews published on Tripadvisor, SafariBookings and Google
 // (October 2026). Long reviews are shortened with an ellipsis.

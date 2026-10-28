@@ -84,6 +84,17 @@ export function ReviewsClient({
                 count={summary.count}
                 url={summary.url}
               />
+              {summary.writeUrl && (
+                <a
+                  href={summary.writeUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="group mt-4 flex w-full items-center justify-center gap-2 border border-accent px-5 py-3 text-[11px] font-semibold uppercase tracking-[0.18em] text-foreground transition-colors duration-300 hover:bg-accent hover:text-accent-foreground"
+                >
+                  {copy('Write a review')}
+                  <ArrowUpRight className="h-4 w-4 transition-transform duration-300 group-hover:-translate-y-0.5 group-hover:translate-x-0.5" />
+                </a>
+              )}
             </Reveal>
 
             {/* Right: this platform's reviews, top-aligned with its card */}
