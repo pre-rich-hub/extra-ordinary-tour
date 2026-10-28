@@ -30,7 +30,7 @@ export async function generateMetadata({
     {
       title: copy('About Ethiopia: History, Culture, Geography and Traditions'),
       description: copy(
-        'Discover Ethiopia, the Land of Origins: its 3,000-year history, landscapes from the Simien Mountains to the Danakil, more than eighty peoples, ancient faiths, coffee culture and major travel destinations.',
+        'Discover Ethiopia, the Land of Origins: its 3,000-year history, landscapes from the Simien Mountains to the Danakil, more than 80 ethnic groups, ancient faiths, coffee culture and major travel destinations.',
       ),
     },
     '/about-ethiopia',

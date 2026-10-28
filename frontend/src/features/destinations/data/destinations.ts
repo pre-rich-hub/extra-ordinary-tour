@@ -817,7 +817,7 @@ export const destinations: Destination[] = [
   {
     slug: 'chebera-churchura-national-park',
     name: 'Chebera Churchura National Park',
-    region: 'Other Destinations & Experiences',
+    region: 'Western Ethiopia',
     tag: 'Elephants',
     image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/v1793099700/chebera-churchura-forest-valley.jpg',
     teaser:
@@ -841,7 +841,7 @@ export const destinations: Destination[] = [
   {
     slug: 'gambella-national-park',
     name: 'Gambela National Park',
-    region: 'Other Destinations & Experiences',
+    region: 'Western Ethiopia',
     tag: 'Wildlife Migration',
     image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/v1793100841/gambela-park-white-eared-kob-herd.jpg',
     teaser:
@@ -1324,7 +1324,7 @@ export const destinations: Destination[] = [
   {
     slug: 'kaffa-and-bonga',
     name: 'Kafa Biosphere Reserve & Bonga',
-    region: 'Other Destinations & Experiences',
+    region: 'Western Ethiopia',
     tag: 'Birthplace of Coffee',
     image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/kaffa-forest.jpg',
     teaser:
