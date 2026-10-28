@@ -11,6 +11,7 @@ export type ApiLayoverPackage = {
   itinerary: string[]
   includes: string[]
   best: string
+  sortOrder: number
 }
 
 export async function getLayoverPackages(

@@ -25,6 +25,7 @@ type LayoverPackageItem = {
   itinerary: string[]
   includes: string[]
   best: string
+  sortOrder: number
 }
 
 export function AdminLayoverPackages() {
@@ -186,7 +187,7 @@ export function AdminLayoverPackages() {
             </label>
             <label>
               <span className={adminLabelClass}>Sort order</span>
-              <input name="sortOrder" type="number" min={0} defaultValue={editing ? items.findIndex((entry) => entry.id === editing.id) : items.length} className={adminInputClass} required />
+              <input name="sortOrder" type="number" min={0} defaultValue={editing ? editing.sortOrder : items.length} className={adminInputClass} required />
             </label>
             <label>
               <span className={adminLabelClass}>Image {editing ? '(leave empty to keep current)' : '(optional)'}</span>

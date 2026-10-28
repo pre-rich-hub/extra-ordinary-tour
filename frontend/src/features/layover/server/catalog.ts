@@ -4,35 +4,76 @@ import { getLayoverPackages as localizedPackages } from '../data/localized'
 import type { AppLocale } from '@/i18n/routing'
 import { getLayoverPackages, type ApiLayoverPackage } from '../api/client'
 
+// Local dev uploads live under /assets and are served by the backend process,
+// not the frontend. Production uses /api/v1/media or an absolute URL.
+function usableImage(image: string | null, fallback: string): string {
+  if (!image) return fallback
+  if (image.startsWith('/api/v1/') || /^https?:\/\//i.test(image)) return image
+  return fallback
+}
+
+function toLayoverPackage(
+  live: ApiLayoverPackage,
+  fallbackImage = '/placeholder.svg',
+): LayoverPackage {
+  return {
+    slug: live.slug,
+    hours: live.hours,
+    title: live.title,
+    price: live.price,
+    image: usableImage(live.image, fallbackImage),
+    teaser: live.teaser,
+    itinerary: live.itinerary,
+    includes: live.includes,
+    best: live.best,
+  }
+}
+
 export async function getLayoverPackagesData(
   locale: AppLocale = 'en',
 ): Promise<LayoverPackage[]> {
-  const staticLayoverPackages = localizedPackages(locale)
+  const staticPackages = localizedPackages(locale)
   let livePackages: ApiLayoverPackage[] = []
   try {
-    livePackages = await getLayoverPackages({ cache: 'force-cache' })
+    // Admin edits must show on the next request, not after an ISR window.
+    livePackages = await getLayoverPackages({ cache: 'no-store' })
   } catch {
     livePackages = []
   }
 
-  if (livePackages.length === 0) return staticLayoverPackages
+  if (livePackages.length === 0) return staticPackages
 
-  const bySlug = new Map(livePackages.map((p) => [p.slug, p]))
+  const staticBySlug = new Map(staticPackages.map((p) => [p.slug, p]))
+  const seen = new Set<string>()
 
-  return staticLayoverPackages.map((p) => {
-    const live = bySlug.get(p.slug)
-    if (!live) return p
-    return {
-      ...p,
-      price:
-        typeof live.price === 'string' && /[0-9]/.test(live.price)
-          ? live.price
-          : p.price,
-      // Overlay the live image only when the backend serves it (/api/v1/media).
-      // Dev-local /assets paths are only served by the backend process, not
-      // the frontend — documented limitation, keep the static image instead.
-      image:
-        live.image && live.image.startsWith('/api/v1/') ? live.image : p.image,
-    }
-  })
+  const merged = [...livePackages]
+    .sort((left, right) => left.sortOrder - right.sortOrder || left.id - right.id)
+    .map((live) => {
+      seen.add(live.slug)
+      const staticPackage = staticBySlug.get(live.slug)
+
+      // English uses the admin row as the source of truth. Other locales keep
+      // the translated narrative and overlay the operational fields.
+      if (locale === 'en') {
+        return toLayoverPackage(live, staticPackage?.image)
+      }
+
+      if (!staticPackage) {
+        return toLayoverPackage(live)
+      }
+
+      return {
+        ...staticPackage,
+        price: live.price,
+        image: usableImage(live.image, staticPackage.image),
+      }
+    })
+
+  // If the database is only partially seeded, keep showing the static
+  // packages that have no live row yet.
+  for (const staticPackage of staticPackages) {
+    if (!seen.has(staticPackage.slug)) merged.push(staticPackage)
+  }
+
+  return merged
 }
