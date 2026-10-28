@@ -103,7 +103,7 @@ describe('canonical catalogue identity', () => {
         ]),
       )
       expect(translated[0].summary).not.toBe(source[0].summary)
-      expect(getDestinations(locale)).toHaveLength(66)
+      expect(getDestinations(locale)).toHaveLength(68)
       expect(getPosts(locale)).toHaveLength(11)
       expect(getPosts(locale).map((p) => p.categoryKey)).toEqual(
         getPosts('en').map((p) => p.category),
@@ -130,18 +130,18 @@ describe('search publication', () => {
     }
     expect(languageAlternates('/tours')).toEqual(languages)
   })
-  it('lists 148 translated pages per language and excludes private URLs', () => {
+  it('lists 150 translated pages per language and excludes private URLs', () => {
     const entries = sitemap()
-    expect(entries).toHaveLength(592)
-    expect(new Set(entries.map((entry) => entry.url)).size).toBe(592)
+    expect(entries).toHaveLength(600)
+    expect(new Set(entries.map((entry) => entry.url)).size).toBe(600)
     const translated = entries.filter((entry) => entry.alternates)
-    expect(translated).toHaveLength(592)
+    expect(translated).toHaveLength(600)
     for (const locale of ['en', 'es', 'fr', 'de']) {
       expect(
         translated.filter((entry) =>
           new URL(entry.url).pathname.match(new RegExp(`^/${locale}(?:/|$)`)),
         ),
-      ).toHaveLength(148)
+      ).toHaveLength(150)
     }
     expect(
       entries.every(

@@ -1330,5 +1330,50 @@
       "Mizan Teferi se encuentra en uno de los rincones más húmedos y verdes de Etiopía, donde las tierras altas descienden hacia las tierras bajas del Omo. Sus bosques y plantaciones la convierten en una parada muy gratificante para los viajeros interesados en el café y la naturaleza.",
       "Cerca se encuentra Bebeka, una de las mayores fincas cafeteras del país. Mizan Teferi es también el punto de partida de las expediciones hacia el sur, a Kibish y las comunidades surma (suri), y se combina de forma natural con Jimma, Bonga y la Reserva de la Biosfera de Kafa."
     ]
+  },
+  "babile-elephant-sanctuary": {
+    "name": "Babile y el santuario de elefantes",
+    "region": "Este de Etiopía",
+    "tag": "Paisajes rocosos",
+    "teaser": "Espectaculares formaciones rocosas y un santuario de elefantes en la carretera de Harar a Jijiga.",
+    "intro": "Un rincón poco visitado del este de Etiopía, conocido por sus colinas rocosas, su singular geología y el santuario creado para proteger a sus elefantes.",
+    "bestTime": "Octubre a marzo",
+    "duration": "Medio día a 1 día",
+    "altitude": "850 a 1.800 metros",
+    "highlights": [
+      "Impresionantes formaciones rocosas y colinas escarpadas",
+      "El santuario de elefantes de Babile y la conservación local",
+      "Rutas panorámicas y fotografía de paisajes",
+      "La vida rural en la carretera entre Harar y Jijiga"
+    ],
+    "paragraphs": [
+      "Descubra los fascinantes paisajes y el patrimonio natural de Babile, un destino del este de Etiopía conocido por sus espectaculares formaciones rocosas, sus colinas escarpadas y su paisaje natural singular. Situado en la ruta entre Harar y Jijiga, Babile ofrece a los viajeros la oportunidad de explorar una parte poco visitada de Etiopía y disfrutar de la belleza de sus paisajes orientales.",
+      "La zona está históricamente asociada al santuario de elefantes de Babile, creado para proteger a los elefantes y su hábitat natural. El paisaje que lo rodea combina afloramientos rocosos, llanuras abiertas y el terreno semiárido característico de esta parte de Etiopía. Los visitantes pueden disfrutar de rutas panorámicas, fotografía y una introducción a los esfuerzos locales de conservación, mientras descubren la relación entre las comunidades, la fauna y el medio ambiente.",
+      "Babile es conocido también por sus inusuales formaciones geológicas, con impresionantes colinas rocosas y paisajes llamativos que ofrecen excelentes oportunidades para la fotografía de paisajes. El recorrido por la zona permite asomarse a la vida rural, los asentamientos tradicionales y los cambiantes paisajes del este de Etiopía.",
+      "Para los viajeros interesados en la naturaleza, la geología, la fotografía y los destinos fuera de las rutas habituales, Babile puede ser un interesante complemento a un itinerario por el este de Etiopía. No se garantiza el avistamiento de fauna, incluidos los elefantes, y conviene confirmar el acceso actual al santuario y las condiciones locales antes de la visita."
+    ]
+  },
+  "jijiga-somali-region": {
+    "name": "Jijiga y la región somalí",
+    "region": "Este de Etiopía",
+    "tag": "Cultura somalí",
+    "teaser": "Capital de la región somalí de Etiopía, con animados mercados, rebaños de camellos y la hospitalidad somalí.",
+    "intro": "Una introducción a la cultura y la vida pastoral del pueblo somalí de Etiopía, desde los concurridos mercados de la ciudad hasta los amplios pastizales de sus alrededores.",
+    "bestTime": "Octubre a marzo",
+    "duration": "1 a 2 días",
+    "altitude": "Unos 1.600 metros",
+    "highlights": [
+      "Animados mercados y comercio de ganado",
+      "Té somalí, arroz especiado y cocina regional",
+      "Vida pastoral tradicional y pastoreo de camellos",
+      "Fácil de combinar con Harar y Dire Dawa"
+    ],
+    "paragraphs": [
+      "Descubra Jijiga, la capital del Estado Regional Somalí de Etiopía, y conozca un paisaje cultural singular marcado por las tradiciones somalíes, la herencia pastoral, el comercio y los fuertes lazos comunitarios. Situada en el este de Etiopía, relativamente cerca de la frontera con Somalilandia, Jijiga ofrece una excelente introducción a la cultura y la vida cotidiana del pueblo somalí de Etiopía.",
+      "La ciudad es conocida por sus animados mercados, la vestimenta tradicional somalí, su cocina aromática y su acogedor ambiente social. Los visitantes pueden recorrer los mercados locales, descubrir productos regionales, probar platos tradicionales y observar el importante papel del ganado, el comercio y las tradiciones familiares en la economía local. El té somalí, el arroz especiado y otras especialidades regionales permiten conocer la singular cultura gastronómica de la zona.",
+      "Más allá de la ciudad, la región somalí se caracteriza por extensos paisajes semiáridos, acacias, amplias zonas de pastoreo y asentamientos que reflejan las tradiciones pastorales de muchas comunidades somalíes. El ganado, en especial los camellos, las cabras, las ovejas y las vacas, desempeña un papel importante en los medios de vida y la identidad cultural. Los viajeros pueden conocer la vida pastoral tradicional, la importancia de los mercados de ganado y las costumbres transmitidas de generación en generación.",
+      "Jijiga ofrece además la oportunidad de comprender la diversidad cultural de Etiopía más allá de sus destinos históricos y de montaña más conocidos. La lengua, la música, la poesía, la vestimenta, la hospitalidad y las tradiciones islámicas de la región conforman una identidad cultural propia y hacen que la visita resulte especialmente gratificante para los viajeros interesados en el descubrimiento cultural y las experiencias locales auténticas.",
+      "Jijiga puede combinarse con una visita a Harar y Dire Dawa para crear un viaje más amplio por el este de Etiopía, según el estado de las carreteras, las recomendaciones de seguridad y la organización del viaje."
+    ]
   }
 }

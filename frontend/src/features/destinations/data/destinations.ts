@@ -449,6 +449,63 @@ export const destinations: Destination[] = [
       'According to tradition the caves sheltered Sheikh Sof Omar in the 12th century, and they remain a place of pilgrimage. A guided walk through the main section takes around an hour, and can easily be added to a Bale Mountains itinerary.',
     ],
   },
+  {
+    slug: 'babile-elephant-sanctuary',
+    name: 'Babile & the Elephant Sanctuary',
+    region: 'Eastern Ethiopia',
+    tag: 'Rock Landscapes',
+    // Placeholder until the client sends photos of Babile.
+    image:
+      'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/harar-gate.jpg',
+    teaser:
+      'Dramatic rock formations and an elephant sanctuary on the road from Harar to Jijiga.',
+    intro:
+      'A less-visited corner of eastern Ethiopia, known for its rocky hills, unusual geology and the sanctuary created to protect its elephants.',
+    bestTime: 'October to March',
+    duration: 'Half day to 1 day',
+    altitude: '850 to 1,800 m',
+    highlights: [
+      'Striking rock formations and rugged hills',
+      'The Babile Elephant Sanctuary and local conservation',
+      'Scenic drives and landscape photography',
+      'Rural life on the road between Harar and Jijiga',
+    ],
+    paragraphs: [
+      'Discover the fascinating landscapes and wildlife heritage of Babile, a destination in eastern Ethiopia known for its dramatic rock formations, rugged hills and distinctive natural scenery. Located along the route between Harar and Jijiga, Babile offers travellers an opportunity to explore a less-visited part of Ethiopia and experience the beauty of its eastern landscapes.',
+      'The area is historically associated with the Babile Elephant Sanctuary, established to protect elephants and their natural habitat. The surrounding landscape features rocky outcrops, open plains and the semi-arid terrain characteristic of this part of Ethiopia. Visitors can enjoy scenic drives, photography and an introduction to local conservation efforts while learning about the relationship between communities, wildlife and the environment.',
+      'Babile is also known for its unusual geological formations, including impressive rocky hills and striking natural scenery that provide excellent opportunities for landscape photography. The journey through the area offers glimpses of rural life, traditional settlements and the changing landscapes of eastern Ethiopia.',
+      'For travellers interested in nature, geology, photography and off-the-beaten-path destinations, Babile can be an interesting addition to an eastern Ethiopia itinerary. Wildlife sightings, including elephants, are not guaranteed, and travellers should confirm current sanctuary access and local conditions before visiting.',
+    ],
+  },
+  {
+    slug: 'jijiga-somali-region',
+    name: 'Jijiga & the Somali Region',
+    region: 'Eastern Ethiopia',
+    tag: 'Somali Culture',
+    // Placeholder until the client sends photos of Jijiga.
+    image:
+      'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/v1793006889/harar-jugol-alley.jpg',
+    teaser:
+      'Capital of Ethiopia’s Somali Region, with lively markets, camel herds and Somali hospitality.',
+    intro:
+      'An introduction to the culture and pastoral life of Ethiopia’s Somali people, from busy city markets to the open grazing lands beyond.',
+    bestTime: 'October to March',
+    duration: '1 to 2 days',
+    altitude: 'About 1,600 m',
+    highlights: [
+      'Lively markets and the livestock trade',
+      'Somali tea, spiced rice and regional cuisine',
+      'Traditional pastoral life and camel herding',
+      'Combines well with Harar and Dire Dawa',
+    ],
+    paragraphs: [
+      'Discover Jijiga, the capital of Ethiopia’s Somali Regional State, and experience a distinctive cultural landscape shaped by Somali traditions, pastoral heritage, trade and strong community connections. Located in eastern Ethiopia, relatively close to the border with Somaliland, Jijiga provides an excellent introduction to the culture and everyday life of the Somali people of Ethiopia.',
+      'The city is known for its lively markets, traditional Somali clothing, aromatic cuisine and welcoming social atmosphere. Visitors can explore local markets, discover regional products, sample traditional dishes and observe the important role of livestock, trade and family traditions in the local economy. Somali tea, spiced rice and other regional specialities offer opportunities to experience the area’s distinctive food culture.',
+      'Beyond the city, the wider Somali Region is characterised by expansive semi-arid landscapes, acacia trees, open grazing areas and settlements reflecting the pastoral traditions of many Somali communities. Livestock, particularly camels, goats, sheep and cattle, plays an important role in local livelihoods and cultural identity. Travellers can learn about traditional pastoral life, the importance of livestock markets and the customs that have been passed down through generations.',
+      'Jijiga also offers an opportunity to understand the cultural diversity of Ethiopia beyond its better-known historic and highland destinations. The region’s language, music, poetry, clothing, hospitality and Islamic traditions contribute to a distinctive cultural identity and make a visit particularly rewarding for travellers interested in cultural discovery and authentic local experiences.',
+      'Jijiga can be combined with a visit to Harar and Dire Dawa to create a broader eastern Ethiopia journey, subject to current road conditions, security advice and travel arrangements.',
+    ],
+  },
 
   // ─── Addis Ababa & surroundings ─────────────────────────────────────────
   {
