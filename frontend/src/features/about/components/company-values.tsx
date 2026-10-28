@@ -48,9 +48,9 @@ export function CompanyValues() {
           </p>
           <div className="relative mt-10 hidden aspect-[4/3] overflow-hidden rounded-sm lg:block">
             <Image
-              src="https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/dorze.jpg"
+              src="https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/v1793090567/abune-yosef-plateau-guests.jpg"
               alt={copy(
-                'Traditional beehive-shaped Dorze houses in the Guge highlands',
+                'Guests and their local guide on the Abune Yosef plateau above Lalibela',
               )}
               fill
               sizes="30vw"
