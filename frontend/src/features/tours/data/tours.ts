@@ -4328,6 +4328,277 @@ export const tours: Tour[] = [
       'Harar',
     ],
   },
+  {
+    slug: '3-day-harar-cultural-and-historical',
+    title: '3-Day Harar Cultural & Historical Tour',
+    image:
+      'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/v1793006889/harar-jugol-alley.jpg',
+    days: '3 Days',
+    nights: 2,
+    style: 'Historical · Cultural',
+    season: 'Year-round',
+    from: 'On request',
+    group: '1 to 12 guests',
+    teaser:
+      'The walled city of Harar Jugol, its museums, markets and coffee, and the famous hyena feeding at night.',
+    summary:
+      'Discover the history, cultural heritage and traditions of Harar, one of Ethiopia’s most remarkable historic cities and a UNESCO World Heritage Site. Walk the gates and narrow alleyways of Harar Jugol, visit traditional Harari houses, the Arthur Rimbaud House and the Sherif Harari City Museum, browse the markets for spices, baskets and Harar coffee, enjoy a coffee ceremony and witness the city’s famous hyena-feeding tradition, accompanied throughout by a knowledgeable local guide.',
+    includes: [
+      'Meet-and-assist at Dire Dawa Airport and all transfers',
+      'Private air-conditioned vehicle with a professional driver',
+      'Licensed English-speaking guide (other languages on request)',
+      '2 nights of accommodation: Hotel, Harar',
+      'Full board: breakfast, lunch and dinner',
+      'Evening hyena-feeding experience',
+      'Traditional Ethiopian coffee ceremony',
+      'Entrance fees to all sites and museums in the itinerary',
+    ],
+    excludes: [
+      'International flights and Ethiopian visa',
+      'Travel insurance (strongly recommended)',
+      'Drinks, tips and personal expenses',
+    ],
+    itinerary: [
+      {
+        day: 'Day 1',
+        title: 'Dire Dawa – Harar – The Historic Walled City',
+        text: 'Upon arrival at Dire Dawa Airport, meet your driver and guide and transfer to Harar, approximately 55 km away. After checking into your hotel, begin exploring Harar Jugol, the historic walled city recognised as a UNESCO World Heritage Site. Walk through its traditional gates and narrow alleyways, discovering the distinctive architecture, historic buildings, mosques and shrines that reflect centuries of cultural and religious history. Visit a traditional Harari house to learn about family life, interior decoration and the colourful woven baskets displayed on the walls, then continue to the local markets to browse spices, coffee, textiles and handmade crafts. In the evening, experience Harar’s famous hyena-feeding tradition with a local handler, one of the city’s best-known cultural attractions. Overnight: Harar.',
+      },
+      {
+        day: 'Day 2',
+        title: 'Harar’s Landmarks, Museums & Coffee Traditions',
+        text: 'After breakfast, visit the Arthur Rimbaud House Museum, a historic building associated with the French poet who lived in Harar in the late nineteenth century, and discover the city’s connections with international traders, travellers and writers. Continue to the Sherif Harari City Museum, subject to opening hours, to learn about Harari history, traditional clothing, household objects and manuscripts. Walk along sections of the historic city walls, explore more traditional neighbourhoods and visit selected mosques and religious sites, respecting local customs and any restrictions on entry. Later, visit artisan workshops and markets to learn about basket weaving, handicrafts and the trade in Harar coffee, and enjoy a traditional Ethiopian coffee ceremony. Your guide will explain local customs, traditional dress and the regional khat trade as you observe everyday life in the market areas. Overnight: Harar.',
+      },
+      {
+        day: 'Day 3',
+        title: 'Harar – Local Markets – Dire Dawa – Departure',
+        text: 'After breakfast, enjoy a final morning in Harar at a relaxed pace. Visit a local market to observe the daily activities of traders and residents, with time to buy handicrafts, woven baskets, textiles, spices and locally produced coffee, and take a last walk through the historic streets of Harar Jugol. After lunch, drive to Dire Dawa Airport, approximately 55 km away, for your onward flight to Addis Ababa or your next destination.',
+      },
+    ],
+    places: ['Dire Dawa', 'Harar'],
+  },
+  {
+    slug: '3-day-axum-historical-and-archaeological',
+    title: '3-Day Axum Historical & Archaeological Tour',
+    image:
+      'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/v1792849727/Axum.png',
+    days: '3 Days',
+    nights: 2,
+    style: 'Historical · Cultural',
+    season: 'October to April',
+    from: 'On request',
+    group: '1 to 12 guests',
+    teaser:
+      'The stelae, royal tombs and Ezana Stone of Axum, St. Mary of Zion and the pre-Aksumite temple of Yeha.',
+    summary:
+      'Discover the ancient civilisation and religious heritage of northern Ethiopia in Axum, once the capital of the powerful Aksumite Kingdom that traded with the Mediterranean and the Arabian Peninsula. Explore the granite stelae, royal tombs, archaeological museum, the ruins of Dungur Palace and the Church of St. Mary of Zion, then travel to Yeha, a pre-Aksumite temple from the first millennium BCE and one of the oldest monumental buildings in Ethiopia, accompanied by knowledgeable local guides.',
+    includes: [
+      'Meet-and-assist at Axum Airport and all transfers',
+      'Private air-conditioned vehicle with a professional driver',
+      'Licensed English-speaking guide (other languages on request)',
+      '2 nights of accommodation: Hotel, Axum',
+      'Full board: breakfast, lunch and dinner',
+      'Entrance fees to all sites and churches in the itinerary',
+    ],
+    excludes: [
+      'International flights and Ethiopian visa',
+      'Travel insurance (strongly recommended)',
+      'Drinks, tips and personal expenses',
+    ],
+    itinerary: [
+      {
+        day: 'Day 1',
+        title: 'Arrival in Axum – Stelae, Museum & Dungur Palace',
+        text: 'Upon arrival at Axum Airport, meet your guide and driver and transfer to your hotel. Begin at the Northern Stelae Field, where enormous carved granite monuments commemorate the achievements of the Aksumite civilisation, including the famous obelisk returned to Ethiopia from Italy. Continue to the Archaeological Museum of Axum, whose coins, inscriptions, pottery and other artefacts illustrate the kingdom’s economic, cultural and political importance, and see the Ezana Stone, a trilingual inscription in Ge’ez, Greek and Sabaean that records King Ezana’s reign and the spread of Christianity in the kingdom. Later, explore the ruins of Dungur Palace, traditionally associated with the Queen of Sheba, and the nearby Queen of Sheba’s Bath, a large ancient reservoir. Depending on time and opening hours, continue to the royal tombs and other archaeological sites around Axum. Overnight: Axum.',
+      },
+      {
+        day: 'Day 2',
+        title: 'Axum – Yeha Temple – Axum',
+        text: 'After breakfast, drive approximately 50 to 60 km through the landscapes and traditional settlements of the Tigray highlands to Yeha. Visit the Yeha Temple, a pre-Aksumite monument believed to date to around the seventh century BCE, built from carefully fitted stone blocks that show the sophisticated architecture of the communities living here before the rise of Axum. Your guide will explain Yeha’s role as an early religious and cultural centre, its South Arabian influences and its relationship with the later Aksumite Kingdom. Subject to access, also visit the nearby church complex and archaeological sites. Return to Axum in the afternoon for a short walk through town or a visit to shops selling traditional handicrafts. Overnight: Axum.',
+      },
+      {
+        day: 'Day 3',
+        title: 'St. Mary of Zion – Royal Tombs – Departure',
+        text: 'After breakfast, visit the Church of St. Mary of Zion, one of Ethiopia’s most important Orthodox Christian pilgrimage sites, and learn about the traditions surrounding the Ark of the Covenant, which Ethiopian Orthodox tradition holds is kept in a guarded chapel within the church complex; access to individual buildings is subject to church regulations. Continue to the Tombs of King Kaleb and King Gebre Meskel and discover the role of these rulers in the kingdom’s political and religious history. If time permits, browse the local markets for Tigrayan handicrafts, crosses and woven textiles before your transfer to Axum Airport for your onward flight.',
+      },
+    ],
+    places: ['Axum', 'Yeha'],
+  },
+  {
+    slug: '3-day-arba-minch-nature-and-cultural',
+    title: '3-Day Arba Minch Nature & Cultural Tour',
+    image:
+      'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/v1792849744/arba-minch.jpg',
+    days: '3 Days',
+    nights: 2,
+    style: 'Wildlife · Cultural',
+    season: 'September to April',
+    from: 'On request',
+    group: '1 to 12 guests',
+    teaser:
+      'Crocodiles and hippos on Lake Chamo, the Forty Springs and the beehive houses and weavers of Dorze.',
+    summary:
+      'Discover the natural beauty, wildlife and culture of southern Ethiopia around Arba Minch, set between Lakes Abaya and Chamo in the Great Rift Valley. Take a boat excursion on Lake Chamo in Nech Sar National Park in search of enormous Nile crocodiles, hippos and waterbirds, walk through the lush Forty Springs that give the town its name, and visit the Dorze people of the Guge Mountains, known for their beehive-shaped bamboo houses and fine cotton weaving.',
+    includes: [
+      'Meet-and-assist at Arba Minch Airport and all transfers',
+      'Private air-conditioned vehicle with a professional driver',
+      'Licensed English-speaking guide (other languages on request)',
+      '2 nights of accommodation: Hotel, Arba Minch',
+      'Full board: breakfast, lunch and dinner',
+      'Boat excursion on Lake Chamo',
+      'Entrance fees to all sites and churches in the itinerary',
+    ],
+    excludes: [
+      'International flights and Ethiopian visa',
+      'Travel insurance (strongly recommended)',
+      'Drinks, tips and personal expenses',
+    ],
+    itinerary: [
+      {
+        day: 'Day 1',
+        title: 'Arrival in Arba Minch – Dorze Village',
+        text: 'Upon arrival in Arba Minch, meet your driver and guide and transfer to your hotel. Drive up into the Guge Mountains to a Dorze village, where the community is known for its impressive beehive-shaped houses built from bamboo and other local materials. Learn about traditional house construction, cotton weaving and farming, and discover how kocho, a staple food, is prepared from enset, the false banana plant; depending on local arrangements, you may watch traditional food preparation. Enjoy views of the mountains, forests and Rift Valley before returning to Arba Minch. In the afternoon, visit viewpoints over Lakes Abaya and Chamo and, if time permits, the local market. Overnight: Arba Minch.',
+      },
+      {
+        day: 'Day 2',
+        title: 'Lake Chamo Boat Excursion – Forty Springs – Crocodile Ranch',
+        text: 'After breakfast, head to Lake Chamo for a morning boat excursion. The lake is famous for its large Nile crocodiles, hippos and birdlife: look for crocodiles basking along the shore at the place known as the Crocodile Market, hippos surfacing from the water, and pelicans, herons and African fish eagles. After lunch in Arba Minch, walk through the lush vegetation of the Forty Springs, the natural springs that give Arba Minch its name, and learn how they feed the region’s fresh water. Continue to the Crocodile Ranch to learn about crocodile breeding, behaviour and conservation. Overnight: Arba Minch.',
+      },
+      {
+        day: 'Day 3',
+        title: 'Arba Minch – Local Market – Departure',
+        text: 'After breakfast, enjoy a relaxed final morning. Depending on your departure time, visit a local market to discover regional produce, spices, traditional textiles and handicrafts while your guide explains the cultural diversity of the surrounding region, or return to a viewpoint for a last look over Lakes Abaya and Chamo. Transfer to Arba Minch Airport for your onward flight, or continue by road to your next destination.',
+      },
+    ],
+    places: ['Arba Minch', 'Dorze & Chencha', 'Lake Chamo'],
+  },
+  {
+    slug: '3-day-omo-valley-cultural',
+    title: '3-Day Omo Valley Cultural Tour',
+    image:
+      'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/v1793014223/omo-river-aerial.webp',
+    days: '3 Days',
+    nights: 2,
+    style: 'Cultural',
+    season: 'Year-round except April and May',
+    from: 'On request',
+    group: '1 to 12 guests',
+    teaser:
+      'From Jinka to Turmi: the Bena, Karo, Dassanech, Hamer and Mursi peoples of the Lower Omo Valley.',
+    summary:
+      'Discover the cultural diversity of Ethiopia’s Lower Omo Valley on a short journey that starts and ends in Jinka. Travel through beautiful landscapes and traditional villages to meet the Bena, Karo, Dassanech, Hamer and Mursi communities, each with its own traditions and way of life, visit a local market when your dates allow, and spend two nights in Turmi, the heart of Hamer country, with experienced local guides.',
+    includes: [
+      'Meet-and-assist at Jinka Airport and all transfers',
+      'Private 4x4 vehicle with an experienced driver',
+      'Licensed English-speaking guide (other languages on request)',
+      '2 nights of accommodation: Hotel or Lodge, Turmi',
+      'Full board: breakfast, lunch and dinner',
+      'Entrance fees to all sites and churches in the itinerary',
+    ],
+    excludes: [
+      'International flights and Ethiopian visa',
+      'Travel insurance (strongly recommended)',
+      'Drinks, tips and personal expenses',
+    ],
+    itinerary: [
+      {
+        day: 'Day 1',
+        title: 'Jinka – Bena Village – Turmi',
+        text: 'Upon arrival at Jinka Airport, meet your guide and driver and travel south toward Turmi through the landscapes of the Lower Omo Valley. On the way, visit a Bena village to learn about the community’s lifestyle, clothing, housing and pastoral activities, and how the Bena maintain their traditions while adapting to their environment. Continue to Turmi, the main town of the Hamer people, and spend the rest of the afternoon relaxing or exploring nearby, depending on your arrival time. Overnight: Turmi.',
+      },
+      {
+        day: 'Day 2',
+        title: 'Turmi – Karo Village – Dassanech – Hamer Village',
+        text: 'After breakfast, drive toward the Omo River to visit the Karo village of Korcho, known for its spectacular views over the river. The Karo are renowned for their elaborate body painting, decorative scarification and artistic traditions. Continue to Omorate, near the border with Kenya, and, depending on river conditions and local arrangements, cross the Omo River by boat to a Dassanech village to learn about their cattle keeping, fishing and adaptation to the dry south. Return to Turmi and, in the late afternoon, visit a Hamer village to learn about their distinctive hairstyles, beadwork, clothing and cattle-centred culture. If a traditional ceremony or evangadi dance is taking place, you may be able to attend with local permission. Overnight: Turmi.',
+      },
+      {
+        day: 'Day 3',
+        title: 'Turmi – Local Market – Mursi Village – Jinka Departure',
+        text: 'After breakfast, drive north toward Jinka. Depending on the day of the week, stop at a local market where different communities gather to trade produce, livestock, clothing, jewellery and handicrafts. Continue to visit the Mursi people around Key Afar or Jinka, known for the lip plates worn by some women and elaborate body decoration, and learn about their social traditions, cattle keeping and everyday life with a local guide. After lunch in Jinka, transfer to Jinka Airport for your flight to Addis Ababa.',
+      },
+    ],
+    places: [
+      'Jinka',
+      'Banna villages',
+      'Turmi',
+      'Karo villages',
+      'Omorate',
+      'Dassanech villages',
+      'Mursi villages',
+    ],
+  },
+  {
+    slug: '6-day-southwestern-ethiopia-coffee-and-wildlife',
+    title: '6-Day Southwestern Ethiopia Coffee, Wildlife & Culture',
+    image:
+      'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/v1793099700/chebera-churchura-forest-valley.jpg',
+    days: '6 Days',
+    nights: 5,
+    style: 'Coffee · Wildlife · Cultural',
+    season: 'October to April',
+    from: 'On request',
+    group: '1 to 12 guests',
+    teaser:
+      'The palace of King Abba Jifar II in Jimma, the Bebeka coffee estate and the elephants of Chebera Churchura.',
+    summary:
+      'Discover the history, coffee culture and wildlife of southwestern Ethiopia. Fly to Jimma for the palace of King Abba Jifar II, follow coffee from plant to cup at the Bebeka plantation, then travel through green hills and forests to Chebera Churchura National Park, known for its African elephants, buffaloes, hippos, birdlife, forests and lakes, exploring with authorised park scouts. Return to Addis Ababa for a farewell cultural dinner with live music and dance before your departure: a rewarding, less-visited side of Ethiopia.',
+    includes: [
+      'Meet-and-assist at Bole International Airport and all transfers',
+      'Domestic flights as shown in the itinerary',
+      'Private 4x4 vehicle with an experienced driver',
+      'Licensed English-speaking guide (other languages on request)',
+      '5 nights of accommodation: Hotels & Park Accommodation',
+      'Full board: breakfast, lunch and dinner',
+      'Authorised park scouts and park entrance fees',
+      'Visit to the Bebeka coffee plantation',
+      'Farewell dinner with traditional music and dance',
+      'Entrance fees to all sites and churches in the itinerary',
+    ],
+    excludes: [
+      'International flights and Ethiopian visa',
+      'Travel insurance (strongly recommended)',
+      'Drinks, tips and personal expenses',
+    ],
+    itinerary: [
+      {
+        day: 'Day 1',
+        title: 'Fly Addis Ababa – Jimma – Palace of King Abba Jifar II',
+        text: 'Take a morning flight from Addis Ababa to Jimma, where your guide and driver will meet you. Visit the Palace of King Abba Jifar II, an important monument of the former Kingdom of Jimma, and learn about the king’s reign and the kingdom’s cultural and political significance. Continue with a city tour of local streets and markets, discovering Jimma’s long connection with Ethiopian coffee; if time permits, enjoy a traditional coffee ceremony at a local coffee house. In the afternoon, check into your hotel and relax. Overnight: Jimma.',
+      },
+      {
+        day: 'Day 2',
+        title: 'Jimma – Bebeka Coffee Plantation – Mizan Teferi',
+        text: 'After breakfast, drive southwest through the lush farmland of southwestern Ethiopia to the Bebeka Coffee Plantation, one of the country’s major commercial coffee estates. Learn about coffee cultivation, harvesting and processing and, depending on access, visit production areas and other crops grown here, such as spices and tea, with a coffee tasting where available. Continue through rural communities, green hills and forests to Mizan Teferi, stopping for photographs along the way, and if time allows take a short walk around town or visit the market. Overnight: Mizan Teferi.',
+      },
+      {
+        day: 'Day 3',
+        title: 'Mizan Teferi – Chebera Churchura National Park',
+        text: 'After an early breakfast, set out for Chebera Churchura National Park, a wilderness of forests, rivers and lakes renowned for its elephants. The drive can take several hours depending on the route and road conditions, so a 4x4 vehicle and an early start are recommended. On arrival, complete park registration, meet your authorised park scouts and receive a briefing on the wildlife, safety rules and activities. After lunch and a rest, take a short introductory excursion if conditions permit, looking for birds, primates and other wildlife. Overnight: Chebera Churchura National Park or nearby accommodation.',
+      },
+      {
+        day: 'Day 4',
+        title: 'Chebera Churchura – Full Day of Wildlife & Nature',
+        text: 'Start early with a guided excursion with authorised park scouts through forest, grassland and woodland in search of African elephants, one of the park’s most important attractions. Depending on the season and animal movements, you may also see buffaloes, antelope, warthogs, baboons and many bird species, while learning about wildlife behaviour, tracks and conservation; your scouts will choose areas based on recent sightings and access. Return for breakfast and a midday rest. In the afternoon, continue with a game drive, a guided nature walk or a visit to the park’s lakes, known for hippos and rich birdlife. Overnight: Chebera Churchura National Park or nearby accommodation.',
+      },
+      {
+        day: 'Day 5',
+        title: 'Chebera Churchura – Return to Jimma',
+        text: 'After breakfast, enjoy a final morning in the park, with a short wildlife excursion or nature walk if time permits. Then drive back to Jimma through the countryside of southwestern Ethiopia, with views of rural settlements, fields and forests and short stops where the road and schedule allow; the journey can be long and conditions vary. Check into your hotel in Jimma for a relaxing evening. Overnight: Jimma.',
+      },
+      {
+        day: 'Day 6',
+        title: 'Fly Jimma – Addis Ababa – Cultural Dinner – Departure',
+        text: 'After breakfast, transfer to Jimma Airport for your flight to Addis Ababa. On arrival at Bole Airport, transfer to your hotel to relax, depending on your international flight schedule. In the evening, enjoy a traditional Ethiopian cultural dinner with live music and dance at a local cultural restaurant, celebrating the end of your journey, before your transfer to Bole International Airport for your departure flight.',
+      },
+    ],
+    places: [
+      'Addis Ababa',
+      'Jimma',
+      'Bebeka',
+      'Mizan Teferi',
+      'Chebera Churchura National Park',
+    ],
+  },
 ]
 
 export function getTour(slug: string) {

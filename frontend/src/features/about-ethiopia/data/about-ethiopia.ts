@@ -13,7 +13,7 @@ export const aboutEthiopia: GuideSection[] = [
     title: 'A country like no other',
     paragraphs: [
       'Ethiopia is one of the most fascinating countries in the world, a land where ancient history, dramatic landscapes and vibrant cultural traditions come together. As the birthplace of humanity and home to one of Africa’s oldest civilisations, it offers a remarkable journey through time.',
-      'From the peaks of the Simien Mountains and the mighty Blue Nile to the rock-hewn churches of Lalibela, historic cities, more than eighty peoples and the volcanic wonders of the Danakil, Ethiopia is a destination like no other. It is also one of only two African countries never colonised, and it keeps its own alphabet, its own calendar and its own way of telling time.',
+      'From the peaks of the Simien Mountains and the mighty Blue Nile to the rock-hewn churches of Lalibela, historic cities, more than 80 ethnic groups and the volcanic wonders of the Danakil, Ethiopia is a destination like no other. It is also one of only two African countries never colonised, and it keeps its own alphabet, its own calendar and its own way of telling time.',
     ],
     facts: [
       { label: 'Capital', value: 'Addis Ababa' },
@@ -74,12 +74,12 @@ export const aboutEthiopia: GuideSection[] = [
     id: 'people-culture',
     label: 'People & culture',
     eyebrow: 'A living mosaic',
-    title: 'More than eighty peoples, one remarkable heritage',
+    title: 'More than 80 ethnic groups, one remarkable heritage',
     image: img('dorze.jpg'),
     imageAlt:
       'Tall woven bamboo houses of the Dorze people in the southern highlands',
     paragraphs: [
-      'Ethiopia is home to more than eighty ethnic groups, among them the Oromo, Amhara, Somali, Tigrayan, Sidama, Afar and the many peoples of the south. Each has its own language, dress, music and customs, and travelling from one region to the next can feel like crossing into another country.',
+      'Ethiopia is home to more than 80 ethnic groups, among them the Oromo, Amhara, Somali, Tigrayan, Sidama, Afar and the many peoples of the south. Each has its own language, dress, music and customs, and travelling from one region to the next can feel like crossing into another country.',
       'Amharic is written in Ge’ez, or fidel, one of the world’s oldest alphabets still in everyday use, and Ge’ez itself survives as the language of the Orthodox liturgy. The Oromo Gada system, a traditional form of self-government, is recognised by UNESCO as part of humanity’s intangible heritage.',
       'In the Omo Valley in the far south, communities such as the Hamar, Karo, Mursi and Dassanech maintain ways of life shaped by the river and the seasons, best visited respectfully and with experienced local guides. Everywhere, from Tigray to the south, music and dance are part of daily life: the shoulder dance of eskista, the songs of the azmari and the sound of the krar.',
     ],

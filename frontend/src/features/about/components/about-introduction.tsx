@@ -79,7 +79,7 @@ export function AboutIntroduction() {
                 80+
               </span>
               <span className="mt-2 text-[10px] font-semibold uppercase leading-snug tracking-[0.16em] text-muted-foreground">
-                {copy('Peoples & languages to discover')}
+                {copy('Ethnic groups & languages to discover')}
               </span>
             </div>
           </div>

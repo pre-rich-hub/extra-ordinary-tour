@@ -3897,5 +3897,256 @@
       "Dire Dawa",
       "Harar"
     ]
+  },
+  "3-day-harar-cultural-and-historical": {
+    "title": "Circuit culturel et historique de Harar en 3 jours",
+    "days": "3 jours",
+    "style": "Historique · Culturel",
+    "season": "Toute l'année",
+    "from": "Sur demande",
+    "group": "1 à 12 invités",
+    "teaser": "La ville fortifiée de Harar Jugol, ses musées, ses marchés et son café, et le célèbre nourrissage des hyènes le soir.",
+    "summary": "Découvrez l’histoire, le patrimoine culturel et les traditions de Harar, l’une des villes historiques les plus remarquables d’Éthiopie, inscrite au patrimoine mondial de l’UNESCO. Franchissez les portes et parcourez les ruelles étroites de Harar Jugol, visitez des maisons traditionnelles harari, la maison d’Arthur Rimbaud et le musée de la ville Sherif Harari, flânez dans les marchés parmi les épices, les paniers et le café de Harar, assistez à une cérémonie du café et au célèbre nourrissage des hyènes, accompagné tout au long du séjour par un guide local expérimenté.",
+    "includes": [
+      "Accueil et assistance à l'aéroport de Dire Dawa et tous les transferts",
+      "Véhicule privé climatisé avec chauffeur professionnel",
+      "Guide anglophone agréé (autres langues sur demande)",
+      "2 nuits d'hébergement : hôtel à Harar",
+      "Pension complète : petit-déjeuner, déjeuner et dîner",
+      "Nourrissage des hyènes en soirée",
+      "Cérémonie traditionnelle éthiopienne du café",
+      "Frais d'entrée à tous les sites et musées de l'itinéraire"
+    ],
+    "excludes": [
+      "Vols internationaux et visa éthiopien",
+      "Assurance voyage (fortement recommandée)",
+      "Boissons, pourboires et dépenses personnelles"
+    ],
+    "itinerary": [
+      {
+        "day": "Jour 1",
+        "title": "Dire Dawa – Harar – La vieille ville fortifiée",
+        "text": "À votre arrivée à l’aéroport de Dire Dawa, accueil par votre chauffeur et votre guide et transfert à Harar, à environ 55 km. Après l’installation à l’hôtel, partez à la découverte de Harar Jugol, la ville historique fortifiée inscrite au patrimoine mondial de l’UNESCO. Franchissez ses portes traditionnelles et parcourez ses ruelles étroites pour découvrir son architecture singulière, ses bâtiments historiques, ses mosquées et ses sanctuaires, témoins de siècles d’histoire culturelle et religieuse. Visitez une maison traditionnelle harari pour découvrir la vie familiale, la décoration intérieure et les paniers tressés colorés accrochés aux murs, puis continuez vers les marchés locaux, entre épices, café, textiles et artisanat. Le soir, assistez au célèbre nourrissage des hyènes de Harar avec un soigneur local, l’une des attractions culturelles les plus connues de la ville. Nuit : Harar."
+      },
+      {
+        "day": "Jour 2",
+        "title": "Monuments, musées et traditions du café de Harar",
+        "text": "Après le petit-déjeuner, visitez la maison-musée d’Arthur Rimbaud, bâtiment historique associé au poète français qui vécut à Harar à la fin du XIXe siècle, et découvrez les liens de la ville avec les marchands, voyageurs et écrivains étrangers. Continuez vers le musée de la ville Sherif Harari, selon les horaires d’ouverture, pour découvrir l’histoire harari, les vêtements traditionnels, les objets domestiques et les manuscrits. Longez des portions des remparts historiques, explorez d’autres quartiers traditionnels et visitez quelques mosquées et lieux religieux, dans le respect des coutumes locales et des restrictions d’accès. Plus tard, visitez des ateliers d’artisans et des marchés pour découvrir la vannerie, l’artisanat et le commerce du café de Harar, et profitez d’une cérémonie traditionnelle éthiopienne du café. Votre guide vous expliquera les coutumes locales, les tenues traditionnelles et le commerce régional du khat tandis que vous observez la vie quotidienne des marchés. Nuit : Harar."
+      },
+      {
+        "day": "Jour 3",
+        "title": "Harar – Marchés locaux – Dire Dawa – Départ",
+        "text": "Après le petit-déjeuner, profitez d’une dernière matinée à Harar à votre rythme. Visitez un marché local pour observer l’activité quotidienne des commerçants et des habitants, avec du temps pour acheter de l’artisanat, des paniers tressés, des textiles, des épices et du café local, et faites une dernière promenade dans les rues historiques de Harar Jugol. Après le déjeuner, route vers l’aéroport de Dire Dawa, à environ 55 km, pour votre vol vers Addis-Abeba ou votre prochaine destination."
+      }
+    ],
+    "places": [
+      "Dire Dawa",
+      "Harar"
+    ]
+  },
+  "3-day-axum-historical-and-archaeological": {
+    "title": "Circuit historique et archéologique d’Aksoum en 3 jours",
+    "days": "3 jours",
+    "style": "Historique · Culturel",
+    "season": "Octobre à avril",
+    "from": "Sur demande",
+    "group": "1 à 12 invités",
+    "teaser": "Les stèles, les tombeaux royaux et la pierre d’Ezana d’Aksoum, Sainte-Marie-de-Sion et le temple pré-aksoumite de Yeha.",
+    "summary": "Découvrez la civilisation antique et le patrimoine religieux du nord de l’Éthiopie à Aksoum, ancienne capitale du puissant royaume aksoumite qui commerçait avec la Méditerranée et la péninsule Arabique. Explorez les stèles de granit, les tombeaux royaux, le musée archéologique, les ruines du palais de Dungur et l’église Sainte-Marie-de-Sion, puis rendez-vous à Yeha, un temple pré-aksoumite du premier millénaire avant notre ère et l’un des plus anciens édifices monumentaux d’Éthiopie, accompagné de guides locaux expérimentés.",
+    "includes": [
+      "Accueil et assistance à l'aéroport d'Aksoum et tous les transferts",
+      "Véhicule privé climatisé avec chauffeur professionnel",
+      "Guide anglophone agréé (autres langues sur demande)",
+      "2 nuits d'hébergement : hôtel à Aksoum",
+      "Pension complète : petit-déjeuner, déjeuner et dîner",
+      "Frais d'entrée à tous les sites et églises de l'itinéraire"
+    ],
+    "excludes": [
+      "Vols internationaux et visa éthiopien",
+      "Assurance voyage (fortement recommandée)",
+      "Boissons, pourboires et dépenses personnelles"
+    ],
+    "itinerary": [
+      {
+        "day": "Jour 1",
+        "title": "Arrivée à Aksoum – Stèles, musée et palais de Dungur",
+        "text": "À votre arrivée à l’aéroport d’Aksoum, accueil par votre guide et votre chauffeur et transfert à l’hôtel. Commencez par le champ des stèles du Nord, où d’immenses monuments de granit sculpté célèbrent les réalisations de la civilisation aksoumite, dont le célèbre obélisque restitué à l’Éthiopie par l’Italie. Continuez vers le musée archéologique d’Aksoum, dont les pièces de monnaie, inscriptions, céramiques et autres objets illustrent l’importance économique, culturelle et politique du royaume, et découvrez la pierre d’Ezana, une inscription trilingue en guèze, en grec et en sabéen qui relate le règne du roi Ezana et l’essor du christianisme dans le royaume. Plus tard, explorez les ruines du palais de Dungur, traditionnellement associé à la reine de Saba, et le bassin de la reine de Saba tout proche, un vaste réservoir antique. Selon le temps et les horaires, continuez vers les tombeaux royaux et d’autres sites archéologiques d’Aksoum. Nuit : Aksoum."
+      },
+      {
+        "day": "Jour 2",
+        "title": "Aksoum – Temple de Yeha – Aksoum",
+        "text": "Après le petit-déjeuner, parcourez environ 50 à 60 km à travers les paysages et les villages traditionnels des hauts plateaux du Tigré jusqu’à Yeha. Visitez le temple de Yeha, monument pré-aksoumite que l’on date des environs du VIIe siècle avant notre ère, construit en blocs de pierre parfaitement ajustés qui témoignent de l’architecture raffinée des communautés installées ici avant l’essor d’Aksoum. Votre guide vous expliquera le rôle de Yeha comme centre religieux et culturel ancien, ses influences sud-arabiques et ses liens avec le royaume aksoumite qui lui succéda. Si l’accès le permet, visitez aussi le complexe ecclésial et les sites archéologiques voisins. Retour à Aksoum dans l’après-midi pour une promenade en ville ou la visite de boutiques d’artisanat traditionnel. Nuit : Aksoum."
+      },
+      {
+        "day": "Jour 3",
+        "title": "Sainte-Marie-de-Sion – Tombeaux royaux – Départ",
+        "text": "Après le petit-déjeuner, visitez l’église Sainte-Marie-de-Sion, l’un des plus importants lieux de pèlerinage chrétien orthodoxe d’Éthiopie, et découvrez les traditions liées à l’Arche d’alliance, que la tradition orthodoxe éthiopienne dit conservée dans une chapelle gardée au sein du complexe ; l’accès à chaque bâtiment est soumis aux règles de l’église. Continuez vers les tombeaux des rois Kaleb et Gebre Meskel et découvrez le rôle de ces souverains dans l’histoire politique et religieuse du royaume. Si le temps le permet, flânez dans les marchés locaux à la recherche d’artisanat tigréen, de croix et de textiles avant votre transfert à l’aéroport d’Aksoum pour votre vol."
+      }
+    ],
+    "places": [
+      "Aksoum",
+      "Yeha"
+    ]
+  },
+  "3-day-arba-minch-nature-and-cultural": {
+    "title": "Circuit nature et culture à Arba Minch en 3 jours",
+    "days": "3 jours",
+    "style": "Faune · Culturel",
+    "season": "Septembre à avril",
+    "from": "Sur demande",
+    "group": "1 à 12 invités",
+    "teaser": "Crocodiles et hippopotames sur le lac Chamo, les Quarante Sources et les maisons en ruche et tisserands de Dorzé.",
+    "summary": "Découvrez la beauté naturelle, la faune et la culture du sud de l’Éthiopie autour d’Arba Minch, entre les lacs Abaya et Chamo, dans la vallée du Grand Rift. Partez en bateau sur le lac Chamo, dans le parc national de Nech Sar, à la recherche d’énormes crocodiles du Nil, d’hippopotames et d’oiseaux aquatiques, promenez-vous dans la végétation luxuriante des Quarante Sources qui donnent son nom à la ville, et rendez visite au peuple dorzé des monts Guge, connu pour ses maisons de bambou en forme de ruche et son fin tissage de coton.",
+    "includes": [
+      "Accueil et assistance à l'aéroport d'Arba Minch et tous les transferts",
+      "Véhicule privé climatisé avec chauffeur professionnel",
+      "Guide anglophone agréé (autres langues sur demande)",
+      "2 nuits d'hébergement : hôtel à Arba Minch",
+      "Pension complète : petit-déjeuner, déjeuner et dîner",
+      "Excursion en bateau sur le lac Chamo",
+      "Frais d'entrée à tous les sites et églises de l'itinéraire"
+    ],
+    "excludes": [
+      "Vols internationaux et visa éthiopien",
+      "Assurance voyage (fortement recommandée)",
+      "Boissons, pourboires et dépenses personnelles"
+    ],
+    "itinerary": [
+      {
+        "day": "Jour 1",
+        "title": "Arrivée à Arba Minch – Village dorzé",
+        "text": "À votre arrivée à Arba Minch, accueil par votre chauffeur et votre guide et transfert à l’hôtel. Montez dans les monts Guge jusqu’à un village dorzé, communauté connue pour ses impressionnantes maisons en forme de ruche construites en bambou et autres matériaux locaux. Découvrez la construction traditionnelle des maisons, le tissage du coton et l’agriculture, ainsi que la préparation du kocho, aliment de base tiré de l’ensète ou faux bananier ; selon les arrangements locaux, vous pourrez assister à la préparation traditionnelle des repas. Profitez des vues sur les montagnes, les forêts et la vallée du Rift avant de redescendre à Arba Minch. L’après-midi, rendez-vous aux points de vue sur les lacs Abaya et Chamo et, si le temps le permet, au marché local. Nuit : Arba Minch."
+      },
+      {
+        "day": "Jour 2",
+        "title": "Bateau sur le lac Chamo – Quarante Sources – Ferme aux crocodiles",
+        "text": "Après le petit-déjeuner, direction le lac Chamo pour une excursion matinale en bateau. Le lac est célèbre pour ses grands crocodiles du Nil, ses hippopotames et ses oiseaux : guettez les crocodiles qui se prélassent sur la rive à l’endroit surnommé le Marché aux crocodiles, les hippopotames qui émergent de l’eau, ainsi que les pélicans, hérons et pygargues vocifères. Après le déjeuner à Arba Minch, promenez-vous dans la végétation luxuriante des Quarante Sources, les sources naturelles qui ont donné son nom à Arba Minch, et découvrez leur rôle dans l’approvisionnement en eau douce de la région. Continuez vers la ferme aux crocodiles pour découvrir leur élevage, leur comportement et leur conservation. Nuit : Arba Minch."
+      },
+      {
+        "day": "Jour 3",
+        "title": "Arba Minch – Marché local – Départ",
+        "text": "Après le petit-déjeuner, profitez d’une dernière matinée tranquille. Selon l’heure de votre départ, visitez un marché local pour découvrir les produits régionaux, les épices, les textiles traditionnels et l’artisanat pendant que votre guide vous présente la diversité culturelle de la région, ou retournez à un point de vue pour un dernier regard sur les lacs Abaya et Chamo. Transfert à l’aéroport d’Arba Minch pour votre vol, ou poursuite par la route vers votre prochaine destination."
+      }
+    ],
+    "places": [
+      "Arba Minch",
+      "Dorzé et Chencha",
+      "Lac Chamo"
+    ]
+  },
+  "3-day-omo-valley-cultural": {
+    "title": "Circuit culturel dans la vallée de l’Omo en 3 jours",
+    "days": "3 jours",
+    "style": "Culturel",
+    "season": "Toute l'année sauf avril et mai",
+    "from": "Sur demande",
+    "group": "1 à 12 invités",
+    "teaser": "De Jinka à Turmi : les peuples bena, karo, dassanech, hamer et mursi de la basse vallée de l’Omo.",
+    "summary": "Découvrez la diversité culturelle de la basse vallée de l’Omo lors d’un court voyage au départ et à l’arrivée de Jinka. Traversez de magnifiques paysages et des villages traditionnels à la rencontre des communautés bena, karo, dassanech, hamer et mursi, chacune avec ses traditions et son mode de vie, visitez un marché local si vos dates le permettent et passez deux nuits à Turmi, au cœur du pays hamer, avec des guides locaux expérimentés.",
+    "includes": [
+      "Accueil et assistance à l'aéroport de Jinka et tous les transferts",
+      "Véhicule 4x4 privé avec un chauffeur expérimenté",
+      "Guide anglophone agréé (autres langues sur demande)",
+      "2 nuits d'hébergement : hôtel ou lodge à Turmi",
+      "Pension complète : petit-déjeuner, déjeuner et dîner",
+      "Frais d'entrée à tous les sites et églises de l'itinéraire"
+    ],
+    "excludes": [
+      "Vols internationaux et visa éthiopien",
+      "Assurance voyage (fortement recommandée)",
+      "Boissons, pourboires et dépenses personnelles"
+    ],
+    "itinerary": [
+      {
+        "day": "Jour 1",
+        "title": "Jinka – Village bena – Turmi",
+        "text": "À votre arrivée à l’aéroport de Jinka, accueil par votre guide et votre chauffeur et route vers le sud en direction de Turmi, à travers les paysages de la basse vallée de l’Omo. En chemin, visitez un village bena pour découvrir le mode de vie, les vêtements, l’habitat et les activités pastorales de la communauté, et la façon dont les Bena préservent leurs traditions tout en s’adaptant à leur environnement. Continuez jusqu’à Turmi, principale localité du peuple hamer, et profitez du reste de l’après-midi pour vous reposer ou explorer les environs, selon votre heure d’arrivée. Nuit : Turmi."
+      },
+      {
+        "day": "Jour 2",
+        "title": "Turmi – Village karo – Dassanech – Village hamer",
+        "text": "Après le petit-déjeuner, route vers le fleuve Omo pour visiter le village karo de Korcho, réputé pour ses vues spectaculaires sur le fleuve. Les Karo sont célèbres pour leurs peintures corporelles élaborées, leurs scarifications décoratives et leurs traditions artistiques. Continuez vers Omorate, près de la frontière kényane, et, selon l’état du fleuve et les arrangements locaux, traversez l’Omo en bateau jusqu’à un village dassanech pour découvrir leur élevage, leur pêche et leur adaptation au sud aride. Retour à Turmi et, en fin d’après-midi, visite d’un village hamer pour découvrir leurs coiffures caractéristiques, leurs perles, leurs vêtements et leur culture centrée sur le bétail. Si une cérémonie traditionnelle ou une danse evangadi a lieu, vous pourrez peut-être y assister avec l’accord des habitants. Nuit : Turmi."
+      },
+      {
+        "day": "Jour 3",
+        "title": "Turmi – Marché local – Village mursi – Départ de Jinka",
+        "text": "Après le petit-déjeuner, route vers le nord en direction de Jinka. Selon le jour de la semaine, arrêt dans un marché local où différentes communautés se retrouvent pour échanger produits agricoles, bétail, vêtements, bijoux et artisanat. Continuez pour rendre visite au peuple mursi autour de Key Afar ou de Jinka, connu pour les plateaux labiaux portés par certaines femmes et ses parures corporelles élaborées, et découvrez ses traditions sociales, son élevage et sa vie quotidienne avec un guide local. Après le déjeuner à Jinka, transfert à l’aéroport de Jinka pour votre vol vers Addis-Abeba."
+      }
+    ],
+    "places": [
+      "Jinka",
+      "Villages Banna",
+      "Turmi",
+      "Villages Karo",
+      "Omorate",
+      "Villages Dassanech",
+      "Villages Mursi"
+    ]
+  },
+  "6-day-southwestern-ethiopia-coffee-and-wildlife": {
+    "title": "Café, faune et culture du sud-ouest de l’Éthiopie en 6 jours",
+    "days": "6 jours",
+    "style": "Café · Faune · Culturel",
+    "season": "Octobre à avril",
+    "from": "Sur demande",
+    "group": "1 à 12 invités",
+    "teaser": "Le palais du roi Abba Jifar II à Jimma, la plantation de café de Bebeka et les éléphants de Chebera Churchura.",
+    "summary": "Découvrez l’histoire, la culture du café et la faune du sud-ouest de l’Éthiopie. Envolez-vous pour Jimma et le palais du roi Abba Jifar II, suivez le café de la plante à la tasse à la plantation de Bebeka, puis traversez collines verdoyantes et forêts jusqu’au parc national de Chebera Churchura, connu pour ses éléphants d’Afrique, ses buffles, ses hippopotames, ses oiseaux, ses forêts et ses lacs, que vous explorerez avec des éclaireurs agréés du parc. Retour à Addis-Abeba pour un dîner culturel d’adieu avec musique et danses avant votre départ : une facette moins visitée et passionnante de l’Éthiopie.",
+    "includes": [
+      "Accueil et assistance à l'aéroport international de Bole et à tous les transferts",
+      "Vols intérieurs comme indiqué dans l'itinéraire",
+      "Véhicule 4x4 privé avec un chauffeur expérimenté",
+      "Guide anglophone agréé (autres langues sur demande)",
+      "5 nuits d'hébergement : hôtels et hébergement dans le parc",
+      "Pension complète : petit-déjeuner, déjeuner et dîner",
+      "Éclaireurs agréés du parc et droits d’entrée au parc",
+      "Visite de la plantation de café de Bebeka",
+      "Dîner d’adieu avec musique et danses traditionnelles",
+      "Frais d'entrée à tous les sites et églises de l'itinéraire"
+    ],
+    "excludes": [
+      "Vols internationaux et visa éthiopien",
+      "Assurance voyage (fortement recommandée)",
+      "Boissons, pourboires et dépenses personnelles"
+    ],
+    "itinerary": [
+      {
+        "day": "Jour 1",
+        "title": "Vol Addis-Abeba – Jimma – Palais du roi Abba Jifar II",
+        "text": "Prenez un vol matinal d’Addis-Abeba à Jimma, où vous attendent votre guide et votre chauffeur. Visitez le palais du roi Abba Jifar II, monument majeur de l’ancien royaume de Jimma, et découvrez le règne du roi ainsi que l’importance culturelle et politique du royaume. Poursuivez par une visite de la ville, de ses rues et de ses marchés, et découvrez le lien ancien de Jimma avec le café éthiopien ; si le temps le permet, assistez à une cérémonie traditionnelle du café dans un café local. L’après-midi, installation à l’hôtel et repos. Nuit : Jimma."
+      },
+      {
+        "day": "Jour 2",
+        "title": "Jimma – Plantation de café de Bebeka – Mizan Teferi",
+        "text": "Après le petit-déjeuner, route vers le sud-ouest à travers les terres agricoles luxuriantes du sud-ouest de l’Éthiopie jusqu’à la plantation de café de Bebeka, l’un des principaux domaines caféiers commerciaux du pays. Découvrez la culture, la récolte et la transformation du café et, selon l’accès, visitez les zones de production et d’autres cultures du domaine, comme les épices et le thé, avec une dégustation de café si possible. Continuez à travers villages, collines verdoyantes et forêts jusqu’à Mizan Teferi, avec des arrêts photo en chemin et, si le temps le permet, une courte promenade en ville ou une visite du marché. Nuit : Mizan Teferi."
+      },
+      {
+        "day": "Jour 3",
+        "title": "Mizan Teferi – Parc national de Chebera Churchura",
+        "text": "Après un petit-déjeuner matinal, départ pour le parc national de Chebera Churchura, une étendue sauvage de forêts, de rivières et de lacs réputée pour ses éléphants. Le trajet peut durer plusieurs heures selon l’itinéraire et l’état des routes ; un véhicule 4x4 et un départ matinal sont donc recommandés. À l’arrivée, enregistrement au parc, rencontre avec vos éclaireurs agréés et présentation de la faune, des règles de sécurité et des activités. Après le déjeuner et un moment de repos, courte excursion de découverte si les conditions le permettent, à la recherche d’oiseaux, de primates et d’autres animaux. Nuit : parc national de Chebera Churchura ou hébergement à proximité."
+      },
+      {
+        "day": "Jour 4",
+        "title": "Chebera Churchura – Journée complète de faune et de nature",
+        "text": "Départ matinal pour une excursion guidée avec des éclaireurs agréés à travers forêts, prairies et savanes arborées, à la recherche des éléphants d’Afrique, l’un des grands attraits du parc. Selon la saison et les déplacements des animaux, vous pourrez aussi voir des buffles, des antilopes, des phacochères, des babouins et de nombreuses espèces d’oiseaux, tout en découvrant le comportement des animaux, leurs traces et la conservation ; vos éclaireurs choisiront les zones selon les observations récentes et l’accès. Retour pour le petit-déjeuner et une pause à la mi-journée. L’après-midi, safari en véhicule, marche guidée ou visite des lacs du parc, connus pour leurs hippopotames et leur avifaune abondante. Nuit : parc national de Chebera Churchura ou hébergement à proximité."
+      },
+      {
+        "day": "Jour 5",
+        "title": "Chebera Churchura – Retour à Jimma",
+        "text": "Après le petit-déjeuner, profitez d’une dernière matinée dans le parc, avec une courte sortie d’observation ou une marche si le temps le permet. Reprenez ensuite la route de Jimma à travers la campagne du sud-ouest de l’Éthiopie, entre villages, champs et forêts, avec de courts arrêts lorsque la route et l’horaire le permettent ; le trajet peut être long et les conditions variables. Installation à l’hôtel de Jimma pour une soirée détente. Nuit : Jimma."
+      },
+      {
+        "day": "Jour 6",
+        "title": "Vol Jimma – Addis-Abeba – Dîner culturel – Départ",
+        "text": "Après le petit-déjeuner, transfert à l’aéroport de Jimma pour votre vol vers Addis-Abeba. À l’arrivée à l’aéroport de Bole, transfert à l’hôtel pour vous reposer, selon l’horaire de votre vol international. Le soir, savourez un dîner culturel éthiopien avec musique et danses dans un restaurant traditionnel pour célébrer la fin de votre voyage, avant votre transfert à l’aéroport international de Bole pour votre vol de départ."
+      }
+    ],
+    "places": [
+      "Addis-Abeba",
+      "Jimma",
+      "Bebeka",
+      "Mizan Teferi",
+      "Parc national de Chebera Churchura"
+    ]
   }
 }
