@@ -10,12 +10,6 @@ const OMO_PLACES = [
   'Turmi',
   'Mursi villages',
 ]
-// Tours that fit no single theme: photography and community-based stays.
-const OTHER_EXPERIENCES = [
-  '13-day-omo-valley-photography-expedition',
-  '4-day-lalibela-trek',
-  '6-day-lalibela-trek-and-churches',
-]
 
 const styles = (t: Categorized) =>
   t.styleKeys ?? t.style.split('·').map((s) => s.trim())
@@ -78,11 +72,6 @@ export const tourCategories: {
     label: 'Multi-Day & Customized Tours',
     // Eight days or more, usually combining several regions.
     test: (t) => t.nights >= 7,
-  },
-  {
-    id: 'other',
-    label: 'Other Experiences',
-    test: (t) => OTHER_EXPERIENCES.includes(t.slug),
   },
 ]
 
