@@ -6,7 +6,6 @@ import type { Metadata } from 'next'
 import { notFound } from 'next/navigation'
 import { JsonLd } from '@/components/seo/json-ld'
 import { pageGraph, tripSchema } from '@/lib/seo/schema'
-import { tours } from '@/features/tours/data/tours'
 import { getTour } from '@/features/tours/data/localized'
 import { getTourData } from '@/features/tours/server/catalog'
 import { hasPrice, priceShort } from '@/features/tours/lib/format'
@@ -21,9 +20,16 @@ import { TourFaq } from '@/features/tours/components/tour-faq'
 import { ReviewHighlights } from '@/features/reviews/components/review-highlights'
 import { RelatedTours } from '@/features/tours/components/related-tours'
 
+// Tour pages overlay live prices and featured flags from the admin API.
+// Pre-generating every slug would create one ISR function per path on Vercel
+// (220 paths across four locales). Returning an empty param list keeps one
+// on-demand ISR function for the whole route: the first request renders a
+// slug, then the CDN serves it for an hour before revalidating.
 export function generateStaticParams() {
-  return tours.map((t) => ({ slug: t.slug }))
+  return []
 }
+export const dynamicParams = true
+export const revalidate = 3600
 
 export async function generateMetadata({
   params,
@@ -131,5 +137,3 @@ export default async function TourPage({
     </>
   )
 }
-
-export const revalidate = 3600

@@ -17,6 +17,9 @@ import { RelatedPosts } from '@/features/blog/components/related-posts'
 export function generateStaticParams() {
   return posts.map((p) => ({ slug: p.slug }))
 }
+// Articles are static data, so every slug is pre-rendered. Without this flag
+// Next keeps a fallback render function for unknown slugs.
+export const dynamicParams = false
 
 export async function generateMetadata({
   params,

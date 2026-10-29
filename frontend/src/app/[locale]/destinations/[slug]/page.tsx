@@ -24,6 +24,9 @@ import { DestinationEnquiry } from '@/features/destinations/components/destinati
 export function generateStaticParams() {
   return destinations.map((d) => ({ slug: d.slug }))
 }
+// Destination content is static data, so every slug is pre-rendered. Without
+// this flag Next keeps a fallback render function for unknown slugs.
+export const dynamicParams = false
 
 export async function generateMetadata({
   params,

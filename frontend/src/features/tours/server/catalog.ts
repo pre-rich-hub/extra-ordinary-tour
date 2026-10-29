@@ -27,7 +27,12 @@ function overlayLive(staticTour: Tour, live: ApiTour, locale: AppLocale): Tour {
 export async function getToursData(locale: AppLocale = 'en'): Promise<Tour[]> {
   let liveTours: ApiTour[] = []
   try {
-    const page = await getTours({ limit: 100 }, { cache: 'force-cache' })
+    // Revalidate the overlay with the page, and tag it so an admin write can
+    // invalidate the data cache on demand instead of waiting for the window.
+    const page = await getTours(
+      { limit: 100 },
+      { next: { revalidate: 3600, tags: ['tours'] } },
+    )
     liveTours = page.items ?? []
   } catch {
     liveTours = []
@@ -49,7 +54,9 @@ export async function getTourData(
   if (!staticTour) return undefined
 
   try {
-    const live = await getTourBySlug(slug, { cache: 'force-cache' })
+    const live = await getTourBySlug(slug, {
+      next: { revalidate: 3600, tags: ['tours', `tour:${slug}`] },
+    })
     if (live && live.canonical?.slug === slug) {
       return overlayLive(staticTour, live, locale)
     }
