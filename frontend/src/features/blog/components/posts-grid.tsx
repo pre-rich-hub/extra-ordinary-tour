@@ -39,7 +39,7 @@ export function PostsGrid({ posts }: { posts: Post[] }) {
               type="button"
               aria-pressed={on}
               onClick={() => setActive(c)}
-              className={`border px-4 py-2 text-[10px] font-semibold uppercase tracking-[0.16em] transition-colors duration-200 sm:text-[11px] ${
+              className={`rounded-full border px-4 py-2 text-[10px] font-semibold uppercase tracking-[0.16em] transition-colors duration-200 sm:text-[11px] ${
                 on
                   ? 'border-primary bg-primary text-primary-foreground'
                   : 'border-border bg-card text-muted-foreground hover:border-primary/50 hover:text-foreground'

@@ -40,14 +40,16 @@ export function LayoverAssurances() {
           )}
           tone="dark"
         />
-        <div className="grid gap-x-10 gap-y-10 sm:grid-cols-2 lg:grid-cols-4">
+        <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
           {assurances.map((a, i) => (
             <Reveal
               key={a.title}
               delay={i * 90}
-              className="border-t border-background/20 pt-6"
+              className="h-full border border-background/15 bg-background/[0.04] p-6 transition-colors duration-300 hover:border-accent/50"
             >
-              <a.icon className="mb-4 h-5 w-5 text-accent" aria-hidden />
+              <span className="mb-5 flex h-10 w-10 items-center justify-center rounded-full border border-accent/40">
+                <a.icon className="h-4 w-4 text-accent" aria-hidden />
+              </span>
               <p className="mb-3 font-serif text-xl text-background sm:text-2xl">
                 {copy(a.title)}
               </p>

@@ -21,7 +21,13 @@ export function PostCard({ post, wide }: { post: Post; wide?: boolean }) {
             />
           </div>
         )}
-        <div className="mt-5">
+        <div
+          className={
+            wide
+              ? 'relative border border-border border-l-4 border-l-accent bg-card p-7 transition-colors duration-300 group-hover:border-l-primary sm:p-10 lg:p-12'
+              : 'mt-5'
+          }
+        >
           <p className="flex flex-wrap items-center gap-x-3 gap-y-1 text-[10px] font-semibold uppercase tracking-[0.18em] text-muted-foreground">
             <span className="text-primary">{copy(post.category)}</span>
             <span className="h-3 w-px bg-border" aria-hidden />

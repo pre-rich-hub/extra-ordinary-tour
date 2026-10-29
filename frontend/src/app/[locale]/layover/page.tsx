@@ -79,6 +79,7 @@ export default async function LayoverPage({
           'An Ethiopian Airlines plane over the runway, with the airport terminal behind',
         )}
         crumbs={crumbs}
+        metaStyle="chips"
         meta={[
           { label: copy('Packages'), value: String(packageCount) },
           { label: copy('Shortest'), value: shortest },

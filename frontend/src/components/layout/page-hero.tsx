@@ -14,6 +14,7 @@ interface PageHeroProps {
   crumbs?: Crumb[]
   meta?: { label: string; value: string }[]
   align?: 'left' | 'center'
+  metaStyle?: 'grid' | 'chips'
 }
 
 export function PageHero({
@@ -25,6 +26,7 @@ export function PageHero({
   crumbs = [],
   meta,
   align = 'left',
+  metaStyle = 'grid',
 }: PageHeroProps) {
   const copy = useCopy()
 
@@ -93,7 +95,25 @@ export function PageHero({
           )}
         </div>
 
-        {meta && meta.length > 0 && (
+        {meta && meta.length > 0 && metaStyle === 'chips' && (
+          <dl className="mt-8 flex flex-wrap gap-2.5 sm:mt-10">
+            {meta.map((m) => (
+              <div
+                key={m.label}
+                className="flex items-baseline gap-2.5 rounded-full border border-background/25 bg-charcoal/30 px-4 py-2 backdrop-blur-sm"
+              >
+                <dt className="text-[10px] uppercase tracking-[0.18em] text-background/55">
+                  {copy(m.label)}
+                </dt>
+                <dd className="font-serif text-base text-accent sm:text-lg">
+                  {copy(m.value)}
+                </dd>
+              </div>
+            ))}
+          </dl>
+        )}
+
+        {meta && meta.length > 0 && metaStyle === 'grid' && (
           <dl className="mt-9 grid grid-cols-2 gap-px overflow-hidden border border-background/20 bg-background/15 sm:mt-12 md:grid-cols-4">
             {meta.map((m) => (
               <div key={m.label} className="bg-charcoal/40 px-5 py-4 sm:px-6">
