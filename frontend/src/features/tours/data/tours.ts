@@ -102,7 +102,7 @@ export const tours: Tour[] = [
     slug: '6-day-addis-lalibela-and-danakil',
     title: '6-Day Addis Ababa, Lalibela & Danakil Depression Tour',
     image:
-      'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/v1793090614/lalibela-bete-giyorgis-above.jpg',
+      'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/v1793282685/danakil-salt-flats-4x4-convoy.jpg',
     days: '6 Days',
     nights: 5,
     style: 'Historical · Danakil',
@@ -192,7 +192,7 @@ export const tours: Tour[] = [
     // Tour code EDT-03-H7
     slug: '7-day-historic-route',
     title: '7-Day Historic Route',
-    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/v1793006889/lalibela-bete-giyorgis-front.jpg',
+    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/v1793006889/lalibela-bete-giyorgis-roof.jpg',
     days: '7 Days',
     nights: 6,
     style: 'Historical · Cultural',
@@ -4693,7 +4693,7 @@ export const tours: Tour[] = [
     slug: '5-day-ethiopian-culinary-journey',
     title: '5-Day Ethiopian Culinary Journey',
     image:
-      'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/v1793124321/guide-food-injera-platter.jpg',
+      'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/v1793282684/culinary-injera-feast-platter.jpg',
     days: '5 Days',
     nights: 4,
     style: 'Cultural',
