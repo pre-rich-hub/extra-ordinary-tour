@@ -989,26 +989,6 @@
       "Frauen tragen mit Perlen und Muscheln verzierte Lederröcke, während Männer oft kleine Holzhocker bei sich tragen. Rituelle Tänze bringen die Gemeinschaft bei Zeremonien und Festen zusammen."
     ]
   },
-  "yirgacheffe-and-sidama": {
-    "name": "Yirgacheffe & Sidama",
-    "region": "Weitere Reiseziele & Erlebnisse",
-    "tag": "Kaffeeregionen",
-    "teaser": "Die Farmen und Aufbereitungsstationen hinter einigen der berühmtesten Kaffees der Welt.",
-    "intro": "In den grünen Hügeln südlich von Hawassa bauen Kleinbauern seit Generationen Kaffee im Schatten von Ensete und einheimischen Bäumen an.",
-    "bestTime": "Oktober bis Januar (Ernte)",
-    "duration": "2 bis 4 Tage",
-    "altitude": "1.700 bis 2.200 m",
-    "highlights": [
-      "Pflücken und Aufbereiten während der Erntezeit",
-      "Nassaufbereitungsstationen und Trockenbetten",
-      "Die von der UNESCO gelistete Agroforstlandschaft der Gedeo",
-      "Kaffeezeremonien mit Bauernfamilien"
-    ],
-    "paragraphs": [
-      "Sidama und Yirgacheffe sind Namen, die Kaffeeliebhaber auf der ganzen Welt kennen. Rund um Aleta Wondo, Dilla und Yirgacheffe wird Kaffee in einem traditionellen Agroforstsystem unter einem Blätterdach angebaut; die Kulturlandschaft der Gedeo wurde 2023 von der UNESCO aufgenommen.",
-      "Unsere Kaffeereisen besuchen Farmen und Aufbereitungsstationen, erklären, wie aus Kirschen Rohkaffee wird, und enden immer mit der Zeremonie selbst: geröstet, gemahlen und in einer Jebena aus Ton aufgebrüht."
-    ]
-  },
   "kaffa-and-bonga": {
     "name": "Kafa-Biosphärenreservat & Bonga",
     "region": "Westäthiopien",
@@ -1374,6 +1354,75 @@
       "Jenseits der Stadt prägen weite halbtrockene Landschaften, Akazien, offene Weideflächen und Siedlungen die Somali-Region, in denen sich die Hirtentraditionen vieler somalischer Gemeinschaften widerspiegeln. Vieh, vor allem Kamele, Ziegen, Schafe und Rinder, spielt eine wichtige Rolle für Lebensunterhalt und kulturelle Identität. Reisende erfahren mehr über das traditionelle Hirtenleben, die Bedeutung der Viehmärkte und über Bräuche, die seit Generationen weitergegeben werden.",
       "Jijiga bietet zudem die Gelegenheit, die kulturelle Vielfalt Äthiopiens jenseits der bekannteren historischen Stätten und des Hochlands zu verstehen. Sprache, Musik, Dichtung, Kleidung, Gastfreundschaft und islamische Traditionen der Region formen eine eigenständige kulturelle Identität und machen einen Besuch besonders lohnend für Reisende, die kulturelle Entdeckungen und authentische Begegnungen suchen.",
       "Jijiga lässt sich mit einem Besuch von Harar und Dire Dawa zu einer umfassenderen Reise durch Ostäthiopien verbinden, abhängig von aktuellen Straßenverhältnissen, Sicherheitshinweisen und Reiseplanung."
+    ]
+  },
+  "lake-chamo": {
+    "name": "Chamo-See",
+    "region": "Südäthiopien & Omo-Tal",
+    "tag": "See im Rift Valley",
+    "teaser": "Riesige Krokodile, Flusspferde und reiche Vogelwelt an einem See im Rift Valley bei Arba Minch.",
+    "intro": "Nahe Arba Minch im Großen Afrikanischen Grabenbruch ist der Chamo-See bekannt für seine Wassertiere, seine schöne Landschaft und seine ausgedehnten Feuchtgebiete: ein besonderes Ziel für Naturliebhaber und Fotografen.",
+    "bestTime": "Ganzjährig",
+    "duration": "Ein halber bis ein ganzer Tag",
+    "altitude": "1.110 m",
+    "highlights": [
+      "Bootsfahrt zum Krokodilmarkt mit seinen großen Nilkrokodilen",
+      "Flusspferde, die im See ruhen und zum Atmen auftauchen",
+      "Pelikane, Schreiseeadler, Reiher und andere Wasservögel",
+      "Blick auf die Brücke Gottes und den Nechisar-Nationalpark"
+    ],
+    "paragraphs": [
+      "Umgeben von trockenem Tiefland und fernen Bergen bildet der Chamo-See mit seinem blaugrünen Wasser einen eindrucksvollen Kontrast zu den rauen Landschaften Südäthiopiens. Er liegt südlich des Abaya-Sees, von dem ihn ein schmaler Landstreifen trennt, die sogenannte Brücke Gottes, die zum Nechisar-Nationalpark gehört. Grasland, Feuchtgebiete, Waldland und grundwassergespeiste Wälder rund um den See beherbergen eine vielfältige Tierwelt.",
+      "Eine der bekanntesten Stellen des Sees ist der sogenannte Krokodilmarkt, wo sich große Nilkrokodile an bestimmten Uferabschnitten versammeln und oft in der Sonne liegen. Im Wasser leben auch Flusspferde, die man häufig im See ruhen oder zum Atmen auftauchen sieht.",
+      "Der See und seine Feuchtgebiete bieten zahlreichen Stand- und Zugvögeln Lebensraum. Je nach Jahreszeit sind Pelikane, Schreiseeadler, Reiher und andere Wasservögel zu sehen, was die Gegend besonders für Vogelbeobachter und Naturfotografen reizvoll macht.",
+      "Im Chamo-See leben zahlreiche Süßwasserfische, darunter Nilbarsch, Wels und Tilapia, und die Fischerei ist neben Landwirtschaft und anderen traditionellen Tätigkeiten ein wichtiger Teil des Lebensunterhalts der Menschen in der Region.",
+      "Zusammen mit dem Nechisar-Nationalpark, bekannt für Burchell-Zebras, Gazellen und weitere Wildtiere, bildet der See eine der markantesten Naturlandschaften Südäthiopiens. Gemeinsam mit dem Abaya-See und dem umliegenden Hochland ist er ein Höhepunkt von Arba Minch, der Stadt der „vierzig Quellen“, und zeigt eine andere Seite Äthiopiens jenseits seiner historischen Städte."
+    ]
+  },
+  "yirga-alem": {
+    "name": "Yirga Alem",
+    "region": "Südäthiopien & Omo-Tal",
+    "tag": "Sidama-Landschaft",
+    "teaser": "Grüne Hügel, Kaffeegärten und Sidama-Kultur in der ruhigen Landschaft südlich von Hawassa.",
+    "intro": "Yirga Alem, auch Yirgalem geschrieben, ist eine charmante Stadt in der Region Sidama südlich von Hawassa, umgeben von grünen Hügeln, fruchtbarem Ackerland, Kaffeegärten und Ensete-Pflanzungen, und gewährt Einblicke in die ländlichen Landschaften und traditionellen Lebensweisen Südäthiopiens.",
+    "bestTime": "Ganzjährig; Oktober bis Januar zur Kaffeeernte",
+    "duration": "1 bis 2 Tage",
+    "altitude": "1.780 m",
+    "highlights": [
+      "Schattenkaffee (Arabica) in den Gärten der Sidama",
+      "Ensete (Falsche Banane) und traditionelle Landwirtschaft der Sidama",
+      "Kaffeezeremonien, lokale Märkte und Kunsthandwerk",
+      "Spaziergänge über Land und Aufenthalt in der Aregash Lodge"
+    ],
+    "paragraphs": [
+      "Anders als Äthiopiens berühmtere historische Reiseziele ist Yirga Alem für seine friedliche Landschaft, sein landwirtschaftliches Erbe und seine Verbindung zur reichen Kaffeekultur des Landes bekannt. Kleine Höfe bauen Kaffee neben Ensete, Obstbäumen und anderen Kulturen an und schaffen so eine unverwechselbare Agrarlandschaft.",
+      "Die Bauern ziehen Arabica-Kaffee in kleinen Gärten, oft im Schatten von Bäumen. Besucher erfahren mehr über Anbau, Ernte und traditionelle Zubereitung des Kaffees, und eine Kaffeezeremonie vermittelt die Gastfreundschaft und Bräuche, die Kaffee zu einem so wichtigen Teil des Alltags machen.",
+      "Yirga Alem öffnet ein Fenster zur Kultur der Sidama, deren Traditionen eng mit Landwirtschaft und Gemeinschaftsleben verbunden sind. Besonders wichtig ist Ensete, auch Falsche Banane genannt: Seine verarbeiteten Produkte sind ein Grundnahrungsmittel, und die Pflanze liefert auch Materialien für den Alltag. Märkte und Dörfer zeigen die landwirtschaftlichen Erzeugnisse, traditionellen Speisen und das Kunsthandwerk der Region.",
+      "Die Landschaft ist geprägt von sanften Hügeln, üppiger Vegetation, bestellten Feldern und verstreuten Siedlungen, ein angenehmer Kontrast zum trockeneren Tiefland, ideal für Spaziergänge und Fotografie. Bekannt ist die Gegend auch für die Aregash Lodge, die mit ihren Hütten im traditionellen Stil im Grünen liegt.",
+      "Südlich von Hawassa ist Yirga Alem ein Tor zur Region Sidama und zum Gedeo-Hochland dahinter. Für Reisende, die ein ruhigeres, persönlicheres Äthiopien suchen, zeigt es die enge Verbindung von Kaffee, Landwirtschaft, Kultur und Natur."
+    ]
+  },
+  "yirgacheffe": {
+    "name": "Yirgacheffe",
+    "region": "Südäthiopien & Omo-Tal",
+    "tag": "Kaffeehochland",
+    "teaser": "Das grüne Gedeo-Hochland, Heimat eines der berühmtesten Kaffees der Welt.",
+    "intro": "In der Gedeo-Zone Südäthiopiens ist Yirgacheffe international bekannt für seinen unverwechselbaren Arabica-Kaffee, angebaut von Kleinbauern in einem grünen Hochland, in dem das Leben eng mit dem Kaffee verbunden ist.",
+    "bestTime": "Oktober bis Januar (Ernte)",
+    "duration": "1 bis 2 Tage",
+    "altitude": "1.700 bis 2.200 m",
+    "highlights": [
+      "Kleinbäuerliche Kaffeefarmen, Kooperativen und Waschstationen",
+      "Gewaschene und natürliche Aufbereitung während der Ernte",
+      "Die von der UNESCO anerkannte Kulturlandschaft der Gedeo",
+      "Kaffeezeremonien mit einheimischen Familien"
+    ],
+    "paragraphs": [
+      "Seit Generationen prägt der Kaffee Identität, Wirtschaft und Landschaft von Yirgacheffe. Sein Name ist bei Kaffeeliebhabern weltweit bekannt für Kaffees, die oft mit floralen Aromen, Zitrusnoten, feinem Geschmack und lebendiger Säure verbunden werden, je nach Sorte, Anbaubedingungen und Aufbereitung.",
+      "Traditionell wächst der Kaffee auf kleinen Parzellen im Schatten von Bäumen, neben Ensete, Obstbäumen und anderen Kulturen, und bildet vielschichtige Landschaften, die den Familien ihr Auskommen sichern. Zur Ernte werden die reifen Kirschen gepflückt und zu Waschstationen und Kooperativen gebracht: Gewaschener Kaffee steht meist für klare, helle Aromen, während natürlich aufbereiteter Kaffee oft ausgeprägt fruchtige Noten entwickelt.",
+      "Yirgacheffe liegt in der Kulturlandschaft der Gedeo, die die UNESCO für ihre traditionelle Agroforstwirtschaft anerkannt hat: dicht bewirtschaftete Hänge, einheimische Bäume, Kaffeegärten und Ensete-Pflanzungen. Die Region ist auch bekannt für ihre traditionellen Siedlungen und historischen Steinmonumente, darunter die Stelen und archäologischen Stätten rund um Dilla.",
+      "Die Bedeutung des Kaffees reicht weit über die Landwirtschaft hinaus. Bei der traditionellen Zeremonie werden grüne Bohnen geröstet, gemahlen und in einer Tonkanne namens Jebena aufgebrüht und in kleinen Tassen mit Gesprächen und Snacks serviert: ein Ausdruck der Gastfreundschaft, der Familien, Nachbarn und Besucher zusammenbringt.",
+      "Ein Spaziergang durch grüne Hügel, schattige Kaffeegärten und Dörfer zeigt, wie Kaffee, Ensete und einheimische Bäume im bäuerlichen Alltag ineinandergreifen, vom Trubel der Ernte bis zu den üppigen Monaten nach der Regenzeit. Yirgacheffe ist einer der besten Orte in Äthiopien, um zu verstehen, wie eine einzige Kulturpflanze Identität, Lebensgrundlagen und weltweite Verbindungen einer Region prägen kann."
     ]
   }
 }

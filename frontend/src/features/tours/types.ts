@@ -16,6 +16,7 @@ export type Tour = {
   group: string
   teaser: string
   summary: string
+  highlights?: string[]
   includes: string[]
   excludes: string[]
   itinerary: { day: string; title: string; text: string }[]

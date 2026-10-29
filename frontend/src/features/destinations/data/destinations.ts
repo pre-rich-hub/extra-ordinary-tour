@@ -1090,6 +1090,33 @@ export const destinations: Destination[] = [
     ],
   },
   {
+    slug: 'lake-chamo',
+    name: 'Lake Chamo',
+    region: 'Southern Ethiopia & Omo Valley',
+    tag: 'Rift Valley Lake',
+    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/nechsar.jpg',
+    teaser:
+      'Giant crocodiles, hippos and rich birdlife on a Rift Valley lake beside Arba Minch.',
+    intro:
+      'Near Arba Minch in the Great Rift Valley, Lake Chamo is known for its aquatic wildlife, beautiful scenery and extensive wetlands, a distinctive destination for nature lovers and photographers.',
+    bestTime: 'Year-round',
+    duration: 'Half a day to 1 day',
+    altitude: '1,110 m',
+    highlights: [
+      'Boat trip to the Crocodile Market and its large Nile crocodiles',
+      'Hippos resting and surfacing in the lake',
+      'Pelicans, fish eagles, herons and other waterbirds',
+      'Views of the Bridge of God and Nechisar National Park',
+    ],
+    paragraphs: [
+      'Surrounded by dry lowland scenery and distant mountains, Lake Chamo offers a striking contrast between its blue-green waters and the rugged landscapes of southern Ethiopia. It lies south of Lake Abaya, and the two lakes are separated by a narrow strip of land known as the Bridge of God, part of Nechisar National Park. Grasslands, wetlands, woodland and groundwater forests around the lake support a diverse range of wildlife.',
+      'One of the lake’s best-known features is the area popularly called the Crocodile Market, where large Nile crocodiles gather along particular sections of the shoreline, often resting in the sun. The surrounding waters also support hippopotamuses, which can often be seen resting in the lake or surfacing to breathe.',
+      'The lake and its wetlands provide habitats for numerous resident and migratory birds. Pelicans, fish eagles, herons and other waterbirds can be found here, depending on the season, making the area particularly appealing to birdwatchers and nature photographers.',
+      'Lake Chamo supports a variety of freshwater fish, including Nile perch, catfish and tilapia, and fishing is an important part of local livelihoods, alongside farming and other traditional activities that have developed with the region’s natural resources.',
+      'Together with Nechisar National Park, known for its Burchell’s zebras, gazelles and other wildlife, the lake forms one of southern Ethiopia’s most distinctive natural landscapes. Along with Lake Abaya and the surrounding highlands, it is a highlight of Arba Minch, the city of “forty springs”, and a different side of Ethiopia beyond its historic cities.',
+    ],
+  },
+  {
     slug: 'hawassa',
     name: 'Hawassa',
     region: 'Southern Ethiopia & Omo Valley',
@@ -1112,6 +1139,60 @@ export const destinations: Destination[] = [
       'Hawassa lies on the eastern shore of Lake Hawassa, a freshwater lake in the Great Rift Valley. Its tree-lined avenues and lakeside promenade make it one of the most pleasant cities in southern Ethiopia.',
       'The city is best known for its fish market, where fishermen bring in their catch at dawn while marabou storks wait for scraps. The lake is also home to hippos and a rich variety of water birds.',
       'Hawassa is a convenient overnight stop on journeys between Addis Ababa, Arba Minch and the Omo Valley, and a base for the hot springs of Wondo Genet and the coffee lands of Sidama.',
+    ],
+  },
+  {
+    slug: 'yirga-alem',
+    name: 'Yirga Alem',
+    region: 'Southern Ethiopia & Omo Valley',
+    tag: 'Sidama Countryside',
+    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/coffee-ceremony.jpg',
+    teaser:
+      'Green hills, coffee gardens and Sidama culture in the quiet countryside south of Hawassa.',
+    intro:
+      'Yirga Alem, also written Yirgalem, is a charming town in the Sidama region south of Hawassa, surrounded by green hills, fertile farmland, coffee gardens and enset plantations, revealing the rural landscapes and traditional lifestyles of southern Ethiopia.',
+    bestTime: 'Year-round; October to January for the coffee harvest',
+    duration: '1 to 2 days',
+    altitude: '1,780 m',
+    highlights: [
+      'Shade-grown Arabica coffee in Sidama garden plots',
+      'Enset (false banana) and traditional Sidama farming',
+      'Coffee ceremonies, local markets and handicrafts',
+      'Countryside walks and stays at Aregash Lodge',
+    ],
+    paragraphs: [
+      'Unlike Ethiopia’s more famous historical destinations, Yirga Alem is known for its peaceful countryside, agricultural heritage and connection to the country’s rich coffee culture. Small farms grow coffee alongside enset, fruit trees and other crops, creating a distinctive agricultural landscape.',
+      'Local farmers cultivate Arabica coffee in small garden plots, often beneath the shade of trees. Visitors can learn about coffee cultivation, harvesting and traditional preparation, and a traditional coffee ceremony offers insight into the hospitality and social customs that make coffee such an important part of everyday life.',
+      'Yirga Alem is a window into the culture of the Sidama people, whose traditions are closely connected to agriculture and community life. Enset, commonly known as false banana, is particularly important: its processed products are a staple of the local diet, and the plant also provides materials used in everyday life. Local markets and rural settlements showcase the region’s produce, traditional foods and handicrafts.',
+      'The countryside features rolling hills, lush vegetation, cultivated fields and scattered settlements, a pleasant contrast to Ethiopia’s drier lowlands, with opportunities for nature walks and photography. The area is also known for Aregash Lodge, set among the greenery in traditional-style huts.',
+      'South of Hawassa, Yirga Alem is a gateway to the wider Sidama region and the Gedeo highlands beyond. For visitors seeking a quieter, more intimate experience of Ethiopia, it reveals the close connections between coffee, agriculture, culture and the natural environment.',
+    ],
+  },
+  {
+    slug: 'yirgacheffe',
+    name: 'Yirgacheffe',
+    region: 'Southern Ethiopia & Omo Valley',
+    tag: 'Coffee Highlands',
+    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/coffee-farm.jpg',
+    teaser:
+      'The green Gedeo highlands behind one of the world’s most celebrated coffees.',
+    intro:
+      'In the Gedeo Zone of southern Ethiopia, Yirgacheffe is renowned internationally for its distinctive Arabica coffee, grown by smallholder farmers in green highlands whose lives are closely connected to coffee.',
+    bestTime: 'October to January (harvest)',
+    duration: '1 to 2 days',
+    altitude: '1,700 to 2,200 m',
+    highlights: [
+      'Smallholder coffee farms, cooperatives and washing stations',
+      'Washed and natural processing during the harvest',
+      'The UNESCO-listed Gedeo cultural landscape',
+      'Coffee ceremonies with local families',
+    ],
+    paragraphs: [
+      'For generations, coffee has shaped the identity, economy and landscape of Yirgacheffe. Its name is recognised by coffee lovers worldwide for coffees often associated with floral aromas, citrus notes, delicate flavours and bright acidity, varying with the coffee variety, growing conditions and processing.',
+      'Coffee is traditionally grown in small plots beneath shade trees and alongside enset, fruit trees and other crops, creating layered landscapes that support local livelihoods. During the harvest, ripe cherries are collected and taken to washing stations and cooperatives: washed coffee is generally associated with clean, bright flavours, while naturally processed coffee often develops pronounced fruity notes.',
+      'Yirgacheffe lies within the Gedeo cultural landscape, recognised by UNESCO for its traditional agroforestry: densely cultivated hillsides, indigenous trees, coffee gardens and enset plantations. The wider region is also known for its traditional settlements and historic stone monuments, including the stelae and archaeological sites around Dilla.',
+      'Coffee’s significance extends far beyond agriculture. In the traditional coffee ceremony, green beans are roasted, ground and brewed in a clay pot called a jebena and served in small cups with conversation and snacks, an expression of hospitality that brings families, neighbours and visitors together.',
+      'Walking through the green hills, shaded coffee gardens and rural settlements shows how coffee, enset and indigenous trees are woven into everyday farming, from the bustle of the harvest to the lush months after the rains. Yirgacheffe is one of the best places in Ethiopia to understand how a single crop can shape local identity, livelihoods and global connections.',
     ],
   },
   {
@@ -1352,30 +1433,6 @@ export const destinations: Destination[] = [
     paragraphs: [
       'The Tsemay combine livestock herding with growing sorghum and maize along the Weito River. Cattle hold great social and economic value, and a man’s status is measured by his herd.',
       'Women wear leather skirts decorated with beads and shells, while men often carry small wooden stools. Ritual dances bring the community together at ceremonies and celebrations.',
-    ],
-  },
-  {
-    slug: 'yirgacheffe-and-sidama',
-    name: 'Yirgacheffe & Sidama',
-    region: 'Other Destinations & Experiences',
-    tag: 'Coffee Lands',
-    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/coffee-farm.jpg',
-    teaser:
-      'The farms and washing stations behind some of the world’s most celebrated coffees.',
-    intro:
-      'In the green hills south of Hawassa, smallholder farmers grow coffee in the shade of ensete and indigenous trees, as they have for generations.',
-    bestTime: 'October to January (harvest)',
-    duration: '2 to 4 days',
-    altitude: '1,700 to 2,200 m',
-    highlights: [
-      'Picking and processing during the harvest season',
-      'Washing stations and raised drying beds',
-      'The UNESCO-listed Gedeo agroforestry landscape',
-      'Coffee ceremonies with farming families',
-    ],
-    paragraphs: [
-      'Sidama and Yirgacheffe are names known to coffee lovers worldwide. Around Aleta Wondo, Dilla and Yirgacheffe, coffee is grown under a canopy of trees in a traditional agroforestry system; the Gedeo Cultural Landscape was inscribed by UNESCO in 2023.',
-      'Our coffee journeys visit farms and washing stations, explain how cherries become green coffee, and always end with the ceremony itself: roasted, ground and brewed in a clay jebena.',
     ],
   },
   {

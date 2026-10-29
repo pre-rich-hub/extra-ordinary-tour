@@ -28,14 +28,16 @@ const nextConfig = {
         }))
       : [{ source: '/:path*', headers: noindex }]
   },
-  // Journal articles superseded by the About Ethiopia and Travel Guide pages.
+  // Journal articles superseded by the About Ethiopia and Travel Guide pages,
+  // and destination guides replaced by more specific ones.
   async redirects() {
     return [
-      ['about-ethiopia', 'about-ethiopia'],
-      ['what-to-know-before-visiting-ethiopia', 'travel-guide'],
-    ].map(([post, page]) => ({
-      source: `/:locale(en|es|fr|de)/blog/${post}`,
-      destination: `/:locale/${page}`,
+      ['blog/about-ethiopia', 'about-ethiopia'],
+      ['blog/what-to-know-before-visiting-ethiopia', 'travel-guide'],
+      ['destinations/yirgacheffe-and-sidama', 'destinations/yirgacheffe'],
+    ].map(([from, to]) => ({
+      source: `/:locale(en|es|fr|de)/${from}`,
+      destination: `/:locale/${to}`,
       permanent: true,
     }))
   },

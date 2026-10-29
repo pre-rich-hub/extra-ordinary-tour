@@ -42,7 +42,6 @@ const placeAliases: Record<string, string[]> = {
     'Hawassa',
   ],
   'abijatta-shalla': ['Abijatta-Shalla'],
-  'nech-sar-national-park': ['Lake Chamo'],
   'awash-national-park': ['Awash Falls'],
   'bale-mountains': [
     'Sanetti Plateau',
@@ -54,7 +53,8 @@ const placeAliases: Record<string, string[]> = {
   'museums-and-monuments': ['National Museum', 'Holy Trinity Cathedral'],
   'debre-libanos': ['Portuguese Bridge', 'Blue Nile Gorge'],
   'tiya-and-adadi-mariam': ['Tiya', 'Adadi Mariam'],
-  'yirgacheffe-and-sidama': ['Yirgacheffe', 'Aleta Wondo', 'Dilla'],
+  'yirga-alem': ['Yirgalem'],
+  yirgacheffe: ['Dilla'],
   'kaffa-and-bonga': ['Bonga (Kaffa)', 'Mankira forest'],
   timkat: ['Lalibela (Timkat)', 'Gondar (Timkat)'],
   genna: ['Lalibela (Genna)'],

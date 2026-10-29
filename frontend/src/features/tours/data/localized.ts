@@ -18,6 +18,7 @@ export function getTours(locale: AppLocale = 'en') {
       'group',
       'teaser',
       'summary',
+      'highlights',
       'includes',
       'excludes',
       'itinerary',

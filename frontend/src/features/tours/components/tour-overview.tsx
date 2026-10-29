@@ -2,7 +2,7 @@ import { useCopy } from '@/i18n/copy'
 import { useLocale } from 'next-intl'
 import type { AppLocale } from '@/i18n/routing'
 import { Link } from '@/i18n/navigation'
-import { MapPin } from 'lucide-react'
+import { Check, MapPin } from 'lucide-react'
 import { Reveal } from '@/components/ui/reveal'
 import { getDestinations } from '@/features/destinations/data/localized'
 import { placeDestinations } from '@/features/destinations/data/relations'
@@ -29,6 +29,24 @@ export function TourOverview({ tour: t }: { tour: Tour }) {
       <p className="mt-7 text-pretty leading-relaxed text-muted-foreground sm:text-lg">
         {copy(t.summary)}
       </p>
+
+      {t.highlights?.length ? (
+        <div className="mt-10">
+          <p className="eyebrow mb-5 text-primary">{copy('Highlights')}</p>
+          <ul className="grid gap-5 sm:grid-cols-2 sm:gap-x-10">
+            {t.highlights.map((h) => (
+              <li key={h} className="flex items-start gap-3.5">
+                <span className="mt-0.5 flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-primary text-primary-foreground">
+                  <Check className="h-3 w-3" />
+                </span>
+                <span className="text-pretty text-sm leading-relaxed text-foreground sm:text-base">
+                  {h}
+                </span>
+              </li>
+            ))}
+          </ul>
+        </div>
+      ) : null}
 
       <div className="mt-10">
         <p className="eyebrow mb-5 text-primary">{copy('Places')}</p>

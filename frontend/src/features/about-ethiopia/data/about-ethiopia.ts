@@ -122,7 +122,7 @@ export const aboutEthiopia: GuideSection[] = [
     links: [
       {
         label: 'Yirgacheffe & Sidama coffee lands',
-        href: '/destinations/yirgacheffe-and-sidama',
+        href: '/destinations/yirgacheffe',
       },
       {
         label: 'Kaffa, home of wild coffee',

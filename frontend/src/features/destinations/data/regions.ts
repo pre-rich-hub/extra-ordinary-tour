@@ -1,4 +1,4 @@
-// Destination regions in the order of the client's previous website. `label`
+// Destination regions in the client's chosen order. `label`
 // is the canonical (English) region name on each destination; `id` is the
 // stable anchor on the Destinations page. `members`, when set, lists the
 // region's destinations in display order, including ones whose own region is
@@ -8,9 +8,10 @@ export const destinationRegions: {
   label: string
   members?: string[]
 }[] = [
+  { id: 'addis-ababa', label: 'Addis Ababa & Surroundings' },
   { id: 'historic-north', label: 'Historic Northern Ethiopia' },
-  { id: 'eastern-ethiopia', label: 'Eastern Ethiopia' },
   { id: 'southern-ethiopia', label: 'Southern Ethiopia & Omo Valley' },
+  { id: 'eastern-ethiopia', label: 'Eastern Ethiopia' },
   {
     id: 'western-ethiopia',
     label: 'Western Ethiopia',
@@ -25,7 +26,6 @@ export const destinationRegions: {
   },
   { id: 'nature-and-wildlife', label: 'Nature & Wildlife' },
   { id: 'festivals-and-events', label: 'Festivals & Events' },
-  { id: 'addis-ababa', label: 'Addis Ababa & Surroundings' },
   { id: 'other-destinations', label: 'Other Destinations & Experiences' },
 ]
 
