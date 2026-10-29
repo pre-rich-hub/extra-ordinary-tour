@@ -13,7 +13,13 @@ export function LayoverPackages({ packages }: { packages: LayoverPackage[] }) {
     <section className="shell py-16 sm:py-20 lg:py-28">
       <SectionHeading
         eyebrow={copy('Choose Your Window')}
-        title={copy('Four packages, sized to your connection')}
+        title={
+          packages.length === 4
+            ? copy('Four packages, sized to your connection')
+            : copy('{v0} packages, sized to your connection', {
+                v0: String(packages.length),
+              })
+        }
         aside={copy(
           'Tell us your inbound and onward flight numbers and we will tell you honestly which of these fits.',
         )}

@@ -13,8 +13,18 @@ import { getLegalDocument, type LegalDocumentKey } from '../data/localized'
 
 type Params = { params: Promise<{ locale: string }> }
 
-const heroImage =
-  'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/lalibela-landscape.jpg'
+const heroes: Record<LegalDocumentKey, { image: string; alt: string }> = {
+  privacyPolicy: {
+    image:
+      'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/v1793090614/gheralta-hawzen-range.webp',
+    alt: 'The Gheralta mountains rising above the plain near Hawzen',
+  },
+  termsAndConditions: {
+    image:
+      'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/lalibela-landscape.jpg',
+    alt: 'The highland landscape around Lalibela',
+  },
+}
 
 export async function legalMetadata(
   { params }: Params,
@@ -52,8 +62,8 @@ export async function LegalPage({
       <PageHero
         eyebrow={site.name}
         title={copy(label)}
-        image={heroImage}
-        imageAlt={copy('The highland landscape around Lalibela')}
+        image={heroes[document].image}
+        imageAlt={copy(heroes[document].alt)}
         crumbs={crumbs}
       />
       <LegalDocument document={legal} translated={translated} />

@@ -1,9 +1,32 @@
+import { dirname } from 'node:path'
+import { fileURLToPath } from 'node:url'
 import createNextIntlPlugin from 'next-intl/plugin'
 import { isProductionDeployment } from './src/lib/seo/environment.mjs'
 const withNextIntl = createNextIntlPlugin('./src/i18n/request.ts')
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  experimental: { globalNotFound: true },
+  // Pin the workspace root to this project. Without it Next walks up to the
+  // user's home directory because a stray lockfile lives there, which widens
+  // output tracing and produces misleading build warnings.
+  turbopack: { root: dirname(fileURLToPath(import.meta.url)) },
+  experimental: {
+    globalNotFound: true,
+    // lucide-react is optimized by default in Next 16; @base-ui/react is listed
+    // explicitly so its subpath imports resolve to single modules.
+    optimizePackageImports: ['lucide-react', '@base-ui/react'],
+  },
+  // Keep documentation and verification tooling out of every serverless
+  // trace. Public assets are excluded from upload by .vercelignore and served
+  // by the CDN, not read by a function at runtime.
+  outputFileTracingExcludes: {
+    '/*': [
+      './docs/**/*',
+      './scripts/**/*',
+      './tests/**/*',
+      './*.md',
+      './tsconfig.tsbuildinfo',
+    ],
+  },
   // Resolve metadata/notFound before committing a streamed HTTP 200.
   htmlLimitedBots: /.*/,
   trailingSlash: false,

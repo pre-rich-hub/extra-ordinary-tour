@@ -41,8 +41,9 @@ export const travelGuide: GuideSection[] = [
     eyebrow: 'Packing list',
     title: 'What to pack for Ethiopia',
     image:
-      'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/v1793096397/simien-trail-hikers.jpg',
-    imageAlt: 'Hikers on a trail in the Simien Mountains',
+      'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/v1793251843/travel-guide-what-to-pack.jpg',
+    imageAlt:
+      'A backpack, hiking boots, a camera and a guidebook laid out on the rock above a Lalibela church',
     paragraphs: [
       'Pack for several climates in one trip. Highland towns such as Addis Ababa, Lalibela, Gondar and the Simien are cool in the mornings and evenings, while the Omo Valley, the Danakil and Awash can be very hot.',
       'We recommend your passport and a copy of your e-Visa, comfortable walking shoes, light clothing for warm days and a fleece or warm layer, a rain jacket, a hat, sunglasses and sunscreen, insect repellent, personal medication and a basic first-aid kit, a headlamp, a power bank, a universal adapter, a reusable water bottle and a small daypack. Modest clothing that covers shoulders and knees is useful for visiting churches and mosques.',
@@ -114,8 +115,9 @@ export const travelGuide: GuideSection[] = [
     eyebrow: 'Stay well',
     title: 'Health, altitude and safety',
     image:
-      'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/v1793090614/abune-yosef-summit-hikers.webp',
-    imageAlt: 'Hikers on the summit of Abune Yosef, high above Lalibela',
+      'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/v1793251843/travel-guide-health-altitude.jpg',
+    imageAlt:
+      'A hiker with trekking poles looking out over the cliffs of the Simien Mountains',
     paragraphs: [
       'Many destinations lie above 2,000 metres, so take your first day easy, drink plenty of water and limit alcohol until you have adjusted. Drink only bottled or filtered water. Ask your doctor or a travel clinic about recommended vaccinations and about malaria precautions for lowland areas well before you travel.',
       'Comprehensive travel insurance covering medical treatment, evacuation and trip interruption is essential. Some sites involve uneven ground and steep steps, so please tell us about any mobility needs or medical conditions when you plan your trip. Our team is available 24 hours a day throughout your journey.',

@@ -1,0 +1,24 @@
+# Build output and local caches
+.next/
+node_modules/
+tsconfig.tsbuildinfo
+
+# Verification and content tooling. These never run at request time.
+docs/
+scripts/
+tests/
+vitest.config.ts
+
+# Repository documentation and local editor metadata
+*.md
+.env.example
+components.json
+
+# Local image backups. The site serves Cloudinary URLs for all but the five
+# files kept below; the remaining originals are repository backups only.
+public/images/*
+!public/images/bale-landscape.webp
+!public/images/hawassa.webp
+!public/images/logo.png
+!public/images/logo-160.webp
+!public/images/og-default.jpg

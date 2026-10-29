@@ -34,9 +34,9 @@ export async function generateMetadata({
     locale,
   )
 }
-// ISR: admin edits surface within an hour (deliberate deviation from the
-// statically frozen tours pages — the catalog is now API-backed).
-export const revalidate = 3600
+// The catalog is API-backed and the admin is the source of truth. Render per
+// request so a newly created package appears on the next page load.
+export const dynamic = 'force-dynamic'
 
 export default async function LayoverPage({
   params,
