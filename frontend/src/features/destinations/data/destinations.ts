@@ -1092,7 +1092,7 @@ export const destinations: Destination[] = [
     name: 'Lake Chamo',
     region: 'Southern Ethiopia & Omo Valley',
     tag: 'Rift Valley Lake',
-    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/nechsar.jpg',
+    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/v1793282684/chamo-hippo-pod-pelicans.jpg',
     teaser:
       'Giant crocodiles, hippos and rich birdlife on a Rift Valley lake beside Arba Minch.',
     intro:
@@ -1144,7 +1144,7 @@ export const destinations: Destination[] = [
     name: 'Yirga Alem',
     region: 'Southern Ethiopia & Omo Valley',
     tag: 'Sidama Countryside',
-    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/coffee-ceremony.jpg',
+    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/v1793282685/yirgalem-traditional-sidama-hut.jpg',
     teaser:
       'Green hills, coffee gardens and Sidama culture in the quiet countryside south of Hawassa.',
     intro:
@@ -1171,7 +1171,7 @@ export const destinations: Destination[] = [
     name: 'Yirgacheffe',
     region: 'Southern Ethiopia & Omo Valley',
     tag: 'Coffee Highlands',
-    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/coffee-farm.jpg',
+    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/v1793282684/yirgacheffe-raised-drying-beds.jpg',
     teaser:
       'The green Gedeo highlands behind one of the world’s most celebrated coffees.',
     intro:
