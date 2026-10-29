@@ -454,9 +454,8 @@ export const destinations: Destination[] = [
     name: 'Babile & the Elephant Sanctuary',
     region: 'Eastern Ethiopia',
     tag: 'Rock Landscapes',
-    // Placeholder until the client sends photos of Babile.
     image:
-      'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/harar-gate.jpg',
+      'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/v1793251842/babile-rock-formations.jpg',
     teaser:
       'Dramatic rock formations and an elephant sanctuary on the road from Harar to Jijiga.',
     intro:
@@ -482,9 +481,8 @@ export const destinations: Destination[] = [
     name: 'Jijiga & the Somali Region',
     region: 'Eastern Ethiopia',
     tag: 'Somali Culture',
-    // Placeholder until the client sends photos of Jijiga.
     image:
-      'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/v1793006889/harar-jugol-alley.jpg',
+      'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/v1793251841/jijiga-camel-herd.jpg',
     teaser:
       'Capital of Ethiopia’s Somali Region, with lively markets, camel herds and Somali hospitality.',
     intro:

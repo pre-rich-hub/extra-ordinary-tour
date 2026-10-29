@@ -1945,7 +1945,7 @@ export const tours: Tour[] = [
     // Tour code EDT-02-D4
     slug: '4-day-ethiopia-coffee',
     title: '4-Day Ethiopia Coffee Tour',
-    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/coffee-farm.jpg',
+    image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/v1793251842/4-day-ethiopia-coffee.jpg',
     days: '4 Days',
     nights: 3,
     style: 'Coffee · Cultural',
@@ -4332,7 +4332,7 @@ export const tours: Tour[] = [
     slug: '3-day-harar-cultural-and-historical',
     title: '3-Day Harar Cultural & Historical Tour',
     image:
-      'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/v1793006889/harar-jugol-alley.jpg',
+      'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/v1793251842/3-day-harar-cultural.jpg',
     days: '3 Days',
     nights: 2,
     style: 'Historical · Cultural',
@@ -4381,7 +4381,7 @@ export const tours: Tour[] = [
     slug: '3-day-axum-historical-and-archaeological',
     title: '3-Day Axum Historical & Archaeological Tour',
     image:
-      'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/v1792849727/Axum.png',
+      'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/v1793251841/3-day-axum-historical.jpg',
     days: '3 Days',
     nights: 2,
     style: 'Historical · Cultural',
@@ -4476,7 +4476,7 @@ export const tours: Tour[] = [
     slug: '3-day-omo-valley-cultural',
     title: '3-Day Omo Valley Cultural Tour',
     image:
-      'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/v1793014223/omo-river-aerial.webp',
+      'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/v1793251842/3-day-omo-valley-cultural.jpg',
     days: '3 Days',
     nights: 2,
     style: 'Cultural',
