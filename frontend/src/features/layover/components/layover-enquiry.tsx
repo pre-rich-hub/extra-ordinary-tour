@@ -1,9 +1,14 @@
 import { useCopy } from '@/i18n/copy'
 import { Check } from 'lucide-react'
 import { Reveal } from '@/components/ui/reveal'
-import { EnquiryForm } from '@/features/enquiry/components/enquiry-form'
+import type { LayoverPackage } from '../types'
+import { LayoverBookingForm } from './layover-booking-form'
 
-export function LayoverEnquiry() {
+export function LayoverEnquiry({
+  packages,
+}: {
+  packages: LayoverPackage[]
+}) {
   const copy = useCopy()
 
   return (
@@ -44,10 +49,12 @@ export function LayoverEnquiry() {
         </ul>
       </Reveal>
       <Reveal delay={120}>
-        <EnquiryForm
-          subject={copy('Addis Ababa layover tour')}
-          canonicalSubject="Addis Ababa layover tour"
-          defaultStyles={['Layover']}
+        <LayoverBookingForm
+          packages={packages.map(({ slug, title, hours }) => ({
+            slug,
+            title,
+            hours,
+          }))}
         />
       </Reveal>
     </section>

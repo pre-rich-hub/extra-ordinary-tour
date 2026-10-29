@@ -13,10 +13,18 @@ export function EnquiryForm({
   defaultStyles = [],
   subject,
   canonicalSubject,
+  packages,
+  selectedPackage = '',
+  onPackageChange,
 }: {
   defaultStyles?: string[]
   subject?: string
   canonicalSubject?: string
+  // Optional package picker, controlled by the parent so a link elsewhere on
+  // the page can preselect one.
+  packages?: { value: string; label: string }[]
+  selectedPackage?: string
+  onPackageChange?: (value: string) => void
 }) {
   const copy = useCopy()
 
@@ -88,6 +96,8 @@ export function EnquiryForm({
 
           const lines: string[] = []
           if (subject) lines.push(`Journey: ${canonicalSubject ?? subject}`)
+          const pkg = packages?.find((p) => p.value === selectedPackage)
+          if (pkg) lines.push(`Package: ${pkg.label} [${pkg.value}]`)
           if (phone)
             lines.push(
               `Mobile / WhatsApp: ${dialCodes[region] ? `+${dialCodes[region]} ` : ''}${phone}`,
@@ -117,6 +127,31 @@ export function EnquiryForm({
             {copy('Enquiry about')}{' '}
             <span className="font-medium text-foreground">{copy(subject)}</span>
           </p>
+        ) : null}
+
+        {packages && packages.length > 0 ? (
+          <Field label={copy('Package')} id="package">
+            <div className="relative">
+              <select
+                id="package"
+                name="package"
+                value={selectedPackage}
+                onChange={(e) => onPackageChange?.(e.target.value)}
+                className="input appearance-none pr-10"
+              >
+                <option value="">{copy('Not sure yet, help me choose')}</option>
+                {packages.map((p) => (
+                  <option key={p.value} value={p.value}>
+                    {copy(p.label)}
+                  </option>
+                ))}
+              </select>
+              <ChevronDown
+                aria-hidden
+                className="pointer-events-none absolute right-4 top-1/2 h-4 w-4 -translate-y-1/2 text-muted-foreground"
+              />
+            </div>
+          </Field>
         ) : null}
 
         <div className="grid gap-5 sm:grid-cols-2">

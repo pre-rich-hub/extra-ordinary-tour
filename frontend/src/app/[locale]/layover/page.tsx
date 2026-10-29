@@ -98,7 +98,7 @@ export default async function LayoverPage({
       <LayoverAssurances />
 
       {/* Enquiry */}
-      <LayoverEnquiry />
+      <LayoverEnquiry packages={packages} />
 
       <CtaBand
         title={copy('Long stopover? Discover Lalibela.')}

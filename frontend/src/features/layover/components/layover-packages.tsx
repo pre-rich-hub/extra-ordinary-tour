@@ -113,7 +113,7 @@ export function LayoverPackages({ packages }: { packages: LayoverPackage[] }) {
                     <span className="text-foreground">{copy(p.best)}</span>
                   </p>
                   <a
-                    href="#book"
+                    href={`#book-${encodeURIComponent(p.slug)}`}
                     className="group/book inline-flex shrink-0 items-center justify-center gap-2.5 rounded-sm bg-primary px-6 py-3 text-[11px] font-semibold uppercase tracking-[0.14em] text-primary-foreground transition-all duration-300 hover:-translate-y-0.5 hover:bg-primary/90"
                   >
                     {copy('Book this layover')}
