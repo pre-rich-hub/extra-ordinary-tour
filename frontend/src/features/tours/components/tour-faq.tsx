@@ -56,8 +56,7 @@ export function TourFaq({ tour: t }: { tour: Tour }) {
         {
           question: copy('Is it private, and can the itinerary be changed?'),
           answer: copy(
-            'It runs as a private tour or as a small group, for {v0}. Like every journey we offer, it can be shaped around your interests, schedule and budget.',
-            { v0: t.group },
+            'It can run as a private tour or for your group, and larger groups can contact us for a custom arrangement. Like every journey we offer, it can be shaped around your interests, schedule and budget.',
           ),
         },
         {

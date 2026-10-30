@@ -1,4 +1,5 @@
 import { useCopy } from '@/i18n/copy'
+import { Link } from '@/i18n/navigation'
 import { hasPrice, priceShort } from '../lib/format'
 import { BookingCard } from '@/components/cards/booking-card'
 import { Reveal } from '@/components/ui/reveal'
@@ -49,6 +50,15 @@ export function TourBooking({ tour: t }: { tour: Tour }) {
             ]}
             primary={{ label: copy('Book this tour'), href: '#enquire' }}
           />
+          <p className="mt-4 text-pretty text-sm leading-relaxed text-muted-foreground">
+            {copy('Travelling as a larger group?')}{' '}
+            <Link
+              href="/contact"
+              className="text-primary underline underline-offset-4 hover:text-accent"
+            >
+              {copy('Contact us and we’ll arrange a custom plan.')}
+            </Link>
+          </p>
         </Reveal>
       </div>
     </aside>

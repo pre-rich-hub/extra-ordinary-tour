@@ -15,7 +15,7 @@ export const tours: Tour[] = [
     season: 'September to July',
     from: '$2,800 per person',
     priceAmount: 2800,
-    group: '1 to 12 guests',
+    group: 'Private or group',
     teaser:
       'Monasteries, castles, rock-hewn churches and the walled city of Harar: the classic northern circuit with an eastern finale.',
     summary:
@@ -109,7 +109,7 @@ export const tours: Tour[] = [
     season: 'November to March',
     from: '$2,400 per person',
     priceAmount: 2400,
-    group: '1 to 12 guests',
+    group: 'Private or group',
     teaser:
       'Addis Ababa, the rock-hewn churches of Lalibela, then Erta Ale, Dallol and the salt flats of the Danakil.',
     summary:
@@ -199,7 +199,7 @@ export const tours: Tour[] = [
     season: 'September to July',
     from: '$1,800 per person',
     priceAmount: 1800,
-    group: '1 to 12 guests',
+    group: 'Private or group',
     teaser:
       'Lake Tana, Gondar, the Simien escarpment and Lalibela in one well-paced week.',
     summary:
@@ -274,7 +274,7 @@ export const tours: Tour[] = [
     style: 'Historical · Cultural',
     season: 'September to July',
     from: 'On request',
-    group: '1 to 12 guests',
+    group: 'Private or group',
     teaser:
       'Both church clusters, Bete Giyorgis and a highland excursion from Ethiopia’s holiest town.',
     summary:
@@ -322,7 +322,7 @@ export const tours: Tour[] = [
     season: 'September to July',
     from: '$1,000 per person',
     priceAmount: 1000,
-    group: '1 to 12 guests',
+    group: 'Private or group',
     teaser:
       'A full day in the capital, then two days among the rock-hewn churches of Lalibela.',
     summary:
@@ -442,7 +442,7 @@ export const tours: Tour[] = [
     style: 'Historical · Cultural',
     season: 'Easter (April or May)',
     from: 'On request',
-    group: '1 to 12 guests',
+    group: 'Private or group',
     teaser:
       'Good Friday in Lalibela, the castles of Gondar, then south to the Hamar and Karo of the Omo Valley.',
     summary:
@@ -538,7 +538,7 @@ export const tours: Tour[] = [
     style: 'Historical · Cultural · Danakil',
     season: 'November to March',
     from: 'On request',
-    group: '1 to 12 guests',
+    group: 'Private or group',
     teaser:
       'Lalibela, Harar, the Danakil Depression and the Omo Valley: Ethiopia’s greatest contrasts in twelve days.',
     summary:
@@ -647,7 +647,7 @@ export const tours: Tour[] = [
     style: 'Historical · Cultural',
     season: 'September to July',
     from: 'On request',
-    group: '1 to 12 guests',
+    group: 'Private or group',
     teaser:
       'Harar, Lalibela, Lake Chamo, the Dorze highlands and the peoples of the lower Omo.',
     summary:
@@ -756,7 +756,7 @@ export const tours: Tour[] = [
     style: 'Historical · Trekking · Danakil',
     season: 'November to March',
     from: 'On request',
-    group: '1 to 10 guests',
+    group: 'Private or group',
     teaser:
       'Lake Tana, Gondar, a three-day Simien trek, Lalibela, the Danakil and the churches of Gheralta.',
     summary:
@@ -869,7 +869,7 @@ export const tours: Tour[] = [
     style: 'Historical · Cultural',
     season: 'September to July',
     from: 'On request',
-    group: '1 to 12 guests',
+    group: 'Private or group',
     teaser:
       'Harar, the rock churches of Tigray, the tribes of the south, Gondar and Lalibela.',
     summary:
@@ -985,7 +985,7 @@ export const tours: Tour[] = [
     style: 'Historical · Cultural',
     season: 'September to July',
     from: 'On request',
-    group: '1 to 12 guests',
+    group: 'Private or group',
     teaser:
       'The full northern circuit, the Rift Valley lakes, the Omo Valley and Wenchi Crater Lake.',
     summary:
@@ -1107,7 +1107,7 @@ export const tours: Tour[] = [
     style: 'Historical · Cultural',
     season: 'September to March and June to July',
     from: 'On request',
-    group: '1 to 12 guests',
+    group: 'Private or group',
     teaser:
       'The finest of the north and the south: Lalibela and Gondar, then the Mursi, Hamar and Karo.',
     summary:
@@ -1219,7 +1219,7 @@ export const tours: Tour[] = [
     season: 'Year-round except April and May',
     from: '$1,500 per person',
     priceAmount: 1500,
-    group: '1 to 12 guests',
+    group: 'Private or group',
     teaser:
       'Tiya, Dorze, Konso and the Banna, Hamar, Karo, Mursi and Ari peoples in six days.',
     summary:
@@ -1296,7 +1296,7 @@ export const tours: Tour[] = [
     style: 'Cultural',
     season: 'Year-round except April and May',
     from: 'On request',
-    group: '1 to 10 guests',
+    group: 'Private or group',
     teaser:
       'Fly straight to Jinka for the Mursi, Hamar, Dassanech and Karo. No long drives.',
     summary:
@@ -1365,7 +1365,7 @@ export const tours: Tour[] = [
     style: 'Cultural',
     season: 'Year-round except April and May',
     from: 'On request',
-    group: '1 to 12 guests',
+    group: 'Private or group',
     teaser:
       'Dorze, Lake Chamo, the Mursi, Dimeka market, the Karo and Konso at an unhurried pace.',
     summary:
@@ -1454,7 +1454,7 @@ export const tours: Tour[] = [
     style: 'Cultural',
     season: 'Year-round except April and May',
     from: 'On request',
-    group: '1 to 12 guests',
+    group: 'Private or group',
     teaser:
       'The deepest Omo Valley journey: markets, ceremonies and villages from Key Afar to Omorate.',
     summary:
@@ -1668,7 +1668,7 @@ export const tours: Tour[] = [
     style: 'Cultural · Historical',
     season: 'September to March and June to July',
     from: 'On request',
-    group: '1 to 12 guests',
+    group: 'Private or group',
     teaser:
       'Lalibela’s churches, then the Rift Valley lakes, the Dorze and the Mursi and Karo of the south.',
     summary:
@@ -1755,7 +1755,7 @@ export const tours: Tour[] = [
     season: 'January (Timkat)',
     from: '$2,200 per person',
     priceAmount: 2200,
-    group: '1 to 12 guests',
+    group: 'Private or group',
     teaser:
       'Celebrate Epiphany at the bath of Fasilides in Gondar, then the Simien Mountains and Lalibela.',
     summary:
@@ -1839,7 +1839,7 @@ export const tours: Tour[] = [
     season: 'January (Timkat)',
     from: '$1,500 per person',
     priceAmount: 1500,
-    group: '1 to 12 guests',
+    group: 'Private or group',
     teaser:
       'The eve procession, the baptism ceremony and the second day of Timkat among Lalibela’s churches.',
     summary:
@@ -1900,7 +1900,7 @@ export const tours: Tour[] = [
     style: 'Festival · Historical',
     season: 'Late Dec to 7 January',
     from: 'On request',
-    group: '1 to 12 guests',
+    group: 'Private or group',
     teaser:
       'Lake Tana, Gondar and the Simien Mountains, then Ethiopian Christmas among the pilgrims of Lalibela.',
     summary:
@@ -1981,7 +1981,7 @@ export const tours: Tour[] = [
     style: 'Festival',
     season: 'Late Dec to 7 January',
     from: 'On request',
-    group: '1 to 12 guests',
+    group: 'Private or group',
     teaser:
       'Christmas Eve vigil and Christmas Day among the rock-hewn churches of Lalibela.',
     summary:
@@ -2042,7 +2042,7 @@ export const tours: Tour[] = [
     season: 'September to May',
     from: '$1,100 per person',
     priceAmount: 1100,
-    group: '1 to 12 guests',
+    group: 'Private or group',
     teaser:
       'Sidama and Yirgacheffe: farms, washing stations and coffee ceremonies at the source.',
     summary:
@@ -2104,7 +2104,7 @@ export const tours: Tour[] = [
     style: 'Coffee · Cultural',
     season: 'September to May',
     from: 'On request',
-    group: '1 to 12 guests',
+    group: 'Private or group',
     teaser:
       'A city day in Addis Ababa, then the coffee lands of Sidama and Yirgacheffe.',
     summary:
@@ -2171,7 +2171,7 @@ export const tours: Tour[] = [
     season: 'September to May',
     from: '$1,600 per person',
     priceAmount: 1600,
-    group: '1 to 12 guests',
+    group: 'Private or group',
     teaser:
       'Wild coffee in the Mankira forest, the Kaffa highlands of Bonga and the Bebeka estate.',
     summary:
@@ -2358,7 +2358,7 @@ export const tours: Tour[] = [
     season: 'October to April',
     from: '$3,200 per person',
     priceAmount: 3200,
-    group: '1 to 10 guests',
+    group: 'Private or group',
     teaser:
       'Gelada and walia ibex in the Simien, oryx in Awash, Swayne’s hartebeest and the Ethiopian wolf of Bale.',
     summary:
@@ -2451,7 +2451,7 @@ export const tours: Tour[] = [
     style: 'Wildlife · Birding',
     season: 'October to April',
     from: 'On request',
-    group: '1 to 10 guests',
+    group: 'Private or group',
     teaser:
       'Simien, Harar’s hyenas, Awash, the Rift Valley lakes and five days in the Bale Mountains.',
     summary:
@@ -2583,7 +2583,7 @@ export const tours: Tour[] = [
     style: 'Wildlife',
     season: 'September to April',
     from: 'On request',
-    group: '1 to 12 guests',
+    group: 'Private or group',
     teaser:
       'Oryx, Awash Falls and the palm-fringed Doho hot springs, three hours from the capital.',
     summary:
@@ -2636,7 +2636,7 @@ export const tours: Tour[] = [
     style: 'Wildlife',
     season: 'October to April',
     from: 'On request',
-    group: '1 to 10 guests',
+    group: 'Private or group',
     teaser:
       'The Sanetti Plateau, Tulu Dimtu and the cloud forest of Harenna, home of the Ethiopian wolf.',
     summary:
@@ -2755,7 +2755,7 @@ export const tours: Tour[] = [
     style: 'Wildlife · Day Trip',
     season: 'September to April',
     from: 'On request',
-    group: '1 to 12 guests',
+    group: 'Private or group',
     teaser:
       'A quick escape to the oryx plains, hot springs and waterfalls of the Awash valley.',
     summary:
@@ -2798,7 +2798,7 @@ export const tours: Tour[] = [
     style: 'Wildlife · Birding · Day Trip',
     season: 'September to May',
     from: 'On request',
-    group: '1 to 12 guests',
+    group: 'Private or group',
     teaser:
       'Flamingos, pelicans and hot springs in the Rift Valley, with a night beside Lake Langano.',
     summary:
@@ -3483,7 +3483,7 @@ export const tours: Tour[] = [
     style: 'Historical · Day Trip',
     season: 'September to July',
     from: 'On request',
-    group: '1 to 12 guests',
+    group: 'Private or group',
     teaser:
       'Fly in, explore both clusters of rock-hewn churches, and fly back the next day.',
     summary:
@@ -3527,7 +3527,7 @@ export const tours: Tour[] = [
     season: 'Year-round',
     from: '$100 per person',
     priceAmount: 100,
-    group: '1 to 15 guests',
+    group: 'Private or group',
     teaser:
       'Entoto, Lucy at the National Museum, Holy Trinity Cathedral, Merkato and a coffee ceremony.',
     summary:
@@ -3569,7 +3569,7 @@ export const tours: Tour[] = [
     style: 'Day Trip · Historical',
     season: 'Year-round',
     from: 'On request',
-    group: '1 to 15 guests',
+    group: 'Private or group',
     teaser:
       'A rock-hewn church south of Addis Ababa and the UNESCO-listed carved stelae of Tiya.',
     summary:
@@ -3605,7 +3605,7 @@ export const tours: Tour[] = [
     style: 'Day Trip · Historical',
     season: 'September to July',
     from: 'On request',
-    group: '1 to 15 guests',
+    group: 'Private or group',
     teaser:
       'A historic monastery, the Portuguese Bridge, gelada on the cliffs and the vast Blue Nile Gorge.',
     summary:
@@ -3646,7 +3646,7 @@ export const tours: Tour[] = [
     style: 'Day Trip · Trekking',
     season: 'October to June',
     from: 'On request',
-    group: '1 to 15 guests',
+    group: 'Private or group',
     teaser:
       'Hike or ride into a volcanic crater, take a boat to the island monastery and relax by the lake.',
     summary:
@@ -3747,7 +3747,7 @@ export const tours: Tour[] = [
     style: 'Danakil · Historical',
     season: 'November to March',
     from: 'On request',
-    group: '1 to 12 guests',
+    group: 'Private or group',
     teaser:
       'Erta Ale, Dallol and the salt caravans of the Danakil, then the cliff churches of Gheralta in Tigray.',
     summary:
@@ -3844,7 +3844,7 @@ export const tours: Tour[] = [
     style: 'Historical · Danakil · Cultural',
     season: 'November to March',
     from: 'On request',
-    group: '1 to 12 guests',
+    group: 'Private or group',
     teaser:
       'Abuna Yemata Guh, a shared Danakil expedition, the churches of Lalibela and the peoples of the Omo Valley.',
     summary:
@@ -3976,7 +3976,7 @@ export const tours: Tour[] = [
     style: 'Cultural · Wildlife · Historical',
     season: 'October to March',
     from: 'On request',
-    group: '1 to 12 guests',
+    group: 'Private or group',
     teaser:
       'Omo Valley peoples, Ethiopian wolves on the Sanetti Plateau, the hyenas of Harar and the wildlife of Awash.',
     summary:
@@ -4100,7 +4100,7 @@ export const tours: Tour[] = [
     style: 'Cultural · Danakil · Festival · Historical',
     season: 'Late December to early January (Genna)',
     from: 'On request',
-    group: '1 to 12 guests',
+    group: 'Private or group',
     teaser:
       'Konso and the Omo Valley, Ethiopian Christmas (Genna) in Lalibela, then Erta Ale and Dallol in the Danakil.',
     summary:
@@ -4247,7 +4247,7 @@ export const tours: Tour[] = [
     style: 'Historical · Cultural · Danakil · Wildlife',
     season: 'November to March',
     from: 'On request',
-    group: '1 to 12 guests',
+    group: 'Private or group',
     teaser:
       'Lalibela, the Danakil, Awash, the Rift Valley, Konso and the Omo Valley, Hawassa and the walled city of Harar.',
     summary:
@@ -4428,7 +4428,7 @@ export const tours: Tour[] = [
     style: 'Historical · Cultural',
     season: 'Year-round',
     from: 'On request',
-    group: '1 to 12 guests',
+    group: 'Private or group',
     teaser:
       'The walled city of Harar Jugol, its museums, markets and coffee, and the famous hyena feeding at night.',
     summary:
@@ -4477,7 +4477,7 @@ export const tours: Tour[] = [
     style: 'Historical · Cultural',
     season: 'October to April',
     from: 'On request',
-    group: '1 to 12 guests',
+    group: 'Private or group',
     teaser:
       'The stelae, royal tombs and Ezana Stone of Axum, St. Mary of Zion and the pre-Aksumite temple of Yeha.',
     summary:
@@ -4524,7 +4524,7 @@ export const tours: Tour[] = [
     style: 'Wildlife · Cultural',
     season: 'September to April',
     from: 'On request',
-    group: '1 to 12 guests',
+    group: 'Private or group',
     teaser:
       'Crocodiles and hippos on Lake Chamo, the Forty Springs and the beehive houses and weavers of Dorze.',
     summary:
@@ -4572,7 +4572,7 @@ export const tours: Tour[] = [
     style: 'Cultural',
     season: 'Year-round except April and May',
     from: 'On request',
-    group: '1 to 12 guests',
+    group: 'Private or group',
     teaser:
       'From Jinka to Turmi: the Bena, Karo, Dassanech, Hamer and Mursi peoples of the Lower Omo Valley.',
     summary:
@@ -4627,7 +4627,7 @@ export const tours: Tour[] = [
     style: 'Coffee · Wildlife · Cultural',
     season: 'October to April',
     from: 'On request',
-    group: '1 to 12 guests',
+    group: 'Private or group',
     teaser:
       'The palace of King Abba Jifar II in Jimma, the Bebeka coffee estate and the elephants of Chebera Churchura.',
     summary:
@@ -4699,7 +4699,7 @@ export const tours: Tour[] = [
     style: 'Cultural',
     season: 'Year-round',
     from: 'On request',
-    group: '1 to 12 guests',
+    group: 'Private or group',
     teaser:
       'Food markets, a cooking class and coffee ceremonies in Addis Ababa, with both groups of Lalibela’s churches.',
     summary:
