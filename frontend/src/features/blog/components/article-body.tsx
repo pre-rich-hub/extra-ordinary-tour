@@ -29,17 +29,30 @@ export function ArticleBody({ post }: { post: Post }) {
   return (
     <div className="shell py-14 sm:py-16 lg:py-20">
       <div className="mx-auto max-w-2xl">
-        {post.body.map((para, i) => (
-          <Reveal key={para.slice(0, 24)} delay={i * 50}>
-            <p
-              className={
-                i === 0
-                  ? 'text-pretty text-lg leading-[1.75] text-foreground first-letter:float-left first-letter:mr-3 first-letter:font-serif first-letter:text-6xl first-letter:leading-[0.82] first-letter:text-primary sm:text-xl'
-                  : 'mt-7 text-pretty leading-[1.75] text-muted-foreground sm:text-lg'
-              }
-            >
-              {copy(para)}
-            </p>
+        {post.body.map((block, i) => (
+          // Capped so the last blocks of a long article don't lag on scroll.
+          <Reveal key={i} delay={Math.min(i, 8) * 50}>
+            {typeof block === 'string' ? (
+              <p
+                className={
+                  i === 0
+                    ? 'text-pretty text-lg leading-[1.75] text-foreground first-letter:float-left first-letter:mr-3 first-letter:font-serif first-letter:text-6xl first-letter:leading-[0.82] first-letter:text-primary sm:text-xl'
+                    : 'mt-7 text-pretty leading-[1.75] text-muted-foreground sm:text-lg'
+                }
+              >
+                {copy(block)}
+              </p>
+            ) : 'heading' in block ? (
+              <h2 className="mt-12 text-balance font-serif text-2xl leading-tight text-foreground sm:text-[1.75rem]">
+                {block.heading}
+              </h2>
+            ) : (
+              <ul className="mt-4 list-disc space-y-2 pl-5 leading-[1.75] text-muted-foreground marker:text-accent sm:text-lg">
+                {block.list.map((item) => (
+                  <li key={item}>{item}</li>
+                ))}
+              </ul>
+            )}
           </Reveal>
         ))}
 

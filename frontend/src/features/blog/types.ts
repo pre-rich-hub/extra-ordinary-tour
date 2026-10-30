@@ -1,3 +1,6 @@
+/** A paragraph, or a heading or bullet list in longer practical articles. */
+export type PostBlock = string | { heading: string } | { list: string[] }
+
 export type Post = {
   categoryKey?: string
   slug: string
@@ -11,6 +14,6 @@ export type Post = {
   author: string
   authorRole: string
   excerpt: string
-  body: string[]
+  body: PostBlock[]
   featured?: boolean
 }

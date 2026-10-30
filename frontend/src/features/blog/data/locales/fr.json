@@ -173,14 +173,194 @@
     "authorRole": "Fondateur et spécialiste des tournées",
     "excerpt": "Passeports, emballage, santé, altitude, photographie, argent et pourboires : notre guide avant le départ pour chaque voyageur.",
     "body": [
-      "Merci d'avoir choisi Extraordinary Ethiopia Tours. Ce guide a été préparé pour vous aider à profiter d'un voyage sûr, confortable et mémorable ; veuillez prendre quelques minutes pour le lire avant de voyager. Assurez-vous que votre passeport est valable au moins six mois après votre date d'arrivée, que vous disposez d'un visa éthiopien si nécessaire et que vous disposez d'une assurance voyage complète couvrant les frais médicaux, l'évacuation, l'interruption du voyage et les effets personnels. Faites-nous part de vos besoins alimentaires, allergies, problèmes médicaux ou besoins de mobilité.",
-      "Nous vous recommandons d'emporter votre passeport et une copie de votre e-Visa, des chaussures de marche confortables, des vêtements légers pour les journées chaudes et une polaire pour les matinées et les soirées fraîches, un chapeau, des lunettes de soleil, de la crème solaire, un insectifuge, des médicaments personnels et une trousse de premiers secours de base, un appareil photo, une batterie externe, un adaptateur universel, une bouteille d'eau réutilisable et un petit sac à dos. Les destinations des hauts plateaux telles qu'Addis-Abeba, Lalibela, Gondar et le Simien sont fraîches le soir, tandis que la vallée de l'Omo, le Danakil et l'Awash peuvent être extrêmement chaudes.",
-      "L'Éthiopie abrite de nombreuses cultures et traditions religieuses. Veuillez vous habiller modestement dans les églises et les monastères, retirer vos chaussures avant d'entrer dans les églises orthodoxes, suivre les instructions de votre guide et demander la permission avant de photographier des gens. Lorsque vous visitez les communautés de la vallée de l'Omo, veuillez parler à votre guide avant de donner quoi que ce soit ; plutôt que de distribuer des cadeaux, nous vous recommandons de soutenir les écoles locales ou d'acheter des fournitures utiles auprès des dirigeants communautaires.",
-      "La photographie est interdite à proximité des installations militaires, des aéroports, des bâtiments gouvernementaux et de certaines zones de sécurité, et certaines cérémonies religieuses peuvent la restreindre. Les drones ne peuvent pas entrer en Éthiopie sans autorisation préalable du gouvernement et peuvent être retenus par les douanes jusqu'à ce que les permis soient présentés ; du matériel de tournage professionnel, et parfois des jumelles, peuvent également nécessiter un dédouanement. Veuillez nous informer à l'avance si vous prévoyez de les apporter.",
-      "Le birr éthiopien est la monnaie officielle. Les cartes sont acceptées dans de nombreux hôtels et restaurants d'Addis-Abeba, mais les espèces sont indispensables ailleurs ; apportez des dollars américains ou des euros à échanger. Si vos vols internationaux et intérieurs font l'objet de billets séparés, récupérez vos bagages à Addis-Abeba, passez l'immigration et les douanes, puis réenregistrez-les ; les franchises de bagages intérieurs peuvent être inférieures. Les horaires changent occasionnellement et notre équipe vous proposera toujours des alternatives.",
-      "De nombreuses destinations se situent au-dessus de 2 000 mètres, alors allez-y doucement le premier jour, buvez beaucoup d'eau et limitez l'alcool. Buvez uniquement de l'eau en bouteille ou filtrée et si vous arrivez d'un pays où règne la fièvre jaune, vous aurez besoin d'un certificat de vaccination. L'électricité est de 220 V avec des prises de type européen (types C, E et F) ; des coupures de courant se produisent, une banque d'alimentation est donc utile. Le Wi-Fi est disponible dans la plupart des hôtels et les cartes SIM locales peuvent être achetées à l'arrivée.",
-      "Les routes vont du bon asphalte aux pistes accidentées dans les régions éloignées, et nos chauffeurs expérimentés et nos véhicules bien entretenus rendent chaque voyage aussi sûr et confortable que possible. Certains sites impliquent un sol inégal et des marches raides, alors n'hésitez pas à nous faire part de vos besoins de mobilité. Le pourboire est volontaire mais grandement apprécié. Des changements mineurs d'itinéraire peuvent parfois être nécessaires en raison de la météo, des routes, d'événements locaux ou de vols, toujours en gardant à l'esprit votre sécurité et votre expérience.",
-      "Veuillez enregistrer nos coordonnées avant votre arrivée. Notre équipe est disponible 24h/24 sur WhatsApp au +251 912 039405 et par email à info@extraordinaryethiopiatours.com. Nous sommes impatients de vous accueillir en Éthiopie. Découvrez l'Éthiopie. Vivez l'extraordinaire !"
+      "Cher voyageur, merci d'avoir choisi Extraordinary Ethiopia Tours.",
+      "Nous sommes ravis de vous accueillir en Éthiopie. Ce guide a été préparé pour vous aider à profiter d'un voyage sûr, confortable et mémorable. Veuillez prendre quelques minutes pour lire les informations suivantes avant votre départ.",
+      {
+        "heading": "Avant votre voyage"
+      },
+      "Avant de partir, veuillez vous assurer que :",
+      {
+        "list": [
+          "Votre passeport est valable au moins six mois après votre date d'arrivée.",
+          "Vous avez obtenu un visa éthiopien, si nécessaire.",
+          "Vous avez souscrit une assurance voyage complète couvrant les frais médicaux, le rapatriement sanitaire, l'interruption de voyage et les effets personnels.",
+          "Vous nous avez informés de tout régime alimentaire, allergie, problème de santé ou besoin lié à la mobilité."
+        ]
+      },
+      {
+        "heading": "Que mettre dans vos bagages"
+      },
+      "Nous vous recommandons d'emporter :",
+      {
+        "list": [
+          "Votre passeport et une copie imprimée ou numérique de votre e-Visa éthiopien",
+          "Des chaussures de marche confortables",
+          "Des vêtements légers pour les journées chaudes",
+          "Une veste légère ou une polaire pour les matinées et les soirées fraîches",
+          "Un chapeau et des lunettes de soleil",
+          "De la crème solaire",
+          "Un répulsif anti-insectes",
+          "Vos médicaments personnels",
+          "Une trousse de premiers secours de base",
+          "Un appareil photo",
+          "Une batterie externe",
+          "Un adaptateur de voyage universel",
+          "Une bouteille d'eau réutilisable",
+          "Un petit sac à dos pour les excursions d'une journée"
+        ]
+      },
+      {
+        "heading": "Météo et climat"
+      },
+      "L'Éthiopie offre une remarquable variété de climats. Les régions des hauts plateaux comme Addis-Abeba, Lalibela, Gondar et les monts Simien sont généralement fraîches, surtout le soir. Les destinations de basse altitude comme la vallée de l'Omo, la dépression du Danakil et le parc national de l'Awash peuvent être extrêmement chaudes.",
+      "Veuillez prévoir des vêtements adaptés aux régions de votre itinéraire.",
+      {
+        "heading": "Respecter la culture locale"
+      },
+      "L'Éthiopie est l'une des plus anciennes civilisations d'Afrique et abrite une grande diversité de cultures, de langues et de traditions religieuses.",
+      "Nous demandons aimablement à tous les visiteurs de :",
+      {
+        "list": [
+          "Porter une tenue modeste pour visiter les églises et les monastères.",
+          "Retirer leurs chaussures avant d'entrer dans les églises orthodoxes éthiopiennes.",
+          "Suivre les instructions de leur guide.",
+          "Demander la permission avant de photographier des personnes.",
+          "Respecter les coutumes et les cérémonies locales."
+        ]
+      },
+      "Un sourire, une salutation et un intérêt sincère sont toujours appréciés.",
+      {
+        "heading": "Visiter les communautés tribales"
+      },
+      "Lors de la visite des communautés autochtones de la vallée de l'Omo, nous encourageons des échanges respectueux et authentiques.",
+      "Si vous souhaitez soutenir les communautés locales, parlez-en d'abord à votre guide. Plutôt que de distribuer directement des cadeaux, nous recommandons de soutenir les écoles locales ou d'acheter des fournitures utiles par l'intermédiaire des responsables communautaires, dans la mesure du possible.",
+      {
+        "heading": "Photographie"
+      },
+      "L'Éthiopie offre d'incroyables occasions de photographier. N'oubliez pas :",
+      {
+        "list": [
+          "Demandez toujours la permission avant de photographier des personnes.",
+          "La photographie est interdite aux abords des installations militaires, des aéroports, des bâtiments gouvernementaux et de certaines zones de sécurité.",
+          "Certaines cérémonies religieuses peuvent restreindre la photographie."
+        ]
+      },
+      "Votre guide vous préviendra chaque fois que des restrictions s'appliquent.",
+      {
+        "heading": "Drones et jumelles"
+      },
+      "Les drones ne sont pas autorisés à entrer en Éthiopie sans autorisation préalable du gouvernement. Tout voyageur apportant un drone peut se le voir temporairement confisquer par la douane jusqu'à la présentation des permis requis.",
+      "Le matériel de tournage professionnel et, dans certains cas, les jumelles peuvent également nécessiter un dédouanement.",
+      "Si vous prévoyez d'apporter un équipement spécialisé, veuillez nous en informer avant votre départ afin que nous puissions vous conseiller sur les démarches nécessaires.",
+      {
+        "heading": "Argent et paiements"
+      },
+      "Le birr éthiopien (ETB) est la monnaie officielle. Les cartes de crédit sont acceptées dans de nombreux hôtels et restaurants d'Addis-Abeba, mais les espèces restent indispensables dans une grande partie du pays.",
+      "Nous vous recommandons d'apporter des dollars américains ou des euros à échanger. Des distributeurs automatiques sont disponibles dans les grandes villes, mais pas forcément dans les destinations isolées.",
+      {
+        "heading": "Vols intérieurs"
+      },
+      "Ethiopian Airlines exploite l'un des plus grands réseaux intérieurs d'Afrique.",
+      "Si vos billets internationaux et intérieurs ont été réservés séparément :",
+      {
+        "list": [
+          "Récupérez vos bagages à votre arrivée à Addis-Abeba.",
+          "Passez les formalités d'immigration et de douane.",
+          "Enregistrez de nouveau vos bagages pour votre vol intérieur."
+        ]
+      },
+      "Veuillez noter que les horaires des vols intérieurs peuvent parfois changer pour des raisons opérationnelles ou météorologiques. Le cas échéant, notre équipe vous aidera à trouver d'autres solutions.",
+      {
+        "heading": "Franchise de bagages sur les vols intérieurs"
+      },
+      "Les vols intérieurs sont soumis à des restrictions de bagages. Si votre vol international est assuré par Ethiopian Airlines sur le même billet, votre franchise de bagages internationale s'applique généralement. Si les billets ont été réservés séparément, des limites inférieures peuvent s'appliquer.",
+      "Contactez-nous si vous avez un doute sur votre franchise.",
+      {
+        "heading": "Santé et sécurité"
+      },
+      "Votre bien-être est notre priorité. Nous recommandons de :",
+      {
+        "list": [
+          "Souscrire une assurance voyage complète.",
+          "Emporter vos médicaments sur ordonnance.",
+          "Avoir sur vous des médicaments de base contre les maux de tête, les maux de ventre et le mal des transports.",
+          "Ne boire que de l'eau en bouteille ou filtrée.",
+          "Utiliser de la crème solaire et bien vous hydrater."
+        ]
+      },
+      "Les voyageurs en provenance de pays où la fièvre jaune est présente devront présenter un certificat de vaccination contre la fièvre jaune valide. Veuillez vérifier les dernières conditions d'entrée avant votre départ.",
+      {
+        "heading": "Altitude"
+      },
+      "De nombreuses destinations éthiopiennes se situent à plus de 2 000 mètres (6 500 pieds) d'altitude, notamment Addis-Abeba et Lalibela. Vous pourriez ressentir de légers symptômes liés à l'altitude le premier jour. Nous recommandons de :",
+      {
+        "list": [
+          "Boire beaucoup d'eau",
+          "Éviter l'excès d'alcool",
+          "Vous ménager à l'arrivée"
+        ]
+      },
+      {
+        "heading": "Électricité et Internet"
+      },
+      "L'électricité est en 220 volts (50 Hz) avec des prises de type européen (types C, E et F). Des coupures de courant surviennent parfois. Nous vous recommandons d'apporter :",
+      {
+        "list": [
+          "Un adaptateur de voyage universel",
+          "Une batterie externe",
+          "Des câbles de recharge de rechange"
+        ]
+      },
+      "Le Wi-Fi est disponible dans de nombreux hôtels, mais le débit peut varier. Des cartes SIM locales peuvent être achetées à votre arrivée.",
+      {
+        "heading": "État des routes"
+      },
+      "L'état des routes varie à travers l'Éthiopie. De nombreux grands axes sont goudronnés, tandis que les routes des régions isolées peuvent être difficiles ou non revêtues. Nos chauffeurs expérimentés et nos véhicules soigneusement entretenus garantissent un voyage aussi sûr et confortable que possible.",
+      {
+        "heading": "Tourisme responsable"
+      },
+      "Extraordinary Ethiopia Tours s'engage en faveur d'un tourisme responsable. Nous encourageons tous nos voyageurs à :",
+      {
+        "list": [
+          "Respecter les traditions locales.",
+          "Réduire les déchets plastiques.",
+          "Soutenir les entreprises locales.",
+          "Protéger la faune.",
+          "Ne laisser aucun déchet.",
+          "Contribuer à préserver le patrimoine naturel et culturel de l'Éthiopie pour les générations futures."
+        ]
+      },
+      {
+        "heading": "Pourboires"
+      },
+      "Le pourboire est facultatif mais très apprécié. Si vous êtes satisfait du service de votre guide, de votre chauffeur ou du personnel local, un pourboire est une attention qui récompense leur travail. Votre accompagnateur pourra vous conseiller sur les usages locaux en la matière.",
+      {
+        "heading": "Accessibilité"
+      },
+      "Certaines destinations comportent des terrains accidentés, des marches raides et des lieux isolés qui peuvent ne pas convenir aux fauteuils roulants. Si vous êtes à mobilité réduite, veuillez nous en informer avant de réserver afin que nous puissions vous recommander les solutions les plus adaptées.",
+      {
+        "heading": "Itinéraire flexible"
+      },
+      "Bien que nous nous efforcions toujours d'assurer le circuit exactement comme prévu, de légères modifications de l'itinéraire peuvent parfois être nécessaires en raison de la météo, de l'état des routes, d'événements locaux, de réglementations gouvernementales ou de changements d'horaires des vols. Tout changement sera toujours effectué en tenant compte de votre sécurité, de votre confort et de la qualité de votre expérience.",
+      {
+        "heading": "Contact d'urgence"
+      },
+      "Veuillez enregistrer nos coordonnées avant votre arrivée. Si vous avez besoin d'aide à tout moment de votre voyage, notre équipe est disponible 24 heures sur 24.",
+      "Extraordinary Ethiopia Tours",
+      {
+        "list": [
+          "WhatsApp : +251 912 039405",
+          "E-mail : info@extraordinaryethiopiatours.com",
+          "Site web : www.extraordinaryethiopiatours.com"
+        ]
+      },
+      {
+        "heading": "Au plaisir de vous accueillir"
+      },
+      "Merci encore une fois d'avoir choisi Extraordinary Ethiopia Tours. Toute notre équipe s'engage à vous offrir une expérience authentique, sûre et inoubliable à la découverte de l'histoire, de la culture, de la faune et des paysages remarquables de l'Éthiopie.",
+      "Nous vous souhaitons un agréable voyage et nous réjouissons de vous accueillir très bientôt.",
+      "Cordialement,",
+      "Maereg Tefere, fondateur et spécialiste des voyages, Extraordinary Ethiopia Tours"
     ]
   }
 }
