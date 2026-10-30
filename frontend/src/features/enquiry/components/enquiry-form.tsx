@@ -2,7 +2,7 @@
 
 import { useCopy } from '@/i18n/copy'
 
-import { useEffect, useState } from 'react'
+import { useEffect, useRef, useState } from 'react'
 import { useLocale } from 'next-intl'
 import { Check, ArrowRight, ChevronDown } from 'lucide-react'
 import { journeyStyles } from '@/features/tours/data/journey-styles'
@@ -30,7 +30,17 @@ export function EnquiryForm({
 
   const [selected, setSelected] = useState<string[]>(defaultStyles)
   const [submitted, setSubmitted] = useState(false)
+  const [sending, setSending] = useState(false)
   const [error, setError] = useState<string | null>(null)
+  const confirmation = useRef<HTMLDivElement>(null)
+
+  // The form is much taller than the confirmation that replaces it, so bring
+  // the confirmation into view and move focus for screen readers.
+  useEffect(() => {
+    if (!submitted) return
+    confirmation.current?.focus({ preventScroll: true })
+    confirmation.current?.scrollIntoView({ block: 'center' })
+  }, [submitted])
 
   const toggle = (style: string) =>
     setSelected((prev) =>
@@ -39,16 +49,21 @@ export function EnquiryForm({
 
   if (submitted) {
     return (
-      <div className="flex min-h-[420px] flex-col items-center justify-center border border-border bg-card px-6 py-16 text-center">
+      <div
+        ref={confirmation}
+        tabIndex={-1}
+        role="status"
+        className="flex min-h-[420px] flex-col items-center justify-center border border-border bg-card px-6 py-16 text-center outline-none"
+      >
         <span className="mb-6 flex h-14 w-14 items-center justify-center rounded-full bg-primary text-primary-foreground">
           <Check className="h-6 w-6" />
         </span>
         <h3 className="font-serif text-3xl text-foreground">
-          {copy('Your journey begins here')}
+          {copy('Your message has been sent')}
         </h3>
         <p className="mt-4 max-w-sm text-pretty leading-relaxed text-muted-foreground">
           {copy(
-            'Our team is already reviewing your request and will begin preparing a personalised itinerary. Expect to hear from us within 24 hours.',
+            'Thank you for contacting us. Our team will reply to your email within 24 hours.',
           )}
         </p>
       </div>
@@ -84,6 +99,7 @@ export function EnquiryForm({
         onInput={(e) => (e.target as HTMLInputElement).setCustomValidity('')}
         onSubmit={async (e) => {
           e.preventDefault()
+          if (sending) return
           setError(null)
           const data = new FormData(e.currentTarget)
           const name = String(data.get('name') ?? '').trim()
@@ -113,11 +129,14 @@ export function EnquiryForm({
           if (dream) lines.push('')
           lines.push(dream)
 
+          setSending(true)
           try {
             await submitContact({ name, email, message: lines.join('\n') })
             setSubmitted(true)
           } catch {
             setError(copy('Something went wrong. Please try again.'))
+          } finally {
+            setSending(false)
           }
         }}
         className="space-y-6"
@@ -270,10 +289,13 @@ export function EnquiryForm({
 
         <button
           type="submit"
-          className="group inline-flex w-full items-center justify-center gap-2.5 bg-primary px-8 py-4 text-[11px] font-semibold uppercase tracking-[0.2em] text-primary-foreground transition-colors duration-300 hover:bg-charcoal sm:w-auto"
+          disabled={sending}
+          className="group inline-flex w-full items-center justify-center gap-2.5 bg-primary px-8 py-4 text-[11px] font-semibold uppercase tracking-[0.2em] text-primary-foreground transition-colors duration-300 hover:bg-charcoal disabled:cursor-wait disabled:opacity-70 sm:w-auto"
         >
-          {copy('Start Planning My Journey')}
-          <ArrowRight className="h-4 w-4 transition-transform duration-300 group-hover:translate-x-1" />
+          {sending ? copy('Sending…') : copy('Start Planning My Journey')}
+          {sending ? null : (
+            <ArrowRight className="h-4 w-4 transition-transform duration-300 group-hover:translate-x-1" />
+          )}
         </button>
         <p className="text-xs leading-relaxed text-muted-foreground">
           {copy(
