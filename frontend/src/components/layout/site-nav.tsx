@@ -3,7 +3,12 @@
 import Image from 'next/image'
 import { useCopy } from '@/i18n/copy'
 
-import { useEffect, useRef, useState } from 'react'
+import {
+  useEffect,
+  useLayoutEffect,
+  useRef,
+  useState,
+} from 'react'
 import { Link } from '@/i18n/navigation'
 import { usePathname, useRouter } from '@/i18n/navigation'
 import { useLocale } from 'next-intl'
@@ -24,6 +29,10 @@ import { hasPrice, priceShort } from '@/features/tours/lib/format'
 import { tourCategories } from '@/features/tours/data/categories'
 import { navLinks } from '@/config/navigation'
 import { contact } from '@/config/site'
+
+// Changing locale rebuilds <html> and clears its data attributes, so the switch
+// in progress is remembered here and reapplied by the next render of the nav.
+let languageSwitching = false
 
 // Hides a hover dropdown after a tap or click inside it, even while the
 // pointer (or a touch screen's sticky hover) still rests on its trigger.
@@ -92,18 +101,37 @@ export function SiteNav({
   // The one mobile menu section showing its sub-links, if any.
   const [expanded, setExpanded] = useState<string | null>(null)
   const [dismissedHref, setDismissedHref] = useState<string | null>(null)
+  const [pendingCode, setPendingCode] = useState<string | null>(null)
   const lang = languages.find((language) => language.code === locale)!
+  const prefetched = useRef(false)
+  // Fetch the other languages on intent, so the switch itself has less to wait
+  // for. Called from the switcher's hover, focus and menu-open paths.
+  const prefetchLanguages = () => {
+    if (prefetched.current) return
+    prefetched.current = true
+    for (const language of languages)
+      if (language.code !== locale)
+        router.prefetch(pathname, { locale: language.code })
+  }
   const setLang = (language: (typeof languages)[number]) => {
+    setOpen(false)
+    setLangOpen(false)
+    if (language.code === locale) return
+    // Drives the dim and fade rules in globals.css.
+    languageSwitching = true
+    document.documentElement.dataset.langSwitch = 'pending'
+    document.documentElement.dataset.langSwitched = ''
+    setPendingCode(language.code)
     router.replace(
       `${pathname}${window.location.search}${window.location.hash}`,
       { locale: language.code, scroll: false },
     )
-    setOpen(false)
-    setLangOpen(false)
   }
   const langRef = useRef<HTMLDivElement>(null)
 
-  useEffect(() => {
+  // A layout effect, so a language switch part-way down a page does not paint
+  // one frame of the transparent header.
+  useLayoutEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 32)
     onScroll()
     window.addEventListener('scroll', onScroll, { passive: true })
@@ -114,6 +142,38 @@ export function SiteNav({
     setOpen(false)
     setLangOpen(false)
   }, [pathname])
+
+  // The new language has committed: restore the attributes before the first
+  // paint, paint once at the dimmed opacity, then fade it up.
+  useLayoutEffect(() => {
+    if (!languageSwitching) return
+    languageSwitching = false
+    const root = document.documentElement
+    root.dataset.langSwitch = 'pending'
+    root.dataset.langSwitched = ''
+    requestAnimationFrame(() =>
+      requestAnimationFrame(() => {
+        root.dataset.langSwitch = 'settling'
+        setTimeout(() => delete root.dataset.langSwitch, 320)
+      }),
+    )
+  }, [locale])
+
+  // A successful switch remounts this component and cancels the timer, so
+  // reaching it means the navigation failed: give the page back.
+  useEffect(() => {
+    if (!pendingCode) return
+    const timer = setTimeout(() => {
+      languageSwitching = false
+      delete document.documentElement.dataset.langSwitch
+      setPendingCode(null)
+    }, 10_000)
+    return () => clearTimeout(timer)
+  }, [pendingCode])
+
+  useEffect(() => {
+    if (open) prefetchLanguages()
+  }, [open])
 
   useEffect(() => {
     document.body.style.overflow = open ? 'hidden' : ''
@@ -234,6 +294,7 @@ export function SiteNav({
                               {regions.map((r) => (
                                 <li key={r.id}>
                                   <Link
+                                    prefetch={false}
                                     href={`/destinations#${r.id}`}
                                     className="group/cat inline-flex items-center gap-1.5 text-[13px] font-semibold text-foreground underline decoration-accent/40 underline-offset-4 transition-colors hover:text-accent hover:decoration-accent"
                                   >
@@ -245,6 +306,7 @@ export function SiteNav({
                             </ul>
                           </div>
                           <Link
+                            prefetch={false}
                             href="/destinations"
                             className="inline-flex items-center gap-2 text-xs font-semibold uppercase tracking-[0.16em] text-accent hover:text-accent/80 transition-colors mt-6"
                           >
@@ -256,6 +318,7 @@ export function SiteNav({
                         <div className="grid grid-cols-4 gap-6">
                           {destinations.slice(0, 4).map((d) => (
                             <Link
+                              prefetch={false}
                               key={d.slug}
                               href={`/destinations/${d.slug}`}
                               className="group/item flex flex-col gap-3.5 rounded-lg overflow-hidden p-2.5 transition-all duration-300 hover:bg-muted/50"
@@ -307,6 +370,7 @@ export function SiteNav({
                               {tourCategories.map((c) => (
                                 <li key={c.id}>
                                   <Link
+                                    prefetch={false}
                                     href={`/tours?category=${c.id}`}
                                     className="group/cat inline-flex items-center gap-1.5 text-[13px] font-semibold text-foreground underline decoration-accent/40 underline-offset-4 transition-colors hover:text-accent hover:decoration-accent"
                                   >
@@ -318,6 +382,7 @@ export function SiteNav({
                             </ul>
                           </div>
                           <Link
+                            prefetch={false}
                             href="/tours"
                             className="inline-flex items-center gap-2 text-xs font-semibold uppercase tracking-[0.16em] text-accent hover:text-accent/80 transition-colors mt-6"
                           >
@@ -329,6 +394,7 @@ export function SiteNav({
                         <div className="grid grid-cols-2 gap-6">
                           {tours.slice(0, 2).map((t) => (
                             <Link
+                              prefetch={false}
                               key={t.slug}
                               href={`/tours/${t.slug}`}
                               className="group/item flex flex-col gap-3.5 rounded-lg overflow-hidden p-2.5 transition-all duration-300 hover:bg-muted/50"
@@ -382,6 +448,7 @@ export function SiteNav({
                       {link.children.map((child) => (
                         <li key={child.href}>
                           <Link
+                            prefetch={false}
                             href={child.href}
                             aria-current={
                               pathname === child.href ? 'page' : undefined
@@ -410,6 +477,9 @@ export function SiteNav({
                 aria-label={copy('Change language')}
                 aria-haspopup="listbox"
                 aria-expanded={langOpen}
+                aria-busy={pendingCode !== null}
+                onPointerEnter={prefetchLanguages}
+                onFocus={prefetchLanguages}
                 onClick={() => setLangOpen((v) => !v)}
                 className={cn(
                   'flex h-10 items-center gap-1.5 rounded-full px-3 transition-colors duration-300',
@@ -418,9 +488,14 @@ export function SiteNav({
                     : 'text-background/80 hover:bg-background/10',
                 )}
               >
-                <Globe className="h-[17px] w-[17px]" />
+                <Globe
+                  className={cn(
+                    'h-[17px] w-[17px]',
+                    pendingCode && 'animate-pulse',
+                  )}
+                />
                 <span className="text-[11px] font-semibold tracking-[0.1em]">
-                  {lang.code.toUpperCase()}
+                  {(pendingCode ?? lang.code).toUpperCase()}
                 </span>
                 <ChevronDown
                   className={cn(
@@ -534,6 +609,7 @@ export function SiteNav({
                     )}
                   >
                     <Link
+                      prefetch={false}
                       href={link.href}
                       onClick={() => setOpen(false)}
                       className={cn(
@@ -581,6 +657,7 @@ export function SiteNav({
                       {subLinks.map((sub) => (
                         <li key={sub.href}>
                           <Link
+                            prefetch={false}
                             href={sub.href}
                             onClick={() => setOpen(false)}
                             className={cn(

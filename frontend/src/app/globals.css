@@ -200,9 +200,32 @@
   transform: none;
 }
 
+/* A language switch remounts the page. Dim it while the new language loads,
+   then fade that up as one piece instead of replaying every entrance. */
+html[data-lang-switch='pending'] :is(main, footer) {
+  opacity: 0.55;
+  transition: opacity 0.18s ease;
+}
+html[data-lang-switch='settling'] :is(main, footer) {
+  opacity: 1;
+  transition: opacity 0.28s ease;
+}
+html[data-lang-switch] .reveal {
+  opacity: 1;
+  transform: none;
+  transition: none;
+}
+/* Stays set after the switch: dropping it would restart these animations. */
+html[data-lang-switched] :is(.animate-slow-zoom, [class*='animation:fade-up']) {
+  animation: none;
+}
+
 @media (prefers-reduced-motion: reduce) {
   html {
     scroll-behavior: auto;
+  }
+  html[data-lang-switch] :is(main, footer) {
+    transition: none;
   }
   .reveal {
     opacity: 1;
