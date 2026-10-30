@@ -7,7 +7,6 @@ import {
   GetYourGuideMark,
   SafariBookingsMark,
   TripadvisorMark,
-  ViatorMark,
 } from '@/components/icons/brand-marks'
 import { contact } from '@/config/site'
 import { getTestimonials } from '@/features/reviews/data/localized'
@@ -23,15 +22,9 @@ const platforms = [
     href: 'https://www.safaribookings.com/p6779',
     mark: <SafariBookingsMark />,
   },
-  // No listing links yet: shown as plain tiles until a real URL replaces '#'.
-  {
-    name: 'Viator',
-    href: '#',
-    mark: <ViatorMark />,
-  },
   {
     name: 'GetYourGuide',
-    href: '#',
+    href: 'https://www.getyourguide.com/lalibela-l1095/from-addis-ababa-lalibela-rock-hewn-churches-2-day-tour-t526089/?preview=PJ2YBHHH18OZW8XWNLZELXSPQJM69I1O',
     mark: <GetYourGuideMark />,
   },
 ]

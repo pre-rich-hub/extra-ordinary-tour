@@ -80,14 +80,6 @@ export function TikTokIcon() {
   )
 }
 
-export function ViatorMark() {
-  return (
-    <span className="font-sans text-[1.6rem] font-bold tracking-[-0.03em] text-[#186b6d]">
-      {'viator'}
-    </span>
-  )
-}
-
 export function TripadvisorMark() {
   return (
     <span className="flex items-center gap-1.5">

@@ -13,7 +13,6 @@ import {
   TikTokIcon,
   TripadvisorMark,
   SafariBookingsMark,
-  ViatorMark,
   GetYourGuideMark,
   PayPalMark,
   BankDepositMark,
@@ -60,15 +59,9 @@ const platforms: { name: string; href: string; mark: React.ReactNode }[] = [
     href: 'https://www.safaribookings.com/p6779',
     mark: <SafariBookingsMark />,
   },
-  // No listing links yet: shown as plain tiles until a real URL replaces '#'.
-  {
-    name: 'Viator',
-    href: '#',
-    mark: <ViatorMark />,
-  },
   {
     name: 'GetYourGuide',
-    href: '#',
+    href: 'https://www.getyourguide.com/lalibela-l1095/from-addis-ababa-lalibela-rock-hewn-churches-2-day-tour-t526089/?preview=PJ2YBHHH18OZW8XWNLZELXSPQJM69I1O',
     mark: <GetYourGuideMark />,
   },
 ]
@@ -273,7 +266,7 @@ export function SiteFooter() {
             <p className="mt-2 text-[15px] text-background/60">
               {copy('Find and review us where seasoned travellers plan.')}
             </p>
-            <ul className="mt-6 grid grid-cols-2 gap-3 sm:grid-cols-4">
+            <ul className="mt-6 grid grid-cols-2 gap-3 sm:grid-cols-3">
               {platforms.map((p) => (
                 <li key={p.name}>
                   {p.href === '#' ? (
