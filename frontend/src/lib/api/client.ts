@@ -16,6 +16,8 @@
 // Callers with a fallback (e.g. feature catalogue records) recover on the
 // thrown AbortError; in production the API answers in ~100ms and the timeout
 // never fires.
+import { resolveApiBase } from '@/lib/api/base-url.mjs'
+
 const REQUEST_TIMEOUT_MS = 5_000
 
 type ApiEnvelope<T> = {
@@ -27,10 +29,7 @@ type ApiEnvelope<T> = {
 export async function request<T>(path: string, init?: RequestInit): Promise<T> {
   const url =
     typeof window === 'undefined'
-      ? new URL(
-          path,
-          process.env.API_BASE_URL ?? 'http://localhost:5000',
-        ).toString()
+      ? new URL(path, resolveApiBase(process.env.API_BASE_URL)).toString()
       : path
   const response = await fetch(url, {
     ...init,

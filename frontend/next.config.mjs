@@ -1,6 +1,7 @@
 import { dirname } from 'node:path'
 import { fileURLToPath } from 'node:url'
 import createNextIntlPlugin from 'next-intl/plugin'
+import { resolveApiBase } from './src/lib/api/base-url.mjs'
 import { isProductionDeployment } from './src/lib/seo/environment.mjs'
 const withNextIntl = createNextIntlPlugin('./src/i18n/request.ts')
 /** @type {import('next').NextConfig} */
@@ -65,7 +66,7 @@ const nextConfig = {
     }))
   },
   async rewrites() {
-    const apiBase = process.env.API_BASE_URL ?? 'http://localhost:5000'
+    const apiBase = resolveApiBase(process.env.API_BASE_URL)
     return [{ source: '/api/:path*', destination: `${apiBase}/api/:path*` }]
   },
 }

@@ -1,5 +1,7 @@
 import 'server-only'
 
+import { resolveApiBase } from '@/lib/api/base-url.mjs'
+
 // Server-side base URL for the backend. Client components must NEVER use this
 // — they call relative "/api/v1/..." paths which Next rewrites to the backend
 // (next.config.mjs). Only server components (admin layout guard) fetch across
@@ -7,5 +9,5 @@ import 'server-only'
 // env var next.config.mjs reads for the rewrite target.
 
 export function getAdminApiBaseUrl(): string {
-  return process.env.API_BASE_URL ?? 'http://localhost:5000'
+  return resolveApiBase(process.env.API_BASE_URL)
 }
