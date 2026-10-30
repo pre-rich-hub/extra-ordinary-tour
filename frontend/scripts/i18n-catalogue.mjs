@@ -22,6 +22,7 @@ export const catalogueSpecs = [
       'group',
       'teaser',
       'summary',
+      'highlights',
       'includes',
       'excludes',
       'itinerary',
