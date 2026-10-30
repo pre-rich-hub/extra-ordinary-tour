@@ -230,6 +230,7 @@ export const posts: Post[] = [
     image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/v1792854897/layove.jpg',
     author: 'Maereg Tefere',
     authorRole: 'Founder & Tour Specialist',
+    authorImage: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/founder-maereg-tefere.jpg',
     excerpt:
       'Passports, packing, health, altitude, photography, money and tipping: our pre-departure guide for every guest.',
     body: [

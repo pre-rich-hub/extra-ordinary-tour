@@ -13,6 +13,7 @@ export type Post = {
   image: string
   author: string
   authorRole: string
+  authorImage?: string
   excerpt: string
   body: PostBlock[]
   featured?: boolean
