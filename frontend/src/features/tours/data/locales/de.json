@@ -247,7 +247,7 @@
     "style": "Geschichte · Trekking",
     "season": "September bis Juli",
     "from": "Auf Anfrage",
-    "group": "1 bis 8 Personen",
+    "group": "1 bis 12 Personen",
     "teaser": "Kirchen in Felswänden, alte Fresken und die dramatischen Sandsteintürme des Gheralta.",
     "summary": "Für Reisende, die Geschichte mit einem Hauch Abenteuer erleben möchten. Von Hawzen am Fuß des Gheralta-Massivs aus steigen Sie zu Abuna Yemata Guh hinauf, erreichbar über Trittstufen im Fels und ein schmales Sims, und besuchen Debre Tsion, Yohannes Maikudi, Debre Maryam Korkor und Abreha we Atsbeha, einige der ältesten christlichen Heiligtümer Afrikas.",
     "includes": [
@@ -256,7 +256,6 @@
       "Lizenzierter englischsprachiger Guide (andere Sprachen auf Anfrage)",
       "4 Übernachtungen: Lobelia Hotel & Tukul Village",
       "Vollpension: Frühstück, Mittag- und Abendessen",
-      "Eintrittsgelder für Nationalparks und Scouts",
       "Eintrittsgelder für alle Stätten und Kirchen im Reiseverlauf"
     ],
     "excludes": [
@@ -1258,7 +1257,6 @@
     "summary": "Eine gründliche Erkundung des unteren Omo-Tals für Reisende, die mehr als einen flüchtigen Besuch wünschen. Reisen Sie über Land über Butajira und Arba Minch, verbringen Sie Zeit mit den Mursi im Mago-Nationalpark, den Karo bei Omorate und den Hamar rund um Turmi, einschließlich ihrer Zeremonien, wenn der Zeitpunkt passt, und kehren Sie über das Hochland der Dorze und Hawassa zurück.",
     "includes": [
       "Empfang und Betreuung am Bole International Airport sowie alle Transfers",
-      "Inlandsflüge laut Reiseverlauf",
       "Privates klimatisiertes Fahrzeug mit professionellem Fahrer",
       "Lizenzierter englischsprachiger Guide (andere Sprachen auf Anfrage)",
       "10 Übernachtungen: 4-Sterne-Hotels und Eco-Lodges",
@@ -1350,7 +1348,7 @@
     "style": "Kultur",
     "season": "Ganzjährig außer April und Mai",
     "from": "Auf Anfrage",
-    "group": "1 bis 8 Personen",
+    "group": "1 bis 12 Personen",
     "teaser": "Die Suri von Kibish, die Nyangatom, Hamar, Arbore und Bodi, mit langen, ruhigen Fotosessions.",
     "summary": "Gestaltet für Fotografen und ernsthaft an Kultur interessierte Reisende. Erreichen Sie die abgelegenen Suri (Surma) in Kibish über Jimma und Mizan Teferi, reisen Sie dann nach Turmi zu den Nyangatom, Karo, Hamar und Arbore und beenden Sie die Reise im Mago-Nationalpark bei den Bodi. Die Tage sind nach dem Licht der goldenen Stunde geplant und lassen respektvoll und ohne Eile Zeit in jeder Gemeinschaft.",
     "includes": [
@@ -1360,7 +1358,7 @@
       "Lizenzierter englischsprachiger Guide (andere Sprachen auf Anfrage)",
       "12 Übernachtungen: 4-Sterne-Hotels und Eco-Lodges",
       "Vollpension: Frühstück, Mittag- und Abendessen",
-      "Eintrittsgelder für alle Stätten und Kirchen im Reiseverlauf"
+      "Eintrittsgelder für alle Stätten im Reiseverlauf"
     ],
     "excludes": [
       "Internationale Flüge und äthiopisches Visum",
@@ -1801,7 +1799,7 @@
       "3 Übernachtungen: Aregash Lodge & Awassa Resort",
       "Vollpension: Frühstück, Mittag- und Abendessen",
       "Besuche von Farmen und Aufbereitungsstationen mit Kaffeeverkostungen",
-      "Eintrittsgelder für alle Stätten und Kirchen im Reiseverlauf"
+      "Eintrittsgelder für alle Stätten im Reiseverlauf"
     ],
     "excludes": [
       "Internationale Flüge und äthiopisches Visum",
@@ -1971,7 +1969,7 @@
     "from": "Auf Anfrage",
     "group": "2 bis 12 Personen",
     "teaser": "Vom Flughafen Semera zum Krater des Erta Ale, zum Afdera-See, zu den Schwefelquellen von Dallol und den Salzkarawanen und zurück.",
-    "summary": "Eine Danakil-Expedition, die in Semera beginnt und endet, der Hauptstadt der Afar-Region, eine Flugstunde von Addis Abeba entfernt. Steigen Sie auf den Gipfel des Schildvulkans Erta Ale, baden Sie im warmen Salzwasser des Afdera-Sees, zelten Sie unter dem Sternenhimmel der Wüste, erkunden Sie die außergewöhnlichen Farben von Dallol und begegnen Sie den Salzarbeitern und Kamelkarawanen am Assale-See.",
+    "summary": "Eine Danakil-Expedition, die in Addis Abeba beginnt und endet, mit Flügen nach und von Semera, der Hauptstadt der Afar-Region. Steigen Sie auf den Gipfel des Schildvulkans Erta Ale, baden Sie im warmen Salzwasser des Afdera-Sees, zelten Sie unter dem Sternenhimmel der Wüste, erkunden Sie die außergewöhnlichen Farben von Dallol und begegnen Sie den Salzarbeitern und Kamelkarawanen am Assale-See.",
     "includes": [
       "Empfang und Betreuung am Bole International Airport sowie alle Transfers",
       "Geländewagen mit erfahrenen Wüstenfahrern",
@@ -1980,8 +1978,7 @@
       "Vollpension: Frühstück, Mittag- und Abendessen",
       "Regionale Genehmigungen für Afar, lokaler Afar-Guide und Polizeibegleitung",
       "Campingausrüstung mit Matratzen, Kissen und sauberer Bettwäsche",
-      "Trinkwasser: etwa sechs Liter pro Person und Tag",
-      "Eintrittsgelder für alle Stätten und Kirchen im Reiseverlauf"
+      "Trinkwasser: etwa sechs Liter pro Person und Tag"
     ],
     "excludes": [
       "Internationale Flüge und äthiopisches Visum",
@@ -2015,24 +2012,24 @@
     ]
   },
   "3-day-danakil-depression-from-mekelle": {
-    "title": "Danakil-Senke ab Mekele in 3 Tagen",
+    "title": "Danakil-Senke über Mekele in 3 Tagen",
     "days": "3 Tage",
     "style": "Danakil",
     "season": "November bis März",
     "from": "Auf Anfrage",
     "group": "2 bis 12 Personen",
     "teaser": "Der Erta Ale bei Nacht, Hamed Ela, die Salzminen von Ragad und die Mineralterrassen von Dallol.",
-    "summary": "Die klassische Danakil-Expedition ab Mekele. Durchqueren Sie Lavafelder bis Dodom und unternehmen Sie die abendliche Wanderung zum aktiven Lavasee des Erta Ale, während Kamele das Lager tragen, beobachten Sie den Sonnenuntergang über dem Assale-See, erleben Sie dann den jahrhundertealten Salzhandel in Ragad und erkunden Sie die Säurebecken und Salzschluchten von Dallol.",
+    "summary": "Die klassische Danakil-Expedition ab Addis Abeba über Mekele. Durchqueren Sie Lavafelder bis Dodom und unternehmen Sie die abendliche Wanderung zum aktiven Lavasee des Erta Ale, während Kamele das Lager tragen, beobachten Sie den Sonnenuntergang über dem Assale-See, erleben Sie dann den jahrhundertealten Salzhandel in Ragad und erkunden Sie die Säurebecken und Salzschluchten von Dallol.",
     "includes": [
-      "Abholung und Rückbringung in Mekelle",
+      "Empfang und Betreuung am Bole International Airport sowie alle Transfers",
+      "Inlandsflüge laut Reiseverlauf",
       "Geländewagen mit erfahrenen Wüstenfahrern",
       "Lizenzierter englischsprachiger Guide (andere Sprachen auf Anfrage)",
       "2 Übernachtungen: Camping",
       "Vollpension: Frühstück, Mittag- und Abendessen",
       "Regionale Genehmigungen für Afar, lokaler Afar-Guide und Polizeibegleitung",
       "Campingausrüstung mit Matratzen, Kissen und sauberer Bettwäsche",
-      "Trinkwasser: etwa sechs Liter pro Person und Tag",
-      "Eintrittsgelder für alle Stätten und Kirchen im Reiseverlauf"
+      "Trinkwasser: etwa sechs Liter pro Person und Tag"
     ],
     "excludes": [
       "Internationale Flüge und äthiopisches Visum",
@@ -2042,8 +2039,8 @@
     "itinerary": [
       {
         "day": "Tag 1",
-        "title": "Mekele – Dodom – Vulkan Erta Ale",
-        "text": "Ihr Abenteuer beginnt mit einer frühmorgendlichen Abfahrt von Mekele nach Dodom, dem Basislager für den legendären Vulkan Erta Ale. Sie reisen durch eine der abgelegensten und dramatischsten Landschaften Äthiopiens und durchqueren weite Wüstenebenen, alte Lavafelder, sandiges Gelände und vereinzelte Oasen. Die anspruchsvolle Strecke von 70 km dauert wegen der rauen Straßenverhältnisse etwa fünf Stunden und bietet unvergessliche Ausblicke auf die einzigartige Umgebung der Afar-Region. Nach der Ankunft in Dodom, rund 9,5 km vom Erta Ale entfernt, genießen Sie ein frühes Abendessen und bereiten sich auf die nächtliche Wanderung vor. Gegen 20:00 Uhr beginnt der Aufstieg zum Gipfel des Vulkans, begleitet von Kamelen, die Campingausrüstung, Matratzen, Wasser und Vorräte tragen. Am Kraterrand erleben Sie den unglaublichen Anblick des aktiven Lavasees des Erta Ale, eines der bemerkenswertesten vulkanischen Phänomene der Welt. Verbringen Sie die Nacht im Lager nahe dem Krater, umgeben vom dramatischen Glühen des Vulkans und dem endlosen Wüstenhimmel. Übernachtung: Camping am Vulkan Erta Ale."
+        "title": "Addis Abeba – Flug nach Mekele – Dodom – Vulkan Erta Ale",
+        "text": "Ihr Abenteuer beginnt mit einem frühmorgendlichen Flug von Addis Abeba nach Mekele, wo Sie Ihren Fahrer und Guide treffen und nach Dodom weiterfahren, dem Basislager für den legendären Vulkan Erta Ale. Sie reisen durch eine der abgelegensten und dramatischsten Landschaften Äthiopiens und durchqueren weite Wüstenebenen, alte Lavafelder, sandiges Gelände und vereinzelte Oasen. Die anspruchsvolle Strecke von 70 km dauert wegen der rauen Straßenverhältnisse etwa fünf Stunden und bietet unvergessliche Ausblicke auf die einzigartige Umgebung der Afar-Region. Nach der Ankunft in Dodom, rund 9,5 km vom Erta Ale entfernt, genießen Sie ein frühes Abendessen und bereiten sich auf die nächtliche Wanderung vor. Gegen 20:00 Uhr beginnt der Aufstieg zum Gipfel des Vulkans, begleitet von Kamelen, die Campingausrüstung, Matratzen, Wasser und Vorräte tragen. Am Kraterrand erleben Sie den unglaublichen Anblick des aktiven Lavasees des Erta Ale, eines der bemerkenswertesten vulkanischen Phänomene der Welt. Verbringen Sie die Nacht im Lager nahe dem Krater, umgeben vom dramatischen Glühen des Vulkans und dem endlosen Wüstenhimmel. Übernachtung: Camping am Vulkan Erta Ale."
       },
       {
         "day": "Tag 2",
@@ -2052,8 +2049,8 @@
       },
       {
         "day": "Tag 3",
-        "title": "Hamed Ela – Salzminen von Ragad – Dallol – Mekele",
-        "text": "Beginnen Sie den Tag mit einer Fahrt nach Ragad (Asebo), einem wichtigen Zentrum des traditionellen Salzabbaus der Afar. Hier erleben Sie den jahrhundertealten Abbau, bei dem einheimische Arbeiter Salzblöcke aus dem Boden schneiden, sie in Stücke formen und auf Kamelkarawanen laden, die ins äthiopische Hochland ziehen. Weiter geht es zum außergewöhnlichen geothermischen Feld von Dallol, einer der einzigartigsten Landschaften der Erde. Erkunden Sie die farbenfrohen Mineralformationen, Schwefelquellen, Salzschluchten und surrealen Säurebecken, die durch intensive geothermische Aktivität entstanden sind. Besuchen Sie die bemerkenswerte Umgebung des Assale-Sees mit seinen weiten Salzebenen und seiner dramatischen Wüstenlandschaft, bevor Sie zum Mittagessen nach Hamed Ela zurückkehren. Nach dem Mittagessen beginnt die Rückfahrt nach Mekele, die Ihre unvergessliche Reise durch die Danakil-Senke beschließt, ein Land der Vulkane, Salzseen und unwirklichen Landschaften."
+        "title": "Hamed Ela – Salzminen von Ragad – Dallol – Mekele – Flug nach Addis Abeba",
+        "text": "Beginnen Sie den Tag mit einer Fahrt nach Ragad (Asebo), einem wichtigen Zentrum des traditionellen Salzabbaus der Afar. Hier erleben Sie den jahrhundertealten Abbau, bei dem einheimische Arbeiter Salzblöcke aus dem Boden schneiden, sie in Stücke formen und auf Kamelkarawanen laden, die ins äthiopische Hochland ziehen. Weiter geht es zum außergewöhnlichen geothermischen Feld von Dallol, einer der einzigartigsten Landschaften der Erde. Erkunden Sie die farbenfrohen Mineralformationen, Schwefelquellen, Salzschluchten und surrealen Säurebecken, die durch intensive geothermische Aktivität entstanden sind. Besuchen Sie die bemerkenswerte Umgebung des Assale-Sees mit seinen weiten Salzebenen und seiner dramatischen Wüstenlandschaft, bevor Sie zum Mittagessen nach Hamed Ela zurückkehren. Nach dem Mittagessen beginnt die Rückfahrt nach Mekele zu Ihrem Abendflug nach Addis Abeba, der Ihre unvergessliche Reise durch die Danakil-Senke beschließt, ein Land der Vulkane, Salzseen und unwirklichen Landschaften."
       }
     ],
     "places": [
@@ -2083,8 +2080,7 @@
       "11 Übernachtungen: Lodges & Camping",
       "Vollpension: Frühstück, Mittag- und Abendessen",
       "Nationalparkgebühren, bewaffneter Scout und lokale Guides",
-      "Campingausrüstung, Koch sowie Packmaultiere oder Träger",
-      "Eintrittsgelder für alle Stätten und Kirchen im Reiseverlauf"
+      "Campingausrüstung, Koch sowie Packmaultiere oder Träger"
     ],
     "excludes": [
       "Internationale Flüge und äthiopisches Visum",
@@ -2293,8 +2289,7 @@
       "Lizenzierter englischsprachiger Guide (andere Sprachen auf Anfrage)",
       "2 Übernachtungen: Doho Lodge & heiße Quellen",
       "Vollpension: Frühstück, Mittag- und Abendessen",
-      "Eintrittsgelder für Nationalparks und Scouts",
-      "Eintrittsgelder für alle Stätten und Kirchen im Reiseverlauf"
+      "Eintrittsgelder für Nationalparks und Scouts"
     ],
     "excludes": [
       "Internationale Flüge und äthiopisches Visum",
@@ -2341,8 +2336,7 @@
       "Lizenzierter englischsprachiger Guide (andere Sprachen auf Anfrage)",
       "2 Übernachtungen: Wabe Shebelle Hotel & Harenna Forest Lodge",
       "Vollpension: Frühstück, Mittag- und Abendessen",
-      "Eintrittsgelder für Nationalparks und Scouts",
-      "Eintrittsgelder für alle Stätten und Kirchen im Reiseverlauf"
+      "Eintrittsgelder für Nationalparks und Scouts"
     ],
     "excludes": [
       "Internationale Flüge und äthiopisches Visum",
@@ -2381,9 +2375,9 @@
     "style": "Tierwelt · Trekking",
     "season": "September bis Juni",
     "from": "Auf Anfrage",
-    "group": "1 bis 8 Personen",
+    "group": "1 bis 12 Personen",
     "teaser": "Gich, Imet Gogo, Chenek und der Gipfel des Buwahit, mit Walia-Steinböcken und Dscheladas am Wegesrand.",
-    "summary": "Ein voll betreutes Trekking mit Zeltübernachtungen durch das Herz des Simien-Gebirges. Wandern Sie durch das Kaba-Tal zum Dorf Gich, genießen Sie die weite Aussicht vom Imet Gogo, zelten Sie in Chenek, wo Walia-Steinböcke unterhalb der Klippen grasen, und besteigen Sie den Buwahit (4.430 m), bevor Sie nach Gondar zurückkehren.",
+    "summary": "Ein voll betreutes Trekking mit Zeltübernachtungen durch das Herz des Simien-Gebirges. Wandern Sie durch das Kaba-Tal zum Dorf Gich, genießen Sie die weite Aussicht vom Imet Gogo, zelten Sie in Chenek, wo Walia-Steinböcke unterhalb der Klippen grasen, und besteigen Sie den Buwahit (4.430 m), bevor Sie nach Gondar und Addis Abeba zurückkehren.",
     "includes": [
       "Empfang und Betreuung am Bole International Airport sowie alle Transfers",
       "Inlandsflüge laut Reiseverlauf",
@@ -2392,8 +2386,7 @@
       "3 Übernachtungen: Voll betreutes Camping",
       "Vollpension: Frühstück, Mittag- und Abendessen",
       "Nationalparkgebühren, bewaffneter Scout und lokale Guides",
-      "Campingausrüstung, Koch sowie Packmaultiere oder Träger",
-      "Eintrittsgelder für alle Stätten und Kirchen im Reiseverlauf"
+      "Campingausrüstung, Koch sowie Packmaultiere oder Träger"
     ],
     "excludes": [
       "Internationale Flüge und äthiopisches Visum",
@@ -2404,7 +2397,7 @@
     "itinerary": [
       {
         "day": "Tag 1",
-        "title": "Gondar – Simien-Nationalpark – erste Wanderung",
+        "title": "Addis Abeba – Flug nach Gondar – Simien-Nationalpark – erste Wanderung",
         "text": "Ihre Reise beginnt mit einem Morgenflug von Addis Abeba nach Gondar, der historischen Stadt der Burgen und einer der wichtigsten Königsstädte Äthiopiens. Nach der Ankunft werden Sie herzlich von Ihrem Guide begrüßt und beginnen die reizvolle Fahrt nach Debark, dem Tor und Sitz der Verwaltung des Simien-Nationalparks. In Debark erledigen Sie die nötige Registrierung und die Genehmigungen für den Park und treffen Ihren lokalen Bergscout, der Sie während Ihres gesamten Trekking-Abenteuers begleitet. Weiter geht es tiefer in den Park, wo sich dramatische Landschaften aus hoch aufragenden Klippen, tiefen Tälern und zerklüfteten Gipfeln öffnen. Beginnen Sie Ihre erste Wanderung entlang der spektakulären Simien-Steilwand und genießen Sie atemberaubende Ausblicke über die weiten Ebenen unter Ihnen und die dramatische Berglandschaft um Sie herum. Diese Einführungswanderung ist der perfekte Einstieg in die einzigartige Umgebung des Parks und bietet ausgezeichnete Gelegenheiten zur Tierbeobachtung. Halten Sie Ausschau nach großen Gruppen von Dscheladas, einer endemischen Art, die nur im äthiopischen Hochland vorkommt. Diese faszinierenden Primaten sind oft dabei zu sehen, wie sie auf den grasbewachsenen Hängen weiden und sich in ihrem natürlichen Lebensraum über die Klippen bewegen. Wenn die Sonne über den Bergen untergeht, genießen Sie die friedliche Atmosphäre der Simien-Wildnis und verbringen Ihre erste Nacht inmitten der spektakulären Hochlandschaft Äthiopiens. Übernachtung: Camping im Simien-Nationalpark."
       },
       {
@@ -2447,8 +2440,7 @@
       "Lizenzierter englischsprachiger Guide (andere Sprachen auf Anfrage)",
       "1 Übernachtung: Lodge oder Eco-Camp",
       "Vollpension: Frühstück, Mittag- und Abendessen",
-      "Eintrittsgelder für Nationalparks und Scouts",
-      "Eintrittsgelder für alle Stätten und Kirchen im Reiseverlauf"
+      "Eintrittsgelder für Nationalparks und Scouts"
     ],
     "excludes": [
       "Internationale Flüge und äthiopisches Visum",
@@ -2484,8 +2476,7 @@
       "Spezialisierter Vogelkundeführer während der gesamten Reise",
       "1 Übernachtung: 3-Sterne-Hotel",
       "Vollpension: Frühstück, Mittag- und Abendessen",
-      "Eintrittsgelder für Nationalparks und Scouts",
-      "Eintrittsgelder für alle Stätten und Kirchen im Reiseverlauf"
+      "Eintrittsgelder für Nationalparks und Scouts"
     ],
     "excludes": [
       "Internationale Flüge und äthiopisches Visum",
@@ -2517,7 +2508,7 @@
     "style": "Trekking",
     "season": "September bis Juni",
     "from": "Auf Anfrage",
-    "group": "1 bis 8 Personen",
+    "group": "1 bis 12 Personen",
     "teaser": "Von Sankaber nach Gich entlang der Steilwand, mit Dschelada-Gruppen und einer Nacht im Zelt.",
     "summary": "Ein kurzes, klassisches Trekking entlang der Simien-Steilwand. Wandern Sie von Sankaber zum Lager Gich, mit dem Jinbar-Wasserfall und steilen Klippen an Ihrer Seite, zelten Sie im Hochland mit einem vollständigen Begleitteam und feiern Sie nach Ihrer Rückkehr bei einem kulturellen Abschiedsessen in Addis Abeba.",
     "includes": [
@@ -2528,8 +2519,7 @@
       "2 Übernachtungen: Camping",
       "Vollpension: Frühstück, Mittag- und Abendessen",
       "Nationalparkgebühren, bewaffneter Scout und lokale Guides",
-      "Campingausrüstung, Koch sowie Packmaultiere oder Träger",
-      "Eintrittsgelder für alle Stätten und Kirchen im Reiseverlauf"
+      "Campingausrüstung, Koch sowie Packmaultiere oder Träger"
     ],
     "excludes": [
       "Internationale Flüge und äthiopisches Visum",
@@ -2562,7 +2552,7 @@
     "style": "Trekking",
     "season": "September bis Juni",
     "from": "Auf Anfrage",
-    "group": "1 bis 8 Personen",
+    "group": "1 bis 12 Personen",
     "teaser": "Sankaber, Gich, die Inatye-Steilwand und Chenek: die schönsten Wanderungen im Simien.",
     "summary": "Fünf Tage zu Fuß über das Dach Afrikas. Wandern Sie von Sankaber nach Gich, überqueren Sie die hohe Inatye-Steilwand nach Chenek und verbringen Sie dann einen ganzen Wandertag rund um Chenek, wo sich Walia-Steinböcke, Dscheladas und mit etwas Glück der Äthiopische Wolf einige der spektakulärsten Klippenlandschaften des Kontinents teilen.",
     "includes": [
@@ -2573,8 +2563,7 @@
       "4 Übernachtungen: Camping",
       "Vollpension: Frühstück, Mittag- und Abendessen",
       "Nationalparkgebühren, bewaffneter Scout und lokale Guides",
-      "Campingausrüstung, Koch sowie Packmaultiere oder Träger",
-      "Eintrittsgelder für alle Stätten und Kirchen im Reiseverlauf"
+      "Campingausrüstung, Koch sowie Packmaultiere oder Träger"
     ],
     "excludes": [
       "Internationale Flüge und äthiopisches Visum",
@@ -2625,18 +2614,16 @@
     "style": "Trekking · Tierwelt",
     "season": "Oktober bis April",
     "from": "Auf Anfrage",
-    "group": "1 bis 8 Personen",
+    "group": "1 bis 12 Personen",
     "teaser": "Wandern Sie über das Sanetti-Plateau und durch den Nebelwald von Harenna auf der Suche nach dem Äthiopischen Wolf.",
     "summary": "Ein kurzes Wanderabenteuer im Bale-Gebirge. Erkunden Sie das afroalpine Sanetti-Plateau zu Fuß, steigen Sie zum Tulu Dimtu auf 4.377 m auf und hinab in den Harenna-Wald, mit Übernachtungen im Wabe Shebelle Hotel und in der Harenna Forest Lodge.",
     "includes": [
       "Empfang und Betreuung am Bole International Airport sowie alle Transfers",
-      "Inlandsflüge laut Reiseverlauf",
       "Privates klimatisiertes Fahrzeug mit professionellem Fahrer",
       "Lizenzierter englischsprachiger Guide (andere Sprachen auf Anfrage)",
       "2 Übernachtungen: Wabe Shebelle Hotel & Harenna Forest Lodge",
       "Vollpension: Frühstück, Mittag- und Abendessen",
-      "Eintrittsgelder für Nationalparks und Scouts",
-      "Eintrittsgelder für alle Stätten und Kirchen im Reiseverlauf"
+      "Eintrittsgelder für Nationalparks und Scouts"
     ],
     "excludes": [
       "Internationale Flüge und äthiopisches Visum",
@@ -2674,7 +2661,7 @@
     "style": "Trekking · Tierwelt",
     "season": "Oktober bis April",
     "from": "Auf Anfrage",
-    "group": "1 bis 8 Personen",
+    "group": "1 bis 12 Personen",
     "teaser": "Ein Tag in Addis Abeba, dann Dinsho, das Sanetti-Plateau und der Harenna-Wald.",
     "summary": "Verbinden Sie einen Stadttag mit drei Tagen im Bale-Gebirge. Halten Sie in Dinsho Ausschau nach Bergnyalas und Menelik-Buschböcken, wandern Sie auf dem Sanetti-Plateau zwischen Riesenlobelien und Äthiopischen Wölfen und erkunden Sie den uralten Nebelwald von Harenna.",
     "includes": [
@@ -2727,7 +2714,7 @@
     "style": "Trekking · Tierwelt",
     "season": "Oktober bis April",
     "from": "Auf Anfrage",
-    "group": "1 bis 8 Personen",
+    "group": "1 bis 12 Personen",
     "teaser": "Plateau und Wald von Bale, dann Wondo Genet, Yirgalem und die Seen des Rift Valley.",
     "summary": "Eine sanfte Rundreise mit Wanderungen durch den Süden. Erkunden Sie das Bale-Gebirge von Goba aus (das Sanetti-Plateau und den Harenna-Wald) und kehren Sie dann durch die bewaldeten Hügel von Wondo Genet, die Kaffeeregion um Yirgalem, den Hawassa-See und den Langano-See zurück.",
     "includes": [
@@ -2796,7 +2783,7 @@
     "style": "Trekking · Kultur",
     "season": "September bis Juni",
     "from": "Auf Anfrage",
-    "group": "1 bis 8 Personen",
+    "group": "1 bis 12 Personen",
     "teaser": "Wandern von Dorf zu Dorf im Hochland von Lasta, mit Übernachtungen in Gemeinschaftsgästehäusern.",
     "summary": "Erleben Sie das Land um Lalibela so, wie es seine Bauern sehen. Wandern Sie zwischen den gemeinschaftlich geführten Gästehäusern von Mekuat Mariam, Wajela und Aterow am Rand des Abune-Yosef-Massivs, mit Ausblicken von den Klippen, ländlichen Kirchen und Abenden am Feuer mit Ihren Gastgebern.",
     "includes": [
@@ -2851,7 +2838,7 @@
     "style": "Trekking · Geschichte",
     "season": "September bis Juni",
     "from": "Auf Anfrage",
-    "group": "1 bis 8 Personen",
+    "group": "1 bis 12 Personen",
     "teaser": "Die Kirchen von Lalibela und dazu ein dreitägiges Gemeinschafts-Trekking durch das Hochland von Lasta.",
     "summary": "Das Beste aus beiden Welten: ein ganzer Tag bei den Felsenkirchen von Lalibela, dann drei Tage Wandern zwischen Hochlanddörfern und Gemeinschaftsgästehäusern (Mekuat Mariam, Meskel und Wajela), bevor Sie einen entspannten Nachmittag in der Stadt verbringen und in Addis Abeba ein Abschiedsessen genießen.",
     "includes": [
@@ -2909,7 +2896,7 @@
     "style": "Vogelbeobachtung · Tierwelt",
     "season": "September bis April",
     "from": "Auf Anfrage",
-    "group": "1 bis 8 Personen",
+    "group": "1 bis 12 Personen",
     "teaser": "Koka, Ziway, Langano, Abijatta-Shalla und Hawassa: mehr als 300 Arten in vier Tagen.",
     "summary": "Eine Einführung in die außergewöhnliche Vogelwelt Äthiopiens. Folgen Sie der Kette der Seen im Rift Valley nach Süden, vom Koka-Stausee und dem Ziway-See bis zum Langano, Abijatta-Shalla und Hawassa, mit Flamingos, Pelikanen, Eisvögeln, Greifvögeln und endemischen Arten Äthiopiens am Wegesrand.",
     "includes": [
@@ -2918,8 +2905,7 @@
       "Spezialisierter Vogelkundeführer während der gesamten Reise",
       "3 Übernachtungen: Eco-Lodges & Resorts am See",
       "Vollpension: Frühstück, Mittag- und Abendessen",
-      "Eintrittsgelder für Nationalparks und Scouts",
-      "Eintrittsgelder für alle Stätten und Kirchen im Reiseverlauf"
+      "Eintrittsgelder für Nationalparks und Scouts"
     ],
     "excludes": [
       "Internationale Flüge und äthiopisches Visum",
@@ -2964,7 +2950,7 @@
     "style": "Vogelbeobachtung · Tierwelt",
     "season": "September bis April",
     "from": "Auf Anfrage",
-    "group": "1 bis 8 Personen",
+    "group": "1 bis 12 Personen",
     "teaser": "Langano-See, Abijatta-Shalla und die Wälder von Wondo Genet, mit einem Stadttag in Addis Abeba.",
     "summary": "Eine entspannte Vogelbeobachtungsreise, die Seen und Wald verbindet. Nach einem Tag in Addis Abeba beobachten Sie Vögel im Akazienwald am Langano-See und an den Sodaseen von Abijatta-Shalla und verbringen dann einen ganzen Tag im bewaldeten Hochland von Wondo Genet, bekannt für Turakos, Hornvögel und Waldspezialitäten.",
     "includes": [
@@ -3022,7 +3008,7 @@
     "style": "Vogelbeobachtung · Tierwelt",
     "season": "September bis April",
     "from": "Auf Anfrage",
-    "group": "1 bis 8 Personen",
+    "group": "1 bis 12 Personen",
     "teaser": "Awash, die Ilala-Sala-Ebenen, Langano, Wondo Genet, Yirgalem, Hawassa und Abijatta-Shalla.",
     "summary": "Eine ganze Woche durch die wichtigsten Vogellebensräume Äthiopiens: die trockene Savanne des Awash-Nationalparks und der Ilala-Sala-Ebenen, der Akazienwald am Langano, die Bergwälder von Wondo Genet und Yirgalem und die Seen von Hawassa und Abijatta-Shalla.",
     "includes": [
@@ -3031,8 +3017,7 @@
       "Spezialisierter Vogelkundeführer während der gesamten Reise",
       "6 Übernachtungen: Stadthotel, Lodge am See, Waldresort",
       "Vollpension: Frühstück, Mittag- und Abendessen",
-      "Eintrittsgelder für Nationalparks und Scouts",
-      "Eintrittsgelder für alle Stätten und Kirchen im Reiseverlauf"
+      "Eintrittsgelder für Nationalparks und Scouts"
     ],
     "excludes": [
       "Internationale Flüge und äthiopisches Visum",
@@ -3238,7 +3223,6 @@
       "Privates klimatisiertes Fahrzeug mit professionellem Fahrer",
       "Lizenzierter englischsprachiger Guide (andere Sprachen auf Anfrage)",
       "Mittagessen inklusive",
-      "Eintrittsgelder für Nationalparks und Scouts",
       "Eintrittsgelder für alle Stätten und Kirchen im Reiseverlauf"
     ],
     "excludes": [
@@ -3261,7 +3245,7 @@
     "style": "Tierwelt · Trekking",
     "season": "Oktober bis April",
     "from": "Auf Anfrage",
-    "group": "1 bis 8 Personen",
+    "group": "1 bis 12 Personen",
     "teaser": "Wandern Sie entlang der Simien-Steilwand zwischen Dschelada-Gruppen und folgen Sie dann dem Äthiopischen Wolf über das Sanetti-Plateau.",
     "summary": "Die zwei großen Bergökosysteme Äthiopiens auf einer Reise, durchgehend begleitet von einem Spezialisten für endemische Tiere. Auf drei Tage mit Wanderungen am Rand des Simien-Gebirges folgen die Seen des Rift Valley und drei Tage im Bale-Gebirge: das Sanetti-Plateau im ersten Morgenlicht, Bergnyalas in Dinsho und der Nebelwald von Harenna.",
     "includes": [
@@ -3425,6 +3409,7 @@
     "excludes": [
       "Internationale Flüge und äthiopisches Visum",
       "Reiseversicherung (dringend empfohlen)",
+      "Fotogebühren in den Dörfern des Omo-Tals (vor Ort zu zahlen)",
       "Getränke, Trinkgelder und persönliche Ausgaben"
     ],
     "itinerary": [
@@ -3533,6 +3518,7 @@
     "excludes": [
       "Internationale Flüge und äthiopisches Visum",
       "Reiseversicherung (dringend empfohlen)",
+      "Fotogebühren in den Dörfern des Omo-Tals (vor Ort zu zahlen)",
       "Getränke, Trinkgelder und persönliche Ausgaben"
     ],
     "itinerary": [
@@ -3642,6 +3628,7 @@
     "excludes": [
       "Internationale Flüge und äthiopisches Visum",
       "Reiseversicherung (dringend empfohlen)",
+      "Fotogebühren in den Dörfern des Omo-Tals (vor Ort zu zahlen)",
       "Getränke, Trinkgelder und persönliche Ausgaben"
     ],
     "itinerary": [
@@ -3769,6 +3756,7 @@
     "excludes": [
       "Internationale Flüge und äthiopisches Visum",
       "Reiseversicherung (dringend empfohlen)",
+      "Fotogebühren in den Dörfern des Omo-Tals (vor Ort zu zahlen)",
       "Getränke, Trinkgelder und persönliche Ausgaben"
     ],
     "itinerary": [
@@ -3908,7 +3896,8 @@
     "teaser": "Die Altstadt Harar Jugol mit ihren Museen, Märkten und ihrem Kaffee und die berühmte abendliche Hyänenfütterung.",
     "summary": "Entdecken Sie Geschichte, Kulturerbe und Traditionen von Harar, einer der bemerkenswertesten historischen Städte Äthiopiens und UNESCO-Welterbe. Durchschreiten Sie die Tore und engen Gassen von Harar Jugol, besuchen Sie traditionelle Harari-Häuser, das Arthur-Rimbaud-Haus und das Sherif-Harari-Stadtmuseum, stöbern Sie auf den Märkten nach Gewürzen, Körben und Harar-Kaffee, genießen Sie eine Kaffeezeremonie und erleben Sie die berühmte Hyänenfütterung, stets begleitet von einem kundigen örtlichen Guide.",
     "includes": [
-      "Empfang und Betreuung am Flughafen Dire Dawa sowie alle Transfers",
+      "Empfang und Betreuung am Bole International Airport sowie alle Transfers",
+      "Inlandsflüge laut Reiseverlauf",
       "Privates klimatisiertes Fahrzeug mit professionellem Fahrer",
       "Lizenzierter englischsprachiger Guide (andere Sprachen auf Anfrage)",
       "2 Übernachtungen: Hotel in Harar",
@@ -3925,8 +3914,8 @@
     "itinerary": [
       {
         "day": "Tag 1",
-        "title": "Dire Dawa – Harar – Die historische Altstadt",
-        "text": "Nach Ihrer Ankunft am Flughafen Dire Dawa treffen Sie Ihren Fahrer und Guide und fahren ins rund 55 km entfernte Harar. Nach dem Check-in im Hotel beginnen Sie mit der Erkundung von Harar Jugol, der historischen ummauerten Altstadt und UNESCO-Welterbestätte. Gehen Sie durch die traditionellen Tore und engen Gassen und entdecken Sie die unverwechselbare Architektur, historische Gebäude, Moscheen und Schreine, die Jahrhunderte kultureller und religiöser Geschichte widerspiegeln. Besuchen Sie ein traditionelles Harari-Haus und erfahren Sie mehr über das Familienleben, die Inneneinrichtung und die bunten geflochtenen Körbe an den Wänden, bevor Sie auf den örtlichen Märkten Gewürze, Kaffee, Stoffe und Kunsthandwerk entdecken. Am Abend erleben Sie mit einem einheimischen Hyänenmann die berühmte Hyänenfütterung von Harar, eine der bekanntesten kulturellen Attraktionen der Stadt. Übernachtung: Harar."
+        "title": "Flug Addis Abeba – Dire Dawa – Harar – Die historische Altstadt",
+        "text": "Am Morgen fliegen Sie von Addis Abeba nach Dire Dawa. Nach Ihrer Ankunft am Flughafen Dire Dawa treffen Sie Ihren Fahrer und Guide und fahren ins rund 55 km entfernte Harar. Nach dem Check-in im Hotel beginnen Sie mit der Erkundung von Harar Jugol, der historischen ummauerten Altstadt und UNESCO-Welterbestätte. Gehen Sie durch die traditionellen Tore und engen Gassen und entdecken Sie die unverwechselbare Architektur, historische Gebäude, Moscheen und Schreine, die Jahrhunderte kultureller und religiöser Geschichte widerspiegeln. Besuchen Sie ein traditionelles Harari-Haus und erfahren Sie mehr über das Familienleben, die Inneneinrichtung und die bunten geflochtenen Körbe an den Wänden, bevor Sie auf den örtlichen Märkten Gewürze, Kaffee, Stoffe und Kunsthandwerk entdecken. Am Abend erleben Sie mit einem einheimischen Hyänenmann die berühmte Hyänenfütterung von Harar, eine der bekanntesten kulturellen Attraktionen der Stadt. Übernachtung: Harar."
       },
       {
         "day": "Tag 2",
@@ -3935,14 +3924,11 @@
       },
       {
         "day": "Tag 3",
-        "title": "Harar – Lokale Märkte – Dire Dawa – Abreise",
-        "text": "Nach dem Frühstück genießen Sie einen letzten entspannten Vormittag in Harar. Besuchen Sie einen örtlichen Markt, beobachten Sie das tägliche Treiben von Händlern und Bewohnern und nehmen Sie sich Zeit für den Kauf von Kunsthandwerk, geflochtenen Körben, Stoffen, Gewürzen und lokalem Kaffee, bevor Sie ein letztes Mal durch die historischen Straßen von Harar Jugol spazieren. Nach dem Mittagessen fahren Sie zum rund 55 km entfernten Flughafen Dire Dawa für Ihren Weiterflug nach Addis Abeba oder zu Ihrem nächsten Ziel."
+        "title": "Harar – Lokale Märkte – Dire Dawa – Flug nach Addis Abeba",
+        "text": "Nach dem Frühstück genießen Sie einen letzten entspannten Vormittag in Harar. Besuchen Sie einen örtlichen Markt, beobachten Sie das tägliche Treiben von Händlern und Bewohnern und nehmen Sie sich Zeit für den Kauf von Kunsthandwerk, geflochtenen Körben, Stoffen, Gewürzen und lokalem Kaffee, bevor Sie ein letztes Mal durch die historischen Straßen von Harar Jugol spazieren. Nach dem Mittagessen fahren Sie zum rund 55 km entfernten Flughafen Dire Dawa für Ihren Rückflug nach Addis Abeba."
       }
     ],
-    "places": [
-      "Dire Dawa",
-      "Harar"
-    ]
+    "places": ["Dire Dawa", "Harar"]
   },
   "3-day-axum-historical-and-archaeological": {
     "title": "3-tägige Geschichts- und Archäologiereise nach Axum",
@@ -3954,7 +3940,8 @@
     "teaser": "Die Stelen, Königsgräber und der Ezana-Stein von Axum, die Kirche der Heiligen Maria von Zion und der vor-aksumitische Tempel von Yeha.",
     "summary": "Entdecken Sie die antike Zivilisation und das religiöse Erbe Nordäthiopiens in Axum, der einstigen Hauptstadt des mächtigen Aksumitischen Reiches, das mit dem Mittelmeerraum und der Arabischen Halbinsel Handel trieb. Erkunden Sie die Granitstelen, Königsgräber, das Archäologische Museum, die Ruinen des Dungur-Palastes und die Kirche der Heiligen Maria von Zion und fahren Sie nach Yeha, einem vor-aksumitischen Tempel aus dem ersten Jahrtausend v. Chr. und einem der ältesten Monumentalbauten Äthiopiens, begleitet von kundigen örtlichen Guides.",
     "includes": [
-      "Empfang und Betreuung am Flughafen Axum sowie alle Transfers",
+      "Empfang und Betreuung am Bole International Airport sowie alle Transfers",
+      "Inlandsflüge laut Reiseverlauf",
       "Privates klimatisiertes Fahrzeug mit professionellem Fahrer",
       "Lizenzierter englischsprachiger Guide (andere Sprachen auf Anfrage)",
       "2 Übernachtungen: Hotel in Axum",
@@ -3969,8 +3956,8 @@
     "itinerary": [
       {
         "day": "Tag 1",
-        "title": "Ankunft in Axum – Stelen, Museum und Dungur-Palast",
-        "text": "Nach Ihrer Ankunft am Flughafen Axum treffen Sie Ihren Guide und Fahrer und fahren zum Hotel. Beginnen Sie im Nördlichen Stelenfeld, wo gewaltige behauene Granitmonumente an die Errungenschaften der aksumitischen Zivilisation erinnern, darunter der berühmte Obelisk, den Italien an Äthiopien zurückgegeben hat. Weiter geht es zum Archäologischen Museum von Axum, dessen Münzen, Inschriften, Keramik und andere Fundstücke die wirtschaftliche, kulturelle und politische Bedeutung des Reiches zeigen, und zum Ezana-Stein, einer dreisprachigen Inschrift auf Ge’ez, Griechisch und Sabäisch, die von der Herrschaft König Ezanas und der Ausbreitung des Christentums im Reich zeugt. Später erkunden Sie die Ruinen des Dungur-Palastes, der traditionell mit der Königin von Saba in Verbindung gebracht wird, und das nahe Bad der Königin von Saba, ein großes antikes Wasserreservoir. Je nach Zeit und Öffnungszeiten besuchen Sie anschließend die Königsgräber und weitere archäologische Stätten rund um Axum. Übernachtung: Axum."
+        "title": "Flug Addis Abeba – Axum – Stelen, Museum und Dungur-Palast",
+        "text": "Am Morgen fliegen Sie von Addis Abeba nach Axum. Nach Ihrer Ankunft am Flughafen Axum treffen Sie Ihren Guide und Fahrer und fahren zum Hotel. Beginnen Sie im Nördlichen Stelenfeld, wo gewaltige behauene Granitmonumente an die Errungenschaften der aksumitischen Zivilisation erinnern, darunter der berühmte Obelisk, den Italien an Äthiopien zurückgegeben hat. Weiter geht es zum Archäologischen Museum von Axum, dessen Münzen, Inschriften, Keramik und andere Fundstücke die wirtschaftliche, kulturelle und politische Bedeutung des Reiches zeigen, und zum Ezana-Stein, einer dreisprachigen Inschrift auf Ge’ez, Griechisch und Sabäisch, die von der Herrschaft König Ezanas und der Ausbreitung des Christentums im Reich zeugt. Später erkunden Sie die Ruinen des Dungur-Palastes, der traditionell mit der Königin von Saba in Verbindung gebracht wird, und das nahe Bad der Königin von Saba, ein großes antikes Wasserreservoir. Je nach Zeit und Öffnungszeiten besuchen Sie anschließend die Königsgräber und weitere archäologische Stätten rund um Axum. Übernachtung: Axum."
       },
       {
         "day": "Tag 2",
@@ -3979,14 +3966,11 @@
       },
       {
         "day": "Tag 3",
-        "title": "Heilige Maria von Zion – Königsgräber – Abreise",
-        "text": "Nach dem Frühstück besuchen Sie die Kirche der Heiligen Maria von Zion, eine der wichtigsten orthodoxen Pilgerstätten Äthiopiens, und erfahren mehr über die Traditionen rund um die Bundeslade, die nach äthiopisch-orthodoxer Überlieferung in einer bewachten Kapelle auf dem Kirchengelände aufbewahrt wird; der Zugang zu einzelnen Gebäuden unterliegt den Regeln der Kirche. Weiter geht es zu den Gräbern der Könige Kaleb und Gebre Meskel, wo Sie die Rolle dieser Herrscher in der politischen und religiösen Geschichte des Reiches kennenlernen. Wenn es die Zeit erlaubt, stöbern Sie auf den örtlichen Märkten nach tigrinischem Kunsthandwerk, Kreuzen und Webstoffen, bevor Sie zum Flughafen Axum für Ihren Weiterflug gebracht werden."
+        "title": "Heilige Maria von Zion – Königsgräber – Flug nach Addis Abeba",
+        "text": "Nach dem Frühstück besuchen Sie die Kirche der Heiligen Maria von Zion, eine der wichtigsten orthodoxen Pilgerstätten Äthiopiens, und erfahren mehr über die Traditionen rund um die Bundeslade, die nach äthiopisch-orthodoxer Überlieferung in einer bewachten Kapelle auf dem Kirchengelände aufbewahrt wird; der Zugang zu einzelnen Gebäuden unterliegt den Regeln der Kirche. Weiter geht es zu den Gräbern der Könige Kaleb und Gebre Meskel, wo Sie die Rolle dieser Herrscher in der politischen und religiösen Geschichte des Reiches kennenlernen. Wenn es die Zeit erlaubt, stöbern Sie auf den örtlichen Märkten nach tigrinischem Kunsthandwerk, Kreuzen und Webstoffen, bevor Sie zum Flughafen Axum für Ihren Rückflug nach Addis Abeba gebracht werden."
       }
     ],
-    "places": [
-      "Axum",
-      "Yeha"
-    ]
+    "places": ["Axum", "Yeha"]
   },
   "3-day-arba-minch-nature-and-cultural": {
     "title": "3-tägige Natur- und Kulturreise nach Arba Minch",
@@ -3998,13 +3982,14 @@
     "teaser": "Krokodile und Flusspferde im Chamo-See, die Vierzig Quellen und die Bienenkorbhäuser und Weber der Dorze.",
     "summary": "Entdecken Sie Natur, Tierwelt und Kultur Südäthiopiens rund um Arba Minch zwischen dem Abaya- und dem Chamo-See im Großen Afrikanischen Grabenbruch. Unternehmen Sie im Nech-Sar-Nationalpark eine Bootsfahrt auf dem Chamo-See zu riesigen Nilkrokodilen, Flusspferden und Wasservögeln, spazieren Sie durch die üppig grünen Vierzig Quellen, die der Stadt ihren Namen geben, und besuchen Sie die Dorze in den Guge-Bergen, bekannt für ihre bienenkorbförmigen Bambushäuser und ihre feine Baumwollweberei.",
     "includes": [
-      "Empfang und Betreuung am Flughafen Arba Minch sowie alle Transfers",
+      "Empfang und Betreuung am Bole International Airport sowie alle Transfers",
+      "Inlandsflüge laut Reiseverlauf",
       "Privates klimatisiertes Fahrzeug mit professionellem Fahrer",
       "Lizenzierter englischsprachiger Guide (andere Sprachen auf Anfrage)",
       "2 Übernachtungen: Hotel in Arba Minch",
       "Vollpension: Frühstück, Mittag- und Abendessen",
       "Bootsausflug auf dem Chamo-See",
-      "Eintrittsgelder für alle Stätten und Kirchen im Reiseverlauf"
+      "Eintrittsgelder für alle Stätten im Reiseverlauf"
     ],
     "excludes": [
       "Internationale Flüge und äthiopisches Visum",
@@ -4014,8 +3999,8 @@
     "itinerary": [
       {
         "day": "Tag 1",
-        "title": "Ankunft in Arba Minch – Dorze-Dorf",
-        "text": "Nach Ihrer Ankunft in Arba Minch treffen Sie Ihren Fahrer und Guide und fahren zum Hotel. Anschließend geht es hinauf in die Guge-Berge zu einem Dorze-Dorf, dessen Gemeinschaft für ihre eindrucksvollen bienenkorbförmigen Häuser aus Bambus und anderen örtlichen Materialien bekannt ist. Erfahren Sie mehr über den traditionellen Hausbau, die Baumwollweberei und die Landwirtschaft und darüber, wie Kocho, ein Grundnahrungsmittel, aus Enset, der Falschen Banane, zubereitet wird; je nach örtlichen Absprachen können Sie bei der traditionellen Zubereitung zusehen. Genießen Sie den Blick über Berge, Wälder und Grabenbruch, bevor Sie nach Arba Minch zurückkehren. Am Nachmittag besuchen Sie Aussichtspunkte über den Abaya- und den Chamo-See und, wenn es die Zeit erlaubt, den örtlichen Markt. Übernachtung: Arba Minch."
+        "title": "Flug Addis Abeba – Arba Minch – Dorze-Dorf",
+        "text": "Am Morgen fliegen Sie von Addis Abeba nach Arba Minch. Nach Ihrer Ankunft in Arba Minch treffen Sie Ihren Fahrer und Guide und fahren zum Hotel. Anschließend geht es hinauf in die Guge-Berge zu einem Dorze-Dorf, dessen Gemeinschaft für ihre eindrucksvollen bienenkorbförmigen Häuser aus Bambus und anderen örtlichen Materialien bekannt ist. Erfahren Sie mehr über den traditionellen Hausbau, die Baumwollweberei und die Landwirtschaft und darüber, wie Kocho, ein Grundnahrungsmittel, aus Enset, der Falschen Banane, zubereitet wird; je nach örtlichen Absprachen können Sie bei der traditionellen Zubereitung zusehen. Genießen Sie den Blick über Berge, Wälder und Grabenbruch, bevor Sie nach Arba Minch zurückkehren. Am Nachmittag besuchen Sie Aussichtspunkte über den Abaya- und den Chamo-See und, wenn es die Zeit erlaubt, den örtlichen Markt. Übernachtung: Arba Minch."
       },
       {
         "day": "Tag 2",
@@ -4024,15 +4009,11 @@
       },
       {
         "day": "Tag 3",
-        "title": "Arba Minch – Lokaler Markt – Abreise",
-        "text": "Nach dem Frühstück genießen Sie einen entspannten letzten Vormittag. Je nach Abreisezeit besuchen Sie einen örtlichen Markt mit regionalen Erzeugnissen, Gewürzen, traditionellen Stoffen und Kunsthandwerk, während Ihr Guide die kulturelle Vielfalt der Region erklärt, oder Sie kehren für einen letzten Blick über den Abaya- und den Chamo-See zu einem Aussichtspunkt zurück. Transfer zum Flughafen Arba Minch für Ihren Weiterflug oder Weiterfahrt auf dem Landweg zu Ihrem nächsten Ziel."
+        "title": "Arba Minch – Lokaler Markt – Flug nach Addis Abeba",
+        "text": "Nach dem Frühstück genießen Sie einen entspannten letzten Vormittag. Je nach Abreisezeit besuchen Sie einen örtlichen Markt mit regionalen Erzeugnissen, Gewürzen, traditionellen Stoffen und Kunsthandwerk, während Ihr Guide die kulturelle Vielfalt der Region erklärt, oder Sie kehren für einen letzten Blick über den Abaya- und den Chamo-See zu einem Aussichtspunkt zurück. Transfer zum Flughafen Arba Minch für Ihren Rückflug nach Addis Abeba."
       }
     ],
-    "places": [
-      "Arba Minch",
-      "Dorze & Chencha",
-      "Chamo-See"
-    ]
+    "places": ["Arba Minch", "Dorze & Chencha", "Chamo-See"]
   },
   "3-day-omo-valley-cultural": {
     "title": "3-tägige Kulturreise ins Omo-Tal",
@@ -4042,25 +4023,27 @@
     "from": "Auf Anfrage",
     "group": "Privat oder als Gruppe",
     "teaser": "Von Jinka nach Turmi: die Bena, Karo, Dassanech, Hamer und Mursi im unteren Omo-Tal.",
-    "summary": "Entdecken Sie die kulturelle Vielfalt des unteren Omo-Tals auf einer kurzen Reise ab und bis Jinka. Fahren Sie durch herrliche Landschaften und traditionelle Dörfer und begegnen Sie den Gemeinschaften der Bena, Karo, Dassanech, Hamer und Mursi mit ihren jeweils eigenen Traditionen und Lebensweisen, besuchen Sie einen lokalen Markt, wenn es Ihre Reisedaten erlauben, und verbringen Sie zwei Nächte in Turmi, dem Herzen des Hamer-Landes, begleitet von erfahrenen örtlichen Guides.",
+    "summary": "Entdecken Sie die kulturelle Vielfalt des unteren Omo-Tals auf einer kurzen Reise ab Addis Abeba mit Flügen nach und von Jinka. Fahren Sie durch herrliche Landschaften und traditionelle Dörfer und begegnen Sie den Gemeinschaften der Bena, Karo, Dassanech, Hamer und Mursi mit ihren jeweils eigenen Traditionen und Lebensweisen, besuchen Sie einen lokalen Markt, wenn es Ihre Reisedaten erlauben, und verbringen Sie zwei Nächte in Turmi, dem Herzen des Hamer-Landes, begleitet von erfahrenen örtlichen Guides.",
     "includes": [
-      "Empfang und Betreuung am Flughafen Jinka sowie alle Transfers",
+      "Empfang und Betreuung am Bole International Airport sowie alle Transfers",
+      "Inlandsflüge laut Reiseverlauf",
       "Privater Geländewagen mit erfahrenem Fahrer",
       "Lizenzierter englischsprachiger Guide (andere Sprachen auf Anfrage)",
       "2 Übernachtungen: Hotel oder Lodge in Turmi",
       "Vollpension: Frühstück, Mittag- und Abendessen",
-      "Eintrittsgelder für alle Stätten und Kirchen im Reiseverlauf"
+      "Eintrittsgelder für alle Stätten im Reiseverlauf"
     ],
     "excludes": [
       "Internationale Flüge und äthiopisches Visum",
       "Reiseversicherung (dringend empfohlen)",
+      "Fotogebühren in den Dörfern des Omo-Tals (vor Ort zu zahlen)",
       "Getränke, Trinkgelder und persönliche Ausgaben"
     ],
     "itinerary": [
       {
         "day": "Tag 1",
-        "title": "Jinka – Bena-Dorf – Turmi",
-        "text": "Nach Ihrer Ankunft am Flughafen Jinka treffen Sie Ihren Guide und Fahrer und fahren durch die Landschaften des unteren Omo-Tals nach Süden in Richtung Turmi. Unterwegs besuchen Sie ein Bena-Dorf und erfahren mehr über Lebensweise, Kleidung, Behausungen und Viehwirtschaft der Gemeinschaft und darüber, wie die Bena ihre Traditionen bewahren und sich zugleich an ihre Umgebung anpassen. Weiterfahrt nach Turmi, dem Hauptort der Hamer, wo Sie den Rest des Nachmittags je nach Ankunftszeit entspannen oder die Umgebung erkunden. Übernachtung: Turmi."
+        "title": "Flug Addis Abeba – Jinka – Bena-Dorf – Turmi",
+        "text": "Am Morgen fliegen Sie von Addis Abeba nach Jinka. Nach Ihrer Ankunft am Flughafen Jinka treffen Sie Ihren Guide und Fahrer und fahren durch die Landschaften des unteren Omo-Tals nach Süden in Richtung Turmi. Unterwegs besuchen Sie ein Bena-Dorf und erfahren mehr über Lebensweise, Kleidung, Behausungen und Viehwirtschaft der Gemeinschaft und darüber, wie die Bena ihre Traditionen bewahren und sich zugleich an ihre Umgebung anpassen. Weiterfahrt nach Turmi, dem Hauptort der Hamer, wo Sie den Rest des Nachmittags je nach Ankunftszeit entspannen oder die Umgebung erkunden. Übernachtung: Turmi."
       },
       {
         "day": "Tag 2",
@@ -4069,7 +4052,7 @@
       },
       {
         "day": "Tag 3",
-        "title": "Turmi – Lokaler Markt – Mursi-Dorf – Abreise ab Jinka",
+        "title": "Turmi – Lokaler Markt – Mursi-Dorf – Jinka – Flug nach Addis Abeba",
         "text": "Nach dem Frühstück fahren Sie nach Norden in Richtung Jinka. Je nach Wochentag halten Sie an einem lokalen Markt, auf dem verschiedene Gemeinschaften Feldfrüchte, Vieh, Kleidung, Schmuck und Kunsthandwerk handeln. Anschließend besuchen Sie die Mursi in der Gegend von Key Afar oder Jinka, bekannt für die Lippenteller mancher Frauen und ihren kunstvollen Körperschmuck, und erfahren mit einem örtlichen Guide mehr über ihre sozialen Traditionen, ihre Viehhaltung und ihren Alltag. Nach dem Mittagessen in Jinka Transfer zum Flughafen Jinka für Ihren Flug nach Addis Abeba."
       }
     ],

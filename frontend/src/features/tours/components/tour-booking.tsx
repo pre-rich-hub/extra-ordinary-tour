@@ -37,16 +37,8 @@ export function TourBooking({ tour: t }: { tour: Tour }) {
               },
               { k: 'Group size', v: t.group },
               { k: 'Best season', v: t.season },
-              {
-                k: 'Start & finish',
-                v:
-                  t.places[0] === t.places[t.places.length - 1]
-                    ? t.places[0]
-                    : copy('{v0} to {v1}', {
-                        v0: t.places[0],
-                        v1: t.places[t.places.length - 1],
-                      }),
-              },
+              // Every journey starts and finishes in Addis Ababa.
+              { k: 'Start & finish', v: copy('Addis Ababa') },
             ]}
             primary={{ label: copy('Book this tour'), href: '#enquire' }}
           />

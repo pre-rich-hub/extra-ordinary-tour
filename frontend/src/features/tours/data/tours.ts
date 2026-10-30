@@ -376,7 +376,7 @@ export const tours: Tour[] = [
     season: 'September to July',
     from: '$1,400 per person',
     priceAmount: 1400,
-    group: '1 to 8 guests',
+    group: '1 to 12 guests',
     teaser:
       'Cliff-face churches, ancient frescoes and the dramatic sandstone towers of Gheralta.',
     summary:
@@ -387,7 +387,6 @@ export const tours: Tour[] = [
       'Licensed English-speaking guide (other languages on request)',
       '4 nights of accommodation: Lobelia Hotel & Tukul Village',
       'Full board: breakfast, lunch and dinner',
-      'National park entrance fees and scouts',
       'Entrance fees to all sites and churches in the itinerary',
     ],
     excludes: [
@@ -1461,7 +1460,6 @@ export const tours: Tour[] = [
       'An in-depth exploration of the lower Omo for travellers who want more than a fleeting visit. Travel overland via Butajira and Arba Minch, spend time with the Mursi in Mago National Park, the Karo at Omorate and the Hamar around Turmi, including their ceremonies when timing allows, and return via the Dorze highlands and Hawassa.',
     includes: [
       'Meet-and-assist at Bole International Airport and all transfers',
-      'Domestic flights as shown in the itinerary',
       'Private air-conditioned vehicle with a professional driver',
       'Licensed English-speaking guide (other languages on request)',
       '10 nights of accommodation: 4-Star Hotels and Eco-Lodges',
@@ -1557,7 +1555,7 @@ export const tours: Tour[] = [
     style: 'Cultural',
     season: 'Year-round except April and May',
     from: 'On request',
-    group: '1 to 8 guests',
+    group: '1 to 12 guests',
     teaser:
       'The Suri of Kibish, the Nyangatom, Hamar, Arbore and Bodi, with long, unhurried photography sessions.',
     summary:
@@ -1569,7 +1567,7 @@ export const tours: Tour[] = [
       'Licensed English-speaking guide (other languages on request)',
       '12 nights of accommodation: 4-Star Hotels and Eco-Lodges',
       'Full board: breakfast, lunch and dinner',
-      'Entrance fees to all sites and churches in the itinerary',
+      'Entrance fees to all sites in the itinerary',
     ],
     excludes: [
       'International flights and Ethiopian visa',
@@ -2054,7 +2052,7 @@ export const tours: Tour[] = [
       '3 nights of accommodation: Aregash Lodge & Awassa Resort',
       'Full board: breakfast, lunch and dinner',
       'Farm and washing-station visits with coffee tastings',
-      'Entrance fees to all sites and churches in the itinerary',
+      'Entrance fees to all sites in the itinerary',
     ],
     excludes: [
       'International flights and Ethiopian visa',
@@ -2245,7 +2243,7 @@ export const tours: Tour[] = [
     teaser:
       'From Semera Airport to the crater of Erta Ale, Lake Afdera, the sulphur springs of Dallol and the salt caravans, and back.',
     summary:
-      'A Danakil expedition that starts and ends at Semera, the capital of the Afar Region, an hour’s flight from Addis Ababa. Hike to the summit of the Erta Ale shield volcano, swim in the warm salt water of Lake Afdera, camp beneath the desert stars, explore the extraordinary colours of Dallol and meet the salt miners and camel caravans of Lake Assale.',
+      'A Danakil expedition that starts and ends in Addis Ababa, flying to and from Semera, the capital of the Afar Region. Hike to the summit of the Erta Ale shield volcano, swim in the warm salt water of Lake Afdera, camp beneath the desert stars, explore the extraordinary colours of Dallol and meet the salt miners and camel caravans of Lake Assale.',
     includes: [
       'Meet-and-assist at Bole International Airport and all transfers',
       '4x4 vehicles with experienced desert drivers',
@@ -2255,7 +2253,6 @@ export const tours: Tour[] = [
       'Afar regional permits, local Afar guide and police escort',
       'Camping equipment with mattresses, pillows and clean bedding',
       'Drinking water: around six litres per person per day',
-      'Entrance fees to all sites and churches in the itinerary',
     ],
     excludes: [
       'International flights and Ethiopian visa',
@@ -2292,7 +2289,7 @@ export const tours: Tour[] = [
   {
     // Tour code EDT-09-DDT
     slug: '3-day-danakil-depression-from-mekelle',
-    title: '3-Day Danakil Depression from Mekelle',
+    title: '3-Day Danakil Depression via Mekelle',
     image: 'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/v1793006889/danakil-lake-assale-sunrise-guest.jpg',
     days: '3 Days',
     nights: 2,
@@ -2303,9 +2300,10 @@ export const tours: Tour[] = [
     teaser:
       'Erta Ale by night, Hamed Ela, the Ragad salt mines and the mineral terraces of Dallol.',
     summary:
-      'The classic Danakil expedition from Mekelle. Cross lava fields to Dodom and make the evening trek to Erta Ale’s active lava lake with camels carrying the camp, watch the sun set over Lake Assale, then witness the centuries-old salt trade at Ragad before exploring the acid pools and salt canyons of Dallol.',
+      'The classic Danakil expedition from Addis Ababa via Mekelle. Cross lava fields to Dodom and make the evening trek to Erta Ale’s active lava lake with camels carrying the camp, watch the sun set over Lake Assale, then witness the centuries-old salt trade at Ragad before exploring the acid pools and salt canyons of Dallol.',
     includes: [
-      'Pick-up and drop-off in Mekelle',
+      'Meet-and-assist at Bole International Airport and all transfers',
+      'Domestic flights as shown in the itinerary',
       '4x4 vehicles with experienced desert drivers',
       'Licensed English-speaking guide (other languages on request)',
       '2 nights of accommodation: Camping',
@@ -2313,7 +2311,6 @@ export const tours: Tour[] = [
       'Afar regional permits, local Afar guide and police escort',
       'Camping equipment with mattresses, pillows and clean bedding',
       'Drinking water: around six litres per person per day',
-      'Entrance fees to all sites and churches in the itinerary',
     ],
     excludes: [
       'International flights and Ethiopian visa',
@@ -2323,8 +2320,8 @@ export const tours: Tour[] = [
     itinerary: [
       {
         day: 'Day 1',
-        title: 'Mekelle – Dodom – Erta Ale Volcano',
-        text: 'Your adventure begins with an early morning departure from Mekelle, heading toward Dodom, the base camp for the legendary Erta Ale Volcano. Travel through one of Ethiopia’s most remote and dramatic landscapes, crossing vast desert plains, ancient lava fields, sandy terrain, and scattered oases. The challenging 70 km journey takes approximately five hours due to the rugged road conditions and offers unforgettable views of the Afar Region’s unique environment. Upon arrival in Dodom, located about 9.5 km from Erta Ale, enjoy an early dinner and prepare for the overnight trek. Around 8:00 PM, begin the hike to the volcano’s summit, accompanied by camels carrying camping equipment, mattresses, water, and supplies. After reaching the crater rim, witness the incredible sight of Erta Ale’s active lava lake, one of the world’s most remarkable volcanic phenomena. Spend the night camping near the crater, surrounded by the dramatic glow of the volcano and the endless desert sky. Overnight: Camping at Erta Ale Volcano.',
+        title: 'Addis Ababa – Fly to Mekelle – Dodom – Erta Ale Volcano',
+        text: 'Your adventure begins with an early morning flight from Addis Ababa to Mekelle, where you meet your driver and guide and head toward Dodom, the base camp for the legendary Erta Ale Volcano. Travel through one of Ethiopia’s most remote and dramatic landscapes, crossing vast desert plains, ancient lava fields, sandy terrain, and scattered oases. The challenging 70 km journey takes approximately five hours due to the rugged road conditions and offers unforgettable views of the Afar Region’s unique environment. Upon arrival in Dodom, located about 9.5 km from Erta Ale, enjoy an early dinner and prepare for the overnight trek. Around 8:00 PM, begin the hike to the volcano’s summit, accompanied by camels carrying camping equipment, mattresses, water, and supplies. After reaching the crater rim, witness the incredible sight of Erta Ale’s active lava lake, one of the world’s most remarkable volcanic phenomena. Spend the night camping near the crater, surrounded by the dramatic glow of the volcano and the endless desert sky. Overnight: Camping at Erta Ale Volcano.',
       },
       {
         day: 'Day 2',
@@ -2333,8 +2330,8 @@ export const tours: Tour[] = [
       },
       {
         day: 'Day 3',
-        title: 'Hamed Ela – Ragad Salt Mines – Dallol – Mekelle',
-        text: 'Start the day with a drive to Ragad (Asebo), an important center for traditional Afar salt mining. Here, witness the centuries-old salt extraction process as local miners cut salt blocks from the ground, shape them into pieces, and load them onto camel caravans traveling toward the Ethiopian highlands. Continue to the extraordinary Dallol geothermal field, one of the most unique landscapes on Earth. Explore its colorful mineral formations, sulfur springs, salt canyons, and surreal acid pools created by intense geothermal activity. Visit the remarkable surroundings of Lake Assale, taking in the vast salt plains and dramatic desert scenery before returning to Hamed Ela for lunch. After lunch, begin the drive back to Mekelle, concluding your unforgettable journey through the Danakil Depression, a land of volcanoes, salt lakes, and otherworldly landscapes.',
+        title: 'Hamed Ela – Ragad Salt Mines – Dallol – Mekelle – Fly to Addis Ababa',
+        text: 'Start the day with a drive to Ragad (Asebo), an important center for traditional Afar salt mining. Here, witness the centuries-old salt extraction process as local miners cut salt blocks from the ground, shape them into pieces, and load them onto camel caravans traveling toward the Ethiopian highlands. Continue to the extraordinary Dallol geothermal field, one of the most unique landscapes on Earth. Explore its colorful mineral formations, sulfur springs, salt canyons, and surreal acid pools created by intense geothermal activity. Visit the remarkable surroundings of Lake Assale, taking in the vast salt plains and dramatic desert scenery before returning to Hamed Ela for lunch. After lunch, begin the drive back to Mekelle for your evening flight to Addis Ababa, concluding your unforgettable journey through the Danakil Depression, a land of volcanoes, salt lakes, and otherworldly landscapes.',
       },
     ],
     places: [
@@ -2372,7 +2369,6 @@ export const tours: Tour[] = [
       'Full board: breakfast, lunch and dinner',
       'National park fees, armed scout and local guides',
       'Camping equipment, cook and pack mules or porters',
-      'Entrance fees to all sites and churches in the itinerary',
     ],
     excludes: [
       'International flights and Ethiopian visa',
@@ -2595,7 +2591,6 @@ export const tours: Tour[] = [
       '2 nights of accommodation: Doho Lodge & Hot Springs',
       'Full board: breakfast, lunch and dinner',
       'National park entrance fees and scouts',
-      'Entrance fees to all sites and churches in the itinerary',
     ],
     excludes: [
       'International flights and Ethiopian visa',
@@ -2649,7 +2644,6 @@ export const tours: Tour[] = [
       '2 nights of accommodation: Wabe Shebelle Hotel & Harenna Forest Lodge',
       'Full board: breakfast, lunch and dinner',
       'National park entrance fees and scouts',
-      'Entrance fees to all sites and churches in the itinerary',
     ],
     excludes: [
       'International flights and Ethiopian visa',
@@ -2692,11 +2686,11 @@ export const tours: Tour[] = [
     style: 'Wildlife · Trekking',
     season: 'September to June',
     from: 'On request',
-    group: '1 to 8 guests',
+    group: '1 to 12 guests',
     teaser:
       'Gich, Imet Gogo, Chenek and a summit of Buwahit, with walia ibex and gelada along the way.',
     summary:
-      'A fully supported camping trek through the heart of the Simien Mountains. Walk through the Kaba valley to Gich village, take in the vast view from Imet Gogo, camp at Chenek where walia ibex graze below the cliffs, and climb Buwahit (4,430 m) before returning to Gondar.',
+      'A fully supported camping trek through the heart of the Simien Mountains. Walk through the Kaba valley to Gich village, take in the vast view from Imet Gogo, camp at Chenek where walia ibex graze below the cliffs, and climb Buwahit (4,430 m) before returning to Gondar and Addis Ababa.',
     includes: [
       'Meet-and-assist at Bole International Airport and all transfers',
       'Domestic flights as shown in the itinerary',
@@ -2706,7 +2700,6 @@ export const tours: Tour[] = [
       'Full board: breakfast, lunch and dinner',
       'National park fees, armed scout and local guides',
       'Camping equipment, cook and pack mules or porters',
-      'Entrance fees to all sites and churches in the itinerary',
     ],
     excludes: [
       'International flights and Ethiopian visa',
@@ -2717,7 +2710,7 @@ export const tours: Tour[] = [
     itinerary: [
       {
         day: 'Day 1',
-        title: 'Gondar – Simien Mountains National Park – First Trek',
+        title: 'Addis Ababa – Fly to Gondar – Simien Mountains National Park – First Trek',
         text: 'Your journey begins with a morning flight from Addis Ababa to Gondar, the historic city of castles and one of Ethiopia’s most important royal capitals. Upon arrival, you will be warmly welcomed by your guide and begin the scenic drive toward Debark, the gateway and headquarters of Simien Mountains National Park. At Debark, complete the necessary park registration and permits before meeting your local mountain scout, who will accompany you throughout your trekking adventure. Continue deeper into the park, where dramatic landscapes of towering cliffs, deep valleys, and rugged peaks begin to unfold. Begin your first trek along the spectacular Simien escarpment, enjoying breathtaking views over the vast plains below and the dramatic mountain scenery surrounding you. This introductory hike offers a perfect introduction to the unique environment of the park and provides excellent opportunities for wildlife viewing. Keep your eyes open for large troops of Gelada baboons, an endemic species found only in the Ethiopian Highlands. These fascinating primates are often seen grazing on the grassy slopes and moving across the cliffs in their natural habitat. As the sun sets over the mountains, enjoy the peaceful atmosphere of the Simien wilderness and settle into your first night surrounded by Ethiopia’s spectacular highland scenery. Overnight: Camping in Simien Mountains National Park.',
       },
       {
@@ -2767,7 +2760,6 @@ export const tours: Tour[] = [
       '1 night of accommodation: Lodge or Eco-Camp',
       'Full board: breakfast, lunch and dinner',
       'National park entrance fees and scouts',
-      'Entrance fees to all sites and churches in the itinerary',
     ],
     excludes: [
       'International flights and Ethiopian visa',
@@ -2810,7 +2802,6 @@ export const tours: Tour[] = [
       '1 night of accommodation: 3 Star Hotel',
       'Full board: breakfast, lunch and dinner',
       'National park entrance fees and scouts',
-      'Entrance fees to all sites and churches in the itinerary',
     ],
     excludes: [
       'International flights and Ethiopian visa',
@@ -2846,7 +2837,7 @@ export const tours: Tour[] = [
     style: 'Trekking',
     season: 'September to June',
     from: 'On request',
-    group: '1 to 8 guests',
+    group: '1 to 12 guests',
     teaser:
       'Sankaber to Gich along the escarpment, with gelada troops and a night under canvas.',
     summary:
@@ -2860,7 +2851,6 @@ export const tours: Tour[] = [
       'Full board: breakfast, lunch and dinner',
       'National park fees, armed scout and local guides',
       'Camping equipment, cook and pack mules or porters',
-      'Entrance fees to all sites and churches in the itinerary',
     ],
     excludes: [
       'International flights and Ethiopian visa',
@@ -2899,7 +2889,7 @@ export const tours: Tour[] = [
     season: 'September to June',
     from: '$1,200 per person',
     priceAmount: 1200,
-    group: '1 to 8 guests',
+    group: '1 to 12 guests',
     teaser:
       'Sankaber, Gich, the Inatye escarpment and Chenek: the finest walking in the Simien.',
     summary:
@@ -2913,7 +2903,6 @@ export const tours: Tour[] = [
       'Full board: breakfast, lunch and dinner',
       'National park fees, armed scout and local guides',
       'Camping equipment, cook and pack mules or porters',
-      'Entrance fees to all sites and churches in the itinerary',
     ],
     excludes: [
       'International flights and Ethiopian visa',
@@ -2968,20 +2957,18 @@ export const tours: Tour[] = [
     style: 'Trekking · Wildlife',
     season: 'October to April',
     from: 'On request',
-    group: '1 to 8 guests',
+    group: '1 to 12 guests',
     teaser:
       'Walk the Sanetti Plateau and the Harenna cloud forest in search of the Ethiopian wolf.',
     summary:
       'A short hiking adventure in the Bale Mountains. Explore the Afro-alpine Sanetti Plateau on foot, climb towards Tulu Dimtu at 4,377 m and descend into the Harenna Forest, staying at the Wabe Shebelle Hotel and the Harenna Forest Lodge.',
     includes: [
       'Meet-and-assist at Bole International Airport and all transfers',
-      'Domestic flights as shown in the itinerary',
       'Private air-conditioned vehicle with a professional driver',
       'Licensed English-speaking guide (other languages on request)',
       '2 nights of accommodation: Wabe Shebelle Hotel & Harenna Forest Lodge',
       'Full board: breakfast, lunch and dinner',
       'National park entrance fees and scouts',
-      'Entrance fees to all sites and churches in the itinerary',
     ],
     excludes: [
       'International flights and Ethiopian visa',
@@ -3023,7 +3010,7 @@ export const tours: Tour[] = [
     style: 'Trekking · Wildlife',
     season: 'October to April',
     from: 'On request',
-    group: '1 to 8 guests',
+    group: '1 to 12 guests',
     teaser:
       'A day in Addis Ababa, then Dinsho, the Sanetti Plateau and the Harenna Forest.',
     summary:
@@ -3082,7 +3069,7 @@ export const tours: Tour[] = [
     style: 'Trekking · Wildlife',
     season: 'October to April',
     from: 'On request',
-    group: '1 to 8 guests',
+    group: '1 to 12 guests',
     teaser:
       'Bale’s plateau and forest, then Wondo Genet, Yirgalem and the Rift Valley lakes.',
     summary:
@@ -3157,7 +3144,7 @@ export const tours: Tour[] = [
     style: 'Trekking · Cultural',
     season: 'September to June',
     from: 'On request',
-    group: '1 to 8 guests',
+    group: '1 to 12 guests',
     teaser:
       'Village-to-village walking in the Lasta highlands with nights in community guesthouses.',
     summary:
@@ -3218,7 +3205,7 @@ export const tours: Tour[] = [
     style: 'Trekking · Historical',
     season: 'September to June',
     from: 'On request',
-    group: '1 to 8 guests',
+    group: '1 to 12 guests',
     teaser:
       'The churches of Lalibela plus a three-day community trek through the Lasta highlands.',
     summary:
@@ -3282,7 +3269,7 @@ export const tours: Tour[] = [
     style: 'Birding · Wildlife',
     season: 'September to April',
     from: 'On request',
-    group: '1 to 8 guests',
+    group: '1 to 12 guests',
     teaser:
       'Koka, Ziway, Langano, Abijatta-Shalla and Hawassa: more than 300 species in four days.',
     summary:
@@ -3294,7 +3281,6 @@ export const tours: Tour[] = [
       '3 nights of accommodation: Lakeside Eco-Lodges & Resorts',
       'Full board: breakfast, lunch and dinner',
       'National park entrance fees and scouts',
-      'Entrance fees to all sites and churches in the itinerary',
     ],
     excludes: [
       'International flights and Ethiopian visa',
@@ -3343,7 +3329,7 @@ export const tours: Tour[] = [
     style: 'Birding · Wildlife',
     season: 'September to April',
     from: 'On request',
-    group: '1 to 8 guests',
+    group: '1 to 12 guests',
     teaser:
       'Lake Langano, Abijatta-Shalla and the forests of Wondo Genet, with a city day in Addis Ababa.',
     summary:
@@ -3407,7 +3393,7 @@ export const tours: Tour[] = [
     style: 'Birding · Wildlife',
     season: 'September to April',
     from: 'On request',
-    group: '1 to 8 guests',
+    group: '1 to 12 guests',
     teaser:
       'Awash, the Ilala Sala plains, Langano, Wondo Genet, Yirgalem, Hawassa and Abijatta-Shalla.',
     summary:
@@ -3419,7 +3405,6 @@ export const tours: Tour[] = [
       '6 nights of accommodation: City Hotel, Lakeside Lodge, Forest Resort',
       'Full board: breakfast, lunch and dinner',
       'National park entrance fees and scouts',
-      'Entrance fees to all sites and churches in the itinerary',
     ],
     excludes: [
       'International flights and Ethiopian visa',
@@ -3656,7 +3641,6 @@ export const tours: Tour[] = [
       'Private air-conditioned vehicle with a professional driver',
       'Licensed English-speaking guide (other languages on request)',
       'Lunch included',
-      'National park entrance fees and scouts',
       'Entrance fees to all sites and churches in the itinerary',
     ],
     excludes: [
@@ -3682,7 +3666,7 @@ export const tours: Tour[] = [
     style: 'Wildlife · Trekking',
     season: 'October to April',
     from: 'On request',
-    group: '1 to 8 guests',
+    group: '1 to 12 guests',
     teaser:
       'Walk the Simien escarpment among gelada troops, then track the Ethiopian wolf across the Sanetti Plateau.',
     summary:
@@ -3868,6 +3852,7 @@ export const tours: Tour[] = [
     excludes: [
       'International flights and Ethiopian visa',
       'Travel insurance (strongly recommended)',
+      'Photography fees in Omo Valley villages (paid locally)',
       'Drinks, tips and personal expenses',
     ],
     itinerary: [
@@ -3994,6 +3979,7 @@ export const tours: Tour[] = [
     excludes: [
       'International flights and Ethiopian visa',
       'Travel insurance (strongly recommended)',
+      'Photography fees in Omo Valley villages (paid locally)',
       'Drinks, tips and personal expenses',
     ],
     itinerary: [
@@ -4121,6 +4107,7 @@ export const tours: Tour[] = [
     excludes: [
       'International flights and Ethiopian visa',
       'Travel insurance (strongly recommended)',
+      'Photography fees in Omo Valley villages (paid locally)',
       'Drinks, tips and personal expenses',
     ],
     itinerary: [
@@ -4270,6 +4257,7 @@ export const tours: Tour[] = [
     excludes: [
       'International flights and Ethiopian visa',
       'Travel insurance (strongly recommended)',
+      'Photography fees in Omo Valley villages (paid locally)',
       'Drinks, tips and personal expenses',
     ],
     itinerary: [
@@ -4434,7 +4422,8 @@ export const tours: Tour[] = [
     summary:
       'Discover the history, cultural heritage and traditions of Harar, one of Ethiopia’s most remarkable historic cities and a UNESCO World Heritage Site. Walk the gates and narrow alleyways of Harar Jugol, visit traditional Harari houses, the Arthur Rimbaud House and the Sherif Harari City Museum, browse the markets for spices, baskets and Harar coffee, enjoy a coffee ceremony and witness the city’s famous hyena-feeding tradition, accompanied throughout by a knowledgeable local guide.',
     includes: [
-      'Meet-and-assist at Dire Dawa Airport and all transfers',
+      'Meet-and-assist at Bole International Airport and all transfers',
+      'Domestic flights as shown in the itinerary',
       'Private air-conditioned vehicle with a professional driver',
       'Licensed English-speaking guide (other languages on request)',
       '2 nights of accommodation: Hotel, Harar',
@@ -4451,8 +4440,8 @@ export const tours: Tour[] = [
     itinerary: [
       {
         day: 'Day 1',
-        title: 'Dire Dawa – Harar – The Historic Walled City',
-        text: 'Upon arrival at Dire Dawa Airport, meet your driver and guide and transfer to Harar, approximately 55 km away. After checking into your hotel, begin exploring Harar Jugol, the historic walled city recognised as a UNESCO World Heritage Site. Walk through its traditional gates and narrow alleyways, discovering the distinctive architecture, historic buildings, mosques and shrines that reflect centuries of cultural and religious history. Visit a traditional Harari house to learn about family life, interior decoration and the colourful woven baskets displayed on the walls, then continue to the local markets to browse spices, coffee, textiles and handmade crafts. In the evening, experience Harar’s famous hyena-feeding tradition with a local handler, one of the city’s best-known cultural attractions. Overnight: Harar.',
+        title: 'Fly Addis Ababa – Dire Dawa – Harar – The Historic Walled City',
+        text: 'Take a morning flight from Addis Ababa to Dire Dawa. Upon arrival at Dire Dawa Airport, meet your driver and guide and transfer to Harar, approximately 55 km away. After checking into your hotel, begin exploring Harar Jugol, the historic walled city recognised as a UNESCO World Heritage Site. Walk through its traditional gates and narrow alleyways, discovering the distinctive architecture, historic buildings, mosques and shrines that reflect centuries of cultural and religious history. Visit a traditional Harari house to learn about family life, interior decoration and the colourful woven baskets displayed on the walls, then continue to the local markets to browse spices, coffee, textiles and handmade crafts. In the evening, experience Harar’s famous hyena-feeding tradition with a local handler, one of the city’s best-known cultural attractions. Overnight: Harar.',
       },
       {
         day: 'Day 2',
@@ -4461,8 +4450,8 @@ export const tours: Tour[] = [
       },
       {
         day: 'Day 3',
-        title: 'Harar – Local Markets – Dire Dawa – Departure',
-        text: 'After breakfast, enjoy a final morning in Harar at a relaxed pace. Visit a local market to observe the daily activities of traders and residents, with time to buy handicrafts, woven baskets, textiles, spices and locally produced coffee, and take a last walk through the historic streets of Harar Jugol. After lunch, drive to Dire Dawa Airport, approximately 55 km away, for your onward flight to Addis Ababa or your next destination.',
+        title: 'Harar – Local Markets – Dire Dawa – Fly to Addis Ababa',
+        text: 'After breakfast, enjoy a final morning in Harar at a relaxed pace. Visit a local market to observe the daily activities of traders and residents, with time to buy handicrafts, woven baskets, textiles, spices and locally produced coffee, and take a last walk through the historic streets of Harar Jugol. After lunch, drive to Dire Dawa Airport, approximately 55 km away, for your flight back to Addis Ababa.',
       },
     ],
     places: ['Dire Dawa', 'Harar'],
@@ -4483,7 +4472,8 @@ export const tours: Tour[] = [
     summary:
       'Discover the ancient civilisation and religious heritage of northern Ethiopia in Axum, once the capital of the powerful Aksumite Kingdom that traded with the Mediterranean and the Arabian Peninsula. Explore the granite stelae, royal tombs, archaeological museum, the ruins of Dungur Palace and the Church of St. Mary of Zion, then travel to Yeha, a pre-Aksumite temple from the first millennium BCE and one of the oldest monumental buildings in Ethiopia, accompanied by knowledgeable local guides.',
     includes: [
-      'Meet-and-assist at Axum Airport and all transfers',
+      'Meet-and-assist at Bole International Airport and all transfers',
+      'Domestic flights as shown in the itinerary',
       'Private air-conditioned vehicle with a professional driver',
       'Licensed English-speaking guide (other languages on request)',
       '2 nights of accommodation: Hotel, Axum',
@@ -4498,8 +4488,8 @@ export const tours: Tour[] = [
     itinerary: [
       {
         day: 'Day 1',
-        title: 'Arrival in Axum – Stelae, Museum & Dungur Palace',
-        text: 'Upon arrival at Axum Airport, meet your guide and driver and transfer to your hotel. Begin at the Northern Stelae Field, where enormous carved granite monuments commemorate the achievements of the Aksumite civilisation, including the famous obelisk returned to Ethiopia from Italy. Continue to the Archaeological Museum of Axum, whose coins, inscriptions, pottery and other artefacts illustrate the kingdom’s economic, cultural and political importance, and see the Ezana Stone, a trilingual inscription in Ge’ez, Greek and Sabaean that records King Ezana’s reign and the spread of Christianity in the kingdom. Later, explore the ruins of Dungur Palace, traditionally associated with the Queen of Sheba, and the nearby Queen of Sheba’s Bath, a large ancient reservoir. Depending on time and opening hours, continue to the royal tombs and other archaeological sites around Axum. Overnight: Axum.',
+        title: 'Fly Addis Ababa – Axum – Stelae, Museum & Dungur Palace',
+        text: 'Take a morning flight from Addis Ababa to Axum. Upon arrival at Axum Airport, meet your guide and driver and transfer to your hotel. Begin at the Northern Stelae Field, where enormous carved granite monuments commemorate the achievements of the Aksumite civilisation, including the famous obelisk returned to Ethiopia from Italy. Continue to the Archaeological Museum of Axum, whose coins, inscriptions, pottery and other artefacts illustrate the kingdom’s economic, cultural and political importance, and see the Ezana Stone, a trilingual inscription in Ge’ez, Greek and Sabaean that records King Ezana’s reign and the spread of Christianity in the kingdom. Later, explore the ruins of Dungur Palace, traditionally associated with the Queen of Sheba, and the nearby Queen of Sheba’s Bath, a large ancient reservoir. Depending on time and opening hours, continue to the royal tombs and other archaeological sites around Axum. Overnight: Axum.',
       },
       {
         day: 'Day 2',
@@ -4508,8 +4498,8 @@ export const tours: Tour[] = [
       },
       {
         day: 'Day 3',
-        title: 'St. Mary of Zion – Royal Tombs – Departure',
-        text: 'After breakfast, visit the Church of St. Mary of Zion, one of Ethiopia’s most important Orthodox Christian pilgrimage sites, and learn about the traditions surrounding the Ark of the Covenant, which Ethiopian Orthodox tradition holds is kept in a guarded chapel within the church complex; access to individual buildings is subject to church regulations. Continue to the Tombs of King Kaleb and King Gebre Meskel and discover the role of these rulers in the kingdom’s political and religious history. If time permits, browse the local markets for Tigrayan handicrafts, crosses and woven textiles before your transfer to Axum Airport for your onward flight.',
+        title: 'St. Mary of Zion – Royal Tombs – Fly to Addis Ababa',
+        text: 'After breakfast, visit the Church of St. Mary of Zion, one of Ethiopia’s most important Orthodox Christian pilgrimage sites, and learn about the traditions surrounding the Ark of the Covenant, which Ethiopian Orthodox tradition holds is kept in a guarded chapel within the church complex; access to individual buildings is subject to church regulations. Continue to the Tombs of King Kaleb and King Gebre Meskel and discover the role of these rulers in the kingdom’s political and religious history. If time permits, browse the local markets for Tigrayan handicrafts, crosses and woven textiles before your transfer to Axum Airport for your flight back to Addis Ababa.',
       },
     ],
     places: ['Axum', 'Yeha'],
@@ -4530,13 +4520,14 @@ export const tours: Tour[] = [
     summary:
       'Discover the natural beauty, wildlife and culture of southern Ethiopia around Arba Minch, set between Lakes Abaya and Chamo in the Great Rift Valley. Take a boat excursion on Lake Chamo in Nech Sar National Park in search of enormous Nile crocodiles, hippos and waterbirds, walk through the lush Forty Springs that give the town its name, and visit the Dorze people of the Guge Mountains, known for their beehive-shaped bamboo houses and fine cotton weaving.',
     includes: [
-      'Meet-and-assist at Arba Minch Airport and all transfers',
+      'Meet-and-assist at Bole International Airport and all transfers',
+      'Domestic flights as shown in the itinerary',
       'Private air-conditioned vehicle with a professional driver',
       'Licensed English-speaking guide (other languages on request)',
       '2 nights of accommodation: Hotel, Arba Minch',
       'Full board: breakfast, lunch and dinner',
       'Boat excursion on Lake Chamo',
-      'Entrance fees to all sites and churches in the itinerary',
+      'Entrance fees to all sites in the itinerary',
     ],
     excludes: [
       'International flights and Ethiopian visa',
@@ -4546,8 +4537,8 @@ export const tours: Tour[] = [
     itinerary: [
       {
         day: 'Day 1',
-        title: 'Arrival in Arba Minch – Dorze Village',
-        text: 'Upon arrival in Arba Minch, meet your driver and guide and transfer to your hotel. Drive up into the Guge Mountains to a Dorze village, where the community is known for its impressive beehive-shaped houses built from bamboo and other local materials. Learn about traditional house construction, cotton weaving and farming, and discover how kocho, a staple food, is prepared from enset, the false banana plant; depending on local arrangements, you may watch traditional food preparation. Enjoy views of the mountains, forests and Rift Valley before returning to Arba Minch. In the afternoon, visit viewpoints over Lakes Abaya and Chamo and, if time permits, the local market. Overnight: Arba Minch.',
+        title: 'Fly Addis Ababa – Arba Minch – Dorze Village',
+        text: 'Take a morning flight from Addis Ababa to Arba Minch. Upon arrival in Arba Minch, meet your driver and guide and transfer to your hotel. Drive up into the Guge Mountains to a Dorze village, where the community is known for its impressive beehive-shaped houses built from bamboo and other local materials. Learn about traditional house construction, cotton weaving and farming, and discover how kocho, a staple food, is prepared from enset, the false banana plant; depending on local arrangements, you may watch traditional food preparation. Enjoy views of the mountains, forests and Rift Valley before returning to Arba Minch. In the afternoon, visit viewpoints over Lakes Abaya and Chamo and, if time permits, the local market. Overnight: Arba Minch.',
       },
       {
         day: 'Day 2',
@@ -4556,8 +4547,8 @@ export const tours: Tour[] = [
       },
       {
         day: 'Day 3',
-        title: 'Arba Minch – Local Market – Departure',
-        text: 'After breakfast, enjoy a relaxed final morning. Depending on your departure time, visit a local market to discover regional produce, spices, traditional textiles and handicrafts while your guide explains the cultural diversity of the surrounding region, or return to a viewpoint for a last look over Lakes Abaya and Chamo. Transfer to Arba Minch Airport for your onward flight, or continue by road to your next destination.',
+        title: 'Arba Minch – Local Market – Fly to Addis Ababa',
+        text: 'After breakfast, enjoy a relaxed final morning. Depending on your departure time, visit a local market to discover regional produce, spices, traditional textiles and handicrafts while your guide explains the cultural diversity of the surrounding region, or return to a viewpoint for a last look over Lakes Abaya and Chamo. Transfer to Arba Minch Airport for your flight back to Addis Ababa.',
       },
     ],
     places: ['Arba Minch', 'Dorze & Chencha', 'Lake Chamo'],
@@ -4576,25 +4567,27 @@ export const tours: Tour[] = [
     teaser:
       'From Jinka to Turmi: the Bena, Karo, Dassanech, Hamer and Mursi peoples of the Lower Omo Valley.',
     summary:
-      'Discover the cultural diversity of Ethiopia’s Lower Omo Valley on a short journey that starts and ends in Jinka. Travel through beautiful landscapes and traditional villages to meet the Bena, Karo, Dassanech, Hamer and Mursi communities, each with its own traditions and way of life, visit a local market when your dates allow, and spend two nights in Turmi, the heart of Hamer country, with experienced local guides.',
+      'Discover the cultural diversity of Ethiopia’s Lower Omo Valley on a short journey from Addis Ababa, flying to and from Jinka. Travel through beautiful landscapes and traditional villages to meet the Bena, Karo, Dassanech, Hamer and Mursi communities, each with its own traditions and way of life, visit a local market when your dates allow, and spend two nights in Turmi, the heart of Hamer country, with experienced local guides.',
     includes: [
-      'Meet-and-assist at Jinka Airport and all transfers',
+      'Meet-and-assist at Bole International Airport and all transfers',
+      'Domestic flights as shown in the itinerary',
       'Private 4x4 vehicle with an experienced driver',
       'Licensed English-speaking guide (other languages on request)',
       '2 nights of accommodation: Hotel or Lodge, Turmi',
       'Full board: breakfast, lunch and dinner',
-      'Entrance fees to all sites and churches in the itinerary',
+      'Entrance fees to all sites in the itinerary',
     ],
     excludes: [
       'International flights and Ethiopian visa',
       'Travel insurance (strongly recommended)',
+      'Photography fees in Omo Valley villages (paid locally)',
       'Drinks, tips and personal expenses',
     ],
     itinerary: [
       {
         day: 'Day 1',
-        title: 'Jinka – Bena Village – Turmi',
-        text: 'Upon arrival at Jinka Airport, meet your guide and driver and travel south toward Turmi through the landscapes of the Lower Omo Valley. On the way, visit a Bena village to learn about the community’s lifestyle, clothing, housing and pastoral activities, and how the Bena maintain their traditions while adapting to their environment. Continue to Turmi, the main town of the Hamer people, and spend the rest of the afternoon relaxing or exploring nearby, depending on your arrival time. Overnight: Turmi.',
+        title: 'Fly Addis Ababa – Jinka – Bena Village – Turmi',
+        text: 'Take a morning flight from Addis Ababa to Jinka. Upon arrival at Jinka Airport, meet your guide and driver and travel south toward Turmi through the landscapes of the Lower Omo Valley. On the way, visit a Bena village to learn about the community’s lifestyle, clothing, housing and pastoral activities, and how the Bena maintain their traditions while adapting to their environment. Continue to Turmi, the main town of the Hamer people, and spend the rest of the afternoon relaxing or exploring nearby, depending on your arrival time. Overnight: Turmi.',
       },
       {
         day: 'Day 2',
@@ -4603,7 +4596,7 @@ export const tours: Tour[] = [
       },
       {
         day: 'Day 3',
-        title: 'Turmi – Local Market – Mursi Village – Jinka Departure',
+        title: 'Turmi – Local Market – Mursi Village – Jinka – Fly to Addis Ababa',
         text: 'After breakfast, drive north toward Jinka. Depending on the day of the week, stop at a local market where different communities gather to trade produce, livestock, clothing, jewellery and handicrafts. Continue to visit the Mursi people around Key Afar or Jinka, known for the lip plates worn by some women and elaborate body decoration, and learn about their social traditions, cattle keeping and everyday life with a local guide. After lunch in Jinka, transfer to Jinka Airport for your flight to Addis Ababa.',
       },
     ],

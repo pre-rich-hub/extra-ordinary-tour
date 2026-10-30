@@ -14,7 +14,7 @@ export function TourItinerary({ tour: t }: { tour: Tour }) {
         </h2>
         <p className="mt-5 text-pretty leading-relaxed text-muted-foreground sm:text-lg">
           {copy(
-            'A working draft rather than a fixed schedule. We move days around for weather, festivals and how you are feeling.',
+            'This itinerary is carefully planned, but minor adjustments may be made due to weather, local festivals, road conditions or your personal interests to ensure the best possible experience.',
           )}
         </p>
       </Reveal>
