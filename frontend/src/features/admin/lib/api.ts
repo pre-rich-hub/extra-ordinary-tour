@@ -10,7 +10,7 @@ export type AdminApiEnvelope<T> = {
 }
 
 const publicContent =
-  /^\/api\/v1\/admin\/(tours|destinations|gallery|blog|categories)(\/|$)/
+  /^\/api\/v1\/admin\/(tours|destinations|gallery|blog|categories|testimonials)(\/|$)/
 
 /** Purge the cached public pages. The write already succeeded, so never fail. */
 export async function refreshPublicSite() {

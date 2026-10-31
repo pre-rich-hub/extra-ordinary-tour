@@ -19,6 +19,7 @@
     "test:watch": "vitest",
     "seed:admin": "tsx scripts/seed-admin.ts",
     "seed:layover": "tsx scripts/seed-layover.ts",
+    "seed:catalog": "tsx --tsconfig ../frontend/tsconfig.json scripts/seed-catalog.ts",
     "assistant:check": "tsx scripts/assistant-check.ts",
     "vercel-build": "prisma generate && tsc"
   },

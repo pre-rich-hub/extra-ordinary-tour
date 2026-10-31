@@ -1,21 +1,18 @@
 import { useCopy } from '@/i18n/copy'
-import { useLocale } from 'next-intl'
-import type { AppLocale } from '@/i18n/routing'
 import Image from 'next/image'
 import { Link } from '@/i18n/navigation'
 import { Reveal } from '@/components/ui/reveal'
 import { EnquiryForm } from '@/features/enquiry/components/enquiry-form'
-import { getDestinations } from '../data/localized'
 import type { Destination } from '../types'
 
 export function DestinationEnquiry({
   destination: d,
+  destinations,
 }: {
   destination: Destination
+  destinations: Destination[]
 }) {
   const copy = useCopy()
-
-  const destinations = getDestinations(useLocale() as AppLocale)
 
   const others = destinations.filter((o) => o.slug !== d.slug).slice(0, 4)
   return (

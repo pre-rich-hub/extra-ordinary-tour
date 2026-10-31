@@ -6,7 +6,8 @@ import type { Metadata } from 'next'
 import { notFound } from 'next/navigation'
 import { JsonLd } from '@/components/seo/json-ld'
 import { pageGraph, tripSchema } from '@/lib/seo/schema'
-import { getTourData } from '@/features/tours/server/catalog'
+import { getTourData, getToursData } from '@/features/tours/server/catalog'
+import { getDestinationsData } from '@/features/destinations/server/catalog'
 import { hasPrice, priceShort } from '@/features/tours/lib/format'
 import { PageHero } from '@/components/layout/page-hero'
 import { CtaBand } from '@/components/layout/cta-band'
@@ -60,7 +61,11 @@ export default async function TourPage({
   if (!isLocale(locale)) notFound()
   setRequestLocale(locale)
   const copy = await getCopy()
-  const t = await getTourData(slug, locale)
+  const [t, tours, destinations] = await Promise.all([
+    getTourData(slug, locale),
+    getToursData(locale),
+    getDestinationsData(locale),
+  ])
   if (!t) notFound()
 
   const crumbs = [
@@ -102,7 +107,7 @@ export default async function TourPage({
 
       {/* Overview + itinerary, with the pricing card pinned alongside */}
       <section className="shell grid gap-12 py-16 sm:py-20 lg:grid-cols-[1fr_360px] lg:gap-x-16 lg:gap-y-0 xl:grid-cols-[1fr_380px] xl:gap-x-20 lg:py-28">
-        <TourOverview tour={t} />
+        <TourOverview tour={t} destinations={destinations} />
 
         <TourBooking tour={t} />
 
@@ -123,7 +128,7 @@ export default async function TourPage({
       <TourEnquiry tour={t} />
 
       {/* Other journeys */}
-      <RelatedTours tour={t} />
+      <RelatedTours tour={t} tours={tours} destinations={destinations} />
 
       <CtaBand
         title={copy('Questions before you enquire?')}

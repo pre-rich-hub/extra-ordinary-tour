@@ -74,7 +74,7 @@ export async function listTours(query: ToursQuery) {
     prisma.tour.findMany({
       where,
       include: tourIncludes,
-      orderBy: { id: "desc" },
+      orderBy: { id: "asc" },
       skip,
       take: query.limit,
     }),

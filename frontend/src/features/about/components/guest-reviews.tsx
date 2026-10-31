@@ -1,5 +1,3 @@
-import { useLocale } from 'next-intl'
-import type { AppLocale } from '@/i18n/routing'
 import { useCopy } from '@/i18n/copy'
 import { ArrowUpRight } from 'lucide-react'
 import { Reveal } from '@/components/ui/reveal'
@@ -9,7 +7,7 @@ import {
   TripadvisorMark,
 } from '@/components/icons/brand-marks'
 import { contact } from '@/config/site'
-import { getTestimonials } from '@/features/reviews/data/localized'
+import type { Testimonial } from '@/features/reviews/types'
 
 const platforms = [
   {
@@ -29,9 +27,12 @@ const platforms = [
   },
 ]
 
-export function GuestReviews() {
+export function GuestReviews({
+  testimonials,
+}: {
+  testimonials: Testimonial[]
+}) {
   const copy = useCopy()
-  const testimonials = getTestimonials(useLocale() as AppLocale)
 
   const featured =
     testimonials.find((t) => t.name === 'Tamryn') ?? testimonials[0]

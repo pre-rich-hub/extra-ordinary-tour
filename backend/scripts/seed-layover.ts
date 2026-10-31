@@ -50,7 +50,7 @@ const packages = [
       "The National Museum of Ethiopia: meet Lucy",
       "Holy Trinity Cathedral and the Ethnological Museum",
       "Traditional Ethiopian lunch",
-      "Merkato, one of Africa's largest open-air markets",
+      "Merkato, one of Africa’s largest open-air markets",
       "Coffee ceremony, then return to Bole for check-in",
     ],
     includes: [
@@ -107,7 +107,7 @@ const packages = [
     ],
     includes: [
       "Domestic flights Addis Ababa to Lalibela to Addis Ababa",
-      "One night's lodge accommodation with full board",
+      "One night’s lodge accommodation with full board",
       "Licensed local guide and all church entrance fees",
       "All airport and hotel transfers",
     ],

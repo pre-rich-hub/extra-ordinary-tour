@@ -9,7 +9,7 @@ export async function POST() {
   if (!(await hasValidAdminSession())) {
     return NextResponse.json({ success: false }, { status: 401 })
   }
-  for (const tag of ['tours', 'destinations', 'blog', 'gallery']) {
+  for (const tag of ['tours', 'destinations', 'blog', 'gallery', 'testimonials']) {
     revalidateTag(tag, { expire: 0 })
   }
   revalidatePath('/', 'layout')

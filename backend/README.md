@@ -25,6 +25,7 @@ cp .env.example .env
 pnpm prisma:migrate
 pnpm seed:admin
 pnpm seed:layover   # optional: four starter packages for the public layover page
+pnpm seed:catalog   # copy the bundled tours, destinations, journal, reviews and gallery into the database
 pnpm dev
 ```
 
@@ -87,6 +88,7 @@ scripts/
   assistant-check.ts   # Lists the models your key can call
   seed-admin.ts        # Creates or updates the admin account
   seed-layover.ts      # Creates the four starter layover packages
+  seed-catalog.ts      # Copies the bundled catalogue into the database, keeping existing rows
 ```
 
 ## Customizing for a New Client

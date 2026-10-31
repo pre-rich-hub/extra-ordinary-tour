@@ -1,19 +1,23 @@
 import { useCopy } from '@/i18n/copy'
-import { destinations } from '@/features/destinations/data/destinations'
-import { tours } from '@/features/tours/data/tours'
 import Image from 'next/image'
 import { Link } from '@/i18n/navigation'
 import { ChevronRight } from 'lucide-react'
 
-const stats = [
-  { value: '10+', label: 'Years guiding in Ethiopia' },
-  { value: String(tours.length), label: 'Tours & journeys' },
-  { value: String(destinations.length), label: 'Places, peoples & festivals' },
-  { value: '24/7', label: 'Support on every trip' },
-]
 
-export function AboutHero() {
+export function AboutHero({
+  tourCount,
+  destinationCount,
+}: {
+  tourCount: number
+  destinationCount: number
+}) {
   const copy = useCopy()
+  const stats = [
+    { value: '10+', label: 'Years guiding in Ethiopia' },
+    { value: String(tourCount), label: 'Tours & journeys' },
+    { value: String(destinationCount), label: 'Places, peoples & festivals' },
+    { value: '24/7', label: 'Support on every trip' },
+  ]
 
   return (
     <section className="relative isolate flex min-h-[100svh] flex-col justify-end overflow-hidden bg-charcoal">

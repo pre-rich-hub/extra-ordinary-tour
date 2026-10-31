@@ -15,6 +15,11 @@ const idParam = z.coerce.number().int().positive();
 
 const galleryUpload = uploadFor("gallery");
 
+const captionSchema = z.object({
+  location: z.string().trim().max(255).optional(),
+  caption: z.string().trim().optional(),
+});
+
 galleryRouter.get(
   "/gallery",
   asyncHandler(async (_req, res) => {
@@ -40,13 +45,27 @@ galleryRouter.post(
     const imageUrl = req.file ? urlForFile(req.file) : undefined;
     if (!imageUrl) throw new HttpError(422, "Gallery image is required");
     const tourId = req.body.tourId ? Number(req.body.tourId) : null;
-    const image = await prisma.gallery.create({ data: { imageUrl, tourId } });
+    const image = await prisma.gallery.create({
+      data: { imageUrl, tourId, ...captionSchema.parse(req.body) },
+    });
     return ok(
       res,
       "Gallery image created successfully",
       mapGalleryImage(image),
       201,
     );
+  }),
+);
+
+galleryRouter.put(
+  "/gallery/:id",
+  asyncHandler(async (req, res) => {
+    const id = idParam.parse(req.params.id);
+    const image = await prisma.gallery.update({
+      where: { id },
+      data: captionSchema.parse(req.body),
+    });
+    return ok(res, "Gallery image updated successfully", mapGalleryImage(image));
   }),
 );
 

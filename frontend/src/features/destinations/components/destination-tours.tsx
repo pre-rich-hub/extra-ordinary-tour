@@ -1,22 +1,20 @@
 import { useCopy } from '@/i18n/copy'
-import { useLocale } from 'next-intl'
-import type { AppLocale } from '@/i18n/routing'
 import { Link } from '@/i18n/navigation'
 import { ArrowRight } from 'lucide-react'
 import { Reveal } from '@/components/ui/reveal'
 import { TourCard } from '@/features/tours/components/tour-card'
-import { getTours } from '@/features/tours/data/localized'
+import type { Tour } from '@/features/tours/types'
 import { toursVisiting } from '../data/relations'
 import type { Destination } from '../types'
 
 export function DestinationTours({
   destination: d,
+  tours,
 }: {
   destination: Destination
+  tours: Tour[]
 }) {
   const copy = useCopy()
-
-  const tours = getTours(useLocale() as AppLocale)
 
   // Only itineraries that genuinely visit this destination; none, no section.
   const related = toursVisiting(d, tours).slice(0, 4)

@@ -4,10 +4,8 @@ import type { AppLocale } from '@/i18n/routing'
 import { getCopy } from '@/i18n/copy-server'
 import { Reveal } from '@/components/ui/reveal'
 import { SectionHeading } from '@/components/ui/section-heading'
-import {
-  getTestimonials,
-  reviewSummaries,
-} from '@/features/reviews/data/localized'
+import { reviewSummaries } from '@/features/reviews/data/localized'
+import { getTestimonialsData } from '@/features/reviews/server/catalog'
 
 // Two short guest reviews with links to the platforms they were posted on,
 // for pages without the full homepage review section.
@@ -16,7 +14,7 @@ const highlighted = ['sarah', 'd-thomas']
 export async function ReviewHighlights() {
   const copy = await getCopy()
   const locale = (await getLocale()) as AppLocale
-  const testimonials = getTestimonials(locale)
+  const testimonials = await getTestimonialsData(locale)
   const reviews = highlighted
     .map((id) => testimonials.find((t) => t.id === id))
     .filter((t) => t !== undefined)

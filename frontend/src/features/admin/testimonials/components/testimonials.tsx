@@ -18,6 +18,11 @@ type Testimonial = {
   message: string
   reviewerName: string
   profession: string | null
+  imageUrl: string | null
+  platform: string | null
+  rating: number | null
+  title: string | null
+  reviewDate: string | null
 }
 
 export function AdminTestimonials() {
@@ -78,6 +83,11 @@ export function AdminTestimonials() {
     const formData = new FormData(event.currentTarget)
     const body = {
       reviewerName: String(formData.get('reviewerName') ?? '').trim(),
+      imageUrl: String(formData.get('imageUrl') ?? '').trim(),
+      platform: String(formData.get('platform') ?? ''),
+      rating: String(formData.get('rating') ?? ''),
+      title: String(formData.get('title') ?? '').trim(),
+      reviewDate: String(formData.get('reviewDate') ?? '').trim(),
       profession: String(formData.get('profession') ?? '').trim(),
       message: String(formData.get('message') ?? '').trim(),
     }
@@ -140,6 +150,11 @@ export function AdminTestimonials() {
           <div className="grid gap-5 md:grid-cols-2">
             <label><span className={adminLabelClass}>Guest name</span><input name="reviewerName" defaultValue={editing?.reviewerName ?? ''} className={adminInputClass} required /></label>
             <label><span className={adminLabelClass}>Profession or trip</span><input name="profession" defaultValue={editing?.profession ?? ''} className={adminInputClass} /></label>
+            <label><span className={adminLabelClass}>Platform</span><select name="platform" defaultValue={editing?.platform ?? ''} className={adminInputClass}><option value="">Direct</option><option>Tripadvisor</option><option>SafariBookings</option><option>Google</option></select></label>
+            <label><span className={adminLabelClass}>Rating (1 to 5)</span><input name="rating" type="number" min="1" max="5" defaultValue={editing?.rating ?? ''} className={adminInputClass} /></label>
+            <label><span className={adminLabelClass}>Review title</span><input name="title" defaultValue={editing?.title ?? ''} className={adminInputClass} /></label>
+            <label><span className={adminLabelClass}>Review date</span><input name="reviewDate" defaultValue={editing?.reviewDate ?? ''} placeholder="e.g. May 2026" className={adminInputClass} /></label>
+            <label className="md:col-span-2"><span className={adminLabelClass}>Photo URL</span><input name="imageUrl" type="url" defaultValue={editing?.imageUrl ?? ''} className={adminInputClass} /></label>
             <label className="md:col-span-2"><span className={adminLabelClass}>Guest message</span><textarea name="message" defaultValue={editing?.message ?? ''} className={`${adminInputClass} min-h-32 resize-y`} required /></label>
           </div>
           <div className="mt-5 flex justify-end gap-3">

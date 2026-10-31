@@ -6,7 +6,9 @@ import type { Metadata } from 'next'
 import { notFound } from 'next/navigation'
 import { JsonLd } from '@/components/seo/json-ld'
 import { articleSchema, pageGraph } from '@/lib/seo/schema'
-import { getPostData } from '@/features/blog/server/catalog'
+import { getPostData, getPostsData } from '@/features/blog/server/catalog'
+import { getDestinationsData } from '@/features/destinations/server/catalog'
+import { getToursData } from '@/features/tours/server/catalog'
 import { CtaBand } from '@/components/layout/cta-band'
 import { ArticleHeader } from '@/features/blog/components/article-header'
 import { ArticleImage } from '@/features/blog/components/article-image'
@@ -59,7 +61,12 @@ export default async function ArticlePage({
   if (!isLocale(locale)) notFound()
   setRequestLocale(locale)
   const copy = await getCopy()
-  const post = await getPostData(slug, locale)
+  const [posts, destinations, tours] = await Promise.all([
+    getPostsData(locale),
+    getDestinationsData(locale),
+    getToursData(locale),
+  ])
+  const post = posts.find((p) => p.slug === slug)
   if (!post) notFound()
 
   return (
@@ -84,10 +91,15 @@ export default async function ArticlePage({
       <ArticleImage post={post} />
 
       {/* Body */}
-      <ArticleBody post={post} />
+      <ArticleBody
+        post={post}
+        posts={posts}
+        destinations={destinations}
+        tours={tours}
+      />
 
       {/* More reading */}
-      <RelatedPosts post={post} />
+      <RelatedPosts post={post} posts={posts} />
 
       <CtaBand
         title={copy('Ready to see it for yourself?')}

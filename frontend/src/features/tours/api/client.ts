@@ -28,9 +28,22 @@ export type ApiTour = {
   categories: { id: number; name: string }[]
   gallery: ApiImage[]
   durationDays: number
+  days: string | null
+  nights: number | null
+  style: string | null
+  season: string | null
+  group: string | null
+  teaser: string | null
+  highlights: string[]
+  places: string[]
   included?: string[]
   excluded?: string[]
-  itinerary?: { day: number | string; title: string; activities: string }[]
+  itinerary?: {
+    day: number | string
+    dayLabel?: string
+    title: string
+    activities: string
+  }[]
   journeyMap?: string | null
   createdAt: string | null
   updatedAt: string | null

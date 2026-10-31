@@ -5,6 +5,14 @@ export type ApiDestination = {
   name: string
   description: string | null
   imageUrl: string | null
+  region: string | null
+  tag: string | null
+  teaser: string | null
+  intro: string | null
+  bestTime: string | null
+  duration: string | null
+  altitude: string | null
+  highlights: string[]
   canonical: { slug: string | null }
 }
 

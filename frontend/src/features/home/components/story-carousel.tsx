@@ -86,8 +86,6 @@ export function StoryCarousel({ tours: providedTours }: { tours?: Tour[] }) {
 function JourneyTile({ tour: t, large }: { tour: Tour; large: boolean }) {
   const copy = useCopy()
 
-  const staticTours = getTours(useLocale() as AppLocale)
-
   const kind = t.style.split(' · ')[0]
 
   return (

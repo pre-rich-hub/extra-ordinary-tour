@@ -1,23 +1,26 @@
 import { useCopy } from '@/i18n/copy'
-import { useLocale } from 'next-intl'
-import type { AppLocale } from '@/i18n/routing'
 import { Link } from '@/i18n/navigation'
 import { ArrowRight } from 'lucide-react'
 import { Reveal } from '@/components/ui/reveal'
 import { TourCard } from './tour-card'
-import { getTours } from '../data/localized'
-import { getDestinations } from '@/features/destinations/data/localized'
 import { relatedTours } from '@/features/destinations/data/relations'
+import type { Destination } from '@/features/destinations/types'
 import type { Tour } from '../types'
 
-export function RelatedTours({ tour: t }: { tour: Tour }) {
+export function RelatedTours({
+  tour: t,
+  tours,
+  destinations,
+}: {
+  tour: Tour
+  tours: Tour[]
+  destinations: Destination[]
+}) {
   const copy = useCopy()
 
-  const locale = useLocale() as AppLocale
-  const tours = getTours(locale)
   const current = tours.find((o) => o.slug === t.slug) ?? t
 
-  const others = relatedTours(current, tours, getDestinations(locale))
+  const others = relatedTours(current, tours, destinations)
   if (!others.length) return null
   return (
     <section className="shell py-16 sm:py-20 lg:py-28">
