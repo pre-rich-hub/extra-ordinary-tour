@@ -7,6 +7,7 @@ import { ok } from "../../utils/api-response.js";
 import { HttpError } from "../../middleware/error.middleware.js";
 import { uploadFor, urlForFile } from "../../middleware/upload.middleware.js";
 import { mapDestination } from "../../utils/mappers.js";
+import { removeStoredFile } from "../../services/file.service.js";
 import { slugify } from "../../utils/slug.js";
 
 export const destinationsRouter: RouterType = Router();
@@ -95,7 +96,8 @@ destinationsRouter.delete(
   "/destinations/:id",
   asyncHandler(async (req, res) => {
     const id = idParam.parse(req.params.id);
-    await prisma.destination.delete({ where: { id } });
+    const destination = await prisma.destination.delete({ where: { id } });
+    await removeStoredFile(destination.imageUrl);
     return ok(res, "Destination deleted successfully", null);
   }),
 );

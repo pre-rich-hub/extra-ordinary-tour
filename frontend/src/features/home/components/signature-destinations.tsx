@@ -6,11 +6,17 @@ import { SectionHeading } from '@/components/ui/section-heading'
 import { DestinationFeatureCard } from '@/features/destinations/components/destination-card'
 import { LinkButton } from '@/components/ui/link-button'
 import { getDestinations } from '@/features/destinations/data/localized'
+import type { Destination } from '@/features/destinations/types'
 
-export function SignatureDestinations() {
+export function SignatureDestinations({
+  destinations: provided,
+}: {
+  destinations?: Destination[]
+}) {
   const copy = useCopy()
 
-  const destinations = getDestinations(useLocale() as AppLocale)
+  const staticDestinations = getDestinations(useLocale() as AppLocale)
+  const destinations = provided ?? staticDestinations
 
   const featured = destinations.slice(0, 6)
 

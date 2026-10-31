@@ -25,8 +25,12 @@ export function TourEnquiry({ tour: t }: { tour: Tour }) {
             )}
           </p>
           <p className="mt-8 border-l-2 border-accent pl-5 text-sm leading-relaxed text-background/70">
-            {copy('Runs ')}
-            {copy(t.season)} · {copy(t.group)} ·{' '}
+            {t.season && t.group && (
+              <>
+                {copy('Runs ')}
+                {copy(t.season)} · {copy(t.group)} ·{' '}
+              </>
+            )}
             <span className="text-background">
               {hasPrice(t.from)
                 ? copy('starting from {v0}', { v0: t.from })

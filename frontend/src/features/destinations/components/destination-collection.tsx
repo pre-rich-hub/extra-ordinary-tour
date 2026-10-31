@@ -1,17 +1,17 @@
 import { useCopy } from '@/i18n/copy'
-import { useLocale } from 'next-intl'
-import type { AppLocale } from '@/i18n/routing'
 import { Reveal } from '@/components/ui/reveal'
 import { SectionNav } from '@/components/ui/section-nav'
 import { DestinationInfoCard } from './destination-card'
 import { SectionHeading } from '@/components/ui/section-heading'
-import { getDestinations } from '../data/localized'
 import { destinationRegions, regionMembers } from '../data/regions'
+import type { Destination } from '../types'
 
-export function DestinationCollection() {
+export function DestinationCollection({
+  destinations,
+}: {
+  destinations: Destination[]
+}) {
   const copy = useCopy()
-
-  const destinations = getDestinations(useLocale() as AppLocale)
 
   // One section per region, in the client's order; labels come from the
   // destinations themselves so they follow the page language.

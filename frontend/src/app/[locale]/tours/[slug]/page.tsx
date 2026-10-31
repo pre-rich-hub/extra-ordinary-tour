@@ -6,7 +6,6 @@ import type { Metadata } from 'next'
 import { notFound } from 'next/navigation'
 import { JsonLd } from '@/components/seo/json-ld'
 import { pageGraph, tripSchema } from '@/lib/seo/schema'
-import { getTour } from '@/features/tours/data/localized'
 import { getTourData } from '@/features/tours/server/catalog'
 import { hasPrice, priceShort } from '@/features/tours/lib/format'
 import { PageHero } from '@/components/layout/page-hero'
@@ -39,7 +38,7 @@ export async function generateMetadata({
   const { locale, slug } = await params
   if (!isLocale(locale)) notFound()
   setRequestLocale(locale)
-  const t = getTour(slug, locale)
+  const t = await getTourData(slug, locale)
   if (!t) notFound()
   return buildPageMetadata(
     {
@@ -98,7 +97,7 @@ export default async function TourPage({
               ? priceShort(t.from)
               : copy('Designed Around You'),
           },
-        ]}
+        ].filter((m) => m.value)}
       />
 
       {/* Overview + itinerary, with the pricing card pinned alongside */}
@@ -108,14 +107,14 @@ export default async function TourPage({
         <TourBooking tour={t} />
 
         {/* Itinerary */}
-        <TourItinerary tour={t} />
+        {t.itinerary.length > 0 && <TourItinerary tour={t} />}
       </section>
 
       {/* Includes / excludes */}
       <TourInclusions tour={t} />
 
       {/* Questions answered from this tour's data */}
-      <TourFaq tour={t} />
+      {t.itinerary.length > 0 && <TourFaq tour={t} />}
 
       {/* Reviews */}
       <ReviewHighlights />

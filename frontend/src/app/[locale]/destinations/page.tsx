@@ -8,8 +8,7 @@ import { pageGraph } from '@/lib/seo/schema'
 import type { Metadata } from 'next'
 import { PageHero } from '@/components/layout/page-hero'
 import { CtaBand } from '@/components/layout/cta-band'
-import { destinations } from '@/features/destinations/data/destinations'
-import { getDestinations } from '@/features/destinations/data/localized'
+import { getDestinationsData } from '@/features/destinations/server/catalog'
 import { DestinationCollection } from '@/features/destinations/components/destination-collection'
 
 export async function generateMetadata({
@@ -44,7 +43,7 @@ export default async function DestinationsPage({
   if (!isLocale(locale)) notFound()
   setRequestLocale(locale)
   const copy = await getCopy()
-  const destinations = getDestinations(locale)
+  const destinations = await getDestinationsData(locale)
 
   const crumbs = [
     { label: copy('Home'), href: '/' },
@@ -81,7 +80,7 @@ export default async function DestinationsPage({
         ]}
       />
 
-      <DestinationCollection />
+      <DestinationCollection destinations={destinations} />
 
       <CtaBand
         title={copy('Not sure where to begin?')}
@@ -94,3 +93,5 @@ export default async function DestinationsPage({
     </>
   )
 }
+
+export const revalidate = 3600

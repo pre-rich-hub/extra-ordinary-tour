@@ -55,8 +55,13 @@ const shots = [
   },
 ]
 
-export function Gallery() {
+export function Gallery({ uploads = [] }: { uploads?: string[] }) {
   const copy = useCopy()
+  // Admin uploads carry no caption, so they lead under the country's name.
+  const slides = [
+    ...uploads.map((src) => ({ src, location: 'Ethiopia', description: '' })),
+    ...shots,
+  ]
 
   const [activeIndex, setActiveIndex] = useState(0)
   const [isPlaying, setIsPlaying] = useState(true)
@@ -64,10 +69,10 @@ export function Gallery() {
   useEffect(() => {
     if (!isPlaying) return
     const interval = setInterval(() => {
-      setActiveIndex((prev) => (prev + 1) % shots.length)
+      setActiveIndex((prev) => (prev + 1) % slides.length)
     }, 7000)
     return () => clearInterval(interval)
-  }, [isPlaying, activeIndex])
+  }, [isPlaying, activeIndex, slides.length])
 
   return (
     <section
@@ -75,13 +80,13 @@ export function Gallery() {
       aria-label={copy('Photo gallery')}
       className="group/viewport relative isolate h-[100svh] min-h-[560px] w-full overflow-hidden bg-charcoal"
     >
-      {shots.map((shot, idx) => {
+      {slides.map((slide, idx) => {
         const isActive = idx === activeIndex
         // Alternate animation direction/style
         const kbClass = idx % 2 === 0 ? 'animate-kb-1' : 'animate-kb-2'
         return (
           <div
-            key={shot.src}
+            key={slide.src}
             aria-hidden={!isActive}
             className={`absolute inset-0 transition-opacity duration-[2000ms] ease-in-out ${
               isActive
@@ -90,8 +95,8 @@ export function Gallery() {
             }`}
           >
             <Image
-              src={shot.src}
-              alt={copy('{v0}, Ethiopia', { v0: shot.location })}
+              src={slide.src}
+              alt={copy('{v0}, Ethiopia', { v0: slide.location })}
               fill
               sizes="100vw"
               className={`object-cover ${isActive ? kbClass : 'scale-100'}`}
@@ -113,20 +118,20 @@ export function Gallery() {
           >
             <span className="text-[10px] font-semibold uppercase tracking-[0.22em] text-accent">
               {String(activeIndex + 1).padStart(2, '0')} /{' '}
-              {String(shots.length).padStart(2, '0')}{' '}
+              {String(slides.length).padStart(2, '0')}{' '}
               {copy('· Captured Moments')}
             </span>
             <h3 className="mt-2 font-serif text-3xl font-normal tracking-wide text-white sm:text-4xl lg:text-5xl">
-              {copy(shots[activeIndex].location)}
+              {copy(slides[activeIndex].location)}
             </h3>
             <p className="mt-2 font-sans text-sm leading-relaxed text-sand/80 sm:text-base">
-              {copy(shots[activeIndex].description)}
+              {copy(slides[activeIndex].description)}
             </p>
           </div>
 
           <div className="flex shrink-0 flex-col items-start gap-5 sm:items-end">
             <div className="hidden items-center gap-2 sm:flex">
-              {shots.map((_, idx) => {
+              {slides.map((_, idx) => {
                 const isActive = idx === activeIndex
                 return (
                   <button
@@ -162,7 +167,7 @@ export function Gallery() {
               <button
                 onClick={() =>
                   setActiveIndex(
-                    (prev) => (prev - 1 + shots.length) % shots.length,
+                    (prev) => (prev - 1 + slides.length) % slides.length,
                   )
                 }
                 className="p-3 rounded-full bg-charcoal/50 backdrop-blur-md border border-sand/20 hover:border-accent hover:bg-accent hover:text-accent-foreground text-sand transition-all duration-300 cursor-pointer"
@@ -172,7 +177,7 @@ export function Gallery() {
               </button>
               <button
                 onClick={() =>
-                  setActiveIndex((prev) => (prev + 1) % shots.length)
+                  setActiveIndex((prev) => (prev + 1) % slides.length)
                 }
                 className="p-3 rounded-full bg-charcoal/50 backdrop-blur-md border border-sand/20 hover:border-accent hover:bg-accent hover:text-accent-foreground text-sand transition-all duration-300 cursor-pointer"
                 aria-label={copy('Next slide')}

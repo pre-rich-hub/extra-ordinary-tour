@@ -74,7 +74,7 @@ export function InfoCard({
         </p>
 
         <ul className="mt-5 grid grid-cols-2 gap-x-4 gap-y-3">
-          {facts.map(({ icon: Icon, label }) => (
+          {facts.filter((f) => f.label).map(({ icon: Icon, label }) => (
             <li
               key={label}
               className="flex min-w-0 items-start gap-2.5 text-sm leading-snug text-foreground/85"

@@ -39,7 +39,7 @@ export function BookingCard({
 
       <div className="bg-parchment px-6 pb-6 pt-1.5">
         <dl className="divide-y divide-linen-edge">
-          {rows.map((row) => (
+          {rows.filter((row) => row.v).map((row) => (
             <div
               key={row.k}
               className="flex items-center justify-between gap-5 py-3.5"

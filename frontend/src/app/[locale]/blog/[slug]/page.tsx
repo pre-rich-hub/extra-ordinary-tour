@@ -6,20 +6,20 @@ import type { Metadata } from 'next'
 import { notFound } from 'next/navigation'
 import { JsonLd } from '@/components/seo/json-ld'
 import { articleSchema, pageGraph } from '@/lib/seo/schema'
-import { posts } from '@/features/blog/data/posts'
-import { getPosts, getPost } from '@/features/blog/data/localized'
+import { getPostData } from '@/features/blog/server/catalog'
 import { CtaBand } from '@/components/layout/cta-band'
 import { ArticleHeader } from '@/features/blog/components/article-header'
 import { ArticleImage } from '@/features/blog/components/article-image'
 import { ArticleBody } from '@/features/blog/components/article-body'
 import { RelatedPosts } from '@/features/blog/components/related-posts'
 
+// Articles can be added from the admin, so slugs render on demand and stay
+// cached for an hour, the same way tour pages do.
 export function generateStaticParams() {
-  return posts.map((p) => ({ slug: p.slug }))
+  return []
 }
-// Articles are static data, so every slug is pre-rendered. Without this flag
-// Next keeps a fallback render function for unknown slugs.
-export const dynamicParams = false
+export const dynamicParams = true
+export const revalidate = 3600
 
 export async function generateMetadata({
   params,
@@ -29,7 +29,7 @@ export async function generateMetadata({
   const { locale, slug } = await params
   if (!isLocale(locale)) notFound()
   setRequestLocale(locale)
-  const p = getPost(slug, locale)
+  const p = await getPostData(slug, locale)
   if (!p) notFound()
   return buildPageMetadata(
     {
@@ -59,8 +59,7 @@ export default async function ArticlePage({
   if (!isLocale(locale)) notFound()
   setRequestLocale(locale)
   const copy = await getCopy()
-  const posts = getPosts(locale)
-  const post = getPost(slug, locale)
+  const post = await getPostData(slug, locale)
   if (!post) notFound()
 
   return (

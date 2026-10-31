@@ -6,11 +6,10 @@ import type { Metadata } from 'next'
 import { notFound } from 'next/navigation'
 import { JsonLd } from '@/components/seo/json-ld'
 import { destinationSchema, pageGraph } from '@/lib/seo/schema'
-import { destinations } from '@/features/destinations/data/destinations'
 import {
-  getDestinations,
-  getDestination,
-} from '@/features/destinations/data/localized'
+  getDestinationsData,
+  getDestinationData,
+} from '@/features/destinations/server/catalog'
 import { PageHero } from '@/components/layout/page-hero'
 import { CtaBand } from '@/components/layout/cta-band'
 import { DestinationOverview } from '@/features/destinations/components/destination-overview'
@@ -21,12 +20,13 @@ import { DestinationArticles } from '@/features/destinations/components/destinat
 import { DestinationRegion } from '@/features/destinations/components/destination-region'
 import { DestinationEnquiry } from '@/features/destinations/components/destination-enquiry'
 
+// Destinations can be added from the admin, so slugs render on demand and stay
+// cached for an hour, the same way tour pages do.
 export function generateStaticParams() {
-  return destinations.map((d) => ({ slug: d.slug }))
+  return []
 }
-// Destination content is static data, so every slug is pre-rendered. Without
-// this flag Next keeps a fallback render function for unknown slugs.
-export const dynamicParams = false
+export const dynamicParams = true
+export const revalidate = 3600
 
 export async function generateMetadata({
   params,
@@ -36,7 +36,7 @@ export async function generateMetadata({
   const { locale, slug } = await params
   if (!isLocale(locale)) notFound()
   setRequestLocale(locale)
-  const d = getDestination(slug, locale)
+  const d = await getDestinationData(slug, locale)
   if (!d) notFound()
   const copy = await getCopy()
   return buildPageMetadata(
@@ -59,8 +59,8 @@ export default async function DestinationPage({
   if (!isLocale(locale)) notFound()
   setRequestLocale(locale)
   const copy = await getCopy()
-  const destinations = getDestinations(locale)
-  const d = getDestination(slug, locale)
+  const destinations = await getDestinationsData(locale)
+  const d = destinations.find((o) => o.slug === slug)
   if (!d) notFound()
 
   const crumbs = [
@@ -92,7 +92,7 @@ export default async function DestinationPage({
           { label: copy('Suggested Stay'), value: d.duration },
           { label: copy('Altitude'), value: d.altitude },
           { label: copy('Region'), value: d.region },
-        ]}
+        ].filter((m) => m.value)}
       />
 
       {/* Essay + highlights, with the planning card pinned alongside */}
@@ -101,7 +101,7 @@ export default async function DestinationPage({
 
         <DestinationBooking destination={d} />
 
-        <DestinationHighlights destination={d} />
+        {d.highlights.length > 0 && <DestinationHighlights destination={d} />}
 
         {/* Related tours, in the left column so the card stays pinned */}
         <DestinationTours destination={d} />
