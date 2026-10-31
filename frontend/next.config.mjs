@@ -59,11 +59,64 @@ const nextConfig = {
       ['blog/about-ethiopia', 'about-ethiopia'],
       ['blog/what-to-know-before-visiting-ethiopia', 'travel-guide'],
       ['destinations/yirgacheffe-and-sidama', 'destinations/yirgacheffe'],
-    ].map(([from, to]) => ({
-      source: `/:locale(en|es|fr|de)/${from}`,
-      destination: `/:locale/${to}`,
-      permanent: true,
-    }))
+    ]
+      .map(([from, to]) => ({
+        source: `/:locale(en|es|fr|de)/${from}`,
+        destination: `/:locale/${to}`,
+        permanent: true,
+      }))
+      .concat(
+        // Pages of the client's previous, English-only site that Google still
+        // requests. Its spam pages (/shop/…, /cate-…) are left to 404.
+        [
+          ['3-days-smnp-trekking', 'tours/3-day-simien-mountains-trek'],
+          ['4-days-addis-lalibela-tours', 'tours/4-day-addis-and-lalibela'],
+          [
+            '5-days-simien-mountains-national-park-tours',
+            'tours/5-day-simien-mountains-trek',
+          ],
+          ['5-days-smnp-tours', 'tours/5-day-simien-mountains-trek'],
+          [
+            '5-days-tigray-churches-tours',
+            'tours/5-day-tigray-rock-hewn-churches',
+          ],
+          [
+            '5-days-timket-festival-tours',
+            'tours/5-day-timkat-festival-lalibela',
+          ],
+          [
+            '6-days-bale-mountain-national-park-trekking',
+            'tours/6-day-bale-mountains-trek',
+          ],
+          [
+            '6-days-omo-valley-cultural-tours',
+            'tours/6-day-omo-valley-tribal-and-cultural',
+          ],
+          [
+            '8-days-north-with-christmas-festival-tours',
+            'tours/8-day-north-with-genna-christmas',
+          ],
+          ['abijatta-shalla-lake', 'destinations/abijatta-shalla'],
+          ['semien-mountain-national-park', 'destinations/simien-mountains'],
+          ['negashi', 'destinations/negash'],
+          ['hammer', 'destinations/hamar-people'],
+          ['festival-events', 'destinations#festivals-and-events'],
+          ['nature-wildlife', 'destinations#nature-and-wildlife'],
+          ['important-information-holidays', 'travel-guide#holidays'],
+          [
+            '2026/06/12/lalibela-churches-guide-discover-ethiopias-remarkable-rock-hewn-wonders',
+            'blog/lalibela-churches-guide',
+          ],
+          [
+            '2026/06/17/simien-mountains-trekking-guide-2026-ethiopias-roof-of-africa-adventure',
+            'blog/simien-mountains-trekking-guide',
+          ],
+        ].map(([from, to]) => ({
+          source: `/${from}`,
+          destination: `/en/${to}`,
+          permanent: true,
+        })),
+      )
   },
   async rewrites() {
     const apiBase = resolveApiBase(process.env.API_BASE_URL)
