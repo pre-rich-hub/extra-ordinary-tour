@@ -1,4 +1,5 @@
 import assert from 'node:assert/strict'
+import { catalogueSpecs, readCatalogue } from './i18n-catalogue.mjs'
 
 const base = process.env.SEO_BASE_URL ?? 'http://127.0.0.1:3104'
 const preview = process.env.SEO_CHECK_PREVIEW === '1'
@@ -26,7 +27,6 @@ for (const agent of Object.values(agents)) {
     '/es/destinations/unknown-seo',
     '/fr/blog/unknown-seo',
     '/en/unknown-seo',
-    '/de',
     '/en/admin',
   ]) {
     const { response, html } = await get(path, agent)
@@ -82,7 +82,18 @@ assert.match(rules, /Allow: \//)
 assert.doesNotMatch(rules, /Disallow: \/(?:admin|login)/)
 assert.equal(rules.includes('Sitemap:'), !preview)
 const { html: xml } = await get('/sitemap.xml')
-assert.equal((xml.match(/<loc>/g) ?? []).length, preview ? 0 : 401)
+// 11 fixed pages plus every tour, destination and article, in 4 languages.
+const sitemapPages =
+  4 *
+  (11 +
+    ['tours', 'destinations', 'blog']
+      .map(
+        (feature) =>
+          readCatalogue(catalogueSpecs.find((spec) => spec.feature === feature))
+            .length,
+      )
+      .reduce((a, b) => a + b))
+assert.equal((xml.match(/<loc>/g) ?? []).length, preview ? 0 : sitemapPages)
 console.log(
   `PASS: ${checked} ${preview ? 'preview' : 'production'} technical SEO responses (browser, Googlebot and Twitterbot).`,
 )

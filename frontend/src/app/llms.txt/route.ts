@@ -19,7 +19,7 @@ export function GET() {
     '',
     '> A locally based Ethiopia tour operator in Lalibela, running private and customized journeys across Ethiopia: the historic north, the Omo Valley, the Danakil Depression, the Simien and Bale Mountains, festivals, coffee and Addis Ababa layovers.',
     '',
-    `Contact, 24 hours a day: ${contact.phone} (phone and WhatsApp), ${contact.ukPhone} (UK phone), ${contact.email}. Address: ${contact.address}. Every itinerary can be tailor-made; prices are quoted for the traveller's dates and group. Pages are published in English, Spanish (/es) and French (/fr); English URLs are listed here.`,
+    `Contact, 24 hours a day: ${contact.phone} (phone and WhatsApp), ${contact.ukPhone} (UK phone), ${contact.email}. Address: ${contact.address}. Every itinerary can be tailor-made; prices are quoted for the traveller's dates and group. Pages are published in English, Spanish (/es), French (/fr) and German (/de); English URLs are listed here.`,
     '',
     '## Company',
     '',
@@ -63,11 +63,15 @@ export function GET() {
     '',
     '## Optional',
     '',
-    entry('/privacy-policy', 'Privacy policy', 'English only'),
+    entry(
+      '/privacy-policy',
+      'Privacy policy',
+      'how personal information is collected, used and protected',
+    ),
     entry(
       '/terms-and-conditions',
       'Terms and conditions',
-      'booking, payment and cancellation terms; English only',
+      'booking, payment and cancellation terms',
     ),
     '',
   ].join('\n')
