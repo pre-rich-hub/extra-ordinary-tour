@@ -199,6 +199,43 @@ describe('database catalogue', () => {
   })
 })
 
+describe('a backend that has not deployed the catalogue fields yet', () => {
+  it('keeps the bundled copy for rows without them', async () => {
+    const [destination] = getDestinations()
+    const [post] = getPosts()
+    mockApi({
+      '/api/v1/destinations': [
+        {
+          id: 1,
+          name: destination.name,
+          description: destination.paragraphs.join('\n\n'),
+          imageUrl: destination.image,
+          canonical: { slug: destination.slug },
+        },
+      ],
+      '/api/v1/blog': [
+        {
+          slug: post.slug,
+          title: post.title,
+          description: post.excerpt,
+          imageUrl: post.image,
+          category: { name: post.category },
+          createdAt: '2026-07-11T00:00:00.000Z',
+        },
+      ],
+    })
+    expect(await getDestinationData(destination.slug)).toMatchObject({
+      highlights: destination.highlights,
+      teaser: destination.teaser,
+    })
+    expect(await getPostData(post.slug)).toMatchObject({
+      body: post.body,
+      excerpt: post.excerpt,
+      author: post.author,
+    })
+  })
+})
+
 describe('admin article text', () => {
   it('reads paragraphs, headings and lists', () => {
     expect(parseArticle('One\n\n## Two\n\n- a\n- b\n\n')).toEqual([

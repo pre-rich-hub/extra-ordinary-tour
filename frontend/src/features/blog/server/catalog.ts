@@ -38,8 +38,9 @@ function fromDatabase(
     authorRole: live.authorRole ?? fallback?.authorRole ?? 'Travel Writer',
     ...(live.authorImage ? { authorImage: live.authorImage } : {}),
     excerpt:
-      (live.content ? live.description : null) ?? firstSentence(article),
-    body: parseArticle(article),
+      (live.content ? live.description : fallback?.excerpt) ??
+      firstSentence(article),
+    body: live.content || !fallback ? parseArticle(article) : fallback.body,
     featured: live.isFeatured,
   }
 }

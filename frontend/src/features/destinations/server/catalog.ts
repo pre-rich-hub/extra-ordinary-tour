@@ -30,7 +30,7 @@ function fromDatabase(
     bestTime: live.bestTime || fallback?.bestTime || '',
     duration: live.duration || fallback?.duration || '',
     altitude: live.altitude || fallback?.altitude || '',
-    highlights: live.highlights.length
+    highlights: live.highlights?.length
       ? live.highlights
       : (fallback?.highlights ?? []),
     paragraphs: paragraphs.length ? paragraphs : (fallback?.paragraphs ?? []),

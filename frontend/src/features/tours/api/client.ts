@@ -34,8 +34,10 @@ export type ApiTour = {
   season: string | null
   group: string | null
   teaser: string | null
-  highlights: string[]
-  places: string[]
+  // Optional because the two projects deploy separately: this frontend can
+  // build against a backend that does not send the catalogue fields yet.
+  highlights?: string[]
+  places?: string[]
   included?: string[]
   excluded?: string[]
   itinerary?: {
