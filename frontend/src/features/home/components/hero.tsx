@@ -18,7 +18,7 @@ export function Hero() {
 
       <div className="shell flex flex-1 flex-col items-center pb-20 pt-32 text-center sm:pb-24 lg:pb-28">
         <div className="flex flex-1 flex-col items-center justify-center">
-          <h1 className="max-w-[18ch] text-balance text-[2.6rem] font-medium leading-[1.02] tracking-[-0.01em] text-background text-shadow-soft [animation:fade-up_1s_ease_0.1s_both] sm:text-6xl lg:text-7xl xl:text-[5.5rem]">
+          <h1 className="max-w-[18ch] text-balance text-[2.6rem] font-medium leading-[1.02] tracking-[-0.01em] text-background text-shadow-soft [animation:rise_1s_ease_0.1s_both] sm:text-6xl lg:text-7xl xl:text-[5.5rem]">
             {copy('Discover Ethiopia')}{' '}
             <em className="italic text-accent">
               {copy('Experience the Extraordinary!')}

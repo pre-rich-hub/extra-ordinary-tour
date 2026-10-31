@@ -516,7 +516,8 @@ export function SiteNav({
                 )}
               >
                 {languages.map((l) => (
-                  <li key={l.code.toUpperCase()}>
+                  // The <li> only lays out the list; listbox options must be its direct children.
+                  <li key={l.code.toUpperCase()} role="none">
                     <button
                       role="option"
                       aria-selected={l.code === lang.code}

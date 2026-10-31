@@ -170,6 +170,17 @@
   }
 }
 
+/* fade-up without the fade: the hero headline is the page's largest paint,
+   and a transparent first frame would hold that back. */
+@keyframes rise {
+  from {
+    transform: translate3d(0, 22px, 0);
+  }
+  to {
+    transform: none;
+  }
+}
+
 @keyframes slow-zoom {
   from {
     transform: scale(1.08);
@@ -216,7 +227,8 @@ html[data-lang-switch] .reveal {
   transition: none;
 }
 /* Stays set after the switch: dropping it would restart these animations. */
-html[data-lang-switched] :is(.animate-slow-zoom, [class*='animation:fade-up']) {
+html[data-lang-switched]
+  :is(.animate-slow-zoom, [class*='animation:fade-up'], [class*='animation:rise']) {
   animation: none;
 }
 

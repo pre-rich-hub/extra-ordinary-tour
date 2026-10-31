@@ -77,23 +77,28 @@ export function Gallery({ slides }: { slides: GallerySlide[] }) {
           </div>
 
           <div className="flex shrink-0 flex-col items-start gap-5 sm:items-end">
-            <div className="hidden items-center gap-2 sm:flex">
+            <div className="hidden items-center sm:flex">
               {slides.map((_, idx) => {
                 const isActive = idx === activeIndex
                 return (
+                  // A tap target of at least 24px around the small dot.
                   <button
                     key={idx}
                     onClick={() => {
                       setActiveIndex(idx)
                       setIsPlaying(true) // reset timer & keep playing on selection
                     }}
-                    className={`h-1.5 rounded-full transition-all duration-500 cursor-pointer ${
-                      isActive
-                        ? 'w-8 bg-accent'
-                        : 'w-2 bg-white/40 hover:bg-white/80'
-                    }`}
+                    className="group flex h-7 min-w-7 cursor-pointer items-center justify-center"
                     aria-label={copy('Go to slide {v0}', { v0: idx + 1 })}
-                  />
+                  >
+                    <span
+                      className={`h-1.5 rounded-full transition-all duration-500 ${
+                        isActive
+                          ? 'w-8 bg-accent'
+                          : 'w-2 bg-white/40 group-hover:bg-white/80'
+                      }`}
+                    />
+                  </button>
                 )
               })}
             </div>
