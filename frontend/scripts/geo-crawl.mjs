@@ -103,7 +103,7 @@ check(
 const origin = 'https://extraordinaryethiopiatours.com'
 const links = [...index.matchAll(/\]\((https:[^)]+)\)/g)].map((m) => m[1])
 const expected =
-  6 +
+  7 +
   ['tours', 'destinations', 'blog']
     .map(
       (feature) =>
