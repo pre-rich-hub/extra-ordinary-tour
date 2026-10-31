@@ -3,11 +3,19 @@ import { routing } from '@/i18n/routing'
 import { isPublished } from '@/i18n/publication'
 import { languageAlternates, localePath, siteOrigin } from '@/lib/seo/metadata'
 import { isProductionDeployment } from '@/lib/seo/environment.mjs'
-import { tours } from '@/features/tours/data/tours'
-import { destinations } from '@/features/destinations/data/destinations'
-import { posts } from '@/features/blog/data/posts'
-export default function sitemap(): MetadataRoute.Sitemap {
+import { getToursData } from '@/features/tours/server/catalog'
+import { getDestinationsData } from '@/features/destinations/server/catalog'
+import { getPostsData } from '@/features/blog/server/catalog'
+
+export const revalidate = 3600
+
+export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   if (!isProductionDeployment()) return []
+  const [tours, destinations, posts] = await Promise.all([
+    getToursData(),
+    getDestinationsData(),
+    getPostsData(),
+  ])
   const paths = [
     '/',
     '/about',

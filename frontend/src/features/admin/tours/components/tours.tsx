@@ -3,6 +3,7 @@
 import { useCallback, useEffect, useState } from 'react'
 import Link from 'next/link'
 import { Plus, Search, Edit, Trash2, Loader2, Compass } from 'lucide-react'
+import { refreshPublicSite } from '../../lib/api'
 
 type TourListItem = {
   id: number
@@ -57,6 +58,7 @@ export function AdminTours() {
       })
       const data = await res.json()
       if (!res.ok || !data.success) throw new Error(data.message || 'Tour could not be deleted.')
+      await refreshPublicSite()
       setTours((current) => current.filter((item) => item.id !== tour.id))
       setSuccess(`“${tour.name}” was removed from the website.`)
     } catch (error) {

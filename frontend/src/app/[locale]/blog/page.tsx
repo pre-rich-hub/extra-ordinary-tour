@@ -12,8 +12,7 @@ import { PostCard } from '@/features/blog/components/post-card'
 import { PostsGrid } from '@/features/blog/components/posts-grid'
 import { SectionHeading } from '@/components/ui/section-heading'
 import { CtaBand } from '@/components/layout/cta-band'
-import { posts } from '@/features/blog/data/posts'
-import { getPosts } from '@/features/blog/data/localized'
+import { getPostsData } from '@/features/blog/server/catalog'
 import { NewsletterSection } from '@/features/newsletter/components/newsletter-section'
 
 export async function generateMetadata({
@@ -46,7 +45,7 @@ export default async function BlogPage({
   if (!isLocale(locale)) notFound()
   setRequestLocale(locale)
   const copy = await getCopy()
-  const posts = getPosts(locale)
+  const posts = await getPostsData(locale)
 
   const featured = posts.find((p) => p.featured) ?? posts[0]
   const rest = posts.filter((p) => p.slug !== featured.slug)
@@ -120,3 +119,5 @@ export default async function BlogPage({
     </>
   )
 }
+
+export const revalidate = 3600

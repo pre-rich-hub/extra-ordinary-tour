@@ -130,8 +130,8 @@ describe('search publication', () => {
     }
     expect(languageAlternates('/tours')).toEqual(languages)
   })
-  it('lists 154 translated pages per language and excludes private URLs', () => {
-    const entries = sitemap()
+  it('lists 154 translated pages per language and excludes private URLs', async () => {
+    const entries = await sitemap()
     expect(entries).toHaveLength(616)
     expect(new Set(entries.map((entry) => entry.url)).size).toBe(616)
     const translated = entries.filter((entry) => entry.alternates)
@@ -157,7 +157,7 @@ describe('search publication', () => {
     })
     expect(localePath('/', 'fr')).toBe('/fr')
   })
-  it('keeps noindex and discovery exclusions if a locale is returned to draft', () => {
+  it('keeps noindex and discovery exclusions if a locale is returned to draft', async () => {
     const previous = publication.fr
     try {
       publication.fr = 'draft'
@@ -166,7 +166,7 @@ describe('search publication', () => {
       expect(metadata.robots).toEqual({ index: false, follow: true })
       expect(languageAlternates('/tours')).not.toHaveProperty('fr')
       expect(
-        sitemap().some((entry) =>
+        (await sitemap()).some((entry) =>
           new URL(entry.url).pathname.startsWith('/fr'),
         ),
       ).toBe(false)

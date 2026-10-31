@@ -3,14 +3,7 @@ import type { LayoverPackage } from '../types'
 import { getLayoverPackages as localizedPackages } from '../data/localized'
 import type { AppLocale } from '@/i18n/routing'
 import { getLayoverPackages, type ApiLayoverPackage } from '../api/client'
-
-// Local dev uploads live under /assets and are served by the backend process,
-// not the frontend. Production uses /api/v1/media or an absolute URL.
-function usableImage(image: string | null, fallback: string): string {
-  if (!image) return fallback
-  if (image.startsWith('/api/v1/') || /^https?:\/\//i.test(image)) return image
-  return fallback
-}
+import { usableImage } from '@/lib/media/usable-image'
 
 function toLayoverPackage(
   live: ApiLayoverPackage,

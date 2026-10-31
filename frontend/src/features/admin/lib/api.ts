@@ -9,6 +9,14 @@ export type AdminApiEnvelope<T> = {
   errors?: Array<{ path?: string; message: string }>
 }
 
+const publicContent =
+  /^\/api\/v1\/admin\/(tours|destinations|gallery|blog|categories)(\/|$)/
+
+/** Purge the cached public pages. The write already succeeded, so never fail. */
+export async function refreshPublicSite() {
+  await fetch('/admin/revalidate', { method: 'POST' }).catch(() => undefined)
+}
+
 export async function adminRequest<T>(
   path: string,
   init: RequestInit = {},
@@ -34,6 +42,9 @@ export async function adminRequest<T>(
           : 'The request could not be completed.'
     throw new Error(detail || payload?.message || statusMessage)
   }
+
+  const write = init.method && init.method !== 'GET'
+  if (write && publicContent.test(path)) await refreshPublicSite()
 
   return payload.data
 }

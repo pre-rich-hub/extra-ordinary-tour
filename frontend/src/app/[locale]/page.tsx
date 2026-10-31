@@ -8,6 +8,8 @@ import { pageGraph } from '@/lib/seo/schema'
 import { site } from '@/lib/seo/entities'
 import { storySlugs } from '@/features/home/data/signature-journeys'
 import { getToursData } from '@/features/tours/server/catalog'
+import { getDestinationsData } from '@/features/destinations/server/catalog'
+import { getGalleryData } from '@/features/home/server/gallery'
 import { Hero } from '@/features/home/components/hero'
 import { WhyTravel } from '@/features/home/components/why-travel'
 import { SignatureDestinations } from '@/features/home/components/signature-destinations'
@@ -29,7 +31,11 @@ export default async function Page({
   setRequestLocale(locale)
   const copy = await getCopy()
 
-  const tours = await getToursData(locale)
+  const [tours, destinations, galleryImages] = await Promise.all([
+    getToursData(locale),
+    getDestinationsData(locale),
+    getGalleryData(),
+  ])
   const stories = storySlugs
     .map((slug) => tours.find((t) => t.slug === slug))
     .filter((t): t is Tour => Boolean(t))
@@ -39,12 +45,12 @@ export default async function Page({
       <JsonLd data={pageGraph({ path: '/', locale, name: site.name })} />
       <Hero />
       <WhyTravel />
-      <SignatureDestinations />
+      <SignatureDestinations destinations={destinations} />
       <StoryCarousel tours={stories} />
       <FeaturedTours tours={tours} />
       <Experiences />
       <Reviews />
-      <Gallery />
+      <Gallery uploads={galleryImages} />
       <PlanJourney />
     </>
   )

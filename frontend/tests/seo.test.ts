@@ -49,14 +49,14 @@ describe('deployment indexing', () => {
     ).toBe(true)
   })
 
-  it('keeps preview pages crawlable and noindex, with no sitemap discovery', () => {
+  it('keeps preview pages crawlable and noindex, with no sitemap discovery', async () => {
     vi.stubEnv('SEO_ENV', 'preview')
     for (const locale of ['en', 'es', 'fr', 'de'] as const) {
       const metadata = buildPageMetadata({}, '/tours', locale)
       expect(metadata.robots).toEqual({ index: false, follow: true })
       expect(metadata.alternates?.canonical).toBe(`/${locale}/tours`)
     }
-    expect(sitemap()).toEqual([])
+    expect(await sitemap()).toEqual([])
     expect(robots().sitemap).toBeUndefined()
     const site = { allow: '/', disallow: ['/api/'] }
     expect(robots().rules).toEqual([
@@ -85,12 +85,12 @@ describe('deployment indexing', () => {
     ])
   })
 
-  it('keeps all 616 canonical URLs indexable in production', () => {
+  it('keeps all 616 canonical URLs indexable in production', async () => {
     vi.stubEnv('SEO_ENV', 'production')
     // 154 pages, legal pages included, in each of four languages.
-    expect(sitemap()).toHaveLength(616)
+    expect(await sitemap()).toHaveLength(616)
     expect(
-      sitemap()
+      (await sitemap())
         .filter((entry) => !entry.alternates)
         .map((e) => e.url),
     ).toEqual([])

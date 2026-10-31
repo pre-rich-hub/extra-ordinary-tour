@@ -6,7 +6,13 @@ import { asyncHandler } from "../../utils/async-handler.js";
 import { ok } from "../../utils/api-response.js";
 import { HttpError } from "../../middleware/error.middleware.js";
 import { validate } from "../../middleware/validate.middleware.js";
-import { mapLayoverPackage, mapTour } from "../../utils/mappers.js";
+import {
+  mapBlog,
+  mapDestination,
+  mapGalleryImage,
+  mapLayoverPackage,
+  mapTour,
+} from "../../utils/mappers.js";
 import { publicFormLimiter } from "../../middleware/rate-limit.middleware.js";
 import { sendContactAdminEmail } from "../../services/email.service.js";
 import {
@@ -58,6 +64,51 @@ publicRouter.get(
       "Layover packages fetched successfully",
       packages.map(mapLayoverPackage),
     );
+  }),
+);
+
+// ---------------------------------------------------------------------------
+// Destinations, gallery and journal
+// ---------------------------------------------------------------------------
+
+publicRouter.get(
+  "/destinations",
+  asyncHandler(async (_req, res) => {
+    const destinations = await prisma.destination.findMany({
+      orderBy: { id: "asc" },
+    });
+    return ok(
+      res,
+      "Destinations fetched successfully",
+      destinations.map(mapDestination),
+    );
+  }),
+);
+
+// Only the general gallery: images tied to a tour already show on that tour.
+publicRouter.get(
+  "/gallery",
+  asyncHandler(async (_req, res) => {
+    const images = await prisma.gallery.findMany({
+      where: { tourId: null },
+      orderBy: { id: "desc" },
+    });
+    return ok(
+      res,
+      "Gallery images fetched successfully",
+      images.map(mapGalleryImage),
+    );
+  }),
+);
+
+publicRouter.get(
+  "/blog",
+  asyncHandler(async (_req, res) => {
+    const posts = await prisma.blog.findMany({
+      include: { category: true },
+      orderBy: { id: "desc" },
+    });
+    return ok(res, "Blog posts fetched successfully", posts.map(mapBlog));
   }),
 );
 

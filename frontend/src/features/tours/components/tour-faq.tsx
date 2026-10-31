@@ -42,17 +42,21 @@ export function TourFaq({ tour: t }: { tour: Tour }) {
                   v0: first.title,
                 }),
         },
-        {
-          question: copy('When is the best time to take this tour?'),
-          answer: yearRound
-            ? copy(
-                'It runs year-round. Ask us about your dates and we will tell you honestly what the weather and roads will be like.',
-              )
-            : copy(
-                'Recommended season: {v0}. If your dates fall outside it, ask us and we will tell you honestly what the weather and roads will be like.',
-                { v0: t.season },
-              ),
-        },
+        ...(t.season
+          ? [
+              {
+                question: copy('When is the best time to take this tour?'),
+                answer: yearRound
+                  ? copy(
+                      'It runs year-round. Ask us about your dates and we will tell you honestly what the weather and roads will be like.',
+                    )
+                  : copy(
+                      'Recommended season: {v0}. If your dates fall outside it, ask us and we will tell you honestly what the weather and roads will be like.',
+                      { v0: t.season },
+                    ),
+              },
+            ]
+          : []),
         {
           question: copy('Is it private, and can the itinerary be changed?'),
           answer: copy(
