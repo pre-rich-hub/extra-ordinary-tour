@@ -1,22 +1,25 @@
 import { useCopy } from '@/i18n/copy'
-import { useLocale } from 'next-intl'
-import type { AppLocale } from '@/i18n/routing'
 import { Link } from '@/i18n/navigation'
 import { ArrowRight, MapPin } from 'lucide-react'
 import { Reveal } from '@/components/ui/reveal'
-import { getDestinations } from '@/features/destinations/data/localized'
 import { toursVisiting } from '@/features/destinations/data/relations'
-import { getTours } from '@/features/tours/data/localized'
-import { getPosts } from '../data/localized'
 import { postDestinations } from '../data/relations'
+import type { Destination } from '@/features/destinations/types'
+import type { Tour } from '@/features/tours/types'
 import type { Post } from '../types'
 
-export function ArticleBody({ post }: { post: Post }) {
+export function ArticleBody({
+  post,
+  posts,
+  destinations,
+  tours,
+}: {
+  post: Post
+  posts: Post[]
+  destinations: Destination[]
+  tours: Tour[]
+}) {
   const copy = useCopy()
-
-  const locale = useLocale() as AppLocale
-  const posts = getPosts(locale)
-  const destinations = getDestinations(locale)
 
   const index = posts.findIndex((p) => p.slug === post.slug)
   const next = posts[(index + 1) % posts.length]
@@ -24,7 +27,7 @@ export function ArticleBody({ post }: { post: Post }) {
     .map((slug) => destinations.find((d) => d.slug === slug))
     .filter((d) => d !== undefined)
   const journeys = covered.length
-    ? toursVisiting(covered[0], getTours(locale)).slice(0, 3)
+    ? toursVisiting(covered[0], tours).slice(0, 3)
     : []
   return (
     <div className="shell py-14 sm:py-16 lg:py-20">

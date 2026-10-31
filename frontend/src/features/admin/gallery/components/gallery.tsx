@@ -13,7 +13,7 @@ import {
 } from '../../components/admin-primitives'
 import { adminRequest } from '../../lib/api'
 
-type GalleryItem = { id: number; imageUrl: string; tourId: number | null; tour?: { id: number; name: string } | null }
+type GalleryItem = { id: number; imageUrl: string; tourId: number | null; location: string | null; caption: string | null; tour?: { id: number; name: string } | null }
 type Tour = { id: number; name: string }
 
 export function AdminGallery() {
@@ -64,6 +64,25 @@ export function AdminGallery() {
     }
   }
 
+  async function saveCaption(item: GalleryItem, event: FormEvent<HTMLFormElement>) {
+    event.preventDefault()
+    const formData = new FormData(event.currentTarget)
+    const body = {
+      location: String(formData.get('location') ?? ''),
+      caption: String(formData.get('caption') ?? ''),
+    }
+    try {
+      await adminRequest<GalleryItem>(`/api/v1/admin/gallery/${item.id}`, {
+        method: 'PUT',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(body),
+      })
+      setItems((current) => current.map((entry) => (entry.id === item.id ? { ...entry, ...body } : entry)))
+    } catch (error) {
+      setFeedback(error instanceof Error ? error.message : 'Caption could not be saved.')
+    }
+  }
+
   async function remove(item: GalleryItem) {
     if (!window.confirm('Delete this gallery image?')) return
     try {
@@ -84,7 +103,9 @@ export function AdminGallery() {
           <div className="mb-5 flex items-center justify-between"><h2 className="font-serif text-xl text-foreground">Upload gallery image</h2><button type="button" onClick={() => setFormOpen(false)} className="rounded-lg p-2 text-muted-foreground hover:bg-muted" aria-label="Close form"><X className="size-4" /></button></div>
           <div className="grid items-end gap-5 md:grid-cols-2">
             <label><span className={adminLabelClass}>Image</span><input name="galleryImage" type="file" accept="image/*" className={adminInputClass} required /></label>
-            <label><span className={adminLabelClass}>Related tour (optional)</span><select name="tourId" className={adminInputClass}><option value="">General gallery</option>{tours.map((tour) => <option key={tour.id} value={tour.id}>{tour.name}</option>)}</select></label>
+            <label><span className={adminLabelClass}>Location (slideshow title)</span><input name="location" className={adminInputClass} placeholder="e.g. Lalibela" /></label>
+            <label><span className={adminLabelClass}>Caption</span><input name="caption" className={adminInputClass} /></label>
+            <label className="md:col-span-2"><span className={adminLabelClass}>Related tour (optional)</span><select name="tourId" className={adminInputClass}><option value="">General gallery</option>{tours.map((tour) => <option key={tour.id} value={tour.id}>{tour.name}</option>)}</select></label>
           </div>
           <div className="mt-5 flex justify-end gap-3"><button type="button" onClick={() => setFormOpen(false)} className={adminSecondaryButtonClass}>Cancel</button><button type="submit" disabled={saving} className={adminPrimaryButtonClass} data-testid="save-gallery-image">{saving ? <Loader2 className="size-4 animate-spin" /> : <Upload className="size-4" />} Upload image</button></div>
         </form>
@@ -99,7 +120,7 @@ export function AdminGallery() {
               <div className="relative h-48 bg-muted bg-cover bg-center" style={{ backgroundImage: `url("${item.imageUrl}")` }}>
                 <button type="button" onClick={() => void remove(item)} className="absolute right-3 top-3 inline-flex size-9 items-center justify-center rounded-full bg-black/55 text-white opacity-0 backdrop-blur transition hover:bg-red-600 group-hover:opacity-100" aria-label="Delete image"><Trash2 className="size-4" /></button>
               </div>
-              <div className="p-4"><p className="truncate text-sm font-medium text-foreground">{item.tour?.name || 'General gallery'}</p><p className="mt-1 text-xs text-muted-foreground">Image #{item.id}</p></div>
+              <form onSubmit={(event) => void saveCaption(item, event)} className="space-y-2 p-4"><p className="truncate text-sm font-medium text-foreground">{item.tour?.name || 'General gallery'}</p><input name="location" defaultValue={item.location ?? ''} placeholder="Location" aria-label="Location" className={adminInputClass} /><input name="caption" defaultValue={item.caption ?? ''} placeholder="Caption" aria-label="Caption" className={adminInputClass} /><button type="submit" className={adminSecondaryButtonClass}>Save caption</button></form>
             </article>
           ))}
         </div>

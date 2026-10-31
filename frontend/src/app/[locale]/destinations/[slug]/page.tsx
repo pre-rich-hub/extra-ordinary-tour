@@ -10,6 +10,8 @@ import {
   getDestinationsData,
   getDestinationData,
 } from '@/features/destinations/server/catalog'
+import { getToursData } from '@/features/tours/server/catalog'
+import { getPostsData } from '@/features/blog/server/catalog'
 import { PageHero } from '@/components/layout/page-hero'
 import { CtaBand } from '@/components/layout/cta-band'
 import { DestinationOverview } from '@/features/destinations/components/destination-overview'
@@ -59,7 +61,11 @@ export default async function DestinationPage({
   if (!isLocale(locale)) notFound()
   setRequestLocale(locale)
   const copy = await getCopy()
-  const destinations = await getDestinationsData(locale)
+  const [destinations, tours, posts] = await Promise.all([
+    getDestinationsData(locale),
+    getToursData(locale),
+    getPostsData(locale),
+  ])
   const d = destinations.find((o) => o.slug === slug)
   if (!d) notFound()
 
@@ -104,15 +110,15 @@ export default async function DestinationPage({
         {d.highlights.length > 0 && <DestinationHighlights destination={d} />}
 
         {/* Related tours, in the left column so the card stays pinned */}
-        <DestinationTours destination={d} />
+        <DestinationTours destination={d} tours={tours} />
       </section>
 
       <DestinationRegion destination={d} destinations={destinations} />
 
       {/* Enquiry */}
-      <DestinationArticles destination={d} />
+      <DestinationArticles destination={d} posts={posts} />
 
-      <DestinationEnquiry destination={d} />
+      <DestinationEnquiry destination={d} destinations={destinations} />
 
       <CtaBand
         title={copy('Speak to someone who has been there this season')}

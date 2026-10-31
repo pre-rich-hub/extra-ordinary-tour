@@ -1,19 +1,24 @@
 import { site } from '@/lib/seo/entities'
 import { absoluteUrl } from '@/lib/seo/urls'
-import { tours } from '@/features/tours/data/tours'
-import { destinations } from '@/features/destinations/data/destinations'
-import { posts } from '@/features/blog/data/posts'
+import { getToursData } from '@/features/tours/server/catalog'
+import { getDestinationsData } from '@/features/destinations/server/catalog'
+import { getPostsData } from '@/features/blog/server/catalog'
 
 // Experimental index for AI tools (https://llmstxt.org); no engine has
 // confirmed using it (geo.md, G4). Generated from the same catalogues as the
 // sitemap, so it cannot list a page that does not exist.
-export const dynamic = 'force-static'
+export const revalidate = 3600
 
 const entry = (path: string, title: string, note: string) =>
   `- [${title}](${absoluteUrl(`/en${path === '/' ? '' : path}`)}): ${note}`
 
-export function GET() {
+export async function GET() {
   const { contact } = site
+  const [tours, destinations, posts] = await Promise.all([
+    getToursData(),
+    getDestinationsData(),
+    getPostsData(),
+  ])
   const body = [
     `# ${site.name}`,
     '',

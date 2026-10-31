@@ -4,8 +4,8 @@ import type { AppLocale } from '@/i18n/routing'
 import { Link } from '@/i18n/navigation'
 import { ArrowRight, Phone, Mail, MapPin } from 'lucide-react'
 import { contact, slogan } from '@/config/site'
-import { getDestinations } from '@/features/destinations/data/localized'
-import { getTours } from '@/features/tours/data/localized'
+import type { Destination } from '@/features/destinations/types'
+import type { Tour } from '@/features/tours/types'
 import {
   InstagramIcon,
   YouTubeIcon,
@@ -77,11 +77,15 @@ const payments: { name: string; mark: React.ReactNode }[] = [
   },
 ]
 
-export function SiteFooter() {
+export function SiteFooter({
+  destinations,
+  tours,
+}: {
+  destinations: Destination[]
+  tours: Tour[]
+}) {
   const copy = useCopy()
 
-  const destinations = getDestinations(useLocale() as AppLocale)
-  const tours = getTours(useLocale() as AppLocale)
   const columns = [
     {
       title: copy('Destinations'),

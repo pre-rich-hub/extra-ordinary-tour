@@ -5,7 +5,7 @@ import { prisma } from "../../config/database.js";
 import { asyncHandler } from "../../utils/async-handler.js";
 import { ok } from "../../utils/api-response.js";
 import { HttpError } from "../../middleware/error.middleware.js";
-import { uploadFor, urlForFile } from "../../middleware/upload.middleware.js";
+import { storedPathForFile, uploadFor, urlForFile } from "../../middleware/upload.middleware.js";
 import { mapBlog } from "../../utils/mappers.js";
 import { removeStoredFile } from "../../services/file.service.js";
 import { slugify } from "../../utils/slug.js";
@@ -15,6 +15,32 @@ export const blogRouter: RouterType = Router();
 const idParam = z.coerce.number().int().positive();
 
 const blogUpload = uploadFor("blog");
+
+const blogFieldsSchema = z.object({
+  blogTitle: z.string().trim().min(1).max(255),
+  blogDescription: z.string().trim().min(1),
+  blogContent: z.string().trim().min(1),
+  author: z.string().trim().min(1).max(160),
+  authorRole: z.string().trim().min(1).max(160),
+  isFeatured: z.string().optional(),
+  categoryId: z.coerce.number().int().positive().optional().or(z.literal("")),
+});
+
+function blogData(body: unknown) {
+  const { blogTitle, blogDescription, blogContent, author, authorRole, isFeatured, categoryId } =
+    blogFieldsSchema.parse(body);
+  const words = blogContent.split(/\s+/).length;
+  return {
+    blogTitle,
+    description: blogDescription,
+    content: blogContent,
+    author,
+    authorRole,
+    isFeatured: isFeatured === "true",
+    readTime: `${Math.max(1, Math.round(words / 200))} min read`,
+    categoryId: categoryId || null,
+  };
+}
 
 // ---------------------- Posts ----------------------
 
@@ -44,20 +70,17 @@ blogRouter.post(
   blogUpload.single("blogImage"),
   asyncHandler(async (req, res) => {
     const imageUrl = req.file ? urlForFile(req.file) : undefined;
-    const blogTitle = String(req.body.blogTitle ?? "");
-    const slug = slugify(blogTitle);
-    const post = await prisma.blog.create({
-      data: {
-        slug,
-        blogTitle,
-        description: String(req.body.blogDescription ?? ""),
-        imageUrl,
-        categoryId: req.body.categoryId ? Number(req.body.categoryId) : null,
-        createdAt: new Date(),
-      },
-      include: { category: true },
-    });
-    return ok(res, "Blog post created successfully", mapBlog(post), 201);
+    try {
+      const data = blogData(req.body);
+      const post = await prisma.blog.create({
+        data: { ...data, slug: slugify(data.blogTitle), imageUrl, createdAt: new Date() },
+        include: { category: true },
+      });
+      return ok(res, "Blog post created successfully", mapBlog(post), 201);
+    } catch (error) {
+      await removeStoredFile(storedPathForFile(req.file));
+      throw error;
+    }
   }),
 );
 
@@ -67,20 +90,24 @@ blogRouter.put(
   asyncHandler(async (req, res) => {
     const id = idParam.parse(req.params.id);
     const imageUrl = req.file ? urlForFile(req.file) : undefined;
-    const blogTitle = String(req.body.blogTitle ?? "");
-    const slug = slugify(blogTitle);
-    const post = await prisma.blog.update({
-      where: { id },
-      data: {
-        slug,
-        blogTitle,
-        description: String(req.body.blogDescription ?? ""),
-        categoryId: req.body.categoryId ? Number(req.body.categoryId) : null,
-        ...(imageUrl ? { imageUrl } : {}),
-      },
-      include: { category: true },
-    });
-    return ok(res, "Blog post updated successfully", mapBlog(post));
+    try {
+      // The slug stays put on edit: it is the public URL and the key that
+      // ties this row to its translated copy.
+      const previous = await prisma.blog.findUnique({
+        where: { id },
+        select: { imageUrl: true },
+      });
+      const post = await prisma.blog.update({
+        where: { id },
+        data: { ...blogData(req.body), updatedOn: new Date(), ...(imageUrl ? { imageUrl } : {}) },
+        include: { category: true },
+      });
+      if (imageUrl) await removeStoredFile(previous?.imageUrl);
+      return ok(res, "Blog post updated successfully", mapBlog(post));
+    } catch (error) {
+      await removeStoredFile(storedPathForFile(req.file));
+      throw error;
+    }
   }),
 );
 

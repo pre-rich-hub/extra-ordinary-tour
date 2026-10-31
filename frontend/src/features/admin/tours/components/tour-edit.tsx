@@ -4,6 +4,7 @@ import { useEffect, useState } from 'react'
 import { useRouter, useParams } from 'next/navigation'
 import { Loader2, Plus, X, ArrowUp, ArrowDown, Trash2, CalendarOff } from 'lucide-react'
 import { adminRequest } from '../../lib/api'
+import { TourDetailsFields, type TourDetails } from './tour-details-fields'
 import { adminPanelClass, adminInputClass, adminLabelClass } from '../../components/admin-primitives'
 
 type Destination = { id: number; name: string }
@@ -13,13 +14,14 @@ type BlockedDate = { id: number; date: string; reason: string | null }
 
 type ItineraryDay = {
   day: number
+  dayLabel?: string
   title: string
   activities: string
   overnight: string
   meals?: string
 }
 
-type TourData = {
+type TourData = TourDetails & {
   id: number
   name: string
   overview: string
@@ -98,6 +100,7 @@ export function AdminTourEdit() {
           tourData.itinerary?.length
             ? tourData.itinerary.map((item) => ({
                 day: item.day,
+                ...(item.dayLabel ? { dayLabel: item.dayLabel } : {}),
                 title: item.title ?? '',
                 activities: item.activities ?? '',
                 overnight: item.overnight ?? '',
@@ -444,6 +447,8 @@ export function AdminTourEdit() {
             className={`${fieldClass} resize-y`}
           />
         </section>
+
+        <TourDetailsFields tour={tour} />
 
         {/* Journey Map */}
         <section className={adminPanelClass}>

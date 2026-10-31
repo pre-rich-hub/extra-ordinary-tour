@@ -6,7 +6,7 @@ import { asyncHandler } from "../../utils/async-handler.js";
 import { ok } from "../../utils/api-response.js";
 import { HttpError } from "../../middleware/error.middleware.js";
 import { uploadFor, urlForFile } from "../../middleware/upload.middleware.js";
-import { parseCategoryIds, parseOptionalJsonArrayString, toBoolean, toNumber } from "../../utils/parsers.js";
+import { parseCategoryIds, parseLineList, parseOptionalJsonArrayString, toBoolean, toNumber } from "../../utils/parsers.js";
 import { parseValidDate } from "../../utils/dates.js";
 import { mapTour } from "../../utils/mappers.js";
 import { removeStoredFile } from "../../services/file.service.js";
@@ -48,6 +48,28 @@ async function uniqueTourSlug(title: string, excludeId?: number): Promise<string
 }
 
 const tourUpload = uploadFor("tour");
+
+// What the public tour page shows beyond the overview and itinerary.
+const tourDetailsSchema = z.object({
+  days: z.string().trim().min(1).max(120),
+  nights: z.coerce.number().int().min(0),
+  style: z.string().trim().min(1).max(255),
+  season: z.string().trim().min(1).max(255),
+  group: z.string().trim().min(1).max(255),
+  teaser: z.string().trim().min(1),
+  highlights: z.string().optional(),
+  places: z.string().trim().min(1),
+});
+
+function tourDetails(body: unknown) {
+  const { group, highlights, places, ...fields } = tourDetailsSchema.parse(body);
+  return {
+    ...fields,
+    groupSize: group,
+    highlights: JSON.stringify(parseLineList(highlights)),
+    places: JSON.stringify(parseLineList(places)),
+  };
+}
 
 const tourIncludes = {
   destination: true,
@@ -94,8 +116,10 @@ toursRouter.post(
           destinationId,
           slug,
           tourName: tourTitle,
-          adultPrice: toNumber(req.body.adultPrice) ?? 0,
-          childPrice: toNumber(req.body.childPrice) ?? 0,
+          ...tourDetails(req.body),
+          // Blank means quoted on request, not free.
+          adultPrice: toNumber(req.body.adultPrice) ?? null,
+          childPrice: toNumber(req.body.childPrice) ?? null,
           discount: req.body.tourDiscount ? String(req.body.tourDiscount) : null,
           rating: toNumber(req.body.tourRating) ?? 0,
           noOfRates: Number(req.body.tourReviews ?? 0),
@@ -145,18 +169,20 @@ toursRouter.put(
     const tourTitle = tourTitleSchema.parse(req.body.tourTitle);
     const destinationIds = parseTourDestinationIds(req.body);
     const destinationId = destinationIds[0];
-    const slug = await uniqueTourSlug(tourTitle, id);
 
     let imagesToRemove: string[] = [];
     const updated = await prisma.$transaction(async (tx) => {
       await tx.tour.update({
         where: { id },
         data: {
+          // The slug stays put on edit: it is the public URL and the key that
+          // ties this row to its translated copy.
           destinationId,
-          slug,
           tourName: tourTitle,
-          adultPrice: toNumber(req.body.adultPrice) ?? 0,
-          childPrice: toNumber(req.body.childPrice) ?? 0,
+          ...tourDetails(req.body),
+          // Blank means quoted on request, not free.
+          adultPrice: toNumber(req.body.adultPrice) ?? null,
+          childPrice: toNumber(req.body.childPrice) ?? null,
           discount: req.body.tourDiscount ? String(req.body.tourDiscount) : null,
           rating: toNumber(req.body.tourRating) ?? 0,
           noOfRates: Number(req.body.tourReviews ?? 0),

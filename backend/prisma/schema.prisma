@@ -47,6 +47,14 @@ model Tour {
   excluded      String?  @db.Text
   itinerary     String?  @db.Text
   journeyMap    String?  @map("journey_map") @db.Text
+  days          String?
+  nights        Int?
+  style         String?
+  season        String?
+  groupSize     String?  @map("group_size")
+  teaser        String?  @db.Text
+  highlights    String?  @db.Text
+  places        String?  @db.Text
   createdAt     DateTime @default(now()) @map("created_at")
   updatedAt     DateTime @updatedAt @map("updated_at")
 
@@ -66,6 +74,14 @@ model Destination {
   destinationName String   @map("destination_name")
   description     String?  @db.Text
   imageUrl        String?  @map("image_url")
+  region          String?
+  tag             String?
+  teaser          String?  @db.Text
+  intro           String?  @db.Text
+  bestTime        String?  @map("best_time")
+  duration        String?
+  altitude        String?
+  highlights      String?  @db.Text
   tours           Tour[]
   tourLinks       TourDestinationJunction[]
 
@@ -107,6 +123,8 @@ model Gallery {
   id       Int     @id @default(autoincrement())
   imageUrl String  @map("image_url")
   tourId   Int?    @map("tour_id")
+  location String?
+  caption  String? @db.Text
   tour     Tour?   @relation(fields: [tourId], references: [id], onDelete: Cascade)
 
   @@map("gallery")
@@ -168,6 +186,12 @@ model Blog {
   description String?       @db.Text
   content     String?       @db.Text
   imageUrl    String?       @map("image_url")
+  author      String?
+  authorRole  String?       @map("author_role")
+  authorImage String?       @map("author_image")
+  readTime    String?       @map("read_time")
+  isFeatured  Boolean       @default(false) @map("is_featured")
+  updatedOn   DateTime?     @map("updated_on")
   categoryId  Int?
   category    BlogCategory? @relation(fields: [categoryId], references: [id], onDelete: SetNull)
   createdAt   DateTime      @default(now()) @map("created_at")
@@ -197,6 +221,12 @@ model Testimonial {
   message      String @db.Text
   reviewerName String @map("reviewer_name")
   profession   String?
+  slug         String? @unique @db.VarChar(255)
+  imageUrl     String? @map("image_url")
+  platform     String?
+  rating       Int?
+  title        String?
+  reviewDate   String? @map("review_date")
 
   @@map("testimonials")
 }

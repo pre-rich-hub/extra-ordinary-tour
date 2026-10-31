@@ -15,7 +15,7 @@ import {
   MajorDestinations,
   majorDestinationSlugs,
 } from '@/features/about-ethiopia/components/major-destinations'
-import { getDestinations } from '@/features/destinations/data/localized'
+import { getDestinationsData } from '@/features/destinations/server/catalog'
 
 export async function generateMetadata({
   params,
@@ -49,7 +49,7 @@ export default async function AboutEthiopiaPage({
   const copy = await getCopy()
 
   const sections = getAboutEthiopia(locale)
-  const destinations = getDestinations(locale)
+  const destinations = await getDestinationsData(locale)
   const featured = majorDestinationSlugs.flatMap(
     (slug) => destinations.find((d) => d.slug === slug) ?? [],
   )

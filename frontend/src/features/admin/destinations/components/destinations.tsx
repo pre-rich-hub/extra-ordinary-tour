@@ -12,12 +12,21 @@ import {
   adminSecondaryButtonClass,
 } from '../../components/admin-primitives'
 import { adminRequest } from '../../lib/api'
+import { destinationRegions } from '@/features/destinations/data/regions'
 
 type Destination = {
   id: number
   name: string
   description: string | null
   imageUrl: string | null
+  region: string | null
+  tag: string | null
+  teaser: string | null
+  intro: string | null
+  bestTime: string | null
+  duration: string | null
+  altitude: string | null
+  highlights: string[]
   tourCount?: number
 }
 
@@ -112,11 +121,11 @@ export function AdminDestinations() {
       <AdminFeedback message={feedback} />
 
       {formOpen && (
-        <form ref={formRef} onSubmit={submit} className="mb-8 rounded-xl border border-border bg-card p-6 shadow-sm" data-testid="destination-form">
+        <form key={editing?.id ?? 'new'} ref={formRef} onSubmit={submit} className="mb-8 rounded-xl border border-border bg-card p-6 shadow-sm" data-testid="destination-form">
           <div className="mb-5 flex items-center justify-between">
             <div>
               <h2 className="font-serif text-xl text-foreground">{editing ? 'Edit destination' : 'New destination'}</h2>
-              <p className="mt-1 text-xs text-muted-foreground">Name, description, and a strong landscape image.</p>
+              <p className="mt-1 text-xs text-muted-foreground">Everything the public page shows. English only: other languages keep their translated text.</p>
             </div>
             <button type="button" onClick={() => setFormOpen(false)} className="rounded-lg p-2 text-muted-foreground hover:bg-muted" aria-label="Close form">
               <X className="size-4" />
@@ -131,9 +140,44 @@ export function AdminDestinations() {
               <span className={adminLabelClass}>Image {editing ? '(leave empty to keep current)' : ''}</span>
               <input name="destinationImage" type="file" accept="image/*" className={adminInputClass} required={!editing} />
             </label>
+            <label>
+              <span className={adminLabelClass}>Region</span>
+              <select name="region" defaultValue={editing?.region ?? ''} className={adminInputClass} required>
+                <option value="" disabled>Choose a region</option>
+                {destinationRegions.map((region) => <option key={region.id} value={region.label}>{region.label}</option>)}
+              </select>
+            </label>
+            <label>
+              <span className={adminLabelClass}>Tag</span>
+              <input name="tag" defaultValue={editing?.tag ?? ''} placeholder="e.g. UNESCO Heritage" className={adminInputClass} required />
+            </label>
+            <label>
+              <span className={adminLabelClass}>Best time to visit</span>
+              <input name="bestTime" defaultValue={editing?.bestTime ?? ''} placeholder="e.g. September to July" className={adminInputClass} required />
+            </label>
+            <label>
+              <span className={adminLabelClass}>Suggested stay</span>
+              <input name="duration" defaultValue={editing?.duration ?? ''} placeholder="e.g. 2 to 3 days" className={adminInputClass} required />
+            </label>
+            <label>
+              <span className={adminLabelClass}>Altitude</span>
+              <input name="altitude" defaultValue={editing?.altitude ?? ''} placeholder="e.g. 2,500 m" className={adminInputClass} required />
+            </label>
             <label className="md:col-span-2">
-              <span className={adminLabelClass}>Description</span>
-              <textarea name="destinationDescription" defaultValue={editing?.description ?? ''} className={`${adminInputClass} min-h-32 resize-y`} required />
+              <span className={adminLabelClass}>Teaser (one sentence for cards)</span>
+              <textarea name="teaser" defaultValue={editing?.teaser ?? ''} className={`${adminInputClass} min-h-20 resize-y`} required />
+            </label>
+            <label className="md:col-span-2">
+              <span className={adminLabelClass}>Introduction (under the page title)</span>
+              <textarea name="intro" defaultValue={editing?.intro ?? ''} className={`${adminInputClass} min-h-20 resize-y`} required />
+            </label>
+            <label className="md:col-span-2">
+              <span className={adminLabelClass}>Highlights (one per line)</span>
+              <textarea name="highlights" defaultValue={editing?.highlights.join('\n') ?? ''} className={`${adminInputClass} min-h-32 resize-y`} required />
+            </label>
+            <label className="md:col-span-2">
+              <span className={adminLabelClass}>Full description (leave a blank line between paragraphs)</span>
+              <textarea name="destinationDescription" defaultValue={editing?.description ?? ''} className={`${adminInputClass} min-h-48 resize-y`} required />
             </label>
           </div>
           <div className="mt-5 flex justify-end gap-3">

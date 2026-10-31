@@ -15,9 +15,9 @@ import { SiteNav } from '@/components/layout/site-nav'
 import { SiteFooter } from '@/components/layout/site-footer'
 import { FloatingSupport } from '@/components/layout/floating-support'
 import { TouchActive } from '@/components/layout/touch-active'
-import { getDestinations } from '@/features/destinations/data/localized'
+import { getDestinationsData } from '@/features/destinations/server/catalog'
 import { destinationRegions } from '@/features/destinations/data/regions'
-import { getTours } from '@/features/tours/data/localized'
+import { getToursData } from '@/features/tours/server/catalog'
 import '../globals.css'
 export { viewport }
 export function generateStaticParams() {
@@ -57,7 +57,10 @@ export default async function LocaleLayout({
   const messages = await getMessages()
   const t = await getTranslations('Common')
   // The menu previews four destinations and three tours; send only those.
-  const allDestinations = getDestinations(locale)
+  const [allDestinations, allTours] = await Promise.all([
+    getDestinationsData(locale),
+    getToursData(locale),
+  ])
   const regions = destinationRegions.map(({ id, label }) => ({
     id,
     label:
@@ -73,7 +76,7 @@ export default async function LocaleLayout({
       image,
       teaser,
     }))
-  const tours = getTours(locale)
+  const tours = allTours
     .slice(0, 3)
     .map(({ slug, title, image, style, from, days, teaser }) => ({
       slug,
@@ -101,7 +104,7 @@ export default async function LocaleLayout({
             tours={tours}
           />
           <main id="main">{children}</main>
-          <SiteFooter />
+          <SiteFooter destinations={allDestinations} tours={allTours} />
           <FloatingSupport />
           <TouchActive />
         </NextIntlClientProvider>

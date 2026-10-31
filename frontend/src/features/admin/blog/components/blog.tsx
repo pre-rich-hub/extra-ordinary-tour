@@ -18,7 +18,11 @@ type BlogPost = {
   id: number
   title: string
   description: string | null
+  content: string | null
   imageUrl: string | null
+  author: string | null
+  authorRole: string | null
+  isFeatured: boolean
   category: { id: number; name: string } | null
   createdAt: string | null
 }
@@ -150,13 +154,17 @@ export function AdminBlog() {
       </section>
 
       {formOpen && (
-        <form onSubmit={submitPost} className="mb-8 rounded-xl border border-border bg-card p-6 shadow-sm" data-testid="blog-form">
+        <form key={editing?.id ?? 'new'} onSubmit={submitPost} className="mb-8 rounded-xl border border-border bg-card p-6 shadow-sm" data-testid="blog-form">
           <div className="mb-5 flex items-center justify-between"><h2 className="font-serif text-xl text-foreground">{editing ? 'Edit post' : 'New blog post'}</h2><button type="button" onClick={() => setFormOpen(false)} className="rounded-lg p-2 text-muted-foreground hover:bg-muted" aria-label="Close form"><X className="size-4" /></button></div>
           <div className="grid gap-5 md:grid-cols-2">
             <label><span className={adminLabelClass}>Title</span><input name="blogTitle" defaultValue={editing?.title ?? ''} className={adminInputClass} required /></label>
             <label><span className={adminLabelClass}>Category</span><select name="categoryId" defaultValue={editing?.category?.id ?? ''} className={adminInputClass}><option value="">Uncategorized</option>{categories.map((category) => <option key={category.id} value={category.id}>{category.name}</option>)}</select></label>
             <label className="md:col-span-2"><span className={adminLabelClass}>Featured image {editing ? '(optional replacement)' : '(optional)'}</span><input name="blogImage" type="file" accept="image/*" className={adminInputClass} /></label>
-            <label className="md:col-span-2"><span className={adminLabelClass}>Article content</span><textarea name="blogDescription" defaultValue={editing?.description ?? ''} className={`${adminInputClass} min-h-48 resize-y`} required /></label>
+            <label><span className={adminLabelClass}>Author</span><input name="author" defaultValue={editing?.author ?? ''} className={adminInputClass} required /></label>
+            <label><span className={adminLabelClass}>Author role</span><input name="authorRole" defaultValue={editing?.authorRole ?? 'Travel Writer'} className={adminInputClass} required /></label>
+            <label className="flex items-center gap-2.5 md:col-span-2"><input name="isFeatured" type="checkbox" value="true" defaultChecked={editing?.isFeatured ?? false} className="h-4 w-4 rounded border-border" /><span className="text-sm font-medium text-foreground">Feature at the top of the journal</span></label>
+            <label className="md:col-span-2"><span className={adminLabelClass}>Excerpt (shown on cards and under the title)</span><textarea name="blogDescription" defaultValue={editing?.content ? (editing.description ?? '') : ''} className={`${adminInputClass} min-h-20 resize-y`} required /></label>
+            <label className="md:col-span-2"><span className={adminLabelClass}>Article</span><textarea name="blogContent" defaultValue={editing?.content ?? editing?.description ?? ''} className={`${adminInputClass} min-h-64 resize-y`} required /><span className="mt-1 block text-xs text-muted-foreground">Leave a blank line between paragraphs. Start a line with ## for a heading, or - for a list item. English only: other languages keep their translated text.</span></label>
           </div>
           <div className="mt-5 flex justify-end gap-3"><button type="button" onClick={() => setFormOpen(false)} className={adminSecondaryButtonClass}>Cancel</button><button type="submit" disabled={saving} className={adminPrimaryButtonClass} data-testid="save-blog-post">{saving && <Loader2 className="size-4 animate-spin" />} {editing ? 'Save changes' : 'Publish post'}</button></div>
         </form>

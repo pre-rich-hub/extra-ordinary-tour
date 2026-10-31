@@ -5,6 +5,7 @@ import { useRouter } from 'next/navigation'
 import Link from 'next/link'
 import { Loader2, Plus, X, ArrowUp, ArrowDown } from 'lucide-react'
 import { adminRequest } from '../../lib/api'
+import { TourDetailsFields } from './tour-details-fields'
 import { adminPanelClass, adminInputClass, adminLabelClass } from '../../components/admin-primitives'
 
 type Destination = { id: number; name: string }
@@ -301,6 +302,8 @@ export function AdminTourNew() {
             </div>
           </div>
         </section>
+
+        <TourDetailsFields />
 
         {/* Overview */}
         <section className={adminPanelClass}>

@@ -11,6 +11,7 @@ import {
   mapDestination,
   mapGalleryImage,
   mapLayoverPackage,
+  mapTestimonial,
   mapTour,
 } from "../../utils/mappers.js";
 import { publicFormLimiter } from "../../middleware/rate-limit.middleware.js";
@@ -109,6 +110,20 @@ publicRouter.get(
       orderBy: { id: "desc" },
     });
     return ok(res, "Blog posts fetched successfully", posts.map(mapBlog));
+  }),
+);
+
+publicRouter.get(
+  "/testimonials",
+  asyncHandler(async (_req, res) => {
+    const testimonials = await prisma.testimonial.findMany({
+      orderBy: { id: "asc" },
+    });
+    return ok(
+      res,
+      "Testimonials fetched successfully",
+      testimonials.map(mapTestimonial),
+    );
   }),
 );
 

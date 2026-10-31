@@ -31,7 +31,7 @@ export default async function Page({
   setRequestLocale(locale)
   const copy = await getCopy()
 
-  const [tours, destinations, galleryImages] = await Promise.all([
+  const [tours, destinations, gallerySlides] = await Promise.all([
     getToursData(locale),
     getDestinationsData(locale),
     getGalleryData(),
@@ -50,7 +50,7 @@ export default async function Page({
       <FeaturedTours tours={tours} />
       <Experiences />
       <Reviews />
-      <Gallery uploads={galleryImages} />
+      <Gallery slides={gallerySlides} />
       <PlanJourney />
     </>
   )

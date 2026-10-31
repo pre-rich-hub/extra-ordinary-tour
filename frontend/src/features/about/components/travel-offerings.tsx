@@ -1,11 +1,8 @@
 import { useCopy } from '@/i18n/copy'
-import { useLocale } from 'next-intl'
-import type { AppLocale } from '@/i18n/routing'
 import Image from 'next/image'
 import { Link } from '@/i18n/navigation'
 import { ArrowRight, ArrowUpRight } from 'lucide-react'
 import { Reveal } from '@/components/ui/reveal'
-import { getTours } from '@/features/tours/data/localized'
 
 const offerings = [
   {
@@ -52,10 +49,8 @@ const offerings = [
   },
 ]
 
-export function TravelOfferings() {
+export function TravelOfferings({ tourCount }: { tourCount: number }) {
   const copy = useCopy()
-
-  const tours = getTours(useLocale() as AppLocale)
 
   return (
     <section className="shell py-24 sm:py-28 lg:py-36">
@@ -72,7 +67,7 @@ export function TravelOfferings() {
           className="group inline-flex items-center gap-2 text-[11px] font-semibold uppercase tracking-[0.18em] text-primary transition-colors hover:text-accent sm:text-xs"
         >
           {copy('Explore all ')}
-          {copy(tours.length)} {copy('tours')}
+          {copy(tourCount)} {copy('tours')}
           <ArrowRight className="h-3.5 w-3.5 transition-transform duration-300 group-hover:translate-x-1" />
         </Link>
       </Reveal>

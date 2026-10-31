@@ -1,18 +1,13 @@
 import { useCopy } from '@/i18n/copy'
-import { useLocale } from 'next-intl'
-import type { AppLocale } from '@/i18n/routing'
 import { Link } from '@/i18n/navigation'
 import { ArrowRight } from 'lucide-react'
 import { Reveal } from '@/components/ui/reveal'
 import { PostCard } from './post-card'
-import { getPosts } from '../data/localized'
 import { postDestinations } from '../data/relations'
 import type { Post } from '../types'
 
-export function RelatedPosts({ post }: { post: Post }) {
+export function RelatedPosts({ post, posts }: { post: Post; posts: Post[] }) {
   const copy = useCopy()
-
-  const posts = getPosts(useLocale() as AppLocale)
 
   // Articles about the same places first, then the same category.
   const places = new Set(postDestinations[post.slug] ?? [])

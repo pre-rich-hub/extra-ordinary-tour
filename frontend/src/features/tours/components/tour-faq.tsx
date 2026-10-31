@@ -16,9 +16,12 @@ export function TourFaq({ tour: t }: { tour: Tour }) {
   const locale = useLocale() as AppLocale
   const first = t.itinerary[0]
   const last = t.itinerary[t.itinerary.length - 1]
-  // Seasons are localized, so compare against the English catalogue.
+  // Seasons are localized, so compare against the English catalogue. English
+  // pages read the row, which the admin may have changed.
   const yearRound =
-    tours.find((x) => x.slug === t.slug)?.season === 'Year-round'
+    (locale === 'en'
+      ? t.season
+      : tours.find((x) => x.slug === t.slug)?.season) === 'Year-round'
 
   return (
     <Faq

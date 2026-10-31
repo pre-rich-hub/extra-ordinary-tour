@@ -1,24 +1,21 @@
 import { useCopy } from '@/i18n/copy'
-import { useLocale } from 'next-intl'
-import type { AppLocale } from '@/i18n/routing'
 import { Reveal } from '@/components/ui/reveal'
 import { PostCard } from '@/features/blog/components/post-card'
-import { getPosts } from '@/features/blog/data/localized'
 import { postsAbout } from '@/features/blog/data/relations'
+import type { Post } from '@/features/blog/types'
 import type { Destination } from '../types'
 
 /** Journal articles substantially about this destination, if any. */
 export function DestinationArticles({
   destination: d,
+  posts: allPosts,
 }: {
   destination: Destination
+  posts: Post[]
 }) {
   const copy = useCopy()
 
-  const posts = postsAbout(d.slug, getPosts(useLocale() as AppLocale)).slice(
-    0,
-    3,
-  )
+  const posts = postsAbout(d.slug, allPosts).slice(0, 3)
   if (!posts.length) return null
   return (
     <section className="border-t border-border bg-muted/40">

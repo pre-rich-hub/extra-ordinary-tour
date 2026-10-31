@@ -4,6 +4,8 @@ export type ApiGalleryImage = {
   id: number
   imageUrl: string
   tourId: number | null
+  location: string | null
+  caption: string | null
 }
 
 export async function getGalleryImages(

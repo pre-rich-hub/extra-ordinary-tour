@@ -6,6 +6,9 @@ import { notFound } from 'next/navigation'
 import { JsonLd } from '@/components/seo/json-ld'
 import { pageGraph, schemaIds } from '@/lib/seo/schema'
 import type { Metadata } from 'next'
+import { getToursData } from '@/features/tours/server/catalog'
+import { getDestinationsData } from '@/features/destinations/server/catalog'
+import { getTestimonialsData } from '@/features/reviews/server/catalog'
 import { slogan } from '@/config/site'
 import { CtaBand } from '@/components/layout/cta-band'
 import { AboutHero } from '@/features/about/components/about-hero'
@@ -46,6 +49,11 @@ export default async function AboutPage({
   if (!isLocale(locale)) notFound()
   setRequestLocale(locale)
   const copy = await getCopy()
+  const [tours, destinations, testimonials] = await Promise.all([
+    getToursData(locale),
+    getDestinationsData(locale),
+    getTestimonialsData(locale),
+  ])
 
   return (
     <>
@@ -58,13 +66,16 @@ export default async function AboutPage({
           about: { '@id': schemaIds.organization },
         })}
       />
-      <AboutHero />
+      <AboutHero
+        tourCount={tours.length}
+        destinationCount={destinations.length}
+      />
       <AboutIntroduction />
       <FounderStory />
       <PlacesMarquee />
-      <TravelOfferings />
+      <TravelOfferings tourCount={tours.length} />
       <CompanyValues />
-      <GuestReviews />
+      <GuestReviews testimonials={testimonials} />
       <CtaBand
         eyebrow={copy(slogan)}
         title={copy('Start with a conversation')}

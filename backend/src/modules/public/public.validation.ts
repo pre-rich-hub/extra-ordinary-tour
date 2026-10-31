@@ -6,7 +6,7 @@ import { z } from "zod";
 export const toursQuerySchema = z.object({
   featured: z.enum(["true", "false"]).optional(),
   page: z.coerce.number().int().min(1).default(1),
-  limit: z.coerce.number().int().min(1).max(100).default(20),
+  limit: z.coerce.number().int().min(1).max(500).default(20),
   categorySlug: z.string().min(1).optional(),
   destinationSlug: z.string().min(1).optional(),
   q: z.string().min(1).optional(),

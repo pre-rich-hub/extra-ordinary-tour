@@ -14,7 +14,22 @@ const testimonialSchema = z.object({
   message: z.string().trim().min(1).max(5000),
   reviewerName: z.string().trim().min(1).max(160),
   profession: z.string().trim().max(160).optional(),
+  imageUrl: z.string().trim().url().optional().or(z.literal("")),
+  platform: z.enum(["Tripadvisor", "SafariBookings", "Google"]).optional().or(z.literal("")),
+  rating: z.coerce.number().int().min(1).max(5).optional().or(z.literal("")),
+  title: z.string().trim().max(255).optional(),
+  reviewDate: z.string().trim().max(120).optional(),
 });
+
+function testimonialData(input: unknown) {
+  const { imageUrl, platform, rating, ...fields } = testimonialSchema.parse(input);
+  return {
+    ...fields,
+    imageUrl: imageUrl || null,
+    platform: platform || null,
+    rating: rating || null,
+  };
+}
 
 testimonialsRouter.get(
   "/testimonials",
@@ -31,8 +46,7 @@ testimonialsRouter.get(
 testimonialsRouter.post(
   "/testimonials",
   asyncHandler(async (req, res) => {
-    const body = testimonialSchema.parse(req.body);
-    const testimonial = await prisma.testimonial.create({ data: body });
+    const testimonial = await prisma.testimonial.create({ data: testimonialData(req.body) });
     return ok(
       res,
       "Testimonial created successfully",
@@ -46,8 +60,10 @@ testimonialsRouter.put(
   "/testimonials/:id",
   asyncHandler(async (req, res) => {
     const id = idParam.parse(req.params.id);
-    const body = testimonialSchema.parse(req.body);
-    const testimonial = await prisma.testimonial.update({ where: { id }, data: body });
+    const testimonial = await prisma.testimonial.update({
+      where: { id },
+      data: testimonialData(req.body),
+    });
     return ok(res, "Testimonial updated successfully", mapTestimonial(testimonial));
   }),
 );

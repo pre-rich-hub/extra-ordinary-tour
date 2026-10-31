@@ -31,6 +31,14 @@ export function mapDestination(destination: any) {
     name: destination.destinationName,
     description: destination.description,
     imageUrl: destination.imageUrl,
+    region: destination.region ?? null,
+    tag: destination.tag ?? null,
+    teaser: destination.teaser ?? null,
+    intro: destination.intro ?? null,
+    bestTime: destination.bestTime ?? null,
+    duration: destination.duration ?? null,
+    altitude: destination.altitude ?? null,
+    highlights: parseJsonArray(destination.highlights),
     tourCount:
       destination._count?.tourLinks ?? destination._count?.tours ?? undefined,
     canonical: {
@@ -47,6 +55,8 @@ export function mapGalleryImage(image: any) {
     id: image.id,
     imageUrl: image.imageUrl,
     tourId: image.tourId ?? null,
+    location: image.location ?? null,
+    caption: image.caption ?? null,
   };
 }
 
@@ -86,6 +96,14 @@ export function mapTour(tour: any, detail = false) {
     categories,
     gallery,
     durationDays: itinerary.length,
+    days: tour.days ?? null,
+    nights: tour.nights ?? null,
+    style: tour.style ?? null,
+    season: tour.season ?? null,
+    group: tour.groupSize ?? null,
+    teaser: tour.teaser ?? null,
+    highlights: parseJsonArray(tour.highlights),
+    places: parseJsonArray(tour.places),
     included: detail ? parseJsonArray(tour.included) : undefined,
     excluded: detail ? parseJsonArray(tour.excluded) : undefined,
     itinerary: detail ? itinerary : undefined,
@@ -111,9 +129,16 @@ export function mapBlog(post: any) {
     slug: post.slug ?? null,
     title: post.blogTitle,
     description: post.description,
+    content: post.content ?? null,
     imageUrl: post.imageUrl,
+    author: post.author ?? null,
+    authorRole: post.authorRole ?? null,
+    authorImage: post.authorImage ?? null,
+    readTime: post.readTime ?? null,
+    isFeatured: Boolean(post.isFeatured),
     category,
     createdAt: post.createdAt ?? null,
+    updatedOn: post.updatedOn ?? null,
     canonical: {
       type: "slug",
       id: post.id,
@@ -129,6 +154,12 @@ export function mapTestimonial(testimonial: any) {
     message: testimonial.message,
     reviewerName: testimonial.reviewerName,
     profession: testimonial.profession,
+    slug: testimonial.slug ?? null,
+    imageUrl: testimonial.imageUrl ?? null,
+    platform: testimonial.platform ?? null,
+    rating: testimonial.rating ?? null,
+    title: testimonial.title ?? null,
+    reviewDate: testimonial.reviewDate ?? null,
   };
 }
 
