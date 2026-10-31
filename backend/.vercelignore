@@ -1,0 +1,3 @@
+# Run by hand against the database, never at request time. seed-catalog.ts
+# reads the frontend's data files, so it must not join the backend type check.
+scripts/

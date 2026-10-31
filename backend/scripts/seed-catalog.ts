@@ -73,9 +73,15 @@ async function seedTours() {
     count.tours += 1;
     if (dryRun) continue;
 
+    // The frontend's "@/" alias does not resolve under this tsconfig, so the
+    // helper's types are spelled out here.
+    const stops: (string | undefined)[] = placeDestinations(
+      t as Parameters<typeof placeDestinations>[0],
+      destinations,
+    );
     const destinationIds = [
       ...new Set(
-        placeDestinations(t, destinations)
+        stops
           .map((slug) => (slug ? idBySlug.get(slug) : undefined))
           .filter((id): id is number => id !== undefined),
       ),
