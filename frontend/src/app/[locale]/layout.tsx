@@ -40,6 +40,8 @@ export async function generateMetadata({
       template: '%s · Extraordinary Ethiopia Tours',
     },
     description: t('siteDescription'),
+    // Google Search Console ownership check; keep after verification.
+    verification: { google: '9k8GqM_2hxvfa3MFHhK_NW685EsQcbSF9M-LjM2Tw-E' },
   }
 }
 export default async function LocaleLayout({
