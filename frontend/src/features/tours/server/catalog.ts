@@ -38,9 +38,9 @@ function fromDatabase(
   const categories = live.categories.map((c) => c.name)
   const style =
     live.style || fallback?.style || categories.join(' · ') || 'Private Journey'
-  const places = live.places.length
+  const places = live.places?.length
     ? live.places
-    : live.destinations.map((d) => d.name)
+    : (fallback?.places ?? live.destinations.map((d) => d.name))
   const itinerary = (live.itinerary ?? []).map((step) => ({
     day: step.dayLabel || `Day ${step.day}`,
     title: step.title,
@@ -73,7 +73,7 @@ function fromDatabase(
     group: live.group || fallback?.group || '',
     teaser: live.teaser || fallback?.teaser || firstSentence(summary),
     summary,
-    highlights: live.highlights.length ? live.highlights : fallback?.highlights,
+    highlights: live.highlights?.length ? live.highlights : fallback?.highlights,
     includes: live.included ?? fallback?.includes ?? [],
     excludes: live.excluded ?? fallback?.excludes ?? [],
     itinerary: itinerary.length ? itinerary : (fallback?.itinerary ?? []),

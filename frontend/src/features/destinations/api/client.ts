@@ -12,7 +12,9 @@ export type ApiDestination = {
   bestTime: string | null
   duration: string | null
   altitude: string | null
-  highlights: string[]
+  // Optional because the two projects deploy separately: this frontend can
+  // build against a backend that does not send the catalogue fields yet.
+  highlights?: string[]
   canonical: { slug: string | null }
 }
 
