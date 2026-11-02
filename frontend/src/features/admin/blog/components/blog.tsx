@@ -47,7 +47,7 @@ export function AdminBlog() {
       setCategories(categoryList)
       setFeedback('')
     } catch (error) {
-      setFeedback(error instanceof Error ? error.message : 'Blog content could not be loaded.')
+      setFeedback(error instanceof Error ? error.message : 'Travel Journey content could not be loaded.')
     } finally {
       setLoading(false)
     }
@@ -77,7 +77,7 @@ export function AdminBlog() {
       setEditing(null)
       await load()
     } catch (error) {
-      setFeedback(error instanceof Error ? error.message : 'Blog post could not be saved.')
+      setFeedback(error instanceof Error ? error.message : 'Post could not be saved.')
     } finally {
       setSaving(false)
     }
@@ -128,13 +128,13 @@ export function AdminBlog() {
       await adminRequest<null>(`/api/v1/admin/blog/${post.id}`, { method: 'DELETE' })
       setPosts((current) => current.filter((entry) => entry.id !== post.id))
     } catch (error) {
-      setFeedback(error instanceof Error ? error.message : 'Blog post could not be deleted.')
+      setFeedback(error instanceof Error ? error.message : 'Post could not be deleted.')
     }
   }
 
   return (
     <div className="p-8">
-      <AdminPageHeader title="Blog" description="Publish stories and organize them into editorial categories." action={<button type="button" onClick={() => showForm(null)} className={adminPrimaryButtonClass} data-testid="add-blog-post"><Plus className="size-4" /> Add post</button>} />
+      <AdminPageHeader title="Travel Journey" description="Publish stories and organize them into editorial categories." action={<button type="button" onClick={() => showForm(null)} className={adminPrimaryButtonClass} data-testid="add-blog-post"><Plus className="size-4" /> Add post</button>} />
       <AdminFeedback message={feedback} />
 
       <section className="mb-8 rounded-xl border border-border bg-card p-5 shadow-sm">
