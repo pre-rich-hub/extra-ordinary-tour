@@ -20,6 +20,7 @@
     "seed:admin": "tsx scripts/seed-admin.ts",
     "seed:layover": "tsx scripts/seed-layover.ts",
     "seed:catalog": "tsx --tsconfig ../frontend/tsconfig.json scripts/seed-catalog.ts",
+    "copy:fixes": "tsx scripts/apply-copy-fixes.ts",
     "assistant:check": "tsx scripts/assistant-check.ts",
     "vercel-build": "prisma generate && tsc"
   },
