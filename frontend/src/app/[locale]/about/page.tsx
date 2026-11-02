@@ -30,7 +30,7 @@ export async function generateMetadata({
   const copy = await getCopy()
   return buildPageMetadata(
     {
-      title: copy('About Us: A Local Ethiopia Tour Operator from Lalibela'),
+      title: copy('About Us: A Local Ethiopia Tour Operator in Lalibela'),
       description: copy(
         'Extraordinary Ethiopia Tours is a locally based Ethiopia tour operator founded in Lalibela, offering private and group tours across the historic north, the Omo Valley, the Danakil, the Simien and Bale Mountains and beyond.',
       ),

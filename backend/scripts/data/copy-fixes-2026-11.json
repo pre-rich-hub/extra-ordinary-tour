@@ -1,0 +1,714 @@
+[
+ {
+  "find": "Experience the Extraordinary!",
+  "replace": "Experience the Extraordinary."
+ },
+ {
+  "find": "## Day (\\d+): (.+?) (After breakfast|Continue exploring)",
+  "replace": "Day \\1 – \\2. \\3",
+  "regex": true
+ },
+ {
+  "find": "### What to Bring for the Danakil Depression Tour Light/flashlight (especially for night walking) Small backpack for the trek to the volcano summit Closed, comfortable walking shoes or trekking shoes Sun protection (sunscreen, sunglasses, and hat) Warm jacket for the night at the volcano Toilet paper (soft) Sleeping bag, pillow, or blanket (some camping equipment will be provided by the agency)",
+  "replace": "What to bring for the Danakil Depression: a flashlight (especially for night walking), a small backpack for the trek to the volcano summit, closed and comfortable walking or trekking shoes, sun protection (sunscreen, sunglasses and a hat), a warm jacket for the night at the volcano, soft toilet paper, and a sleeping bag, pillow or blanket (some camping equipment will be provided by the agency)."
+ },
+ {
+  "find": "What to Bring for the Danakil Depression and Simien Mountains National Park A small flashlight or headlamp for walking at night, A small backpack for the hike to the top of Erta Ale Volcano, Closed, comfortable trekking shoes, Sun protection, including sunscreen, sunglasses, and a hat, A warm jacket for the cold night at the volcano and Sleeping bag, pillow, or blanket (these can also be provided by the agency).",
+  "replace": "What to bring for the Danakil Depression and Simien Mountains National Park: a small flashlight or headlamp for walking at night, a small backpack for the hike to the top of Erta Ale Volcano, closed and comfortable trekking shoes, sun protection (sunscreen, sunglasses and a hat), a warm jacket for the cold night at the volcano, and a sleeping bag, pillow or blanket (these can also be provided by the agency)."
+ },
+ {
+  "find": "Total Driving Distance: Approximately (\\d+) km / (\\d) to (\\d) hours Total Walking Distance: Approximately ([\\d.]+) hours (?=[A-Z])",
+  "replace": "Total driving distance: approximately \\1 km (\\2 to \\3 hours). Total walking distance: approximately \\4 hours. ",
+  "regex": true
+ },
+ {
+  "find": "Total Driving Distance: Approximately (\\d+) km / (\\d) to (\\d) hours (?=[A-Z])",
+  "replace": "Total driving distance: approximately \\1 km (\\2 to \\3 hours). ",
+  "regex": true
+ },
+ {
+  "find": "Total Driving Distance: Approximately (\\d+) km \\((\\d) to (\\d) hours\\) Total Walking Time: Approximately ([\\d.]+) hours (?=[A-Z])",
+  "replace": "Total driving distance: approximately \\1 km (\\2 to \\3 hours). Total walking time: approximately \\4 hours. ",
+  "regex": true
+ },
+ {
+  "find": "including: African Pygmy Goose Black-billed Woodhoopoe Abyssinian Ground Hornbill Northern Black Tit Little Weaver Many other resident and migratory species Continue to",
+  "replace": "including African Pygmy Goose, Black-billed Woodhoopoe, Abyssinian Ground Hornbill, Northern Black Tit, Little Weaver and many other resident and migratory species. Continue to"
+ },
+ {
+  "find": "including: Greater and Lesser Flamingos Storks, ibises, and cormorants Yellow Wagtails, swallows, and rollers African Marsh Harrier Chestnut-bellied Sandgrouse Many other resident and seasonal visitors Enjoy",
+  "replace": "including Greater and Lesser Flamingos, storks, ibises, cormorants, Yellow Wagtails, swallows, rollers, African Marsh Harrier, Chestnut-bellied Sandgrouse and many other resident and seasonal visitors. Enjoy"
+ },
+ {
+  "find": "species such as: Silvery-cheeked Hornbill Spur-winged Goose Malachite Kingfisher African Fish Eagle Woodland Kingfisher Rouget’s Rail Many other waterbirds and woodland species After exploring",
+  "replace": "species such as Silvery-cheeked Hornbill, Spur-winged Goose, Malachite Kingfisher, African Fish Eagle, Woodland Kingfisher, Rouget’s Rail and many other waterbirds and woodland species. After exploring"
+ },
+ {
+  "find": "species such as: Yellow-billed Stork Collared Pratincole Lesser and African Jacanas White Pelican African Fish Eagle Crowned Crane Many other wetland and savannah birds Enjoy",
+  "replace": "species such as Yellow-billed Stork, Collared Pratincole, Lesser and African Jacanas, White Pelican, African Fish Eagle, Crowned Crane and many other wetland and savannah birds. Enjoy"
+ },
+ {
+  "find": "In the afternoon Transfer to",
+  "replace": "In the afternoon, transfer to"
+ },
+ {
+  "find": "relaxation, in the evening farewell cultural dinner featuring",
+  "replace": "relaxation. In the evening, enjoy a farewell cultural dinner featuring"
+ },
+ {
+  "find": "natural occurring pigments",
+  "replace": "naturally occurring pigments"
+ },
+ {
+  "find": "highly-detailed",
+  "replace": "highly detailed"
+ },
+ {
+  "find": "one of the largest and culturally influential",
+  "replace": "one of the largest and most culturally influential"
+ },
+ {
+  "find": "Paradise lodge",
+  "replace": "Paradise Lodge"
+ },
+ {
+  "find": "population of less than 2,000",
+  "replace": "population of fewer than 2,000"
+ },
+ {
+  "find": "Photography with Nyangatom and the Karo tribes",
+  "replace": "Photography with the Nyangatom and Karo Tribes"
+ },
+ {
+  "find": "once considered as a possible",
+  "replace": "once considered a possible"
+ },
+ {
+  "find": "which includes four churches, including",
+  "replace": "which comprises four churches, including"
+ },
+ {
+  "find": "relax, do shopping, or",
+  "replace": "relax, go shopping or"
+ },
+ {
+  "find": "Bete Denagil and Debre Sina and Golgotha",
+  "replace": "Bete Denagel, and Debre Sina with Golgotha"
+ },
+ {
+  "find": "Ethiopian-Kenya border",
+  "replace": "Ethiopian-Kenyan border"
+ },
+ {
+  "find": "semi rock-hewn",
+  "replace": "semi-rock-hewn"
+ },
+ {
+  "find": "your unforgettable 8 Days Northern Ethiopia & Timkat Festival Tour",
+  "replace": "your unforgettable 8-day Northern Ethiopia & Timkat Festival tour"
+ },
+ {
+  "find": "Start your first 3 to 4 hour hike",
+  "replace": "Start your first 3- to 4-hour hike"
+ },
+ {
+  "find": "The 2 to 3 hour guided hike",
+  "replace": "The 2- to 3-hour guided hike"
+ },
+ {
+  "find": "scenic 5 to 7-hour hike",
+  "replace": "scenic 5- to 7-hour hike"
+ },
+ {
+  "find": "(3 to 4 hours drive)",
+  "replace": "(a 3- to 4-hour drive)"
+ },
+ {
+  "find": "(4,200m)",
+  "replace": "(4,200 m)"
+ },
+ {
+  "find": "3 Star Hotel",
+  "replace": "3-Star Hotel"
+ },
+ {
+  "find": "the scenic landscapes of the Southern Ethiopian highlands",
+  "replace": "the scenic landscapes of the southern Ethiopian highlands"
+ },
+ {
+  "find": "First Group of Churches",
+  "replace": "first group of churches"
+ },
+ {
+  "find": "Second Group of churches",
+  "replace": "second group of churches"
+ },
+ {
+  "find": "Families exchange greetings, share festive meals and children sing",
+  "replace": "Families exchange greetings and share festive meals, and children sing"
+ },
+ {
+  "find": "Ethiopia believes a fragment",
+  "replace": "Ethiopians believe a fragment"
+ },
+ {
+  "find": "calendar of thirteen months, and welcomes",
+  "replace": "calendar of thirteen months and welcomes"
+ },
+ {
+  "find": "takes around an hour, and can easily",
+  "replace": "takes around an hour and can easily"
+ },
+ {
+  "find": "Dear Traveler,",
+  "replace": "Dear Traveller,"
+ },
+ {
+  "find": "The Ethiopian Birr (ETB)",
+  "replace": "The Ethiopian birr (ETB)"
+ },
+ {
+  "find": "US Dollars or Euros",
+  "replace": "US dollars or euros"
+ },
+ {
+  "find": "Highland towns such as Addis Ababa, Lalibela, Gondar and the Simien",
+  "replace": "Highland areas such as Addis Ababa, Lalibela, Gondar and the Simien"
+ },
+ {
+  "find": "drive approximately three hours from Lalibela to Simien Mountains National Park, Ethiopia’s only natural UNESCO World Heritage Site",
+  "replace": "drive approximately three hours from Gondar to Simien Mountains National Park, a natural UNESCO World Heritage Site"
+ },
+ {
+  "find": "its 5th-century wall and dome paintings",
+  "replace": "its 15th-century wall and dome paintings"
+ },
+ {
+  "find": "its remarkable 5th-century dome and wall paintings",
+  "replace": "its remarkable 15th-century dome and wall paintings"
+ },
+ {
+  "find": "\"Camelot of Africa,\"",
+  "replace": "“Camelot of Africa,”"
+ },
+ {
+  "find": "\"Forty Springs,\"",
+  "replace": "“Forty Springs,”"
+ },
+ {
+  "find": "\"God’s Bridge\"",
+  "replace": "“God’s Bridge”"
+ },
+ {
+  "find": "\"Azo Gebeya\"",
+  "replace": "“Azo Gebeya”"
+ },
+ {
+  "find": "\"Lucy\"",
+  "replace": "“Lucy”"
+ },
+ {
+  "find": "\"Dinknesh\"",
+  "replace": "“Dinknesh”"
+ },
+ {
+  "find": "\\bBet (Medhane|Maryam|Meskel|Giyorgis)\\b",
+  "replace": "Bete \\1",
+  "regex": true
+ },
+ {
+  "find": "\\bBiete Medhani Alem\\b",
+  "replace": "Bete Medhane Alem",
+  "regex": true
+ },
+ {
+  "find": "\\bBiete Giyorgis\\b",
+  "replace": "Bete Giyorgis",
+  "regex": true
+ },
+ {
+  "find": "\\bBete Giorgis\\b",
+  "replace": "Bete Giyorgis",
+  "regex": true
+ },
+ {
+  "find": "\\bBete Mariam\\b",
+  "replace": "Bete Maryam",
+  "regex": true
+ },
+ {
+  "find": "\\bBete Emm?anuel\\b",
+  "replace": "Bete Amanuel",
+  "regex": true
+ },
+ {
+  "find": "\\bBete Merc(oreos|urios)\\b",
+  "replace": "Bete Merkorios",
+  "regex": true
+ },
+ {
+  "find": "\\bBete (Denagil|Danaghel|Danagil)\\b",
+  "replace": "Bete Denagel",
+  "regex": true
+ },
+ {
+  "find": "\\bBete Aba Libanos\\b",
+  "replace": "Bete Abba Libanos",
+  "regex": true
+ },
+ {
+  "find": "\\bAba Libanos\\b",
+  "replace": "Abba Libanos",
+  "regex": true
+ },
+ {
+  "find": "Fasilidas’s\\b",
+  "replace": "Fasilides’",
+  "regex": true
+ },
+ {
+  "find": "\\bFasilidas’",
+  "replace": "Fasilides’",
+  "regex": true
+ },
+ {
+  "find": "\\bFasilidas\\b",
+  "replace": "Fasilides",
+  "regex": true
+ },
+ {
+  "find": "\\bDebre Birhan\\b",
+  "replace": "Debre Berhan",
+  "regex": true
+ },
+ {
+  "find": "\\bMercato Market\\b",
+  "replace": "Merkato market",
+  "regex": true
+ },
+ {
+  "find": "\\bMercato\\b",
+  "replace": "Merkato",
+  "regex": true
+ },
+ {
+  "find": "\\bUra Kidane (Mihret|Meheret)\\b",
+  "replace": "Ura Kidane Mehret",
+  "regex": true
+ },
+ {
+  "find": "\\bEthnographic Museum\\b",
+  "replace": "Ethnological Museum",
+  "regex": true
+ },
+ {
+  "find": "\\bKey Afer\\b",
+  "replace": "Key Afar",
+  "regex": true
+ },
+ {
+  "find": "(?<!Hamer )\\bBenn?a\\b",
+  "replace": "Banna",
+  "regex": true
+ },
+ {
+  "find": "\\bHamer\\b(?! Bena| Banna)",
+  "replace": "Hamar",
+  "regex": true
+ },
+ {
+  "find": "\\bGughe\\b",
+  "replace": "Guge",
+  "regex": true
+ },
+ {
+  "find": "\\bTsemai\\b",
+  "replace": "Tsemay",
+  "regex": true
+ },
+ {
+  "find": "\\bAledeghi\\b",
+  "replace": "Alledeghi",
+  "regex": true
+ },
+ {
+  "find": "\\bBwahit\\b",
+  "replace": "Buwahit",
+  "regex": true
+ },
+ {
+  "find": "\\bBuhit Ras\\b",
+  "replace": "Buyit Ras",
+  "regex": true
+ },
+ {
+  "find": "\\bSenkele\\b",
+  "replace": "Senkelle",
+  "regex": true
+ },
+ {
+  "find": "\\bKangate\\b",
+  "replace": "Kangaten",
+  "regex": true
+ },
+ {
+  "find": "\\bGenete Mariam\\b",
+  "replace": "Genete Maryam",
+  "regex": true
+ },
+ {
+  "find": "\\bKorcho\\b",
+  "replace": "Kolcho",
+  "regex": true
+ },
+ {
+  "find": "\\bMount Fentale\\b",
+  "replace": "Mount Fantale",
+  "regex": true
+ },
+ {
+  "find": "\\bFantalle\\b",
+  "replace": "Fantale",
+  "regex": true
+ },
+ {
+  "find": "\\bJinnbar\\b|\\bJinbahir\\b",
+  "replace": "Jinbar",
+  "regex": true
+ },
+ {
+  "find": "\\bSheromeda\\b",
+  "replace": "Shiro Meda",
+  "regex": true
+ },
+ {
+  "find": "\\bWolayta\\b",
+  "replace": "Wolaita",
+  "regex": true
+ },
+ {
+  "find": "\\bNechisar\\b",
+  "replace": "Nech Sar",
+  "regex": true
+ },
+ {
+  "find": "\\bAxumite\\b",
+  "replace": "Aksumite",
+  "regex": true
+ },
+ {
+  "find": "\\bGambella National Park is\\b",
+  "replace": "Gambela National Park is",
+  "regex": true
+ },
+ {
+  "find": "\\bDebre Mariam Korkor\\b",
+  "replace": "Debre Maryam Korkor",
+  "regex": true
+ },
+ {
+  "find": "\\bMedhanialem Adikesho\\b",
+  "replace": "Medhane Alem Adi Kesho",
+  "regex": true
+ },
+ {
+  "find": "\\bKarum Lake\\b",
+  "replace": "Lake Karum",
+  "regex": true
+ },
+ {
+  "find": "\\bTekezé\\b",
+  "replace": "Tekeze",
+  "regex": true
+ },
+ {
+  "find": "\\bAksum takes you\\b",
+  "replace": "Axum takes you",
+  "regex": true
+ },
+ {
+  "find": "from Lalibela, Aksum and Gondar",
+  "replace": "from Lalibela, Axum and Gondar",
+  "regex": true
+ },
+ {
+  "find": "(?<=[a-z,] )Gelada\\b",
+  "replace": "gelada",
+  "regex": true
+ },
+ {
+  "find": "(?<=[a-z,] )Walia\\b",
+  "replace": "walia",
+  "regex": true
+ },
+ {
+  "find": "\\bMountain [Nn]yala\\b",
+  "replace": "mountain nyala",
+  "regex": true
+ },
+ {
+  "find": "Menelik’s Bushbuck",
+  "replace": "Menelik’s bushbuck",
+  "regex": true
+ },
+ {
+  "find": "\\bEthiopian Wolf\\b",
+  "replace": "Ethiopian wolf",
+  "regex": true
+ },
+ {
+  "find": "(?<=[a-z,] )Khat\\b",
+  "replace": "khat",
+  "regex": true
+ },
+ {
+  "find": "(?<=of )Enset\\b",
+  "replace": "enset",
+  "regex": true
+ },
+ {
+  "find": "\\bShamma?\\b(?= cloth|, a beautifully)",
+  "replace": "shamma",
+  "regex": true
+ },
+ {
+  "find": "(?<=of )Shamma\\b",
+  "replace": "shamma",
+  "regex": true
+ },
+ {
+  "find": "Gabbi robes",
+  "replace": "gabbi robes",
+  "regex": true
+ },
+ {
+  "find": "Netala scarves",
+  "replace": "netela scarves",
+  "regex": true
+ },
+ {
+  "find": "known as Waga\\b",
+  "replace": "known as waka",
+  "regex": true
+ },
+ {
+  "find": "known as Waka\\b",
+  "replace": "known as waka",
+  "regex": true
+ },
+ {
+  "find": "distinctive Waka wooden",
+  "replace": "distinctive waka wooden",
+  "regex": true
+ },
+ {
+  "find": "traditional Tej house",
+  "replace": "traditional tej house",
+  "regex": true
+ },
+ {
+  "find": "[Bb]ull [Jj]umping [Cc]eremon",
+  "replace": "bull-jumping ceremon",
+  "regex": true
+ },
+ {
+  "find": "\\bbull jumping\\b",
+  "replace": "bull-jumping",
+  "regex": true
+ },
+ {
+  "find": "evangadi dance",
+  "replace": "Evangadi dance",
+  "regex": true
+ },
+ {
+  "find": "Acacia (woodlands|groves)",
+  "replace": "acacia \\1",
+  "regex": true
+ },
+ {
+  "find": "Eucalyptus (forests|trees)",
+  "replace": "eucalyptus \\1",
+  "regex": true
+ },
+ {
+  "find": "Coffea Arabica",
+  "replace": "Coffea arabica",
+  "regex": true
+ },
+ {
+  "find": "Lammergeyer",
+  "replace": "lammergeier",
+  "regex": true
+ },
+ {
+  "find": "\\bhead lamp\\b",
+  "replace": "headlamp",
+  "regex": true
+ },
+ {
+  "find": "\\bbird watching\\b",
+  "replace": "birdwatching",
+  "regex": true
+ },
+ {
+  "find": "\\bwater birds\\b",
+  "replace": "waterbirds",
+  "regex": true
+ },
+ {
+  "find": "\\bcheckout\\b",
+  "replace": "check-out",
+  "regex": true
+ },
+ {
+  "find": "\\b([Rr])ecognis(e|ed|es|ing|able)\\b",
+  "replace": "\\1ecogniz\\2",
+  "regex": true
+ },
+ {
+  "find": "\\b([Oo])rganis(e|ed|es|ing|er|ers|ation)\\b",
+  "replace": "\\1rganiz\\2",
+  "regex": true
+ },
+ {
+  "find": "\\b([Aa])uthoris(e|ed|es|ing|ation)\\b",
+  "replace": "\\1uthoriz\\2",
+  "regex": true
+ },
+ {
+  "find": "\\bcharacteris(e|ed|es|ing)\\b",
+  "replace": "characteriz\\1",
+  "regex": true
+ },
+ {
+  "find": "\\b([Cc])ivilisation(s?)\\b",
+  "replace": "\\1ivilization\\2",
+  "regex": true
+ },
+ {
+  "find": "\\bspecialis(e|ed|es|ing)\\b",
+  "replace": "specializ\\1",
+  "regex": true
+ },
+ {
+  "find": "\\b([Pp])ersonalis(e|ed)\\b",
+  "replace": "\\1ersonaliz\\2",
+  "regex": true
+ },
+ {
+  "find": "\\bAcclimatisation\\b",
+  "replace": "Acclimatization",
+  "regex": true
+ },
+ {
+  "find": "\\b([Cc])olor(s|ed|ful|fully)?\\b",
+  "replace": "\\1olour\\2",
+  "regex": true
+ },
+ {
+  "find": "\\bcenters\\b",
+  "replace": "centres",
+  "regex": true
+ },
+ {
+  "find": "\\bcenter\\b",
+  "replace": "centre",
+  "regex": true
+ },
+ {
+  "find": "\\bCenter\\b",
+  "replace": "Centre",
+  "regex": true
+ },
+ {
+  "find": "\\bcentered\\b",
+  "replace": "centred",
+  "regex": true
+ },
+ {
+  "find": "\\bmeters\\b",
+  "replace": "metres",
+  "regex": true
+ },
+ {
+  "find": "\\bliters\\b",
+  "replace": "litres",
+  "regex": true
+ },
+ {
+  "find": "\\b([Tt])ravel(er|ers|ing|ed)\\b",
+  "replace": "\\1ravell\\2",
+  "regex": true
+ },
+ {
+  "find": "\\bartifacts\\b",
+  "replace": "artefacts",
+  "regex": true
+ },
+ {
+  "find": "\\bjewelry\\b",
+  "replace": "jewellery",
+  "regex": true
+ },
+ {
+  "find": "\\bflavors\\b",
+  "replace": "flavours",
+  "regex": true
+ },
+ {
+  "find": "\\bbehavior\\b",
+  "replace": "behaviour",
+  "regex": true
+ },
+ {
+  "find": "\\bneighbor(s|ing|hood|hoods)?\\b",
+  "replace": "neighbour\\1",
+  "regex": true
+ },
+ {
+  "find": "\\bhonor(s|ed|ing)?\\b",
+  "replace": "honour\\1",
+  "regex": true
+ },
+ {
+  "find": "\\b([Ss])avor\\b",
+  "replace": "\\1avour",
+  "regex": true
+ },
+ {
+  "find": "\\bsulfur\\b",
+  "replace": "sulphur",
+  "regex": true
+ },
+ {
+  "find": "\\bfetal\\b",
+  "replace": "foetal",
+  "regex": true
+ },
+ {
+  "find": "\\bevening program\\b",
+  "replace": "evening programme",
+  "regex": true
+ },
+ {
+  "find": "\\bSavior\\b",
+  "replace": "Saviour",
+  "regex": true
+ },
+ {
+  "find": "\\bpracticed\\b",
+  "replace": "practised",
+  "regex": true
+ },
+ {
+  "find": "\\bpracticing\\b",
+  "replace": "practising",
+  "regex": true
+ },
+ {
+  "find": "\\bwho practice\\b",
+  "replace": "who practise",
+  "regex": true
+ }
+]

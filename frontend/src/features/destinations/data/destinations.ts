@@ -148,7 +148,7 @@ export const destinations: Destination[] = [
       'Ethiopian wolf tracking on the Sanetti Plateau',
       'Tulu Dimtu, Ethiopia’s second-highest peak, at 4,377 m',
       'The Harenna cloud forest with wild coffee and colobus monkeys',
-      'Mountain nyala and Menelik’s bushbuck around Dinsho',
+      'mountain nyala and Menelik’s bushbuck around Dinsho',
       'More than 250 bird species, including 16 Ethiopian endemics',
     ],
     paragraphs: [
@@ -313,7 +313,7 @@ export const destinations: Destination[] = [
     teaser:
       'Ethiopia’s oldest standing building: a 2,500-year-old temple near Axum.',
     intro:
-      'The birthplace of Ethiopia’s earliest high civilisation, where a pre-Christian temple still stands to its full height after 25 centuries.',
+      'The birthplace of Ethiopia’s earliest high civilization, where a pre-Christian temple still stands to its full height after 25 centuries.',
     bestTime: 'September to July',
     duration: 'Half day',
     altitude: '2,100 m',
@@ -325,7 +325,7 @@ export const destinations: Destination[] = [
     ],
     paragraphs: [
       'Less than two hours’ drive from Axum, Yeha was a centre of the pre-Aksumite kingdom of D’mt. Its Great Temple, a single roofless chamber about 20 metres long, has walls some 10 metres high built from smoothly polished stone blocks, some more than three metres long, fitted together without mortar.',
-      'Beside the ruins, the monastery of Abba Afse, one of the Nine Saints, preserves manuscripts and religious treasures. It is an essential stop for anyone interested in the origins of Ethiopian civilisation.',
+      'Beside the ruins, the monastery of Abba Afse, one of the Nine Saints, preserves manuscripts and religious treasures. It is an essential stop for anyone interested in the origins of Ethiopian civilization.',
     ],
   },
   {
@@ -446,7 +446,7 @@ export const destinations: Destination[] = [
     ],
     paragraphs: [
       'Sof Omar lies east of the Bale Mountains, where the Weyib River has cut an extraordinary network of limestone caves stretching for about 15 kilometres, one of the longest cave systems in Africa. Inside are towering pillars, natural arches, domes and deep chambers.',
-      'According to tradition the caves sheltered Sheikh Sof Omar in the 12th century, and they remain a place of pilgrimage. A guided walk through the main section takes around an hour, and can easily be added to a Bale Mountains itinerary.',
+      'According to tradition the caves sheltered Sheikh Sof Omar in the 12th century, and they remain a place of pilgrimage. A guided walk through the main section takes around an hour and can easily be added to a Bale Mountains itinerary.',
     ],
   },
   {
@@ -499,7 +499,7 @@ export const destinations: Destination[] = [
     paragraphs: [
       'Discover Jijiga, the capital of Ethiopia’s Somali Regional State, and experience a distinctive cultural landscape shaped by Somali traditions, pastoral heritage, trade and strong community connections. Located in eastern Ethiopia, relatively close to the border with Somaliland, Jijiga provides an excellent introduction to the culture and everyday life of the Somali people of Ethiopia.',
       'The city is known for its lively markets, traditional Somali clothing, aromatic cuisine and welcoming social atmosphere. Visitors can explore local markets, discover regional products, sample traditional dishes and observe the important role of livestock, trade and family traditions in the local economy. Somali tea, spiced rice and other regional specialities offer opportunities to experience the area’s distinctive food culture.',
-      'Beyond the city, the wider Somali Region is characterised by expansive semi-arid landscapes, acacia trees, open grazing areas and settlements reflecting the pastoral traditions of many Somali communities. Livestock, particularly camels, goats, sheep and cattle, plays an important role in local livelihoods and cultural identity. Travellers can learn about traditional pastoral life, the importance of livestock markets and the customs that have been passed down through generations.',
+      'Beyond the city, the wider Somali Region is characterized by expansive semi-arid landscapes, acacia trees, open grazing areas and settlements reflecting the pastoral traditions of many Somali communities. Livestock, particularly camels, goats, sheep and cattle, plays an important role in local livelihoods and cultural identity. Travellers can learn about traditional pastoral life, the importance of livestock markets and the customs that have been passed down through generations.',
       'Jijiga also offers an opportunity to understand the cultural diversity of Ethiopia beyond its better-known historic and highland destinations. The region’s language, music, poetry, clothing, hospitality and Islamic traditions contribute to a distinctive cultural identity and make a visit particularly rewarding for travellers interested in cultural discovery and authentic local experiences.',
       'Jijiga can be combined with a visit to Harar and Dire Dawa to create a broader eastern Ethiopia journey, subject to current road conditions, security advice and travel arrangements.',
     ],
@@ -769,7 +769,7 @@ export const destinations: Destination[] = [
       'Acacia woodland with ostrich and Grant’s gazelle',
     ],
     paragraphs: [
-      'Both lakes are terminal soda lakes with no outlet, but they could hardly be more different. Abijatta is shallow, with a fluctuating water level and fresh water flowing in through the Horakello stream, where water birds gather to drink and bathe. Shalla, by contrast, fills a deep crater surrounded by volcanic cliffs.',
+      'Both lakes are terminal soda lakes with no outlet, but they could hardly be more different. Abijatta is shallow, with a fluctuating water level and fresh water flowing in through the Horakello stream, where waterbirds gather to drink and bathe. Shalla, by contrast, fills a deep crater surrounded by volcanic cliffs.',
       'Together they make one of Ethiopia’s best birding destinations, easily combined with a night at nearby Lake Langano.',
     ],
   },
@@ -889,7 +889,7 @@ export const destinations: Destination[] = [
       'Rich birdlife in diverse habitats',
     ],
     paragraphs: [
-      'Covering about 1,250 square kilometres, Chebera Churchura is characterised by montane and riverine forest, woodland and wetland. It is one of Ethiopia’s most important elephant conservation areas and also shelters lion, leopard, buffalo and hippo.',
+      'Covering about 1,250 square kilometres, Chebera Churchura is characterized by montane and riverine forest, woodland and wetland. It is one of Ethiopia’s most important elephant conservation areas and also shelters lion, leopard, buffalo and hippo.',
       'Surrounded by the Dawro and Konta peoples, it offers authentic wilderness and cultural encounters for travellers looking beyond the usual routes.',
     ],
   },
@@ -913,7 +913,7 @@ export const destinations: Destination[] = [
       'Anuak and Nuer communities along the Baro River',
     ],
     paragraphs: [
-      'Gambela is Ethiopia’s true tropical zone, a land of tall Sudanese grass, wetlands and rivers. Gambella National Park is home to elephant, buffalo, lion, leopard, hippo, Nile crocodile and rare antelopes such as the Nile lechwe, and hosts one of Africa’s largest mammal migrations when vast herds of white-eared kob move across the plains.',
+      'Gambela is Ethiopia’s true tropical zone, a land of tall Sudanese grass, wetlands and rivers. Gambela National Park is home to elephant, buffalo, lion, leopard, hippo, Nile crocodile and rare antelopes such as the Nile lechwe, and hosts one of Africa’s largest mammal migrations when vast herds of white-eared kob move across the plains.',
       'Remote and with limited infrastructure, Gambela is best visited as a tailor-made expedition for adventurous travellers.',
     ],
   },
@@ -1035,7 +1035,7 @@ export const destinations: Destination[] = [
       'Terraced hillsides stretching to the horizon',
     ],
     paragraphs: [
-      'The Konso live among basalt hills in southern Ethiopia, where generations of farmers have built stone terraces to cultivate sorghum, maize and cotton in a challenging environment. Their villages, built on hilltops and enclosed by stone walls, are entered through narrow gates and organised around communal mora houses.',
+      'The Konso live among basalt hills in southern Ethiopia, where generations of farmers have built stone terraces to cultivate sorghum, maize and cotton in a challenging environment. Their villages, built on hilltops and enclosed by stone walls, are entered through narrow gates and organized around communal mora houses.',
       'The Konso Cultural Landscape was inscribed by UNESCO in 2011. A visit is a highlight of any journey between Arba Minch and the Omo Valley.',
     ],
   },
@@ -1104,14 +1104,14 @@ export const destinations: Destination[] = [
       'Boat trip to the Crocodile Market and its large Nile crocodiles',
       'Hippos resting and surfacing in the lake',
       'Pelicans, fish eagles, herons and other waterbirds',
-      'Views of the Bridge of God and Nechisar National Park',
+      'Views of the Bridge of God and Nech Sar National Park',
     ],
     paragraphs: [
-      'Surrounded by dry lowland scenery and distant mountains, Lake Chamo offers a striking contrast between its blue-green waters and the rugged landscapes of southern Ethiopia. It lies south of Lake Abaya, and the two lakes are separated by a narrow strip of land known as the Bridge of God, part of Nechisar National Park. Grasslands, wetlands, woodland and groundwater forests around the lake support a diverse range of wildlife.',
+      'Surrounded by dry lowland scenery and distant mountains, Lake Chamo offers a striking contrast between its blue-green waters and the rugged landscapes of southern Ethiopia. It lies south of Lake Abaya, and the two lakes are separated by a narrow strip of land known as the Bridge of God, part of Nech Sar National Park. Grasslands, wetlands, woodland and groundwater forests around the lake support a diverse range of wildlife.',
       'One of the lake’s best-known features is the area popularly called the Crocodile Market, where large Nile crocodiles gather along particular sections of the shoreline, often resting in the sun. The surrounding waters also support hippopotamuses, which can often be seen resting in the lake or surfacing to breathe.',
       'The lake and its wetlands provide habitats for numerous resident and migratory birds. Pelicans, fish eagles, herons and other waterbirds can be found here, depending on the season, making the area particularly appealing to birdwatchers and nature photographers.',
       'Lake Chamo supports a variety of freshwater fish, including Nile perch, catfish and tilapia, and fishing is an important part of local livelihoods, alongside farming and other traditional activities that have developed with the region’s natural resources.',
-      'Together with Nechisar National Park, known for its Burchell’s zebras, gazelles and other wildlife, the lake forms one of southern Ethiopia’s most distinctive natural landscapes. Along with Lake Abaya and the surrounding highlands, it is a highlight of Arba Minch, the city of “forty springs”, and a different side of Ethiopia beyond its historic cities.',
+      'Together with Nech Sar National Park, known for its Burchell’s zebras, gazelles and other wildlife, the lake forms one of southern Ethiopia’s most distinctive natural landscapes. Along with Lake Abaya and the surrounding highlands, it is a highlight of Arba Minch, the city of “forty springs”, and a different side of Ethiopia beyond its historic cities.',
     ],
   },
   {
@@ -1135,7 +1135,7 @@ export const destinations: Destination[] = [
     ],
     paragraphs: [
       'Hawassa lies on the eastern shore of Lake Hawassa, a freshwater lake in the Great Rift Valley. Its tree-lined avenues and lakeside promenade make it one of the most pleasant cities in southern Ethiopia.',
-      'The city is best known for its fish market, where fishermen bring in their catch at dawn while marabou storks wait for scraps. The lake is also home to hippos and a rich variety of water birds.',
+      'The city is best known for its fish market, where fishermen bring in their catch at dawn while marabou storks wait for scraps. The lake is also home to hippos and a rich variety of waterbirds.',
       'Hawassa is a convenient overnight stop on journeys between Addis Ababa, Arba Minch and the Omo Valley, and a base for the hot springs of Wondo Genet and the coffee lands of Sidama.',
     ],
   },
@@ -1186,9 +1186,9 @@ export const destinations: Destination[] = [
       'Coffee ceremonies with local families',
     ],
     paragraphs: [
-      'For generations, coffee has shaped the identity, economy and landscape of Yirgacheffe. Its name is recognised by coffee lovers worldwide for coffees often associated with floral aromas, citrus notes, delicate flavours and bright acidity, varying with the coffee variety, growing conditions and processing.',
+      'For generations, coffee has shaped the identity, economy and landscape of Yirgacheffe. Its name is recognized by coffee lovers worldwide for coffees often associated with floral aromas, citrus notes, delicate flavours and bright acidity, varying with the coffee variety, growing conditions and processing.',
       'Coffee is traditionally grown in small plots beneath shade trees and alongside enset, fruit trees and other crops, creating layered landscapes that support local livelihoods. During the harvest, ripe cherries are collected and taken to washing stations and cooperatives: washed coffee is generally associated with clean, bright flavours, while naturally processed coffee often develops pronounced fruity notes.',
-      'Yirgacheffe lies within the Gedeo cultural landscape, recognised by UNESCO for its traditional agroforestry: densely cultivated hillsides, indigenous trees, coffee gardens and enset plantations. The wider region is also known for its traditional settlements and historic stone monuments, including the stelae and archaeological sites around Dilla.',
+      'Yirgacheffe lies within the Gedeo cultural landscape, recognized by UNESCO for its traditional agroforestry: densely cultivated hillsides, indigenous trees, coffee gardens and enset plantations. The wider region is also known for its traditional settlements and historic stone monuments, including the stelae and archaeological sites around Dilla.',
       'Coffee’s significance extends far beyond agriculture. In the traditional coffee ceremony, green beans are roasted, ground and brewed in a clay pot called a jebena and served in small cups with conversation and snacks, an expression of hospitality that brings families, neighbours and visitors together.',
       'Walking through the green hills, shaded coffee gardens and rural settlements shows how coffee, enset and indigenous trees are woven into everyday farming, from the bustle of the harvest to the lush months after the rains. Yirgacheffe is one of the best places in Ethiopia to understand how a single crop can shape local identity, livelihoods and global connections.',
     ],
@@ -1238,7 +1238,7 @@ export const destinations: Destination[] = [
     ],
     paragraphs: [
       'The Hamar live in a fertile part of the Omo Valley in round, grass-roofed huts set around cattle and goat enclosures. Cattle provide milk, meat and status, and families trade with their neighbours for sorghum and maize.',
-      'Their best-known tradition is the bull-jumping ceremony, in which a young man runs across the backs of a line of cattle to prove his readiness for marriage, accompanied by singing, dancing and celebrations. Afterwards he joins the maza, the young men who help organise future ceremonies.',
+      'Their best-known tradition is the bull-jumping ceremony, in which a young man runs across the backs of a line of cattle to prove his readiness for marriage, accompanied by singing, dancing and celebrations. Afterwards he joins the maza, the young men who help organize future ceremonies.',
     ],
   },
   {
@@ -1453,7 +1453,7 @@ export const destinations: Destination[] = [
       'The Bebeka coffee estate near Mizan Teferi',
     ],
     paragraphs: [
-      'Legend says coffee was discovered in Kaffa by a goatherd named Kaldi. Today the Kafa Biosphere Reserve, recognised by UNESCO in 2010, protects montane rainforest where wild coffee grows beneath the canopy.',
+      'Legend says coffee was discovered in Kaffa by a goatherd named Kaldi. Today the Kafa Biosphere Reserve, recognized by UNESCO in 2010, protects montane rainforest where wild coffee grows beneath the canopy.',
       'From Bonga, short treks lead into the forest at Mankira, and the journey continues to Bebeka, one of Ethiopia’s largest coffee estates, to follow the bean from farm to cup.',
     ],
   },
@@ -1504,7 +1504,7 @@ export const destinations: Destination[] = [
       'Celebrations in Gondar, Axum and Lalibela',
     ],
     paragraphs: [
-      'Meskel (“cross” in Ge’ez and Amharic) commemorates the discovery of the True Cross by Empress Helena, mother of Constantine the Great. Tradition holds that she followed the smoke of a bonfire to find it, and Ethiopia believes a fragment is kept at the mountain monastery of Gishen Mariam.',
+      'Meskel (“cross” in Ge’ez and Amharic) commemorates the discovery of the True Cross by Empress Helena, mother of Constantine the Great. Tradition holds that she followed the smoke of a bonfire to find it, and Ethiopians believe a fragment is kept at the mountain monastery of Gishen Mariam.',
       'On the eve of the festival, tall Demera bonfires decorated with yellow Meskel daisies are lit across the country, the largest in Meskel Square in Addis Ababa, surrounded by singing crowds. The direction in which the burning pole falls is said to foretell the year ahead.',
     ],
   },
@@ -1565,7 +1565,7 @@ export const destinations: Destination[] = [
     teaser:
       'Yellow flowers, songs and new beginnings as the rains end on 11 September.',
     intro:
-      'Ethiopia follows its own calendar of thirteen months, and welcomes its New Year on 11 September (12 in leap years).',
+      'Ethiopia follows its own calendar of thirteen months and welcomes its New Year on 11 September (12 in leap years).',
     bestTime: '11 September',
     duration: '1 day',
     altitude: 'Nationwide',
@@ -1577,7 +1577,7 @@ export const destinations: Destination[] = [
     ],
     paragraphs: [
       'Enkutatash means “gift of jewels”. Tradition holds that when the Queen of Sheba returned from visiting King Solomon, her chiefs welcomed her by replenishing her treasury with jewels.',
-      'The festival coincides with the end of the long rains, when the highlands burst into green and yellow flowers. Families exchange greetings, share festive meals and children sing traditional songs from house to house.',
+      'The festival coincides with the end of the long rains, when the highlands burst into green and yellow flowers. Families exchange greetings and share festive meals, and children sing traditional songs from house to house.',
     ],
   },
   {

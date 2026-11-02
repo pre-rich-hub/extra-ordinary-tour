@@ -1,5 +1,5 @@
 // Official company slogan — used across the site.
-export const slogan = 'Discover Ethiopia. Experience the Extraordinary!'
+export const slogan = 'Discover Ethiopia. Experience the Extraordinary.'
 
 export const contact = {
   phone: '+251 912 039405',

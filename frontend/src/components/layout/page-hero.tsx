@@ -104,7 +104,7 @@ export function PageHero({
               >
                 <dt className="text-[10px] uppercase tracking-[0.18em] text-background/55">
                   {copy(m.label)}
-                </dt>
+                </dt>{' '}
                 <dd className="font-serif text-base text-accent sm:text-lg">
                   {copy(m.value)}
                 </dd>
@@ -119,7 +119,7 @@ export function PageHero({
               <div key={m.label} className="bg-charcoal/40 px-5 py-4 sm:px-6">
                 <dt className="text-[10px] uppercase tracking-[0.18em] text-background/55">
                   {copy(m.label)}
-                </dt>
+                </dt>{' '}
                 <dd className="mt-1.5 font-serif text-xl text-background sm:text-2xl">
                   {copy(m.value)}
                 </dd>

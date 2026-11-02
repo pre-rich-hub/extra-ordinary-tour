@@ -39,12 +39,12 @@ export const posts: Post[] = [
     excerpt:
       'The great Demera bonfire, yellow Meskel daisies and thousands of worshippers in white: a guide to one of Ethiopia’s most important festivals.',
     body: [
-      'Meskel is one of the most important religious and cultural festivals in Ethiopia. Celebrated every September, it commemorates the finding of the True Cross on which Christ was crucified, and is famous for the spectacular Demera bonfire, colourful processions, traditional songs and large community gatherings. In 2013 UNESCO inscribed it on the Representative List of the Intangible Cultural Heritage of Humanity, recognising its role in social unity and reconciliation.',
+      'Meskel is one of the most important religious and cultural festivals in Ethiopia. Celebrated every September, it commemorates the finding of the True Cross on which Christ was crucified, and is famous for the spectacular Demera bonfire, colourful processions, traditional songs and large community gatherings. In 2013 UNESCO inscribed it on the Representative List of the Intangible Cultural Heritage of Humanity, recognizing its role in social unity and reconciliation.',
       'Meskel means “cross” in Amharic and Ge’ez. According to Ethiopian tradition, Empress Helena, known in Ethiopia as Eleni, mother of Constantine the Great, discovered the True Cross after a revelation: she lit a bonfire, and its smoke showed her where the cross lay buried. Ethiopians believe a fragment was later brought to the country and rests at the mountain monastery of Gishen Mariam.',
       'The festival begins on the eve of Meskel, 26 September (27 in leap years). Tall wooden poles, branches and grass are gathered into a conical Demera and decorated with yellow Meskel flowers: the adey abeba daisies that bloom across the highlands as the rains end. Priests, deacons, Sunday-school choirs and worshippers gather around it for prayers, hymns and chanting, and as evening falls the Demera is set alight. The direction in which the burning pole falls is said to foretell the year ahead.',
       'The largest celebration takes place in Meskel Square in Addis Ababa, where thousands of people in traditional white clothing surround the fire. Women wear the habesha kemis with a white netela shawl; clergy appear in richly coloured ceremonial robes. Smaller Demeras are lit in towns and villages across the country, from Gondar and Axum to Lalibela.',
       'Meskel is also a time of homecoming. Families gather, share injera and festive dishes, resolve disagreements and strengthen ties, which is why experiencing it can offer a deeper understanding of Ethiopian culture than any monument.',
-      'A few tips if you plan to attend: book accommodation early, as the festival is a national holiday; confirm the exact date for your year of travel; arrive at Meskel Square early to find a good vantage point; dress modestly; and ask before photographing priests, worshippers or children. Above all, remember that this is a religious celebration, and follow the guidance of organisers and your guide.',
+      'A few tips if you plan to attend: book accommodation early, as the festival is a national holiday; confirm the exact date for your year of travel; arrive at Meskel Square early to find a good vantage point; dress modestly; and ask before photographing priests, worshippers or children. Above all, remember that this is a religious celebration, and follow the guidance of organizers and your guide.',
       'A Meskel journey combines beautifully with Ethiopia’s historic north or with the start of the dry season in the south. Contact us to build an itinerary around the festival.',
     ],
   },
@@ -63,7 +63,7 @@ export const posts: Post[] = [
     body: [
       'The Omo Valley, in Ethiopia’s far southwest near the borders of Kenya and South Sudan, is one of Africa’s most culturally diverse regions. More than a dozen communities live along the Omo River, each with its own language, dress, ceremonies and way of life. The lower valley is a UNESCO World Heritage Site for its fossil discoveries, and its living cultures are just as remarkable.',
       'The Hamar are among the most visited peoples of the valley, known for women’s hair coated with ochre and butter, beadwork and a cattle-centred life. Their bull-jumping ceremony, in which a young man runs across the backs of cattle to prove his readiness for marriage, is one of Ethiopia’s most famous cultural events.',
-      'The Mursi are perhaps the most internationally recognised: many women wear clay lip plates as a symbol of beauty, maturity and identity, and body painting and scarification are important forms of expression. The Karo, a small community on the eastern bank of the Omo, are master body painters, using chalk, charcoal and coloured minerals to create extraordinary designs.',
+      'The Mursi are perhaps the most internationally recognized: many women wear clay lip plates as a symbol of beauty, maturity and identity, and body painting and scarification are important forms of expression. The Karo, a small community on the eastern bank of the Omo, are master body painters, using chalk, charcoal and coloured minerals to create extraordinary designs.',
       'Further south, the Dassanech live near Lake Turkana, raising livestock and fishing in a harsh, arid landscape. The Ari, one of the largest groups, are farmers, potters and blacksmiths in the green hills around Jinka. The Banna, close relatives of the Hamar, are known for beadwork and dances, while the Nyangatom are semi-nomadic pastoralists with strong warrior traditions.',
       'Across the valley, body painting with white chalk, red ochre, charcoal and plant pigments marks ceremonies and celebrations; scarification can signify beauty, status or achievement; and beads, shells, metal and leather often communicate age and marital status.',
       'The Omo Valley can be visited year-round except during the main rains of April and May, when roads become difficult and villages harder to reach. Three or four days cover the main communities; five to seven allow a more complete experience; eight or more suit photographers and travellers seeking deeper immersion.',
@@ -83,13 +83,13 @@ export const posts: Post[] = [
     excerpt:
       'Where to go, what to do, what to eat and how long you need: everything to plan your first journey through Ethiopia.',
     body: [
-      'Ethiopia offers an extraordinary combination of ancient history, diverse cultures, spectacular landscapes, wildlife and hospitality. From the rock-hewn churches of Lalibela and the ancient kingdom of Aksum to the Simien Mountains, the Omo Valley and the otherworldly Danakil Depression, it holds experiences that are difficult to find anywhere else in Africa. UNESCO recognises twelve World Heritage properties here, from Lalibela, Aksum and Gondar to Harar, the Lower Omo, the Simien and, since 2023, the Bale Mountains.',
-      'Most journeys begin in Addis Ababa, where the National Museum, cathedrals, Merkato and the forested hills of Entoto make an excellent introduction. In the north, Lalibela is the highlight of almost every itinerary, its eleven medieval churches connected by tunnels and courtyards. Gondar, the “Camelot of Africa”, is the gateway to the Simien Mountains, whose cliffs and endemic wildlife make them one of Africa’s great trekking destinations. Aksum takes you back to one of the ancient world’s great kingdoms, and Bahir Dar opens the monasteries of Lake Tana and the Blue Nile Falls.',
+      'Ethiopia offers an extraordinary combination of ancient history, diverse cultures, spectacular landscapes, wildlife and hospitality. From the rock-hewn churches of Lalibela and the ancient kingdom of Aksum to the Simien Mountains, the Omo Valley and the otherworldly Danakil Depression, it holds experiences that are difficult to find anywhere else in Africa. UNESCO recognizes twelve World Heritage properties here, from Lalibela, Axum and Gondar to Harar, the Lower Omo, the Simien and, since 2023, the Bale Mountains.',
+      'Most journeys begin in Addis Ababa, where the National Museum, cathedrals, Merkato and the forested hills of Entoto make an excellent introduction. In the north, Lalibela is the highlight of almost every itinerary, its eleven medieval churches connected by tunnels and courtyards. Gondar, the “Camelot of Africa”, is the gateway to the Simien Mountains, whose cliffs and endemic wildlife make them one of Africa’s great trekking destinations. Axum takes you back to one of the ancient world’s great kingdoms, and Bahir Dar opens the monasteries of Lake Tana and the Blue Nile Falls.',
       'In the south, the Omo Valley is home to diverse communities with distinctive traditions and is best visited with experienced local guides. The Danakil Depression, in the Afar region, is a land of salt flats, volcanoes and coloured mineral springs that requires careful planning. The Bale Mountains offer Afro-alpine plateaus, cloud forest and the Ethiopian wolf, and in the east the walled city of Harar provides a completely different cultural experience, easily combined with Dire Dawa and Awash National Park.',
       'There is plenty to do beyond sightseeing: trekking in the Simien, Bale and Gheralta mountains or on community routes around Lalibela; watching wildlife such as gelada, walia ibex and mountain nyala; joining a coffee ceremony or visiting the coffee lands of the south; and experiencing festivals such as Timkat, Meskel, Genna, Enkutatash and Fasika. Book early around festivals, as popular dates attract many visitors.',
       'Food is a highlight in itself. Injera, the fermented teff flatbread, is served with stews such as doro wat, shiro and misir wat, alongside tibs, kitfo and firfir. Vegetarian and vegan travellers are well looked after, especially during the many fasting days when restaurants offer plant-based menus.',
       'How long do you need? Three to five days allow Addis Ababa and one major destination such as Lalibela. Seven to ten days cover several northern highlights. Ten to fourteen days give flexibility for the full Historic Route or a combination of history and nature. With two to three weeks you can add the Omo Valley, the Bale Mountains, eastern Ethiopia or the Danakil.',
-      'The best Ethiopia journey is the one designed around your interests and time. Whether that is history, culture, trekking, wildlife, festivals or a fully private tailor-made trip, we would love to help you plan it. Discover Ethiopia. Experience the Extraordinary!',
+      'The best Ethiopia journey is the one designed around your interests and time. Whether that is history, culture, trekking, wildlife, festivals or a fully private tailor-made trip, we would love to help you plan it. Discover Ethiopia. Experience the Extraordinary.',
     ],
   },
   {
@@ -133,7 +133,7 @@ export const posts: Post[] = [
       'The Afar people have adapted to this harsh environment through generations of knowledge, and respectful encounters with them, learning about their nomadic way of life and salt trade, add great depth to a visit.',
       'Timing is essential. Travel between November and February, when temperatures are relatively cooler and exploration safer. From March to September temperatures often exceed 45 °C and travel is generally not recommended. Most tours last three days, covering Erta Ale, Dallol and the salt flats; four or five days allow more relaxed travel and time for photography.',
       'Pack lightweight clothing, a sun hat, sunglasses, sunscreen, comfortable hiking shoes, a reusable water bottle, a headlamp, camera equipment and personal medications. Hydration is vital throughout.',
-      'The Danakil is visited as part of organised tours with licensed operators, local Afar guides and police escorts. Follow your guide’s instructions at all times, stay on designated routes and be prepared for basic camping. In return you will witness geological processes that are still shaping our planet, in one of Africa’s most unforgettable landscapes.',
+      'The Danakil is visited as part of organized tours with licensed operators, local Afar guides and police escorts. Follow your guide’s instructions at all times, stay on designated routes and be prepared for basic camping. In return you will witness geological processes that are still shaping our planet, in one of Africa’s most unforgettable landscapes.',
     ],
   },
   {
@@ -149,13 +149,13 @@ export const posts: Post[] = [
     excerpt:
       'Lucy, a thirteen-month calendar, the Ark of the Covenant and the birthplace of coffee: why Ethiopia is unlike anywhere else.',
     body: [
-      'When travellers think of the world’s great cultural destinations, Egypt, Italy and India often come to mind. Yet in the Horn of Africa lies one of humanity’s greatest treasures: a land of ancient civilisations, sacred traditions, dramatic landscapes and living heritage, where history is woven into daily life rather than confined to museums.',
+      'When travellers think of the world’s great cultural destinations, Egypt, Italy and India often come to mind. Yet in the Horn of Africa lies one of humanity’s greatest treasures: a land of ancient civilizations, sacred traditions, dramatic landscapes and living heritage, where history is woven into daily life rather than confined to museums.',
       'Ethiopia holds a unique place as the cradle of humankind. The discovery of Lucy, a 3.2-million-year-old Australopithecus afarensis unearthed in the Afar region in 1974, transformed our understanding of human origins, and her story can be explored at the National Museum in Addis Ababa.',
       'The country follows its own calendar of thirteen months and counts the hours from sunrise rather than midnight. Having resisted long-term colonial rule, it has preserved its languages, customs and beliefs with exceptional pride.',
       'Its spiritual heritage is profound. Ethiopia has been Christian since the 4th century, and tradition holds that the Ark of the Covenant rests in Axum at the Church of Our Lady Mary of Zion. The rock-hewn churches of Lalibela remain active places of worship, filled with chant, incense and pilgrims in white, while festivals such as Timkat and Meskel fill the streets with colour and devotion.',
       'Ethiopia is also the birthplace of coffee. Legend places its discovery in the forests of Kaffa, and the coffee ceremony, beans roasted, ground and brewed before your eyes, remains the country’s great symbol of hospitality and friendship.',
       'With more than 80 ethnic groups, the country is a mosaic of cultures, from the peoples of the Omo Valley to the royal city of Gondar and the obelisks of Axum. Its cuisine, built around injera made from the ancient grain teff and shared from a common platter, is a joy for every traveller, including vegetarians and vegans.',
-      'Above all, it is the warmth of Ethiopians that leaves the deepest impression. Come and explore the land where humanity began, where traditions endure, and where every journey tells a story. Discover Ethiopia. Experience the Extraordinary!',
+      'Above all, it is the warmth of Ethiopians that leaves the deepest impression. Come and explore the land where humanity began, where traditions endure, and where every journey tells a story. Discover Ethiopia. Experience the Extraordinary.',
     ],
   },
   {
@@ -171,7 +171,7 @@ export const posts: Post[] = [
     excerpt:
       'Euronews has listed the rock-hewn churches of Lalibela among five World Heritage Sites every traveller should see.',
     body: [
-      'The rock-hewn churches of Lalibela have been recognised by Euronews as one of the top five must-visit UNESCO World Heritage Sites, based on recommendations from some of the world’s most experienced travellers.',
+      'The rock-hewn churches of Lalibela have been recognized by Euronews as one of the top five must-visit UNESCO World Heritage Sites, based on recommendations from some of the world’s most experienced travellers.',
       'Carved directly from solid volcanic rock more than 800 years ago, the eleven monolithic churches, connected by tunnels and passageways, remain one of the great engineering achievements of the medieval world. Often called the “New Jerusalem”, Lalibela continues to draw pilgrims, historians, photographers and travellers from across the globe.',
       'What sets Lalibela apart is that it is still alive. The churches remain active places of worship, offering visitors a rare chance to experience centuries-old spiritual traditions in the setting for which they were created.',
       'This international recognition highlights Lalibela’s place among the world’s most treasured heritage sites. As a company founded by a Lalibela-born guide, we could not be prouder, and we would love to show it to you.',
@@ -193,7 +193,7 @@ export const posts: Post[] = [
       'The Simien Mountains deliver one of the most spectacular trekking experiences in Africa. Established as a national park in 1969 and inscribed by UNESCO in 1978, they are famous for razor-sharp escarpments, plunging gorges and vast highland plateaus, and for wildlife found nowhere else, including the gelada, walia ibex and Ethiopian wolf.',
       'The trekking season runs from September to June. The dry months from October to March bring clear skies and excellent visibility; daytime temperatures are typically 11 to 18 °C, while nights can be cold. December to February is peak season. September offers lush green landscapes just after the rains, while July and August bring slippery trails and mist and are best avoided by first-time visitors.',
       'All treks require a licensed guide and an armed scout. The classic three- to four-day trek starts at Sankaber and passes through Gich and Chenek, with Jinbar waterfall, the Imet Gogo viewpoint and frequent gelada sightings. Five- to seven-day treks add the summit of Ras Dashen, Ethiopia’s highest peak, and remoter areas with better chances of walia ibex and Ethiopian wolf. Day hikes from lodges suit those who prefer not to camp.',
-      'Expect four to eight hours of walking a day at altitudes between 3,000 and 4,500 metres, with steep sections and variable weather. Acclimatisation is important; previous hiking experience helps, but fit beginners can manage the shorter routes with sensible pacing.',
+      'Expect four to eight hours of walking a day at altitudes between 3,000 and 4,500 metres, with steep sections and variable weather. Acclimatization is important; previous hiking experience helps, but fit beginners can manage the shorter routes with sensible pacing.',
       'Most trekkers fly from Addis Ababa to Gondar and drive two to three hours to Debark, the park headquarters. Pack warm layers, a waterproof jacket, gloves and hat, sturdy boots, trekking poles, a sleeping bag if camping, a headlamp, a water bottle, snacks, sunscreen, binoculars and personal medication.',
       'Stay on designated trails, respect local communities, support conservation and leave no trace. Trek with accredited local guides and scouts, and you will discover one of the most beautiful mountain landscapes on earth.',
     ],
@@ -234,10 +234,10 @@ export const posts: Post[] = [
     excerpt:
       'Passports, packing, health, altitude, photography, money and tipping: our pre-departure guide for every guest.',
     body: [
-      'Dear Traveler, thank you for choosing Extraordinary Ethiopia Tours.',
+      'Dear Traveller, thank you for choosing Extraordinary Ethiopia Tours.',
       'We are delighted to welcome you to Ethiopia. This guide has been prepared to help you enjoy a safe, comfortable, and memorable journey. Please take a few minutes to read the following information before your departure.',
       { heading: 'Before You Travel' },
-      'Before traveling, please ensure that:',
+      'Before travelling, please ensure that:',
       {
         list: [
           'Your passport is valid for at least six months beyond your arrival date.',
@@ -296,12 +296,12 @@ export const posts: Post[] = [
       },
       'Your guide will advise you whenever restrictions apply.',
       { heading: 'Drone Cameras and Binoculars' },
-      'Drone cameras are not permitted to enter Ethiopia without prior government authorization. Any traveler bringing a drone may have it temporarily confiscated by customs until the appropriate permits are presented.',
+      'Drone cameras are not permitted to enter Ethiopia without prior government authorization. Any traveller bringing a drone may have it temporarily confiscated by customs until the appropriate permits are presented.',
       'Professional filming equipment and, in some cases, binoculars may also require customs clearance.',
       'If you intend to bring any specialized equipment, please notify us before your departure so we can advise you on the necessary procedures.',
       { heading: 'Money and Payments' },
-      'The Ethiopian Birr (ETB) is the official currency. Credit cards are accepted in many hotels and restaurants in Addis Ababa, but cash is still essential in many parts of the country.',
-      'We recommend bringing US Dollars or Euros for exchange. ATMs are available in larger cities but may not be available in remote destinations.',
+      'The Ethiopian birr (ETB) is the official currency. Credit cards are accepted in many hotels and restaurants in Addis Ababa, but cash is still essential in many parts of the country.',
+      'We recommend bringing US dollars or euros for exchange. ATMs are available in larger cities but may not be available in remote destinations.',
       { heading: 'Domestic Flights' },
       'Ethiopian Airlines operates one of Africa’s largest domestic networks.',
       'If your international and domestic tickets are booked separately:',
@@ -327,9 +327,9 @@ export const posts: Post[] = [
           'Using sunscreen and staying hydrated.',
         ],
       },
-      'Travelers arriving from countries where Yellow Fever is present will need to present a valid Yellow Fever Vaccination Certificate. Please check the latest entry requirements before departure.',
+      'Travellers arriving from countries where Yellow Fever is present will need to present a valid Yellow Fever Vaccination Certificate. Please check the latest entry requirements before departure.',
       { heading: 'Altitude' },
-      'Many Ethiopian destinations are above 2,000 meters (6,500 feet), including Addis Ababa and Lalibela. You may experience mild altitude symptoms during your first day. We recommend:',
+      'Many Ethiopian destinations are above 2,000 metres (6,500 feet), including Addis Ababa and Lalibela. You may experience mild altitude symptoms during your first day. We recommend:',
       {
         list: [
           'Drinking plenty of water',

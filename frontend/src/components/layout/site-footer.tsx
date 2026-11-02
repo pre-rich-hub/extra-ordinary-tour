@@ -148,7 +148,7 @@ export function SiteFooter({
             </Link>
             <p className="mt-6 max-w-sm text-pretty text-[15px] leading-relaxed text-background/65">
               {copy(
-                'A locally based tour operator from Lalibela, creating private and customized journeys across Ethiopia.',
+                'A locally based tour operator in Lalibela, creating private and customized journeys across Ethiopia.',
               )}
             </p>
             <p className="mt-3 font-serif text-xl italic text-accent">
@@ -253,7 +253,7 @@ export function SiteFooter({
               </p>
               <p className="mt-2 text-[15px] leading-relaxed text-background/65">
                 {copy(
-                  'Travel stories, festival dates and seasonal inspiration from our team in Lalibela. Four letters a year, never more.',
+                  'Travel stories, festival dates and seasonal inspiration from our team in Lalibela. Just four newsletters a year. No spam, ever.',
                 )}
               </p>
             </div>

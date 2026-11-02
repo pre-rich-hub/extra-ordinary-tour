@@ -421,12 +421,12 @@ export function SiteNav({
                                 <p className="text-[11px] text-muted-foreground/80 mt-1 line-clamp-2 leading-relaxed">
                                   {copy(t.teaser)}
                                 </p>
-                                <div className="mt-2.5 flex items-center justify-between border-t border-border/60 pt-2">
+                                <div className="mt-2.5 border-t border-border/60 pt-2">
                                   <span className="text-[10px] text-muted-foreground uppercase tracking-wider">
                                     {hasPrice(t.from)
                                       ? copy('Starting from')
                                       : copy('Price')}
-                                  </span>
+                                  </span>{' '}
                                   <span className="text-xs font-bold text-accent">
                                     {hasPrice(t.from)
                                       ? priceShort(t.from)

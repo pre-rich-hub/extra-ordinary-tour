@@ -17,7 +17,7 @@ export function ContactFaq() {
         {
           question: copy('Do you run private tours or group tours?'),
           answer: copy(
-            'Both. We specialise in custom-designed private tours and carefully organised group tours for solo travellers, couples, families and friends.',
+            'Both. We specialize in custom-designed private tours and carefully organized group tours for solo travellers, couples, families and friends.',
           ),
         },
         {
@@ -56,7 +56,7 @@ export function ContactFaq() {
           answer: (
             <>
               {copy(
-                'That depends on your passport. When you enquire, we confirm the visa position for your nationality. Ethiopia’s official e-visa service is',
+                'That depends on your passport. When you enquire, we confirm the visa position for your nationality. Ethiopia’s official e-Visa service is',
               )}{' '}
               <a
                 href="https://www.evisa.gov.et"

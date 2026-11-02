@@ -52,7 +52,7 @@ export function AboutHero({
         <h1 className="max-w-[15ch] text-balance font-serif text-[2.9rem] font-medium leading-[0.98] text-background text-shadow-soft [animation:fade-up_1s_ease_0.2s_both] sm:text-7xl lg:text-[6.25rem]">
           {copy('Discover Ethiopia.')}{' '}
           <em className="italic text-accent">
-            {copy('Experience the Extraordinary!')}
+            {copy('Experience the Extraordinary.')}
           </em>
         </h1>
         <p className="mt-8 max-w-[50ch] text-pretty leading-relaxed text-background/80 [animation:fade-up_1s_ease_0.35s_both] sm:text-lg">

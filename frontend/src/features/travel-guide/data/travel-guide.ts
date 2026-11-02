@@ -45,7 +45,7 @@ export const travelGuide: GuideSection[] = [
     imageAlt:
       'A backpack, hiking boots, a camera and a guidebook laid out on the rock above a Lalibela church',
     paragraphs: [
-      'Pack for several climates in one trip. Highland towns such as Addis Ababa, Lalibela, Gondar and the Simien are cool in the mornings and evenings, while the Omo Valley, the Danakil and Awash can be very hot.',
+      'Pack for several climates in one trip. Highland areas such as Addis Ababa, Lalibela, Gondar and the Simien are cool in the mornings and evenings, while the Omo Valley, the Danakil and Awash can be very hot.',
       'We recommend your passport and a copy of your e-Visa, comfortable walking shoes, light clothing for warm days and a fleece or warm layer, a rain jacket, a hat, sunglasses and sunscreen, insect repellent, personal medication and a basic first-aid kit, a headlamp, a power bank, a universal adapter, a reusable water bottle and a small daypack. Modest clothing that covers shoulders and knees is useful for visiting churches and mosques.',
     ],
   },
@@ -105,7 +105,7 @@ export const travelGuide: GuideSection[] = [
       'https://res.cloudinary.com/oyw9kdvp/image/upload/f_auto,q_auto,c_limit,w_1200/v1793124336/guide-money-addis-merkato.jpg',
     imageAlt: 'Fruit and vegetable stalls at the Merkato market in Addis Ababa',
     paragraphs: [
-      'The currency is the Ethiopian birr (ETB). US dollars, euros and pounds sterling can be exchanged at banks and authorised exchange offices; the National Bank of Ethiopia publishes official rates at nbe.gov.et. Keep your exchange receipts, as you may need them to change unused birr back before departure.',
+      'The currency is the Ethiopian birr (ETB). US dollars, euros and pounds sterling can be exchanged at banks and authorized exchange offices; the National Bank of Ethiopia publishes official rates at nbe.gov.et. Keep your exchange receipts, as you may need them to change unused birr back before departure.',
       'Cards are accepted at many hotels, restaurants and shops in Addis Ababa and other large towns, and ATMs are common there, but cash is essential in rural areas, at markets and in remote regions such as the Omo Valley, the Danakil and the Simien. Tipping is not compulsory but is customary and much appreciated by guides, drivers, scouts and hotel staff.',
     ],
   },
@@ -133,7 +133,7 @@ export const travelGuide: GuideSection[] = [
     imageAlt: 'A Karo man with white body paint in his village in the Omo Valley',
     paragraphs: [
       'Ethiopia is home to many cultures and religious traditions. Dress modestly in churches, monasteries and mosques, remove your shoes before entering Orthodox churches, and follow your guide’s advice on local customs. Always ask permission before photographing people.',
-      'When visiting communities in the Omo Valley, speak to your guide before giving anything; rather than handing out gifts, we recommend supporting local schools or community projects. Photography is prohibited around military sites, airports and some government buildings, and certain religious ceremonies may restrict it. Drones cannot be brought into Ethiopia without prior government authorisation.',
+      'When visiting communities in the Omo Valley, speak to your guide before giving anything; rather than handing out gifts, we recommend supporting local schools or community projects. Photography is prohibited around military sites, airports and some government buildings, and certain religious ceremonies may restrict it. Drones cannot be brought into Ethiopia without prior government authorization.',
     ],
   },
   {
