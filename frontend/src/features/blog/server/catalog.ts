@@ -51,7 +51,7 @@ export async function getPostsData(locale: AppLocale = 'en'): Promise<Post[]> {
   const staticPosts: Post[] = getLocalizedPosts(locale)
   let livePosts: ApiPost[] = []
   try {
-    livePosts = await getPosts({ next: { revalidate: 86400, tags: ['blog'] } })
+    livePosts = await getPosts({ next: { revalidate: 604800, tags: ['blog'] } })
   } catch {
     livePosts = []
   }

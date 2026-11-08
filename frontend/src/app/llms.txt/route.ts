@@ -7,7 +7,7 @@ import { getPostsData } from '@/features/blog/server/catalog'
 // Experimental index for AI tools (https://llmstxt.org); no engine has
 // confirmed using it (geo.md, G4). Generated from the same catalogues as the
 // sitemap, so it cannot list a page that does not exist.
-export const revalidate = 86400
+export const revalidate = 604800
 
 const entry = (path: string, title: string, note: string) =>
   `- [${title}](${absoluteUrl(`/en${path === '/' ? '' : path}`)}): ${note}`

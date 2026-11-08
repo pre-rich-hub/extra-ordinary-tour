@@ -120,4 +120,4 @@ export default async function BlogPage({
   )
 }
 
-export const revalidate = 86400
+export const revalidate = 604800

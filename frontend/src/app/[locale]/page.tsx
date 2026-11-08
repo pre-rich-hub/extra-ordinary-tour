@@ -81,4 +81,4 @@ export async function generateMetadata({
   )
 }
 
-export const revalidate = 86400
+export const revalidate = 604800
