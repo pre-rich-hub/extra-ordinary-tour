@@ -13,7 +13,7 @@ export type GallerySlide = {
 export async function getGalleryData(): Promise<GallerySlide[]> {
   try {
     const images = await getGalleryImages({
-      next: { revalidate: 3600, tags: ['gallery'] },
+      next: { revalidate: 86400, tags: ['gallery'] },
     })
     const slides = images.flatMap((image) => {
       const src = usableImage(image.imageUrl, '')

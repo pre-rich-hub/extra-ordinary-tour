@@ -12,9 +12,22 @@ export type AdminApiEnvelope<T> = {
 const publicContent =
   /^\/api\/v1\/admin\/(tours|destinations|gallery|blog|categories|testimonials)(\/|$)/
 
-/** Purge the cached public pages. The write already succeeded, so never fail. */
-export async function refreshPublicSite() {
-  await fetch('/admin/revalidate', { method: 'POST' }).catch(() => undefined)
+const cacheTagFor: Record<string, string> = {
+  tours: 'tours',
+  destinations: 'destinations',
+  gallery: 'gallery',
+  blog: 'blog',
+  categories: 'tours',
+  testimonials: 'testimonials',
+}
+
+/** Purge the cached public pages for a tag. The write already succeeded, so never fail. */
+export async function refreshPublicSite(tag: string) {
+  await fetch('/admin/revalidate', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ tags: [tag] }),
+  }).catch(() => undefined)
 }
 
 export async function adminRequest<T>(
@@ -44,7 +57,8 @@ export async function adminRequest<T>(
   }
 
   const write = init.method && init.method !== 'GET'
-  if (write && publicContent.test(path)) await refreshPublicSite()
+  const resource = publicContent.exec(path)?.[1]
+  if (write && resource) await refreshPublicSite(cacheTagFor[resource])
 
   return payload.data
 }

@@ -106,4 +106,4 @@ export default async function ToursPage({
   )
 }
 
-export const revalidate = 3600
+export const revalidate = 86400

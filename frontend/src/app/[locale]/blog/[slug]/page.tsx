@@ -21,7 +21,7 @@ export function generateStaticParams() {
   return []
 }
 export const dynamicParams = true
-export const revalidate = 3600
+export const revalidate = 86400
 
 export async function generateMetadata({
   params,
