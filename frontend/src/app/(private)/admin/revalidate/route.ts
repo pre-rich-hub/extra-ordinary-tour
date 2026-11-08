@@ -4,7 +4,7 @@ import { hasValidAdminSession } from '@/features/auth/server/session'
 
 const contentTags = ['tours', 'destinations', 'blog', 'gallery', 'testimonials']
 
-// Public pages are cached for a day. The admin calls this after a content
+// Public pages are cached for a week. The admin calls this after a content
 // write so the change shows on the next request rather than after that window.
 // It lives on the frontend because only Next can purge its own cache.
 // Purge only the tags that changed: every regenerated page counts as Vercel

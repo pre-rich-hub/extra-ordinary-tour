@@ -94,4 +94,4 @@ export default async function DestinationsPage({
   )
 }
 
-export const revalidate = 86400
+export const revalidate = 604800
