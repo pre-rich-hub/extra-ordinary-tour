@@ -7,7 +7,7 @@ import { getToursData } from '@/features/tours/server/catalog'
 import { getDestinationsData } from '@/features/destinations/server/catalog'
 import { getPostsData } from '@/features/blog/server/catalog'
 
-export const revalidate = 3600
+export const revalidate = 86400
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   if (!isProductionDeployment()) return []

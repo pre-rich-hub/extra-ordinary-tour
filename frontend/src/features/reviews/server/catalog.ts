@@ -28,7 +28,7 @@ export async function getTestimonialsData(
   let live: ApiTestimonial[] = []
   try {
     live = await getTestimonials({
-      next: { revalidate: 3600, tags: ['testimonials'] },
+      next: { revalidate: 86400, tags: ['testimonials'] },
     })
   } catch {
     live = []

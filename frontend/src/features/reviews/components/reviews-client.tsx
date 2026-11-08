@@ -6,7 +6,7 @@ import { useCopy } from '@/i18n/copy'
 
 import { Fragment, useEffect, useRef, useState } from 'react'
 import Image from 'next/image'
-import { ArrowUpRight, ChevronLeft, ChevronRight, Star } from 'lucide-react'
+import { ArrowUpRight, ChevronLeft, ChevronRight } from 'lucide-react'
 import { Reveal } from '@/components/ui/reveal'
 import { reviewSummaries } from '../data/testimonials'
 import { useScrollEdges } from '@/hooks/use-scroll-edges'
@@ -41,6 +41,7 @@ export function ReviewsClient({
       aria-labelledby="reviews-title"
       className="bg-background py-20 sm:py-24 lg:py-28"
     >
+      <StarSymbol />
       <div className="shell grid gap-x-12 gap-y-10 lg:grid-cols-[300px_1fr] lg:items-start lg:gap-y-16">
         {reviewSummaries.map((summary, r) => (
           <Fragment key={summary.platform}>
@@ -408,6 +409,33 @@ function ReviewCard({
 }
 
 // Five stars with the last one partly filled for fractional ratings (e.g. 4.9).
+// Hundreds of stars render per page, so each one references a single shared
+// path. Inlining the path in every star added about 170 KB to the HTML.
+function StarSymbol() {
+  return (
+    <svg aria-hidden className="absolute h-0 w-0">
+      <symbol id="rating-star" viewBox="0 0 24 24">
+        <path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z" />
+      </symbol>
+    </svg>
+  )
+}
+
+function StarIcon({ className }: { className: string }) {
+  return (
+    <svg
+      aria-hidden
+      className={className}
+      stroke="currentColor"
+      strokeWidth={1}
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    >
+      <use href="#rating-star" />
+    </svg>
+  )
+}
+
 function Stars({
   value,
   className,
@@ -429,20 +457,14 @@ function Stars({
         const fill = Math.max(0, Math.min(1, value - i))
         return (
           <span key={i} className={cn('relative inline-block', size)}>
-            <Star
-              aria-hidden
+            <StarIcon
               className={cn(size, 'absolute inset-0 fill-border text-border')}
-              strokeWidth={1}
             />
             <span
               className="absolute inset-0 overflow-hidden"
               style={{ width: `${fill * 100}%` }}
             >
-              <Star
-                aria-hidden
-                className={cn(size, 'fill-accent text-accent')}
-                strokeWidth={1}
-              />
+              <StarIcon className={cn(size, 'fill-accent text-accent')} />
             </span>
           </span>
         )

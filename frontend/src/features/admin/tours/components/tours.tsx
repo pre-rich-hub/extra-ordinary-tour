@@ -58,7 +58,7 @@ export function AdminTours() {
       })
       const data = await res.json()
       if (!res.ok || !data.success) throw new Error(data.message || 'Tour could not be deleted.')
-      await refreshPublicSite()
+      await refreshPublicSite('tours')
       setTours((current) => current.filter((item) => item.id !== tour.id))
       setSuccess(`“${tour.name}” was removed from the website.`)
     } catch (error) {
