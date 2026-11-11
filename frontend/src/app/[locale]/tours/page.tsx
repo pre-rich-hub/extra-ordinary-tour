@@ -73,7 +73,7 @@ export default async function ToursPage({
         crumbs={crumbs}
         meta={[
           { label: copy('Journeys'), value: String(tours.length) },
-          { label: copy('Length'), value: copy('1 to 19 Days') },
+          { label: copy('Length'), value: copy('1 to 25 Days') },
           { label: copy('Group Size'), value: copy('Solo to Groups') },
           { label: copy('Guiding'), value: copy('Private & Group') },
         ]}
