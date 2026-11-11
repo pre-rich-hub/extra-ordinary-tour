@@ -452,7 +452,7 @@
             "rows": [
               [
                 "60 Tage oder mehr vor Reisebeginn",
-                "Die Anzahlung von 30 % kann abzüglich nicht erstattungsfähiger Kosten und anfallender Gebühren erstattet werden"
+                "Die Anzahlung von 30 % kann abzüglich anfallender Gebühren und nicht erstattungsfähiger Kosten erstattet werden"
               ],
               [
                 "30–59 Tage vor Reisebeginn",
@@ -477,7 +477,93 @@
             "lines": [
               "Als Stornierungsdatum gilt das Datum, an dem Extraordinary Ethiopia Tours die schriftliche Stornierungsanfrage des Kunden erhält."
             ]
+          }
+        ]
+      },
+      {
+        "heading": "Bearbeitungsgebühr und Service-Entgelt",
+        "content": [
+          {
+            "type": "paragraph",
+            "lines": [
+              "Für alle berechtigten Stornierungen und Erstattungsanträge gelten die folgenden Verwaltungsgebühren:"
+            ]
           },
+          {
+            "type": "subheading",
+            "text": "6.1. Feste Bearbeitungsgebühr"
+          },
+          {
+            "type": "paragraph",
+            "lines": [
+              "Bei der Bearbeitung einer Stornierung und Erstattung wird eine feste Bearbeitungsgebühr von 150 US$ pro Person/Buchung berechnet."
+            ]
+          },
+          {
+            "type": "paragraph",
+            "lines": [
+              "Diese Gebühr deckt den Verwaltungsaufwand, die Zahlungsabwicklung, die Koordination der Stornierung, die Kommunikation mit Hotels, Fluggesellschaften und anderen Anbietern sowie die zur Abwicklung von Erstattungen erforderlichen Vorkehrungen ab."
+            ]
+          },
+          {
+            "type": "subheading",
+            "text": "6.2. Service- und Verwaltungsentgelt"
+          },
+          {
+            "type": "paragraph",
+            "lines": [
+              "Bei der Bearbeitung einer Stornierung und Erstattung wird ein Service- und Verwaltungsentgelt von 15 % abgezogen, berechnet auf die insgesamt geleistete Anzahlung."
+            ]
+          },
+          {
+            "type": "paragraph",
+            "lines": [
+              "Dieses Entgelt deckt die Buchungsleistungen, die operative Organisation, die Reservierungsverwaltung, die Koordination mit Anbietern und den bereits von Extraordinary Ethiopia Tours geleisteten Verwaltungsaufwand ab."
+            ]
+          },
+          {
+            "type": "paragraph",
+            "lines": [
+              "Die Bearbeitungsgebühr von 150 US$ und das Service-Entgelt von 15 % sind getrennte Gebühren und werden in der Erstattungsberechnung einzeln ausgewiesen."
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Storno- und Erstattungsregelung für Inlandsflüge",
+        "content": [
+          {
+            "type": "paragraph",
+            "lines": [
+              "Für Inlandsflugtickets, die über Extraordinary Ethiopia Tours gebucht oder gekauft wurden, gelten die folgenden Bedingungen:"
+            ]
+          },
+          {
+            "type": "list",
+            "items": [
+              "Beantragt ein Kunde die Stornierung und Erstattung, wird eine Stornogebühr von 20 % des ursprünglichen Inlandsflugpreises erhoben.",
+              "Für den verbleibenden Betrag gelten die Tarifbestimmungen und Erstattungsvoraussetzungen der jeweiligen Fluggesellschaft.",
+              "Zusätzliche, von der Fluggesellschaft tatsächlich erhobene nicht erstattungsfähige Gebühren oder Strafen können gegebenenfalls ebenfalls abgezogen werden.",
+              "Erstattungen unterliegen der Genehmigung und den Bearbeitungsverfahren der Fluggesellschaft."
+            ]
+          },
+          {
+            "type": "paragraph",
+            "lines": [
+              "Extraordinary Ethiopia Tours bemüht sich in angemessener Weise, erstattungsfähige Beträge von der Fluggesellschaft zurückzuerhalten und den berechtigten Betrag an den Kunden zu erstatten."
+            ]
+          },
+          {
+            "type": "paragraph",
+            "lines": [
+              "Die Stornogebühr von 20 % für Inlandsflüge gilt ausschließlich für Inlandsflugtickets und ist unabhängig von den allgemeinen Stornobedingungen der Tour."
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Stornogebühren von Hotels und anderen Anbietern",
+        "content": [
           {
             "type": "paragraph",
             "lines": [
@@ -505,9 +591,72 @@
             ]
           },
           {
-            "type": "note",
-            "label": "Wichtig",
-            "text": "Die oben genannten Stornogebühren hindern Extraordinary Ethiopia Tours nicht daran, abweichende Stornobedingungen anzuwenden, wenn der Kunde über besondere Bedingungen für eine bestimmte Tour, Leistung, Aktion oder einen bestimmten Anbieter informiert wurde und diesen zugestimmt hat."
+            "type": "paragraph",
+            "lines": [
+              "Zusätzliche Stornogebühren von Anbietern richten sich nach den tatsächlichen Kosten und den geltenden Bedingungen des jeweiligen Anbieters."
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Berechnung und Abwicklung von Erstattungen",
+        "content": [
+          {
+            "type": "paragraph",
+            "lines": [
+              "Der endgültige Erstattungsbetrag wird unter Berücksichtigung der geltenden Stornobedingungen und Abzüge berechnet, darunter:"
+            ]
+          },
+          {
+            "type": "list",
+            "items": [
+              "die feste Bearbeitungsgebühr von 150 US$ pro Buchung;",
+              "das Service- und Verwaltungsentgelt von 15 %, berechnet auf die geleistete Anzahlung;",
+              "die Stornogebühr von 20 % für Inlandsflüge, sofern Inlandsflugtickets betroffen sind;",
+              "zusätzliche nachgewiesene nicht erstattungsfähige Kosten oder Stornostrafen von Hotels, Fluggesellschaften und anderen Leistungsträgern;",
+              "die je nach Stornierungszeitpunkt geltenden Stornogebühren."
+            ]
+          },
+          {
+            "type": "paragraph",
+            "lines": [
+              "Extraordinary Ethiopia Tours unternimmt alle angemessenen Anstrengungen, erstattungsfähige Zahlungen von Fluggesellschaften, Hotels und anderen Leistungsträgern zurückzuerhalten."
+            ]
+          },
+          {
+            "type": "paragraph",
+            "lines": [
+              "Vor der Abwicklung der Erstattung erhalten Kunden eine transparente Aufstellung der anfallenden Abzüge."
+            ]
+          },
+          {
+            "type": "paragraph",
+            "lines": [
+              "Erstattungen erfolgen über eine vereinbarte Zahlungsmethode, abhängig von der Verfügbarkeit der zurückerhaltenen Mittel und den Abwicklungsverfahren des jeweiligen Zahlungsdienstleisters."
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Außergewöhnliche Umstände und Stornierungen aufgrund höherer Gewalt",
+        "content": [
+          {
+            "type": "paragraph",
+            "lines": [
+              "Bei Sicherheitsbedenken, politischen Unruhen, behördlichen Beschränkungen, Naturkatastrophen, Flugstörungen oder anderen Umständen, die außerhalb der angemessenen Kontrolle des Kunden oder von Extraordinary Ethiopia Tours liegen, unternehmen wir alle angemessenen Anstrengungen, finanzielle Verluste so gering wie möglich zu halten und so viel Geld wie möglich von den Anbietern zurückzuerhalten."
+            ]
+          },
+          {
+            "type": "paragraph",
+            "lines": [
+              "Muss eine Tour aufgrund von Umständen außerhalb unserer angemessenen Kontrolle abgesagt werden, richtet sich eine Erstattung in der Regel nach den von Anbietern zurückerlangbaren Beträgen und nach den Leistungen, die noch nicht erbracht, gekauft oder nicht erstattungsfähig geworden sind."
+            ]
+          },
+          {
+            "type": "paragraph",
+            "lines": [
+              "Anfallende Bearbeitungsgebühren, Service-Entgelte und nicht erstattungsfähige Kosten von Anbietern werden dem Kunden transparent mitgeteilt."
+            ]
           }
         ]
       },
@@ -1117,7 +1266,7 @@
             "items": [
               "diese Allgemeinen Geschäftsbedingungen gelesen und verstanden hat;",
               "die geltenden Buchungs- und Zahlungsbedingungen akzeptiert;",
-              "die geltenden Storno- und Erstattungsbedingungen akzeptiert;",
+              "die geltenden Storno- und Erstattungsbedingungen akzeptiert, einschließlich der Bearbeitungsgebühr von 150 US$, des Service-Entgelts von 15 % und der anfallenden Stornogebühren für Inlandsflüge;",
               "korrekte Angaben gemacht hat;",
               "sich verpflichtet, angemessene Anweisungen während der Tour zu befolgen; und",
               "diesen Allgemeinen Geschäftsbedingungen zustimmt."
@@ -1167,9 +1316,9 @@
             "type": "paragraph",
             "lines": [
               "E-Mail: info@extraordinaryethiopiatours.com",
-              "Telefon / WhatsApp: +251912039405",
+              "Telefon / WhatsApp: +251 912 039 405",
               "Website: www.extraordinaryethiopiatours.com",
-              "Adresse: Meskel Kibra Kebele, Workdinagy Street, Lalibela, Äthiopien"
+              "Adresse: Meskel Kibra Kebele, Workdinagy Street, Lalibela, Äthiopien."
             ]
           }
         ]
@@ -1186,14 +1335,33 @@
           {
             "type": "paragraph",
             "lines": [
-              "30 % – Anzahlung zur Bestätigung Ihrer Buchung",
-              "70 % – Restbetrag, zahlbar spätestens 30 Tage vor Ankunft/Abreise"
+              "30 % – Anzahlung zur Bestätigung Ihrer Buchung.",
+              "70 % – Restbetrag, zahlbar spätestens 30 Tage vor Ankunft/Abreise."
             ]
           },
           {
             "type": "paragraph",
             "lines": [
               "Bei Buchungen, die weniger als 30 Tage vor Ankunft/Abreise erfolgen, kann die vollständige Zahlung bei der Buchung verlangt werden."
+            ]
+          },
+          {
+            "type": "subheading",
+            "text": "Storno- und Erstattungsgebühren"
+          },
+          {
+            "type": "list",
+            "items": [
+              "150 US$ – feste Bearbeitungsgebühr pro Buchung.",
+              "15 % – Service- und Verwaltungsentgelt, berechnet auf die geleistete Anzahlung.",
+              "20 % – Stornogebühr für Inlandsflüge auf den ursprünglichen Ticketpreis bei Beantragung einer Erstattung.",
+              "Zusätzlich können nachgewiesene nicht erstattungsfähige Kosten von Anbietern und anfallende Stornostrafen abgezogen werden."
+            ]
+          },
+          {
+            "type": "paragraph",
+            "lines": [
+              "Extraordinary Ethiopia Tours – Entdecken Sie Äthiopien. Erleben Sie das Außergewöhnliche!"
             ]
           }
         ]

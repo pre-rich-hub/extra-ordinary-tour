@@ -65,6 +65,10 @@ function Block({ block }: { block: LegalBlock }) {
           {block.text}
         </p>
       )
+    case 'subheading':
+      return (
+        <h3 className="mt-8 font-semibold text-foreground">{block.text}</h3>
+      )
   }
 }
 

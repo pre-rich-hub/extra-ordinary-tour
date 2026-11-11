@@ -388,9 +388,7 @@
           },
           {
             "type": "paragraph",
-            "lines": [
-              "Sauf mention expresse, le prix du circuit ne comprend généralement pas :"
-            ]
+            "lines": ["Sauf mention expresse, le prix du circuit ne comprend généralement pas :"]
           },
           {
             "type": "list",
@@ -439,7 +437,7 @@
             "rows": [
               [
                 "60 jours ou plus avant le départ",
-                "L’acompte de 30 % peut être remboursé, déduction faite des frais non remboursables et des frais applicables"
+                "L’acompte de 30 % peut être remboursé, déduction faite des frais applicables et des coûts non remboursables"
               ],
               ["De 30 à 59 jours avant le départ", "50 % du prix total du circuit"],
               ["De 15 à 29 jours avant le départ", "75 % du prix total du circuit"],
@@ -452,7 +450,93 @@
             "lines": [
               "La date d’annulation est celle à laquelle Extraordinary Ethiopia Tours reçoit la demande d’annulation écrite du client."
             ]
+          }
+        ]
+      },
+      {
+        "heading": "Frais administratifs de dossier et frais de service",
+        "content": [
+          {
+            "type": "paragraph",
+            "lines": [
+              "Pour toute annulation et demande de remboursement admissible, les frais administratifs suivants s’appliquent :"
+            ]
           },
+          {
+            "type": "subheading",
+            "text": "6.1. Frais de dossier fixes"
+          },
+          {
+            "type": "paragraph",
+            "lines": [
+              "Des frais administratifs de dossier fixes de 150 US$ par personne/réservation seront facturés lors du traitement d’une annulation et d’un remboursement."
+            ]
+          },
+          {
+            "type": "paragraph",
+            "lines": [
+              "Ces frais couvrent le travail administratif, le traitement des paiements, la coordination de l’annulation, les échanges avec les hôtels, les compagnies aériennes et les autres fournisseurs, ainsi que les démarches nécessaires au traitement des remboursements."
+            ]
+          },
+          {
+            "type": "subheading",
+            "text": "6.2. Frais de service et d’administration"
+          },
+          {
+            "type": "paragraph",
+            "lines": [
+              "Des frais de service et d’administration de 15 %, calculés sur le montant total de l’acompte versé, seront déduits lors du traitement d’une annulation et d’un remboursement."
+            ]
+          },
+          {
+            "type": "paragraph",
+            "lines": [
+              "Ces frais couvrent les services de réservation, l’organisation opérationnelle, la gestion des réservations, la coordination des fournisseurs et le travail administratif déjà effectués par Extraordinary Ethiopia Tours."
+            ]
+          },
+          {
+            "type": "paragraph",
+            "lines": [
+              "Les frais de dossier de 150 US$ et les frais de service de 15 % sont des frais distincts et seront détaillés séparément dans le calcul du remboursement."
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Politique d’annulation et de remboursement des vols intérieurs",
+        "content": [
+          {
+            "type": "paragraph",
+            "lines": [
+              "Les billets de vols intérieurs réservés ou achetés par l’intermédiaire d’Extraordinary Ethiopia Tours sont soumis aux conditions suivantes :"
+            ]
+          },
+          {
+            "type": "list",
+            "items": [
+              "Des frais d’annulation de 20 % du prix initial du billet de vol intérieur s’appliquent lorsqu’un client demande l’annulation et le remboursement.",
+              "Le montant restant est soumis aux règles tarifaires applicables de la compagnie aérienne et à son éligibilité au remboursement.",
+              "Les frais ou pénalités non remboursables supplémentaires effectivement imposés par la compagnie aérienne peuvent également être déduits, le cas échéant.",
+              "Les remboursements sont soumis à l’accord et aux procédures de traitement de la compagnie aérienne."
+            ]
+          },
+          {
+            "type": "paragraph",
+            "lines": [
+              "Extraordinary Ethiopia Tours fera des efforts raisonnables pour récupérer auprès de la compagnie aérienne les montants remboursables et restituer au client le montant auquel il a droit."
+            ]
+          },
+          {
+            "type": "paragraph",
+            "lines": [
+              "Les frais d’annulation de 20 % sur les vols intérieurs s’appliquent spécifiquement aux billets de vols intérieurs et sont distincts de la politique générale d’annulation du circuit."
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Frais d’annulation des hôtels et autres fournisseurs",
+        "content": [
           {
             "type": "paragraph",
             "lines": [
@@ -480,9 +564,72 @@
             ]
           },
           {
-            "type": "note",
-            "label": "Important",
-            "text": "Les frais d’annulation ci-dessus n’empêchent pas Extraordinary Ethiopia Tours d’appliquer une politique d’annulation différente lorsque le client a été informé de conditions particulières pour un circuit, une prestation, une promotion ou un fournisseur donné et les a acceptées."
+            "type": "paragraph",
+            "lines": [
+              "Tout frais d’annulation supplémentaire d’un fournisseur sera basé sur les coûts réels et sur les politiques applicables du fournisseur."
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Calcul et traitement du remboursement",
+        "content": [
+          {
+            "type": "paragraph",
+            "lines": [
+              "Le montant final remboursable sera calculé en tenant compte des conditions d’annulation et des déductions applicables, notamment :"
+            ]
+          },
+          {
+            "type": "list",
+            "items": [
+              "Les frais administratifs de dossier fixes de 150 US$ par réservation.",
+              "Les frais de service et d’administration de 15 %, calculés sur l’acompte versé.",
+              "Les frais d’annulation de 20 % sur les vols intérieurs, lorsque des billets de vols intérieurs sont concernés.",
+              "Tout coût non remboursable supplémentaire justifié ou toute pénalité d’annulation imposée par les hôtels, les compagnies aériennes et les autres prestataires.",
+              "Les frais d’annulation applicables selon le délai d’annulation."
+            ]
+          },
+          {
+            "type": "paragraph",
+            "lines": [
+              "Extraordinary Ethiopia Tours mettra tout en œuvre, dans la mesure du raisonnable, pour récupérer les paiements remboursables auprès des compagnies aériennes, des hôtels et des autres prestataires."
+            ]
+          },
+          {
+            "type": "paragraph",
+            "lines": [
+              "Avant le traitement du remboursement, le client recevra une explication transparente des déductions applicables."
+            ]
+          },
+          {
+            "type": "paragraph",
+            "lines": [
+              "Les remboursements seront effectués par un moyen de paiement convenu, sous réserve de la disponibilité des fonds récupérés et des procédures de traitement du prestataire de paiement concerné."
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Circonstances exceptionnelles et annulations pour force majeure",
+        "content": [
+          {
+            "type": "paragraph",
+            "lines": [
+              "En cas de problèmes de sécurité, de troubles politiques, de restrictions gouvernementales, de catastrophes naturelles, de perturbations des vols ou d’autres circonstances échappant au contrôle raisonnable du client ou d’Extraordinary Ethiopia Tours, nous mettrons tout en œuvre, dans la mesure du raisonnable, pour limiter les pertes financières et récupérer le plus d’argent possible auprès des fournisseurs."
+            ]
+          },
+          {
+            "type": "paragraph",
+            "lines": [
+              "Lorsqu’un circuit doit être annulé en raison de circonstances échappant à notre contrôle raisonnable, tout remboursement sera généralement fondé sur les montants récupérables auprès des fournisseurs et sur les prestations qui n’ont pas encore été fournies, achetées ou ne sont pas devenues non remboursables."
+            ]
+          },
+          {
+            "type": "paragraph",
+            "lines": [
+              "Les frais de dossier, frais de service et dépenses non remboursables des fournisseurs applicables seront communiqués au client en toute transparence."
+            ]
           }
         ]
       },
@@ -1080,7 +1227,7 @@
             "items": [
               "Avoir lu et compris les présentes Conditions générales ;",
               "Accepter les conditions de réservation et de paiement applicables ;",
-              "Accepter les conditions d’annulation et de remboursement applicables ;",
+              "Accepter les conditions d’annulation et de remboursement applicables, y compris les frais de dossier de 150 US$, les frais de service de 15 % et les frais d’annulation applicables aux vols intérieurs ;",
               "Avoir fourni des informations exactes ;",
               "S’engager à suivre les instructions raisonnables données pendant le circuit ; et",
               "Accepter les présentes Conditions générales."
@@ -1128,9 +1275,9 @@
             "type": "paragraph",
             "lines": [
               "E-mail : info@extraordinaryethiopiatours.com",
-              "Téléphone / WhatsApp : +251912039405",
+              "Téléphone / WhatsApp : +251 912 039 405",
               "Site web : www.extraordinaryethiopiatours.com",
-              "Adresse : Meskel Kibra Kebele, Workdinagy Street, Lalibela, Éthiopie"
+              "Adresse : Meskel Kibra Kebele, Workdinagy Street, Lalibela, Éthiopie."
             ]
           }
         ]
@@ -1145,14 +1292,33 @@
           {
             "type": "paragraph",
             "lines": [
-              "30 % — Acompte requis pour confirmer votre réservation",
-              "70 % — Solde payable au moins 30 jours avant l’arrivée ou le départ"
+              "30 % — Acompte requis pour confirmer votre réservation.",
+              "70 % — Solde payable au moins 30 jours avant l’arrivée ou le départ."
             ]
           },
           {
             "type": "paragraph",
             "lines": [
               "Pour les réservations effectuées moins de 30 jours avant l’arrivée ou le départ, le paiement intégral peut être exigé au moment de la réservation."
+            ]
+          },
+          {
+            "type": "subheading",
+            "text": "Frais d’annulation et de remboursement"
+          },
+          {
+            "type": "list",
+            "items": [
+              "150 US$ — Frais administratifs de dossier fixes par réservation.",
+              "15 % — Frais de service et d’administration calculés sur l’acompte versé.",
+              "20 % — Frais d’annulation des vols intérieurs sur le prix initial du billet lors d’une demande de remboursement.",
+              "Les dépenses non remboursables justifiées des fournisseurs et les pénalités d’annulation applicables peuvent également être déduites."
+            ]
+          },
+          {
+            "type": "paragraph",
+            "lines": [
+              "Extraordinary Ethiopia Tours — Découvrez l’Éthiopie. Vivez l’extraordinaire !"
             ]
           }
         ]
