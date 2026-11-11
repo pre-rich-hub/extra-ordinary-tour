@@ -1,4 +1,453 @@
 {
+  "3-day-addis-ababa-great-ethiopian-run": {
+    "title": "Circuit de 3 jours : visite d’Addis-Abeba et Great Ethiopian Run",
+    "days": "3 jours",
+    "style": "Festival · Culturel",
+    "season": "Mi-fin novembre",
+    "from": "720 $ par personne",
+    "group": "Privé ou en groupe",
+    "teaser": "Échauffement sur les collines d’Entoto, la course Great Ethiopian Run, puis l’histoire et la culture d’Addis-Abeba.",
+    "summary": "Découvrez la vibrante capitale de l’Éthiopie en alliant détente, sport, culture et histoire. Ce circuit de trois jours vous permet de participer à la célèbre course de 10 km Great Ethiopian Run, de profiter d’une marche d’échauffement sur les belles collines d’Entoto et d’explorer les hauts lieux historiques et culturels d’Addis-Abeba. Le voyage se termine par un dîner d’adieu éthiopien traditionnel, qui célèbre la richesse culinaire et la chaleureuse hospitalité du pays avant votre départ.",
+    "highlights": [
+      "Marche d’échauffement et panoramas depuis les collines d’Entoto",
+      "Participez à la course internationale de 10 km Great Ethiopian Run",
+      "Explorez les hauts lieux historiques et culturels d’Addis-Abeba",
+      "Découvrez la riche histoire de l’Éthiopie au Musée national",
+      "Vivez l’atmosphère animée du Merkato, l’un des plus grands marchés à ciel ouvert d’Afrique",
+      "Savourez la cuisine éthiopienne traditionnelle lors d’un dîner d’adieu culturel",
+      "Goûtez à l’hospitalité éthiopienne et à l’ambiance animée de la capitale"
+    ],
+    "includes": [
+      "Accueil à l’aéroport et transferts à l’hôtel",
+      "2 nuits d’hébergement dans un hôtel du centre d’Addis-Abeba",
+      "Véhicule privé climatisé avec chauffeur professionnel",
+      "Guide anglophone agréé",
+      "Marche d’échauffement sur les collines d’Entoto",
+      "Aide à l’inscription à la Great Ethiopian Run",
+      "Visite de la ville d’Addis-Abeba",
+      "Dîner d’adieu éthiopien traditionnel"
+    ],
+    "excludes": [
+      "Vols internationaux et visa éthiopien",
+      "Assurance voyage (fortement recommandée)",
+      "Frais d’inscription à la course (s’ils ne sont pas inclus dans le forfait)",
+      "Boissons, pourboires et dépenses personnelles"
+    ],
+    "itinerary": [
+      {
+        "day": "Jour 1",
+        "title": "Arrivée à Addis-Abeba – Échauffement sur les collines d’Entoto",
+        "text": "À votre arrivée à l’aéroport international de Bole, notre représentant vous accueille et vous conduit à votre hôtel. Après l’enregistrement et un moment de repos, nous montons sur les belles collines d’Entoto, qui dominent Addis-Abeba. Profitez d’une douce marche d’échauffement dans les hauts plateaux, en respirant l’air frais des montagnes et en admirant les vues panoramiques sur la capitale. Cette activité légère vous aidera à vous préparer à la Great Ethiopian Run. Le reste de la journée est libre pour vous reposer et vous préparer à la course."
+      },
+      {
+        "day": "Jour 2",
+        "title": "Great Ethiopian Run – Course de 10 km",
+        "text": "Tôt le matin, transfert vers la zone de départ pour participer à la Great Ethiopian Run, l’une des courses sur route les plus célèbres d’Afrique. Rejoignez des milliers de coureurs éthiopiens et internationaux pour cette course passionnante de 10 km dans les rues animées d’Addis-Abeba. Vivez l’ambiance vibrante, la musique traditionnelle, les participants hauts en couleur et l’enthousiasme des spectateurs, qui font de cet événement une célébration unique de la culture et de l’esprit sportif éthiopiens. Après la course, retour à l’hôtel pour le petit-déjeuner et un moment de détente. L’après-midi est libre pour récupérer et pour vos activités personnelles."
+      },
+      {
+        "day": "Jour 3",
+        "title": "Visite d’Addis-Abeba – Dîner d’adieu et départ",
+        "text": "Après le petit-déjeuner, partez pour une visite guidée des hauts lieux historiques et culturels d’Addis-Abeba. Visitez le Musée national d’Éthiopie, qui abrite les célèbres restes fossiles de Lucy et offre un éclairage fascinant sur l’évolution humaine et l’histoire ancienne de l’Éthiopie. Continuez vers la cathédrale de la Sainte-Trinité, un important monument religieux et historique. Explorez le quartier historique de Piazza et vivez l’atmosphère animée du Merkato, où vous découvrirez produits locaux, artisanat traditionnel et vie quotidienne éthiopienne. L’après-midi, profitez de temps libre pour faire du shopping ou vous détendre avant de préparer votre départ. Le soir, savourez un dîner d’adieu éthiopien traditionnel autour d’une authentique cuisine locale, accompagné de musique et de danses traditionnelles. Célébrez votre expérience éthiopienne avant votre transfert à l’aéroport international de Bole pour votre vol retour."
+      }
+    ],
+    "places": [
+      "Addis-Abeba",
+      "Entoto",
+      "Grande course éthiopienne",
+      "Musée national",
+      "Cathédrale de la Sainte Trinité",
+      "Merkato"
+    ]
+  },
+  "5-day-addis-ababa-great-ethiopian-run-lalibela": {
+    "title": "Circuit de 5 jours : Addis-Abeba, Great Ethiopian Run et Lalibela",
+    "days": "5 jours",
+    "style": "Festival · Historique · Culturel",
+    "season": "Mi-fin novembre",
+    "from": "1 480 $ par personne",
+    "group": "Privé ou en groupe",
+    "teaser": "Courez dans Addis-Abeba, explorez la capitale, puis envolez-vous pour Lalibela et ses églises taillées dans le roc.",
+    "summary": "Découvrez le meilleur de l’Éthiopie lors d’un passionnant voyage de cinq jours qui associe la Great Ethiopian Run, les attraits historiques et culturels d’Addis-Abeba et les magnifiques églises rupestres de Lalibela. Commencez par une douce marche d’échauffement sur les collines pittoresques d’Entoto avant de participer à la célèbre course de 10 km Great Ethiopian Run. Explorez les monuments historiques et les marchés animés de la capitale, puis envolez-vous pour Lalibela afin de découvrir ses extraordinaires églises médiévales taillées dans le roc, inscrites au patrimoine mondial de l’UNESCO. Le voyage se termine par un dîner d’adieu mémorable autour de la cuisine, de la musique et de l’hospitalité éthiopiennes avant votre départ international.",
+    "highlights": [
+      "Marche d’échauffement sur les collines d’Entoto, face à Addis-Abeba",
+      "Participez à la célèbre course de 10 km Great Ethiopian Run",
+      "Découvrez les monuments historiques, les musées et les marchés animés d’Addis-Abeba",
+      "Explorez les magnifiques églises rupestres de Lalibela, inscrites au patrimoine mondial de l’UNESCO",
+      "Visitez les groupes nord et sud des églises rupestres de Lalibela",
+      "Admirez la remarquable église Saint-Georges, taillée en forme de croix",
+      "Savourez la cuisine éthiopienne traditionnelle, la musique et un dîner d’adieu"
+    ],
+    "includes": [
+      "Accueil à l’aéroport et tous les transferts",
+      "4 nuits d’hébergement",
+      "Véhicule privé climatisé avec chauffeur professionnel",
+      "Guide anglophone agréé",
+      "Vol intérieur entre Addis-Abeba et Lalibela",
+      "Marche d’échauffement sur les collines d’Entoto",
+      "Aide à la participation à la Great Ethiopian Run",
+      "Visites des églises de Lalibela",
+      "Dîner d’adieu éthiopien traditionnel"
+    ],
+    "excludes": [
+      "Vols internationaux et visa éthiopien",
+      "Assurance voyage (fortement recommandée)",
+      "Frais d’inscription à la course, le cas échéant",
+      "Boissons, pourboires et dépenses personnelles"
+    ],
+    "itinerary": [
+      {
+        "day": "Jour 1",
+        "title": "Arrivée à Addis-Abeba – Échauffement sur les collines d’Entoto",
+        "text": "À votre arrivée à l’aéroport international de Bole, notre représentant vous accueille et vous conduit à votre hôtel. Après l’enregistrement et un moment de repos, montez sur les belles collines d’Entoto, qui dominent Addis-Abeba. Profitez d’une douce marche d’échauffement dans les hauts plateaux, en respirant l’air frais des montagnes et en admirant les vues panoramiques sur la capitale. Cette activité légère vous aidera à vous préparer à la Great Ethiopian Run. Le reste de la journée est libre pour vous reposer et vous préparer à la course."
+      },
+      {
+        "day": "Jour 2",
+        "title": "Great Ethiopian Run – Course de 10 km",
+        "text": "Tôt le matin, transfert vers la zone de départ pour participer à la Great Ethiopian Run, l’une des courses sur route les plus célèbres d’Afrique. Rejoignez des milliers de coureurs éthiopiens et internationaux pour cette course passionnante de 10 km dans les rues animées d’Addis-Abeba. Vivez l’ambiance vibrante, la musique traditionnelle, les participants hauts en couleur et l’enthousiasme des spectateurs, qui font de cet événement une célébration unique de la culture et de l’esprit sportif éthiopiens. Après la course, retour à l’hôtel pour le petit-déjeuner et un moment de détente. L’après-midi est libre pour récupérer et pour vos activités personnelles."
+      },
+      {
+        "day": "Jour 3",
+        "title": "Visite d’Addis-Abeba – Histoire et culture",
+        "text": "Après le petit-déjeuner, partez pour une visite guidée des hauts lieux historiques et culturels d’Addis-Abeba. Visitez le Musée national d’Éthiopie, qui abrite les célèbres restes fossiles de Lucy et offre un éclairage fascinant sur l’évolution humaine et l’histoire ancienne de l’Éthiopie. Continuez vers la cathédrale de la Sainte-Trinité, un important monument religieux et historique. Explorez le quartier historique de Piazza et vivez l’atmosphère animée du Merkato, l’un des plus grands marchés à ciel ouvert d’Afrique, où vous découvrirez produits locaux, artisanat traditionnel et vie quotidienne éthiopienne. L’après-midi, profitez de temps libre pour faire du shopping ou vous détendre."
+      },
+      {
+        "day": "Jour 4",
+        "title": "Vol pour Lalibela – Premier groupe d’églises rupestres",
+        "text": "Après un petit-déjeuner matinal, transfert à l’aéroport international de Bole pour votre vol intérieur vers Lalibela. À l’arrivée, rencontre avec votre guide local et transfert à l’hôtel. Après l’enregistrement, commencez à explorer les magnifiques églises rupestres de Lalibela, inscrites au patrimoine mondial de l’UNESCO. Visitez le premier groupe d’églises, situé dans l’ensemble nord-ouest : Bete Medhane Alem, la plus grande église rupestre de Lalibela ; Bete Maryam, l’une des plus anciennes et des plus richement décorées ; Bete Meskel, une remarquable église creusée dans une paroi rocheuse ; Bete Denagel, liée aux traditions religieuses de Lalibela ; et Bete Golgotha et Selassie, parmi les églises les plus sacrées de l’ensemble. Découvrez l’architecture remarquable, les traditions religieuses et la portée spirituelle de ces monuments extraordinaires."
+      },
+      {
+        "day": "Jour 5",
+        "title": "Lalibela – Second groupe d’églises – Vol pour Addis-Abeba – Dîner d’adieu et départ",
+        "text": "Après le petit-déjeuner, quittez l’hôtel et poursuivez l’exploration du second groupe d’églises rupestres de Lalibela. Visitez Bete Gabriel-Rufael, Bete Merkorios, Bete Amanuel et Bete Abba Libanos, qui témoignent chacune du remarquable patrimoine architectural et spirituel de Lalibela. Terminez par la magnifique Bete Giyorgis (église Saint-Georges), l’emblématique église en forme de croix entièrement taillée dans un seul bloc de roche, l’un des monuments religieux les plus extraordinaires d’Éthiopie. Après la visite, transfert à l’aéroport de Lalibela pour votre vol intérieur retour vers Addis-Abeba. À l’arrivée, savourez un dîner d’adieu éthiopien traditionnel autour d’une authentique cuisine locale, de musique et de danses traditionnelles. Célébrez votre expérience éthiopienne avant votre transfert à l’aéroport international de Bole pour votre vol international."
+      }
+    ],
+    "places": [
+      "Addis-Abeba",
+      "Entoto",
+      "Grande course éthiopienne",
+      "Musée national",
+      "Cathédrale de la Sainte Trinité",
+      "Merkato",
+      "Lalibela"
+    ]
+  },
+  "10-day-historic-north-and-omo-valley": {
+    "title": "10 jours en Éthiopie : le Nord historique et l’aventure culturelle de la vallée de l’Omo",
+    "days": "10 jours",
+    "style": "Historique · Culturel",
+    "season": "Septembre à mars et juin à juillet",
+    "from": "Sur demande",
+    "group": "Privé ou en groupe",
+    "teaser": "Le lac Tana, Gondar, le Simien et Lalibela, puis Konso et les Hamar, Karo, Dassanech et Bena de la vallée de l’Omo.",
+    "summary": "Découvrez la remarquable diversité de l’Éthiopie lors de ce voyage de 10 jours à travers les hauts plateaux historiques du Nord et les paysages culturellement riches du Sud. Commencez à Addis-Abeba, la vibrante capitale, avant d’explorer le beau lac Tana à Bahir Dar, les châteaux médiévaux de Gondar et le spectaculaire parc national du Simien. Continuez vers Lalibela, célèbre pour ses extraordinaires églises taillées dans la montagne. Le voyage vous mène ensuite vers le Sud, aux beaux paysages d’Arba Minch, au paysage culturel de Konso inscrit à l’UNESCO et à la fascinante vallée de l’Omo. Découvrez les traditions des Hamar, des Karo, des Dassanech et des Bena et la remarquable diversité culturelle du sud de l’Éthiopie. Cette aventure réunit en un voyage inoubliable les trésors historiques, la beauté naturelle et les rencontres culturelles authentiques de l’Éthiopie.",
+    "highlights": [
+      "Explorez les hauts lieux historiques et culturels d’Addis-Abeba",
+      "Faites une excursion en bateau sur le lac Tana et découvrez ses anciens monastères insulaires",
+      "Visitez l’enceinte royale de Gondar, inscrite au patrimoine mondial de l’UNESCO",
+      "Découvrez les paysages spectaculaires du parc national du Simien",
+      "Découvrez les magnifiques églises rupestres de Lalibela, dont l’emblématique église Saint-Georges",
+      "Explorez le paysage culturel de Konso, inscrit à l’UNESCO, et ses villages traditionnels",
+      "Découvrez les traditions culturelles des Hamar à Turmi",
+      "Rendez visite aux Karo et découvrez leurs peintures corporelles caractéristiques",
+      "Rencontrez les Dassanech près du delta de l’Omo",
+      "Découvrez les Bena et leur tradition de la marche sur échasses"
+    ],
+    "includes": [
+      "Accueil et assistance à l’aéroport international de Bole et tous les transferts",
+      "Véhicule privé climatisé avec chauffeur professionnel",
+      "Guide anglophone agréé (autres langues sur demande)",
+      "9 nuits d’hébergement : hôtels et lodges",
+      "Pension complète : petit-déjeuner, déjeuner et dîner",
+      "Excursion en bateau sur le lac Tana",
+      "Frais d’entrée à tous les sites et églises de l’itinéraire",
+      "Dîner d’adieu avec musique et danses traditionnelles"
+    ],
+    "excludes": [
+      "Vols internationaux et visa éthiopien",
+      "Assurance voyage (fortement recommandée)",
+      "Frais de photographie dans les villages de la vallée de l'Omo (à payer sur place)",
+      "Boissons, pourboires et dépenses personnelles"
+    ],
+    "itinerary": [
+      {
+        "day": "Jour 1",
+        "title": "Arrivée à Addis-Abeba – Visite de la ville",
+        "text": "À votre arrivée à l’aéroport international de Bole, notre représentant vous accueille chaleureusement et vous conduit à votre hôtel. Après un moment de repos, commencez à explorer Addis-Abeba, la vibrante capitale de l’Éthiopie. Visitez le Musée national d’Éthiopie, qui abrite les célèbres restes fossiles de Lucy et offre un éclairage fascinant sur l’évolution humaine et l’histoire ancienne du pays. Continuez vers la cathédrale de la Sainte-Trinité, un important monument religieux et historique. Explorez le quartier historique de Piazza et vivez l’atmosphère animée du Merkato, l’un des plus grands marchés à ciel ouvert d’Afrique. Selon votre heure d’arrivée, profitez d’un tour panoramique de la ville pour découvrir sa diversité culturelle, son architecture historique et son développement moderne. Le soir, savourez un dîner éthiopien traditionnel accompagné d’un spectacle culturel."
+      },
+      {
+        "day": "Jour 2",
+        "title": "Vol d’Addis-Abeba à Bahir Dar – Excursion sur le lac Tana",
+        "text": "Après le petit-déjeuner, transfert à l’aéroport international de Bole pour votre vol intérieur vers Bahir Dar, une belle ville située sur la rive sud du lac Tana. À l’arrivée, rencontre avec votre guide local et transfert à l’hôtel. L’après-midi, excursion en bateau sur le lac Tana, le plus grand lac d’Éthiopie et la région source du Nil Bleu. Visitez l’un des monastères insulaires historiques, où vous découvrirez d’anciens manuscrits religieux, des peintures murales colorées et les fascinantes traditions chrétiennes orthodoxes éthiopiennes. Profitez du calme du lac et des paysages naturels environnants. Retour à Bahir Dar en fin d’après-midi et promenade détente le long de la promenade du lac."
+      },
+      {
+        "day": "Jour 3",
+        "title": "Route de Bahir Dar à Gondar – Enceinte royale",
+        "text": "Après le petit-déjeuner, départ de Bahir Dar par la route vers Gondar, ancienne capitale impériale de l’Éthiopie. Le trajet traverse de beaux hauts plateaux, des villages ruraux et des paysages pittoresques. À l’arrivée à Gondar, commencez à explorer le remarquable patrimoine historique de la ville. Visitez l’enceinte royale, inscrite au patrimoine mondial de l’UNESCO, qui réunit un impressionnant ensemble de châteaux et de palais médiévaux construits par les empereurs éthiopiens entre le XVIIe et le XVIIIe siècle. Parcourez les bâtiments royaux et découvrez les histoires fascinantes des anciens empereurs. Continuez vers l’église Debre Berhan Selassie, célèbre pour son plafond peint de visages d’anges et son remarquable art religieux. En fin d’après-midi, prenez le temps de flâner dans les rues historiques de Gondar."
+      },
+      {
+        "day": "Jour 4",
+        "title": "Excursion au parc national du Simien – Retour à Gondar",
+        "text": "Après un petit-déjeuner matinal, route vers le spectaculaire parc national du Simien, l’un des sites naturels les plus remarquables d’Éthiopie, inscrit au patrimoine mondial de l’UNESCO. Admirez des vues saisissantes sur les falaises vertigineuses, les vallées profondes, les sommets imposants et les vastes paysages d’altitude. Découvrez les belvédères du parc et profitez d’une marche guidée dans ce cadre naturel extraordinaire. Guettez la faune endémique, notamment le babouin gélada, souvent observé dans les prairies d’altitude du parc. Savourez la quiétude des hauts plateaux éthiopiens et les paysages spectaculaires du Simien. L’après-midi, retour à Gondar."
+      },
+      {
+        "day": "Jour 5",
+        "title": "Vol de Gondar à Lalibela – Premier groupe d’églises rupestres",
+        "text": "Après le petit-déjeuner, transfert à l’aéroport de Gondar pour votre vol intérieur vers Lalibela. À l’arrivée, rencontre avec votre guide local et transfert à l’hôtel. Commencez à explorer les magnifiques églises rupestres de Lalibela, inscrites au patrimoine mondial de l’UNESCO et réputées pour leur extraordinaire architecture médiévale et leur portée spirituelle. Visitez le groupe nord-ouest d’églises : Bete Medhane Alem, la plus grande église rupestre de Lalibela ; Bete Maryam, l’une des plus anciennes et des plus richement décorées ; Bete Meskel, une remarquable église creusée dans une paroi rocheuse ; Bete Denagel, liée aux traditions religieuses de Lalibela ; et Bete Golgotha et Selassie, parmi les églises les plus sacrées de l’ensemble. Terminez par la magnifique Bete Giyorgis (église Saint-Georges), l’emblématique église en forme de croix entièrement taillée dans un seul bloc de roche. Découvrez le savoir-faire remarquable, les traditions religieuses et l’importance historique de ces monuments extraordinaires."
+      },
+      {
+        "day": "Jour 6",
+        "title": "Lalibela – Second groupe d’églises – Vol pour Addis-Abeba",
+        "text": "Après le petit-déjeuner, poursuivez l’exploration du second groupe d’églises rupestres de Lalibela. Visitez Bete Gabriel-Rufael, Bete Merkorios, Bete Amanuel et Bete Abba Libanos, qui témoignent chacune du remarquable patrimoine architectural et spirituel de Lalibela. Découvrez l’histoire des églises, leur signification religieuse et les extraordinaires techniques employées pour les tailler dans la roche. À l’issue de la visite, transfert à l’aéroport de Lalibela pour votre vol intérieur vers Addis-Abeba. À l’arrivée, notre représentant vous accueille et vous conduit à votre hôtel."
+      },
+      {
+        "day": "Jour 7",
+        "title": "Vol d’Addis-Abeba à Arba Minch – Lac Chamo ou Dorze – Konso",
+        "text": "Après un petit-déjeuner matinal, transfert à l’aéroport international de Bole pour votre vol intérieur vers Arba Minch. À l’arrivée, rencontre avec votre guide local et découverte des beaux paysages du sud de l’Éthiopie. Selon vos préférences et le temps disponible, profitez d’une excursion en bateau sur le lac Chamo, célèbre pour ses grands crocodiles, ses hippopotames et ses nombreux oiseaux. Vous pouvez aussi rendre visite aux Dorze dans les monts Guge, connus pour leurs maisons en bambou caractéristiques, leur tissage traditionnel et leur patrimoine culturel. Ensuite, continuez par la route jusqu’à Konso, inscrit au patrimoine mondial de l’UNESCO pour son remarquable paysage culturel, ses cultures en terrasses et ses villages traditionnels. À l’arrivée, explorez un village konso traditionnel et découvrez l’architecture, les pratiques agricoles et les traditions culturelles uniques de cette communauté."
+      },
+      {
+        "day": "Jour 8",
+        "title": "De Konso à Turmi par Arbore – Visite d’un village hamar",
+        "text": "Après le petit-déjeuner, départ de Konso vers Turmi, au cœur du pays hamar. En chemin, rendez visite aux Arbore, connus pour leurs traditions culturelles, leurs vêtements traditionnels et leur mode de vie pastoral. Continuez à travers les beaux paysages de la vallée de l’Omo, en passant par des hameaux et des villages traditionnels. À l’arrivée à Turmi, installation au lodge et temps de repos. En fin d’après-midi, visitez un village hamar traditionnel et découvrez le quotidien de cette fascinante communauté : maisons traditionnelles, coiffures, parures corporelles et pratiques culturelles. Si une cérémonie traditionnelle a lieu et que l’autorisation est accordée, vous pourrez y assister avec respect. Retour au lodge à Turmi."
+      },
+      {
+        "day": "Jour 9",
+        "title": "Turmi – Communauté karo – Communauté dassanech – Retour à Turmi",
+        "text": "Après un petit-déjeuner matinal, route vers l’Omo pour rendre visite aux Karo, l’un des fascinants peuples de la vallée de l’Omo. Les Karo sont réputés pour leurs peintures corporelles, leurs coiffures décoratives et leurs pratiques culturelles traditionnelles. Visitez un village karo traditionnel et découvrez leur lien avec le fleuve Omo, leur mode de vie pastoral et leurs traditions. Continuez vers la basse vallée de l’Omo pour rencontrer les Dassanech, qui vivent près du delta de l’Omo et du lac Turkana. Découvrez leur mode de vie traditionnel, leur culture pastorale et leurs pratiques culturelles particulières. Profitez de ces rencontres culturelles respectueuses pour découvrir le quotidien de ces communautés. En fin d’après-midi, retour à Turmi."
+      },
+      {
+        "day": "Jour 10",
+        "title": "Turmi – Communauté bena – Jinka – Vol pour Addis-Abeba – Dîner d’adieu et départ",
+        "text": "Après un petit-déjeuner matinal, départ de Turmi vers Jinka à travers les beaux paysages de la vallée de l’Omo. En chemin, rendez visite aux Bena et découvrez leur mode de vie traditionnel, leurs pratiques culturelles et leur tradition particulière de la marche sur échasses. Continuez vers Jinka en profitant des paysages et des villages ruraux. À l’arrivée, déjeuner au restaurant Gesha Gojo, une adresse locale où vous goûterez à l’ambiance du sud de l’Éthiopie. L’après-midi, transfert à l’aéroport de Jinka pour votre vol intérieur vers Addis-Abeba, sous réserve de disponibilité. À l’arrivée à Addis-Abeba, notre représentant vous accueille et vous savourez un dîner d’adieu éthiopien traditionnel autour d’une authentique cuisine locale, de musique et de danses traditionnelles. Après le dîner, transfert à l’aéroport international de Bole pour votre vol international."
+      }
+    ],
+    "places": [
+      "Addis-Abeba",
+      "Musée national",
+      "Cathédrale de la Sainte Trinité",
+      "Merkato",
+      "Bahir Dar",
+      "Gondar",
+      "Monts du Simien",
+      "Lalibela",
+      "Arba Minch",
+      "Lac Chamo",
+      "Dorzé et Chencha",
+      "Konso",
+      "Arbore",
+      "Turmi",
+      "Villages Karo",
+      "Villages Dassanech",
+      "Villages Banna",
+      "Jinka"
+    ]
+  },
+  "25-day-complete-ethiopia": {
+    "title": "Circuit complet de 25 jours en Éthiopie",
+    "days": "25 jours",
+    "style": "Historique · Culturel · Danakil · Faune",
+    "season": "Novembre à mars",
+    "from": "Sur demande",
+    "group": "Privé ou en groupe",
+    "teaser": "La grande expédition éthiopienne : le Nord historique, le Danakil, les monts Balé, la vallée de l’Omo et Harar.",
+    "summary": "Découvrez l’extraordinaire diversité de l’Éthiopie lors de cette expédition complète de 25 jours à travers ses villes historiques, ses paysages spectaculaires, son patrimoine religieux ancien et ses fascinantes communautés. Des monuments historiques d’Addis-Abeba, de Bahir Dar, de Gondar et de Lalibela aux spectaculaires paysages volcaniques de la dépression de Danakil, ce voyage offre une expérience inoubliable de l’histoire et des merveilles naturelles de l’Éthiopie. Explorez les majestueux monts Balé, rencontrez les cultures variées de la vallée de l’Omo et terminez votre voyage dans l’ancienne ville fortifiée de Harar, l’une des destinations historiques les plus fascinantes du pays. Ce circuit complet associe histoire, aventure, nature, faune, rencontres culturelles et authentique hospitalité éthiopienne.",
+    "highlights": [
+      "Explorez les monuments historiques d’Addis-Abeba",
+      "Découvrez les anciens monastères insulaires du lac Tana et les spectaculaires chutes du Nil Bleu",
+      "Visitez l’enceinte royale de Gondar, l’église Debre Berhan Selassie et les bains de Fasilidès",
+      "Découvrez les paysages saisissants du parc national du Simien",
+      "Explorez les églises rupestres de Lalibela, inscrites à l’UNESCO",
+      "Assistez à un office de l’Église orthodoxe éthiopienne et à une cérémonie traditionnelle du café",
+      "Découvrez le volcan actif Erta Ale et les paysages hydrothermaux colorés de Dallol",
+      "Explorez le plateau de Sanetti et la faune unique du parc national des monts Balé",
+      "Découvrez les traditions culturelles des Dorze et des Konso",
+      "Rencontrez les Hamar, Karo, Nyangatom, Dassanech, Bena, Mursi et Ari de la vallée de l’Omo",
+      "Découvrez la ville historique de Harar, ses anciennes murailles, ses marchés traditionnels et son fascinant patrimoine culturel",
+      "Assistez au célèbre nourrissage nocturne des hyènes à Harar",
+      "Explorez les sites historiques et le patrimoine ferroviaire de Dire Dawa",
+      "Savourez un dîner d’adieu éthiopien traditionnel à Addis-Abeba"
+    ],
+    "includes": [
+      "Accueil et assistance à l’aéroport international de Bole et tous les transferts",
+      "Véhicule 4x4 privé avec un chauffeur expérimenté",
+      "Guide anglophone agréé (autres langues sur demande)",
+      "24 nuits d’hébergement : hôtels, lodges et camping en plein air",
+      "Pension complète : petit-déjeuner, déjeuner et dîner",
+      "Permis régionaux Afar, guide Afar local et escorte policière",
+      "Matériel de camping avec matelas, oreillers et literie propre",
+      "Excursions en bateau sur le lac Tana et le lac Chamo",
+      "Frais d’entrée à tous les sites et églises de l’itinéraire",
+      "Dîner d’adieu avec musique et danses traditionnelles"
+    ],
+    "excludes": [
+      "Vols internationaux et visa éthiopien",
+      "Assurance voyage (fortement recommandée)",
+      "Frais de photographie dans les villages de la vallée de l'Omo (à payer sur place)",
+      "Boissons, pourboires et dépenses personnelles"
+    ],
+    "itinerary": [
+      {
+        "day": "Jour 1",
+        "title": "Arrivée à Addis-Abeba",
+        "text": "Arrivée à l’aéroport international de Bole, accueil par notre représentant et transfert à votre hôtel. Le reste de la journée est consacré à la détente et au repos."
+      },
+      {
+        "day": "Jour 2",
+        "title": "Visite d’une journée d’Addis-Abeba",
+        "text": "Découvrez les principaux sites de la capitale : le Musée national, la cathédrale de la Sainte-Trinité, le Musée ethnologique et le mont Entoto. Profitez de vues panoramiques sur la ville et découvrez l’histoire et le patrimoine culturel de l’Éthiopie."
+      },
+      {
+        "day": "Jour 3",
+        "title": "Vol pour Bahir Dar – Monastères du lac Tana",
+        "text": "Vol pour Bahir Dar et excursion en bateau sur le lac Tana à la découverte de ses monastères insulaires historiques, réputés pour leurs manuscrits anciens, leurs trésors religieux et leurs magnifiques peintures."
+      },
+      {
+        "day": "Jour 4",
+        "title": "Chutes du Nil Bleu et visite de Bahir Dar",
+        "text": "Le matin, découvrez les spectaculaires chutes du Nil Bleu. L’après-midi, explorez le marché local de Bahir Dar, les rives du lac et les sites de la ville."
+      },
+      {
+        "day": "Jour 5",
+        "title": "Route vers Gondar – Patrimoine royal",
+        "text": "Route vers Gondar à travers les hauts plateaux éthiopiens. Explorez l’enceinte royale, l’église Debre Berhan Selassie et les bains de Fasilidès."
+      },
+      {
+        "day": "Jour 6",
+        "title": "Route vers le parc national du Simien",
+        "text": "Route vers le parc national du Simien pour admirer ses escarpements spectaculaires, ses paysages de montagne et sa faune endémique, notamment les babouins géladas."
+      },
+      {
+        "day": "Jour 7",
+        "title": "Vol pour Lalibela – Premier groupe d’églises rupestres",
+        "text": "Vol pour Lalibela et découverte du premier groupe de ses magnifiques églises rupestres, de leur architecture remarquable et de leur signification religieuse."
+      },
+      {
+        "day": "Jour 8",
+        "title": "Asheton Maryam et second groupe d’églises",
+        "text": "Le matin, montez à pied ou en voiture au monastère d’Asheton Maryam pour des vues spectaculaires sur les montagnes. L’après-midi, explorez le second groupe d’églises rupestres, dont l’emblématique église Saint-Georges. Profitez d’une cérémonie traditionnelle du café éthiopien."
+      },
+      {
+        "day": "Jour 9",
+        "title": "Office de l’Église orthodoxe éthiopienne – Vol pour Addis-Abeba",
+        "text": "Tôt le matin, assistez à un office de l’Église orthodoxe éthiopienne. Retour à l’hôtel pour le petit-déjeuner avant le transfert à l’aéroport pour votre vol vers Addis-Abeba."
+      },
+      {
+        "day": "Jour 10",
+        "title": "Vol pour Semera – Route vers le volcan Erta Ale",
+        "text": "Vol pour Semera et route au cœur de la dépression de Danakil en direction de l’Erta Ale. Le soir, montée à pied jusqu’au sommet du volcan pour découvrir son paysage volcanique remarquable et, si les conditions le permettent, son lac de lave incandescent."
+      },
+      {
+        "day": "Jour 11",
+        "title": "De l’Erta Ale à Dallol",
+        "text": "Explorez les paysages volcaniques avant de rejoindre la région de Dallol. Découvrez les formations hydrothermales colorées, les paysages de sel, le lac Assalé et les sites traditionnels d’extraction du sel."
+      },
+      {
+        "day": "Jour 12",
+        "title": "De Dallol à Semera – Vol pour Addis-Abeba",
+        "text": "Retour par la route à Semera à travers les spectaculaires paysages de l’Afar et vol pour Addis-Abeba."
+      },
+      {
+        "day": "Jour 13",
+        "title": "Route vers les monts Balé – Dinsho",
+        "text": "Route vers le sud jusqu’au parc national des monts Balé. Visitez Dinsho, la porte d’entrée du parc, et explorez les paysages alentour, avec la possibilité d’observer la faune endémique."
+      },
+      {
+        "day": "Jour 14",
+        "title": "Plateau de Sanetti – Parc national des monts Balé",
+        "text": "Explorez le spectaculaire plateau de Sanetti, ses paysages afro-alpins, ses lobélies géantes et la possibilité d’observer le loup d’Éthiopie et d’autres espèces endémiques."
+      },
+      {
+        "day": "Jour 15",
+        "title": "Route vers Hawassa",
+        "text": "Route vers Hawassa à travers les beaux paysages de la vallée du Grand Rift. Profitez d’un après-midi détente au bord du lac Hawassa."
+      },
+      {
+        "day": "Jour 16",
+        "title": "Marché aux poissons de Hawassa – Arba Minch – Village dorze",
+        "text": "Tôt le matin, visitez le célèbre marché aux poissons de Hawassa. Continuez vers Arba Minch et rendez visite au village dorze, réputé pour ses maisons traditionnelles caractéristiques, son tissage et son patrimoine culturel."
+      },
+      {
+        "day": "Jour 17",
+        "title": "Lac Chamo – Paysage culturel de Konso",
+        "text": "Excursion en bateau sur le lac Chamo pour observer crocodiles, hippopotames et oiseaux. Route vers Konso et découverte de son paysage culturel inscrit à l’UNESCO, de ses villages traditionnels et de ses cultures en terrasses."
+      },
+      {
+        "day": "Jour 18",
+        "title": "De Konso à Turmi – Arbore et village hamar",
+        "text": "Route vers Turmi avec une visite des Arbore en chemin. En fin d’après-midi, visitez un village hamar traditionnel et découvrez ses traditions culturelles et sa vie quotidienne."
+      },
+      {
+        "day": "Jour 19",
+        "title": "Rencontres culturelles avec les Karo et les Nyangatom",
+        "text": "Le matin, rendez visite aux Karo, sur les rives de l’Omo, réputés pour leurs peintures corporelles. L’après-midi, rencontrez les Nyangatom et découvrez leur patrimoine culturel."
+      },
+      {
+        "day": "Jour 20",
+        "title": "Rencontres avec les Dassanech, les Bena et les Mursi – Route vers Jinka",
+        "text": "Le matin, rendez visite aux Dassanech dans la région d’Omorate. Continuez vers Jinka en rencontrant les Bena et en admirant l’habileté traditionnelle des jeunes Bena sur leurs échasses. Rendez visite aux Mursi dans la région de Key Afer ou de Jinka, selon les conditions locales et la disponibilité de la communauté."
+      },
+      {
+        "day": "Jour 21",
+        "title": "Villages ari – Vol pour Addis-Abeba – Dîner d’adieu",
+        "text": "Le matin, visitez les villages ari autour de Jinka pour découvrir leurs pratiques agricoles traditionnelles, leur artisanat et leur patrimoine culturel. L’après-midi, vol pour Addis-Abeba. Le soir, savourez un dîner d’adieu éthiopien spécial avec cuisine traditionnelle, musique et spectacles culturels."
+      },
+      {
+        "day": "Jour 22",
+        "title": "Vol pour Dire Dawa – Route vers Harar – Nourrissage des hyènes",
+        "text": "Après le petit-déjeuner, transfert à l’aéroport pour votre vol vers Dire Dawa, importante ville commerçante de l’est de l’Éthiopie. À l’arrivée, route vers Harar, l’une des villes historiques les plus fascinantes d’Éthiopie, inscrite au patrimoine mondial de l’UNESCO. Le soir, assistez au célèbre nourrissage des hyènes, une tradition unique au cours de laquelle les « hommes-hyènes » nourrissent à la main des hyènes sauvages."
+      },
+      {
+        "day": "Jour 23",
+        "title": "Visite de Harar – Route vers Dire Dawa",
+        "text": "Consacrez toute la matinée à l’exploration de la ville historique fortifiée de Harar. Visitez l’ancien Harar Jugol, ses ruelles traditionnelles, ses marchés colorés, ses maisons historiques et ses principaux monuments religieux. Découvrez le remarquable patrimoine islamique de la ville et l’architecture traditionnelle harari. L’après-midi, retour par la route à Dire Dawa."
+      },
+      {
+        "day": "Jour 24",
+        "title": "Visite de Dire Dawa – Vol pour Addis-Abeba – Dîner d’adieu",
+        "text": "Le matin, découvrez les sites historiques de Dire Dawa et son caractère urbain singulier. Visitez l’ancienne gare ferroviaire, les marchés traditionnels et les quartiers historiques qui témoignent du rôle important de la ville dans l’histoire ferroviaire et commerciale de l’Éthiopie. L’après-midi, transfert à l’aéroport pour votre vol vers Addis-Abeba. Le soir, savourez un dîner d’adieu spécial avec cuisine éthiopienne traditionnelle, musique et spectacles culturels."
+      },
+      {
+        "day": "Jour 25",
+        "title": "Départ",
+        "text": "Après le petit-déjeuner, transfert à l’aéroport international de Bole pour votre vol international. Fin de votre extraordinaire voyage en Éthiopie."
+      }
+    ],
+    "places": [
+      "Addis-Abeba",
+      "Musée national",
+      "Cathédrale de la Sainte Trinité",
+      "Entoto",
+      "Bahir Dar",
+      "Chutes du Nil Bleu",
+      "Gondar",
+      "Monts du Simien",
+      "Lalibela",
+      "Asheton Maryam",
+      "Semera",
+      "Erta Ale",
+      "Dallol",
+      "Lac Assalé",
+      "Dépression de Danakil",
+      "Dinsho",
+      "Plateau de Sanetti",
+      "Hawassa",
+      "Arba Minch",
+      "Dorzé et Chencha",
+      "Lac Chamo",
+      "Konso",
+      "Arbore",
+      "Turmi",
+      "Villages Karo",
+      "Villages Nyangatom",
+      "Omorate",
+      "Villages Dassanech",
+      "Villages Banna",
+      "Villages Mursi",
+      "Jinka",
+      "Villages Ari",
+      "Dire Dawa",
+      "Harar"
+    ]
+  },
   "10-day-historic-route": {
     "title": "Itinéraire historique de 10 jours",
     "days": "10 jours",

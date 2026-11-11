@@ -49,7 +49,7 @@ export async function getDestinationsData(
   let liveDestinations: ApiDestination[] = []
   try {
     liveDestinations = await getDestinations({
-      next: { revalidate: 3600, tags: ['destinations'] },
+      next: { revalidate: 604800, tags: ['destinations'] },
     })
   } catch {
     liveDestinations = []

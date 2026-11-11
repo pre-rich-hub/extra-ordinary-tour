@@ -106,7 +106,7 @@ export async function getToursData(locale: AppLocale = 'en'): Promise<Tour[]> {
     // invalidate the data cache on demand instead of waiting for the window.
     const page = await getTours(
       { limit: 500 },
-      { next: { revalidate: 3600, tags: ['tours'] } },
+      { next: { revalidate: 604800, tags: ['tours'] } },
     )
     liveTours = page.items ?? []
   } catch {
@@ -131,7 +131,7 @@ export async function getTourData(
 
   try {
     const live = await getTourBySlug(slug, {
-      next: { revalidate: 3600, tags: ['tours', `tour:${slug}`] },
+      next: { revalidate: 604800, tags: ['tours', `tour:${slug}`] },
     })
     if (live && live.canonical?.slug === slug) {
       return resolve(live, slug, locale, staticTour)
