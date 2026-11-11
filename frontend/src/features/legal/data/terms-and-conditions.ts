@@ -1,7 +1,8 @@
 import type { LegalDocument } from '../types'
 
 // Verbatim English text of the client's published Terms and Conditions
-// (extraordinaryethiopiatours.com/terms-and-conditions/, captured 2026-10-21).
+// (extraordinaryethiopiatours.com/terms-and-conditions/, captured 2026-10-21;
+// revised by the client 2026-11-11 with the refund fees in sections 6–10).
 // Keep locales/es.json, fr.json and de.json in step with any change here.
 export const termsAndConditions: LegalDocument = {
   title: 'Terms and Conditions',
@@ -208,7 +209,7 @@ export const termsAndConditions: LegalDocument = {
           rows: [
             [
               '60 days or more before departure',
-              '30% deposit may be refundable, less any non-refundable costs and applicable fees',
+              '30% deposit may be refundable, less applicable fees and non-refundable costs',
             ],
             ['30–59 days before departure', '50% of total tour price'],
             ['15–29 days before departure', '75% of total tour price'],
@@ -222,6 +223,86 @@ export const termsAndConditions: LegalDocument = {
             'The cancellation date will be the date on which Extraordinary Ethiopia Tours receives the client’s written cancellation request.',
           ],
         },
+      ],
+    },
+    {
+      heading: 'Administrative Handling Fee and Service Charge',
+      content: [
+        {
+          type: 'paragraph',
+          lines: [
+            'For all eligible cancellations and refund requests, the following administrative charges apply:',
+          ],
+        },
+        { type: 'subheading', text: '6.1. Fixed Handling Fee' },
+        {
+          type: 'paragraph',
+          lines: [
+            'A fixed administrative handling fee of US$150 per person/booking will be charged when processing a cancellation and refund.',
+          ],
+        },
+        {
+          type: 'paragraph',
+          lines: [
+            'This fee covers administrative work, payment processing, cancellation coordination, communication with hotels, airlines and other suppliers, and the arrangements required to process refunds.',
+          ],
+        },
+        { type: 'subheading', text: '6.2. Service and Administration Charge' },
+        {
+          type: 'paragraph',
+          lines: [
+            'A 15% service and administration charge, calculated on the total deposit paid, will be deducted when processing a cancellation and refund.',
+          ],
+        },
+        {
+          type: 'paragraph',
+          lines: [
+            'This charge covers the booking services, operational arrangements, reservation management, supplier coordination, and administrative work already undertaken by Extraordinary Ethiopia Tours.',
+          ],
+        },
+        {
+          type: 'paragraph',
+          lines: [
+            'The US$150 handling fee and 15% service charge are separate charges and will be itemized in the refund calculation.',
+          ],
+        },
+      ],
+    },
+    {
+      heading: 'Domestic Airline Cancellation and Refund Policy',
+      content: [
+        {
+          type: 'paragraph',
+          lines: [
+            'Domestic airline tickets arranged or purchased through Extraordinary Ethiopia Tours are subject to the following conditions:',
+          ],
+        },
+        {
+          type: 'list',
+          items: [
+            'A 20% cancellation charge of the original domestic airline ticket price will apply when a client requests cancellation and a refund.',
+            'The remaining amount will be subject to the airline’s applicable fare rules and refund eligibility.',
+            'Any additional non-refundable airline charges or penalties actually imposed by the airline may also be deducted where applicable.',
+            'Refunds are subject to airline approval and processing procedures.',
+          ],
+        },
+        {
+          type: 'paragraph',
+          lines: [
+            'Extraordinary Ethiopia Tours will make reasonable efforts to recover refundable amounts from the airline and return the eligible amount to the client.',
+          ],
+        },
+        {
+          type: 'paragraph',
+          lines: [
+            'The 20% domestic airline cancellation charge applies specifically to domestic flight tickets and is separate from the general tour cancellation policy.',
+          ],
+        },
+      ],
+    },
+    {
+      heading: 'Hotel and Other Supplier Cancellation Charges',
+      content: [
         {
           type: 'paragraph',
           lines: [
@@ -249,9 +330,72 @@ export const termsAndConditions: LegalDocument = {
           ],
         },
         {
-          type: 'note',
-          label: 'Important',
-          text: 'The cancellation charges above do not prevent Extraordinary Ethiopia Tours from applying a different cancellation policy where the client has been informed of and agreed to specific terms for a particular tour, service, promotion, or supplier.',
+          type: 'paragraph',
+          lines: [
+            'Any additional supplier cancellation charges will be based on actual costs and applicable supplier policies.',
+          ],
+        },
+      ],
+    },
+    {
+      heading: 'Refund Calculation and Processing',
+      content: [
+        {
+          type: 'paragraph',
+          lines: [
+            'The final refundable amount will be calculated after considering the applicable cancellation conditions and deductions, including:',
+          ],
+        },
+        {
+          type: 'list',
+          items: [
+            'The fixed US$150 administrative handling fee per booking.',
+            'The 15% service and administration charge calculated on the deposit paid.',
+            'The applicable 20% domestic airline cancellation charge, where domestic flight tickets are involved.',
+            'Any additional documented non-refundable costs or cancellation penalties imposed by hotels, airlines, and other service providers.',
+            'The applicable cancellation charges based on the cancellation period.',
+          ],
+        },
+        {
+          type: 'paragraph',
+          lines: [
+            'Extraordinary Ethiopia Tours will make every reasonable effort to recover refundable payments from airlines, hotels, and other service providers.',
+          ],
+        },
+        {
+          type: 'paragraph',
+          lines: [
+            'Clients will receive a transparent explanation of applicable deductions before the refund is processed.',
+          ],
+        },
+        {
+          type: 'paragraph',
+          lines: [
+            'Refunds will be made through an agreed payment method, subject to the availability of recovered funds and the relevant payment provider’s processing procedures.',
+          ],
+        },
+      ],
+    },
+    {
+      heading: 'Exceptional Circumstances and Force Majeure Cancellations',
+      content: [
+        {
+          type: 'paragraph',
+          lines: [
+            'In cases involving security concerns, political unrest, government restrictions, natural disasters, flight disruptions, or other circumstances beyond the reasonable control of the client or Extraordinary Ethiopia Tours, we will make every reasonable effort to minimize financial losses and recover as much money as possible from suppliers.',
+          ],
+        },
+        {
+          type: 'paragraph',
+          lines: [
+            'Where a tour must be cancelled due to circumstances beyond our reasonable control, any refund will generally be based on amounts recoverable from suppliers and services that have not already been provided, purchased, or become non-refundable.',
+          ],
+        },
+        {
+          type: 'paragraph',
+          lines: [
+            'Any applicable handling fees, service charges, and non-refundable supplier expenses will be communicated transparently to the client.',
+          ],
         },
       ],
     },
@@ -851,7 +995,7 @@ export const termsAndConditions: LegalDocument = {
           items: [
             'Have read and understood these Terms & Conditions;',
             'Accept the applicable booking and payment terms;',
-            'Accept the applicable cancellation and refund conditions;',
+            'Accept the applicable cancellation and refund conditions, including the US$150 handling fee, 15% service charge, and applicable domestic airline cancellation charges;',
             'Have provided accurate information;',
             'Agree to comply with reasonable instructions provided during the tour; and',
             'Agree to these Terms & Conditions.',
@@ -899,9 +1043,9 @@ export const termsAndConditions: LegalDocument = {
           type: 'paragraph',
           lines: [
             'Email: info@extraordinaryethiopiatours.com',
-            'Phone / WhatsApp: +251912039405',
+            'Phone / WhatsApp: +251 912 039 405',
             'Website: www.extraordinaryethiopiatours.com',
-            'Address: Meskel Kibra Kebele, Workdinagy Street, Lalibela. Ethiopia',
+            'Address: Meskel Kibra Kebele, Workdinagy Street, Lalibela, Ethiopia.',
           ],
         },
       ],
@@ -916,14 +1060,30 @@ export const termsAndConditions: LegalDocument = {
         {
           type: 'paragraph',
           lines: [
-            '30% — Deposit required to confirm your booking',
-            '70% — Final balance payable at least 30 days before arrival/departure',
+            '30% — Deposit required to confirm your booking.',
+            '70% — Final balance payable at least 30 days before arrival/departure.',
           ],
         },
         {
           type: 'paragraph',
           lines: [
             'For bookings made less than 30 days before arrival/departure, full payment may be required at the time of booking.',
+          ],
+        },
+        { type: 'subheading', text: 'Cancellation and Refund Charges' },
+        {
+          type: 'list',
+          items: [
+            'US$150 — Fixed administrative handling fee per booking.',
+            '15% — Service and administration charge calculated on the deposit paid.',
+            '20% — Domestic airline cancellation charge on the original domestic ticket price when requesting a refund.',
+            'Additional documented non-refundable supplier expenses and applicable cancellation penalties may also be deducted.',
+          ],
+        },
+        {
+          type: 'paragraph',
+          lines: [
+            'Extraordinary Ethiopia Tours — Discover Ethiopia. Experience the Extraordinary!',
           ],
         },
       ],

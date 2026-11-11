@@ -439,7 +439,7 @@
             "rows": [
               [
                 "60 días o más antes de la salida",
-                "El depósito del 30 % puede ser reembolsable, descontando los costes no reembolsables y las comisiones aplicables"
+                "El depósito del 30 % puede ser reembolsable, descontando las comisiones aplicables y los costes no reembolsables"
               ],
               ["Entre 30 y 59 días antes de la salida", "50 % del precio total del circuito"],
               ["Entre 15 y 29 días antes de la salida", "75 % del precio total del circuito"],
@@ -452,7 +452,93 @@
             "lines": [
               "La fecha de cancelación será aquella en la que Extraordinary Ethiopia Tours reciba la solicitud de cancelación por escrito del cliente."
             ]
+          }
+        ]
+      },
+      {
+        "heading": "Comisión administrativa de gestión y cargo por servicio",
+        "content": [
+          {
+            "type": "paragraph",
+            "lines": [
+              "Para todas las cancelaciones y solicitudes de reembolso admisibles, se aplicarán los siguientes cargos administrativos:"
+            ]
           },
+          {
+            "type": "subheading",
+            "text": "6.1. Comisión fija de gestión"
+          },
+          {
+            "type": "paragraph",
+            "lines": [
+              "Al tramitar una cancelación y un reembolso se cobrará una comisión administrativa fija de gestión de 150 US$ por persona/reserva."
+            ]
+          },
+          {
+            "type": "paragraph",
+            "lines": [
+              "Esta comisión cubre el trabajo administrativo, la tramitación de pagos, la coordinación de la cancelación, la comunicación con hoteles, aerolíneas y otros proveedores, y las gestiones necesarias para tramitar los reembolsos."
+            ]
+          },
+          {
+            "type": "subheading",
+            "text": "6.2. Cargo por servicio y administración"
+          },
+          {
+            "type": "paragraph",
+            "lines": [
+              "Al tramitar una cancelación y un reembolso se deducirá un cargo por servicio y administración del 15 %, calculado sobre el depósito total abonado."
+            ]
+          },
+          {
+            "type": "paragraph",
+            "lines": [
+              "Este cargo cubre los servicios de reserva, la organización operativa, la gestión de reservas, la coordinación con proveedores y el trabajo administrativo ya realizado por Extraordinary Ethiopia Tours."
+            ]
+          },
+          {
+            "type": "paragraph",
+            "lines": [
+              "La comisión de gestión de 150 US$ y el cargo por servicio del 15 % son cargos independientes y se detallarán por separado en el cálculo del reembolso."
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Política de cancelación y reembolso de vuelos nacionales",
+        "content": [
+          {
+            "type": "paragraph",
+            "lines": [
+              "Los billetes de vuelos nacionales gestionados o adquiridos a través de Extraordinary Ethiopia Tours están sujetos a las siguientes condiciones:"
+            ]
+          },
+          {
+            "type": "list",
+            "items": [
+              "Se aplicará un cargo de cancelación del 20 % sobre el precio original del billete de vuelo nacional cuando el cliente solicite la cancelación y el reembolso.",
+              "El importe restante estará sujeto a las condiciones tarifarias aplicables de la aerolínea y a su admisibilidad para reembolso.",
+              "También podrán deducirse, cuando proceda, los cargos o penalizaciones no reembolsables adicionales efectivamente impuestos por la aerolínea.",
+              "Los reembolsos están sujetos a la aprobación y a los procedimientos de tramitación de la aerolínea."
+            ]
+          },
+          {
+            "type": "paragraph",
+            "lines": [
+              "Extraordinary Ethiopia Tours hará esfuerzos razonables para recuperar de la aerolínea los importes reembolsables y devolver al cliente el importe que corresponda."
+            ]
+          },
+          {
+            "type": "paragraph",
+            "lines": [
+              "El cargo de cancelación del 20 % sobre vuelos nacionales se aplica específicamente a los billetes de vuelos nacionales y es independiente de la política general de cancelación del circuito."
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Gastos de cancelación de hoteles y otros proveedores",
+        "content": [
           {
             "type": "paragraph",
             "lines": [
@@ -480,9 +566,72 @@
             ]
           },
           {
-            "type": "note",
-            "label": "Importante",
-            "text": "Los gastos de cancelación indicados no impiden que Extraordinary Ethiopia Tours aplique una política de cancelación distinta cuando el cliente haya sido informado de condiciones específicas para un circuito, servicio, promoción o proveedor concreto y las haya aceptado."
+            "type": "paragraph",
+            "lines": [
+              "Cualquier gasto de cancelación adicional de proveedores se basará en los costes reales y en las políticas aplicables de cada proveedor."
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Cálculo y tramitación del reembolso",
+        "content": [
+          {
+            "type": "paragraph",
+            "lines": [
+              "El importe final reembolsable se calculará teniendo en cuenta las condiciones de cancelación y deducciones aplicables, entre ellas:"
+            ]
+          },
+          {
+            "type": "list",
+            "items": [
+              "La comisión administrativa fija de gestión de 150 US$ por reserva.",
+              "El cargo por servicio y administración del 15 %, calculado sobre el depósito abonado.",
+              "El cargo de cancelación del 20 % sobre vuelos nacionales, cuando haya billetes de vuelos nacionales.",
+              "Cualquier coste no reembolsable adicional documentado o penalización por cancelación impuesta por hoteles, aerolíneas y otros proveedores de servicios.",
+              "Los gastos de cancelación aplicables según el plazo de cancelación."
+            ]
+          },
+          {
+            "type": "paragraph",
+            "lines": [
+              "Extraordinary Ethiopia Tours hará todo lo razonablemente posible por recuperar los pagos reembolsables de aerolíneas, hoteles y otros proveedores de servicios."
+            ]
+          },
+          {
+            "type": "paragraph",
+            "lines": [
+              "Antes de tramitar el reembolso, el cliente recibirá una explicación transparente de las deducciones aplicables."
+            ]
+          },
+          {
+            "type": "paragraph",
+            "lines": [
+              "Los reembolsos se realizarán mediante un método de pago acordado, en función de la disponibilidad de los fondos recuperados y de los procedimientos de tramitación del proveedor de pagos correspondiente."
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Circunstancias excepcionales y cancelaciones por fuerza mayor",
+        "content": [
+          {
+            "type": "paragraph",
+            "lines": [
+              "En casos de problemas de seguridad, disturbios políticos, restricciones gubernamentales, desastres naturales, alteraciones de vuelos u otras circunstancias ajenas al control razonable del cliente o de Extraordinary Ethiopia Tours, haremos todo lo razonablemente posible por reducir al mínimo las pérdidas económicas y recuperar de los proveedores la mayor cantidad de dinero posible."
+            ]
+          },
+          {
+            "type": "paragraph",
+            "lines": [
+              "Cuando un circuito deba cancelarse por circunstancias ajenas a nuestro control razonable, cualquier reembolso se basará, por lo general, en los importes recuperables de los proveedores y en los servicios que aún no se hayan prestado, adquirido o pasado a ser no reembolsables."
+            ]
+          },
+          {
+            "type": "paragraph",
+            "lines": [
+              "Cualquier comisión de gestión, cargo por servicio y gasto no reembolsable de proveedores que corresponda se comunicará al cliente de forma transparente."
+            ]
           }
         ]
       },
@@ -691,7 +840,9 @@
         "content": [
           {
             "type": "paragraph",
-            "lines": ["Se recomienda encarecidamente que todos los viajeros contraten un seguro de viaje."]
+            "lines": [
+              "Se recomienda encarecidamente que todos los viajeros contraten un seguro de viaje."
+            ]
           },
           {
             "type": "paragraph",
@@ -1080,7 +1231,7 @@
             "items": [
               "Ha leído y comprendido estos Términos y condiciones;",
               "Acepta las condiciones de reserva y pago aplicables;",
-              "Acepta las condiciones de cancelación y reembolso aplicables;",
+              "Acepta las condiciones de cancelación y reembolso aplicables, incluidas la comisión de gestión de 150 US$, el cargo por servicio del 15 % y los cargos de cancelación de vuelos nacionales que correspondan;",
               "Ha facilitado información exacta;",
               "Se compromete a seguir las instrucciones razonables que se le den durante el circuito; y",
               "Acepta estos Términos y condiciones."
@@ -1128,9 +1279,9 @@
             "type": "paragraph",
             "lines": [
               "Correo electrónico: info@extraordinaryethiopiatours.com",
-              "Teléfono / WhatsApp: +251912039405",
+              "Teléfono / WhatsApp: +251 912 039 405",
               "Sitio web: www.extraordinaryethiopiatours.com",
-              "Dirección: Meskel Kibra Kebele, Workdinagy Street, Lalibela, Etiopía"
+              "Dirección: Meskel Kibra Kebele, Workdinagy Street, Lalibela, Etiopía."
             ]
           }
         ]
@@ -1145,8 +1296,8 @@
           {
             "type": "paragraph",
             "lines": [
-              "30 % — Depósito necesario para confirmar su reserva",
-              "70 % — Saldo final pagadero al menos 30 días antes de la llegada o la salida"
+              "30 % — Depósito necesario para confirmar su reserva.",
+              "70 % — Saldo final pagadero al menos 30 días antes de la llegada o la salida."
             ]
           },
           {
@@ -1154,6 +1305,23 @@
             "lines": [
               "En las reservas realizadas con menos de 30 días de antelación a la llegada o la salida, podrá exigirse el pago completo en el momento de la reserva."
             ]
+          },
+          {
+            "type": "subheading",
+            "text": "Gastos de cancelación y reembolso"
+          },
+          {
+            "type": "list",
+            "items": [
+              "150 US$ — Comisión administrativa fija de gestión por reserva.",
+              "15 % — Cargo por servicio y administración calculado sobre el depósito abonado.",
+              "20 % — Cargo de cancelación de vuelos nacionales sobre el precio original del billete al solicitar el reembolso.",
+              "También podrán deducirse gastos no reembolsables documentados de proveedores y las penalizaciones por cancelación aplicables."
+            ]
+          },
+          {
+            "type": "paragraph",
+            "lines": ["Extraordinary Ethiopia Tours — Descubra Etiopía. Viva lo extraordinario."]
           }
         ]
       }

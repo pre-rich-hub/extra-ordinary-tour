@@ -4,6 +4,7 @@ export type LegalBlock =
   | { type: 'list'; items: string[] }
   | { type: 'table'; head: string[]; rows: string[][] }
   | { type: 'note'; label: string; text: string }
+  | { type: 'subheading'; text: string }
 
 export type LegalDocument = {
   title: string
