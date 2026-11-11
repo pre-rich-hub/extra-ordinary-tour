@@ -6,8 +6,8 @@
  * Google-Extended and Applebot-Extended tokens only exist in robots.txt.
  */
 
-/** Client decision on training crawlers; pending, so the current behavior (allow) is kept. */
-export const allowTraining = true
+/** Training crawlers are blocked; each crawl regenerates pages and counts toward Vercel limits. */
+export const allowTraining = false
 
 export const aiCrawlers = [
   {

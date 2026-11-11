@@ -80,7 +80,7 @@ describe('deployment indexing', () => {
           'Google-Extended',
           'Applebot-Extended',
         ],
-        ...site,
+        disallow: '/',
       },
     ])
   })
