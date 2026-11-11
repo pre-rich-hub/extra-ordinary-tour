@@ -234,7 +234,7 @@ export const termsAndConditions: LegalDocument = {
             'For all eligible cancellations and refund requests, the following administrative charges apply:',
           ],
         },
-        { type: 'subheading', text: '6.1. Fixed Handling Fee' },
+        { type: 'subheading', text: '• Fixed Handling Fee' },
         {
           type: 'paragraph',
           lines: [
@@ -247,7 +247,7 @@ export const termsAndConditions: LegalDocument = {
             'This fee covers administrative work, payment processing, cancellation coordination, communication with hotels, airlines and other suppliers, and the arrangements required to process refunds.',
           ],
         },
-        { type: 'subheading', text: '6.2. Service and Administration Charge' },
+        { type: 'subheading', text: '• Service and Administration Charge' },
         {
           type: 'paragraph',
           lines: [
