@@ -47,6 +47,7 @@ export type ApiTour = {
     activities: string
   }[]
   journeyMap?: string | null
+  ctaBandImageUrl?: string | null
   createdAt: string | null
   updatedAt: string | null
   canonical: {

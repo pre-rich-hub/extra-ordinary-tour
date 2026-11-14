@@ -5,6 +5,7 @@ export type Tour = {
   canonicalPlaces?: string[]
   styleKeys?: string[]
   priceAmount?: number | null
+  ctaBandImageUrl?: string | null
   slug: string
   title: string
   image: string

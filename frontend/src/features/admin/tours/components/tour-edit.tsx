@@ -2,8 +2,8 @@
 
 import { useEffect, useState } from 'react'
 import { useRouter, useParams } from 'next/navigation'
-import { Loader2, Plus, X, ArrowUp, ArrowDown, Trash2, CalendarOff } from 'lucide-react'
-import { adminRequest } from '../../lib/api'
+import { Loader2, Plus, X, ArrowUp, ArrowDown, Trash2, CalendarOff, Star, Image as ImageIcon } from 'lucide-react'
+import { adminRequest, reorderGallery } from '../../lib/api'
 import { TourDetailsFields, type TourDetails } from './tour-details-fields'
 import { adminPanelClass, adminInputClass, adminLabelClass } from '../../components/admin-primitives'
 
@@ -32,6 +32,7 @@ type TourData = TourDetails & {
   noOfRates: number | null
   isFeatured: boolean
   mainImage: string | null
+  ctaBandImageUrl: string | null
   destination: { id: number; name: string } | null
   destinations: { id: number; name: string }[]
   categories: Category[]
@@ -57,6 +58,10 @@ export function AdminTourEdit() {
   const [selectedCategories, setSelectedCategories] = useState<number[]>([])
   const [newImages, setNewImages] = useState<File[]>([])
   const [deleteImageIds, setDeleteImageIds] = useState<number[]>([])
+  const [galleryOrder, setGalleryOrder] = useState<GalleryImage[]>([])
+  const [reordering, setReordering] = useState(false)
+  const [ctaBandImageUrl, setCtaBandImageUrl] = useState('')
+  const [ctaBandImageFile, setCtaBandImageFile] = useState<File | null>(null)
   const [included, setIncluded] = useState<string[]>([])
   const [excluded, setExcluded] = useState<string[]>([])
   const [itinerary, setItinerary] = useState<ItineraryDay[]>([])
@@ -109,6 +114,8 @@ export function AdminTourEdit() {
             : [{ day: 1, title: '', activities: '', overnight: '', meals: '' }],
         )
         setSelectedCategories(tourData.categories.map((category) => category.id))
+        setGalleryOrder(tourData.gallery ?? [])
+        setCtaBandImageUrl(tourData.ctaBandImageUrl ?? '')
         setBlockedDates(blockedItems)
         setError('')
       })
@@ -186,6 +193,39 @@ export function AdminTourEdit() {
     )
   }
 
+  async function moveGalleryImage(idx: number, dir: 'up' | 'down') {
+    const target = dir === 'up' ? idx - 1 : idx + 1
+    if (target < 0 || target >= galleryOrder.length) return
+    const next = [...galleryOrder]
+    ;[next[idx], next[target]] = [next[target], next[idx]]
+    setGalleryOrder(next)
+    setReordering(true)
+    try {
+      await reorderGallery(tourId, next.map((img) => img.id))
+    } catch {
+      // Revert on failure
+      setGalleryOrder(galleryOrder)
+    } finally {
+      setReordering(false)
+    }
+  }
+
+  async function setCoverPhoto(idx: number) {
+    if (idx === 0) return
+    const next = [...galleryOrder]
+    const [picked] = next.splice(idx, 1)
+    next.unshift(picked)
+    setGalleryOrder(next)
+    setReordering(true)
+    try {
+      await reorderGallery(tourId, next.map((img) => img.id))
+    } catch {
+      setGalleryOrder(galleryOrder)
+    } finally {
+      setReordering(false)
+    }
+  }
+
   async function handleBlockedDateSubmit(e: React.FormEvent<HTMLFormElement>) {
     e.preventDefault()
     if (!newBlockedDate) return
@@ -250,6 +290,8 @@ export function AdminTourEdit() {
     formData.set('tourItinerary', JSON.stringify(itinerary))
     formData.set('tourReviews', String(tour?.noOfRates ?? 0))
     formData.set('deleteImages', JSON.stringify(deleteImageIds))
+    if (ctaBandImageUrl.trim()) formData.set('ctaBandImageUrl', ctaBandImageUrl.trim())
+    if (ctaBandImageFile) formData.set('ctaBandImage', ctaBandImageFile)
 
     try {
       await adminRequest(`/api/v1/admin/tours/${tourId}`, {
@@ -617,41 +659,95 @@ export function AdminTourEdit() {
           </div>
         </section>
 
-        {/* Existing Images */}
-        {tour.gallery.length > 0 && (
+        {/* Existing Images — reorderable, first image is the cover/header */}
+        {galleryOrder.length > 0 && (
           <section className={adminPanelClass}>
-            <h2 className="mb-5 font-serif text-lg text-foreground">Existing Images</h2>
-            <div className="flex flex-wrap gap-3">
-              {tour.gallery.map((img) => {
+            <div className="mb-2 flex items-center justify-between">
+              <h2 className="font-serif text-lg text-foreground">Tour Photos</h2>
+              {reordering && <Loader2 size={14} className="animate-spin text-muted-foreground" />}
+            </div>
+            <p className="mb-5 text-xs text-muted-foreground">
+              The <span className="font-medium text-foreground">first photo</span> (marked with a star) is used as the <span className="font-medium text-foreground">header / cover image</span> shown at the top of the tour page. Use the arrows to reorder, or click &quot;Set as Cover&quot; to promote any photo to position 1. Click the trash icon to delete a photo.
+            </p>
+            <div className="space-y-2">
+              {galleryOrder.map((img, idx) => {
                 const marked = deleteImageIds.includes(img.id)
+                const isCover = idx === 0
                 return (
                   <div
                     key={img.id}
-                    className={`relative h-28 w-28 cursor-pointer overflow-hidden rounded-lg border-2 transition-all ${
-                      marked ? 'border-red-400 opacity-50' : 'border-border hover:border-primary'
+                    className={`flex items-center gap-3 rounded-lg border p-2 transition-all ${
+                      marked ? 'border-red-300 bg-red-50 opacity-60' : isCover ? 'border-primary/50 bg-primary/5' : 'border-border bg-card'
                     }`}
-                    onClick={() => toggleDeleteImage(img.id)}
-                    title={marked ? 'Click to keep' : 'Click to mark for deletion'}
                   >
-                    {/* Admin images can come from uploaded files or the media API. */}
-                    {/* eslint-disable-next-line @next/next/no-img-element */}
-                    <img
-                      src={img.imageUrl}
-                      alt=""
-                      className="h-full w-full object-cover"
-                    />
-                    {marked && (
-                      <div className="absolute inset-0 flex items-center justify-center bg-red-500/20">
-                        <Trash2 size={18} className="text-red-600" />
-                      </div>
-                    )}
+                    {/* Thumbnail */}
+                    <div className="relative h-16 w-24 shrink-0 overflow-hidden rounded">
+                      {/* eslint-disable-next-line @next/next/no-img-element */}
+                      <img src={img.imageUrl} alt="" className="h-full w-full object-cover" />
+                      {isCover && !marked && (
+                        <div className="absolute left-1 top-1 flex items-center gap-0.5 rounded bg-primary/90 px-1.5 py-0.5 text-[9px] font-semibold uppercase tracking-wide text-primary-foreground">
+                          <Star size={8} className="fill-current" /> Cover
+                        </div>
+                      )}
+                    </div>
+
+                    {/* Position label */}
+                    <span className="w-8 shrink-0 text-center text-xs font-medium text-muted-foreground">
+                      #{idx + 1}
+                    </span>
+
+                    {/* Actions */}
+                    <div className="ml-auto flex items-center gap-1">
+                      {!isCover && !marked && (
+                        <button
+                          type="button"
+                          onClick={() => setCoverPhoto(idx)}
+                          className="rounded px-2 py-1 text-xs font-medium text-primary transition-colors hover:bg-primary/10"
+                          title="Make this the cover / header photo"
+                        >
+                          Set as Cover
+                        </button>
+                      )}
+                      <button
+                        type="button"
+                        onClick={() => moveGalleryImage(idx, 'up')}
+                        disabled={idx === 0 || reordering}
+                        className="flex h-7 w-7 items-center justify-center rounded text-muted-foreground transition-colors hover:bg-muted hover:text-foreground disabled:opacity-30"
+                        title="Move up"
+                      >
+                        <ArrowUp size={13} />
+                      </button>
+                      <button
+                        type="button"
+                        onClick={() => moveGalleryImage(idx, 'down')}
+                        disabled={idx === galleryOrder.length - 1 || reordering}
+                        className="flex h-7 w-7 items-center justify-center rounded text-muted-foreground transition-colors hover:bg-muted hover:text-foreground disabled:opacity-30"
+                        title="Move down"
+                      >
+                        <ArrowDown size={13} />
+                      </button>
+                      <button
+                        type="button"
+                        onClick={() => toggleDeleteImage(img.id)}
+                        className={`flex h-7 w-7 items-center justify-center rounded transition-colors ${
+                          marked
+                            ? 'bg-red-100 text-red-600 hover:bg-red-200'
+                            : 'text-muted-foreground hover:bg-red-50 hover:text-red-600'
+                        }`}
+                        title={marked ? 'Undo deletion' : 'Delete this photo'}
+                      >
+                        <Trash2 size={13} />
+                      </button>
+                    </div>
                   </div>
                 )
               })}
             </div>
-            <p className="mt-3 text-xs text-muted-foreground">
-              Click images to mark them for deletion
-            </p>
+            {deleteImageIds.length > 0 && (
+              <p className="mt-3 text-xs text-red-600">
+                {deleteImageIds.length} photo{deleteImageIds.length > 1 ? 's' : ''} marked for deletion — will be removed when you save.
+              </p>
+            )}
           </section>
         )}
 
@@ -681,6 +777,66 @@ export function AdminTourEdit() {
               ))}
             </div>
           )}
+        </section>
+
+        {/* Footer / CTA section image */}
+        <section className={adminPanelClass}>
+          <div className="mb-2 flex items-center gap-2">
+            <ImageIcon size={16} className="text-accent" />
+            <h2 className="font-serif text-lg text-foreground">Footer / CTA Section Image</h2>
+          </div>
+          <p className="mb-5 text-xs text-muted-foreground">
+            The image shown in the full-width call-to-action band at the bottom of the tour page. Leave empty to use the same image as the tour header.
+          </p>
+          {/* Preview current CTA image */}
+          {(ctaBandImageUrl || tour.ctaBandImageUrl) && !ctaBandImageFile && (
+            <div className="mb-4 flex items-start gap-3">
+              <div className="h-20 w-32 shrink-0 overflow-hidden rounded-lg border border-border">
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                <img
+                  src={ctaBandImageUrl || tour.ctaBandImageUrl || ''}
+                  alt="Current footer image"
+                  className="h-full w-full object-cover"
+                />
+              </div>
+              <div>
+                <p className="text-xs font-medium text-foreground">Current footer image</p>
+                <button
+                  type="button"
+                  onClick={() => setCtaBandImageUrl('')}
+                  className="mt-1 text-xs text-red-600 hover:underline"
+                >
+                  Clear (use header image instead)
+                </button>
+              </div>
+            </div>
+          )}
+          <div className="space-y-3">
+            <div>
+              <label className={`${adminLabelClass} mb-1.5 block`}>Upload a new footer image</label>
+              <input
+                type="file"
+                name="ctaBandImage"
+                accept=".jpg,.jpeg,.png,.webp,.avif"
+                onChange={(e) => {
+                  const file = e.target.files?.[0] ?? null
+                  setCtaBandImageFile(file)
+                  if (file) setCtaBandImageUrl('')
+                }}
+                className="block w-full cursor-pointer text-sm text-muted-foreground file:mr-3 file:rounded-lg file:border-0 file:bg-primary/10 file:px-4 file:py-2 file:text-sm file:font-medium file:text-primary hover:file:bg-primary/20"
+              />
+            </div>
+            <div>
+              <label className={`${adminLabelClass} mb-1.5 block`}>Or paste an image URL</label>
+              <input
+                type="url"
+                value={ctaBandImageUrl}
+                onChange={(e) => { setCtaBandImageUrl(e.target.value); setCtaBandImageFile(null) }}
+                placeholder="https://…"
+                className={`${fieldClass} bg-white`}
+              />
+            </div>
+          </div>
         </section>
 
         {/* Blocked Dates */}

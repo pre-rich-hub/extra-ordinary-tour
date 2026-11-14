@@ -58,6 +58,28 @@ galleryRouter.post(
 );
 
 galleryRouter.put(
+  "/gallery/reorder",
+  asyncHandler(async (req, res) => {
+    const schema = z.object({
+      tourId: z.coerce.number().int().positive(),
+      imageIds: z.array(z.coerce.number().int().positive()).min(1),
+    });
+    const { tourId, imageIds } = schema.parse(req.body);
+
+    await prisma.$transaction(
+      imageIds.map((imageId, index) =>
+        prisma.gallery.updateMany({
+          where: { id: imageId, tourId },
+          data: { sortOrder: index },
+        }),
+      ),
+    );
+
+    return ok(res, "Gallery order updated successfully", null);
+  }),
+);
+
+galleryRouter.put(
   "/gallery/:id",
   asyncHandler(async (req, res) => {
     const id = idParam.parse(req.params.id);

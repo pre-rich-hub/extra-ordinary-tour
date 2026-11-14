@@ -136,7 +136,7 @@ export default async function TourPage({
           'Altitude, road time, how hard the walking really is, whether the children will cope. Ask us anything. Our team will answer honestly.',
         )}
         secondary={{ label: copy('Layover Tours'), href: '/layover' }}
-        image={t.image}
+        image={t.ctaBandImageUrl || t.image}
       />
     </>
   )

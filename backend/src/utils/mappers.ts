@@ -108,6 +108,7 @@ export function mapTour(tour: any, detail = false) {
     excluded: detail ? parseJsonArray(tour.excluded) : undefined,
     itinerary: detail ? itinerary : undefined,
     journeyMap: detail ? tour.journeyMap : undefined,
+    ctaBandImageUrl: tour.ctaBandImageUrl ?? null,
     createdAt: tour.createdAt ?? null,
     updatedAt: tour.updatedAt ?? null,
     canonical: {

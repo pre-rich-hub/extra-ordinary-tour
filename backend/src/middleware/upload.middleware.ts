@@ -98,5 +98,32 @@ export function uploadFor(kind: UploadKind) {
         });
       };
     },
+
+    fields(specs: { name: string; maxCount: number }[]) {
+      const multerMw = upload.fields(specs);
+      return (req: any, res: any, next: any) => {
+        multerMw(req, res, (err?: any) => {
+          if (err) return next(err);
+          const fileMap: Record<string, Express.Multer.File[]> = req.files ?? {};
+          const allFiles = Object.values(fileMap).flat();
+          if (allFiles.length === 0) return next();
+          Promise.all(allFiles.map(saveToStorage))
+            .then(() => next())
+            .catch(async () => {
+              const provider = await getStorageProvider().catch(() => null);
+              if (provider) {
+                await Promise.all(
+                  allFiles.map((file: any) =>
+                    file?.storedPath
+                      ? provider.delete(file.storedPath).catch(() => undefined)
+                      : undefined,
+                  ),
+                );
+              }
+              next(new HttpError(503, storageFailureMessage(true)));
+            });
+        });
+      };
+    },
   };
 }

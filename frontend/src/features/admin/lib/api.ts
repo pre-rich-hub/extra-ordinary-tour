@@ -63,6 +63,14 @@ export async function adminRequest<T>(
   return payload.data
 }
 
+export async function reorderGallery(tourId: number, imageIds: number[]): Promise<void> {
+  await adminRequest('/api/v1/admin/gallery/reorder', {
+    method: 'PUT',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ tourId, imageIds }),
+  })
+}
+
 export function formatAdminDate(value: string | null | undefined): string {
   if (!value) return '—'
   return new Intl.DateTimeFormat('en', {

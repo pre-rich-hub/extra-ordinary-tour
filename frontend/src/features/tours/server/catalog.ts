@@ -20,6 +20,7 @@ function overlayLive(staticTour: Tour, live: ApiTour, locale: AppLocale): Tour {
     ...staticTour,
     // Operational values remain independent of translated narrative copy.
     image: usableImage(live.mainImage, staticTour.image),
+    ctaBandImageUrl: live.ctaBandImageUrl ?? null,
     ...(price && live.adultPrice ? { from: price, priceAmount: live.adultPrice } : {}),
     ...(typeof live.isFeatured === 'boolean'
       ? { featured: live.isFeatured }
@@ -80,6 +81,7 @@ function fromDatabase(
     places,
     canonicalPlaces: places,
     featured: live.isFeatured,
+    ctaBandImageUrl: live.ctaBandImageUrl ?? null,
   }
 }
 

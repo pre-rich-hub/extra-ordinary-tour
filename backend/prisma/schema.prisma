@@ -46,8 +46,9 @@ model Tour {
   included      String?  @db.Text
   excluded      String?  @db.Text
   itinerary     String?  @db.Text
-  journeyMap    String?  @map("journey_map") @db.Text
-  days          String?
+  journeyMap        String?  @map("journey_map") @db.Text
+  ctaBandImageUrl   String?  @map("cta_band_image_url")
+  days              String?
   nights        Int?
   style         String?
   season        String?
@@ -120,12 +121,13 @@ model TourCategoryJunction {
 }
 
 model Gallery {
-  id       Int     @id @default(autoincrement())
-  imageUrl String  @map("image_url")
-  tourId   Int?    @map("tour_id")
-  location String?
-  caption  String? @db.Text
-  tour     Tour?   @relation(fields: [tourId], references: [id], onDelete: Cascade)
+  id        Int     @id @default(autoincrement())
+  imageUrl  String  @map("image_url")
+  tourId    Int?    @map("tour_id")
+  location  String?
+  caption   String? @db.Text
+  sortOrder Int     @default(0) @map("sort_order")
+  tour      Tour?   @relation(fields: [tourId], references: [id], onDelete: Cascade)
 
   @@map("gallery")
 }

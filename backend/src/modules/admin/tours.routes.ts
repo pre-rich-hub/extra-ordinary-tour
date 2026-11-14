@@ -1,6 +1,7 @@
 import { Router } from "express";
 import type { Router as RouterType } from "express";
 import { z } from "zod";
+import { Prisma } from "@prisma/client";
 import { prisma } from "../../config/database.js";
 import { asyncHandler } from "../../utils/async-handler.js";
 import { ok } from "../../utils/api-response.js";
@@ -73,10 +74,15 @@ function tourDetails(body: unknown) {
 
 const tourIncludes = {
   destination: true,
-  destinations: { include: { destination: true } },
-  gallery: { orderBy: { id: "asc" } },
-  categories: { include: { category: true } },
-} as const;
+  destinations: { include: { destination: true } } as const,
+  gallery: {
+    orderBy: [
+      { sortOrder: Prisma.SortOrder.asc },
+      { id: Prisma.SortOrder.asc },
+    ],
+  },
+  categories: { include: { category: true } } as const,
+};
 
 toursRouter.get(
   "/tours",
@@ -129,6 +135,7 @@ toursRouter.post(
           excluded: parseOptionalJsonArrayString(req.body.tourExcluded),
           itinerary: parseItinerary(req.body.tourItinerary),
           journeyMap: req.body.tourMap ? String(req.body.tourMap) : null,
+          ctaBandImageUrl: req.body.ctaBandImageUrl ? String(req.body.ctaBandImageUrl) : null,
           destinations: {
             createMany: {
               data: destinationIds.map((selectedDestinationId) => ({ destinationId: selectedDestinationId })),
@@ -160,11 +167,13 @@ toursRouter.post(
 
 toursRouter.put(
   "/tours/:id",
-  tourUpload.array("tourImages", 20),
+  tourUpload.fields([{ name: "tourImages", maxCount: 20 }, { name: "ctaBandImage", maxCount: 1 }]),
   asyncHandler(async (req, res) => {
     const id = idParam.parse(req.params.id);
     const categoryIds = parseCategoryIds(req.body.tourCategories).filter((categoryId) => categoryId > 0);
-    const files = (req.files as Express.Multer.File[] | undefined) ?? [];
+    const fileMap = (req.files as Record<string, Express.Multer.File[]> | undefined) ?? {};
+    const files = fileMap["tourImages"] ?? [];
+    const ctaBandFile = (fileMap["ctaBandImage"] ?? [])[0];
     const imagePaths = files.map((f) => urlForFile(f)).filter((p): p is string => Boolean(p));
     const tourTitle = tourTitleSchema.parse(req.body.tourTitle);
     const destinationIds = parseTourDestinationIds(req.body);
@@ -192,6 +201,11 @@ toursRouter.put(
           excluded: parseOptionalJsonArrayString(req.body.tourExcluded),
           itinerary: parseItinerary(req.body.tourItinerary),
           journeyMap: req.body.tourMap ? String(req.body.tourMap) : null,
+          ctaBandImageUrl: ctaBandFile
+            ? (urlForFile(ctaBandFile) ?? null)
+            : req.body.ctaBandImageUrl
+              ? String(req.body.ctaBandImageUrl)
+              : null,
           destinations: {
             deleteMany: {},
             createMany: {
